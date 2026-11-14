@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker - 실시간 금융·기업 속보 피드</title>
+<title>My SaveTicker v4.0 - Finviz & 실시간 금융 피드</title>
 <style>
   body { background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }
   .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 20px; position: sticky; top: 0; z-index: 100; }
-  .header-inner { max-width: 840px; margin: 0 auto; }
+  .header-inner { max-width: 880px; margin: 0 auto; }
   .title-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
   .logo { font-size: 20px; font-weight: 800; color: #58a6ff; letter-spacing: -0.5px; cursor: pointer; }
   .updated { font-size: 12px; color: #8b949e; }
@@ -19,7 +19,17 @@
   .search-box:focus { border-color: #58a6ff; }
   .search-btn { background: #238636; border: none; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }
   .search-btn:hover { background: #2ea043; }
-  .container { max-width: 840px; margin: 16px auto; padding: 0 16px; }
+  .container { max-width: 880px; margin: 16px auto; padding: 0 16px; }
+  .snap-section { margin-bottom: 18px; }
+  .snap-header { font-size: 12px; color: #8b949e; margin-bottom: 8px; font-weight: 600; }
+  .snap-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 8px; }
+  .snap-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 10px 12px; cursor: pointer; transition: border-color 0.2s; }
+  .snap-card:hover { border-color: #58a6ff; }
+  .snap-top { display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #21262d; padding-bottom: 6px; margin-bottom: 6px; }
+  .snap-ticker { font-weight: 800; color: #58a6ff; font-size: 13px; }
+  .snap-price { font-weight: 700; font-size: 12px; color: #f0f6fc; }
+  .snap-row { display: flex; justify-content: space-between; font-size: 11px; color: #8b949e; margin-top: 3px; }
+  .snap-row b { color: #c9d1d9; font-weight: 600; }
   .live-banner { background: rgba(56, 139, 253, 0.12); border: 1px solid rgba(56, 139, 253, 0.4); border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; display: none; justify-content: space-between; align-items: center; font-size: 13px; color: #79c0ff; }
   .reset-btn { background: #21262d; border: 1px solid #30363d; color: #e6edf3; padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; }
   .news-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: border-color 0.2s; }
@@ -40,15 +50,15 @@
   <div class="header">
     <div class="header-inner">
       <div class="title-row">
-        <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
-        <div class="updated">자동 업데이트: 11/14 17:57 (KST)</div>
+        <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER <span style="font-size:12px;color:#8b949e;font-weight:500;">+ Finviz</span></div>
+        <div class="updated">자동 업데이트: 11/14 18:08 (KST)</div>
       </div>
       <div class="controls">
         <button class="tab active" onclick="filterCat('ALL', this)">전체 피드</button>
         <button class="tab" onclick="filterCat('DART', this)">🚨 DART 공시</button>
         <button class="tab" onclick="filterCat('MACRO', this)">🌐 매크로·거시</button>
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
-        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
+        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(Finviz/번역)</button>
         <div class="search-wrap">
           <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명 입력 후 Enter...">
           <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
@@ -57,6 +67,78 @@
     </div>
   </div>
   <div class="container">
+    
+    <div class="snap-section">
+        <div class="snap-header">📊 Finviz 핵심 지표 스냅샷 (클릭 시 해당 티커 필터)</div>
+        <div class="snap-grid">
+        <div class="snap-card" onclick="quickFilter('${ticker}')">
+            <div class="snap-top">
+                <span class="snap-ticker">${ticker}</span>
+                <span class="snap-price">${html.escape(s.get('price', '-'))} <small style="color:${chg_color}">${html.escape(chg)}</small></span>
+            </div>
+            <div class="snap-row"><span>목표가</span><b>${html.escape(s.get('target', '-'))}</b></div>
+            <div class="snap-row"><span>Fwd P/E</span><b>${html.escape(s.get('fwd_pe', '-'))}</b></div>
+            <div class="snap-row"><span>공매도</span><b>${html.escape(s.get('short_float', '-'))}</b></div>
+            <div class="snap-row"><span>실적일</span><b>${html.escape(s.get('earnings', '-'))}</b></div>
+        </div>
+        
+        <div class="snap-card" onclick="quickFilter('${ticker}')">
+            <div class="snap-top">
+                <span class="snap-ticker">${ticker}</span>
+                <span class="snap-price">${html.escape(s.get('price', '-'))} <small style="color:${chg_color}">${html.escape(chg)}</small></span>
+            </div>
+            <div class="snap-row"><span>목표가</span><b>${html.escape(s.get('target', '-'))}</b></div>
+            <div class="snap-row"><span>Fwd P/E</span><b>${html.escape(s.get('fwd_pe', '-'))}</b></div>
+            <div class="snap-row"><span>공매도</span><b>${html.escape(s.get('short_float', '-'))}</b></div>
+            <div class="snap-row"><span>실적일</span><b>${html.escape(s.get('earnings', '-'))}</b></div>
+        </div>
+        
+        <div class="snap-card" onclick="quickFilter('${ticker}')">
+            <div class="snap-top">
+                <span class="snap-ticker">${ticker}</span>
+                <span class="snap-price">${html.escape(s.get('price', '-'))} <small style="color:${chg_color}">${html.escape(chg)}</small></span>
+            </div>
+            <div class="snap-row"><span>목표가</span><b>${html.escape(s.get('target', '-'))}</b></div>
+            <div class="snap-row"><span>Fwd P/E</span><b>${html.escape(s.get('fwd_pe', '-'))}</b></div>
+            <div class="snap-row"><span>공매도</span><b>${html.escape(s.get('short_float', '-'))}</b></div>
+            <div class="snap-row"><span>실적일</span><b>${html.escape(s.get('earnings', '-'))}</b></div>
+        </div>
+        
+        <div class="snap-card" onclick="quickFilter('${ticker}')">
+            <div class="snap-top">
+                <span class="snap-ticker">${ticker}</span>
+                <span class="snap-price">${html.escape(s.get('price', '-'))} <small style="color:${chg_color}">${html.escape(chg)}</small></span>
+            </div>
+            <div class="snap-row"><span>목표가</span><b>${html.escape(s.get('target', '-'))}</b></div>
+            <div class="snap-row"><span>Fwd P/E</span><b>${html.escape(s.get('fwd_pe', '-'))}</b></div>
+            <div class="snap-row"><span>공매도</span><b>${html.escape(s.get('short_float', '-'))}</b></div>
+            <div class="snap-row"><span>실적일</span><b>${html.escape(s.get('earnings', '-'))}</b></div>
+        </div>
+        
+        <div class="snap-card" onclick="quickFilter('${ticker}')">
+            <div class="snap-top">
+                <span class="snap-ticker">${ticker}</span>
+                <span class="snap-price">${html.escape(s.get('price', '-'))} <small style="color:${chg_color}">${html.escape(chg)}</small></span>
+            </div>
+            <div class="snap-row"><span>목표가</span><b>${html.escape(s.get('target', '-'))}</b></div>
+            <div class="snap-row"><span>Fwd P/E</span><b>${html.escape(s.get('fwd_pe', '-'))}</b></div>
+            <div class="snap-row"><span>공매도</span><b>${html.escape(s.get('short_float', '-'))}</b></div>
+            <div class="snap-row"><span>실적일</span><b>${html.escape(s.get('earnings', '-'))}</b></div>
+        </div>
+        
+        <div class="snap-card" onclick="quickFilter('${ticker}')">
+            <div class="snap-top">
+                <span class="snap-ticker">${ticker}</span>
+                <span class="snap-price">${html.escape(s.get('price', '-'))} <small style="color:${chg_color}">${html.escape(chg)}</small></span>
+            </div>
+            <div class="snap-row"><span>목표가</span><b>${html.escape(s.get('target', '-'))}</b></div>
+            <div class="snap-row"><span>Fwd P/E</span><b>${html.escape(s.get('fwd_pe', '-'))}</b></div>
+            <div class="snap-row"><span>공매도</span><b>${html.escape(s.get('short_float', '-'))}</b></div>
+            <div class="snap-row"><span>실적일</span><b>${html.escape(s.get('earnings', '-'))}</b></div>
+        </div>
+        </div>
+    </div>
+    
     <div class="live-banner" id="liveBanner">
       <span id="liveStatusText">🔍 실시간 검색 결과</span>
       <button class="reset-btn" onclick="resetSearch()">기본 피드로 돌아가기</button>
@@ -64,6 +146,256 @@
     <div id="liveResults"></div>
     <div id="feedList">
       
+        <div class="news-card saved-card" data-cat="MACRO" data-text="코스피 상승 출발 코스피, 李간담회 직후 음전…외인도 &#x27;팔자&#x27;로 ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">코스피</span>
+                <span class="meta">연합인포맥스 · 11/14 18:08</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5CNndnTTNqeWFEQXZwLXU2SHpsUk5KOHBBNWJfMTZ3TWV5SXJtblJqQUhNNi1PRjkzM3czT3I5YnV1X3BpaTJJSXZVM2szTGUwbExKcWZXN1I4elJxaW1PUjkxMU4xa05BckhfOElYM0w?oc=5" target="_blank" class="news-title">상승 출발 코스피, 李간담회 직후 음전…외인도 &#x27;팔자&#x27;로</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로스페이스, 1만파운드급 항공엔진 개발 과제 수주…1773억원 규모 ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">한화에어로스페이스</span>
+                <span class="meta">국제뉴스 · 11/14 18:08</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE91U0xnU0kwZmprQndUdjE2U3dveXI3SnUyQ2tRc29aSzRQbFN0a0FqRHllWlZ0ZkRZWk02S1VzT2dzZUJZc0RxdUxqU1RQYTMybUtpNTI0b3ZoamQwdEh1elg0TkZxcllKQ1ZEeHp3?oc=5" target="_blank" class="news-title">한화에어로스페이스, 1만파운드급 항공엔진 개발 과제 수주…1773억원 규모</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda elon musk, tom lee, shopify ceo sign stand with jensen petition to reinstate him as nvidia ceo ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Finviz · Stocktwits · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/elon-musk-tom-lee-shopify-042453542.html" target="_blank" class="news-title">Elon Musk, Tom Lee, Shopify CEO Sign Stand With Jensen Petition To Reinstate Him As Nvidia CEO</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda jensen huang&#x27;s exit threatens to upend nvidia&#x27;s global ai funding network ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Finviz · DigiTimes · 11/14 18:08</span>
+            </div>
+            <a href="https://www.digitimes.com/news/a20261113PD239/nvidia-jensen-huang-funding-ceo-investment.html" target="_blank" class="news-title">Jensen Huang&#x27;s exit threatens to upend Nvidia&#x27;s global AI funding network</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda huang&#x27;s resignation unlikely to disrupt taiwan&#x27;s ai industry, acer founder says ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Finviz · DigiTimes · 11/14 18:08</span>
+            </div>
+            <a href="https://www.digitimes.com/news/a20261113PD245/taiwan-nvidia-jensen-huang-ceo-acer.html" target="_blank" class="news-title">Huang&#x27;s resignation unlikely to disrupt Taiwan&#x27;s AI industry, Acer founder says</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda jensen huang&#x27;s nvidia era may be over. but taiwan isn&#x27;t ready to say goodbye. ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Finviz · DigiTimes · 11/14 18:08</span>
+            </div>
+            <a href="https://www.digitimes.com/news/a20261114VL200/nvidia-taiwan-2022-jensen-huang-taipei.html" target="_blank" class="news-title">Jensen Huang&#x27;s Nvidia era may be over. But Taiwan isn&#x27;t ready to say goodbye.</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda jim cramer: amazon has what “may soon be a $50 billion semiconductor business” ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Yahoo Finance · 11/14 18:08</span>
+            </div>
+            <a href="https://www.tikr.com/blog/jim-cramer-amazon-has-what-may-soon-be-a-50-billion-semiconductor-business?ref=yahoofinance&amp;tlnk=yf-261114-wq798x99&amp;.tsrc=rss" target="_blank" class="news-title">Jim Cramer: Amazon Has What “May Soon Be a $50 Billion Semiconductor Business”</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla tesla cybercab now available for purchase for select customers but theres a catch ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Finviz · Stocktwits · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/tesla-cybercab-now-available-purchase-060937273.html" target="_blank" class="news-title">Tesla Cybercab Now Available For Purchase For Select Customers But Theres A Catch</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla tesla opens sales of autonomous cybercab for &#x27;select&#x27; customers ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Finviz · The Wall Street Journal · 11/14 18:08</span>
+            </div>
+            <a href="https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=wsj_FV" target="_blank" class="news-title">Tesla Opens Sales Of Autonomous Cybercab For &#x27;Select&#x27; Customers</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla zero to sixty: tesla winds down cybertruck, pulls model y variant while rivian, lucid chase volumes ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Finviz · Stocktwits · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/zero-sixty-tesla-winds-down-004556808.html" target="_blank" class="news-title">Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl 10 executives who left their companies and later returned as ceo ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Finviz · Quartz · 11/14 18:08</span>
+            </div>
+            <a href="https://qz.com/boomerang-ceos-returned-lead-companies" target="_blank" class="news-title">10 executives who left their companies and later returned as CEO</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl the price tag on jensen huang&#x27;s resignation: $639 billion and counting ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Finviz · Barrons.com · 11/14 18:08</span>
+            </div>
+            <a href="https://www.barrons.com/articles/nvidia-stock-jensen-huang-resignation-cost-1893df0f?mod=bar_FV" target="_blank" class="news-title">The Price Tag on Jensen Huang&#x27;s Resignation: $639 Billion and Counting</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl meta tests prediction-market app for employees, wsj reports ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Finviz · Investing.com · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/articles/meta-tests-prediction-market-app-203017664.html" target="_blank" class="news-title">Meta tests prediction-market app for employees, WSJ reports</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl big tech trades mixed, as nvidia, tesla, alphabet weigh on magnificent seven etf ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Finviz · MarketWatch · 11/14 18:08</span>
+            </div>
+            <a href="https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-ceo-jensen-huang-resigns-ppi-inflation-data/card/big-tech-trades-mixed-as-nvidia-tesla-alphabet-weigh-on-magnificent-seven-etf-usCGojHXQWkJerttry68?mod=mw_FV" target="_blank" class="news-title">Big Tech trades mixed, as Nvidia, Tesla, Alphabet weigh on Magnificent Seven ETF</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft nscale reports ballooning debt and need for more as ipo approaches ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Finviz · Axios · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/ai/articles/nscale-reports-ballooning-debt-more-225456316.html" target="_blank" class="news-title">Nscale reports ballooning debt and need for more as IPO approaches</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft microsoft outlook has us all in a chokehold, apparently ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Finviz · Barrons.com · 11/14 18:08</span>
+            </div>
+            <a href="https://www.barrons.com/articles/microsoft-outage-tech-stocks-38eb9a05?mod=bar_FV" target="_blank" class="news-title">Microsoft Outlook Has Us All in a Chokehold, Apparently</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft stocks ride volatile wave as nvidia drama unfolds ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Finviz · Schaeffer&#x27;s Research · 11/14 18:08</span>
+            </div>
+            <a href="https://finviz.com/news/422723/stocks-ride-volatile-wave-as-nvidia-drama-unfolds" target="_blank" class="news-title">Stocks Ride Volatile Wave as Nvidia Drama Unfolds</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd review &amp; preview: moving on ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Finviz · Barrons.com · 11/14 18:08</span>
+            </div>
+            <a href="https://www.barrons.com/articles/stockstoday-rotation-after-nvidia-3d0dbe00?mod=bar_FV" target="_blank" class="news-title">Review &amp; Preview: Moving On</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd wall street stocks mostly lower as nvidia extends slump ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Finviz · AFP · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/wall-street-stocks-mostly-lower-230704278.html" target="_blank" class="news-title">Wall Street stocks mostly lower as Nvidia extends slump</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd xanadu breakthroughs &amp; partnerships advance roadmap quarterly update report ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Finviz · Exec Edge · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/ai/articles/xanadu-breakthroughs-partnerships-advance-roadmap-221337932.html" target="_blank" class="news-title">Xanadu Breakthroughs &amp; Partnerships Advance Roadmap Quarterly Update Report</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd stock market today: dow rises, s&amp;p 500 and nasdaq slip to cap volatile week, nvidia stock plunge deepens ">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Finviz · Yahoo Finance · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html" target="_blank" class="news-title">Stock market today: Dow rises, S&amp;P 500 and Nasdaq slip to cap volatile week, Nvidia stock plunge deepens</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr ai software is sinking, why is accenture winning $84.5b deals? ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Finviz · Investing.com · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/ai/articles/ai-software-sinking-why-accenture-124147461.html" target="_blank" class="news-title">AI software is sinking, why is Accenture winning $84.5B deals?</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr obscure defense tech company sees 1,550% revenue jump ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Finviz · The Daily Upside · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/obscure-defense-tech-company-sees-050100730.html" target="_blank" class="news-title">Obscure Defense Tech Company Sees 1,550% Revenue Jump</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr cathie wood boosts bets on 2 ai firms amid nvidias huang upheaval heres how her trading week unfolded ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Finviz · Stocktwits · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/ai/articles/cathie-wood-boosts-bets-2-044147224.html" target="_blank" class="news-title">Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidias Huang Upheaval Heres How Her Trading Week Unfolded</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr ipo edge nyse firesides scheduled for monday, december 7 ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Finviz · IPO-Edge.com · 11/14 18:08</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/ipo-edge-nyse-firesides-scheduled-222131276.html" target="_blank" class="news-title">IPO Edge NYSE Firesides Scheduled for Monday, December 7</a>
+            
+        </div>
+        
         <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 시장은 12월에 연준 금리 인상을 예상 ">
             <div class="card-top">
                 <span class="badge hot">🔥 주요속보</span>
@@ -1264,10 +1596,36 @@
             
         </div>
         
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr the same $10,000 in nvidia and palantir could produce very different results by 2030 ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Yahoo Finance · 11/14 17:42</span>
+            </div>
+            <a href="https://247wallst.com/investing/2026/11/13/the-same-10000-in-nvidia-and-palantir-could-produce-very-different-results-by-2030/?.tsrc=rss" target="_blank" class="news-title">The Same $10,000 in Nvidia and Palantir Could Produce Very Different Results by 2030</a>
+            
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 정무성 현대차 정몽구재단 이사장 별세… 향년 68세 ">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">현대차</span>
+                <span class="meta">동아일보 · 11/14 17:36</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9fbE9jdF9NM0ZCN1E3UUJydGxrOEdoQ2dVWDVvUlQ5UHhfdkFfU2RQcXlqM1ZUajI4N3Q1ZUM1dU5mREMzNm1mcHlyektiZndhREc2STFxS1gycF84NGhhcG9XMUFUVWtpMm80MVkteWZWRUlj0gFmQVVfeXFMTU1obWtfdGFhb1RWdWpDTkQwVUkyaVltMnhBazE1dGZCdklBM3Ixamg1cFFmdUxMTFdvR2hkNEtHMS1UREM2eFpQcXpYMkZJa2JVUC12bjBkcW1JZnZHYUVDS1UzWkxR?oc=5" target="_blank" class="news-title">정무성 현대차 정몽구재단 이사장 별세… 향년 68세</a>
+            
+        </div>
+        
     </div>
   </div>
 <script>
   let currentCat = 'ALL';
+
+  function quickFilter(tickerStr) {
+    resetSearch(false);
+    document.getElementById('searchInput').value = tickerStr;
+    localFilter();
+  }
 
   function filterCat(cat, btn) {
     resetSearch(false);
