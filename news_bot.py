@@ -7,7 +7,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v2.0 설정 영역]
+# [나만의 세이브티커 v3.0 - 자동 번역 에디션]
 # ==========================================
 
 # 1. 매크로 & 거시경제 핵심 키워드
@@ -16,7 +16,7 @@ MACRO_KEYWORDS = ["연준 금리", "환율", "유가", "CPI 물가", "미국 증
 # 2. 국내 주요 기업 감시 (뉴스 + DART 공시 동시 추적)
 KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER"]
 
-# 3. 미국 핵심 티커 감시 (월스트리트 현지 속보)
+# 3. 미국 핵심 티커 감시 (월스트리트 현지 속보 + 자동 한글 번역)
 US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
 
 # 4. 광고/노이즈 차단 단어
@@ -45,6 +45,23 @@ def load_json(filepath, default):
 def save_json(filepath, data):
     with open(filepath, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
+
+
+def translate_en_to_ko(text):
+    """무료 구글 번역 API를 이용해 영문 뉴스 제목을 자연스러운 한국어로 번역합니다."""
+    if not text:
+        return text
+    try:
+        encoded = urllib.parse.quote(text)
+        url = f"https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q={encoded}"
+        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=8) as res:
+            data = json.loads(res.read().decode("utf-8"))
+        translated = "".join([part[0] for part in data[0] if part[0]])
+        return translated if translated else text
+    except Exception as e:
+        print(f"번역 오류(원문 유지): {e}")
+        return text
 
 
 def send_telegram(message):
@@ -93,6 +110,7 @@ def fetch_google_news(keyword, category):
                 "tag": keyword,
                 "press": press,
                 "title": title,
+                "sub_title": "",
                 "link": link,
                 "impact": classify_impact(title)
             })
@@ -108,16 +126,18 @@ def fetch_us_news(ticker):
         req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=10) as res:
             root = ET.fromstring(res.read())
-        for item in root.findall(".//item")[:5]:
-            title = item.find("title").text or ""
+        for item in root.findall(".//item")[:4]:
+            en_title = item.find("title").text or ""
             link = item.find("link").text or ""
+            ko_title = translate_en_to_ko(en_title)
             results.append({
                 "category": "US",
                 "tag": f"${ticker}",
                 "press": "Yahoo Finance",
-                "title": title,
+                "title": ko_title,
+                "sub_title": en_title if ko_title != en_title else "",
                 "link": link,
-                "impact": classify_impact(title)
+                "impact": classify_impact(en_title)
             })
     except Exception as e:
         print(f"[US-{ticker}] 수집 오류: {e}")
@@ -146,6 +166,7 @@ def fetch_dart():
                     "tag": corp,
                     "press": "금융감독원 DART",
                     "title": f"[공시] {report}",
+                    "sub_title": "",
                     "link": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rcp}",
                     "impact": "🚨 공식공시"
                 })
@@ -155,24 +176,27 @@ def fetch_dart():
 
 
 def build_saveticker_html(feed_items, updated_time):
-    """실시간 온디맨드 티커/키워드 검색 기능이 탑재된 세이브티커 웹 UI"""
+    """자동 번역 + 실시간 온디맨드 검색 기능이 탑재된 세이브티커 웹 UI"""
     cards_html = ""
     for item in feed_items[:120]:
         badge_class = "hot" if ("속보" in item["impact"] or "공시" in item["impact"]) else "normal"
         safe_title = html.escape(item["title"])
+        safe_sub = html.escape(item.get("sub_title", ""))
         safe_tag = html.escape(item["tag"])
         safe_press = html.escape(item["press"])
         safe_time = html.escape(item.get("time", ""))
         safe_link = html.escape(item["link"])
+        sub_html = f'<div class="sub-title">{safe_sub}</div>' if safe_sub else ""
 
         cards_html += f"""
-        <div class="news-card saved-card" data-cat="{item['category']}" data-text="{safe_tag.lower()} {safe_title.lower()}">
+        <div class="news-card saved-card" data-cat="{item['category']}" data-text="{safe_tag.lower()} {safe_title.lower()} {safe_sub.lower()}">
             <div class="card-top">
                 <span class="badge {badge_class}">{item['impact']}</span>
                 <span class="ticker-tag">{safe_tag}</span>
                 <span class="meta">{safe_press} · {safe_time}</span>
             </div>
             <a href="{safe_link}" target="_blank" class="news-title">{safe_title}</a>
+            {sub_html}
         </div>
         """
 
@@ -211,6 +235,7 @@ def build_saveticker_html(feed_items, updated_time):
   .meta {{ font-size: 12px; color: #8b949e; margin-left: auto; }}
   .news-title {{ color: #f0f6fc; text-decoration: none; font-size: 15px; font-weight: 600; line-height: 1.45; display: block; }}
   .news-title:hover {{ color: #58a6ff; text-decoration: underline; }}
+  .sub-title {{ color: #8b949e; font-size: 12.5px; margin-top: 5px; line-height: 1.4; }}
 </style>
 </head>
 <body>
@@ -225,7 +250,7 @@ def build_saveticker_html(feed_items, updated_time):
         <button class="tab" onclick="filterCat('DART', this)">🚨 DART 공시</button>
         <button class="tab" onclick="filterCat('MACRO', this)">🌐 매크로·거시</button>
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
-        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식</button>
+        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
         <div class="search-wrap">
           <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명 입력 후 Enter...">
           <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
@@ -271,6 +296,17 @@ def build_saveticker_html(feed_items, updated_time):
     localFilter();
   }}
 
+  async function translateText(enText) {{
+    try {{
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=${{encodeURIComponent(enText)}}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      return data[0].map(p => p[0]).join('') || enText;
+    }} catch (e) {{
+      return enText;
+    }}
+  }}
+
   async function liveSearch() {{
     const rawQuery = document.getElementById('searchInput').value.trim();
     if (!rawQuery) {{
@@ -284,18 +320,16 @@ def build_saveticker_html(feed_items, updated_time):
     const feedList = document.getElementById('feedList');
 
     banner.style.display = 'flex';
-    statusText.textContent = `⏳ '${{rawQuery}}' 실시간 최신 속보를 불러오는 중...`;
+    statusText.textContent = `⏳ '${{rawQuery}}' 실시간 최신 속보 수집 및 한글 번역 중...`;
     liveResults.innerHTML = '';
     feedList.style.display = 'none';
 
     const cleanTicker = rawQuery.replace('$', '').toUpperCase();
     const isEnglishTicker = /^[A-Z0-9.\\-]{{1,8}}$/.test(cleanTicker);
 
-    // 1. 구글 뉴스 한국어 실시간 검색 RSS
     const krRss = `https://news.google.com/rss/search?q=${{encodeURIComponent(rawQuery)}}&hl=ko&gl=KR&ceid=KR:ko`;
     const krApi = `https://api.rss2json.com/v1/api.json?rss_url=${{encodeURIComponent(krRss)}}`;
 
-    // 2. 영문 티커일 경우 야후 파이낸스 미국 현지 속보 RSS 동시 조회
     const usRss = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${{encodeURIComponent(cleanTicker)}}&region=US&lang=en-US`;
     const usApi = `https://api.rss2json.com/v1/api.json?rss_url=${{encodeURIComponent(usRss)}}`;
 
@@ -310,11 +344,14 @@ def build_saveticker_html(feed_items, updated_time):
       const [krData, usData] = await Promise.all(requests);
 
       if (usData && usData.status === 'ok' && usData.items) {{
-        usData.items.slice(0, 8).forEach(item => {{
+        const topUs = usData.items.slice(0, 6);
+        const translatedTitles = await Promise.all(topUs.map(item => translateText(item.title)));
+        topUs.forEach((item, idx) => {{
           combinedItems.push({{
             tag: `$${{cleanTicker}}`,
             press: 'Yahoo Finance (US)',
-            title: item.title,
+            title: translatedTitles[idx],
+            subTitle: translatedTitles[idx] !== item.title ? item.title : '',
             link: item.link,
             pubDate: item.pubDate ? item.pubDate.slice(5, 16) : '실시간'
           }});
@@ -322,7 +359,7 @@ def build_saveticker_html(feed_items, updated_time):
       }}
 
       if (krData && krData.status === 'ok' && krData.items) {{
-        krData.items.slice(0, 10).forEach(item => {{
+        krData.items.slice(0, 8).forEach(item => {{
           let title = item.title || '';
           let press = 'Google 뉴스';
           if (title.includes(' - ')) {{
@@ -334,6 +371,7 @@ def build_saveticker_html(feed_items, updated_time):
             tag: rawQuery,
             press: press,
             title: title,
+            subTitle: '',
             link: item.link,
             pubDate: item.pubDate ? item.pubDate.slice(5, 16) : '실시간'
           }});
@@ -345,7 +383,7 @@ def build_saveticker_html(feed_items, updated_time):
         return;
       }}
 
-      statusText.textContent = `✅ '${{rawQuery}}' 실시간 검색 결과 (${{combinedItems.length}}건)`;
+      statusText.textContent = `✅ '${{rawQuery}}' 실시간 검색 및 번역 결과 (${{combinedItems.length}}건)`;
       liveResults.innerHTML = combinedItems.map(item => `
         <div class="news-card">
           <div class="card-top">
@@ -354,6 +392,7 @@ def build_saveticker_html(feed_items, updated_time):
             <span class="meta">${{item.press}} · ${{item.pubDate}}</span>
           </div>
           <a href="${{item.link}}" target="_blank" class="news-title">${{item.title}}</a>
+          ${{item.subTitle ? `<div class="sub-title">${{item.subTitle}}</div>` : ''}}
         </div>
       `).join('');
 
@@ -389,9 +428,10 @@ def main():
             new_items.append(item)
             sent_links.add(item["link"])
 
+            sub_line = f"\n<i>({item['sub_title']})</i>" if item.get("sub_title") else ""
             msg = (
                 f"{item['impact']} <b>[{item['tag']}]</b>\n"
-                f"{item['title']}\n"
+                f"{item['title']}{sub_line}\n"
                 f"🗞 {item['press']} · <a href='{item['link']}'>원문 보기</a>"
             )
             send_telegram(msg)
