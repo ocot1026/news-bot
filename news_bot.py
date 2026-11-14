@@ -9,10 +9,10 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v5.3 - 실시간 검색 이중화 & 국내 영문사명 연동 에디션]
+# [나만의 세이브티커 v6.0 - 경량 피드 & 글로벌 매크로 대시보드]
 # ==========================================
 
-MACRO_KEYWORDS = ["연준 금리", "환율", "유가", "CPI 물가", "미국 증시", "코스피"]
+# 매크로 키워드 뉴스 크롤링 제거 (병목 제거 및 핵심 지수 전광판으로 대체)
 KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER", "HPSP"]
 US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
 IGNORE_WORDS = ["부고", "인사", "포토", "동정", "모집", "이벤트", "할인", "광고"]
@@ -91,42 +91,128 @@ def strip_html_tags(raw_html):
     return html.unescape(re.sub(r"\s+", " ", text)).strip()
 
 
-def fetch_market_indices():
-    symbols = {
-        "KOSPI": "^KS11",
-        "KOSDAQ": "^KQ11",
-        "DOW": "^DJI",
-        "NASDAQ": "^IXIC"
-    }
-    indices = {}
+def fetch_yahoo_quote(sym, decimals=2):
+    """야후 파이낸스 차트 API로 지수·환율·원자재·금리 시세를 조회합니다."""
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
+    try:
+        encoded_sym = urllib.parse.quote(sym)
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded_sym}?interval=1d&range=5d"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=8) as res:
+            data = json.loads(res.read().decode("utf-8"))
+        meta = data["chart"]["result"][0]["meta"]
+        price = meta.get("regularMarketPrice")
+        prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+        if price is not None and prev:
+            diff = price - prev
+            pct = (diff / prev) * 100
+            fmt = f"{{:,.{decimals}f}}"
+            dfmt = f"{{:+,.{decimals}f}}"
+            return {
+                "price": fmt.format(price),
+                "diff": dfmt.format(diff),
+                "pct": f"{pct:+.2f}%",
+                "up": diff >= 0
+            }
+    except Exception as e:
+        print(f"[Quote-{sym}] 오류: {e}")
+    return {"price": "-", "diff": "0.00", "pct": "0.00%", "up": True}
 
-    for key, sym in symbols.items():
+
+def fetch_fred_latest(series_id):
+    """미 연준(FRED) 공개 CSV에서 최신 FOMC 기준금리 및 CPI/PPI 지표를 실시간 조회합니다."""
+    headers = {"User-Agent": "Mozilla/5.0"}
+    try:
+        url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=10) as res:
+            lines = [ln.strip() for ln in res.read().decode("utf-8").splitlines() if ln.strip() and not ln.endswith(".")]
+        if len(lines) >= 3:
+            last_date, last_val = lines[-1].split(",")
+            prev_date, prev_val = lines[-2].split(",")
+            val = float(last_val)
+            pval = float(prev_val)
+            return last_date[:7], val, pval, lines
+    except Exception as e:
+        print(f"[FRED-{series_id}] 오류: {e}")
+    return "-", None, None, []
+
+
+def fetch_all_macro_dashboard():
+    """증시 4대 지수, 한국+세계5대 환율, 유가/금/은, FOMC/CPI/PPI 데이터를 일괄 수집합니다."""
+    board = {
+        "KOSPI": fetch_yahoo_quote("^KS11", 2),
+        "KOSDAQ": fetch_yahoo_quote("^KQ11", 2),
+        "DOW": fetch_yahoo_quote("^DJI", 2),
+        "NASDAQ": fetch_yahoo_quote("^IXIC", 2),
+        "USDKRW": fetch_yahoo_quote("KRW=X", 2),
+        "EURUSD": fetch_yahoo_quote("EURUSD=X", 4),
+        "USDJPY": fetch_yahoo_quote("JPY=X", 2),
+        "GBPUSD": fetch_yahoo_quote("GBPUSD=X", 4),
+        "USDCHF": fetch_yahoo_quote("CHF=X", 4),
+        "USDCAD": fetch_yahoo_quote("CAD=X", 4),
+        "OIL": fetch_yahoo_quote("CL=F", 2),
+        "GOLD": fetch_yahoo_quote("GC=F", 2),
+        "SILVER": fetch_yahoo_quote("SI=F", 2),
+        "US10Y": fetch_yahoo_quote("^TNX", 2),
+    }
+
+    # FOMC 기준금리 (DFEDTARU: 연준 목표금리 상단)
+    fomc_date, fomc_val, fomc_prev, _ = fetch_fred_latest("DFEDTARU")
+    if fomc_val is not None:
+        diff_bp = (fomc_val - fomc_prev) * 100
+        board["FOMC"] = {
+            "price": f"{fomc_val:.2f}%",
+            "diff": f"기준 {fomc_date}",
+            "pct": f"미10Y {board['US10Y']['price']}%",
+            "up": diff_bp >= 0
+        }
+    else:
+        board["FOMC"] = {"price": "-", "diff": "연준 기준금리", "pct": f"미10Y {board['US10Y']['price']}%", "up": True}
+
+    # 미국 CPI 전년동월비(YoY %) 계산 (CPIAUCSL 최근 13개월 비교)
+    cpi_date, cpi_val, _, cpi_lines = fetch_fred_latest("CPIAUCSL")
+    if cpi_val is not None and len(cpi_lines) >= 14:
         try:
-            encoded_sym = urllib.parse.quote(sym)
-            url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded_sym}?interval=1d&range=5d"
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=8) as res:
-                data = json.loads(res.read().decode("utf-8"))
-            meta = data["chart"]["result"][0]["meta"]
-            price = meta.get("regularMarketPrice")
-            prev = meta.get("chartPreviousClose") or meta.get("previousClose")
-            if price is not None and prev:
-                diff = price - prev
-                pct = (diff / prev) * 100
-                indices[key] = {
-                    "price": f"{price:,.2f}",
-                    "diff": f"{diff:+,.2f}",
-                    "pct": f"{pct:+.2f}%",
-                    "up": diff >= 0
-                }
-            else:
-                indices[key] = {"price": "-", "diff": "0.00", "pct": "0.00%", "up": True}
-        except Exception as e:
-            print(f"[Index-{key}] 수집 오류: {e}")
-            indices[key] = {"price": "-", "diff": "0.00", "pct": "0.00%", "up": True}
+            yoy_ago = float(cpi_lines[-13].split(",")[1])
+            prev_yoy_ago = float(cpi_lines[-14].split(",")[1])
+            prev_m = float(cpi_lines[-2].split(",")[1])
+            cpi_yoy = ((cpi_val - yoy_ago) / yoy_ago) * 100
+            prev_cpi_yoy = ((prev_m - prev_yoy_ago) / prev_yoy_ago) * 100
+            diff_cpi = cpi_yoy - prev_cpi_yoy
+            board["CPI"] = {
+                "price": f"{cpi_yoy:.1f}%",
+                "diff": f"{diff_cpi:+.1f}%p",
+                "pct": f"{cpi_date} YoY",
+                "up": diff_cpi >= 0
+            }
+        except Exception:
+            board["CPI"] = {"price": "-", "diff": "전년비", "pct": "CPI YoY", "up": True}
+    else:
+        board["CPI"] = {"price": "-", "diff": "전년비", "pct": "CPI YoY", "up": True}
 
-    return indices
+    # 미국 PPI 전년동월비(YoY %) 계산 (PPIACO 최근 13개월 비교)
+    ppi_date, ppi_val, _, ppi_lines = fetch_fred_latest("PPIACO")
+    if ppi_val is not None and len(ppi_lines) >= 14:
+        try:
+            yoy_ago = float(ppi_lines[-13].split(",")[1])
+            prev_yoy_ago = float(ppi_lines[-14].split(",")[1])
+            prev_m = float(ppi_lines[-2].split(",")[1])
+            ppi_yoy = ((ppi_val - yoy_ago) / yoy_ago) * 100
+            prev_ppi_yoy = ((prev_m - prev_yoy_ago) / prev_yoy_ago) * 100
+            diff_ppi = ppi_yoy - prev_ppi_yoy
+            board["PPI"] = {
+                "price": f"{ppi_yoy:.1f}%",
+                "diff": f"{diff_ppi:+.1f}%p",
+                "pct": f"{ppi_date} YoY",
+                "up": diff_ppi >= 0
+            }
+        except Exception:
+            board["PPI"] = {"price": "-", "diff": "전년비", "pct": "PPI YoY", "up": True}
+    else:
+        board["PPI"] = {"price": "-", "diff": "전년비", "pct": "PPI YoY", "up": True}
+
+    return board
 
 
 def fetch_finviz_news_only(ticker):
@@ -263,25 +349,49 @@ def fetch_dart():
     return results
 
 
-def render_index_box(box_id, label, sub_label, info):
+def render_tile(box_id, label, sub_label, info, compact=False, is_macro_stat=False):
     cls = "up" if info.get("up", True) else "down"
-    arrow = "▲" if info.get("up", True) else "▼"
+    arrow = "" if is_macro_stat else ("▲ " if info.get("up", True) else "▼ ")
     price = html.escape(str(info.get("price", "-")))
-    diff = html.escape(str(info.get("diff", "0.00")))
-    pct = html.escape(str(info.get("pct", "0.00%")))
+    diff = html.escape(str(info.get("diff", "")))
+    pct = html.escape(str(info.get("pct", "")))
+    card_cls = "idx-card compact" if compact else "idx-card"
+    chg_text = f"{diff} · {pct}" if is_macro_stat else f"{arrow}{diff} ({pct})"
+    chg_cls = "idx-chg neutral" if is_macro_stat else f"idx-chg {cls}"
     return (
-        f'<div class="idx-card" id="idx-{box_id}">'
+        f'<div class="{card_cls}" id="idx-{box_id}">'
         f'<div class="idx-head"><span class="idx-name">{label}</span><span class="idx-sub">{sub_label}</span></div>'
-        f'<div class="idx-body"><span class="idx-price">{price}</span><span class="idx-chg {cls}">{arrow} {diff} ({pct})</span></div>'
+        f'<div class="idx-body"><span class="idx-price">{price}</span><span class="{chg_cls}">{chg_text}</span></div>'
         f'</div>'
     )
 
 
-def build_saveticker_html(feed_items, indices, updated_time):
-    kospi_html = render_index_box("KOSPI", "🇰🇷 코스피", "KOSPI", indices.get("KOSPI", {}))
-    kosdaq_html = render_index_box("KOSDAQ", "🇰🇷 코스닥", "KOSDAQ", indices.get("KOSDAQ", {}))
-    dow_html = render_index_box("DOW", "🇺🇸 다우존스", "DOW JONES", indices.get("DOW", {}))
-    nasdaq_html = render_index_box("NASDAQ", "🇺🇸 나스닥", "NASDAQ", indices.get("NASDAQ", {}))
+def build_saveticker_html(feed_items, board, updated_time):
+    # 1. 코스피 / 코스닥
+    row_kr = render_tile("KOSPI", "🇰🇷 코스피", "KOSPI", board.get("KOSPI", {})) + render_tile("KOSDAQ", "🇰🇷 코스닥", "KOSDAQ", board.get("KOSDAQ", {}))
+    # 2. 다우 / 나스닥
+    row_us = render_tile("DOW", "🇺🇸 다우존스", "DOW JONES", board.get("DOW", {})) + render_tile("NASDAQ", "🇺🇸 나스닥", "NASDAQ", board.get("NASDAQ", {}))
+    # 3. 한국환율 + 세계 5대 환율 (USD/KRW, EUR/USD, USD/JPY, GBP/USD, USD/CHF, USD/CAD)
+    row_fx = (
+        render_tile("USDKRW", "🇰🇷 원/달러", "USD/KRW", board.get("USDKRW", {}), compact=True)
+        + render_tile("EURUSD", "🇪🇺 유로/달러", "EUR/USD", board.get("EURUSD", {}), compact=True)
+        + render_tile("USDJPY", "🇯🇵 달러/엔", "USD/JPY", board.get("USDJPY", {}), compact=True)
+        + render_tile("GBPUSD", "🇬🇧 파운드/달러", "GBP/USD", board.get("GBPUSD", {}), compact=True)
+        + render_tile("USDCHF", "🇨🇭 달러/프랑", "USD/CHF", board.get("USDCHF", {}), compact=True)
+        + render_tile("USDCAD", "🇨🇦 달러/캐나다", "USD/CAD", board.get("USDCAD", {}), compact=True)
+    )
+    # 4. 유가 / 금 / 은
+    row_cmd = (
+        render_tile("OIL", "🛢 WTI 유가", "$/bbl", board.get("OIL", {}), compact=True)
+        + render_tile("GOLD", "🥇 국제 금", "$/oz", board.get("GOLD", {}), compact=True)
+        + render_tile("SILVER", "🥈 국제 은", "$/oz", board.get("SILVER", {}), compact=True)
+    )
+    # 5. FOMC / CPI / PPI
+    row_macro = (
+        render_tile("FOMC", "🏛 FOMC 기준금리", "FED RATE", board.get("FOMC", {}), compact=True, is_macro_stat=True)
+        + render_tile("CPI", "📊 미국 CPI", "소비자물가", board.get("CPI", {}), compact=True, is_macro_stat=True)
+        + render_tile("PPI", "🏭 미국 PPI", "생산자물가", board.get("PPI", {}), compact=True, is_macro_stat=True)
+    )
 
     card_parts = []
     for item in feed_items[:150]:
@@ -309,34 +419,48 @@ def build_saveticker_html(feed_items, indices, updated_time):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker - 실시간 금융·증시 피드</title>
+<title>My SaveTicker - 실시간 증시·매크로 대시보드</title>
 <style>
   body { background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }
-  .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 20px; position: sticky; top: 0; z-index: 100; }
-  .header-inner { max-width: 860px; margin: 0 auto; }
-  .title-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 14px 20px; position: sticky; top: 0; z-index: 100; }
+  .header-inner { max-width: 880px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
   .logo { font-size: 20px; font-weight: 800; color: #58a6ff; letter-spacing: -0.5px; cursor: pointer; }
   .updated { font-size: 12px; color: #8b949e; }
-  .controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-  .tab { background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 6px 12px; border-radius: 16px; font-size: 13px; cursor: pointer; }
-  .tab.active { background: #1f6feb; border-color: #388bfd; color: #fff; font-weight: 600; }
-  .search-wrap { display: flex; flex: 1; min-width: 240px; gap: 6px; }
-  .search-box { flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 13px; outline: none; }
-  .search-box:focus { border-color: #58a6ff; }
-  .search-btn { background: #238636; border: none; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }
-  .search-btn:hover { background: #2ea043; }
-  .container { max-width: 860px; margin: 16px auto; padding: 0 16px; }
-  .market-board { display: flex; flex-direction: column; gap: 8px; margin-bottom: 18px; }
-  .market-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .idx-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 12px 16px; display: flex; flex-direction: column; gap: 6px; }
+  .container { max-width: 880px; margin: 16px auto; padding: 0 16px; }
+
+  .sec-label { font-size: 11.5px; font-weight: 700; color: #8b949e; margin: 12px 0 6px; letter-spacing: -0.2px; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+  @media (max-width: 640px) {
+    .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .idx-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 12px 15px; display: flex; flex-direction: column; gap: 6px; }
+  .idx-card.compact { padding: 10px 12px; gap: 4px; }
   .idx-head { display: flex; justify-content: space-between; align-items: center; }
   .idx-name { font-size: 13px; font-weight: 700; color: #c9d1d9; }
-  .idx-sub { font-size: 11px; color: #8b949e; font-weight: 600; }
-  .idx-body { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px; }
+  .idx-card.compact .idx-name { font-size: 12px; }
+  .idx-sub { font-size: 10.5px; color: #8b949e; font-weight: 600; }
+  .idx-body { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px; }
   .idx-price { font-size: 18px; font-weight: 800; color: #f0f6fc; letter-spacing: -0.3px; }
-  .idx-chg { font-size: 12.5px; font-weight: 700; }
+  .idx-card.compact .idx-price { font-size: 15.5px; }
+  .idx-chg { font-size: 12px; font-weight: 700; }
+  .idx-card.compact .idx-chg { font-size: 11px; }
   .idx-chg.up { color: #ff6b6b; }
   .idx-chg.down { color: #4dabf7; }
+  .idx-chg.neutral { color: #79c0ff; }
+
+  /* 검색창 및 탭 바 */
+  .search-panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; margin: 14px 0; }
+  .search-wrap { display: flex; gap: 8px; margin-bottom: 10px; }
+  .search-box { flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 9px 14px; border-radius: 10px; font-size: 13.5px; outline: none; }
+  .search-box:focus { border-color: #58a6ff; }
+  .search-btn { background: #238636; border: none; color: #fff; padding: 9px 16px; border-radius: 10px; font-size: 13px; font-weight: 700; cursor: pointer; white-space: nowrap; }
+  .search-btn:hover { background: #2ea043; }
+  .tabs-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tab { background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 5px 11px; border-radius: 14px; font-size: 12px; cursor: pointer; }
+  .tab.active { background: #1f6feb; border-color: #388bfd; color: #fff; font-weight: 600; }
+
   .live-banner { background: rgba(56, 139, 253, 0.12); border: 1px solid rgba(56, 139, 253, 0.4); border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; display: none; justify-content: space-between; align-items: center; font-size: 13px; color: #79c0ff; }
   .reset-btn { background: #21262d; border: 1px solid #30363d; color: #e6edf3; padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; }
   .news-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: border-color 0.2s; }
@@ -356,35 +480,46 @@ def build_saveticker_html(feed_items, indices, updated_time):
 <body>
   <div class="header">
     <div class="header-inner">
-      <div class="title-row">
-        <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
-        <div class="updated" id="liveClock">피드 업데이트: __UPDATED_TIME__ (KST)</div>
-      </div>
-      <div class="controls">
-        <button class="tab active" onclick="filterCat('ALL', this)">전체 피드</button>
-        <button class="tab" onclick="filterCat('DART', this)">🚨 DART 공시</button>
-        <button class="tab" onclick="filterCat('MACRO', this)">🌐 매크로·거시</button>
-        <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
-        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
-        <div class="search-wrap">
-          <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="NAVER, HPSP, 엔비디아, NVDA 입력...">
-          <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
-        </div>
-      </div>
+      <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
+      <div class="updated" id="liveClock">업데이트: __UPDATED_TIME__ (KST)</div>
     </div>
   </div>
+
   <div class="container">
-    <div class="market-board">
-      <div class="market-row">
-        __KOSPI_HTML__
-        __KOSDAQ_HTML__
+    <!-- 1. 코스피 / 코스닥 -->
+    <div class="grid-2">__ROW_KR__</div>
+
+    <!-- 2. 다우 / 나스닥 -->
+    <div class="grid-2">__ROW_US__</div>
+
+    <!-- 3. 검색란 -->
+    <div class="search-panel">
+      <div class="search-wrap">
+        <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명(삼성전자, NAVER, HPSP) 검색...">
+        <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
       </div>
-      <div class="market-row">
-        __DOW_HTML__
-        __NASDAQ_HTML__
+      <div class="tabs-row">
+        <button class="tab active" onclick="filterCat('ALL', this)">전체 피드</button>
+        <button class="tab" onclick="filterCat('DART', this)">🚨 DART 공시</button>
+        <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
+        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
       </div>
     </div>
 
+    <!-- 4. 한국환율 & 세계 5대 환율 -->
+    <div class="sec-label">💱 실시간 환율 (한국 원/달러 & 세계 5대 주요 통화)</div>
+    <div class="grid-3">__ROW_FX__</div>
+
+    <!-- 5. 유가 / 금 / 은 -->
+    <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은)</div>
+    <div class="grid-3">__ROW_CMD__</div>
+
+    <!-- 6. FOMC / CPI / PPI -->
+    <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI)</div>
+    <div class="grid-3">__ROW_MACRO__</div>
+
+    <!-- 뉴스 피드 영역 -->
+    <div class="sec-label" style="margin-top:18px;">📰 기업 속보 & DART 공시 피드</div>
     <div class="live-banner" id="liveBanner">
       <span id="liveStatusText">🔍 실시간 검색 결과</span>
       <button class="reset-btn" onclick="resetSearch()">기본 피드로 돌아가기</button>
@@ -394,15 +529,25 @@ def build_saveticker_html(feed_items, indices, updated_time):
       __CARDS_HTML__
     </div>
   </div>
+
 <script>
   let currentCat = 'ALL';
 
-  async function refreshLiveIndices() {
+  async function refreshLiveMarketQuotes() {
     const targets = [
-      { id: 'KOSPI', sym: '^KS11' },
-      { id: 'KOSDAQ', sym: '^KQ11' },
-      { id: 'DOW', sym: '^DJI' },
-      { id: 'NASDAQ', sym: '^IXIC' }
+      { id: 'KOSPI', sym: '^KS11', dec: 2 },
+      { id: 'KOSDAQ', sym: '^KQ11', dec: 2 },
+      { id: 'DOW', sym: '^DJI', dec: 2 },
+      { id: 'NASDAQ', sym: '^IXIC', dec: 2 },
+      { id: 'USDKRW', sym: 'KRW=X', dec: 2 },
+      { id: 'EURUSD', sym: 'EURUSD=X', dec: 4 },
+      { id: 'USDJPY', sym: 'JPY=X', dec: 2 },
+      { id: 'GBPUSD', sym: 'GBPUSD=X', dec: 4 },
+      { id: 'USDCHF', sym: 'CHF=X', dec: 4 },
+      { id: 'USDCAD', sym: 'CAD=X', dec: 4 },
+      { id: 'OIL', sym: 'CL=F', dec: 2 },
+      { id: 'GOLD', sym: 'GC=F', dec: 2 },
+      { id: 'SILVER', sym: 'SI=F', dec: 2 }
     ];
 
     for (const t of targets) {
@@ -422,11 +567,11 @@ def build_saveticker_html(feed_items, indices, updated_time):
           const isUp = diff >= 0;
           const card = document.getElementById(`idx-${t.id}`);
           if (card) {
-            card.querySelector('.idx-price').textContent = price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            card.querySelector('.idx-price').textContent = price.toLocaleString('en-US', { minimumFractionDigits: t.dec, maximumFractionDigits: t.dec });
             const chgEl = card.querySelector('.idx-chg');
             const sign = isUp ? '+' : '';
             const arrow = isUp ? '▲' : '▼';
-            chgEl.textContent = `${arrow} ${sign}${diff.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} (${sign}${pct.toFixed(2)}%)`;
+            chgEl.textContent = `${arrow} ${sign}${diff.toLocaleString('en-US', { minimumFractionDigits: t.dec, maximumFractionDigits: t.dec })} (${sign}${pct.toFixed(2)}%)`;
             chgEl.className = `idx-chg ${isUp ? 'up' : 'down'}`;
           }
         }
@@ -435,11 +580,10 @@ def build_saveticker_html(feed_items, indices, updated_time):
   }
 
   window.addEventListener('DOMContentLoaded', () => {
-    refreshLiveIndices();
-    setInterval(refreshLiveIndices, 60000);
+    refreshLiveMarketQuotes();
+    setInterval(refreshLiveMarketQuotes, 60000);
   });
 
-  // 알파벳 한국 상장사 → 구글 뉴스 검색 시 한글/영문 복합 검색어로 확장
   const KR_ENGLISH_MAP = {
     'NAVER': '네이버 OR NAVER',
     'HPSP': 'HPSP',
@@ -478,8 +622,7 @@ def build_saveticker_html(feed_items, indices, updated_time):
     '유나이티드헬스': 'UNH', '노보노디스크': 'NVO', '버크셔': 'BRK-B',
     '보잉': 'BA', '록히드마틴': 'LMT', '캐터필러': 'CAT', '디즈니': 'DIS',
     '스타벅스': 'SBUX', '나이키': 'NKE', '쿠팡': 'CPNG', '유니티': 'U', '로블록스': 'RBLX',
-    '티에스엠씨': 'TSM', '에이에스엠엘': 'ASML', '암': 'ARM', '리비안': 'RIVN', '루시드': 'LCID',
-    '나스닥': 'QQQ', '에스앤피': 'SPY', '반도체': 'SOXX'
+    '티에스엠씨': 'TSM', '에이에스엠엘': 'ASML', '암': 'ARM', '리비안': 'RIVN', '루시드': 'LCID'
   };
 
   function resolveQueryContext(raw) {
@@ -520,9 +663,7 @@ def build_saveticker_html(feed_items, indices, updated_time):
     return '';
   }
 
-  // 이중 우회 RSS 수집기 (1순위: allorigins XML 직접 파싱, 2순위: rss2json)
   async function fetchRssItemsReliable(rssUrl, limitCount) {
-    // 1순위: allorigins 프록시로 원본 XML 직접 파싱 (구글 뉴스 차단 우회에 가장 안정적)
     try {
       const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`;
       const res = await fetch(proxyUrl);
@@ -541,7 +682,6 @@ def build_saveticker_html(feed_items, indices, updated_time):
       }
     } catch (e) {}
 
-    // 2순위: rss2json 백업 호출
     try {
       const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
       const res = await fetch(apiUrl);
@@ -719,10 +859,11 @@ def build_saveticker_html(feed_items, indices, updated_time):
 
     page_html = (
         template.replace("__UPDATED_TIME__", updated_time)
-        .replace("__KOSPI_HTML__", kospi_html)
-        .replace("__KOSDAQ_HTML__", kosdaq_html)
-        .replace("__DOW_HTML__", dow_html)
-        .replace("__NASDAQ_HTML__", nasdaq_html)
+        .replace("__ROW_KR__", row_kr)
+        .replace("__ROW_US__", row_us)
+        .replace("__ROW_FX__", row_fx)
+        .replace("__ROW_CMD__", row_cmd)
+        .replace("__ROW_MACRO__", row_macro)
         .replace("__CARDS_HTML__", cards_html)
     )
 
@@ -736,13 +877,12 @@ def main():
     now_str = get_kst_now().strftime("%m/%d %H:%M")
     new_items = []
 
-    indices = fetch_market_indices()
+    # 1. 코스피/코스닥, 다우/나스닥, 세계5대환율+한국환율, 유가/금/은, FOMC/CPI/PPI 수집
+    board = fetch_all_macro_dashboard()
 
+    # 2. 매크로 키워드 뉴스 크롤링 제거 -> 핵심 기업 뉴스와 DART 공시만 경량 수집
     collected = []
     collected.extend(fetch_dart())
-
-    for kw in MACRO_KEYWORDS:
-        collected.extend(fetch_google_news(kw, "MACRO"))
 
     for corp in KR_COMPANIES:
         collected.extend(fetch_google_news(corp, "KR"))
@@ -750,7 +890,7 @@ def main():
     for ticker in US_TICKERS:
         collected.extend(fetch_finviz_news_only(ticker))
         collected.extend(fetch_yahoo_us_news(ticker))
-        time.sleep(1.5)
+        time.sleep(1.2)
 
     for item in collected:
         if item["link"] not in sent_links:
@@ -769,10 +909,10 @@ def main():
     if new_items:
         feed_items = new_items + feed_items
         save_json(HISTORY_FILE, list(sent_links)[-1200:])
-        save_json(FEED_DATA_FILE, feed_items[:200])
+        save_json(FEED_DATA_FILE, feed_items[:150])
 
-    build_saveticker_html(feed_items, indices, now_str)
-    print(f"완료: 신규 뉴스 {len(new_items)}건 반영 및 4대 지수 업데이트")
+    build_saveticker_html(feed_items, board, now_str)
+    print(f"완료: 신규 기업뉴스 {len(new_items)}건 및 글로벌 매크로 대시보드 업데이트")
 
 
 if __name__ == "__main__":
