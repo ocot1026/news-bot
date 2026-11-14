@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 
 # ==========================================
-# [나만의 세이브티커 v10.0 - 기업명·티커 통합 & 국가별 증시 피드 에디션]
+# [나만의 세이브티커 v11.0 - 국내·해외 전 종목 포괄 시장 스트림 에디션]
 # ==========================================
 
 # 1. 미국 거시경제 공식 발표치 (curr: 이번 발표치, prev: 직전 발표치)
@@ -35,15 +35,34 @@ MACRO_OFFICIAL = {
     }
 }
 
-# 2. 국가별 감시 기업 및 티커 설정
-KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER", "HPSP"]
-US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
-JP_KEYWORDS = ["일본 증시 닛케이", "도쿄일렉트론", "소니 토요타"]
-CN_KEYWORDS = ["중국 증시 항셍", "알리바바 텐센트", "BYD 비야디"]
-EU_KEYWORDS = ["유럽 증시", "ASML", "노보노디스크"]
-IGNORE_WORDS = ["부고", "인사", "포토", "동정", "모집", "이벤트", "할인", "광고"]
+# 2. 국가별 전 시장 포괄 수집 쿼리 (특정 종목에 국한되지 않고 모든 상장사의 특징주·실적·공시·속보를 포괄)
+GLOBAL_MARKET_STREAMS = {
+    "KR": [
+        "코스피 OR 코스닥 특징주",
+        "국내 증시 상장사 실적 OR 수주 OR 공시",
+        "유가증권시장 OR 코스닥시장 주가 급등 OR 급락"
+    ],
+    "US": [
+        "US stock market movers earnings upgrade downgrade",
+        "Nasdaq OR NYSE stock surge plunge today"
+    ],
+    "JP": [
+        "일본 증시 닛케이 특징주 OR 도쿄증시",
+        "일본 기업 실적 OR 주가"
+    ],
+    "CN": [
+        "중국 증시 항셍 OR 상해종합 특징주",
+        "홍콩 증시 기술주 OR 중국 기업"
+    ],
+    "EU": [
+        "유럽 증시 특징주 OR 스톡스600",
+        "유럽 주요 기업 실적 OR 주가"
+    ]
+}
 
-# 3. 동일 기업 별칭 → 단일 표준 표기 통합 사전 (MSFT + MICROSOFT -> 마이크로소프트(MSFT))
+IGNORE_WORDS = ["부고", "인사", "포토", "동정", "모집", "이벤트", "할인", "광고", "운세", "날씨"]
+
+# 3. 동일 기업 별칭 → 단일 표준 표기 통합 사전
 CANONICAL_ENTITY_MAP = {
     "MSFT": "마이크로소프트(MSFT)", "MICROSOFT": "마이크로소프트(MSFT)", "마이크로소프트": "마이크로소프트(MSFT)",
     "NVDA": "엔비디아(NVDA)", "NVIDIA": "엔비디아(NVDA)", "엔비디아": "엔비디아(NVDA)",
@@ -284,9 +303,9 @@ def translate_en_to_ko(text):
 
 def classify_impact(title):
     hot_words = [
-        "속보", "긴급", "급등", "급락", "실적", "어닝", "공급계약", "유상증자",
-        "금리", "인하", "인상", "파월", "트럼프", "SURGE", "PLUNGE", "BREAKING",
-        "EARNINGS", "UPGRADE", "DOWNGRADE", "TARGET", "BUY", "SELL"
+        "속보", "긴급", "급등", "급락", "상한가", "하한가", "특징주", "실적", "어닝",
+        "공급계약", "유상증자", "무상증자", "인수", "합병", "FDA", "SURGE", "PLUNGE",
+        "SOAR", "TUMBLE", "BREAKING", "EARNINGS", "UPGRADE", "DOWNGRADE", "IPO", "BUYOUT"
     ]
     if any(w in title.upper() for w in hot_words):
         return "🔥 주요속보"
@@ -296,6 +315,26 @@ def classify_impact(title):
 def strip_html_tags(raw_html):
     text = re.sub(r"<[^>]+>", " ", raw_html)
     return html.unescape(re.sub(r"\s+", " ", text)).strip()
+
+
+def extract_company_tag_from_title(title, default_tag):
+    """기사 제목에서 실제 언급된 기업명이나 미국 티커를 자동 추출해 태그로 부착합니다."""
+    # 1. 영문 티커 표기 추출 (예: (NVDA), $TSLA, NASDAQ:PLTR)
+    ticker_m = re.search(r'(?:\$|NASDAQ:|NYSE:|AMEX:|\()([A-Z]{2,5})(?:\)|\b)', title)
+    if ticker_m:
+        tk = ticker_m.group(1)
+        if tk not in {"CEO", "CFO", "IPO", "ETF", "SEC", "FDA", "FED", "CPI", "PPI", "GDP", "AI", "US", "UK", "EU"}:
+            return f"${tk}"
+
+    # 2. 국내 특징주/속보 기사 제목 패턴에서 기업명 추출 (예: "[특징주] 에코프로비엠, ...", "한미반도체, ...")
+    cleaned = re.sub(r'^\[[^\]]+\]\s*', '', title).strip()
+    corp_m = re.match(r'^([가-힣A-Za-z0-9&·]{2,14})(?:,|\s+(?:주가|실적|수주|급등|급락|상한가|하한가|영업이익|매출|신고가|목표가|공시|계약))', cleaned)
+    if corp_m:
+        cand = corp_m.group(1).strip()
+        if cand not in {"코스피", "코스닥", "증시", "특징주", "오늘", "장중", "마감", "외국인", "기관", "개인", "정부", "금융위", "거래소"}:
+            return cand
+
+    return default_tag
 
 
 def fetch_yahoo_quote_and_120d(sym, decimals=2):
@@ -424,7 +463,6 @@ def fetch_all_macro_dashboard():
 
 
 def compute_market_sector_heatmap(sectors_cfg, feed_items, market_scope="KR"):
-    """동일 기업(MSFT/MICROSOFT 등)을 단일 표준 표기로 통합 합산해 섹터 히트맵을 생성합니다."""
     sector_stats = []
     stopwords = {
         "오늘", "전망", "특징주", "관련주", "주가", "상승", "하락", "마감", "장중",
@@ -437,7 +475,7 @@ def compute_market_sector_heatmap(sectors_cfg, feed_items, market_scope="KR"):
         matched_titles = []
         kw_counter = Counter()
 
-        for item in feed_items[:150]:
+        for item in feed_items[:250]:
             cat = item.get("category", "")
             if market_scope == "KR" and cat not in ("KR", "DART"):
                 continue
@@ -473,7 +511,6 @@ def compute_market_sector_heatmap(sectors_cfg, feed_items, market_scope="KR"):
                     continue
                 matched_titles.append(raw_t)
 
-                # 한 기사 안에서 동일 기업(예: Microsoft 와 MSFT)이 동시에 나와도 1회로 통합 카운트
                 article_entities = set()
                 for kw in sec["keywords"]:
                     if kw.upper() in raw_t.upper():
@@ -533,67 +570,63 @@ def compute_market_sector_heatmap(sectors_cfg, feed_items, market_scope="KR"):
     return sector_stats
 
 
-def fetch_finviz_news_only(ticker):
-    url = f"https://finviz.com/quote.ashx?t={ticker}&p=d"
+def fetch_finviz_all_market_news():
+    """Finviz 전체 시장 뉴스 페이지(news.ashx)에서 특정 종목에 제한되지 않은 미국 증시 전 종목 속보를 수집합니다."""
+    url = "https://finviz.com/news.ashx"
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
         "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
         "Accept-Language": "en-US,en;q=0.9",
         "Referer": "https://finviz.com/"
     }
-    news_list = []
+    results = []
     try:
         req = urllib.request.Request(url, headers=headers)
         with urllib.request.urlopen(req, timeout=12) as res:
             page_html = res.read().decode("utf-8", errors="ignore")
 
-        news_match = re.search(r'<table[^>]*id="news-table"[^>]*>(.*?)</table>', page_html, re.S)
-        if news_match:
-            rows = re.findall(r'<tr[^>]*>(.*?)</tr>', news_match.group(1), re.S)
-            for row in rows[:4]:
-                link_m = re.search(r'<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', row, re.S)
-                source_m = re.search(r'<span[^>]*>(.*?)</span>', row, re.S)
-                if not link_m:
-                    continue
-                href = html.unescape(link_m.group(1)).strip()
-                if href.startswith("/"):
-                    href = f"https://finviz.com{href}"
-                en_title = strip_html_tags(link_m.group(2))
-                source_name = strip_html_tags(source_m.group(1)) if source_m else "Finviz"
-                source_name = source_name.strip("()")
+        links = re.findall(r'<a[^>]*href="(https?://[^"]+)"[^>]*class="nn-tab-link"[^>]*>(.*?)</a>', page_html, re.S)
+        if not links:
+            links = re.findall(r'<tr[^>]*class="nn"[^>]*>.*?<a[^>]*href="(https?://[^"]+)"[^>]*>(.*?)</a>', page_html, re.S)
 
-                if not en_title:
-                    continue
-                ko_title = translate_en_to_ko(en_title)
-                news_list.append({
-                    "category": "US",
-                    "tag": f"🇺🇸 ${ticker}",
-                    "press": f"Finviz · {source_name}",
-                    "title": ko_title,
-                    "sub_title": en_title if ko_title != en_title else "",
-                    "link": href,
-                    "impact": classify_impact(en_title)
-                })
+        for href, raw_title in links[:18]:
+            en_title = strip_html_tags(raw_title)
+            if not en_title or len(en_title) < 12:
+                continue
+            ko_title = translate_en_to_ko(en_title)
+            extracted_tag = extract_company_tag_from_title(en_title, "미국증시")
+            results.append({
+                "category": "US",
+                "tag": f"🇺🇸 {extracted_tag}",
+                "press": "Finviz Market",
+                "title": ko_title,
+                "sub_title": en_title if ko_title != en_title else "",
+                "link": html.unescape(href).strip(),
+                "impact": classify_impact(en_title)
+            })
     except Exception as e:
-        print(f"[Finviz-{ticker}] 수집 건너뜀: {e}")
+        print(f"[Finviz-AllMarket] 수집 건너뜀: {e}")
+    return results
 
-    return news_list
 
-
-def fetch_yahoo_us_news(ticker):
-    rss_url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US"
+def fetch_yahoo_all_market_rss():
+    """Yahoo Finance 미국 증시 전체 헤드라인 RSS에서 전 종목 속보를 수집합니다."""
+    rss_url = "https://finance.yahoo.com/news/rssindex"
     results = []
     try:
         req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=10) as res:
             root = ET.fromstring(res.read())
-        for item in root.findall(".//item")[:3]:
-            en_title = item.find("title").text or ""
-            link = item.find("link").text or ""
+        for item in root.findall(".//item")[:15]:
+            en_title = (item.find("title").text or "").strip()
+            link = (item.find("link").text or "").strip()
+            if not en_title:
+                continue
             ko_title = translate_en_to_ko(en_title)
+            extracted_tag = extract_company_tag_from_title(en_title, "월가속보")
             results.append({
                 "category": "US",
-                "tag": f"🇺🇸 ${ticker}",
+                "tag": f"🇺🇸 {extracted_tag}",
                 "press": "Yahoo Finance",
                 "title": ko_title,
                 "sub_title": en_title if ko_title != en_title else "",
@@ -601,19 +634,18 @@ def fetch_yahoo_us_news(ticker):
                 "impact": classify_impact(en_title)
             })
     except Exception as e:
-        print(f"[Yahoo-{ticker}] 수집 오류: {e}")
+        print(f"[Yahoo-AllMarket] 수집 오류: {e}")
     return results
 
 
-def fetch_google_news(keyword, category, flag_prefix=""):
-    encoded_kw = urllib.parse.quote(keyword)
-    rss_url = f"https://news.google.com/rss/search?q={encoded_kw}&hl=ko&gl=KR&ceid=KR:ko"
+def fetch_google_topic_or_search(rss_url, category, flag_prefix, default_label, limit_count=12):
+    """구글 뉴스 토픽/검색 RSS에서 전 종목 뉴스를 가져오고 기업명을 자동 태깅합니다."""
     results = []
     try:
         req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=10) as res:
             root = ET.fromstring(res.read())
-        for item in root.findall(".//item")[:4]:
+        for item in root.findall(".//item")[:limit_count]:
             raw_title = item.find("title").text or ""
             link = item.find("link").text or ""
             if any(w in raw_title for w in IGNORE_WORDS):
@@ -622,10 +654,10 @@ def fetch_google_news(keyword, category, flag_prefix=""):
                 title, press = raw_title.rsplit(" - ", 1)
             else:
                 title, press = raw_title, "언론사"
-            tag_label = f"{flag_prefix} {keyword}".strip()
+            company_or_topic = extract_company_tag_from_title(title, default_label)
             results.append({
                 "category": category,
-                "tag": tag_label,
+                "tag": f"{flag_prefix} {company_or_topic}".strip(),
                 "press": press,
                 "title": title,
                 "sub_title": "",
@@ -633,15 +665,22 @@ def fetch_google_news(keyword, category, flag_prefix=""):
                 "impact": classify_impact(title)
             })
     except Exception as e:
-        print(f"[{keyword}] 수집 오류: {e}")
+        print(f"[GoogleStream-{category}] 수집 오류: {e}")
     return results
 
 
-def fetch_dart():
+def fetch_dart_all_companies():
+    """금융감독원 DART에서 특정 종목 제한 없이 당일 접수된 전체 상장사의 주요 공시를 수집합니다."""
     if not DART_API_KEY:
         return []
     today_kst = get_kst_now().strftime("%Y%m%d")
     api_url = f"https://opendart.fss.or.kr/api/list.json?crtfc_key={DART_API_KEY}&bgn_de={today_kst}&end_de={today_kst}&page_count=100"
+    # 투자자에게 실질적으로 중요한 핵심 공시 키워드 필터 (단순 정정/일상 보고서 노이즈 제외)
+    key_report_words = [
+        "단일판매", "공급계약", "유상증자", "무상증자", "전환사채", "신주인수권부사채",
+        "자기주식", "소각", "배당", "영업실적", "잠정", "합병", "분할", "인수",
+        "신규시설", "특허", "임상", "품목허가", "최대주주변경", "공개매수", "상장폐지"
+    ]
     results = []
     try:
         req = urllib.request.Request(api_url, headers={"User-Agent": "Mozilla/5.0"})
@@ -650,22 +689,26 @@ def fetch_dart():
         if data.get("status") != "000":
             return []
         for item in data.get("list", []):
+            corp_cls = item.get("corp_cls", "")  # Y: 유가증권(코스피), K: 코스닥
+            if corp_cls not in ("Y", "K"):
+                continue
             corp = item.get("corp_name", "")
             report = item.get("report_nm", "")
             rcp = item.get("rcept_no", "")
-            if any(k.upper() in corp.upper() for k in KR_COMPANIES):
+            if any(w in report for w in key_report_words):
+                mkt_badge = "코스피" if corp_cls == "Y" else "코스닥"
                 results.append({
                     "category": "DART",
                     "tag": f"🇰🇷 {corp}",
-                    "press": "금융감독원 DART",
+                    "press": f"DART · {mkt_badge}",
                     "title": f"[공시] {report}",
                     "sub_title": "",
                     "link": f"https://dart.fss.or.kr/dsaf001/main.do?rcpNo={rcp}",
                     "impact": "🚨 공식공시"
                 })
     except Exception as e:
-        print(f"[DART] 오류: {e}")
-    return results
+        print(f"[DART-All] 오류: {e}")
+    return results[:25]
 
 
 def render_tile(box_id, label, sub_label, info, compact=False):
@@ -740,7 +783,7 @@ def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors
     us_sector_strip = render_sector_strip(us_sectors, "US")
 
     card_parts = []
-    for item in feed_items[:180]:
+    for item in feed_items[:300]:
         badge_class = "hot" if ("속보" in item["impact"] or "공시" in item["impact"]) else "normal"
         safe_title = html.escape(item["title"])
         safe_sub = html.escape(item.get("sub_title", ""))
@@ -768,7 +811,7 @@ def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker - 글로벌 증시 & 실시간 섹터 대시보드</title>
+<title>My SaveTicker - 글로벌 전 종목 증시 & 실시간 섹터 대시보드</title>
 <style>
   body { background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }
   .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 14px 20px; position: sticky; top: 0; z-index: 100; }
@@ -900,7 +943,6 @@ def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors
   .search-btn { background: #238636; border: none; color: #fff; padding: 9px 16px; border-radius: 10px; font-size: 13px; font-weight: 700; cursor: pointer; white-space: nowrap; }
   .search-btn:hover { background: #2ea043; }
 
-  /* 국가별 증시 피드 선택 탭 바 (기업 속보 & DART 공시 피드 바로 아래) */
   .country-tabs-bar {
     display: flex;
     gap: 6px;
@@ -988,7 +1030,7 @@ def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors
 
     <div class="search-panel">
       <div class="search-wrap">
-        <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명(삼성전자, NAVER, HPSP) 검색...">
+        <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="국내·해외 모든 기업명 또는 티커 입력 후 Enter...">
         <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
       </div>
     </div>
@@ -1002,8 +1044,10 @@ def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors
     <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI — 직전 발표치 대비)</div>
     <div class="grid-3">__ROW_MACRO__</div>
 
-    <!-- 기업 속보 & DART 공시 피드 + 국가별 증시 탭 -->
-    <div class="sec-label" style="margin-top:20px;">📰 기업 속보 & DART 공시 피드 (국가별 증시 선택)</div>
+    <div class="sec-label" style="margin-top:20px;">
+      <span>📰 전 종목 기업 속보 & DART 공시 피드</span>
+      <span style="font-size:11px; color:#8b949e;">국내외 전 상장사 실시간 수집</span>
+    </div>
     <div class="country-tabs-bar">
       <button class="tab active" onclick="filterCat('ALL', this)">🌐 전체피드</button>
       <button class="tab" onclick="filterCat('KR', this)">🇰🇷 한국</button>
@@ -1151,7 +1195,6 @@ def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors
             if (!rawT) return;
             titles.push(rawT);
 
-            // 동일 기업 별칭(MSFT, Microsoft 등)은 한 기사당 1회만 통합 집계
             const articleEntities = new Set();
             (sec.keywords || []).forEach(kw => {
               if (rawT.toUpperCase().includes(kw.toUpperCase())) {
@@ -1558,7 +1601,6 @@ def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors
 
     document.querySelectorAll('.saved-card').forEach(card => {
       const cardCat = card.dataset.cat;
-      // 한국 탭 선택 시 KR과 DART 공시를 함께 보여주거나 개별 필터 적용
       const matchCat = (currentCat === 'ALL') || (cardCat === currentCat);
       if (!raw) {
         card.style.display = matchCat ? 'block' : 'none';
@@ -1728,25 +1770,40 @@ def main():
     board, chart_store = fetch_all_macro_dashboard()
 
     collected = []
-    collected.extend(fetch_dart())
 
-    # 1. 한국(KR) 기업 속보 수집
-    for corp in KR_COMPANIES:
-        collected.extend(fetch_google_news(corp, "KR", "🇰🇷"))
+    # 1. 국내 전 상장사 주요 공시 (특정 종목 제한 해제)
+    collected.extend(fetch_dart_all_companies())
 
-    # 2. 미국(US) 주식 속보 수집
-    for ticker in US_TICKERS:
-        collected.extend(fetch_finviz_news_only(ticker))
-        collected.extend(fetch_yahoo_us_news(ticker))
-        time.sleep(1.2)
+    # 2. 한국 증시 전 종목 뉴스 (구글 뉴스 비즈니스 토픽 + 코스피/코스닥 특징주·실적·공시 전체 스트림)
+    collected.extend(fetch_google_topic_or_search(
+        "https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=ko&gl=KR&ceid=KR:ko",
+        "KR", "🇰🇷", "국내증시", limit_count=15
+    ))
+    for q in GLOBAL_MARKET_STREAMS["KR"]:
+        enc = urllib.parse.quote(q)
+        collected.extend(fetch_google_topic_or_search(
+            f"https://news.google.com/rss/search?q={enc}&hl=ko&gl=KR&ceid=KR:ko",
+            "KR", "🇰🇷", "국내종목", limit_count=10
+        ))
 
-    # 3. 일본(JP), 중국·홍콩(CN), 유럽(EU) 증시 속보 수집
-    for kw in JP_KEYWORDS:
-        collected.extend(fetch_google_news(kw, "JP", "🇯🇵"))
-    for kw in CN_KEYWORDS:
-        collected.extend(fetch_google_news(kw, "CN", "🇨🇳"))
-    for kw in EU_KEYWORDS:
-        collected.extend(fetch_google_news(kw, "EU", "🇪🇺"))
+    # 3. 미국 증시 전 종목 뉴스 (Finviz 전체 시장 뉴스 + Yahoo Finance 전체 헤드라인 + 미국 특징주 스트림)
+    collected.extend(fetch_finviz_all_market_news())
+    collected.extend(fetch_yahoo_all_market_rss())
+    for q in GLOBAL_MARKET_STREAMS["US"]:
+        enc = urllib.parse.quote(q)
+        collected.extend(fetch_google_topic_or_search(
+            f"https://news.google.com/rss/search?q={enc}&hl=ko&gl=KR&ceid=KR:ko",
+            "US", "🇺🇸", "미국증시", limit_count=8
+        ))
+
+    # 4. 일본(JP), 중국·홍콩(CN), 유럽(EU) 전 종목 증시 뉴스
+    for country_code, flag, default_lbl in [("JP", "🇯🇵", "일본증시"), ("CN", "🇨🇳", "중화권증시"), ("EU", "🇪🇺", "유럽증시")]:
+        for q in GLOBAL_MARKET_STREAMS[country_code]:
+            enc = urllib.parse.quote(q)
+            collected.extend(fetch_google_topic_or_search(
+                f"https://news.google.com/rss/search?q={enc}&hl=ko&gl=KR&ceid=KR:ko",
+                country_code, flag, default_lbl, limit_count=8
+            ))
 
     for item in collected:
         if item["link"] not in sent_links:
@@ -1756,14 +1813,14 @@ def main():
 
     if new_items:
         feed_items = new_items + feed_items
-        save_json(HISTORY_FILE, list(sent_links)[-1500:])
-        save_json(FEED_DATA_FILE, feed_items[:180])
+        save_json(HISTORY_FILE, list(sent_links)[-2500:])
+        save_json(FEED_DATA_FILE, feed_items[:300])
 
     kr_sectors = compute_market_sector_heatmap(KR_SECTORS_CONFIG, feed_items, market_scope="KR")
     us_sectors = compute_market_sector_heatmap(US_SECTORS_CONFIG, feed_items, market_scope="US")
 
     build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors, now_str)
-    print(f"완료: 신규 글로벌 뉴스 {len(new_items)}건 및 통합 섹터 대시보드 업데이트")
+    print(f"완료: 전 시장 신규 뉴스 {len(new_items)}건 반영 (총 {len(feed_items)}건 유지)")
 
 
 if __name__ == "__main__":
