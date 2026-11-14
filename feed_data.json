@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 엔비디아",
+    "press": "연합인포맥스",
+    "title": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1vNU9MWDJPNThrVkpHMFdSRGpBZHdIRzJHb3NEbjdHVlpMQW1seW1VZ0RWYmxpTTJiMF9vcUoxYkoxckM4R3Q3bnl4NlIwZVgxTURyNTlka1JLZl81N29DWXkzcmQ1MWFKbUlpRnZyQy0?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 07:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"저렴한 약값에 한국어 상담까지\"…日 비만약 원정처방 마케팅 활발",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6Y2JCR0hCcE9fbFdJaFl1LUtuRWNfcFZuNUxtNk51S3IwRFpmdlJ2MWFKZUdJQU1CVTNJSnBQcGI3LW8zLWNkUm5PU3UwOGlhYXFXNXZScDhMUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 07:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 넥스아이",
+    "press": "Chosunbiz",
+    "title": "[특징주] 넥스아이, 코스닥 입성 첫날 약세…공모가 대비 12%↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdF9Ga3RxUTZOemhmZ3I5MFFZaGZ5M3htZlVtR1hWLUJ5TG1tN3I2WUNmNVA3b2Z6SlVoSm5CVEZiREpqYUhvSTlrX2Uwai1TS1JFX0l6ajRBcm5pZFYxdTBOSW5ZUFdrcGRuNlFqS3VyMVE3VWxibjJHamtJdEtWTV9oR1FyVnhX0gGcAUFVX3lxTE1ZREpPb1FfM0otMmNyVlp3TkRnWGZrYlpONUsxLUwtMEZfSURya0JISVRhSnBhSHFsTlFKVXlmc2lEU2FyeWtVZGVocjI1cHVMN09wVXctM3F4ajdTal9yRnViNDhZSHl2NmdoYjMxSk9PMlVYUWpxSm1GWHlNRW1fdVgza1ZoaXNMRzVZa1dlajF3ek1WcVYtS1JnRw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 07:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 증권주",
+    "press": "연합뉴스",
+    "title": "[특징주] 증권주, 코스피·코스닥 지수 급등에 강세(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB1bVNrTG83RGpIemVEbUktUHNEMG9sa1RaZmYwLXVBdWxDem1ITjVYbzJ3c2JhbG1OaElqRWEzS194QzJFRmxBVkxUSjl0OXd6aUpaeFprRk9SenfSAWBBVV95cUxNREJFaE9MSE9tUHBYTHZBZW16RWk0SmltaXl6SGRWUnFrWmo5TExDRk5fZ1hhcHNFWnhFV3BlY2J0YUE3SUtYWGJsQjBTTDlCNURvOHBzTG12NGNwTTdWeWY?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 07:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Mamdani thanks Trump for helping small businesses in NYC, nationwide: 'President has delivered relief'",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/politics/mamdani-thanks-trump-helping-small-businesses-nyc-nationwide-president-delivered-relief",
+    "impact": "📰 일반",
+    "time": "11/15 07:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Half of retirees owe tax on benefits. Could you be next?",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/personal-finance/investing/article/social-security-tax-by-state-230754092.html",
+    "impact": "📰 일반",
+    "time": "11/15 07:30"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내종목",
     "press": "서울파이낸스",
     "title": "코스피 상장사 1분기 실적 '껑충'···반도체 업고 영업익 176% 급증",
@@ -2936,66 +2996,6 @@
     "title": "한화에어로스페이스, 1773억 원 무인기 엔진 맡는다",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mdW1FalpHcnN2cEh2ZkNaa0pISFlTSFNULU5JcFptZlY0amM0ZW9HRTF5eWVYZ0Y4SER3NmlKLVl6OURrWGR0R0o3SG14UUVXNXJGRTBIMjJvNkZNSmtCdHA1cHVieVE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "글로벌이코노믹",
-    "title": "한화에어로스페이스, UAE와 L-SAM 수출 협상 진전…폴란드 수주 공백 메운다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMWpZMzhsV1BRQlR2ZEtVUGpPa0EwZmR2R2E5b2xVV3hsSkhWNzBxNzFuU2dqaVZ5OXgzcDJ0MFpfUjJmVzFUSllYSzdQRy1HajBBR1ZJV09iLW1HZG96SkJDTnBlb3BKSy1vZW1Xa3A3SmZxUFlDZFFFLS1YTWlKSkRGMWxBOWJ2?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "NAVER",
-    "press": "네이버페이 머니스토리",
-    "title": "‘1.6조 역대급 과징금’ 증권사 실적 줄줄이 꺾인 이유",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIUGNyZUpQRWJOWmQzSmJkbEpBUEpJQ0h6ZUFhdHRRaDNZdUxYbktBVkIyQ2FCdXJKYkxjdG5veGpfV0xJTzhJd051Z2JwcmYtS1pMVXFzNVU?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "NAVER",
-    "press": "네이버페이 머니스토리",
-    "title": "젠슨 황 해임, 엔비디아를 바라보는 우려의 시선",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnWHZOUHNUZnptT3FEV25SRjM4Ymx4TE5CdEw3VzFJNTl2bFhQcU9xUWtuZFl5eFdQd0NRbzZzOEFRSjNBUF8wNFZhb3dzd1RmNnIzb0tORlQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "NAVER",
-    "press": "네이버페이 머니스토리",
-    "title": "내년 만 19세~34세 주목! 2027년 청년 지원 총정리",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE04YWhabnh5RHVYSDh6VmhWbHdvcTF5WDFLanRrb25VZlAzdFJkYmJtVGZtYWc3V0Nhbl90cm9jVzAxRWdJdHozTlA2d3I1RkFYNFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "NAVER",
-    "press": "네이버페이 머니스토리",
-    "title": "전세사기 피해 4만 건 넘어…서울 평균 하락 속 경기 상승세 (11월 2주 부동산)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxUWQ2YWR6aHk1M19mM1VGOFh4WXo4NWllbUh1VFQ3eFZ1clpkbjhhckw3QThOLVRYRU0tNHlONVpMN2JLNWVNM3FVRXJNbF9MVEw4bTZzLW94ZEU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$NVDA",
-    "press": "Finviz · Stocktwits",
-    "title": "Elon Musk, Tom Lee, Shopify CEO Sign Stand With Jensen Petition To Reinstate Him As Nvidia CEO",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-tom-lee-shopify-042453542.html",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
