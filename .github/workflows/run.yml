@@ -1,0 +1,35 @@
+name: Auto News Bot
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  run-bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 코드 불러오기
+        uses: actions/checkout@v4
+
+      - name: 파이썬 설정
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 뉴스 봇 실행
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          CHAT_ID: ${{ secrets.CHAT_ID }}
+        run: python news_bot.py
+
+      - name: 보낸 뉴스 기록 업데이트
+        run: |
+          git config user.name "NewsBot"
+          git config user.email "bot@noreply.github.com"
+          git add sent_news.json || true
+          git commit -m "Update sent news history" || exit 0
+          git push
