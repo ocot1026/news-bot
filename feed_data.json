@@ -1,6 +1,36 @@
 [
   {
     "category": "KR",
+    "tag": "삼성전자",
+    "press": "Investing.com 한국어",
+    "title": "삼성전자, 라이온즈 12년 만의 우승 기념…12일간 고객 감사 행사 By EBN",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9pYXlKRnczNFU4OHpILWYwa3drNzlVWVBhRXNjNlZON3dNYV9pSkpXTUptcVhYVm9EMkctbVR3d0Vqd3Z3MVdWdjN1R1lTUm5fbG5rX1BDbmpKdE5xUzZ3TEh4TVoyeHR5ZW1LcmJrNDI?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:07"
+  },
+  {
+    "category": "US",
+    "tag": "$NVDA",
+    "press": "Finviz · Yahoo Finance",
+    "title": "Nvidia와 Jensen Huang의 낙진: 중요한 한 주 후에 우리가 알고 있는 모든 것이 여기에 있습니다.",
+    "sub_title": "Nvidia and Jensen Huang fallout: Here's everything we know after a momentous week",
+    "link": "https://finance.yahoo.com/technology/article/nvidia-and-jensen-huang-fallout-heres-everything-we-know-after-a-momentous-week-110000323.html",
+    "impact": "📰 일반",
+    "time": "11/14 20:07"
+  },
+  {
+    "category": "US",
+    "tag": "$NVDA",
+    "press": "Yahoo Finance",
+    "title": "Nvidia와 Jensen Huang의 낙진: 중요한 한 주 후에 우리가 알고 있는 모든 것이 여기에 있습니다.",
+    "sub_title": "Nvidia and Jensen Huang fallout: Here's everything we know after a momentous week",
+    "link": "https://finance.yahoo.com/technology/article/nvidia-and-jensen-huang-fallout-heres-everything-we-know-after-a-momentous-week-110000323.html?.tsrc=rss",
+    "impact": "📰 일반",
+    "time": "11/14 20:07"
+  },
+  {
+    "category": "KR",
     "tag": "현대차",
     "press": "글로벌경제신문",
     "title": "정무성 현대차 정몽구 재단 이사장 별세",
@@ -1466,36 +1496,6 @@
     "title": "[단독] 현대차 AVP본부, 조직개편 단행",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjSE16LW1ZdWZnN1NTaUF3OU9qZ1VFUnR3ZWJyQUZiM0ZNQ0tpNWJjdlB3ZG9mYVZILWdvOFkycEYyT082aDF5c3FhaVBpQmFqT1BEWVZR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "Chosunbiz",
-    "title": "한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ1hVX0JZa1N2NDNQXzJhNW1kX3R4Qk5tTmVudmlsUUc1ZXRzVk5TTGlsRlNXbkFsQm05TGxTeC1Kbl9kVG1qOEdLTFZBRW5JWkFFVjhHMk42emJEYk9Wdjc2TEhpeTNqY1QyWDYtQ3pYU3RiV0dqamxuV1VrVWpzZ0FtQm7SAZgBQVVfeXFMTy1wSjZPa20yX3JRMVpxeWhNa0I2UlhxZlUwNHlCNUxjZVhDdzR0YkRydnFwSUpCYnhZazZvZThocDZFLTVrbTNmUThMV3hfaVZiVjhXc1BsV3V3Sm1HbjRQWXZnWEwtR2lBakF2ejBDZEdqQ0ZaM0ZqdXpvcmFVUHBNMWhTdGJXeEVhUk0xT2NnekRfRnlhMFM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "글로벌이코노믹",
-    "title": "한화에어로스페이스, UAE와 L-SAM 수출 협상 진전…폴란드 수주 공백 메운다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMWpZMzhsV1BRQlR2ZEtVUGpPa0EwZmR2R2E5b2xVV3hsSkhWNzBxNzFuU2dqaVZ5OXgzcDJ0MFpfUjJmVzFUSllYSzdQRy1HajBBR1ZJV09iLW1HZG96SkJDTnBlb3BKSy1vZW1Xa3A3SmZxUFlDZFFFLS1YTWlKSkRGMWxBOWJ2?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "국제뉴스",
-    "title": "한화에어로스페이스, 1만파운드급 항공엔진 개발 과제 수주…1773억원 규모",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91U0xnU0kwZmprQndUdjE2U3dveXI3SnUyQ2tRc29aSzRQbFN0a0FqRHllWlZ0ZkRZWk02S1VzT2dzZUJZc0RxdUxqU1RQYTMybUtpNTI0b3ZoamQwdEh1elg0TkZxcllKQ1ZEeHp3?oc=5",
     "impact": "📰 일반",
     "time": "11/14 18:14"
   }
