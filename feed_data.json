@@ -1,6 +1,46 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 SK하이닉스",
+    "press": "아이뉴스24",
+    "title": "SK하이닉스 생산직 채용에 들썩…\"학력 무관·억대 성과급 기대\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA2U21NR1N2UmVxc0xkR291QlFSb2x1eDVYeEE4WE8yVzc0RVJmTkZIVlFKcFE3aWh6UUFOdjBSTkJYaHVjXzRXN29vWQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 현대차",
+    "press": "한국경제",
+    "title": "현대차, 쏘카·에이펙스모빌리티와 자율주행 생태계 위한 업무협약",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9kOXFFQlJKWkVTd0QyQ3VkLUkxaE9RNjBkUXNkam9qV3VqdnNnLTZNMHdsblQtQ0Y3YWlvdS02WjNaajF6MGYzNDZCT1FsUmVVYkh6bkVaNUZjZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 현대차",
+    "press": "이데일리",
+    "title": "현대차·쏘카 손잡았다…110만km 주행데이터로 자율주행 상용화 실증",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaGliMmR3Y1JvclR2Q096QzBudm5ZQjVVWW5yYmJzNHhMTFBGeDdQZ1VGS1dQN3VsMkplWmE5ODBDMDhLRVdxeTBrN1g4a0ZzNVhRcHRGZDlPNmFqRWRwNmg2ODEzQ01hbEJtQkJDQzZtR1pWRzBRUmlQeTFkU3RGTQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:50"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽 증시",
+    "press": "뉴시스",
+    "title": "유럽 증시, 기술주 매도세에 대체로 하락 마감…英은 0.07% 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9EbU9pTXloWkJqUUtibHdPY3AtcFQzTUZBTkJubUs4TE9UMTg4Sm5iblFXZjFVUmdpVlc3Q2ttQk14NDFuTWtFNEF6UHBsM3RUZk4zTDRCZ0hxYVZRbEhTMNIBeEFVX3lxTE9QNl9ia215R0x6NWdFMGYtdGdTQlpEdkcteUljRWp0a1RudER3SDh5bkdWc09JYlBYTUdwNklDV0ZaR1hpWGs0Z0hiZWoyenY1ZllvR0k3ck5JWWtlVzhiU0dPODEwQVB3NlY3dzllZWNDOVBMaDl2Mw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:50"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 NAVER",
     "press": "네이버페이 머니스토리",
     "title": "전세사기 피해 4만 건 넘어…서울 평균 하락 속 경기 상승세 (11월 2주 부동산)",
@@ -1756,46 +1796,6 @@
     "title": "1400조 벌고도 폭락…개미들 울린 코스피의 '씁쓸한 이면' [분석+]",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DaEdENGUtTmhKR2tOTlZYbXRXelVSenRHS21oVE81QXpNQ2gwT09ocmhPTkFhSVdMUk5qRFJ3WHVSay0tY2wzSGo5X0Rya3FwZURMcmpIRXRkZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "코스피",
-    "press": "조선일보",
-    "title": "코스피는 사실상 반도체 지수… AI와 거리두기 해야",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNV1JTUkhEUGg5LUpmUEZETVpKbFkyTzFGa19zNjd5cHpTdnZpeXBYVk9BeUtPYVJsemUwT1F6cjlaOWRlbkdicll0LVI1RjhaOHozVUhnX2liT1lqMUtab0g4TVR3TmFrcW0yZmVXemxBUXJpbkdCdVVWcFRyVTZmNjBJRVE5Zw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "코스피",
-    "press": "매일경제",
-    "title": "“도대체 언제 오를까요”...코스피 반등 3가지 조건 보니",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pOFhyQ3pJSzR5WnJQZENqbnloUXozUnlOSElNWjdsdGJxWl9Vbmw1SksxNTJibTZDLUZoVG10UGRpMHFpNktheFFxb252RUozWjVKXw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "삼성전자",
-    "press": "한국경제",
-    "title": "\"삼성전자 69만원\"…목표주가 더 높인 반도체 애널리스트의 근거는?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1udENLUDAyVDJBQ25UcDVIMmFEMC0wejRlV0EwZy1ET1dERHhHMVZXRmplZlJoQmJEMmlIQjVfNWlSeFpycWJGa0hxdzhNV3FhUktTcmplVDZQQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "삼성전자",
-    "press": "파이낸셜뉴스",
-    "title": "\"반토막 난 삼성전자, 3개월 내 반등 확률 97%\"…'역대급' 분석 나온 결정적 이유",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zTWl5MWExUTNRZUdtUVFlbmRjY09LR0hoZEd5NEJWWEtUdU1URFJIMC1YaEhZamxjSjI3QURKY1hMLXc5bzJHSjlhWlh6aUV1aHRjU0Y3SEZQdw?oc=5",
     "impact": "📰 일반",
     "time": "11/14 18:14"
   }
