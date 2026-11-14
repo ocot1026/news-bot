@@ -1,6 +1,396 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 NAVER",
+    "press": "네이버페이 머니스토리",
+    "title": "전세사기 피해 4만 건 넘어…서울 평균 하락 속 경기 상승세 (11월 2주 부동산)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBzdHZUMTR0Sjgta2xpWWRELUVTcFRhQ3I3YXB6V1BrTVBUWnJQWjFOcGFTTlRuQXRFRTFfWFB0aDZvLWF2X1FISEdKdWd3ZHdMZ1E?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 NAVER",
+    "press": "네이버 프리미엄콘텐츠",
+    "title": "댓글 : 배달앱 수수료 15% 상한제 입법추진...음식점측 “빨리 도입” vs 라이더 “최저 배달비 보장”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYVZxTm1RbTZwbjVVOUpsN3c0SDJTbkhRS0dqWmFfUm56TXFycmFSVXAzbXRXTmVRTnRlN3Q5Wkt1cnEtOWVNQnpTTlhLLTAyNXViRkxSYmNRc2ZnRW51eHRCelgzRDJCcUl0VXloZGdFcEpjZ0JqSnpySmgtU0cyb044al8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 $NVDA",
+    "press": "Yahoo Finance",
+    "title": "11월 17일 이전에 Nvidia 주식을 구매해야 할까요?",
+    "sub_title": "Should You Buy Nvidia Stock Before Nov. 17?",
+    "link": "https://www.fool.com/investing/2026/11/14/should-you-buy-nvidia-stock-before-nov-17/?.tsrc=rss",
+    "impact": "🔥 주요속보",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본 증시 닛케이",
+    "press": "뉴스핌",
+    "title": "[일본 증시] 닛케이 반등...엔저·반도체주 저가 매수에 6만1000선 회복",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15NzNRV19KeXRnbEJhTzJUbzM4X2EwbUFNT2NWTnc1ZUs1V2dVN3VPZGFaRW90NUo3aU1MeHROUW15elYtWmdqVlY2aERhYXZVaktwZDhKWUQ2Z1lX?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본 증시 닛케이",
+    "press": "연합인포맥스",
+    "title": "[도쿄증시-마감] AI·반도체주 급등에 닛케이 6만선 회복",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11QkdZS3dwWmttUEM0Vll6U1lGU3BDcmp1X0dNTS1pX09ZOHZRQllBYkVpcjFRUGVfaTRnX1dSVU9JenhhNERZYWtNRVBHaFpnWXVzb0J5T1c5YjN4R0lKWVY3MUIzbzhwRGtLaldUczg?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본 증시 닛케이",
+    "press": "KB Think",
+    "title": "[도쿄증시-마감] 닛케이 1%대 상승…AI주 매수세 실적 호조주로 확산",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oY0xlZ1VDR0Q1YXNLaWFYRjNXRk1PTUdiR2I2S05JMU0wSGZVR0NlM3FxTlVWV3AxVk1OdUdlTVRvQ2ZMRURXbGlLblZHaTJQRGdXVngyZ2pWOGxTampUYVZIY2k0VnN3Vi1TTW9PNk4yZw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본 증시 닛케이",
+    "press": "뉴시스",
+    "title": "일본 닛케이225, 3거래일 만에 6만선 회복…상승 마감",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsUkJSa3hqcEE2U2VPdWR0Sk1venlHQVdFZTdBQklnZmxrejV4cFd1Q0lDR1JZZFBLMHlsdUotRmlEYmNiZ25qTkU4bG8zSVZmMkwxa25Ba0JOQ1h6MFVrTNIBeEFVX3lxTE4zbmdLcXNyZE5WUlRMTEdxYUJoa3JhVml3R0RLcVppak1sRzhHVW5IdlFGdzMyODFmbDQzbUV0SW56UnVsNnVyQVFKMEFpUzR2Z3g4Yk0waWhaampCcDNsaVZmQUkxQkVkM2g2alRYYlhqSTQyMGlwZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 도쿄일렉트론",
+    "press": "글로벌이코노믹",
+    "title": "\"AI 거품론 일축… 사상 첫 '영업익 1조 엔' 쏜다\" 도쿄일렉트론, 실적 신기록 예약",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdy1md1FVQ2llMkpvSkhqeC1mNVhpT2hVWThobGp4RWFYbVhmZXZFU2FOSXIxNDMtTEo0Q3lTWTljT01jS3ByZkQ3XzB0eTJsNTcxSzB0VFBwM2RuMklYUklhcFFKbTBkVE1EZWJLM3oxTjdWVk42bnhXcGVkbUtiZ1RNOTZwQXhD?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 도쿄일렉트론",
+    "press": "조선일보",
+    "title": "AI 붐에 웃는 日 반도체 장비업계…도쿄일렉트론 영업익 첫 1조엔 전망",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYzhzOWw3bnFwWDZPNERFLTByXzNhS2ZnbWM3WDJYQ2poWERvVFg2VlNIVDU3RWdjRHE0NkNWSFdCdGlQTmRZOXRSaTFUdlZDem1Mc3kyY1dWcHhudHc3eDBmZHBYZlItdUs1SkRIMGMzSF9sM1R2Y0lrUVBLU0dGTUE3VQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 도쿄일렉트론",
+    "press": "전자신문",
+    "title": "도쿄일렉트론코리아, 반도체 새싹 키우는 '드림랩' 문 연다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11ZXBHQTZQZ19iNmsxcjRtVm9XRkx6WXpRZ1RESjVmNkRIek1TR1VXdXJDYXdCWTR2c0x3emhCTm5RUlJ0d1BpLV9uSE1wQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 도쿄일렉트론",
+    "press": "디일렉",
+    "title": "잠실에 어린이 반도체 공장...도쿄일렉트론, '반도체 드림랩' 개소",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kdnhvRTNVQVBPVlQ4MXBuQmVyNUYzZWR4T0RMME9iLUNzOTBfRndoVm52UTdlZ0lxS0ZrOWxTVXV1RnktUVpYd0JYZGlaQVFEVU9XejZHM3NLNy1nRTdzQ29IOUZ0Zw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 소니 토요타",
+    "press": "한겨레",
+    "title": "일본 강진에 흔들린 ‘실리콘 아일랜드’...TSMC·소니·토요타 공장 일부 멈춰",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8zWXc5Uzd1d0VyMmlWUzd6RUQ5bnFQX21uTFlDWVFOXzJhQjlLaUxvbGdZeDJ5MmRVQU9Lc2JEcklPYmgweGNzVzEya0o0YVpqX1U3bzN3YWcxT1dhRjA5Tkozc1BhN3VrVW5pTg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 소니 토요타",
+    "press": "뉴스핌",
+    "title": "구마모토 강진에 日기업 피해 확산...토요타·소니 공장 가동 중단",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5SLW1ZdzdLd20tTlpaUzFab3FqVXJxdm5Hb2ZWWThvSmwzTWk3VEhTWTBjczdjTmkwSWlmbDlGalBOOUtYNHVIY195b2E1SHpJSy1tZG1ydTN6YTVm?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 소니 토요타",
+    "press": "뉴스비전e",
+    "title": "도요타·유니클로·닌텐도·소니…美서 관세 환급금 놓고 소비자 소송 잇따라",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5xbVB2Q3VQOGpQWUJvVWNLdlFNek53Y3NORDdkSmI5emlYc3ZYdjB6ajhJdl95LUUzMnRHTmJqUEtwSjJ6VHV6NW5OTFk5QkJKTGUxdDZQNGxNc2dLQVlUODJTVktUc2c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 소니 토요타",
+    "press": "메디컬투데이",
+    "title": "[특파원] 퀄컴, 로봇산업 장기 투자…도요타(7203 JP)소니(6758 JP)·파낙(6954 JP) 등 17곳 참여",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0xa1NLUXJpTGJjcy0zajcyTHBYV1RvclRlWXR2RGVQdWV6bjYzOUJrWVkyb3JhT18xc0RzRkkwYk92aU0tVkJKQXdQbm9teVBDcnJDYVh4T2pINGhSc2c2Z1ZqN0VXMG5IU0NLXw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중국 증시 항셍",
+    "press": "뉴시스",
+    "title": "[올댓차이나] 홍콩 증시, 美 증시 강세로 사흘 만에 반등 마감…항셍 0.44%↑",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAyRjVYWkhHSDVHbHBISk1lS1FpcFVibFFEaTRJaXJLSXBsM2E1eUdnTkwxLTVjRzBzYXY0ZVBCZExhOXIzM19aZUQxZkNoVDBScldDSkM4dk5wcnJid3FkeNIBeEFVX3lxTE9CNGNCZGcwRlRyM1FFQkJ6OXVtMWhfQ09jTFpzRWZ5WXRoWnkwbENFMHBPME1WT0kzWEd3cGstMmNQRXdjSXRMaGU0OG42aEk2VjNQV1pEaWlwcFROWTVaT1g5THFUM1MxTU1pLWNTbWYxUFhxZFN3Ug?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중국 증시 항셍",
+    "press": "네이버페이 머니스토리",
+    "title": "중국 주식 투자 시 알아야 하는 과창판 STAR50, 창업판 ChiNext, 홍콩 항셍테크",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4tWkNrRm5HVHpNeUdUWUliREV0eDZnMmd4ZFg2TjRQQkhEaGhrWW40N043a3RWZ1RlRXB4ZDd5Y3JES3dQdDA2N1NULVlZN2VkWnc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중국 증시 항셍",
+    "press": "뉴스핌",
+    "title": "[중국증시 주간 포인트] ②항셍테크지수 50개주 확대, 아태 안보현안 논의, 세미콘 인디아, 메타X 보호예수 해제, 쉬인 항셍종합지수 편입, 미리보는 다음주 5대 이슈 등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFAwMmFxUG50YkRQY0ZnWnRDSWJOaVZsN0JZWXRPd0xCWlVTM1ZNTWgtdEFfbVAxZlROcjBjS3U1alQ1U2N0TVFvRV85Q2R1SHpZSzZxRnlIVjhMNVN5?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중국 증시 항셍",
+    "press": "매일경제",
+    "title": "항셍 지고 과창판 뜨고 中 증시도 반도체 쏠림",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1TUTFvZXUxeXhEXzlRZU0tZ29RcUdmWDJGRkI0LV9fTExCNUlrWDc1bFJCQmlFdVo5YkROZkt0UnI3X05tSHlqc29ybC1tSzR6MEE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 알리바바 텐센트",
+    "press": "한겨레",
+    "title": "앨리스 황, 화웨이·딥시크·알리바바 중국 빅테크와 ‘거미줄’ 연루",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LbjgxeGhEMl9DT2Zobk12d0phM3UwSEhBanVrZVQ3dm14dU5KenhVcmg1cTNjd3ZsUlBaRmxSTFpiem9DMkRyWklMc2xacXdKTm1WZ3FldWZyTy1lNUxvbV9scTNXVHJCS1NIRQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 알리바바 텐센트",
+    "press": "Investing.com 한국어",
+    "title": "알리바바·텐센트 주가 하락…미국, 원격 AI 칩 접근 제한 검토 보도",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ObVhBYjlnNUFaTXpnQ0tDT1hmNXVOSmVkRHR4X19zcl9pOHI2d3JnNHRnY3ozYmstQkJXOVpQYkpoYmpORGE0a00zcEdmd0dqYjVRSnl0cVh5X3NtU0hUUmRGYWNSSHkwRlhRMGE2R2U?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 알리바바 텐센트",
+    "press": "매일경제",
+    "title": "中 빅테크 알리바바·텐센트·바이트댄스, 삼전닉스에 D램 장기계약 ‘SOS’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBna01JRmhva2N5ZWtnUzdpNElJRDdtLXppbkh1UmFCNE5oSkQ1UjlBc2ZEQUYtR2hEWDAtMEZVdC15MmRybGROME1MU3YxWWNLamdFWFZR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 알리바바 텐센트",
+    "press": "청년일보",
+    "title": "24만개 AI 칩 알리바바·텐센트 공급…앨리스 황 '해외 동선' 도마 위",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hemlwQllRcXFKQ3hESUNaM2lRVlYxanhWZ1haS1NSd0d1enhQbkVqZ0I2bDBtXzZ1TkxqUHpNQXE2WENyM0JveE9DRmR5ZzNzUExPUnVMMS1FdF9ibjhfU0c0SDJ0WEE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 BYD 비야디",
+    "press": "비즈니스포스트",
+    "title": "불편한 BYD 인포시스템에 구매자들 직접 앱 개발, '제3자 앱 불허' 통보에 \"오죽 답답하면 그러겠나\" 불만 폭발",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5rbUplWG5XVmx0blJSY0lCNUFMWFJwdkcwOU4wbXRBbkJrQUhrR3hoVDJyX0stSnJHYVUzTTRRdG1YOFQwNmNTMXlFUDd1dXNPQ2tjTWd4X2V2dEtWMzZKRjkzdFhUT0RBMDBVZGZFZWd2QXM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 BYD 비야디",
+    "press": "노컷뉴스",
+    "title": "앞뒤 바퀴 잘못 장착한 BYD, 민원 쏟아지자 뒤늦게 사과",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBEOXczSldScDZHa3RPTzRqRzY1N0QybEtuM2VBbDJ0Ty1yekFHVXZiTjdkNDJXaWsxTHBubWFuamotckdNU0VJaVE2eDNpeTJuamc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 BYD 비야디",
+    "press": "한국경제",
+    "title": "\"4500만원짜리 차에 이런 실수를\"…BYD 샀다가 '황당' [차이나 워치]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5ZdDlpRjZGNmhYZ1pEa3FhdmtNTHBHeDJaVVhHek83Z0lwSk9nTUFEU0R5SWF3am15aWxEQ2d2Und2WEVSamQ2anlqWEw2Y1FZeVByWVEyQkI2QQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 BYD 비야디",
+    "press": "Hypebeast.KR",
+    "title": "비야디(BYD)와 지리자동차, 포뮬러 1 진출을 위해 FIA에 접근한 것으로 알려져",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQV92N0V0TXdNYUZSTkZZM1lKRHotREl0QlA2MkF6bmFDY1lSS2ZHeHRWbm8zR2FCYWJZQlpHYmJqWlBFY0J1WnI1MXEydlNsVUd1SFhuRlM4MUpTSndBVnpNSmlhWXFkNFlLU05JOEt2OFBma1RKdkFXeURmenJUQ2Zn?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽 증시",
+    "press": "Investing.com 한국어",
+    "title": "골드만삭스, 2027년 유럽 증시 전망은?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nZG9Yc3JleWY0Rk9JNldJbEpveEd1WnZRVEtXc2pLTkhfb0NqZ3BfSmZyXzVNM0J4bENoY2t5d09xd0JFMWRHSzQ1ZDg2WE9fdHJrbHFfVk1LM3piblRnZW41aXJVdGVSNllPMnpaS18?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽 증시",
+    "press": "뉴스핌",
+    "title": "[글로벌 특징주] 美 기술주 흔들리자 웃는 유럽 증시…'빅테크 부재'가 방패로",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBHTXUxLXo0azhpMEFleEZ5QS1zTnFxeUpYM3FNZFY0YUJOUjZvcjFrakZqN0lNSVdmZlBLdzJFdUlacFNHY2RsbTN5SVlwR3lMMlFzVHN1Zjl4ZEdF?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽 증시",
+    "press": "KB Think",
+    "title": "물가 쇼크·긴축 우려, 미 증시 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5jWlJLRExsWDMwMXpJcWFXSk9qSUllbXQxYXVWUFVrZVEycDA4ZGNZcEwzUjQ5X0tBVEtHQnQ0enF1WmphbHE3WHVuRVhOQm51QUZKR2Z1MzNzTWVLZG1KM0o0b1M4NHA4bTBEeA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽 증시",
+    "press": "오피니언뉴스",
+    "title": "[오늘의 글로벌마켓] 뉴욕증시, 미 3대지수 일제히 하락...물가 압력 부담",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9UVUFEc2p5aGtuV2ZqV0RwMll2RHlSZnpDWTZCUThkNHN4VC0tendxVzA4a29SOVp0U0xJTnhzUllxT2k3NlBTVWlXc1MzUW82RXBKY1BjRzhKZTNGd0pqV3VCUVVjTU5JU3AxcjYwOF9sdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 ASML",
+    "press": "글로벌이코노믹",
+    "title": "ASML 본사 노조 4곳 협상 중단 나흘 만에 한국 노조는 삼성전자에 직접 교섭 요구",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjVRX3NGVEcxWk5YcDdQLUlYSkpnZE9OZERZTFVSMTFVTTR4NlJIYk00eDJ1MmpTTnRYTUFaX2NmTVUxazJSeW5WcmtTV2dKcjloRk8xd2xTNUJ4dGxQQmlQTUZKNVAzNDRFdzVkYTZHTDZFS1JhSTYtRDRRYWFjYXY1cGVETG1Q?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 ASML",
+    "press": "TradingKey",
+    "title": "ASML Holding NV (ASML) 주식 움직였습니다 상승 3.30%에 11월11일: 전체 분석",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2RiYTJYMlExMXBSeHk2c0J1QzF4Y0taWVlQNjVYLTBzbVZBY0g2TDlKQlVJZXJRMS1nV2ZoaDJEY1pTY3hXTlFLU0sxbHdLQnR1cW1GS0U4MlZ2Q1FOOGtjR2I3bHRsYVVXVjAwY3hYTmVsYWNNNVhhNkUzMmNEZG9kbWFGdVdnZG5LNUhScw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 ASML",
+    "press": "Investing.com 한국어",
+    "title": "ASML 주가, 오늘 개장 전 거래에서 4.1% 오른 이유는?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RQ2ZJVVdxYlJRaGxqTXlHVkZEUGdRd0lPUi1CWXQ5aTB3Ti1RbG5DOWxXUHZYcklRUHpqSUs5LVAwaTkycVpOVng1MVQyeXhnMWZRLW1WdU9yb3plX0RsUmRVWkFIcXJKNUxtSWNyZUdiS09CYmFF?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 ASML",
+    "press": "뉴스필드",
+    "title": "삼성전자, 밖에선 원·하청 안전교섭 요구…안에선 7번째 노조 등장에 갈등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNTV9nTDhYX0h4MGlqWUFKb3VIX2ZUUVFYcDlBMkdPTGlnQ0Y1NlIwa2FUZDhqR0JrclpsM0lYeHRyUmdVZUhGR21jcS13eldRQUY2V1h1WXZDM1M1a0dNQmNUYkxQRjR0NEVRZXZjaWhzZXc4R2Y0YVVNeGJWMVdaZlVJWWhsd05fTEhGMERLLTNRMUJLSDJqUEpfdVc4SUx2VjBBTTg4QU1nRVVOaU9iMERYTHVoUUZkTmFRaFNEZG9KX3QyN1ZmY0VLckZ4d2Jucm9yTFdXWHpoalI0TWJvd09rUzFCX1BfWDhkYmluOFZ0eHMxVWhfVS16RUJSTjVtSE5JNEZRQ1ZrTVM1cnlocE1WTmJKUzM4b0xsb21WWGJRVXJabVl1UmlzREVsaHc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 노보노디스크",
+    "press": "히트뉴스",
+    "title": "노보, 위고비만으로 부족… 특허 만료 앞두고 '새 판 짜기'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiUzhPdEZBaTljeU5lUlRycDgwWGhCRzlrQUZUS0dxbFdHZVU0ZjdlejVvZ0VUTVdwTktxNWNwLUU5NWxhM2NoV3puRzI2N0ZNOGcwS2V4VmJIU2pFS0FJbmxnMG8yOW44ZG9Z?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 노보노디스크",
+    "press": "한국경제",
+    "title": "비만약, 주사에서 알약으로?…일라이릴리 vs 노보노디스크 '반전'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14XzFwS0wyRUJWVjRpSXM0Y2dlcy0tWnVwN0d6c2M3VE4tM0ZRT1NwYzl4Vm5DLW9GaVIyR2xCd3MwcWNUMG9OLXJmZTNPS1pTc3NzZ2VlYUdzUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 노보노디스크",
+    "press": "초이스스탁US",
+    "title": "일라이 릴리, 중국에서 첫 경구용 비만약 승인…경쟁사 노보에 앞서",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOaXd4dC16T0U2WGNmNVBsY0hvLTBDbEV3S1p3ek80d2Q5Z1drOXQ4SUpKQ3JtYUN4S3YwVmVNR195NkZEeVlrQkFEV2dVZ3lMM2dZNHJqT1RMbXpQeGs5Rm9iNmhVSGc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 노보노디스크",
+    "press": "포춘코리아",
+    "title": "위고비 신화 이후, 노보노디스크의 험난한 ‘넥스트 스텝’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB6cWo4NGtSVjJaZk5vd2tfWHdLLWJualplbTZwWkxIVmxVSTFzSjQ2SEp1NmRUUVRzaUhMYmZlLWZGWXQtNmN1YjVLSklISnQtTEJueXd0V1RsMm9hYUxvSEhtV3gwZFA4X0JKSTR3TTFid9IBdkFVX3lxTE9rNVdScnkzUDRTTzFEOHNLclM1cjlhTVFmVlptSEZFcFlPMkt6RXltX3dieXFEUGFYUTV2THluclBnUjdURnFvZGthR2h5VzdTbFlKYVhrQnNQeWpsYzJObzBKeG9lWjg3UUpteVlnNWhYLWlDZ3c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 20:21"
+  },
+  {
+    "category": "KR",
     "tag": "삼성전자",
     "press": "Investing.com 한국어",
     "title": "삼성전자, 라이온즈 12년 만의 우승 기념…12일간 고객 감사 행사 By EBN",
@@ -1406,96 +1796,6 @@
     "title": "\"반토막 난 삼성전자, 3개월 내 반등 확률 97%\"…'역대급' 분석 나온 결정적 이유",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0zTWl5MWExUTNRZUdtUVFlbmRjY09LR0hoZEd5NEJWWEtUdU1URFJIMC1YaEhZamxjSjI3QURKY1hMLXc5bzJHSjlhWlh6aUV1aHRjU0Y3SEZQdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "삼성전자",
-    "press": "세계일보",
-    "title": "국내·외 증권사 목표가 ‘들쭉날쭉’…길 잃은 ‘삼전닉스’ 개미들",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XZ3VUT0ZJYm03MnRoQkpuSlF0QW5zdUtqaklQWFpyVjU5bFltT2ZaRTJ6cld5ZHJpcG9ockZvd3BsUG5IS1ZjV0ljWUZGUVBhd0dRUW1WS3nSAVRBVV95cUxPcnFXWUNxQ0VBeDhxSVNibmdYRm03RUtDS0lTVjE3LVkxeGNQaHlfOWNjVXFLRFExSUpJam9LQ1NfZ0RmV1RkM0w3NU5wbUVxZk5RZGM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "삼성전자",
-    "press": "머니투데이",
-    "title": "'깐부' 삼전닉스는 문제없나...'AI 락스타' 젠슨 황 퇴진에 복잡해진 셈법 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZZDUyZ2FHSHJNRW92LTF2V2Uta3FUTHRlZkNxN1FsclRJWEtoTW9vNGVZcXR2UlBNd2JPSUJQRnJCbWwxdmpHRms4LUY2bUd6WTlUcGRDVHdoLUhXVmg4YjVKQWFCb1lTR2RsbtIBckFVX3lxTE9xb09xSE9GRnl6eXh1b29BLXc0OVItVlJYMWo3WEhiOEhYeVpDa3JYTVd0S3ZiVW1zX0QtUzZQQTFyWkpwaVNldFV5TzYzT1ctQ05lWHJ3QTJuSnB4NVBXTHRzRGh0RFJlT0tFYkVQQkoydw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "SK하이닉스",
-    "press": "연합뉴스",
-    "title": "SK하이닉스, '파격적 성과급' 기대감 속 하반기 생산직 채용",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vdGd0a2hvcUc3TFl1SUlOVExDa3NnQUVkaUQ3WE41MjlPLThmSnBxU1NmLVc5RkY2OU4wbl9vZEZkS21BV1JRNGxYQmQxS2Y1LV9nRW9aaVJoSzjSAWBBVV95cUxPQy1lUlk1RDh5aW1tQktCQ09Ed1NjSnM2ZXZWWWJXWW9Id01nQm9BN3htb0hJWVRUR0l4X2xMb3MwS2tkOEVibEw0SG9rbVBWaU4xMUJXUkNrUnhIckpkcWI?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "SK하이닉스",
-    "press": "SK hynix",
-    "title": "“오작동도, 해킹도 막는다”… SK하이닉스, 안전 · 보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWEg0MlFpUXBoUW1pSklUNXBaSXdyandhM004eS1aZk5lbm85ZkZyM1ZIODZhZ1BHTkVRcnRHT0M3c2lIRTEyeTFnYW5yOEJseEF5dGU2OG9KRmtNd0RPTnJmaU4yclE2cVh0NA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "SK하이닉스",
-    "press": "중앙일보",
-    "title": "“10년 모은 4억, 하닉 투자했다 1억 남아” 30대 직장인의 한탄",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWc3pocEdlQjBNVllsWmVINjZhWnFQb082YXItWEFrNUplcE8yVDd3ZzlfcW5qQlJWTGlIS1ljZms0NGM1ZUxGZmE5ODJNLWpzeWkwLXZR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "조선일보",
-    "title": "[사설] \"왜 차값이 비싸냐\"는 현대차 노조, 정말 회사 걱정 안되나",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZTBwYjJyYjNUUUs4YzdQS2QyZXpjZVFzZzZxczFBOGVSYjNWVG1jQ3lVaThJa01SREV0bk5pRlBUaUFXdUNfZVl2TzdOaU9PRndjeEE3cGMxd2E2dlJhclhMelBXMGFvblZ1aEFsTWhtbFhoeXJsb3d4cFRndEJ0M1g2anhCUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "동아일보",
-    "title": "정무성 현대차 정몽구재단 이사장 별세… 향년 68세",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fbE9jdF9NM0ZCN1E3UUJydGxrOEdoQ2dVWDVvUlQ5UHhfdkFfU2RQcXlqM1ZUajI4N3Q1ZUM1dU5mREMzNm1mcHlyektiZndhREc2STFxS1gycF84NGhhcG9XMUFUVWtpMm80MVkteWZWRUlj0gFmQVVfeXFMTU1obWtfdGFhb1RWdWpDTkQwVUkyaVltMnhBazE1dGZCdklBM3Ixamg1cFFmdUxMTFdvR2hkNEtHMS1UREM2eFpQcXpYMkZJa2JVUC12bjBkcW1JZnZHYUVDS1UzWkxR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "오토뷰",
-    "title": "현대차, 쏘카·에이펙스모빌리티와 국내 자율주행 생태계 키운다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvNUc1Z0lURG5kd2VaVGxVeEl6N0prWmVaMkhScHBCYm5ibzd3TkhxeGpWX1hpeTNJWHc2TVNGcUhWcXlRUGQ4cVQ3Vm9hSDdVY2xhZDg5YlVFMFV6?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "매일경제",
-    "title": "[단독] 현대차 AVP본부, 조직개편 단행",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjSE16LW1ZdWZnN1NTaUF3OU9qZ1VFUnR3ZWJyQUZiM0ZNQ0tpNWJjdlB3ZG9mYVZILWdvOFkycEYyT082aDF5c3FhaVBpQmFqT1BEWVZR?oc=5",
     "impact": "📰 일반",
     "time": "11/14 18:14"
   }
