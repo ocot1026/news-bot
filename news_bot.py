@@ -9,7 +9,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v4.0 - Finviz 통합 에디션]
+# [나만의 세이브티커 v4.1 - 한글↔티커 자동 연동 에디션]
 # ==========================================
 
 # 1. 매크로 & 거시경제 핵심 키워드
@@ -116,7 +116,6 @@ def fetch_finviz_ticker(ticker):
         with urllib.request.urlopen(req, timeout=12) as res:
             page_html = res.read().decode("utf-8", errors="ignore")
 
-        # 1. 스냅샷 테이블 파싱 (Price, Target Price, Forward P/E, Short Float, Earnings)
         snap_match = re.search(r'<table[^>]*class="[^"]*snapshot-table2[^"]*"[^>]*>(.*?)</table>', page_html, re.S)
         if snap_match:
             cells = re.findall(r'<td[^>]*>(.*?)</td>', snap_match.group(1), re.S)
@@ -132,7 +131,6 @@ def fetch_finviz_ticker(ticker):
             earnings = kv_map.get("Earnings", "-")
             change = kv_map.get("Change", "-")
 
-            # 목표주가 괴리율(%) 계산
             upside_str = ""
             try:
                 p_val = float(price.replace(",", ""))
@@ -153,7 +151,6 @@ def fetch_finviz_ticker(ticker):
                 "earnings": earnings
             }
 
-        # 2. 뉴스 테이블 파싱 (#news-table)
         news_match = re.search(r'<table[^>]*id="news-table"[^>]*>(.*?)</table>', page_html, re.S)
         if news_match:
             rows = re.findall(r'<tr[^>]*>(.*?)</tr>', news_match.group(1), re.S)
@@ -182,13 +179,12 @@ def fetch_finviz_ticker(ticker):
                     "impact": classify_impact(en_title)
                 })
     except Exception as e:
-        print(f"[Finviz-{ticker}] 수집 건너뜀(차단 또는 지연): {e}")
+        print(f"[Finviz-{ticker}] 수집 건너뜀: {e}")
 
     return snapshot, news_list
 
 
 def fetch_yahoo_us_news(ticker):
-    """Yahoo Finance 미국 현지 속보 RSS (Finviz 보완 및 이중화 소스)"""
     rss_url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US"
     results = []
     try:
@@ -276,7 +272,7 @@ def fetch_dart():
 
 
 def build_saveticker_html(feed_items, snapshots_map, updated_time):
-    """Finviz 펀더멘털 스냅샷 카드 + 자동 번역 피드 + 실시간 온디맨드 검색 웹 UI"""
+    """한글 기업명 ↔ 미국 티커 자동 연동 검색이 탑재된 세이브티커 웹 UI"""
     snap_cards_html = ""
     for ticker in US_TICKERS:
         s = snapshots_map.get(ticker)
@@ -332,7 +328,7 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker v4.0 - Finviz & 실시간 금융 피드</title>
+<title>My SaveTicker v4.1 - 한글·티커 자동 연동 금융 피드</title>
 <style>
   body {{ background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }}
   .header {{ background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 20px; position: sticky; top: 0; z-index: 100; }}
@@ -343,7 +339,7 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
   .controls {{ display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }}
   .tab {{ background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 6px 12px; border-radius: 16px; font-size: 13px; cursor: pointer; }}
   .tab.active {{ background: #1f6feb; border-color: #388bfd; color: #fff; font-weight: 600; }}
-  .search-wrap {{ display: flex; flex: 1; min-width: 220px; gap: 6px; }}
+  .search-wrap {{ display: flex; flex: 1; min-width: 240px; gap: 6px; }}
   .search-box {{ flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 13px; outline: none; }}
   .search-box:focus {{ border-color: #58a6ff; }}
   .search-btn {{ background: #238636; border: none; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }}
@@ -389,7 +385,7 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
         <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(Finviz/번역)</button>
         <div class="search-wrap">
-          <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명 입력 후 Enter...">
+          <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="엔비디아, NVDA, 테슬라 입력 후 Enter...">
           <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
         </div>
       </div>
@@ -409,6 +405,67 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
 <script>
   let currentCat = 'ALL';
 
+  // 한글 기업명(자주 쓰는 표기 및 오타 포함) → 미국 공식 티커 매핑 사전
+  const KO_TO_TICKER = {{
+    '엔비디아': 'NVDA', '앤비디아': 'NVDA', '엔비': 'NVDA',
+    '테슬라': 'TSLA', '애플': 'AAPL',
+    '마이크로소프트': 'MSFT', '마소': 'MSFT',
+    '아마존': 'AMZN', '구글': 'GOOGL', '알파벳': 'GOOGL',
+    '메타': 'META', '페이스북': 'META',
+    '브로드컴': 'AVGO', '팔란티어': 'PLTR', '일라이릴리': 'LLY',
+    '넷플릭스': 'NFLX', '코스트코': 'COST', '월마트': 'WMT',
+    '퀄컴': 'QCOM', '인텔': 'INTC', '마이크론': 'MU', '슈퍼마이크로': 'SMCI',
+    '오라클': 'ORCL', '세일즈포스': 'CRM', '어도비': 'ADBE', '서비스나우': 'NOW',
+    '스노우플레이크': 'SNOW', '크라우드스트라이크': 'CRWD', '팔로알토': 'PANW',
+    '아이온큐': 'IONQ', '리게티': 'RGTI', '디웨이브': 'QBTS',
+    '로켓랩': 'RKLB', '조비': 'JOBY', '아처': 'ACHR',
+    '뉴스케일': 'SMR', '오클로': 'OKLO', '비스트라': 'VST', '컨스텔레이션': 'CEG',
+    '코인베이스': 'COIN', '마이크로스트래티지': 'MSTR', '스트래티지': 'MSTR', '로빈후드': 'HOOD',
+    '유나이티드헬스': 'UNH', '노보노디스크': 'NVO', '버크셔': 'BRK-B',
+    '보잉': 'BA', '록히드마틴': 'LMT', '캐터필러': 'CAT', '디즈니': 'DIS',
+    '스타벅스': 'SBUX', '나이키': 'NKE', '쿠팡': 'CPNG', '유니티': 'U', '로블록스': 'RBLX',
+    '티에스엠씨': 'TSM', '에이에스엠엘': 'ASML', '암': 'ARM', '리비안': 'RIVN', '루시드': 'LCID',
+    '나스닥': 'QQQ', '에스앤피': 'SPY', '반도체': 'SOXX'
+  }};
+
+  // 검색어 정규화 (예: '앤비디아' -> 공식 한글명 '엔비디아' + 티커 'NVDA' 동시 도출)
+  function resolveQueryContext(raw) {{
+    const cleaned = raw.replace('$', '').trim();
+    const upper = cleaned.toUpperCase();
+    const compact = cleaned.replace(/\\s+/g, '');
+
+    if (/^[A-Z0-9.\\-]{{1,8}}$/.test(upper)) {{
+      const matchedKo = Object.keys(KO_TO_TICKER).find(k => KO_TO_TICKER[k] === upper) || '';
+      return {{ ticker: upper, krKeyword: matchedKo || cleaned }};
+    }}
+
+    if (KO_TO_TICKER[compact]) {{
+      const tk = KO_TO_TICKER[compact];
+      // 흔한 오타('앤비디아')는 표준 검색어('엔비디아')로 보정해 한국 뉴스 검색률도 극대화
+      const normalizedKr = (compact === '앤비디아') ? '엔비디아' : cleaned;
+      return {{ ticker: tk, krKeyword: normalizedKr }};
+    }}
+
+    return {{ ticker: '', krKeyword: cleaned }};
+  }}
+
+  // 사전에 없는 기업명을 입력했을 때 야후 파이낸스 심볼 검색으로 티커 자동 추출
+  async function autoDetectTicker(queryText) {{
+    try {{
+      const enName = await translateKoToEn(queryText);
+      const searchUrl = `https://query2.finance.yahoo.com/v1/finance/search?q=${{encodeURIComponent(enName)}}&quotesCount=3&newsCount=0`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${{encodeURIComponent(searchUrl)}}`;
+      const res = await fetch(proxyUrl);
+      const wrapper = await res.json();
+      const parsed = JSON.parse(wrapper.contents);
+      if (parsed && parsed.quotes && parsed.quotes.length > 0) {{
+        const equity = parsed.quotes.find(q => q.quoteType === 'EQUITY' || q.quoteType === 'ETF');
+        return equity ? equity.symbol : parsed.quotes[0].symbol;
+      }}
+    }} catch (e) {{}}
+    return '';
+  }}
+
   function quickFilter(tickerStr) {{
     resetSearch(false);
     document.getElementById('searchInput').value = tickerStr;
@@ -424,10 +481,22 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
   }}
 
   function localFilter() {{
-    const q = document.getElementById('searchInput').value.toLowerCase().trim();
+    const raw = document.getElementById('searchInput').value.trim();
+    if (!raw) {{
+      document.querySelectorAll('.saved-card').forEach(card => {{
+        card.style.display = (currentCat === 'ALL' || card.dataset.cat === currentCat) ? 'block' : 'none';
+      }});
+      return;
+    }}
+    const ctx = resolveQueryContext(raw);
+    const q1 = raw.toLowerCase();
+    const q2 = ctx.ticker.toLowerCase();
+    const q3 = ctx.krKeyword.toLowerCase();
+
     document.querySelectorAll('.saved-card').forEach(card => {{
       const matchCat = (currentCat === 'ALL' || card.dataset.cat === currentCat);
-      const matchText = card.dataset.text.includes(q);
+      const txt = card.dataset.text;
+      const matchText = txt.includes(q1) || (q2 && txt.includes(q2)) || (q3 && txt.includes(q3));
       card.style.display = (matchCat && matchText) ? 'block' : 'none';
     }});
   }}
@@ -440,7 +509,7 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
     localFilter();
   }}
 
-  async function translateText(enText) {{
+  async function translateEnToKo(enText) {{
     try {{
       const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=en&tl=ko&dt=t&q=${{encodeURIComponent(enText)}}`;
       const res = await fetch(url);
@@ -448,6 +517,17 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
       return data[0].map(p => p[0]).join('') || enText;
     }} catch (e) {{
       return enText;
+    }}
+  }}
+
+  async function translateKoToEn(koText) {{
+    try {{
+      const url = `https://translate.googleapis.com/translate_a/single?client=gtx&sl=ko&tl=en&dt=t&q=${{encodeURIComponent(koText)}}`;
+      const res = await fetch(url);
+      const data = await res.json();
+      return data[0].map(p => p[0]).join('') || koText;
+    }} catch (e) {{
+      return koText;
     }}
   }}
 
@@ -464,35 +544,41 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
     const feedList = document.getElementById('feedList');
 
     banner.style.display = 'flex';
-    statusText.textContent = `⏳ '${{rawQuery}}' 실시간 최신 속보 수집 및 한글 번역 중...`;
     liveResults.innerHTML = '';
     feedList.style.display = 'none';
 
-    const cleanTicker = rawQuery.replace('$', '').toUpperCase();
-    const isEnglishTicker = /^[A-Z0-9.\\-]{{1,8}}$/.test(cleanTicker);
+    let ctx = resolveQueryContext(rawQuery);
+    statusText.textContent = `⏳ '${{rawQuery}}' 종목 매칭 및 실시간 속보 수집 중...`;
 
-    const krRss = `https://news.google.com/rss/search?q=${{encodeURIComponent(rawQuery)}}&hl=ko&gl=KR&ceid=KR:ko`;
+    if (!ctx.ticker) {{
+      const detected = await autoDetectTicker(rawQuery);
+      if (detected) ctx.ticker = detected;
+    }}
+
+    const labelStr = ctx.ticker ? `${{ctx.krKeyword}} ($${{ctx.ticker}})` : ctx.krKeyword;
+    statusText.textContent = `⏳ ${{labelStr}} 국내·미국 현지 속보 수집 및 한글 번역 중...`;
+
+    const krRss = `https://news.google.com/rss/search?q=${{encodeURIComponent(ctx.krKeyword)}}&hl=ko&gl=KR&ceid=KR:ko`;
     const krApi = `https://api.rss2json.com/v1/api.json?rss_url=${{encodeURIComponent(krRss)}}`;
-
-    const usRss = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${{encodeURIComponent(cleanTicker)}}&region=US&lang=en-US`;
-    const usApi = `https://api.rss2json.com/v1/api.json?rss_url=${{encodeURIComponent(usRss)}}`;
 
     let combinedItems = [];
 
     try {{
       const requests = [fetch(krApi).then(r => r.json()).catch(() => null)];
-      if (isEnglishTicker) {{
+      if (ctx.ticker) {{
+        const usRss = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${{encodeURIComponent(ctx.ticker)}}&region=US&lang=en-US`;
+        const usApi = `https://api.rss2json.com/v1/api.json?rss_url=${{encodeURIComponent(usRss)}}`;
         requests.push(fetch(usApi).then(r => r.json()).catch(() => null));
       }}
 
       const [krData, usData] = await Promise.all(requests);
 
       if (usData && usData.status === 'ok' && usData.items) {{
-        const topUs = usData.items.slice(0, 6);
-        const translatedTitles = await Promise.all(topUs.map(item => translateText(item.title)));
+        const topUs = usData.items.slice(0, 7);
+        const translatedTitles = await Promise.all(topUs.map(item => translateEnToKo(item.title)));
         topUs.forEach((item, idx) => {{
           combinedItems.push({{
-            tag: `$${{cleanTicker}}`,
+            tag: `$${{ctx.ticker}}`,
             press: 'Yahoo Finance (US)',
             title: translatedTitles[idx],
             subTitle: translatedTitles[idx] !== item.title ? item.title : '',
@@ -512,7 +598,7 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
             title = parts.join(' - ');
           }}
           combinedItems.push({{
-            tag: rawQuery,
+            tag: ctx.krKeyword,
             press: press,
             title: title,
             subTitle: '',
@@ -523,11 +609,11 @@ def build_saveticker_html(feed_items, snapshots_map, updated_time):
       }}
 
       if (combinedItems.length === 0) {{
-        statusText.textContent = `⚠️ '${{rawQuery}}'에 대한 최신 뉴스를 찾지 못했습니다.`;
+        statusText.textContent = `⚠️ '${{labelStr}}'에 대한 최신 뉴스를 찾지 못했습니다.`;
         return;
       }}
 
-      statusText.textContent = `✅ '${{rawQuery}}' 실시간 검색 및 번역 결과 (${{combinedItems.length}}건)`;
+      statusText.textContent = `✅ ${{labelStr}} 실시간 통합 검색 결과 (${{combinedItems.length}}건)`;
       liveResults.innerHTML = combinedItems.map(item => `
         <div class="news-card">
           <div class="card-top">
@@ -567,14 +653,13 @@ def main():
     for corp in KR_COMPANIES:
         collected.extend(fetch_google_news(corp, "KR"))
 
-    # 미국 티커: Finviz 스냅샷 + Finviz 월가 뉴스 + Yahoo Finance 이중화 수집
     for ticker in US_TICKERS:
         snap, finviz_news = fetch_finviz_ticker(ticker)
         if snap:
             snapshots_map[ticker] = snap
         collected.extend(finviz_news)
         collected.extend(fetch_yahoo_us_news(ticker))
-        time.sleep(1.5)  # Finviz IP 차단 방지용 안전 간격
+        time.sleep(1.5)
 
     for item in collected:
         if item["link"] not in sent_links:
@@ -582,7 +667,6 @@ def main():
             new_items.append(item)
             sent_links.add(item["link"])
 
-            # 텔레그램 발송 시 미국 티커는 Finviz 핵심 스냅샷 요약도 함께 첨부
             snap_note = ""
             if item["category"] == "US":
                 raw_t = item["tag"].replace("$", "")
