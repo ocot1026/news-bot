@@ -1,6 +1,46 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "“트럼프, 시진핑 회담서 젠슨 황 ‘스파이 연루 의혹’ 거론 안 할듯”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPdDgxd1hwUEhBRnhwdDFuRE85Yk1uYlN0a0w5OVl4eGVXR1MzVEVSUmExRER3NGlQT1FrbmtMRHhjOFFSY21tNUY2TFY3MkdjTTFCZnhnVTFKUE0yQTVGT1hfSHM5S24yeGttdDdkcThqd0ZhODNBdHFtOGVqd1NXTzlR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 05:18"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스TV",
+    "title": "미 교통장관 \"항공운항 서서히 정상화…일부 지연·결항 지속\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1CdnowMm5Md19TVkhEMzkySlFFUHlWd19LYmg3VUtfVVFyM1BVV09fNE9wY2g3X2x3bzBQTHJvakZ1WHVqdS1fTmRsZ3BjXzctdklPcGoxNGY1dGtJbE5EaDdoX21QWjg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 05:18"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 이탈리아",
+    "press": "연합뉴스",
+    "title": "이탈리아, 메타에 1조 과징금…\"이용자 사진에 무단 접근\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mdjZYRWh3TnFPM0ZSY1VhZ1c3amZNalp3eHc1cjdYWlk3UXBHSHZTTHJ1VW4wcHBSOENPRUQ4REZCR3hRUExJbV8xQ0c4dWJQRmVxMFU0Mi1MbmPSAWBBVV95cUxQV29aaGM5RHhvVkVtMlExcG05b2p3X3kwa3pnWFJtNWxnRHUtR3VqQnYwNUxsRzBwN2I3TlU1cmxzX3ZHd3lyTW9pbk8zNWE3ZXdRV2JETHRlQzRsVTBmVlo?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 05:18"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "L3Harris faces Duffy’s questions over the FAA outage",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/technology/articles/duffy-probing-possible-l3harris-incompetence-172422046.html",
+    "impact": "📰 일반",
+    "time": "11/15 05:18"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 이탈리아",
     "press": "연합뉴스TV",
     "title": "이탈리아, 메타에 과징금 1조 부과…\"이용자 사진에 무단 접근\"",
@@ -2956,46 +2996,6 @@
     "title": "Tesla Cybercab Now Available For Purchase For Select Customers But Theres A Catch",
     "sub_title": "",
     "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-cybercab-now-available-purchase-060937273.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$TSLA",
-    "press": "Finviz · The Wall Street Journal",
-    "title": "Tesla Opens Sales Of Autonomous Cybercab For 'Select' Customers",
-    "sub_title": "",
-    "link": "https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=wsj_FV",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$TSLA",
-    "press": "Finviz · Stocktwits",
-    "title": "Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/zero-sixty-tesla-winds-down-004556808.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$TSLA",
-    "press": "Yahoo Finance",
-    "title": "Tesla Cybercab Now Available For Purchase For Select Customers — But There’s A Catch",
-    "sub_title": "",
-    "link": "https://stocktwits.com/news-articles/markets/equity/tesla-cybercab-purchase-select-customers-but-catch/cNb26QDR9Qf?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$TSLA",
-    "press": "Yahoo Finance",
-    "title": "Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes",
-    "sub_title": "",
-    "link": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-winds-down-cybertruck-pulls-model-y-variant-while-rivian-lucid-chase-volumes-in-ev-updates-this-week/cNb2AojR9QP?.tsrc=rss",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
