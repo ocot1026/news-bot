@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "Chosunbiz",
+    "title": "이마트 가양점 부지, 지식산업센터 대신 27층·645가구 주상복합 추진",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQWJ0S29EbkVXNUxUZ2Y2ZVkyaVFqSk15eGpyekRDQ2hrME9Db2R3T2lxemRjaTF2ZW5relBEeENhQk4zNUdtZjdSdk9zM3hSN3piR1ZPUXFuWVhlbGV5Q09Xek4wa2hiMUNpa3VOa1dZMWpaQXdKVW1KZm1iSEppZExISGFSazM2Q3VuVXhUdFV3MmlDQnNULdIBrAFBVV95cUxPSUtYU0Y4Q19YSjZWdHczdG5VbnNoU0dIanVMX2k4ZkRIcENSRjRITDZFUkRlcWR5Smhqb2VOeEdvTEUydF9VNDdRSWhYRWNITjdTX1JoUG5SNEFtZTl0MnZoQllxc1NxTUJGeDh1eHNFUC0tRm9mMmF5M3JxTml1QXE4QjF4VV9FMDA5OU92TWlLRkNDZjV4ZzFpb3AwallvNUpfbUw0VGVPRTNf?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 00:13"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 뉴욕증시",
+    "press": "연합뉴스",
+    "title": "뉴욕증시, 다우지수만 0.1% 상승…엔비디아 2%↓, 하락 지속(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9VVnB2UXhZcUlKbm9ORGlTUEw4R3pEOGpDcVI2WVFTZ2lVVWl3c0hFYUwxMk5jWXRWdHZjcVVXNU8zYW5WaWl3R2VZZjlTWElZZ0xWZFlTZEd5SzTSAWBBVV95cUxPYzI3aFBvQlpEOUhQdFFfNE5MUkVNTU9HM2xiZWVIYzliUlR2ZjNRYW9UQUNUNm9jYlJ6VU1wWnRxUFByZXVyYVU3RXluejVaN0kwX0VSMFpiXzlKUE5yT0E?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 00:13"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스핌",
+    "title": "[코인 시황] 비트코인 일시 6만7000달러대로 급락…ETF 자금 이탈에 13억달러 강제 청산",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5PS0RvcXpKbDRfbUZfVVhNUXltNmZGN1JNVFl2REZEVHJZM3Q2bUVPakZRaEx3STllRGZyZnBLSHBwSndJeGIwTUZPT3h0a0hhLXFzMHRnbm9Jc3B2?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 00:13"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "세계일보",
+    "title": "\"파격가에 의료통역 지원까지\"…비만약 원정처방 마케팅 확산",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBPSWlUazdIR00zQnJtbkxmV2JCRmQ5bUxodkF0bnJvYkdBQkprM2RKZXBaSDNuekEzZjBFVVBscVBSaGxDQUZPa04wV0xlNmJkbDM2YW16eXjSAVRBVV95cUxPZ2x6ZHZ2SEt3VTVEMmhwZk1neFJVbkdzakxwRkVMeDRWU2w3VEhsNmhxSFVwV1pZa0tPSklWWDVvakZPNHdvX1RGWU5uaHNUemoyc3Y?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 00:13"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 이탈리아",
+    "press": "KBC광주방송",
+    "title": "이탈리아, 메타에 1조 과징금…\"이용자 사진에 무단 접근\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9kLThNX19jQURiWjBENFhYcXRNcHVQVVl4WUtRSjE2cWRYNlp1MjZ1RUl4TzAwaG9GMTlxcVl5X2RIajByMnhZUHZiWllyV0JPUk5rWG5jZnB1OUZaZE1NRTFn?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 00:13"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "SpaceX’s S&P 500 Bid Gets New Life as Musk Pitches Tesla Merger",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-14/spacex-s-s-p-500-bid-gets-new-life-as-musk-pitches-tesla-merger",
+    "impact": "📰 일반",
+    "time": "11/15 00:13"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "The Oil Market Is Brimming With Crude Despite Tanker Attacks",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-14/the-oil-market-is-brimming-with-crude-despite-tanker-attacks",
+    "impact": "📰 일반",
+    "time": "11/15 00:13"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 트럼프",
     "press": "경기일보",
     "title": "트럼프, 엔비디아 주식 최대 67억어치 사들인 뒤 AI 반도체 규제 폐지 논란",
@@ -2928,75 +2998,5 @@
     "link": "https://finance.yahoo.com/markets/stocks/articles/ipo-edge-nyse-firesides-scheduled-222131276.html",
     "impact": "📰 일반",
     "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$PLTR",
-    "press": "Yahoo Finance",
-    "title": "PLTR's Rule of 40 Hits 158%: Can This Momentum Continue?",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/pltrs-rule-40-hits-158-174000798.html?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$PLTR",
-    "press": "Yahoo Finance",
-    "title": "The Same $10,000 in Nvidia and Palantir Could Produce Very Different Results by 2030",
-    "sub_title": "",
-    "link": "https://247wallst.com/investing/2026/11/13/the-same-10000-in-nvidia-and-palantir-could-produce-very-different-results-by-2030/?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$PLTR",
-    "press": "Yahoo Finance",
-    "title": "Cathie Wood Is Buying the CoreWeave Dip and Selling Palantir",
-    "sub_title": "",
-    "link": "https://247wallst.com/investing/2026/11/13/cathie-wood-is-buying-the-coreweave-dip-and-selling-palantir/?.tsrc=rss",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "국제뉴스",
-    "title": "한화에어로스페이스, 육군본부 과장단 첫 초청…민·관·군 수출 협력 강조",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SWUVPeTg1RjRxOTIxZEgxN3RIWkZfME5GTmxCZ1JfaGdnejNzQVJ3a0wzY1dfbHJ1ckJhYWxhQkdsQ0drbGNMMjFNX2ljMTNNTEpaT3ByR3BCam84MG9GQlcyY25VWDBobGdPTk1B?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:17"
-  },
-  {
-    "category": "MACRO",
-    "tag": "연준 금리",
-    "press": "연합인포맥스",
-    "title": "BofA \"연준, 다음 달부터 3회 연속 금리 인상\"…1월 전망 추가",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUGQ3T1lmeDBuT3dOUklaQ0hOUEFxS1dTcUpmMXFFci1EX05QNjlIaUgzQ1ZkNFZpNFN6ZlVVU2ZfMzRYRE1yajc3SElEd1FyNE40anQtbE1vek1LMGNGRTZtQ2xzbG11QUxkdUw4dG0?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "연준 금리",
-    "press": "중앙일보",
-    "title": "美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FQ1JaS0c1LVFidjF3TlJkNkNlVmMtamFMaVZ1YmZHTDRLRHNKRWI4Z1NtcXg1UThFbmIzZnRhVk02TDNMWno5SGc5LUpOZUNiZUZMaGlB?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "연준 금리",
-    "press": "블루밍비트",
-    "title": "연준 '매파 합창'…12월 넘어 내년까지 금리 올리나",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kU255UTNZUjVTMzVEcGs5ekpsQ085dmNURGkxcHFIb1hfMG1CVUJtYmJ6Ml9xMTFMUUZnMjBTVkE4TXM3Rm9MV0Y1NnBSRFlD?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:14"
   }
 ]
