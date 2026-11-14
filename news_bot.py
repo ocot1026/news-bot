@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 from collections import Counter
 
 # ==========================================
-# [나만의 세이브티커 v8.0 - 섹터 정보량 히트맵 & 상승 키워드 툴팁 에디션]
+# [나만의 세이브티커 v9.1 - 웹 대시보드 전용 에디션 (텔레그램 발송 제거)]
 # ==========================================
 
 # 1. 미국 거시경제 공식 발표치 (curr: 이번 발표치, prev: 직전 발표치)
@@ -40,68 +40,142 @@ KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로�
 US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
 IGNORE_WORDS = ["부고", "인사", "포토", "동정", "모집", "이벤트", "할인", "광고"]
 
-# 3. 9대 핵심 섹터 정의 (스케치 레이아웃 반영: 가로 블록형 히트맵)
-SECTORS_CONFIG = [
+# 3-A. 🇰🇷 국내 증시 전용 9대 섹터
+KR_SECTORS_CONFIG = [
     {
-        "id": "SEMI",
+        "id": "KR_SEMI",
         "name": "반도체",
-        "query": "반도체 OR HBM OR 엔비디아 OR SK하이닉스 OR 삼성전자",
-        "keywords": ["반도체", "HBM", "엔비디아", "NVDA", "SK하이닉스", "삼성전자", "HPSP", "파운드리", "메모리", "AI칩", "TSMC", "AMD", "마이크론", "전공정", "후공정", "CXL", "유리기판"]
+        "rss_query": "반도체 OR HBM OR SK하이닉스 OR 삼성전자",
+        "search_kw": "반도체",
+        "keywords": ["반도체", "HBM", "SK하이닉스", "삼성전자", "HPSP", "파운드리", "메모리", "CXL", "유리기판", "전공정", "후공정", "온디바이스"]
     },
     {
-        "id": "IT",
-        "name": "IT·AI",
-        "query": "인공지능 AI OR 네이버 OR 카카오 OR 소프트웨어",
-        "keywords": ["AI", "인공지능", "네이버", "NAVER", "카카오", "소프트웨어", "클라우드", "데이터센터", "MSFT", "AAPL", "PLTR", "팔란티어", "로봇", "보안", "플랫폼", "LLM", "자율주행"]
-    },
-    {
-        "id": "SHIP",
+        "id": "KR_SHIP",
         "name": "조선·방산",
-        "query": "조선 수주 OR 방산 수출 OR 한화에어로스페이스",
-        "keywords": ["조선", "방산", "한화에어로스페이스", "HD현대", "한화오션", "수주", "LNG선", "K방산", "현대로템", "LIG넥스원", "우주", "항공", "잠수함", "미사일", "탱크"]
+        "rss_query": "조선 수주 OR 방산 수출 OR 한화에어로스페이스",
+        "search_kw": "한화에어로스페이스",
+        "keywords": ["조선", "방산", "한화에어로스페이스", "HD현대", "한화오션", "수주", "LNG선", "K방산", "현대로템", "LIG넥스원", "잠수함", "미사일"]
     },
     {
-        "id": "BATTERY",
+        "id": "KR_BATT",
         "name": "2차전지",
-        "query": "2차전지 OR 배터리 OR 에코프로 OR LG에너지솔루션",
-        "keywords": ["2차전지", "배터리", "LG에너지솔루션", "에코프로", "양극재", "전고체", "리튬", "ESS", "전기차배터리", "포스코퓨처엠", "삼성SDI", "음극재", "원통형"]
+        "rss_query": "2차전지 OR 배터리 OR 에코프로 OR LG에너지솔루션",
+        "search_kw": "2차전지",
+        "keywords": ["2차전지", "배터리", "LG에너지솔루션", "에코프로", "양극재", "전고체", "리튬", "ESS", "포스코퓨처엠", "삼성SDI", "음극재"]
     },
     {
-        "id": "MOBILITY",
+        "id": "KR_MOBIL",
         "name": "모빌리티",
-        "query": "현대차 OR 기아 OR 테슬라 전기차",
-        "keywords": ["현대차", "기아", "테슬라", "TSLA", "전기차", "하이브리드", "완성차", "모빌리티", "로보택시", "자율주행", "부품", "타이어", "수소차"]
+        "rss_query": "현대차 OR 기아 OR 자동차 수출",
+        "search_kw": "현대차",
+        "keywords": ["현대차", "기아", "하이브리드", "전기차", "완성차", "모빌리티", "자율주행", "현대모비스", "부품", "수출"]
     },
     {
-        "id": "BIO",
-        "name": "바이오",
-        "query": "제약 바이오 OR 삼성바이오로직스 OR 셀트리온",
-        "keywords": ["바이오", "제약", "삼성바이오로직스", "셀트리온", "임상", "신약", "FDA", "기술수출", "비만치료제", "알테오젠", "유한양행", "CDMO", "의료기기"]
+        "id": "KR_BIO",
+        "name": "바이오·제약",
+        "rss_query": "제약 바이오 OR 삼성바이오로직스 OR 셀트리온",
+        "search_kw": "바이오",
+        "keywords": ["바이오", "제약", "삼성바이오로직스", "셀트리온", "임상", "신약", "기술수출", "알테오젠", "유한양행", "CDMO", "비만치료제"]
     },
     {
-        "id": "FINANCE",
-        "name": "금융·지주",
-        "query": "금융지주 밸류업 OR 은행 증권 배당",
-        "keywords": ["금융", "은행", "증권", "보험", "밸류업", "배당", "자사주", "KB금융", "신한지주", "메리츠", "지주사", "금리", "주주환원"]
+        "id": "KR_IT",
+        "name": "IT·플랫폼",
+        "rss_query": "네이버 OR 카카오 OR 국내 AI 소프트웨어",
+        "search_kw": "네이버",
+        "keywords": ["네이버", "NAVER", "카카오", "AI", "인공지능", "플랫폼", "클라우드", "소프트웨어", "게임", "크래프톤", "보안"]
     },
     {
-        "id": "MATERIAL",
+        "id": "KR_FIN",
+        "name": "금융·밸류업",
+        "rss_query": "금융지주 밸류업 OR 은행 증권 배당",
+        "search_kw": "금융지주",
+        "keywords": ["금융", "은행", "증권", "보험", "밸류업", "배당", "자사주", "KB금융", "신한지주", "메리츠", "지주사", "주주환원"]
+    },
+    {
+        "id": "KR_MAT",
         "name": "소재·철강",
-        "query": "철강 OR 비철금속 OR 석유화학",
-        "keywords": ["소재", "철강", "포스코", "POSCO", "고려아연", "비철금속", "화학", "정유", "구리", "알루미늄", "희토류", "시멘트", "유가"]
+        "rss_query": "포스코 OR 철강 비철금속 OR 석유화학",
+        "search_kw": "포스코",
+        "keywords": ["철강", "포스코", "POSCO", "고려아연", "비철금속", "화학", "정유", "구리", "알루미늄", "희토류", "소재"]
     },
     {
-        "id": "CONSUMER",
-        "name": "소비·엔터",
-        "query": "K뷰티 화장품 OR 엔터테인먼트 하이브",
-        "keywords": ["엔터", "하이브", "K팝", "화장품", "뷰티", "면세", "유통", "음식료", "삼양식품", "아모레퍼시픽", "게임", "콘텐츠", "카지노", "여행"]
+        "id": "KR_CONS",
+        "name": "K뷰티·엔터",
+        "rss_query": "K뷰티 화장품 OR 하이브 엔터테인먼트",
+        "search_kw": "화장품",
+        "keywords": ["화장품", "뷰티", "엔터", "하이브", "K팝", "면세", "음식료", "삼양식품", "아모레퍼시픽", "에이피알", "카지노"]
+    }
+]
+
+# 3-B. 🇺🇸 해외(미국) 증시 전용 9대 섹터
+US_SECTORS_CONFIG = [
+    {
+        "id": "US_AISEMI",
+        "name": "AI·반도체",
+        "rss_query": "Nvidia OR AI chip OR semiconductor stock",
+        "search_kw": "NVDA",
+        "keywords": ["엔비디아", "NVDA", "브로드컴", "AVGO", "AMD", "TSMC", "TSM", "마이크론", "MU", "ASML", "ARM", "AI칩", "반도체", "GPU"]
+    },
+    {
+        "id": "US_BIGTECH",
+        "name": "빅테크·클라우드",
+        "rss_query": "Microsoft OR Apple OR Palantir OR cloud AI",
+        "search_kw": "MSFT",
+        "keywords": ["마이크로소프트", "MSFT", "애플", "AAPL", "아마존", "AMZN", "구글", "GOOGL", "메타", "META", "팔란티어", "PLTR", "클라우드", "데이터센터"]
+    },
+    {
+        "id": "US_SPACE",
+        "name": "우주·방위산업",
+        "rss_query": "SpaceX OR Rocket Lab OR US defense aerospace stock",
+        "search_kw": "RKLB",
+        "keywords": ["로켓랩", "RKLB", "스페이스X", "보잉", "BA", "록히드마틴", "LMT", "우주", "위성", "방위", "항공", "드론"]
+    },
+    {
+        "id": "US_POWER",
+        "name": "원전·전력망",
+        "rss_query": "nuclear power AI data center OR Vistra OR Oklo",
+        "search_kw": "OKLO",
+        "keywords": ["원전", "SMR", "오클로", "OKLO", "비스트라", "VST", "컨스텔레이션", "CEG", "전력망", "변압기", "에너지", "유틸리티"]
+    },
+    {
+        "id": "US_HEALTH",
+        "name": "비만·헬스케어",
+        "rss_query": "Eli Lilly OR Novo Nordisk OR US biotech FDA",
+        "search_kw": "LLY",
+        "keywords": ["일라이릴리", "LLY", "노보노디스크", "NVO", "비만치료제", "유나이티드헬스", "UNH", "FDA", "임상", "바이오텍", "헬스케어"]
+    },
+    {
+        "id": "US_ROBOT",
+        "name": "로봇·자율주행",
+        "rss_query": "Tesla robotaxi OR humanoid robot autonomous",
+        "search_kw": "TSLA",
+        "keywords": ["테슬라", "TSLA", "로보택시", "자율주행", "휴머노이드", "로봇", "FSD", "웨이모", "리비안", "RIVN", "전기차"]
+    },
+    {
+        "id": "US_FIN",
+        "name": "월가 금융",
+        "rss_query": "JPMorgan OR Goldman Sachs OR Wall Street bank",
+        "search_kw": "JPM",
+        "keywords": ["JP모건", "골드만삭스", "모건스탠리", "뱅크오브아메리카", "블랙록", "국채", "금리", "월가", "투자은행", "버크셔"]
+    },
+    {
+        "id": "US_ENERGY",
+        "name": "에너지·원자재",
+        "rss_query": "Exxon OR Chevron OR crude oil gold market",
+        "search_kw": "XOM",
+        "keywords": ["엑슨모빌", "셰브론", "유가", "원유", "천연가스", "셰일", "금값", "구리", "광산", "에너지", "정유"]
+    },
+    {
+        "id": "US_CRYPTO",
+        "name": "크립토·핀테크",
+        "rss_query": "Bitcoin ETF OR Coinbase OR MicroStrategy stock",
+        "search_kw": "COIN",
+        "keywords": ["비트코인", "코인베이스", "COIN", "마이크로스트래티지", "MSTR", "로빈후드", "HOOD", "이더리움", "ETF", "핀테크", "스테이블코인"]
     }
 ]
 
 # ==========================================
 
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
-CHAT_ID = os.environ.get("CHAT_ID")
 DART_API_KEY = os.environ.get("DART_API_KEY")
 HISTORY_FILE = "sent_news.json"
 FEED_DATA_FILE = "feed_data.json"
@@ -139,23 +213,6 @@ def translate_en_to_ko(text):
         return translated if translated else text
     except Exception:
         return text
-
-
-def send_telegram(message):
-    if not TELEGRAM_TOKEN or not CHAT_ID:
-        return
-    url = f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage"
-    data = urllib.parse.urlencode({
-        "chat_id": CHAT_ID,
-        "text": message,
-        "parse_mode": "HTML",
-        "disable_web_page_preview": True
-    }).encode("utf-8")
-    try:
-        req = urllib.request.Request(url, data=data)
-        urllib.request.urlopen(req, timeout=10)
-    except Exception as e:
-        print(f"텔레그램 전송 오류: {e}")
 
 
 def classify_impact(title):
@@ -299,17 +356,25 @@ def fetch_all_macro_dashboard():
     return board, chart_store
 
 
-def compute_sector_heatmap(feed_items):
-    """각 섹터별 최신 뉴스 빈도와 상승 중인 핵심 키워드 TOP 5를 추출해 히트맵 데이터를 생성합니다."""
+def compute_market_sector_heatmap(sectors_cfg, feed_items, market_scope="KR"):
     sector_stats = []
-    stopwords = {"오늘", "전망", "특징주", "관련주", "주가", "상승", "하락", "마감", "장중", "코스피", "코스닥", "시장", "투자", "분석", "속보", "뉴스", "기업", "한국", "미국", "증시", "최대", "신고가", "목표가", "리포트"}
+    stopwords = {
+        "오늘", "전망", "특징주", "관련주", "주가", "상승", "하락", "마감", "장중",
+        "코스피", "코스닥", "시장", "투자", "분석", "속보", "뉴스", "기업", "한국",
+        "미국", "증시", "최대", "신고가", "목표가", "리포트", "STOCK", "MARKET", "NEWS", "WHY", "WHAT"
+    }
 
-    for sec in SECTORS_CONFIG:
-        # 1. 기존 수집된 피드에서 매칭되는 기사 스캔
+    for sec in sectors_cfg:
         matched_titles = []
         kw_counter = Counter()
 
         for item in feed_items[:150]:
+            cat = item.get("category", "")
+            if market_scope == "KR" and cat == "US":
+                continue
+            if market_scope == "US" and cat in ("KR", "DART"):
+                continue
+
             full_text = f"{item.get('tag', '')} {item.get('title', '')} {item.get('sub_title', '')}"
             upper_text = full_text.upper()
             hit_kws = [kw for kw in sec["keywords"] if kw.upper() in upper_text]
@@ -318,36 +383,40 @@ def compute_sector_heatmap(feed_items):
                 for hk in hit_kws:
                     kw_counter[hk] += 2
 
-        # 2. 구글 뉴스에서 해당 섹터의 실시간 기사 헤드라인(최대 12건) 추가 스캔해 객관적 정보량 측정
         try:
-            encoded_q = urllib.parse.quote(sec["query"])
-            rss_url = f"https://news.google.com/rss/search?q={encoded_q}&hl=ko&gl=KR&ceid=KR:ko"
+            encoded_q = urllib.parse.quote(sec["rss_query"])
+            if market_scope == "KR":
+                rss_url = f"https://news.google.com/rss/search?q={encoded_q}&hl=ko&gl=KR&ceid=KR:ko"
+            else:
+                rss_url = f"https://news.google.com/rss/search?q={encoded_q}&hl=en-US&gl=US&ceid=US:en"
+
             req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
             with urllib.request.urlopen(req, timeout=7) as res:
                 root = ET.fromstring(res.read())
-            rss_items = root.findall(".//item")[:12]
+            rss_items = root.findall(".//item")[:14]
+
             for it in rss_items:
                 raw_t = (it.find("title").text or "").rsplit(" - ", 1)[0]
                 if any(w in raw_t for w in IGNORE_WORDS):
                     continue
                 matched_titles.append(raw_t)
-                # 사전에 정의된 섹터 키워드 카운트
                 for kw in sec["keywords"]:
                     if kw.upper() in raw_t.upper():
                         kw_counter[kw] += 1
-                # 제목에서 자주 등장하는 2~6글자 한글/영문 명사 추출
-                tokens = re.findall(r"[가-힣A-Za-z0-9]{2,8}", raw_t)
+                tokens = re.findall(r"[가-힣A-Za-z0-9]{2,10}", raw_t)
                 for tk in tokens:
-                    if tk not in stopwords and not tk.isdigit():
+                    if tk.upper() not in stopwords and not tk.isdigit():
                         kw_counter[tk] += 1
         except Exception as e:
-            print(f"[Sector-{sec['name']}] 스캔 지연: {e}")
+            print(f"[Sector-{sec['id']}] 스캔 지연: {e}")
 
-        # 중복 제거된 기사 수 기반 정보량 산출
         unique_titles = list(dict.fromkeys(matched_titles))
         info_count = len(unique_titles)
 
-        # 상승 키워드 TOP 5 정제 (섹터 자기 이름 자체는 후순위로)
+        sample_list = unique_titles[:2]
+        if market_scope == "US" and sample_list:
+            sample_list = [translate_en_to_ko(t) for t in sample_list]
+
         top_kws = []
         for k, cnt in kw_counter.most_common(12):
             if k != sec["name"] and len(top_kws) < 5:
@@ -357,29 +426,27 @@ def compute_sector_heatmap(feed_items):
 
         sector_stats.append({
             "id": sec["id"],
+            "market": market_scope,
             "name": sec["name"],
-            "query": sec["keywords"][0],
+            "rss_query": sec["rss_query"],
+            "search_kw": sec["search_kw"],
+            "keywords": sec["keywords"],
             "count": info_count,
             "top_keywords": top_kws,
-            "sample_titles": unique_titles[:3]
+            "sample_titles": sample_list
         })
 
-    # 전체 섹터 간 상대적 정보량 비교로 등급 부여 (많음=초록 high, 보통=중립 mid, 적음=빨강 low)
-    counts = [s["count"] for s in sector_stats]
-    max_c = max(counts) if counts else 1
-    min_c = min(counts) if counts else 0
+    sector_stats.sort(key=lambda x: x["count"], reverse=True)
 
-    for s in sector_stats:
-        if max_c == min_c:
-            s["level"] = "mid"
+    total = len(sector_stats)
+    for rank_idx, s in enumerate(sector_stats):
+        s["rank"] = rank_idx + 1
+        if rank_idx < max(1, total // 3):
+            s["level"] = "high"
+        elif rank_idx >= total - max(1, total // 3):
+            s["level"] = "low"
         else:
-            ratio = (s["count"] - min_c) / (max_c - min_c)
-            if ratio >= 0.62:
-                s["level"] = "high"   # 정보량 많음 -> 초록색
-            elif ratio <= 0.34:
-                s["level"] = "low"    # 정보량 적음 -> 빨간색
-            else:
-                s["level"] = "mid"    # 보통 -> 차분한 중립/연녹색
+            s["level"] = "mid"
 
     return sector_stats
 
@@ -546,16 +613,17 @@ def render_macro_policy_tile(box_id, label, sub_label, info):
     )
 
 
-def render_sector_strip(sector_stats):
-    """스케치 형태의 가로 분할 섹터 히트맵 스트립 HTML을 생성합니다."""
+def render_sector_strip(sector_stats, scope):
     cells = []
     for idx, sec in enumerate(sector_stats):
         lvl = sec["level"]
         name = html.escape(sec["name"])
         cnt = sec["count"]
-        q = html.escape(sec["query"])
+        rank = sec["rank"]
+        q = html.escape(sec["search_kw"])
         cells.append(
-            f'<div class="sec-cell lvl-{lvl}" data-sec-idx="{idx}" onclick="searchSectorKeyword(\'{q}\')">'
+            f'<div class="sec-cell lvl-{lvl}" data-scope="{scope}" data-sec-idx="{idx}" onclick="searchSectorKeyword(\'{q}\')">'
+            f'<div class="sec-rank">{rank}위</div>'
             f'<div class="sec-cell-name">{name}</div>'
             f'<div class="sec-cell-cnt">{cnt}건</div>'
             f'</div>'
@@ -563,7 +631,7 @@ def render_sector_strip(sector_stats):
     return "".join(cells)
 
 
-def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_time):
+def build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors, updated_time):
     row_kr = render_tile("KOSPI", "🇰🇷 코스피", "KOSPI", board.get("KOSPI", {})) + render_tile("KOSDAQ", "🇰🇷 코스닥", "KOSDAQ", board.get("KOSDAQ", {}))
     row_us = render_tile("DOW", "🇺🇸 다우존스", "DOW JONES", board.get("DOW", {})) + render_tile("NASDAQ", "🇺🇸 나스닥", "NASDAQ", board.get("NASDAQ", {}))
     row_fx = (
@@ -584,7 +652,9 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
         + render_macro_policy_tile("CPI", "📊 미국 CPI", "소비자물가", board.get("CPI", {}))
         + render_macro_policy_tile("PPI", "🏭 미국 PPI", "생산자물가", board.get("PPI", {}))
     )
-    sector_strip_html = render_sector_strip(sector_stats)
+
+    kr_sector_strip = render_sector_strip(kr_sectors, "KR")
+    us_sector_strip = render_sector_strip(us_sectors, "US")
 
     card_parts = []
     for item in feed_items[:150]:
@@ -607,21 +677,21 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
 
     cards_html = "\n".join(card_parts) if card_parts else "<p style='color:#8b949e;text-align:center;'>수집된 뉴스가 없습니다.</p>"
     chart_json_str = json.dumps(chart_store, ensure_ascii=False)
-    sector_json_str = json.dumps(sector_stats, ensure_ascii=False)
+    sector_map_json = json.dumps({"KR": kr_sectors, "US": us_sectors}, ensure_ascii=False)
 
     template = """<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker - 섹터 히트맵 & 실시간 증시 대시보드</title>
+<title>My SaveTicker - 국내·해외 실시간 섹터 히트맵 & 증시 대시보드</title>
 <style>
   body { background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }
   .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 14px 20px; position: sticky; top: 0; z-index: 100; }
-  .header-inner { max-width: 900px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
+  .header-inner { max-width: 920px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
   .logo { font-size: 20px; font-weight: 800; color: #58a6ff; letter-spacing: -0.5px; cursor: pointer; }
   .updated { font-size: 12px; color: #8b949e; }
-  .container { max-width: 900px; margin: 16px auto; padding: 0 16px; }
+  .container { max-width: 920px; margin: 16px auto; padding: 0 16px; }
 
   .sec-label { font-size: 11.5px; font-weight: 700; color: #8b949e; margin: 14px 0 6px; letter-spacing: -0.2px; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 6px; }
   .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
@@ -647,7 +717,6 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
   .idx-chg.down { color: #4dabf7; }
   .idx-chg.freeze { color: #3fb950; background: rgba(63, 185, 80, 0.14); padding: 2px 7px; border-radius: 6px; border: 1px solid rgba(63, 185, 80, 0.35); }
 
-  /* 스케치 스타일 가로 분할 섹터 정보량 히트맵 스트립 */
   .sector-legend { display: flex; gap: 10px; font-size: 11px; font-weight: 600; }
   .leg-dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 4px; }
   .sector-strip {
@@ -656,14 +725,15 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
     border: 1px solid #30363d;
     border-radius: 10px;
     overflow: hidden;
-    margin-bottom: 12px;
+    margin-bottom: 10px;
     background: #161b22;
   }
-  @media (max-width: 720px) {
+  @media (max-width: 740px) {
     .sector-strip { grid-template-columns: repeat(3, 1fr); }
   }
   .sec-cell {
-    padding: 13px 6px;
+    position: relative;
+    padding: 12px 5px 10px;
     text-align: center;
     border-right: 1px solid rgba(255, 255, 255, 0.12);
     border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -673,40 +743,37 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 4px;
-    min-height: 54px;
+    gap: 3px;
+    min-height: 58px;
   }
   .sec-cell:last-child { border-right: none; }
-  .sec-cell:hover { filter: brightness(1.18); z-index: 2; }
-  /* 정보량 많음 -> 초록색 */
+  .sec-cell:hover { filter: brightness(1.2); z-index: 2; }
+  .sec-rank { font-size: 9.5px; font-weight: 800; opacity: 0.75; letter-spacing: -0.2px; }
   .sec-cell.lvl-high {
-    background: linear-gradient(180deg, rgba(35, 134, 54, 0.55) 0%, rgba(46, 160, 67, 0.35) 100%);
+    background: linear-gradient(180deg, rgba(35, 134, 54, 0.58) 0%, rgba(46, 160, 67, 0.36) 100%);
     color: #aff5b4;
   }
-  /* 정보량 보통 -> 차분한 중립색 */
   .sec-cell.lvl-mid {
     background: rgba(48, 54, 61, 0.55);
     color: #c9d1d9;
   }
-  /* 정보량 적음 -> 빨간색 */
   .sec-cell.lvl-low {
-    background: linear-gradient(180deg, rgba(218, 54, 51, 0.50) 0%, rgba(248, 81, 73, 0.30) 100%);
+    background: linear-gradient(180deg, rgba(218, 54, 51, 0.52) 0%, rgba(248, 81, 73, 0.30) 100%);
     color: #ffdcd7;
   }
-  .sec-cell-name { font-size: 12.5px; font-weight: 800; letter-spacing: -0.3px; line-height: 1.2; word-break: keep-all; }
+  .sec-cell-name { font-size: 12px; font-weight: 800; letter-spacing: -0.3px; line-height: 1.2; word-break: keep-all; }
   .sec-cell-cnt { font-size: 10.5px; font-weight: 600; opacity: 0.85; }
 
-  /* 섹터 상승 키워드 플로팅 설명창 */
   .sector-tooltip {
     position: fixed;
     z-index: 9999;
-    width: 300px;
+    width: 310px;
     max-width: calc(100vw - 24px);
     background: #161b22;
     border: 1px solid #3fb950;
     border-radius: 12px;
     padding: 12px 14px;
-    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.82);
     pointer-events: none;
     display: none;
   }
@@ -722,7 +789,6 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
   .st-headlines { font-size: 11px; color: #c9d1d9; line-height: 1.45; border-top: 1px solid #21262d; padding-top: 6px; }
   .st-headlines div { margin-top: 3px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
-  /* 120일 일봉 플로팅 차트 툴팁 */
   .chart-tooltip {
     position: fixed;
     z-index: 9999;
@@ -777,10 +843,8 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
     </div>
   </div>
 
-  <!-- 섹터별 상승 키워드 플로팅 설명창 -->
   <div class="sector-tooltip" id="sectorTooltip"></div>
 
-  <!-- 120일 일봉 플로팅 차트 팝업 -->
   <div class="chart-tooltip" id="chartTooltip">
     <div class="ct-header">
       <span class="ct-title" id="ctTitle">KOSPI</span>
@@ -800,16 +864,21 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
     <div class="grid-2">__ROW_KR__</div>
     <div class="grid-2">__ROW_US__</div>
 
-    <!-- 섹터별 정보량 히트맵 스트립 (스케치 레이아웃 반영) -->
     <div class="sec-label">
-      <span>🔥 섹터별 뉴스·이슈 정보량 히트맵 (호버 시 상승 키워드 · 클릭 시 즉시 검색)</span>
+      <span>🇰🇷 국내 실시간 주도 섹터 (활발한 순 정렬 · 호버 시 상승 키워드)</span>
       <span class="sector-legend">
-        <span><i class="leg-dot" style="background:#2ea043;"></i>정보량 많음</span>
+        <span><i class="leg-dot" style="background:#2ea043;"></i>활발(상위)</span>
         <span><i class="leg-dot" style="background:#484f58;"></i>보통</span>
-        <span><i class="leg-dot" style="background:#da3633;"></i>정보량 적음</span>
+        <span><i class="leg-dot" style="background:#da3633;"></i>한산(하위)</span>
       </span>
     </div>
-    <div class="sector-strip">__SECTOR_STRIP__</div>
+    <div class="sector-strip" id="krSectorStrip">__KR_SECTOR_STRIP__</div>
+
+    <div class="sec-label">
+      <span>🇺🇸 해외(미국) 실시간 주도 섹터 (활발한 순 정렬 · 호버 시 상승 키워드)</span>
+      <span id="sectorSyncStatus" style="font-size:10.5px; color:#58a6ff;">실시간 순위 연동 중</span>
+    </div>
+    <div class="sector-strip" id="usSectorStrip">__US_SECTOR_STRIP__</div>
 
     <div class="search-panel">
       <div class="search-wrap">
@@ -847,7 +916,7 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
 <script>
   let currentCat = 'ALL';
   const CHART_DATA = __CHART_JSON__;
-  const SECTOR_DATA = __SECTOR_JSON__;
+  let SECTOR_MAP = __SECTOR_MAP_JSON__;
 
   function positionFloatingBox(box, e) {
     const pad = 14;
@@ -866,13 +935,14 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
     box.style.top = `${top}px`;
   }
 
-  // 섹터 상승 키워드 설명창 바인딩
-  function renderSectorTooltip(idx) {
-    const sec = SECTOR_DATA[idx];
+  function renderSectorTooltip(scope, idx) {
+    const list = SECTOR_MAP[scope] || [];
+    const sec = list[idx];
     if (!sec) return false;
     const tip = document.getElementById('sectorTooltip');
 
-    const levelLabel = sec.level === 'high' ? '🟢 정보량 집중 (많음)' : (sec.level === 'low' ? '🔴 정보량 한산 (적음)' : '⚪ 정보량 보통');
+    const marketBadge = scope === 'KR' ? '🇰🇷 국내' : '🇺🇸 해외';
+    const levelLabel = sec.level === 'high' ? `🟢 ${sec.rank}위 · 매우 활발` : (sec.level === 'low' ? `🔴 ${sec.rank}위 · 한산` : `⚪ ${sec.rank}위 · 보통`);
     const borderCol = sec.level === 'high' ? '#3fb950' : (sec.level === 'low' ? '#ff7b72' : '#58a6ff');
     tip.style.borderColor = borderCol;
 
@@ -881,35 +951,136 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
 
     tip.innerHTML = `
       <div class="st-head">
-        <span class="st-title">${sec.name} 섹터</span>
-        <span class="st-badge ${sec.level}">${levelLabel} · ${sec.count}건</span>
+        <span class="st-title">${marketBadge} ${sec.name}</span>
+        <span class="st-badge ${sec.level}">${levelLabel} (${sec.count}건)</span>
       </div>
-      <div class="st-sub">📈 현재 상승 중인 핵심 키워드</div>
+      <div class="st-sub">📈 실시간 상승 키워드</div>
       <div class="st-kw-list">${kwsHtml}</div>
       ${newsHtml ? `<div class="st-headlines">${newsHtml}</div>` : ''}
     `;
     return true;
   }
 
+  function renderSectorStripDOM(scope) {
+    const containerId = scope === 'KR' ? 'krSectorStrip' : 'usSectorStrip';
+    const container = document.getElementById(containerId);
+    const list = SECTOR_MAP[scope] || [];
+    if (!container || list.length === 0) return;
+
+    container.innerHTML = list.map((sec, idx) => `
+      <div class="sec-cell lvl-${sec.level}" data-scope="${scope}" data-sec-idx="${idx}" onclick="searchSectorKeyword('${sec.search_kw.replace(/'/g, "\\'")}')">
+        <div class="sec-rank">${sec.rank}위</div>
+        <div class="sec-cell-name">${sec.name}</div>
+        <div class="sec-cell-cnt">${sec.count}건</div>
+      </div>
+    `).join('');
+
+    bindSectorHoverEvents();
+  }
+
   function bindSectorHoverEvents() {
     const tip = document.getElementById('sectorTooltip');
     document.querySelectorAll('.sec-cell').forEach(cell => {
+      const scope = cell.dataset.scope;
       const idx = parseInt(cell.dataset.secIdx, 10);
-      cell.addEventListener('mouseenter', (e) => {
-        if (renderSectorTooltip(idx)) {
+
+      cell.onmouseenter = (e) => {
+        if (renderSectorTooltip(scope, idx)) {
           tip.style.display = 'block';
           positionFloatingBox(tip, e);
         }
-      });
-      cell.addEventListener('mousemove', (e) => {
+      };
+      cell.onmousemove = (e) => {
         if (tip.style.display === 'block') {
           positionFloatingBox(tip, e);
         }
-      });
-      cell.addEventListener('mouseleave', () => {
+      };
+      cell.onmouseleave = () => {
         tip.style.display = 'none';
-      });
+      };
     });
+  }
+
+  async function refreshLiveSectorRankings() {
+    const statusEl = document.getElementById('sectorSyncStatus');
+    if (statusEl) statusEl.textContent = '🔄 섹터 활동성 재계산 중...';
+
+    const stopwords = new Set(['오늘', '전망', '특징주', '관련주', '주가', '상승', '하락', '마감', '장중', '코스피', '코스닥', '시장', '투자', '분석', '속보', '뉴스', '기업', '한국', '미국', '증시', 'STOCK', 'MARKET', 'NEWS', 'WHY', 'WHAT', 'THE', 'AND', 'FOR']);
+
+    for (const scope of ['KR', 'US']) {
+      const list = SECTOR_MAP[scope] || [];
+      const updatedList = await Promise.all(list.map(async (sec) => {
+        try {
+          const rssUrl = scope === 'KR'
+            ? `https://news.google.com/rss/search?q=${encodeURIComponent(sec.rss_query)}&hl=ko&gl=KR&ceid=KR:ko`
+            : `https://news.google.com/rss/search?q=${encodeURIComponent(sec.rss_query)}&hl=en-US&gl=US&ceid=US:en`;
+          const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`;
+          const res = await fetch(proxyUrl);
+          const wrapper = await res.json();
+          if (!wrapper || !wrapper.contents) return sec;
+
+          const parser = new DOMParser();
+          const xmlDoc = parser.parseFromString(wrapper.contents, "text/xml");
+          const nodes = Array.from(xmlDoc.querySelectorAll("item")).slice(0, 15);
+          if (nodes.length === 0) return sec;
+
+          const kwMap = {};
+          const titles = [];
+
+          nodes.forEach(node => {
+            const rawT = (node.querySelector("title")?.textContent || "").split(' - ')[0].trim();
+            if (!rawT) return;
+            titles.push(rawT);
+
+            (sec.keywords || []).forEach(kw => {
+              if (rawT.toUpperCase().includes(kw.toUpperCase())) {
+                kwMap[kw] = (kwMap[kw] || 0) + 2;
+              }
+            });
+
+            const tokens = rawT.match(/[가-힣A-Za-z0-9]{2,10}/g) || [];
+            tokens.forEach(tk => {
+              if (!stopwords.has(tk.toUpperCase()) && !/^\d+$/.test(tk) && tk !== sec.name) {
+                kwMap[tk] = (kwMap[tk] || 0) + 1;
+              }
+            });
+          });
+
+          const sortedKws = Object.entries(kwMap)
+            .sort((a, b) => b[1] - a[1])
+            .slice(0, 5)
+            .map(([word, count]) => ({ word, count }));
+
+          return {
+            ...sec,
+            count: titles.length,
+            top_keywords: sortedKws.length > 0 ? sortedKws : sec.top_keywords,
+            sample_titles: scope === 'KR' ? titles.slice(0, 2) : sec.sample_titles
+          };
+        } catch (e) {
+          return sec;
+        }
+      }));
+
+      updatedList.sort((a, b) => b.count - a.count);
+      const total = updatedList.length;
+      updatedList.forEach((item, idx) => {
+        item.rank = idx + 1;
+        if (idx < Math.max(1, Math.floor(total / 3))) item.level = 'high';
+        else if (idx >= total - Math.max(1, Math.floor(total / 3))) item.level = 'low';
+        else item.level = 'mid';
+      });
+
+      SECTOR_MAP[scope] = updatedList;
+      renderSectorStripDOM(scope);
+    }
+
+    if (statusEl) {
+      const now = new Date();
+      const hh = String(now.getHours()).padStart(2, '0');
+      const mm = String(now.getMinutes()).padStart(2, '0');
+      statusEl.textContent = `⚡ 실시간 순위 반영 (${hh}:${mm})`;
+    }
   }
 
   function searchSectorKeyword(kw) {
@@ -917,7 +1088,6 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
     liveSearch();
   }
 
-  // 120일 일봉 캔들 + 20일 이동평균선 렌더링 엔진
   function render120DayCandles(key) {
     const item = CHART_DATA[key];
     if (!item || !item.candles || item.candles.length < 2) return false;
@@ -1123,7 +1293,9 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
     bindSectorHoverEvents();
     bindChartHoverEvents();
     refreshLiveMarketQuotes();
+    refreshLiveSectorRankings();
     setInterval(refreshLiveMarketQuotes, 60000);
+    setInterval(refreshLiveSectorRankings, 90000);
   });
 
   const KR_ENGLISH_MAP = {
@@ -1403,13 +1575,14 @@ def build_saveticker_html(feed_items, board, chart_store, sector_stats, updated_
         template.replace("__UPDATED_TIME__", updated_time)
         .replace("__ROW_KR__", row_kr)
         .replace("__ROW_US__", row_us)
-        .replace("__SECTOR_STRIP__", sector_strip_html)
+        .replace("__KR_SECTOR_STRIP__", kr_sector_strip)
+        .replace("__US_SECTOR_STRIP__", us_sector_strip)
         .replace("__ROW_FX__", row_fx)
         .replace("__ROW_CMD__", row_cmd)
         .replace("__ROW_MACRO__", row_macro)
         .replace("__CARDS_HTML__", cards_html)
         .replace("__CHART_JSON__", chart_json_str)
-        .replace("__SECTOR_JSON__", sector_json_str)
+        .replace("__SECTOR_MAP_JSON__", sector_map_json)
     )
 
     with open("index.html", "w", encoding="utf-8") as f:
@@ -1441,24 +1614,16 @@ def main():
             new_items.append(item)
             sent_links.add(item["link"])
 
-            sub_line = f"\n<i>({item['sub_title']})</i>" if item.get("sub_title") else ""
-            msg = (
-                f"{item['impact']} <b>[{item['tag']}]</b>\n"
-                f"{item['title']}{sub_line}\n"
-                f"🗞 {item['press']} · <a href='{item['link']}'>원문 보기</a>"
-            )
-            send_telegram(msg)
-
     if new_items:
         feed_items = new_items + feed_items
         save_json(HISTORY_FILE, list(sent_links)[-1200:])
         save_json(FEED_DATA_FILE, feed_items[:150])
 
-    # 9대 섹터별 최신 뉴스 빈도 및 상승 키워드 TOP 5 분석
-    sector_stats = compute_sector_heatmap(feed_items)
+    kr_sectors = compute_market_sector_heatmap(KR_SECTORS_CONFIG, feed_items, market_scope="KR")
+    us_sectors = compute_market_sector_heatmap(US_SECTORS_CONFIG, feed_items, market_scope="US")
 
-    build_saveticker_html(feed_items, board, chart_store, sector_stats, now_str)
-    print(f"완료: 신규 기업뉴스 {len(new_items)}건, 120일 차트 및 9대 섹터 히트맵 업데이트")
+    build_saveticker_html(feed_items, board, chart_store, kr_sectors, us_sectors, now_str)
+    print(f"완료: 신규 뉴스 {len(new_items)}건 웹 대시보드 업데이트 (텔레그램 발송 비활성화됨)")
 
 
 if __name__ == "__main__":
