@@ -1,6 +1,26 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국힘",
+    "press": "YTN",
+    "title": "국힘, 대통령 증시 발언에 \"개미 재산 무너지는데 한가한 낙관론\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NSnoxU3JEUTFLblc5X29SQ1FLb2xtRzBwQ0hjLTdiakQyVDlyaUJSTXRJWm9oOGVSSThXODIwN2pFM1M3VUxwekRrNS1CZ1N1TnZ3MTBLWXVoZGg3Wnc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 01:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "How Nvidia turmoil and a Democratic Congress could reshape the AI trade, according to ETF experts",
+    "sub_title": "",
+    "link": "https://www.cnbc.com/2026/11/14/nvidia-ai-trade-data-centers-congress.html",
+    "impact": "📰 일반",
+    "time": "11/15 01:33"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한겨레",
     "title": "젠슨 황 “앨리스 황과 적절한 관계”…엔비디아 임원들에 거짓 해명",
@@ -2977,26 +2997,6 @@
     "sub_title": "",
     "link": "https://finance.yahoo.com/technology/ai/articles/xanadu-breakthroughs-partnerships-advance-roadmap-221337932.html",
     "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Finviz · Yahoo Finance",
-    "title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip to cap volatile week, Nvidia stock plunge deepens",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Yahoo Finance",
-    "title": "Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse",
-    "sub_title": "",
-    "link": "https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/?.tsrc=rss",
-    "impact": "🔥 주요속보",
     "time": "11/14 18:28"
   }
 ]
