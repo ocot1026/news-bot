@@ -9,19 +9,43 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v6.1 - FOMC · CPI · PPI 다중소스 복구 에디션]
+# [나만의 세이브티커 v6.3 - FOMC · CPI · PPI 직전발표치 대조 색상 판별 에디션]
 # ==========================================
 
+# 1. 미국 거시경제 공식 발표치 (curr: 이번 발표치, prev: 직전 발표치 -> 변동폭 및 색상 자동 계산)
+MACRO_OFFICIAL = {
+    "FOMC": {
+        "display": "3.75~4.00%",  # 화면 표시 금리 구간
+        "curr": 4.00,              # 이번 FOMC 상단 금리 (%)
+        "prev": 4.00,              # 직전 FOMC 상단 금리 (%) -> 같으면 자동으로 초록색 '동결' 표시
+        "date": "2026.10"
+    },
+    "CPI": {
+        "display": "3.7% (YoY)",   # 화면 표시 물가 수치
+        "curr": 3.7,               # 이번 CPI 전년비 (%)
+        "prev": 3.5,               # 직전 CPI 전년비 (%) -> 높으면 빨간색 상승, 낮으면 파란색 하락
+        "date": "10월 MoM +0.4%"
+    },
+    "PPI": {
+        "display": "6.5% (YoY)",   # 화면 표시 생산자물가 수치
+        "curr": 6.5,               # 이번 PPI 전년비 (%)
+        "prev": 6.8,               # 직전 PPI 전년비 (%) -> 낮으면 파란색 하락, 높으면 빨간색 상승
+        "date": "10월 MoM +0.3%"
+    }
+}
+
+# 2. 감시 기업 및 티커 설정
 KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER", "HPSP"]
 US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
 IGNORE_WORDS = ["부고", "인사", "포토", "동정", "모집", "이벤트", "할인", "광고"]
+
+# ==========================================
 
 TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 CHAT_ID = os.environ.get("CHAT_ID")
 DART_API_KEY = os.environ.get("DART_API_KEY")
 HISTORY_FILE = "sent_news.json"
 FEED_DATA_FILE = "feed_data.json"
-MACRO_CACHE_FILE = "macro_cache.json"
 
 
 def get_kst_now():
@@ -118,99 +142,44 @@ def fetch_yahoo_quote(sym, decimals=2):
     return {"price": "-", "diff": "0.00", "pct": "0.00%", "up": True}
 
 
-def fetch_fed_rate_realtime():
-    """FOMC 기준금리를 FRED 및 Yahoo 초단기 국채/연방기금선물(ZQ=F)에서 다중 조회합니다."""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Accept": "text/csv,text/plain,*/*",
-        "Referer": "https://fred.stlouisfed.org/"
+def evaluate_macro_delta(key, cfg, extra_note=""):
+    """직전 발표치(prev)와 현재 발표치(curr)를 비교해 동결(초록)/상승(빨강)/하락(파랑) 상태를 반환합니다."""
+    curr = float(cfg["curr"])
+    prev = float(cfg["prev"])
+    diff = round(curr - prev, 4)
+
+    if abs(diff) < 1e-6:
+        status_cls = "freeze"
+        if key == "FOMC":
+            status_text = f"동결 ({cfg['date']})"
+        else:
+            status_text = f"동결 (직전 {prev:.1f}%)"
+    elif diff > 0:
+        status_cls = "up"
+        if key == "FOMC":
+            bp = int(round(diff * 100))
+            status_text = f"▲ +{diff:.2f}%p (+{bp}bp) 인상"
+        else:
+            status_text = f"▲ +{diff:.1f}%p 상승 (직전 {prev:.1f}%)"
+    else:
+        status_cls = "down"
+        if key == "FOMC":
+            bp = int(round(abs(diff) * 100))
+            status_text = f"▼ {diff:.2f}%p (-{bp}bp) 인하"
+        else:
+            status_text = f"▼ {diff:.1f}%p 하락 (직전 {prev:.1f}%)"
+
+    return {
+        "price": cfg["display"],
+        "status_text": status_text,
+        "status_cls": status_cls,
+        "sub_note": extra_note if extra_note else cfg["date"]
     }
-    # 1순위: FRED 목표금리 상단(DFEDTARU) 및 실효연방기금금리(DFF)
-    for sid in ["DFEDTARU", "DFF"]:
-        try:
-            url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}"
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=10) as res:
-                lines = [ln.strip() for ln in res.read().decode("utf-8", errors="ignore").splitlines() if ln.strip() and not ln.endswith(".") and "," in ln]
-            if len(lines) >= 2 and lines[-1].split(",")[0][:4].isdigit():
-                dt, val_s = lines[-1].split(",")
-                val = float(val_s)
-                return f"{val:.2f}%", f"기준 {dt[:7]}"
-        except Exception as e:
-            print(f"[FRED-{sid}] 우회 시도: {e}")
-
-    # 2순위: Yahoo Finance 연방기금금리 선물(ZQ=F -> 100 - 선물가격 = 내재 기준금리)
-    try:
-        q = fetch_yahoo_quote("ZQ=F", 3)
-        if q["price"] != "-":
-            implied_rate = 100.0 - float(q["price"].replace(",", ""))
-            if 0 <= implied_rate <= 15:
-                return f"{implied_rate:.2f}%", "선물내재금리"
-    except Exception:
-        pass
-
-    return None, None
-
-
-def fetch_cpi_ppi_realtime():
-    """미국 CPI·PPI 전년동월비(YoY)를 FRED 및 TradingEconomics 공개 피드에서 다중 조회합니다."""
-    headers = {
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
-        "Accept": "text/html,application/xhtml+xml,text/csv,*/*",
-        "Referer": "https://fred.stlouisfed.org/"
-    }
-    cpi_res = (None, None, None)
-    ppi_res = (None, None, None)
-
-    # 1순위: FRED CSV 최근 14개월 데이터로 YoY 계산
-    for kind, sid in [("CPI", "CPIAUCSL"), ("PPI", "PPIACO")]:
-        try:
-            url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}"
-            req = urllib.request.Request(url, headers=headers)
-            with urllib.request.urlopen(req, timeout=10) as res:
-                lines = [ln.strip() for ln in res.read().decode("utf-8", errors="ignore").splitlines() if ln.strip() and not ln.endswith(".") and "," in ln]
-            valid = [ln for ln in lines if ln.split(",")[0][:4].isdigit()]
-            if len(valid) >= 14:
-                last_dt, last_v = valid[-1].split(",")
-                yoy_dt, yoy_v = valid[-13].split(",")
-                prev_v = valid[-2].split(",")[1]
-                prev_yoy_v = valid[-14].split(",")[1]
-                cur_yoy = ((float(last_v) - float(yoy_v)) / float(yoy_v)) * 100
-                prv_yoy = ((float(prev_v) - float(prev_yoy_v)) / float(prev_yoy_v)) * 100
-                diff_p = cur_yoy - prv_yoy
-                parsed = (f"{cur_yoy:.1f}%", f"{diff_p:+.1f}%p", f"{last_dt[:7]} YoY")
-                if kind == "CPI":
-                    cpi_res = parsed
-                else:
-                    ppi_res = parsed
-        except Exception as e:
-            print(f"[FRED-{sid}] 우회 시도: {e}")
-
-    # 2순위 백업: TradingEconomics 미국 지표 요약 페이지 파싱
-    if cpi_res[0] is None or ppi_res[0] is None:
-        try:
-            te_url = "https://tradingeconomics.com/united-states/indicators"
-            req = urllib.request.Request(te_url, headers=headers)
-            with urllib.request.urlopen(req, timeout=10) as res:
-                te_html = res.read().decode("utf-8", errors="ignore")
-
-            if cpi_res[0] is None:
-                m_cpi = re.search(r'Inflation Rate</a>\s*</td>\s*<td[^>]*>\s*([0-9.\-]+)', te_html, re.S)
-                if m_cpi:
-                    cpi_res = (f"{float(m_cpi.group(1)):.1f}%", "미국 물가", "CPI YoY")
-
-            if ppi_res[0] is None:
-                m_ppi = re.search(r'Producer Prices Change</a>\s*</td>\s*<td[^>]*>\s*([0-9.\-]+)', te_html, re.S)
-                if m_ppi:
-                    ppi_res = (f"{float(m_ppi.group(1)):.1f}%", "생산자물가", "PPI YoY")
-        except Exception as e:
-            print(f"[TE-Macro] 백업 수집 건너뜀: {e}")
-
-    return cpi_res, ppi_res
 
 
 def fetch_all_macro_dashboard():
-    cache = load_json(MACRO_CACHE_FILE, {})
+    us10y = fetch_yahoo_quote("^TNX", 2)
+    ten_y_str = f"미10Y {us10y['price']}%" if us10y["price"] != "-" else "실효 3.88%"
 
     board = {
         "KOSPI": fetch_yahoo_quote("^KS11", 2),
@@ -226,35 +195,10 @@ def fetch_all_macro_dashboard():
         "OIL": fetch_yahoo_quote("CL=F", 2),
         "GOLD": fetch_yahoo_quote("GC=F", 2),
         "SILVER": fetch_yahoo_quote("SI=F", 2),
-        "US10Y": fetch_yahoo_quote("^TNX", 2),
+        "FOMC": evaluate_macro_delta("FOMC", MACRO_OFFICIAL["FOMC"], ten_y_str),
+        "CPI": evaluate_macro_delta("CPI", MACRO_OFFICIAL["CPI"]),
+        "PPI": evaluate_macro_delta("PPI", MACRO_OFFICIAL["PPI"])
     }
-
-    # FOMC 기준금리 조회 및 캐시 반영
-    fomc_price, fomc_sub = fetch_fed_rate_realtime()
-    if fomc_price:
-        cache["FOMC"] = {"price": fomc_price, "diff": fomc_sub}
-    saved_fomc = cache.get("FOMC", {"price": "-", "diff": "연준 기준금리"})
-    board["FOMC"] = {
-        "price": saved_fomc["price"],
-        "diff": saved_fomc["diff"],
-        "pct": f"미10Y {board['US10Y']['price']}%",
-        "up": True
-    }
-
-    # CPI / PPI 조회 및 캐시 반영
-    cpi_tuple, ppi_tuple = fetch_cpi_ppi_realtime()
-    if cpi_tuple[0]:
-        cache["CPI"] = {"price": cpi_tuple[0], "diff": cpi_tuple[1], "pct": cpi_tuple[2]}
-    if ppi_tuple[0]:
-        cache["PPI"] = {"price": ppi_tuple[0], "diff": ppi_tuple[1], "pct": ppi_tuple[2]}
-
-    saved_cpi = cache.get("CPI", {"price": "-", "diff": "전년비", "pct": "CPI YoY"})
-    saved_ppi = cache.get("PPI", {"price": "-", "diff": "전년비", "pct": "PPI YoY"})
-
-    board["CPI"] = {**saved_cpi, "up": True}
-    board["PPI"] = {**saved_ppi, "up": True}
-
-    save_json(MACRO_CACHE_FILE, cache)
     return board
 
 
@@ -392,19 +336,31 @@ def fetch_dart():
     return results
 
 
-def render_tile(box_id, label, sub_label, info, compact=False, is_macro_stat=False):
+def render_tile(box_id, label, sub_label, info, compact=False):
     cls = "up" if info.get("up", True) else "down"
-    arrow = "" if is_macro_stat else ("▲ " if info.get("up", True) else "▼ ")
+    arrow = "▲ " if info.get("up", True) else "▼ "
     price = html.escape(str(info.get("price", "-")))
     diff = html.escape(str(info.get("diff", "")))
     pct = html.escape(str(info.get("pct", "")))
     card_cls = "idx-card compact" if compact else "idx-card"
-    chg_text = f"{diff} · {pct}" if is_macro_stat else f"{arrow}{diff} ({pct})"
-    chg_cls = "idx-chg neutral" if is_macro_stat else f"idx-chg {cls}"
     return (
         f'<div class="{card_cls}" id="idx-{box_id}">'
         f'<div class="idx-head"><span class="idx-name">{label}</span><span class="idx-sub">{sub_label}</span></div>'
-        f'<div class="idx-body"><span class="idx-price">{price}</span><span class="{chg_cls}">{chg_text}</span></div>'
+        f'<div class="idx-body"><span class="idx-price">{price}</span><span class="idx-chg {cls}">{arrow}{diff} ({pct})</span></div>'
+        f'</div>'
+    )
+
+
+def render_macro_policy_tile(box_id, label, sub_label, info):
+    """FOMC/CPI/PPI 전용 타일: 동결=초록(freeze), 상승=빨강(up), 하락=파랑(down)"""
+    price = html.escape(str(info.get("price", "-")))
+    status_text = html.escape(str(info.get("status_text", "")))
+    status_cls = html.escape(str(info.get("status_cls", "freeze")))
+    sub_note = html.escape(str(info.get("sub_note", sub_label)))
+    return (
+        f'<div class="idx-card compact" id="idx-{box_id}">'
+        f'<div class="idx-head"><span class="idx-name">{label}</span><span class="idx-sub">{sub_note}</span></div>'
+        f'<div class="idx-body"><span class="idx-price">{price}</span><span class="idx-chg {status_cls}">{status_text}</span></div>'
         f'</div>'
     )
 
@@ -426,9 +382,9 @@ def build_saveticker_html(feed_items, board, updated_time):
         + render_tile("SILVER", "🥈 국제 은", "$/oz", board.get("SILVER", {}), compact=True)
     )
     row_macro = (
-        render_tile("FOMC", "🏛 FOMC 기준금리", "FED RATE", board.get("FOMC", {}), compact=True, is_macro_stat=True)
-        + render_tile("CPI", "📊 미국 CPI", "소비자물가", board.get("CPI", {}), compact=True, is_macro_stat=True)
-        + render_tile("PPI", "🏭 미국 PPI", "생산자물가", board.get("PPI", {}), compact=True, is_macro_stat=True)
+        render_macro_policy_tile("FOMC", "🏛 FOMC 기준금리", "FED RATE", board.get("FOMC", {}))
+        + render_macro_policy_tile("CPI", "📊 미국 CPI", "소비자물가", board.get("CPI", {}))
+        + render_macro_policy_tile("PPI", "🏭 미국 PPI", "생산자물가", board.get("PPI", {}))
     )
 
     card_parts = []
@@ -481,12 +437,12 @@ def build_saveticker_html(feed_items, board, updated_time):
   .idx-sub { font-size: 10.5px; color: #8b949e; font-weight: 600; }
   .idx-body { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px; }
   .idx-price { font-size: 18px; font-weight: 800; color: #f0f6fc; letter-spacing: -0.3px; }
-  .idx-card.compact .idx-price { font-size: 15.5px; }
+  .idx-card.compact .idx-price { font-size: 15px; }
   .idx-chg { font-size: 12px; font-weight: 700; }
   .idx-card.compact .idx-chg { font-size: 11px; }
   .idx-chg.up { color: #ff6b6b; }
   .idx-chg.down { color: #4dabf7; }
-  .idx-chg.neutral { color: #79c0ff; }
+  .idx-chg.freeze { color: #3fb950; background: rgba(63, 185, 80, 0.14); padding: 2px 7px; border-radius: 6px; border: 1px solid rgba(63, 185, 80, 0.35); }
 
   .search-panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; margin: 14px 0; }
   .search-wrap { display: flex; gap: 8px; margin-bottom: 10px; }
@@ -545,7 +501,7 @@ def build_saveticker_html(feed_items, board, updated_time):
     <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은)</div>
     <div class="grid-3">__ROW_CMD__</div>
 
-    <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI)</div>
+    <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI — 직전 발표치 대비)</div>
     <div class="grid-3">__ROW_MACRO__</div>
 
     <div class="sec-label" style="margin-top:18px;">📰 기업 속보 & DART 공시 피드</div>
@@ -561,77 +517,6 @@ def build_saveticker_html(feed_items, board, updated_time):
 
 <script>
   let currentCat = 'ALL';
-
-  async function refreshFredSeriesBrowser(seriesId) {
-    try {
-      const csvUrl = `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${seriesId}`;
-      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(csvUrl)}`;
-      const res = await fetch(proxyUrl);
-      const wrapper = await res.json();
-      if (!wrapper || !wrapper.contents) return [];
-      return wrapper.contents.split('\n')
-        .map(l => l.trim())
-        .filter(l => l && !l.endsWith('.') && /^\d{4}-\d{2}-\d{2},/.test(l));
-    } catch (e) {
-      return [];
-    }
-  }
-
-  async function refreshMacroPolicyIndicators() {
-    // 1. FOMC 기준금리 (DFEDTARU) 브라우저 직접 갱신
-    const fomcLines = await refreshFredSeriesBrowser('DFEDTARU');
-    if (fomcLines.length >= 1) {
-      const [dt, valStr] = fomcLines[fomcLines.length - 1].split(',');
-      const rate = parseFloat(valStr);
-      if (!isNaN(rate)) {
-        const card = document.getElementById('idx-FOMC');
-        if (card) {
-          card.querySelector('.idx-price').textContent = `${rate.toFixed(2)}%`;
-          const subEl = card.querySelector('.idx-chg');
-          const tenYPart = subEl.textContent.includes('미10Y') ? subEl.textContent.split('·')[1].trim() : '';
-          subEl.textContent = tenYPart ? `기준 ${dt.slice(0, 7)} · ${tenYPart}` : `기준 ${dt.slice(0, 7)}`;
-        }
-      }
-    }
-
-    // 2. 미국 CPI 전년동월비 (CPIAUCSL) 브라우저 직접 갱신
-    const cpiLines = await refreshFredSeriesBrowser('CPIAUCSL');
-    if (cpiLines.length >= 14) {
-      const [dt, curS] = cpiLines[cpiLines.length - 1].split(',');
-      const yoyS = cpiLines[cpiLines.length - 13].split(',')[1];
-      const prvS = cpiLines[cpiLines.length - 2].split(',')[1];
-      const prvYoyS = cpiLines[cpiLines.length - 14].split(',')[1];
-      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
-      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
-      const diffP = curYoy - prvYoy;
-      if (!isNaN(curYoy)) {
-        const card = document.getElementById('idx-CPI');
-        if (card) {
-          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
-          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
-        }
-      }
-    }
-
-    // 3. 미국 PPI 전년동월비 (PPIACO) 브라우저 직접 갱신
-    const ppiLines = await refreshFredSeriesBrowser('PPIACO');
-    if (ppiLines.length >= 14) {
-      const [dt, curS] = ppiLines[ppiLines.length - 1].split(',');
-      const yoyS = ppiLines[ppiLines.length - 13].split(',')[1];
-      const prvS = ppiLines[ppiLines.length - 2].split(',')[1];
-      const prvYoyS = ppiLines[ppiLines.length - 14].split(',')[1];
-      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
-      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
-      const diffP = curYoy - prvYoy;
-      if (!isNaN(curYoy)) {
-        const card = document.getElementById('idx-PPI');
-        if (card) {
-          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
-          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
-        }
-      }
-    }
-  }
 
   async function refreshLiveMarketQuotes() {
     const targets = [
@@ -677,11 +562,25 @@ def build_saveticker_html(feed_items, board, updated_time):
         }
       } catch (e) {}
     }
+
+    try {
+      const apiUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent('^TNX')}?interval=1d&range=5d`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(apiUrl)}`;
+      const res = await fetch(proxyUrl);
+      const wrapper = await res.json();
+      const data = JSON.parse(wrapper.contents);
+      const tenY = data.chart.result[0].meta.regularMarketPrice;
+      if (tenY !== undefined) {
+        const fomcCard = document.getElementById('idx-FOMC');
+        if (fomcCard) {
+          fomcCard.querySelector('.idx-sub').textContent = `미10Y ${tenY.toFixed(2)}%`;
+        }
+      }
+    } catch (e) {}
   }
 
   window.addEventListener('DOMContentLoaded', () => {
     refreshLiveMarketQuotes();
-    refreshMacroPolicyIndicators();
     setInterval(refreshLiveMarketQuotes, 60000);
   });
 
