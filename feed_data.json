@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 이탈리아",
+    "press": "연합뉴스TV",
+    "title": "이탈리아, 메타에 과징금 1조 부과…\"이용자 사진에 무단 접근\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1aS09sYXNIZkhBZXpYbTZuNFpEME13eXZUXzN3dXpkLWxoSnJOOU9mbGpMdG56UDVCbnF4RmtRZGszWWdTQkZiMFpZNGxydXVscTlEbWlQZV9vM01xbjZIcjZlQ2hJekE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 04:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "매일경제",
+    "title": "日 ‘스시자로’ 대마도 픽업까지 등장…“비행기 안 타도 된다”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5vOXlxMmhRalZ0azlKU2duRlhQZFZGNm9Ib1hQLUZwNU15dV81T2tQZ0lUR09jdWNESWIzY1NGZXNFVnJBdnZRX1BWRTNodw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 04:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "위키트리",
+    "title": "미국 법무부, 바이낸스 해킹 자금 12억 달러 압류·동결 명령 확보…몰수·반환 시점은 미정",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE45M0xqamVDT0NuQ2NnTDE4Wk9QVGZiLXBVQWRQYmRZZmlMeWNmbVZ3blhJLThxcUF4QVYwdlptVEUwaGZFdm41cXJ4WnZqT2ZaNEdOaGtn?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 04:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 동원파츠",
+    "press": "매일경제 마켓",
+    "title": "[특징주] 동원파츠, 코스닥 상장 첫날 10%대 상승(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE45cjRYMXJnQTlMWjdNd3YwTHRTUkJ0SEFSSmtWbkNHbnl3dHRfdTVIUUE1NDR4Q05UUVBOT1k4RnY5R2hTS1pmYXdDUEFOcFN6R2c?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 04:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 바로팜",
+    "press": "에너지경제신문",
+    "title": "[특징주] 바로팜, 코스닥 상장 첫날 장 초반 약세",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vSm56VWhmZEFVanRzdWRsTGtfcmpJZkh2eWZ2Y1pZaEJXNnhqWVJxaTEzR0pTYklhVkVzLXBVMU0tVlNfT25jZHJLal84UGVnZDdZWUgweU5nekU?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 04:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 넥스아이",
+    "press": "한스경제",
+    "title": "[특징주] 넥스아이, 코스닥 입성 첫날 '찬바람'…30% 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB5QUNJU0NnTGZMU2ljZXB6OUNnWnRaWGpFV0drdWRSSmF5b245UU9PQWtpWXNaQ1J2R09vN211aXpZcFpDR3VHcUJPZlM2WVJSRnl4ZEMxUmlDLWNZZWYwQkpJOUU5MnZMQ0tkStIBb0FVX3lxTE9yZ3FETjNJQXdiN0Y3cDNBeVp1b01ITUY3S2VjX1RnNmR2RndEb2UtdHZNT0M1MlJ6R1NZOXVwSm1OUGFIUDBhMmhMWmhxSFp3ODdOaUdtejhyOFpqaVZmVGRMWmN6VHJtZ3pGdHppNA?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 04:40"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한겨레",
     "title": "지구 14바퀴 ‘코끼리코’ 돌고 ‘젓가락 잡기’ 2단 회수…머스크의 ‘무한도전’",
@@ -2937,66 +2997,6 @@
     "sub_title": "",
     "link": "https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-winds-down-cybertruck-pulls-model-y-variant-while-rivian-lucid-chase-volumes-in-ev-updates-this-week/cNb2AojR9QP?.tsrc=rss",
     "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$TSLA",
-    "press": "Yahoo Finance",
-    "title": "SpaceX, Tesla Merger Puts Musk At Forefront Of 'Revolutionary' Tech, Analyst Says",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/m/00d73871-4c74-3adb-95a4-1a0ac2ea77d1/spacex%2C-tesla-merger-puts.html?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AAPL",
-    "press": "Finviz · Quartz",
-    "title": "10 executives who left their companies and later returned as CEO",
-    "sub_title": "",
-    "link": "https://qz.com/boomerang-ceos-returned-lead-companies",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AAPL",
-    "press": "Finviz · Barrons.com",
-    "title": "The Price Tag on Jensen Huang's Resignation: $639 Billion and Counting",
-    "sub_title": "",
-    "link": "https://www.barrons.com/articles/nvidia-stock-jensen-huang-resignation-cost-1893df0f?mod=bar_FV",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AAPL",
-    "press": "Finviz · Investing.com",
-    "title": "Meta tests prediction-market app for employees, WSJ reports",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/articles/meta-tests-prediction-market-app-203017664.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AAPL",
-    "press": "Finviz · MarketWatch",
-    "title": "Big Tech trades mixed, as Nvidia, Tesla, Alphabet weigh on Magnificent Seven ETF",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-ceo-jensen-huang-resigns-ppi-inflation-data/card/big-tech-trades-mixed-as-nvidia-tesla-alphabet-weigh-on-magnificent-seven-etf-usCGojHXQWkJerttry68?mod=mw_FV",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AAPL",
-    "press": "Yahoo Finance",
-    "title": "Is Apple Stock a Buy Right Now?",
-    "sub_title": "",
-    "link": "https://www.fool.com/investing/2026/11/13/is-apple-stock-a-buy-right-now/?.tsrc=rss",
-    "impact": "🔥 주요속보",
     "time": "11/14 18:28"
   }
 ]
