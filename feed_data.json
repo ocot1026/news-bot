@@ -2,6 +2,66 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "에너지경제신문",
+    "title": "“비트코인 못해먹겠네”…툭하면 강제청산, 7만달러 다시 붕괴 [머니+]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wbG1Ic2ctb21xQlpGZkdmRXNYTm5tbllYNUpUYkJUMnk0RDF5RklxUUZ1WkF0aWhOUERid2hINXl2N0RmT3hVTXQzZUV0RWltOXNSMW56dm5ETmM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 06:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "보스턴 연은 총재 \"현재까진 꾸준하고 점진적인 경로가 적절\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aYWtpLXZKRWNrT2tyWVo5Zl9PM0NiMlB3alB0ZW83VGdHOXU3YkVadmRUS25HNzB4TjVlZC1pS3VGaDIyaUMtOW9BSkdWRVFycmFnM194Wmg1Y2l0S3NjQXZlNk9fa0VHT3ZhMHFHNVU?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 06:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 2분기",
+    "press": "연합뉴스",
+    "title": "2분기 실적시즌 막바지…상장사 10곳 중 6곳꼴 기대치 웃돌아",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5OWZ2YzJDVHJxd09HUktUN2xhZXlyMDJ0bHk3LS1hemRfNjQyeWhKVXhkYUNlYUFwa2pmeS1kbklKVFFnMjdNckRYQ2Jnb1VGZElSX2MtOWtFU1nSAWBBVV95cUxPbHNRZjdfdWkydDh0aXNZejV5Q3R1QVJORDFCZHNMUGh3UVA5SEo2VWRCQ1Axc293ZG4yTXFBWHhGZk51LXRhaHk0Uk5kZGtudUdwR2hFOUVMZDZnZEF5dHg?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 06:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Juicy 6% Yields는 Nvidia 드라마 이후 매력을 얻습니다: Credit Weekly",
+    "sub_title": "Juicy 6% Yields Gain Appeal After Nvidia Drama: Credit Weekly",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-14/juicy-6-yields-gain-appeal-after-nvidia-drama-credit-weekly",
+    "impact": "📰 일반",
+    "time": "11/15 06:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "일부 항공편이 지상 정지에서 면제된 방법",
+    "sub_title": "How Some Flights Were Exempt From the Ground Stop",
+    "link": "https://www.nytimes.com/2026/11/14/business/faa-ground-stop-exceptions-airlines.html",
+    "impact": "📰 일반",
+    "time": "11/15 06:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "그녀는 여성이 거의 없었을 때 CBS 뉴스 프로듀서였습니다",
+    "sub_title": "She Was a CBS News Producer When Few Women Were",
+    "link": "https://www.nytimes.com/2026/11/14/business/media/linda-mason-dead-cbs-news.html",
+    "impact": "📰 일반",
+    "time": "11/15 06:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "한겨레",
     "title": "“트럼프, 시진핑 회담서 젠슨 황 ‘스파이 연루 의혹’ 거론 안 할듯”",
     "sub_title": "",
@@ -2936,66 +2996,6 @@
     "title": "Jensen Huang's exit threatens to upend Nvidia's global AI funding network",
     "sub_title": "",
     "link": "https://www.digitimes.com/news/a20261113PD239/nvidia-jensen-huang-funding-ceo-investment.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$NVDA",
-    "press": "Finviz · DigiTimes",
-    "title": "Huang's resignation unlikely to disrupt Taiwan's AI industry, Acer founder says",
-    "sub_title": "",
-    "link": "https://www.digitimes.com/news/a20261113PD245/taiwan-nvidia-jensen-huang-ceo-acer.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$NVDA",
-    "press": "Finviz · DigiTimes",
-    "title": "Jensen Huang's Nvidia era may be over. But Taiwan isn't ready to say goodbye.",
-    "sub_title": "",
-    "link": "https://www.digitimes.com/news/a20261114VL200/nvidia-taiwan-2022-jensen-huang-taipei.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$NVDA",
-    "press": "Yahoo Finance",
-    "title": "Jim Cramer: Amazon Has What “May Soon Be a $50 Billion Semiconductor Business”",
-    "sub_title": "",
-    "link": "https://www.tikr.com/blog/jim-cramer-amazon-has-what-may-soon-be-a-50-billion-semiconductor-business?ref=yahoofinance&tlnk=yf-261114-wq798x99&.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$NVDA",
-    "press": "Yahoo Finance",
-    "title": "Planning to Claim Social Security at 62? Here Are 3 Critical Questions to Ask Yourself First",
-    "sub_title": "",
-    "link": "https://www.fool.com/retirement/2026/11/14/planning-to-claim-social-security-at-62-here-are-3-critical-questions-to-ask-yourself-first/?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$NVDA",
-    "press": "Yahoo Finance",
-    "title": "Is Nvidia Worth This Much Less Without Jensen Huang?",
-    "sub_title": "",
-    "link": "https://www.fool.com/investing/2026/11/14/is-nvidia-worth-this-much-less-without-jensen-huang/?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$TSLA",
-    "press": "Finviz · Stocktwits",
-    "title": "Tesla Cybercab Now Available For Purchase For Select Customers But Theres A Catch",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/tesla-cybercab-now-available-purchase-060937273.html",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
