@@ -1,6 +1,26 @@
 [
   {
     "category": "MACRO",
+    "tag": "유가",
+    "press": "뉴시스",
+    "title": "국제 유가 변동 없이 마감…2일 동안 상승세 중단",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ocU42MkZYWDNlUUoyMk5POXljbmV4MFNOZTdmWkhyeWtTRVlYLVFiUG9CbUxhYmhxTkN1ZV9uUDF1UDBqSWVVTDlYV0RjVF81b1NyX1laYWFrSE5UNjFQONIBeEFVX3lxTE1TemI3VUZZMFZES29mbnRkZ3dXYVBPc2taeWhfRzE3NzBKNVVJMWNZLVhTUUIzdWlYZnNITWY1SktUcFY1MHpmcGNiR2lPZEVrZmY5NHZuR2xQVVMzVGlKU3ZScGV5d2NOX0VIR3NGaGxFSWZmNU9YTA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:53"
+  },
+  {
+    "category": "US",
+    "tag": "$NVDA",
+    "press": "Yahoo Finance",
+    "title": "Should You Really Buy Nvidia Stock After CEO Jensen Huang's Exit? Wall Street Has a Clear Answer for Investors.",
+    "sub_title": "",
+    "link": "https://www.fool.com/investing/2026/11/14/buy-nvidia-stock-ceo-jensen-huang-exit-wall-street-answer/?.tsrc=rss",
+    "impact": "🔥 주요속보",
+    "time": "11/14 18:53"
+  },
+  {
+    "category": "MACRO",
     "tag": "CPI 물가",
     "press": "SBS Biz",
     "title": "美 10월 CPI, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향",
@@ -1976,26 +1996,6 @@
     "title": "Review & Preview: Moving On",
     "sub_title": "",
     "link": "https://www.barrons.com/articles/stockstoday-rotation-after-nvidia-3d0dbe00?mod=bar_FV",
-    "impact": "📰 일반",
-    "time": "11/14 18:08"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Finviz · AFP",
-    "title": "Wall Street stocks mostly lower as Nvidia extends slump",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-stocks-mostly-lower-230704278.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:08"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Finviz · Exec Edge",
-    "title": "Xanadu Breakthroughs & Partnerships Advance Roadmap Quarterly Update Report",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/ai/articles/xanadu-breakthroughs-partnerships-advance-roadmap-221337932.html",
     "impact": "📰 일반",
     "time": "11/14 18:08"
   }
