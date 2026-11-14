@@ -9,7 +9,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v5.2 - 모바일 대소문자 통합 & 국내 영문종목 인식 에디션]
+# [나만의 세이브티커 v5.3 - 실시간 검색 이중화 & 국내 영문사명 연동 에디션]
 # ==========================================
 
 MACRO_KEYWORDS = ["연준 금리", "환율", "유가", "CPI 물가", "미국 증시", "코스피"]
@@ -367,7 +367,7 @@ def build_saveticker_html(feed_items, indices, updated_time):
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
         <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
         <div class="search-wrap">
-          <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="HPSP, 엔비디아, NVDA 입력 후 Enter...">
+          <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="NAVER, HPSP, 엔비디아, NVDA 입력...">
           <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
         </div>
       </div>
@@ -439,10 +439,26 @@ def build_saveticker_html(feed_items, indices, updated_time):
     setInterval(refreshLiveIndices, 60000);
   });
 
-  // 알파벳이지만 한국 상장사인 주요 기업 목록 (대소문자 무관 인식)
-  const KR_ENGLISH_STOCKS = new Set([
-    'HPSP', 'NAVER', 'POSCO', 'KT', 'LG', 'SK', 'GS', 'LS', 'CJ', 'OCI', 'BGF', 'SPC', 'KG', 'HD', 'HMM', 'S-OIL', 'SOIL', 'JYP', 'SM', 'YG', 'HYBE', 'KAKAO', 'KRX', 'DB', 'NH', 'KB', 'BNK', 'DGB', 'JB'
-  ]);
+  // 알파벳 한국 상장사 → 구글 뉴스 검색 시 한글/영문 복합 검색어로 확장
+  const KR_ENGLISH_MAP = {
+    'NAVER': '네이버 OR NAVER',
+    'HPSP': 'HPSP',
+    'POSCO': '포스코 OR POSCO',
+    'KT': 'KT OR 케이티',
+    'LG': 'LG OR 엘지',
+    'SK': 'SK OR 에스케이',
+    'GS': 'GS',
+    'LS': 'LS',
+    'CJ': 'CJ',
+    'OCI': 'OCI',
+    'HYBE': '하이브 OR HYBE',
+    'KAKAO': '카카오 OR KAKAO',
+    'JYP': 'JYP',
+    'SM': '에스엠 OR SM엔터',
+    'YG': '와이지엔터테인먼트 OR YG',
+    'HMM': 'HMM',
+    'HD': 'HD현대'
+  };
 
   const KO_TO_TICKER = {
     '엔비디아': 'NVDA', '앤비디아': 'NVDA', '엔비': 'NVDA',
@@ -467,29 +483,25 @@ def build_saveticker_html(feed_items, indices, updated_time):
   };
 
   function resolveQueryContext(raw) {
-    // 모바일에서 Hpsp, hpsp 등으로 들어와도 영문은 모두 대문자로 정규화
     const cleaned = raw.replace('$', '').trim();
     const upper = cleaned.toUpperCase();
     const compact = cleaned.replace(/\s+/g, '');
 
-    // 1. 영문 기업명/티커 형태인 경우 (Hpsp -> HPSP, nvda -> NVDA)
     if (/^[A-Za-z0-9.\-]{1,10}$/.test(cleaned)) {
-      if (KR_ENGLISH_STOCKS.has(upper)) {
-        // 한국 상장 영문 기업(예: HPSP)은 한국 구글 뉴스 키워드로 설정하고 미국 티커 조회 제외
-        return { ticker: '', krKeyword: upper, isKrEnglish: true };
+      if (KR_ENGLISH_MAP[upper]) {
+        return { ticker: '', displayLabel: upper, krSearchQuery: KR_ENGLISH_MAP[upper], isKrEnglish: true };
       }
       const matchedKo = Object.keys(KO_TO_TICKER).find(k => KO_TO_TICKER[k] === upper) || '';
-      return { ticker: upper, krKeyword: matchedKo || upper, isKrEnglish: false };
+      return { ticker: upper, displayLabel: matchedKo || upper, krSearchQuery: matchedKo || upper, isKrEnglish: false };
     }
 
-    // 2. 한글 기업명 사전 매칭
     if (KO_TO_TICKER[compact]) {
       const tk = KO_TO_TICKER[compact];
       const normalizedKr = (compact === '앤비디아') ? '엔비디아' : cleaned;
-      return { ticker: tk, krKeyword: normalizedKr, isKrEnglish: false };
+      return { ticker: tk, displayLabel: normalizedKr, krSearchQuery: normalizedKr, isKrEnglish: false };
     }
 
-    return { ticker: '', krKeyword: cleaned, isKrEnglish: false };
+    return { ticker: '', displayLabel: cleaned, krSearchQuery: cleaned, isKrEnglish: false };
   }
 
   async function autoDetectTicker(queryText) {
@@ -506,6 +518,44 @@ def build_saveticker_html(feed_items, indices, updated_time):
       }
     } catch (e) {}
     return '';
+  }
+
+  // 이중 우회 RSS 수집기 (1순위: allorigins XML 직접 파싱, 2순위: rss2json)
+  async function fetchRssItemsReliable(rssUrl, limitCount) {
+    // 1순위: allorigins 프록시로 원본 XML 직접 파싱 (구글 뉴스 차단 우회에 가장 안정적)
+    try {
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`;
+      const res = await fetch(proxyUrl);
+      const wrapper = await res.json();
+      if (wrapper && wrapper.contents) {
+        const parser = new DOMParser();
+        const xmlDoc = parser.parseFromString(wrapper.contents, "text/xml");
+        const nodes = Array.from(xmlDoc.querySelectorAll("item")).slice(0, limitCount);
+        if (nodes.length > 0) {
+          return nodes.map(node => ({
+            title: (node.querySelector("title")?.textContent || "").trim(),
+            link: (node.querySelector("link")?.textContent || "").trim(),
+            pubDate: (node.querySelector("pubDate")?.textContent || "").trim()
+          }));
+        }
+      }
+    } catch (e) {}
+
+    // 2순위: rss2json 백업 호출
+    try {
+      const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+      const res = await fetch(apiUrl);
+      const data = await res.json();
+      if (data && data.status === 'ok' && data.items && data.items.length > 0) {
+        return data.items.slice(0, limitCount).map(item => ({
+          title: (item.title || "").trim(),
+          link: (item.link || "").trim(),
+          pubDate: (item.pubDate || "").trim()
+        }));
+      }
+    } catch (e) {}
+
+    return [];
   }
 
   function filterCat(cat, btn) {
@@ -527,12 +577,12 @@ def build_saveticker_html(feed_items, indices, updated_time):
     const ctx = resolveQueryContext(raw);
     const q1 = raw.toLowerCase();
     const q2 = ctx.ticker.toLowerCase();
-    const q3 = ctx.krKeyword.toLowerCase();
+    const q3 = ctx.displayLabel.toLowerCase();
 
     document.querySelectorAll('.saved-card').forEach(card => {
       const matchCat = (currentCat === 'ALL' || card.dataset.cat === currentCat);
       const txt = card.dataset.text.toLowerCase();
-      const matchText = txt.includes(q1) || (q2 && txt.includes(q2)) || (q3 && txt.includes(q3));
+      const matchText = txt.includes(q1) || (q2 && txt.includes(q2)) || (q3 && txt.includes(q3)) || (q1 === 'naver' && txt.includes('네이버'));
       card.style.display = (matchCat && matchText) ? 'block' : 'none';
     });
   }
@@ -584,36 +634,32 @@ def build_saveticker_html(feed_items, indices, updated_time):
     feedList.style.display = 'none';
 
     let ctx = resolveQueryContext(rawQuery);
-    statusText.textContent = `⏳ '${ctx.krKeyword}' 종목 매칭 및 실시간 속보 수집 중...`;
+    statusText.textContent = `⏳ '${ctx.displayLabel}' 종목 매칭 및 실시간 속보 수집 중...`;
 
-    // 한국 영문 기업(HPSP 등)이 아닐 때만 미국 티커 자동 탐색 실행
     if (!ctx.ticker && !ctx.isKrEnglish) {
       const detected = await autoDetectTicker(rawQuery);
       if (detected) ctx.ticker = detected;
     }
 
-    const labelStr = ctx.ticker ? `${ctx.krKeyword} ($${ctx.ticker})` : ctx.krKeyword;
+    const labelStr = ctx.ticker ? `${ctx.displayLabel} ($${ctx.ticker})` : ctx.displayLabel;
     statusText.textContent = `⏳ ${labelStr} 실시간 속보 수집 및 정리 중...`;
 
-    const krRss = `https://news.google.com/rss/search?q=${encodeURIComponent(ctx.krKeyword)}&hl=ko&gl=KR&ceid=KR:ko`;
-    const krApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(krRss)}`;
+    const krRss = `https://news.google.com/rss/search?q=${encodeURIComponent(ctx.krSearchQuery)}&hl=ko&gl=KR&ceid=KR:ko`;
 
     let combinedItems = [];
 
     try {
-      const requests = [fetch(krApi).then(r => r.json()).catch(() => null)];
+      const requests = [fetchRssItemsReliable(krRss, 10)];
       if (ctx.ticker) {
         const usRss = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${encodeURIComponent(ctx.ticker)}&region=US&lang=en-US`;
-        const usApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(usRss)}`;
-        requests.push(fetch(usApi).then(r => r.json()).catch(() => null));
+        requests.push(fetchRssItemsReliable(usRss, 7));
       }
 
-      const [krData, usData] = await Promise.all(requests);
+      const [krItems, usItems] = await Promise.all(requests);
 
-      if (usData && usData.status === 'ok' && usData.items) {
-        const topUs = usData.items.slice(0, 7);
-        const translatedTitles = await Promise.all(topUs.map(item => translateEnToKo(item.title)));
-        topUs.forEach((item, idx) => {
+      if (usItems && usItems.length > 0) {
+        const translatedTitles = await Promise.all(usItems.map(item => translateEnToKo(item.title)));
+        usItems.forEach((item, idx) => {
           combinedItems.push({
             tag: `$${ctx.ticker}`,
             press: 'Yahoo Finance (US)',
@@ -625,8 +671,8 @@ def build_saveticker_html(feed_items, indices, updated_time):
         });
       }
 
-      if (krData && krData.status === 'ok' && krData.items) {
-        krData.items.slice(0, 10).forEach(item => {
+      if (krItems && krItems.length > 0) {
+        krItems.forEach(item => {
           let title = item.title || '';
           let press = 'Google 뉴스';
           if (title.includes(' - ')) {
@@ -635,7 +681,7 @@ def build_saveticker_html(feed_items, indices, updated_time):
             title = parts.join(' - ');
           }
           combinedItems.push({
-            tag: ctx.krKeyword,
+            tag: ctx.displayLabel,
             press: press,
             title: title,
             subTitle: '',
