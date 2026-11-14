@@ -9,10 +9,9 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v6.0 - 경량 피드 & 글로벌 매크로 대시보드]
+# [나만의 세이브티커 v6.1 - FOMC · CPI · PPI 다중소스 복구 에디션]
 # ==========================================
 
-# 매크로 키워드 뉴스 크롤링 제거 (병목 제거 및 핵심 지수 전광판으로 대체)
 KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER", "HPSP"]
 US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
 IGNORE_WORDS = ["부고", "인사", "포토", "동정", "모집", "이벤트", "할인", "광고"]
@@ -22,6 +21,7 @@ CHAT_ID = os.environ.get("CHAT_ID")
 DART_API_KEY = os.environ.get("DART_API_KEY")
 HISTORY_FILE = "sent_news.json"
 FEED_DATA_FILE = "feed_data.json"
+MACRO_CACHE_FILE = "macro_cache.json"
 
 
 def get_kst_now():
@@ -92,7 +92,6 @@ def strip_html_tags(raw_html):
 
 
 def fetch_yahoo_quote(sym, decimals=2):
-    """야후 파이낸스 차트 API로 지수·환율·원자재·금리 시세를 조회합니다."""
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     try:
         encoded_sym = urllib.parse.quote(sym)
@@ -119,27 +118,100 @@ def fetch_yahoo_quote(sym, decimals=2):
     return {"price": "-", "diff": "0.00", "pct": "0.00%", "up": True}
 
 
-def fetch_fred_latest(series_id):
-    """미 연준(FRED) 공개 CSV에서 최신 FOMC 기준금리 및 CPI/PPI 지표를 실시간 조회합니다."""
-    headers = {"User-Agent": "Mozilla/5.0"}
+def fetch_fed_rate_realtime():
+    """FOMC 기준금리를 FRED 및 Yahoo 초단기 국채/연방기금선물(ZQ=F)에서 다중 조회합니다."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Accept": "text/csv,text/plain,*/*",
+        "Referer": "https://fred.stlouisfed.org/"
+    }
+    # 1순위: FRED 목표금리 상단(DFEDTARU) 및 실효연방기금금리(DFF)
+    for sid in ["DFEDTARU", "DFF"]:
+        try:
+            url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}"
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=10) as res:
+                lines = [ln.strip() for ln in res.read().decode("utf-8", errors="ignore").splitlines() if ln.strip() and not ln.endswith(".") and "," in ln]
+            if len(lines) >= 2 and lines[-1].split(",")[0][:4].isdigit():
+                dt, val_s = lines[-1].split(",")
+                val = float(val_s)
+                return f"{val:.2f}%", f"기준 {dt[:7]}"
+        except Exception as e:
+            print(f"[FRED-{sid}] 우회 시도: {e}")
+
+    # 2순위: Yahoo Finance 연방기금금리 선물(ZQ=F -> 100 - 선물가격 = 내재 기준금리)
     try:
-        url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={series_id}"
-        req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=10) as res:
-            lines = [ln.strip() for ln in res.read().decode("utf-8").splitlines() if ln.strip() and not ln.endswith(".")]
-        if len(lines) >= 3:
-            last_date, last_val = lines[-1].split(",")
-            prev_date, prev_val = lines[-2].split(",")
-            val = float(last_val)
-            pval = float(prev_val)
-            return last_date[:7], val, pval, lines
-    except Exception as e:
-        print(f"[FRED-{series_id}] 오류: {e}")
-    return "-", None, None, []
+        q = fetch_yahoo_quote("ZQ=F", 3)
+        if q["price"] != "-":
+            implied_rate = 100.0 - float(q["price"].replace(",", ""))
+            if 0 <= implied_rate <= 15:
+                return f"{implied_rate:.2f}%", "선물내재금리"
+    except Exception:
+        pass
+
+    return None, None
+
+
+def fetch_cpi_ppi_realtime():
+    """미국 CPI·PPI 전년동월비(YoY)를 FRED 및 TradingEconomics 공개 피드에서 다중 조회합니다."""
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,text/csv,*/*",
+        "Referer": "https://fred.stlouisfed.org/"
+    }
+    cpi_res = (None, None, None)
+    ppi_res = (None, None, None)
+
+    # 1순위: FRED CSV 최근 14개월 데이터로 YoY 계산
+    for kind, sid in [("CPI", "CPIAUCSL"), ("PPI", "PPIACO")]:
+        try:
+            url = f"https://fred.stlouisfed.org/graph/fredgraph.csv?id={sid}"
+            req = urllib.request.Request(url, headers=headers)
+            with urllib.request.urlopen(req, timeout=10) as res:
+                lines = [ln.strip() for ln in res.read().decode("utf-8", errors="ignore").splitlines() if ln.strip() and not ln.endswith(".") and "," in ln]
+            valid = [ln for ln in lines if ln.split(",")[0][:4].isdigit()]
+            if len(valid) >= 14:
+                last_dt, last_v = valid[-1].split(",")
+                yoy_dt, yoy_v = valid[-13].split(",")
+                prev_v = valid[-2].split(",")[1]
+                prev_yoy_v = valid[-14].split(",")[1]
+                cur_yoy = ((float(last_v) - float(yoy_v)) / float(yoy_v)) * 100
+                prv_yoy = ((float(prev_v) - float(prev_yoy_v)) / float(prev_yoy_v)) * 100
+                diff_p = cur_yoy - prv_yoy
+                parsed = (f"{cur_yoy:.1f}%", f"{diff_p:+.1f}%p", f"{last_dt[:7]} YoY")
+                if kind == "CPI":
+                    cpi_res = parsed
+                else:
+                    ppi_res = parsed
+        except Exception as e:
+            print(f"[FRED-{sid}] 우회 시도: {e}")
+
+    # 2순위 백업: TradingEconomics 미국 지표 요약 페이지 파싱
+    if cpi_res[0] is None or ppi_res[0] is None:
+        try:
+            te_url = "https://tradingeconomics.com/united-states/indicators"
+            req = urllib.request.Request(te_url, headers=headers)
+            with urllib.request.urlopen(req, timeout=10) as res:
+                te_html = res.read().decode("utf-8", errors="ignore")
+
+            if cpi_res[0] is None:
+                m_cpi = re.search(r'Inflation Rate</a>\s*</td>\s*<td[^>]*>\s*([0-9.\-]+)', te_html, re.S)
+                if m_cpi:
+                    cpi_res = (f"{float(m_cpi.group(1)):.1f}%", "미국 물가", "CPI YoY")
+
+            if ppi_res[0] is None:
+                m_ppi = re.search(r'Producer Prices Change</a>\s*</td>\s*<td[^>]*>\s*([0-9.\-]+)', te_html, re.S)
+                if m_ppi:
+                    ppi_res = (f"{float(m_ppi.group(1)):.1f}%", "생산자물가", "PPI YoY")
+        except Exception as e:
+            print(f"[TE-Macro] 백업 수집 건너뜀: {e}")
+
+    return cpi_res, ppi_res
 
 
 def fetch_all_macro_dashboard():
-    """증시 4대 지수, 한국+세계5대 환율, 유가/금/은, FOMC/CPI/PPI 데이터를 일괄 수집합니다."""
+    cache = load_json(MACRO_CACHE_FILE, {})
+
     board = {
         "KOSPI": fetch_yahoo_quote("^KS11", 2),
         "KOSDAQ": fetch_yahoo_quote("^KQ11", 2),
@@ -157,61 +229,32 @@ def fetch_all_macro_dashboard():
         "US10Y": fetch_yahoo_quote("^TNX", 2),
     }
 
-    # FOMC 기준금리 (DFEDTARU: 연준 목표금리 상단)
-    fomc_date, fomc_val, fomc_prev, _ = fetch_fred_latest("DFEDTARU")
-    if fomc_val is not None:
-        diff_bp = (fomc_val - fomc_prev) * 100
-        board["FOMC"] = {
-            "price": f"{fomc_val:.2f}%",
-            "diff": f"기준 {fomc_date}",
-            "pct": f"미10Y {board['US10Y']['price']}%",
-            "up": diff_bp >= 0
-        }
-    else:
-        board["FOMC"] = {"price": "-", "diff": "연준 기준금리", "pct": f"미10Y {board['US10Y']['price']}%", "up": True}
+    # FOMC 기준금리 조회 및 캐시 반영
+    fomc_price, fomc_sub = fetch_fed_rate_realtime()
+    if fomc_price:
+        cache["FOMC"] = {"price": fomc_price, "diff": fomc_sub}
+    saved_fomc = cache.get("FOMC", {"price": "-", "diff": "연준 기준금리"})
+    board["FOMC"] = {
+        "price": saved_fomc["price"],
+        "diff": saved_fomc["diff"],
+        "pct": f"미10Y {board['US10Y']['price']}%",
+        "up": True
+    }
 
-    # 미국 CPI 전년동월비(YoY %) 계산 (CPIAUCSL 최근 13개월 비교)
-    cpi_date, cpi_val, _, cpi_lines = fetch_fred_latest("CPIAUCSL")
-    if cpi_val is not None and len(cpi_lines) >= 14:
-        try:
-            yoy_ago = float(cpi_lines[-13].split(",")[1])
-            prev_yoy_ago = float(cpi_lines[-14].split(",")[1])
-            prev_m = float(cpi_lines[-2].split(",")[1])
-            cpi_yoy = ((cpi_val - yoy_ago) / yoy_ago) * 100
-            prev_cpi_yoy = ((prev_m - prev_yoy_ago) / prev_yoy_ago) * 100
-            diff_cpi = cpi_yoy - prev_cpi_yoy
-            board["CPI"] = {
-                "price": f"{cpi_yoy:.1f}%",
-                "diff": f"{diff_cpi:+.1f}%p",
-                "pct": f"{cpi_date} YoY",
-                "up": diff_cpi >= 0
-            }
-        except Exception:
-            board["CPI"] = {"price": "-", "diff": "전년비", "pct": "CPI YoY", "up": True}
-    else:
-        board["CPI"] = {"price": "-", "diff": "전년비", "pct": "CPI YoY", "up": True}
+    # CPI / PPI 조회 및 캐시 반영
+    cpi_tuple, ppi_tuple = fetch_cpi_ppi_realtime()
+    if cpi_tuple[0]:
+        cache["CPI"] = {"price": cpi_tuple[0], "diff": cpi_tuple[1], "pct": cpi_tuple[2]}
+    if ppi_tuple[0]:
+        cache["PPI"] = {"price": ppi_tuple[0], "diff": ppi_tuple[1], "pct": ppi_tuple[2]}
 
-    # 미국 PPI 전년동월비(YoY %) 계산 (PPIACO 최근 13개월 비교)
-    ppi_date, ppi_val, _, ppi_lines = fetch_fred_latest("PPIACO")
-    if ppi_val is not None and len(ppi_lines) >= 14:
-        try:
-            yoy_ago = float(ppi_lines[-13].split(",")[1])
-            prev_yoy_ago = float(ppi_lines[-14].split(",")[1])
-            prev_m = float(ppi_lines[-2].split(",")[1])
-            ppi_yoy = ((ppi_val - yoy_ago) / yoy_ago) * 100
-            prev_ppi_yoy = ((prev_m - prev_yoy_ago) / prev_yoy_ago) * 100
-            diff_ppi = ppi_yoy - prev_ppi_yoy
-            board["PPI"] = {
-                "price": f"{ppi_yoy:.1f}%",
-                "diff": f"{diff_ppi:+.1f}%p",
-                "pct": f"{ppi_date} YoY",
-                "up": diff_ppi >= 0
-            }
-        except Exception:
-            board["PPI"] = {"price": "-", "diff": "전년비", "pct": "PPI YoY", "up": True}
-    else:
-        board["PPI"] = {"price": "-", "diff": "전년비", "pct": "PPI YoY", "up": True}
+    saved_cpi = cache.get("CPI", {"price": "-", "diff": "전년비", "pct": "CPI YoY"})
+    saved_ppi = cache.get("PPI", {"price": "-", "diff": "전년비", "pct": "PPI YoY"})
 
+    board["CPI"] = {**saved_cpi, "up": True}
+    board["PPI"] = {**saved_ppi, "up": True}
+
+    save_json(MACRO_CACHE_FILE, cache)
     return board
 
 
@@ -367,11 +410,8 @@ def render_tile(box_id, label, sub_label, info, compact=False, is_macro_stat=Fal
 
 
 def build_saveticker_html(feed_items, board, updated_time):
-    # 1. 코스피 / 코스닥
     row_kr = render_tile("KOSPI", "🇰🇷 코스피", "KOSPI", board.get("KOSPI", {})) + render_tile("KOSDAQ", "🇰🇷 코스닥", "KOSDAQ", board.get("KOSDAQ", {}))
-    # 2. 다우 / 나스닥
     row_us = render_tile("DOW", "🇺🇸 다우존스", "DOW JONES", board.get("DOW", {})) + render_tile("NASDAQ", "🇺🇸 나스닥", "NASDAQ", board.get("NASDAQ", {}))
-    # 3. 한국환율 + 세계 5대 환율 (USD/KRW, EUR/USD, USD/JPY, GBP/USD, USD/CHF, USD/CAD)
     row_fx = (
         render_tile("USDKRW", "🇰🇷 원/달러", "USD/KRW", board.get("USDKRW", {}), compact=True)
         + render_tile("EURUSD", "🇪🇺 유로/달러", "EUR/USD", board.get("EURUSD", {}), compact=True)
@@ -380,13 +420,11 @@ def build_saveticker_html(feed_items, board, updated_time):
         + render_tile("USDCHF", "🇨🇭 달러/프랑", "USD/CHF", board.get("USDCHF", {}), compact=True)
         + render_tile("USDCAD", "🇨🇦 달러/캐나다", "USD/CAD", board.get("USDCAD", {}), compact=True)
     )
-    # 4. 유가 / 금 / 은
     row_cmd = (
         render_tile("OIL", "🛢 WTI 유가", "$/bbl", board.get("OIL", {}), compact=True)
         + render_tile("GOLD", "🥇 국제 금", "$/oz", board.get("GOLD", {}), compact=True)
         + render_tile("SILVER", "🥈 국제 은", "$/oz", board.get("SILVER", {}), compact=True)
     )
-    # 5. FOMC / CPI / PPI
     row_macro = (
         render_tile("FOMC", "🏛 FOMC 기준금리", "FED RATE", board.get("FOMC", {}), compact=True, is_macro_stat=True)
         + render_tile("CPI", "📊 미국 CPI", "소비자물가", board.get("CPI", {}), compact=True, is_macro_stat=True)
@@ -450,7 +488,6 @@ def build_saveticker_html(feed_items, board, updated_time):
   .idx-chg.down { color: #4dabf7; }
   .idx-chg.neutral { color: #79c0ff; }
 
-  /* 검색창 및 탭 바 */
   .search-panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; margin: 14px 0; }
   .search-wrap { display: flex; gap: 8px; margin-bottom: 10px; }
   .search-box { flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 9px 14px; border-radius: 10px; font-size: 13.5px; outline: none; }
@@ -486,13 +523,9 @@ def build_saveticker_html(feed_items, board, updated_time):
   </div>
 
   <div class="container">
-    <!-- 1. 코스피 / 코스닥 -->
     <div class="grid-2">__ROW_KR__</div>
-
-    <!-- 2. 다우 / 나스닥 -->
     <div class="grid-2">__ROW_US__</div>
 
-    <!-- 3. 검색란 -->
     <div class="search-panel">
       <div class="search-wrap">
         <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명(삼성전자, NAVER, HPSP) 검색...">
@@ -506,19 +539,15 @@ def build_saveticker_html(feed_items, board, updated_time):
       </div>
     </div>
 
-    <!-- 4. 한국환율 & 세계 5대 환율 -->
     <div class="sec-label">💱 실시간 환율 (한국 원/달러 & 세계 5대 주요 통화)</div>
     <div class="grid-3">__ROW_FX__</div>
 
-    <!-- 5. 유가 / 금 / 은 -->
     <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은)</div>
     <div class="grid-3">__ROW_CMD__</div>
 
-    <!-- 6. FOMC / CPI / PPI -->
     <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI)</div>
     <div class="grid-3">__ROW_MACRO__</div>
 
-    <!-- 뉴스 피드 영역 -->
     <div class="sec-label" style="margin-top:18px;">📰 기업 속보 & DART 공시 피드</div>
     <div class="live-banner" id="liveBanner">
       <span id="liveStatusText">🔍 실시간 검색 결과</span>
@@ -532,6 +561,77 @@ def build_saveticker_html(feed_items, board, updated_time):
 
 <script>
   let currentCat = 'ALL';
+
+  async function refreshFredSeriesBrowser(seriesId) {
+    try {
+      const csvUrl = `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${seriesId}`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(csvUrl)}`;
+      const res = await fetch(proxyUrl);
+      const wrapper = await res.json();
+      if (!wrapper || !wrapper.contents) return [];
+      return wrapper.contents.split('\n')
+        .map(l => l.trim())
+        .filter(l => l && !l.endsWith('.') && /^\d{4}-\d{2}-\d{2},/.test(l));
+    } catch (e) {
+      return [];
+    }
+  }
+
+  async function refreshMacroPolicyIndicators() {
+    // 1. FOMC 기준금리 (DFEDTARU) 브라우저 직접 갱신
+    const fomcLines = await refreshFredSeriesBrowser('DFEDTARU');
+    if (fomcLines.length >= 1) {
+      const [dt, valStr] = fomcLines[fomcLines.length - 1].split(',');
+      const rate = parseFloat(valStr);
+      if (!isNaN(rate)) {
+        const card = document.getElementById('idx-FOMC');
+        if (card) {
+          card.querySelector('.idx-price').textContent = `${rate.toFixed(2)}%`;
+          const subEl = card.querySelector('.idx-chg');
+          const tenYPart = subEl.textContent.includes('미10Y') ? subEl.textContent.split('·')[1].trim() : '';
+          subEl.textContent = tenYPart ? `기준 ${dt.slice(0, 7)} · ${tenYPart}` : `기준 ${dt.slice(0, 7)}`;
+        }
+      }
+    }
+
+    // 2. 미국 CPI 전년동월비 (CPIAUCSL) 브라우저 직접 갱신
+    const cpiLines = await refreshFredSeriesBrowser('CPIAUCSL');
+    if (cpiLines.length >= 14) {
+      const [dt, curS] = cpiLines[cpiLines.length - 1].split(',');
+      const yoyS = cpiLines[cpiLines.length - 13].split(',')[1];
+      const prvS = cpiLines[cpiLines.length - 2].split(',')[1];
+      const prvYoyS = cpiLines[cpiLines.length - 14].split(',')[1];
+      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
+      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
+      const diffP = curYoy - prvYoy;
+      if (!isNaN(curYoy)) {
+        const card = document.getElementById('idx-CPI');
+        if (card) {
+          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
+          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
+        }
+      }
+    }
+
+    // 3. 미국 PPI 전년동월비 (PPIACO) 브라우저 직접 갱신
+    const ppiLines = await refreshFredSeriesBrowser('PPIACO');
+    if (ppiLines.length >= 14) {
+      const [dt, curS] = ppiLines[ppiLines.length - 1].split(',');
+      const yoyS = ppiLines[ppiLines.length - 13].split(',')[1];
+      const prvS = ppiLines[ppiLines.length - 2].split(',')[1];
+      const prvYoyS = ppiLines[ppiLines.length - 14].split(',')[1];
+      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
+      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
+      const diffP = curYoy - prvYoy;
+      if (!isNaN(curYoy)) {
+        const card = document.getElementById('idx-PPI');
+        if (card) {
+          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
+          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
+        }
+      }
+    }
+  }
 
   async function refreshLiveMarketQuotes() {
     const targets = [
@@ -581,6 +681,7 @@ def build_saveticker_html(feed_items, board, updated_time):
 
   window.addEventListener('DOMContentLoaded', () => {
     refreshLiveMarketQuotes();
+    refreshMacroPolicyIndicators();
     setInterval(refreshLiveMarketQuotes, 60000);
   });
 
@@ -877,10 +978,8 @@ def main():
     now_str = get_kst_now().strftime("%m/%d %H:%M")
     new_items = []
 
-    # 1. 코스피/코스닥, 다우/나스닥, 세계5대환율+한국환율, 유가/금/은, FOMC/CPI/PPI 수집
     board = fetch_all_macro_dashboard()
 
-    # 2. 매크로 키워드 뉴스 크롤링 제거 -> 핵심 기업 뉴스와 DART 공시만 경량 수집
     collected = []
     collected.extend(fetch_dart())
 
