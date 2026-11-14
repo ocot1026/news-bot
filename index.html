@@ -27,12 +27,12 @@
   .idx-sub { font-size: 10.5px; color: #8b949e; font-weight: 600; }
   .idx-body { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px; }
   .idx-price { font-size: 18px; font-weight: 800; color: #f0f6fc; letter-spacing: -0.3px; }
-  .idx-card.compact .idx-price { font-size: 15.5px; }
+  .idx-card.compact .idx-price { font-size: 15px; }
   .idx-chg { font-size: 12px; font-weight: 700; }
   .idx-card.compact .idx-chg { font-size: 11px; }
   .idx-chg.up { color: #ff6b6b; }
   .idx-chg.down { color: #4dabf7; }
-  .idx-chg.neutral { color: #79c0ff; }
+  .idx-chg.freeze { color: #3fb950; background: rgba(63, 185, 80, 0.14); padding: 2px 7px; border-radius: 6px; border: 1px solid rgba(63, 185, 80, 0.35); }
 
   .search-panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; margin: 14px 0; }
   .search-wrap { display: flex; gap: 8px; margin-bottom: 10px; }
@@ -64,7 +64,7 @@
   <div class="header">
     <div class="header-inner">
       <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
-      <div class="updated" id="liveClock">업데이트: 11/14 19:15 (KST)</div>
+      <div class="updated" id="liveClock">업데이트: 11/14 19:26 (KST)</div>
     </div>
   </div>
 
@@ -91,8 +91,8 @@
     <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은)</div>
     <div class="grid-3"><div class="idx-card compact" id="idx-OIL"><div class="idx-head"><span class="idx-name">🛢 WTI 유가</span><span class="idx-sub">$/bbl</span></div><div class="idx-body"><span class="idx-price">88.56</span><span class="idx-chg up">▲ +1.71 (+1.97%)</span></div></div><div class="idx-card compact" id="idx-GOLD"><div class="idx-head"><span class="idx-name">🥇 국제 금</span><span class="idx-sub">$/oz</span></div><div class="idx-body"><span class="idx-price">3,886.30</span><span class="idx-chg down">▼ -228.20 (-5.55%)</span></div></div><div class="idx-card compact" id="idx-SILVER"><div class="idx-head"><span class="idx-name">🥈 국제 은</span><span class="idx-sub">$/oz</span></div><div class="idx-body"><span class="idx-price">49.12</span><span class="idx-chg down">▼ -3.44 (-6.55%)</span></div></div></div>
 
-    <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI)</div>
-    <div class="grid-3"><div class="idx-card compact" id="idx-FOMC"><div class="idx-head"><span class="idx-name">🏛 FOMC 기준금리</span><span class="idx-sub">FED RATE</span></div><div class="idx-body"><span class="idx-price">4.18%</span><span class="idx-chg neutral">선물내재금리 · 미10Y 5.15%</span></div></div><div class="idx-card compact" id="idx-CPI"><div class="idx-head"><span class="idx-name">📊 미국 CPI</span><span class="idx-sub">소비자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · CPI YoY</span></div></div><div class="idx-card compact" id="idx-PPI"><div class="idx-head"><span class="idx-name">🏭 미국 PPI</span><span class="idx-sub">생산자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · PPI YoY</span></div></div></div>
+    <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI — 직전 발표치 대비)</div>
+    <div class="grid-3"><div class="idx-card compact" id="idx-FOMC"><div class="idx-head"><span class="idx-name">🏛 FOMC 기준금리</span><span class="idx-sub">미10Y 5.15%</span></div><div class="idx-body"><span class="idx-price">3.75~4.00%</span><span class="idx-chg freeze">동결 (2026.10)</span></div></div><div class="idx-card compact" id="idx-CPI"><div class="idx-head"><span class="idx-name">📊 미국 CPI</span><span class="idx-sub">10월 MoM +0.4%</span></div><div class="idx-body"><span class="idx-price">3.7% (YoY)</span><span class="idx-chg up">▲ +0.2%p 상승 (직전 3.5%)</span></div></div><div class="idx-card compact" id="idx-PPI"><div class="idx-head"><span class="idx-name">🏭 미국 PPI</span><span class="idx-sub">10월 MoM +0.3%</span></div><div class="idx-body"><span class="idx-price">6.5% (YoY)</span><span class="idx-chg down">▼ -0.3%p 하락 (직전 6.8%)</span></div></div></div>
 
     <div class="sec-label" style="margin-top:18px;">📰 기업 속보 & DART 공시 피드</div>
     <div class="live-banner" id="liveBanner">
@@ -101,7 +101,9 @@
     </div>
     <div id="liveResults"></div>
     <div id="feedList">
-      <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 &quot;10년 모은 4억이 와르르&quot;…&#x27;sk하닉 몰빵&#x27; 30대 피눈물 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">SK하이닉스</span><span class="meta">한국경제 · 11/14 19:09</span></div><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3eE5sY1haTVdPVEZDZU13Q0NVYmc1X1hxR1FmRXJzSDBsOWMxZklfemxQUlJKbU5xd09hY0NPSzFhMGJxNHhkQkstNVZPMFF1cEVrNzZVMmZkdw?oc=5" target="_blank" class="news-title">&quot;10년 모은 4억이 와르르&quot;…&#x27;SK하닉 몰빵&#x27; 30대 피눈물</a></div>
+      <div class="news-card saved-card" data-cat="KR" data-text="삼성전자 베일벗은 삼성전자 우승턱..딱 12일간만 혜택 쏟아져 - 머니투데이 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">삼성전자</span><span class="meta">머니투데이 · 11/14 19:26</span></div><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE56d3MzQmVvRkFuT3NURzFiX2ZOUVFrM1VFSUs2RlUxT3ZnOXpPLWpfaDREUjlUTzRLbGhoNEpNelFxM19lcEowS2JSVGk0M0JnVG1obGJBbllfQmtjM0gxdVpHQ2RGQTAzR3BCTdIBckFVX3lxTE1vcC1oSEQ2NjNqUWliLTZaRnRiLTQ2SmJVWTlfUjFqT2Fxb3gtaWpkRXpYOXF3aHFyejJWbF9UaDNlalphUE9VNHRvUm1ueE1VcnEwWkRUR0hWd2VOV19uQkZDT085RnRyR1JkbkVKTGU1QQ?oc=5" target="_blank" class="news-title">베일벗은 삼성전자 우승턱..딱 12일간만 혜택 쏟아져 - 머니투데이</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="삼성전자 삼성전자, 라이온즈 12년 만의 우승 기념…갤럭시·가전 쏜다 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">삼성전자</span><span class="meta">글로벌이코노믹 · 11/14 19:26</span></div><a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxOcEp6Q2lFOFlodXNLVFZVbFpDVkdjS0wxdU44NVlCR3ZEWEtLUUx2dkozRFBFT3hoa3ExeUVGQWxKSnFHSUlqbDBXX1FfZE5pXzhtOHMydU5mSUZEb1R5TDRDeGVHTlFudE5RaEV4SGRLaEtaY3AxZGl2Y0RLUWJJbXA3X0hlZw?oc=5" target="_blank" class="news-title">삼성전자, 라이온즈 12년 만의 우승 기념…갤럭시·가전 쏜다</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 &quot;10년 모은 4억이 와르르&quot;…&#x27;sk하닉 몰빵&#x27; 30대 피눈물 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">SK하이닉스</span><span class="meta">한국경제 · 11/14 19:09</span></div><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3eE5sY1haTVdPVEZDZU13Q0NVYmc1X1hxR1FmRXJzSDBsOWMxZklfemxQUlJKbU5xd09hY0NPSzFhMGJxNHhkQkstNVZPMFF1cEVrNzZVMmZkdw?oc=5" target="_blank" class="news-title">&quot;10년 모은 4억이 와르르&quot;…&#x27;SK하닉 몰빵&#x27; 30대 피눈물</a></div>
 <div class="news-card saved-card" data-cat="KR" data-text="현대차 정무선 현대차 정몽구 재단 이사장 별세 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">현대차</span><span class="meta">IT조선 · 11/14 19:09</span></div><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ba0NZc01CRlBCbHZIUG1iV3lJa3M3aTBNczFNRnZrWkR6MElCSFk4OFZtWFJ6T3QtdTRSV0JkUHRUT2Nvak81eF9BUlpyaDRhWlQ5Mkt0VEIwVjhaOTVjVVkzZGxfY0VfSjRuZzdrVXrSAXRBVV95cUxOQ0dHQ08xWDd4Rk9YUnZ1Y3NRN2JqbVlKaEduVnl6SkNQanpNYTFLS0pxTkxVRjdFaHJ1SDZBTENlOGhnMHh1LUd5R2tyUEtyQjlreVhmdk0yTnRzQzQ4Q2VyVlFqWndQS0F0NDNKaEowdEdxbQ?oc=5" target="_blank" class="news-title">정무선 현대차 정몽구 재단 이사장 별세</a></div>
 <div class="news-card saved-card" data-cat="MACRO" data-text="유가 국제 유가 변동 없이 마감…2일 동안 상승세 중단 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">유가</span><span class="meta">뉴시스 · 11/14 18:53</span></div><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ocU42MkZYWDNlUUoyMk5POXljbmV4MFNOZTdmWkhyeWtTRVlYLVFiUG9CbUxhYmhxTkN1ZV9uUDF1UDBqSWVVTDlYV0RjVF81b1NyX1laYWFrSE5UNjFQONIBeEFVX3lxTE1TemI3VUZZMFZES29mbnRkZ3dXYVBPc2taeWhfRzE3NzBKNVVJMWNZLVhTUUIzdWlYZnNITWY1SktUcFY1MHpmcGNiR2lPZEVrZmY5NHZuR2xQVVMzVGlKU3ZScGV5d2NOX0VIR3NGaGxFSWZmNU9YTA?oc=5" target="_blank" class="news-title">국제 유가 변동 없이 마감…2일 동안 상승세 중단</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$nvda should you really buy nvidia stock after ceo jensen huang&#x27;s exit? wall street has a clear answer for investors. "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:53</span></div><a href="https://www.fool.com/investing/2026/11/14/buy-nvidia-stock-ceo-jensen-huang-exit-wall-street-answer/?.tsrc=rss" target="_blank" class="news-title">Should You Really Buy Nvidia Stock After CEO Jensen Huang&#x27;s Exit? Wall Street Has a Clear Answer for Investors.</a></div>
@@ -249,85 +251,11 @@
 <div class="news-card saved-card" data-cat="US" data-text="$nvda jensen huang&#x27;s exit threatens to upend nvidia&#x27;s global ai funding network "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Finviz · DigiTimes · 11/14 18:14</span></div><a href="https://www.digitimes.com/news/a20261113PD239/nvidia-jensen-huang-funding-ceo-investment.html" target="_blank" class="news-title">Jensen Huang&#x27;s exit threatens to upend Nvidia&#x27;s global AI funding network</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$nvda huang&#x27;s resignation unlikely to disrupt taiwan&#x27;s ai industry, acer founder says "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Finviz · DigiTimes · 11/14 18:14</span></div><a href="https://www.digitimes.com/news/a20261113PD245/taiwan-nvidia-jensen-huang-ceo-acer.html" target="_blank" class="news-title">Huang&#x27;s resignation unlikely to disrupt Taiwan&#x27;s AI industry, Acer founder says</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$nvda jensen huang&#x27;s nvidia era may be over. but taiwan isn&#x27;t ready to say goodbye. "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Finviz · DigiTimes · 11/14 18:14</span></div><a href="https://www.digitimes.com/news/a20261114VL200/nvidia-taiwan-2022-jensen-huang-taipei.html" target="_blank" class="news-title">Jensen Huang&#x27;s Nvidia era may be over. But Taiwan isn&#x27;t ready to say goodbye.</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$nvda jim cramer: amazon has what “may soon be a $50 billion semiconductor business” "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://www.tikr.com/blog/jim-cramer-amazon-has-what-may-soon-be-a-50-billion-semiconductor-business?ref=yahoofinance&amp;tlnk=yf-261114-wq798x99&amp;.tsrc=rss" target="_blank" class="news-title">Jim Cramer: Amazon Has What “May Soon Be a $50 Billion Semiconductor Business”</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$nvda planning to claim social security at 62? here are 3 critical questions to ask yourself first "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://www.fool.com/retirement/2026/11/14/planning-to-claim-social-security-at-62-here-are-3-critical-questions-to-ask-yourself-first/?.tsrc=rss" target="_blank" class="news-title">Planning to Claim Social Security at 62? Here Are 3 Critical Questions to Ask Yourself First</a></div>
     </div>
   </div>
 
 <script>
   let currentCat = 'ALL';
-
-  async function refreshFredSeriesBrowser(seriesId) {
-    try {
-      const csvUrl = `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${seriesId}`;
-      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(csvUrl)}`;
-      const res = await fetch(proxyUrl);
-      const wrapper = await res.json();
-      if (!wrapper || !wrapper.contents) return [];
-      return wrapper.contents.split('
-')
-        .map(l => l.trim())
-        .filter(l => l && !l.endsWith('.') && /^\d{4}-\d{2}-\d{2},/.test(l));
-    } catch (e) {
-      return [];
-    }
-  }
-
-  async function refreshMacroPolicyIndicators() {
-    // 1. FOMC 기준금리 (DFEDTARU) 브라우저 직접 갱신
-    const fomcLines = await refreshFredSeriesBrowser('DFEDTARU');
-    if (fomcLines.length >= 1) {
-      const [dt, valStr] = fomcLines[fomcLines.length - 1].split(',');
-      const rate = parseFloat(valStr);
-      if (!isNaN(rate)) {
-        const card = document.getElementById('idx-FOMC');
-        if (card) {
-          card.querySelector('.idx-price').textContent = `${rate.toFixed(2)}%`;
-          const subEl = card.querySelector('.idx-chg');
-          const tenYPart = subEl.textContent.includes('미10Y') ? subEl.textContent.split('·')[1].trim() : '';
-          subEl.textContent = tenYPart ? `기준 ${dt.slice(0, 7)} · ${tenYPart}` : `기준 ${dt.slice(0, 7)}`;
-        }
-      }
-    }
-
-    // 2. 미국 CPI 전년동월비 (CPIAUCSL) 브라우저 직접 갱신
-    const cpiLines = await refreshFredSeriesBrowser('CPIAUCSL');
-    if (cpiLines.length >= 14) {
-      const [dt, curS] = cpiLines[cpiLines.length - 1].split(',');
-      const yoyS = cpiLines[cpiLines.length - 13].split(',')[1];
-      const prvS = cpiLines[cpiLines.length - 2].split(',')[1];
-      const prvYoyS = cpiLines[cpiLines.length - 14].split(',')[1];
-      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
-      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
-      const diffP = curYoy - prvYoy;
-      if (!isNaN(curYoy)) {
-        const card = document.getElementById('idx-CPI');
-        if (card) {
-          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
-          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
-        }
-      }
-    }
-
-    // 3. 미국 PPI 전년동월비 (PPIACO) 브라우저 직접 갱신
-    const ppiLines = await refreshFredSeriesBrowser('PPIACO');
-    if (ppiLines.length >= 14) {
-      const [dt, curS] = ppiLines[ppiLines.length - 1].split(',');
-      const yoyS = ppiLines[ppiLines.length - 13].split(',')[1];
-      const prvS = ppiLines[ppiLines.length - 2].split(',')[1];
-      const prvYoyS = ppiLines[ppiLines.length - 14].split(',')[1];
-      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
-      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
-      const diffP = curYoy - prvYoy;
-      if (!isNaN(curYoy)) {
-        const card = document.getElementById('idx-PPI');
-        if (card) {
-          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
-          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
-        }
-      }
-    }
-  }
 
   async function refreshLiveMarketQuotes() {
     const targets = [
@@ -373,11 +301,25 @@
         }
       } catch (e) {}
     }
+
+    try {
+      const apiUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent('^TNX')}?interval=1d&range=5d`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(apiUrl)}`;
+      const res = await fetch(proxyUrl);
+      const wrapper = await res.json();
+      const data = JSON.parse(wrapper.contents);
+      const tenY = data.chart.result[0].meta.regularMarketPrice;
+      if (tenY !== undefined) {
+        const fomcCard = document.getElementById('idx-FOMC');
+        if (fomcCard) {
+          fomcCard.querySelector('.idx-sub').textContent = `미10Y ${tenY.toFixed(2)}%`;
+        }
+      }
+    } catch (e) {}
   }
 
   window.addEventListener('DOMContentLoaded', () => {
     refreshLiveMarketQuotes();
-    refreshMacroPolicyIndicators();
     setInterval(refreshLiveMarketQuotes, 60000);
   });
 
