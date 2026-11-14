@@ -2,6 +2,76 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "서울파이낸스",
+    "title": "[AI제국의 위기 ⑥] 젠슨 황 퇴장에 AI 투자 셈법 복잡···네이버·통신 3사 '촉각'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1VSHhrNU1BZ08zTDNyTENqWU1EektYeHpENnBFTEpuSjhCNUM4d1NlaVR4d0kwWFpXUUJqN3hhVUxrLXVXUmxBemVsLTRZX243dXExU0hicEVrVHl2VUxYWkpBTkxvSzYyTlE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 22:36"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "\"트럼프, AI 반도체 수출통제 풀며 엔비디아 주식 샀다\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9YeUhFV0JzUVZNNkIxNFFDQVkwQnktZEE5OTJudWVfeHlGb0tCaUVRbjFiODhyVm5Ma1dYWl9McDFrSFJIOUNGczBqVV8zeDZ4cFl3Znd0eHRsNDjSAWBBVV95cUxNMHhWOHJpVXdSRmhyNmhsRkwtX0EzcGlrNDlEQm8wVm9JaFhDYWVsX1RfY1lRRC1ZU0VPeVRXZzZ0NFVZYTlqYkhURDVsVUhfdEMwdzR1SWM0ZXlJYm0xbUU?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 22:36"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"급락장에 속지 마라…결국 제자리 찾아간다\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1McW81UFpCa1RBTktEaFhMWDlaSlhhOHJSM1V0RkZsRnRnTEF3NkU1SWpkVy1taTYtd2NEOUZraXJrcHRtM0RWekg0OVVrX1VRS0Y4akxSWU5VQQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/14 22:36"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 충남도",
+    "press": "농수축산신문",
+    "title": "충남도, 392조 충청권 메가프로젝트 첫 삽…첨단산업 투자 속도",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5pSXpGblYwQ1dmVWFYRjV6SHVqeUgxcEF1SlBJdU5QaWNLaUtYYW05YzI1VlhLcE41U3pGYm9lS3pfRkx2TTI0d2RXWjM4RWE0bXlYZ1FJaFZwSlVLbHdhRlEybkxYLUlpY24xag?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 22:36"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "골드만삭스, 2027년 일본 제외 아시아 주식 19% 수익률 예상",
+    "sub_title": "Goldman Sachs Sees 19% Return on Asia ex-Japan Stocks in 2027",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-14/goldman-sachs-sees-19-return-on-asia-ex-japan-stocks-in-2027",
+    "impact": "📰 일반",
+    "time": "11/14 22:36"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "지정학은 유로비전을 지배하지만 아시아판은 아니다",
+    "sub_title": "Geopolitics Looms Over Eurovision, but Not Its Asian Edition",
+    "link": "https://www.nytimes.com/2026/11/14/world/asia/eurovision-asia-politics.html",
+    "impact": "📰 일반",
+    "time": "11/14 22:36"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "중국에서 CEO들이 만나면서 5가지 중요한 질문",
+    "sub_title": "5 Big Questions as C.E.O.s Meet in China",
+    "link": "https://www.nytimes.com/2026/11/14/business/dealbook/questions-china-us-apec-summit.html",
+    "impact": "📰 일반",
+    "time": "11/14 22:36"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "Chosunbiz",
     "title": "24시간 넘긴 MS365 장애… 공식 사과에도 ‘MS364’ 조롱 이어져",
     "sub_title": "",
@@ -2926,66 +2996,6 @@
     "title": "뉴욕증시, 10월 물가 예상치 웃돌자 3대 지수 일제히 하락",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55T1dEWTlJM3JmSzdiQlJCczBJTDZJRDBJWmJobnN3VFdmdDd2MkhUMmdYTHNvVlBFUUR0UVpfVTFPbzB2dVdCSW0td2R2QlpmOEhOXzhjcmpfTWZ3bXE4TURBSV8?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "미국 증시",
-    "press": "한경매거진",
-    "title": "미국·중국·ETF로 알아보는 2027년 머니게임",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QZldsSW9WbWN3TTB4TVlUbXVsM29RVUlRbUhlZmVqN08zemwzMnZQajgzUEFiOTBBTjFxRWZ0TGY3TFktbUluZUpGNVNHb3d3UVVuXzVtN3F1ZkdMUHdncTU3WFVtTUtEa3RGTA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "미국 증시",
-    "press": "기호일보",
-    "title": "[11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBrMmFPX2F5bEN2cDNMMENjTklGeWVCc2VFbXBvRjhZUVh1U3cyX19kWkhZemhOMmV1TExuaGdya183VDZwaDBtS2dPUlNlWnExdFkzR3VSZlVhbFZKejRwSG5BR0hxUVJ5MjlmU0JCYw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "미국 증시",
-    "press": "YTN",
-    "title": "미국 증시 상승·유가 하락에 코스피 코스닥 반등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lbDlmMTJzNkNqMDkyTEkzbUdTQ19lV1ZuZk52MVRidWFtUl9EMzVuZjFZMGVZeWhTWks5MUl1WWZmaUEzX0xOOGhiOUFfU09zN05WM0lyQ3RqYkMzRFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "미국 증시",
-    "press": "자본시장뉴스",
-    "title": "[미국증시] 트럼프 \"황 지옥 같은 시간\"…증언대 서나",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wODhMRU00M0VOZ3ZkZjJSaC1MXzNVcENOSG02VEVubmpGcDdIY1NYUFFFN2hkYTYyd0I4ZEpJcVI5QzN5QzN3dy1tbGYtQlZ6dm9hSFQ0Z25lTE9kSF9PNVBEVXlTZEk?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "코스피",
-    "press": "연합인포맥스",
-    "title": "상승 출발 코스피, 李간담회 직후 음전…외인도 '팔자'로",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CNndnTTNqeWFEQXZwLXU2SHpsUk5KOHBBNWJfMTZ3TWV5SXJtblJqQUhNNi1PRjkzM3czT3I5YnV1X3BpaTJJSXZVM2szTGUwbExKcWZXN1I4elJxaW1PUjkxMU4xa05BckhfOElYM0w?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:14"
-  },
-  {
-    "category": "MACRO",
-    "tag": "코스피",
-    "press": "한국경제",
-    "title": "1400조 벌고도 폭락…개미들 울린 코스피의 '씁쓸한 이면' [분석+]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DaEdENGUtTmhKR2tOTlZYbXRXelVSenRHS21oVE81QXpNQ2gwT09ocmhPTkFhSVdMUk5qRFJ3WHVSay0tY2wzSGo5X0Rya3FwZURMcmpIRXRkZw?oc=5",
     "impact": "📰 일반",
     "time": "11/14 18:14"
   }
