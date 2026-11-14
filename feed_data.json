@@ -1,6 +1,56 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "지구 14바퀴 ‘코끼리코’ 돌고 ‘젓가락 잡기’ 2단 회수…머스크의 ‘무한도전’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpWHQ3REd3N3dkZTJRWGxwVlFqMHc4OU5uNnFZcmk0anhCYWVnSUxEOWdGVlFtalo3ZjlubzVtMzlBdWhCMWRMUWNIbzg4d0l4dzUxY0ZDUWswd1QxYllwR0g3YUFZY1Jfc0k4?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 03:56"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 삼성메디슨",
+    "press": "MEDI:GATE NEWS",
+    "title": "삼성메디슨, 홍천사업장 초음파 제조동 증축 준공식 개최",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBEQjU2Z0xhV3d0REdYZmRyWm1HZ2xIeVg1ZWdlWjc5cFFQeWc2YnVVQlFLTEcwSndJcGstWF9WLUtDOU1KS1gzSzlDa3ZVc3FKWDBqaUU5bw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 03:56"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "매일경제 마켓",
+    "title": "개미들 계좌 녹인 ‘검은 수요일’…코스피·코스닥 5%대 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE4yNGRtemhoakFUUTFtWFJKaVFJbm5ydFE4ZTdOTDNWU2dSN29ENzJWR1VNLTkxUEFXV3VqSHE1enZnLUJYQ2ZkY2VjSFVlcTJmcnc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 03:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic’s Wall Street debut tests AI appetite",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/markets/stocks/article/anthropic-ipo-to-test-wall-streets-faith-in-ai-as-skepticism-mounts-180007104.html",
+    "impact": "📰 일반",
+    "time": "11/15 03:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "China’s hottest stocks have one thing in common: names that sound like sheep",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=057c3e72-9323-463e-89a9-44d7137c97ef&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/15 03:56"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 한국",
     "press": "YTN",
     "title": "한국, 중국 수입시장 6개월째 1위...미국서는 6위",
@@ -2947,56 +2997,6 @@
     "sub_title": "",
     "link": "https://www.fool.com/investing/2026/11/13/is-apple-stock-a-buy-right-now/?.tsrc=rss",
     "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AAPL",
-    "press": "Yahoo Finance",
-    "title": "A $1,999 Sellout. What China Renaissance Sees in Apple (AAPL)",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/1-999-sellout-china-renaissance-211310813.html?.tsrc=rss",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AAPL",
-    "press": "Yahoo Finance",
-    "title": "JardogsHealth Forms Strategic Advisory Council with Leaders from Discover Card, MTV, DoorDash and Apple",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/healthcare/articles/jardogshealth-forms-strategic-advisory-council-192900019.html?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$MSFT",
-    "press": "Finviz · Axios",
-    "title": "Nscale reports ballooning debt and need for more as IPO approaches",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/ai/articles/nscale-reports-ballooning-debt-more-225456316.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$MSFT",
-    "press": "Finviz · Barrons.com",
-    "title": "Microsoft Outlook Has Us All in a Chokehold, Apparently",
-    "sub_title": "",
-    "link": "https://www.barrons.com/articles/microsoft-outage-tech-stocks-38eb9a05?mod=bar_FV",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$MSFT",
-    "press": "Finviz · Schaeffer's Research",
-    "title": "Stocks Ride Volatile Wave as Nvidia Drama Unfolds",
-    "sub_title": "",
-    "link": "https://finviz.com/news/422723/stocks-ride-volatile-wave-as-nvidia-drama-unfolds",
-    "impact": "📰 일반",
     "time": "11/14 18:28"
   }
 ]
