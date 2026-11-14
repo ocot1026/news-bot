@@ -7,20 +7,27 @@
 <style>
   body { background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }
   .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 20px; position: sticky; top: 0; z-index: 100; }
-  .header-inner { max-width: 820px; margin: 0 auto; }
+  .header-inner { max-width: 840px; margin: 0 auto; }
   .title-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
-  .logo { font-size: 20px; font-weight: 800; color: #58a6ff; letter-spacing: -0.5px; }
+  .logo { font-size: 20px; font-weight: 800; color: #58a6ff; letter-spacing: -0.5px; cursor: pointer; }
   .updated { font-size: 12px; color: #8b949e; }
-  .controls { display: flex; gap: 8px; flex-wrap: wrap; }
+  .controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
   .tab { background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 6px 12px; border-radius: 16px; font-size: 13px; cursor: pointer; }
   .tab.active { background: #1f6feb; border-color: #388bfd; color: #fff; font-weight: 600; }
-  .search-box { flex: 1; min-width: 160px; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 6px 12px; border-radius: 16px; font-size: 13px; }
-  .container { max-width: 820px; margin: 16px auto; padding: 0 16px; }
+  .search-wrap { display: flex; flex: 1; min-width: 220px; gap: 6px; }
+  .search-box { flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 13px; outline: none; }
+  .search-box:focus { border-color: #58a6ff; }
+  .search-btn { background: #238636; border: none; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }
+  .search-btn:hover { background: #2ea043; }
+  .container { max-width: 840px; margin: 16px auto; padding: 0 16px; }
+  .live-banner { background: rgba(56, 139, 253, 0.12); border: 1px solid rgba(56, 139, 253, 0.4); border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; display: none; justify-content: space-between; align-items: center; font-size: 13px; color: #79c0ff; }
+  .reset-btn { background: #21262d; border: 1px solid #30363d; color: #e6edf3; padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; }
   .news-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: border-color 0.2s; }
   .news-card:hover { border-color: #58a6ff; }
   .card-top { display: flex; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
   .badge { font-size: 11px; font-weight: 700; padding: 2px 8px; border-radius: 6px; }
   .badge.hot { background: rgba(248, 81, 73, 0.18); color: #ff7b72; border: 1px solid rgba(248, 81, 73, 0.4); }
+  .badge.live { background: rgba(46, 160, 67, 0.2); color: #3fb950; border: 1px solid rgba(46, 160, 67, 0.45); }
   .badge.normal { background: rgba(139, 148, 158, 0.15); color: #8b949e; }
   .ticker-tag { background: rgba(56, 139, 253, 0.15); color: #58a6ff; font-weight: 700; font-size: 12px; padding: 2px 8px; border-radius: 6px; }
   .meta { font-size: 12px; color: #8b949e; margin-left: auto; }
@@ -32,8 +39,8 @@
   <div class="header">
     <div class="header-inner">
       <div class="title-row">
-        <div class="logo">⚡ MY SAVETICKER</div>
-        <div class="updated">최근 업데이트: 11/14 17:42 (KST)</div>
+        <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
+        <div class="updated">자동 업데이트: 11/14 17:46 (KST)</div>
       </div>
       <div class="controls">
         <button class="tab active" onclick="filterCat('ALL', this)">전체 피드</button>
@@ -41,13 +48,760 @@
         <button class="tab" onclick="filterCat('MACRO', this)">🌐 매크로·거시</button>
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
         <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식</button>
-        <input type="text" class="search-box" id="searchInput" onkeyup="searchFeed()" placeholder="티커 또는 키워드 검색...">
+        <div class="search-wrap">
+          <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명 입력 후 Enter...">
+          <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
+        </div>
       </div>
     </div>
   </div>
-  <div class="container" id="feedList">
-    
-        <div class="news-card" data-cat="MACRO" data-text="연준 금리 bofa &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가">
+  <div class="container">
+    <div class="live-banner" id="liveBanner">
+      <span id="liveStatusText">🔍 실시간 검색 결과</span>
+      <button class="reset-btn" onclick="resetSearch()">기본 피드로 돌아가기</button>
+    </div>
+    <div id="liveResults"></div>
+    <div id="feedList">
+      
+        <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 bofa &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">연준 금리</span>
+                <span class="meta">연합인포맥스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUGQ3T1lmeDBuT3dOUklaQ0hOUEFxS1dTcUpmMXFFci1EX05QNjlIaUgzQ1ZkNFZpNFN6ZlVVU2ZfMzRYRE1yajc3SElEd1FyNE40anQtbE1vek1LMGNGRTZtQ2xzbG11QUxkdUw4dG0?oc=5" target="_blank" class="news-title">BofA &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">연준 금리</span>
+                <span class="meta">중앙일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FQ1JaS0c1LVFidjF3TlJkNkNlVmMtamFMaVZ1YmZHTDRLRHNKRWI4Z1NtcXg1UThFbmIzZnRhVk02TDNMWno5SGc5LUpOZUNiZUZMaGlB?oc=5" target="_blank" class="news-title">美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 월가, 연준 금리 인상 전망 줄상향…bofa &quot;12월에 이어 1월, 3월에도 올린다&quot;">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">연준 금리</span>
+                <span class="meta">뉴스핌 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE94QnRVa0JaTWV1SVdEYkRzdTVjWDBWRFhkWGdsVktidlFRN3AzdkJPTFh0UC1NNE41bmhncjY1Y0dneFoxRS1pVGFsYzJ0aENheW1YWHpGRVY1Uk5W?oc=5" target="_blank" class="news-title">월가, 연준 금리 인상 전망 줄상향…BofA &quot;12월에 이어 1월, 3월에도 올린다&quot;</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 美 연준 &#x27;빅스텝&#x27; 공포에 상업용부동산 시장도 긴장…&quot;거래 깨질라&quot;">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">연준 금리</span>
+                <span class="meta">이데일리 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMigAFBVV95cUxNejZMMk13VUJVRDdENWlZbmlsXy1nRXZxV0gxVzIwSkR0Y25IUk0ydDlGbUFfMHYwNXNKWnlyUGcxZnkyNjViSHE3MDZKQURFSVpfbUpHbG5TSmhhWG1CalZvT3ZGS0RuRkRxcWtrT0RjX3FNcVQ3WmdYbHlWWUdDVg?oc=5" target="_blank" class="news-title">美 연준 &#x27;빅스텝&#x27; 공포에 상업용부동산 시장도 긴장…&quot;거래 깨질라&quot;</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 연준 &#x27;매파 합창&#x27;…12월 넘어 내년까지 금리 올리나">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">연준 금리</span>
+                <span class="meta">블루밍비트 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kU255UTNZUjVTMzVEcGs5ekpsQ085dmNURGkxcHFIb1hfMG1CVUJtYmJ6Ml9xMTFMUUZnMjBTVkE4TXM3Rm9MV0Y1NnBSRFlD?oc=5" target="_blank" class="news-title">연준 &#x27;매파 합창&#x27;…12월 넘어 내년까지 금리 올리나</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="환율 원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">환율</span>
+                <span class="meta">뉴시스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSHlGQVBrLWl4RzJQTWI1RW00ZzRGWklWbFg3ZlE4cEJ3WWthbU1vRENiUnpUMkJMRFVTaldYWWp3YTMwOVEzTFBldGI4VjJnNHlHX3VTQ3RFTXZBZDRWN9IBeEFVX3lxTE4wM3VHeUF0RjQ0dWhfaU9GR0NBTVR2WjU5Tk9VaW9oQlkxS2xTMHV3T2FYMk5MWWFGaGhfR0hxMnJSLXdkdjFkbE5yOUJlQWItV0xqWUxfdEpqSmlIc2JwcFBSRWpzM1haRDBvNEl4NC1IUXpZRVhoeA?oc=5" target="_blank" class="news-title">원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="환율 [표] 외국환율고시표">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">환율</span>
+                <span class="meta">매일경제 마켓 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BRThhcDE5X3JRWFVYSVJxS1BONE9mc2tnb3VEa254SHN4Q3pVdUxWcExucmdTOW9YbmV0LTZVeHNqWENSV2RDVTBmYm1OdjF5bWc?oc=5" target="_blank" class="news-title">[표] 외국환율고시표</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="환율 [주식 매매 상위 종목 및 환율] 2026년 11월 13일자">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">환율</span>
+                <span class="meta">Chosunbiz · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOenViNlNhbnZDMDhPREU3dzg0T0hkOUs2VUZmSG00dElLNjFkcjJwbWtIVVhiY2pQTGwydks5TXlSakxCY3BFdk1IbjB1YXNLZVlIOFh2eVF3MmpsclNCOHRmNlByNzJsM2Itc1VoczZ5Q2d4eGY2RWxDT0hDbU0zYXN4QldMYTZl0gGcAUFVX3lxTE9mcEZpQVhaUGJUdnJlRDU1RGdaSUJUUmdqd1FOa182QWJRNWZKNTdodFpQWVhuRnZDRWR4WUNqeDI5NkV5T0N3ZEpZVlJlUHlabko5bE9TX1FBM2hnalFNbzhNM2RUYVhTRFlDUER3MHRxN3pVZTFJR2xVYy1TV0NZd3ZVMjN2cmFaNEpDSG1FSi04YjZFVUE1a1IyeA?oc=5" target="_blank" class="news-title">[주식 매매 상위 종목 및 환율] 2026년 11월 13일자</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="환율 본업으로 벌고 환율로 잃었다…k게임 덮친 &#x27;원화 강세&#x27; 역풍">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">환율</span>
+                <span class="meta">Daum · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GNXI1bGhqUmRsd2dnU2VudW1fV0tHMUxKYWx1Q2RQT0QzaE96TVIxNGZFQVE3M193X3BDOTUycEpYckFHeVE?oc=5" target="_blank" class="news-title">본업으로 벌고 환율로 잃었다…K게임 덮친 &#x27;원화 강세&#x27; 역풍</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="환율 kb증권, 목표가↓…&quot;환율 변동성 따른 불확실성 반영&quot;">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">환율</span>
+                <span class="meta">연합뉴스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HcHdnODlnREhmaEJxMXV2eURaaE4xR09QTlhhbXNaME9JS0EtVDRXczJnQ2MwZEx6dGtfX3BlYXQwVlMtWGVmMGVpTktSX0VDVUNMRW1nejU4cU3SAWBBVV95cUxORDBqY2lxSjlXV0R1SGVNZVBaZk56X0VXZ3dfUFlZbEMwbVpDc2ozLW5LbEJmZGhYZUg5VXZDSktFWnhTUVVhTHFHQlpqWndOLVlsTENKNXliWnlLLTN2RlI?oc=5" target="_blank" class="news-title">KB증권, 목표가↓…&quot;환율 변동성 따른 불확실성 반영&quot;</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="유가 &quot;민주당 부패 조사 집중&quot; 트럼프, 밴스의 이란협상 제동…유가 급등 - 머니투데이">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">유가</span>
+                <span class="meta">머니투데이 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jbTRmaDlBMzZiN1BxRlB1VU0xRGl6Yzd4YUtma2licjlTYmVsODhtT0E1SFFNR2pOdXQzR2VkeXJrZE90d1RiLTB3OHpQTXIwd1QwLV9jR1ZvcEVlZlRBUjc4a1lnQ1dW0gFuQVVfeXFMTkNjQVMwN25CdmV4RWxQdjlJMjRvdEFsMnVqeDN3aEJRb1Q1WlhVVnpRTVhkUWRULWxkSUIwTkktT1ktWWc3Ni1qLXhDUWw1SldTLVd2c1VuUW5IOEN0Sy1XYVR2Tk15ZFBJWFd3akE?oc=5" target="_blank" class="news-title">&quot;민주당 부패 조사 집중&quot; 트럼프, 밴스의 이란협상 제동…유가 급등 - 머니투데이</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="유가 하트넷 뱅크오브아메리카 전략가 &quot;금리 4.5% 아래·유가 $70 될 때까지 위험 회피&quot;">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">유가</span>
+                <span class="meta">Investing.com 한국어 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5mcEpubnV2S3ZCTWsyd0NSU052YU81MVluanJZd1NtTVVlenBZNVhPaUJ0TmxKRFJQUU44cUNmd1NUZC1LcXBaci1XbWRBbEV4cTlkNTVyYm9XSURpcW5uMWN6WUxaelBHWG1ST3RHNEI?oc=5" target="_blank" class="news-title">하트넷 뱅크오브아메리카 전략가 &quot;금리 4.5% 아래·유가 $70 될 때까지 위험 회피&quot;</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="유가 국제유가 상승에 달러 강세…달러인덱스 19개월 만에 최고">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">유가</span>
+                <span class="meta">서울경제 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qYUZzRFlzdHNfSkI4MlduanF0ajlTdlo4QWIxNFdYc0ZJMnNvWU9QX01tR1FhNk1vY0R6SzliUzdGcVVqYkJvMTM2Q1Y1UlhkRnfSAVNBVV95cUxNV2hvSDMzeWNRNy1LalFRNXZrWUdJMmRZRXpqN1o4SDluMkJZU05ENGlpYVNEN2hrc0NmY1lLV3FSNm9lVmp4cUgtaWxRZ1Z5YjJDbw?oc=5" target="_blank" class="news-title">국제유가 상승에 달러 강세…달러인덱스 19개월 만에 최고</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="유가 이번 주 국내 기름값 동반 하락…국제유가는 반등">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">유가</span>
+                <span class="meta">이데일리TV · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMie0FVX3lxTE1pQXk5ZHQ3SlRQVzlNM185aUJjTDRYc1VFYldDR2hlY1VGRlVtSktaWFlSUW16M1d6dm9MdW5INE5nbHJxRUZmbUZTc3JOTF9iQmZqYjBma2RWWldZLUxzb29jUjY5Q21lbXJ0SVAzWHlYZHV1T2M5ZEFIdw?oc=5" target="_blank" class="news-title">이번 주 국내 기름값 동반 하락…국제유가는 반등</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="유가 젠슨 황 퇴진·유가 급등에 뉴욕증시 하락…나스닥 0.4%↓">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">유가</span>
+                <span class="meta">연합뉴스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE9pUU9rX0VMZWZhX3pFRmdJNGtOTDg2YUtGYWpId3hXdlZIVHNXM3BiTTBia29mRnZ0bXNoTE5Jbk9LTDFKa0ZsUEZ6Rl9DWVJrTmZCbkVsTjhVODjSAWBBVV95cUxNc3lGX3hrdzNLWkE0RmR3VWN2VnhjMmJidGtzLWhMTEJKenRWWUR4OHhkSlRvUzhjajl1aElWN3VQbWpTOGhLYlpod3ZrWG5aT3pvd3pGbFlXMEFJVU50ZDE?oc=5" target="_blank" class="news-title">젠슨 황 퇴진·유가 급등에 뉴욕증시 하락…나스닥 0.4%↓</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 美 생산자물가 상승률 약 4년 만에 최고…연준, 12월 ‘빅스텝’ 밟을까">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">CPI 물가</span>
+                <span class="meta">조선일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSDZlcTVWc1B1UVV1aFg0WVJqVVhHMVpUWU9xUmQyUzJXaGhTWkNucFVpbzJLYjBBcjNPdlA3Q1FWT2dZYWhTNzRKZEVtWHhtRVQ2Q0NxNHVxaDN0aUxFRHBrVktKb1d1SG9iX3d1LXBjSXJWT3NqYTluYmRRTzBtOXlLNkxHakpk?oc=5" target="_blank" class="news-title">美 생산자물가 상승률 약 4년 만에 최고…연준, 12월 ‘빅스텝’ 밟을까</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 10월 인도 소비자물가 6.09%·0.55%p 가속…&quot;2년 만에 중앙은행 물가 상한 초과&quot;">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">CPI 물가</span>
+                <span class="meta">뉴시스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vRWZHVUhfUmVJOU0wLWlKYmV6RmxDZEhIT0EwYlo3WGY2MzgtUkluRXdYRkpiRjZMeFFqM3B2ZTFIVm43U0k0NFdCNllHNUpFZHJIWHZaNnVPdGZDaHgwd9IBeEFVX3lxTE5jMTdaWWh2cGZ3bC0tVUlXRVMwNHVlR0J2SnJGVnFkMkRNWTlQdjNKejFxRjJZWFZlMVgydkJ5VGtYS2tlVWRlVHptUEM0b1JtcVZtdjRfUGJXX19yWk51UGdzU1hMQmgyTUVOYWk4eDRRekk5ZTlVRA?oc=5" target="_blank" class="news-title">10월 인도 소비자물가 6.09%·0.55%P 가속…&quot;2년 만에 중앙은행 물가 상한 초과&quot;</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 美 물가 쇼크·엔비디아 악재…반도체주 바닥론 시험대 [오늘 아침 당신이 알아야 할 7가지]">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">CPI 물가</span>
+                <span class="meta">한국경제 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pbFE2LVJEVUx5YnltOWk2S1dXQ1plSUFPMVVobDgwLUx0bDdtU0dIc1dxSWNoclhlUE5HdFRWd2FGa29YMmFkYzlma1lWdFZRa1BFRDdGUXcxQQ?oc=5" target="_blank" class="news-title">美 물가 쇼크·엔비디아 악재…반도체주 바닥론 시험대 [오늘 아침 당신이 알아야 할 7가지]</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 뉴욕증시, 10월 물가 예상치 웃돌자 3대 지수 일제히 하락">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">CPI 물가</span>
+                <span class="meta">서울경제TV · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE55T1dEWTlJM3JmSzdiQlJCczBJTDZJRDBJWmJobnN3VFdmdDd2MkhUMmdYTHNvVlBFUUR0UVpfVTFPbzB2dVdCSW0td2R2QlpmOEhOXzhjcmpfTWZ3bXE4TURBSV8?oc=5" target="_blank" class="news-title">뉴욕증시, 10월 물가 예상치 웃돌자 3대 지수 일제히 하락</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 뉴욕증시, 美 물가 쇼크에 하락…국채금리 장중 5% 돌파·달러 강세 [종합]">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">CPI 물가</span>
+                <span class="meta">이투데이 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiVEFVX3lxTFBKMnYtd25falVrOFk4YjNaVjRORDNfbHV3V0xQSF9nRWxaY2djaW12WU80V1lCc3F4T015ZENmeUhmcDJkM0doanQ3d1RQSmxHY0g2Zw?oc=5" target="_blank" class="news-title">뉴욕증시, 美 물가 쇼크에 하락…국채금리 장중 5% 돌파·달러 강세 [종합]</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="미국 증시 미국·중국·etf로 알아보는 2027년 머니게임">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">미국 증시</span>
+                <span class="meta">한경매거진 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9QZldsSW9WbWN3TTB4TVlUbXVsM29RVUlRbUhlZmVqN08zemwzMnZQajgzUEFiOTBBTjFxRWZ0TGY3TFktbUluZUpGNVNHb3d3UVVuXzVtN3F1ZkdMUHdncTU3WFVtTUtEa3RGTA?oc=5" target="_blank" class="news-title">미국·중국·ETF로 알아보는 2027년 머니게임</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="미국 증시 [11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">미국 증시</span>
+                <span class="meta">기호일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBrMmFPX2F5bEN2cDNMMENjTklGeWVCc2VFbXBvRjhZUVh1U3cyX19kWkhZemhOMmV1TExuaGdya183VDZwaDBtS2dPUlNlWnExdFkzR3VSZlVhbFZKejRwSG5BR0hxUVJ5MjlmU0JCYw?oc=5" target="_blank" class="news-title">[11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="미국 증시 [미국증시] 트럼프 &quot;황 지옥 같은 시간&quot;…증언대 서나">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">미국 증시</span>
+                <span class="meta">자본시장뉴스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8wODhMRU00M0VOZ3ZkZjJSaC1MXzNVcENOSG02VEVubmpGcDdIY1NYUFFFN2hkYTYyd0I4ZEpJcVI5QzN5QzN3dy1tbGYtQlZ6dm9hSFQ0Z25lTE9kSF9PNVBEVXlTZEk?oc=5" target="_blank" class="news-title">[미국증시] 트럼프 &quot;황 지옥 같은 시간&quot;…증언대 서나</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="미국 증시 미국 증시 상승·유가 하락에 코스피 코스닥 반등">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">미국 증시</span>
+                <span class="meta">YTN · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiXkFVX3lxTE5lbDlmMTJzNkNqMDkyTEkzbUdTQ19lV1ZuZk52MVRidWFtUl9EMzVuZjFZMGVZeWhTWks5MUl1WWZmaUEzX0xOOGhiOUFfU09zN05WM0lyQ3RqYkMzRFE?oc=5" target="_blank" class="news-title">미국 증시 상승·유가 하락에 코스피 코스닥 반등</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="미국 증시 폭등할 때 지켜보다가 반토막 때 샀다...국민연금 3분기 3900억 지른 종목">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">미국 증시</span>
+                <span class="meta">매일경제 마켓 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE9sTHFLMllmQk5UaGFZZ3JxQ1FuLUw5Tk9lb2I1LURBdjlrTk53OFZkUC12Q0pYRktxdFl5U29ZX1J6ZnMtcS1UWDU1R3g2bGZCeHc?oc=5" target="_blank" class="news-title">폭등할 때 지켜보다가 반토막 때 샀다...국민연금 3분기 3900억 지른 종목</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="코스피 &#x27;전강후약&#x27; 코스피, 0.98% 하락 마감…코스닥 0.4%↑">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">코스피</span>
+                <span class="meta">연합뉴스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xWnlrOGxHYjF6bWwwWTgwWDYyLWdGbFBUS1V0VTJtWjFNZnBhRTBCMnVvZ2VjQXJJZUpKenh1TXFwRU5aRVhsMEc3NUhnRU5BMXUyQU55YUYtRkHSAWBBVV95cUxPc0czaGFzeWpZel9jNEJmT0JqZjl3TTQ2ZjA3cnVQX2VOTHRXMUFEc3VIY0VtVUFDU3NxS0FhS3lXWWlmT2prLWVCa1pIeTF4bG1WSTdWa1pYNXJBZXlyQ0k?oc=5" target="_blank" class="news-title">&#x27;전강후약&#x27; 코스피, 0.98% 하락 마감…코스닥 0.4%↑</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="코스피 1400조 벌고도 폭락…개미들 울린 코스피의 &#x27;씁쓸한 이면&#x27; [분석+]">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">코스피</span>
+                <span class="meta">한국경제 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DaEdENGUtTmhKR2tOTlZYbXRXelVSenRHS21oVE81QXpNQ2gwT09ocmhPTkFhSVdMUk5qRFJ3WHVSay0tY2wzSGo5X0Rya3FwZURMcmpIRXRkZw?oc=5" target="_blank" class="news-title">1400조 벌고도 폭락…개미들 울린 코스피의 &#x27;씁쓸한 이면&#x27; [분석+]</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="코스피 코스피는 사실상 반도체 지수… ai와 거리두기 해야">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">코스피</span>
+                <span class="meta">조선일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxNV1JTUkhEUGg5LUpmUEZETVpKbFkyTzFGa19zNjd5cHpTdnZpeXBYVk9BeUtPYVJsemUwT1F6cjlaOWRlbkdicll0LVI1RjhaOHozVUhnX2liT1lqMUtab0g4TVR3TmFrcW0yZmVXemxBUXJpbkdCdVVWcFRyVTZmNjBJRVE5Zw?oc=5" target="_blank" class="news-title">코스피는 사실상 반도체 지수… AI와 거리두기 해야</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="코스피 ‘젠슨 황’ 불확실성에… 코스피 1% 하락 마감">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">코스피</span>
+                <span class="meta">동아일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMidkFVX3lxTFB3dWxpZkYzc2R0QlVaOC10MjRWa3RXUDBJU2R5SjlrMm9FY00tamxwajBFeFF6VHRFOHRPZHB6bEdRVTVWMnZ0U3RmaXROSFNEZUNTMkZjNFVIdHhjU2tnQ09VbUplSE9GMGJ2MEszXzZKc0VfT3fSAWZBVV95cUxPQXlJOTZ2aGhiYVBhSXVpS2NmamJ3aTJnQlUyalp3OUZlRmpUckk2cWJHRFk3b2t2TUduMVU5cUN6X2wxZWFZcWRQTURmR0lEYzBabzZPdXFwS3NSbm5uaVMyRk1UR1E?oc=5" target="_blank" class="news-title">‘젠슨 황’ 불확실성에… 코스피 1% 하락 마감</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="삼성전자 &quot;삼성전자 69만원&quot;…목표주가 더 높인 반도체 애널리스트의 근거는?">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">삼성전자</span>
+                <span class="meta">한국경제 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1udENLUDAyVDJBQ25UcDVIMmFEMC0wejRlV0EwZy1ET1dERHhHMVZXRmplZlJoQmJEMmlIQjVfNWlSeFpycWJGa0hxdzhNV3FhUktTcmplVDZQQQ?oc=5" target="_blank" class="news-title">&quot;삼성전자 69만원&quot;…목표주가 더 높인 반도체 애널리스트의 근거는?</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="삼성전자 삼성전자, 라이온즈 12년 만의 우승 기념…갤럭시·가전 쏜다">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">삼성전자</span>
+                <span class="meta">글로벌이코노믹 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxOcEp6Q2lFOFlodXNLVFZVbFpDVkdjS0wxdU44NVlCR3ZEWEtLUUx2dkozRFBFT3hoa3ExeUVGQWxKSnFHSUlqbDBXX1FfZE5pXzhtOHMydU5mSUZEb1R5TDRDeGVHTlFudE5RaEV4SGRLaEtaY3AxZGl2Y0RLUWJJbXA3X0hlZw?oc=5" target="_blank" class="news-title">삼성전자, 라이온즈 12년 만의 우승 기념…갤럭시·가전 쏜다</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="삼성전자 베일벗은 삼성전자 우승턱..딱 12일간만 혜택 쏟아져 - 머니투데이">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">삼성전자</span>
+                <span class="meta">머니투데이 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE56d3MzQmVvRkFuT3NURzFiX2ZOUVFrM1VFSUs2RlUxT3ZnOXpPLWpfaDREUjlUTzRLbGhoNEpNelFxM19lcEowS2JSVGk0M0JnVG1obGJBbllfQmtjM0gxdVpHQ2RGQTAzR3BCTdIBckFVX3lxTE1vcC1oSEQ2NjNqUWliLTZaRnRiLTQ2SmJVWTlfUjFqT2Fxb3gtaWpkRXpYOXF3aHFyejJWbF9UaDNlalphUE9VNHRvUm1ueE1VcnEwWkRUR0hWd2VOV19uQkZDT085RnRyR1JkbkVKTGU1QQ?oc=5" target="_blank" class="news-title">베일벗은 삼성전자 우승턱..딱 12일간만 혜택 쏟아져 - 머니투데이</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="삼성전자 이재용 회장, 삼전 지분 1.58→1.75% 확대…홍라희 여사 증여">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">삼성전자</span>
+                <span class="meta">연합인포맥스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE14ZHlEQ0RVbGh6cFBZd1ZxVDhSQU1hckZYVHV5ZVFXejZIUGFoOExEd1kxRnVEUDFmbUlqRG16UHBkZUctamItLU5iZ1NpRDFfV0tNaGwyQnRWTkREUXhrell0WDZZMjFYT2dMVVBmYnI?oc=5" target="_blank" class="news-title">이재용 회장, 삼전 지분 1.58→1.75% 확대…홍라희 여사 증여</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 sk하이닉스, &#x27;파격적 성과급&#x27; 기대감 속 하반기 생산직 채용">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">SK하이닉스</span>
+                <span class="meta">연합뉴스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vdGd0a2hvcUc3TFl1SUlOVExDa3NnQUVkaUQ3WE41MjlPLThmSnBxU1NmLVc5RkY2OU4wbl9vZEZkS21BV1JRNGxYQmQxS2Y1LV9nRW9aaVJoSzjSAWBBVV95cUxPQy1lUlk1RDh5aW1tQktCQ09Ed1NjSnM2ZXZWWWJXWW9Id01nQm9BN3htb0hJWVRUR0l4X2xMb3MwS2tkOEVibEw0SG9rbVBWaU4xMUJXUkNrUnhIckpkcWI?oc=5" target="_blank" class="news-title">SK하이닉스, &#x27;파격적 성과급&#x27; 기대감 속 하반기 생산직 채용</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 “오작동도, 해킹도 막는다”… sk하이닉스, 안전 · 보안 국제 인증으로 피지컬 ai 메모리 신뢰성 강화">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">SK하이닉스</span>
+                <span class="meta">SK hynix · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWEg0MlFpUXBoUW1pSklUNXBaSXdyandhM004eS1aZk5lbm85ZkZyM1ZIODZhZ1BHTkVRcnRHT0M3c2lIRTEyeTFnYW5yOEJseEF5dGU2OG9KRmtNd0RPTnJmaU4yclE2cVh0NA?oc=5" target="_blank" class="news-title">“오작동도, 해킹도 막는다”… SK하이닉스, 안전 · 보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 “10년 모은 4억, 하닉 투자했다 1억 남아” 30대 직장인의 한탄">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">SK하이닉스</span>
+                <span class="meta">중앙일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWc3pocEdlQjBNVllsWmVINjZhWnFQb082YXItWEFrNUplcE8yVDd3ZzlfcW5qQlJWTGlIS1ljZms0NGM1ZUxGZmE5ODJNLWpzeWkwLXZR?oc=5" target="_blank" class="news-title">“10년 모은 4억, 하닉 투자했다 1억 남아” 30대 직장인의 한탄</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 국내·외 증권사 목표가 ‘들쭉날쭉’…길 잃은 ‘삼전닉스’ 개미들">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">SK하이닉스</span>
+                <span class="meta">세계일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTE5XZ3VUT0ZJYm03MnRoQkpuSlF0QW5zdUtqaklQWFpyVjU5bFltT2ZaRTJ6cld5ZHJpcG9ockZvd3BsUG5IS1ZjV0ljWUZGUVBhd0dRUW1WS3nSAVRBVV95cUxPcnFXWUNxQ0VBeDhxSVNibmdYRm03RUtDS0lTVjE3LVkxeGNQaHlfOWNjVXFLRFExSUpJam9LQ1NfZ0RmV1RkM0w3NU5wbUVxZk5RZGM?oc=5" target="_blank" class="news-title">국내·외 증권사 목표가 ‘들쭉날쭉’…길 잃은 ‘삼전닉스’ 개미들</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 sk하이닉스 주가, 오늘 왜 하락하나?">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">SK하이닉스</span>
+                <span class="meta">Investing.com 한국어 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBULXdLS0RXQXhzOWNYaHB4aGp1ejJlWDlsVVZYbDh0dlZkRnBiRHNRQTR0S1Y3QS1mTk5yVUZsazNsd3dWWHF3ejV4WmhOVzRIYTdDQjhfTi1hdWxZbEpFTExXNHM4Ym5VUVlTeWFXRVNEM0hpMlZr?oc=5" target="_blank" class="news-title">SK하이닉스 주가, 오늘 왜 하락하나?</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 [사설] &quot;왜 차값이 비싸냐&quot;는 현대차 노조, 정말 회사 걱정 안되나">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">현대차</span>
+                <span class="meta">조선일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQZTBwYjJyYjNUUUs4YzdQS2QyZXpjZVFzZzZxczFBOGVSYjNWVG1jQ3lVaThJa01SREV0bk5pRlBUaUFXdUNfZVl2TzdOaU9PRndjeEE3cGMxd2E2dlJhclhMelBXMGFvblZ1aEFsTWhtbFhoeXJsb3d4cFRndEJ0M1g2anhCUQ?oc=5" target="_blank" class="news-title">[사설] &quot;왜 차값이 비싸냐&quot;는 현대차 노조, 정말 회사 걱정 안되나</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 정무성 현대차 정몽구재단 이사장 별세… 향년 68세">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">현대차</span>
+                <span class="meta">동아일보 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9fbE9jdF9NM0ZCN1E3UUJydGxrOEdoQ2dVWDVvUlQ5UHhfdkFfU2RQcXlqM1ZUajI4N3Q1ZUM1dU5mREMzNm1mcHlyektiZndhREc2STFxS1gycF84NGhhcG9XMUFUVWtpMm80MVkteWZWRUlj0gFmQVVfeXFMTU1obWtfdGFhb1RWdWpDTkQwVUkyaVltMnhBazE1dGZCdklBM3Ixamg1cFFmdUxMTFdvR2hkNEtHMS1UREM2eFpQcXpYMkZJa2JVUC12bjBkcW1JZnZHYUVDS1UzWkxR?oc=5" target="_blank" class="news-title">정무성 현대차 정몽구재단 이사장 별세… 향년 68세</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 현대차, 쏘카·에이펙스모빌리티와 국내 자율주행 생태계 키운다">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">현대차</span>
+                <span class="meta">오토뷰 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvNUc1Z0lURG5kd2VaVGxVeEl6N0prWmVaMkhScHBCYm5ibzd3TkhxeGpWX1hpeTNJWHc2TVNGcUhWcXlRUGQ4cVQ3Vm9hSDdVY2xhZDg5YlVFMFV6?oc=5" target="_blank" class="news-title">현대차, 쏘카·에이펙스모빌리티와 국내 자율주행 생태계 키운다</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 [단독] 현대차 avp본부, 조직개편 단행">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">현대차</span>
+                <span class="meta">매일경제 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjSE16LW1ZdWZnN1NTaUF3OU9qZ1VFUnR3ZWJyQUZiM0ZNQ0tpNWJjdlB3ZG9mYVZILWdvOFkycEYyT082aDF5c3FhaVBpQmFqT1BEWVZR?oc=5" target="_blank" class="news-title">[단독] 현대차 AVP본부, 조직개편 단행</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 현대차 자율주행 전략 브레이크 걸리나…정의선과 깐부, 젠슨 황 퇴진에 당혹">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">현대차</span>
+                <span class="meta">디지털데일리 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiZEFVX3lxTFBpZTFreDh1M1c0SUl1aHZTMG54VlJtWGZ2a0JOODUzRnIwVHlydDZSLXpsZGdUby1sMGpGckFuSnVhQndxM045MDlFM3otalQxclloOW9fMjdqc01lZWVBOF9idjU?oc=5" target="_blank" class="news-title">현대차 자율주행 전략 브레이크 걸리나…정의선과 깐부, 젠슨 황 퇴진에 당혹</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">한화에어로스페이스</span>
+                <span class="meta">Chosunbiz · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ1hVX0JZa1N2NDNQXzJhNW1kX3R4Qk5tTmVudmlsUUc1ZXRzVk5TTGlsRlNXbkFsQm05TGxTeC1Kbl9kVG1qOEdLTFZBRW5JWkFFVjhHMk42emJEYk9Wdjc2TEhpeTNqY1QyWDYtQ3pYU3RiV0dqamxuV1VrVWpzZ0FtQm7SAZgBQVVfeXFMTy1wSjZPa20yX3JRMVpxeWhNa0I2UlhxZlUwNHlCNUxjZVhDdzR0YkRydnFwSUpCYnhZazZvZThocDZFLTVrbTNmUThMV3hfaVZiVjhXc1BsV3V3Sm1HbjRQWXZnWEwtR2lBakF2ejBDZEdqQ0ZaM0ZqdXpvcmFVUHBNMWhTdGJXeEVhUk0xT2NnekRfRnlhMFM?oc=5" target="_blank" class="news-title">한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로스페이스, uae와 l-sam 수출 협상 진전…폴란드 수주 공백 메운다">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">한화에어로스페이스</span>
+                <span class="meta">글로벌이코노믹 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMWpZMzhsV1BRQlR2ZEtVUGpPa0EwZmR2R2E5b2xVV3hsSkhWNzBxNzFuU2dqaVZ5OXgzcDJ0MFpfUjJmVzFUSllYSzdQRy1HajBBR1ZJV09iLW1HZG96SkJDTnBlb3BKSy1vZW1Xa3A3SmZxUFlDZFFFLS1YTWlKSkRGMWxBOWJ2?oc=5" target="_blank" class="news-title">한화에어로스페이스, UAE와 L-SAM 수출 협상 진전…폴란드 수주 공백 메운다</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로스페이스, 1773억 원 무인기 엔진 맡는다">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">한화에어로스페이스</span>
+                <span class="meta">자본시장뉴스 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mdW1FalpHcnN2cEh2ZkNaa0pISFlTSFNULU5JcFptZlY0amM0ZW9HRTF5eWVYZ0Y4SER3NmlKLVl6OURrWGR0R0o3SG14UUVXNXJGRTBIMjJvNkZNSmtCdHA1cHVieVE?oc=5" target="_blank" class="news-title">한화에어로스페이스, 1773억 원 무인기 엔진 맡는다</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로스페이스, ‘1만 파운드급 고바이패스 터보팬 엔진’ 개발 우선협상대상자 선정">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">한화에어로스페이스</span>
+                <span class="meta">기계신문 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBWcnJWS2Z5Zmwwci1KOEZpd0F2VGtDS1UwSjdHOGJTbmFDTmFldUdvTGwwTEwxSlI5UHRQQ0QtWEZRVTRpUWNrMElCSUpGX2plcFJVQm56enJKOU9aVkY1ZWxuYy10Zw?oc=5" target="_blank" class="news-title">한화에어로스페이스, ‘1만 파운드급 고바이패스 터보팬 엔진’ 개발 우선협상대상자 선정</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로, 순천에 국내 최대 민간 우주발사체 생산기지 준공">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">한화에어로스페이스</span>
+                <span class="meta">아시아경제 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnN09yTGRjU2QzLXpyMm1pcVdhbnNwWTZBQ2dvT09CLUdnbEMxOGJzY2d4NE9XblBKcDI1YXQ0RkJFSFZKX1lBdEVnS3pkZEFXMEhyNlJlMVVKMjRMVFY5QQ?oc=5" target="_blank" class="news-title">한화에어로, 순천에 국내 최대 민간 우주발사체 생산기지 준공</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="naver ‘1.6조 역대급 과징금’ 증권사 실적 줄줄이 꺾인 이유">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">NAVER</span>
+                <span class="meta">네이버페이 머니스토리 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIUGNyZUpQRWJOWmQzSmJkbEpBUEpJQ0h6ZUFhdHRRaDNZdUxYbktBVkIyQ2FCdXJKYkxjdG5veGpfV0xJTzhJd051Z2JwcmYtS1pMVXFzNVU?oc=5" target="_blank" class="news-title">‘1.6조 역대급 과징금’ 증권사 실적 줄줄이 꺾인 이유</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="naver 젠슨 황 해임, 엔비디아를 바라보는 우려의 시선">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">NAVER</span>
+                <span class="meta">네이버페이 머니스토리 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnWHZOUHNUZnptT3FEV25SRjM4Ymx4TE5CdEw3VzFJNTl2bFhQcU9xUWtuZFl5eFdQd0NRbzZzOEFRSjNBUF8wNFZhb3dzd1RmNnIzb0tORlQ?oc=5" target="_blank" class="news-title">젠슨 황 해임, 엔비디아를 바라보는 우려의 시선</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="naver 내년 만 19세~34세 주목! 2027년 청년 지원 총정리">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">NAVER</span>
+                <span class="meta">네이버페이 머니스토리 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE04YWhabnh5RHVYSDh6VmhWbHdvcTF5WDFLanRrb25VZlAzdFJkYmJtVGZtYWc3V0Nhbl90cm9jVzAxRWdJdHozTlA2d3I1RkFYNFE?oc=5" target="_blank" class="news-title">내년 만 19세~34세 주목! 2027년 청년 지원 총정리</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="naver 전세사기 피해 4만 건 넘어…서울 평균 하락 속 경기 상승세 (11월 2주 부동산)">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">NAVER</span>
+                <span class="meta">네이버페이 머니스토리 · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTFAxUWQ2YWR6aHk1M19mM1VGOFh4WXo4NWllbUh1VFQ3eFZ1clpkbjhhckw3QThOLVRYRU0tNHlONVpMN2JLNWVNM3FVRXJNbF9MVEw4bTZzLW94ZEU?oc=5" target="_blank" class="news-title">전세사기 피해 4만 건 넘어…서울 평균 하락 속 경기 상승세 (11월 2주 부동산)</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="KR" data-text="naver 윤건영 교육감, “교육예산, 아이들의 미래를 위한 투자 : 네이버 블로그">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">NAVER</span>
+                <span class="meta">Naver Blog · 11/14 17:46</span>
+            </div>
+            <a href="https://news.google.com/rss/articles/CBMijwFBVV95cUxQOEF0Z2JTSm1rUUJGR1JWYm9qbDVpZi1XREYtSTBnX09oeVdqMGdLSjFGbXNiQWE1YW1INEJ3bU1Db2dfeVgzRnFxTE1iUkhVa2tpZVpIckJrZndXTUt4ZWlBMUJweDdCWDhzVGsyRkp0d25NQVJnLS1wV3ZSVHdiYkcyUlBHQkx5MUNhdTRxSQ?oc=5" target="_blank" class="news-title">윤건영 교육감, “교육예산, 아이들의 미래를 위한 투자 : 네이버 블로그</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda planning to claim social security at 62? here are 3 critical questions to ask yourself first">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.fool.com/retirement/2026/11/14/planning-to-claim-social-security-at-62-here-are-3-critical-questions-to-ask-yourself-first/?.tsrc=rss" target="_blank" class="news-title">Planning to Claim Social Security at 62? Here Are 3 Critical Questions to Ask Yourself First</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda is nvidia worth this much less without jensen huang?">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.fool.com/investing/2026/11/14/is-nvidia-worth-this-much-less-without-jensen-huang/?.tsrc=rss" target="_blank" class="news-title">Is Nvidia Worth This Much Less Without Jensen Huang?</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda softbank (tse:9434) leads $500 million agile robots funding round">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/ai/articles/softbank-tse-9434-leads-500-062035919.html?.tsrc=rss" target="_blank" class="news-title">SoftBank (TSE:9434) Leads $500 Million Agile Robots Funding Round</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda nvidia fallout puts wpp stock and crisis advisory firms in focus">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/nvidia-fallout-puts-wpp-stock-061455897.html?.tsrc=rss" target="_blank" class="news-title">Nvidia Fallout Puts WPP Stock And Crisis Advisory Firms In Focus</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda formfactor (form) dropped, so what is behind the move?">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$NVDA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/formfactor-form-dropped-behind-move-051120513.html?.tsrc=rss" target="_blank" class="news-title">FormFactor (FORM) Dropped, So What Is Behind The Move?</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla tesla cybercab now available for purchase for select customers — but there’s a catch">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://stocktwits.com/news-articles/markets/equity/tesla-cybercab-purchase-select-customers-but-catch/cNb26QDR9Qf?.tsrc=rss" target="_blank" class="news-title">Tesla Cybercab Now Available For Purchase For Select Customers — But There’s A Catch</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla zero to sixty: tesla winds down cybertruck, pulls model y variant while rivian, lucid chase volumes">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-winds-down-cybertruck-pulls-model-y-variant-while-rivian-lucid-chase-volumes-in-ev-updates-this-week/cNb2AojR9QP?.tsrc=rss" target="_blank" class="news-title">Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla spacex, tesla merger puts musk at forefront of &#x27;revolutionary&#x27; tech, analyst says">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/m/00d73871-4c74-3adb-95a4-1a0ac2ea77d1/spacex%2C-tesla-merger-puts.html?.tsrc=rss" target="_blank" class="news-title">SpaceX, Tesla Merger Puts Musk At Forefront Of &#x27;Revolutionary&#x27; Tech, Analyst Says</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla spacex could announce a deal for tesla as soon as december. here&#x27;s what it would do to spacex stock.">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.fool.com/investing/2026/11/13/spacex-could-announce-a-deal-for-tesla-as-soon-as-december-here-s-what-it-would-do-to-spacex-stock/?.tsrc=rss" target="_blank" class="news-title">SpaceX Could Announce a Deal for Tesla as Soon as December. Here&#x27;s What It Would Do to SpaceX Stock.</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla america&#x27;s greatest opportunities: the earnings gap that put tesla stock at ludicrous speed">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">$TSLA</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/m/969ba2c7-b205-3700-9f94-d81105d70786/america%27s-greatest.html?.tsrc=rss" target="_blank" class="news-title">America&#x27;s Greatest Opportunities: The Earnings Gap That Put Tesla Stock At Ludicrous Speed</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl is apple stock a buy right now?">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.fool.com/investing/2026/11/13/is-apple-stock-a-buy-right-now/?.tsrc=rss" target="_blank" class="news-title">Is Apple Stock a Buy Right Now?</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl a $1,999 sellout. what china renaissance sees in apple (aapl)">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/1-999-sellout-china-renaissance-211310813.html?.tsrc=rss" target="_blank" class="news-title">A $1,999 Sellout. What China Renaissance Sees in Apple (AAPL)</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl jardogshealth forms strategic advisory council with leaders from discover card, mtv, doordash and apple">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/healthcare/articles/jardogshealth-forms-strategic-advisory-council-192900019.html?.tsrc=rss" target="_blank" class="news-title">JardogsHealth Forms Strategic Advisory Council with Leaders from Discover Card, MTV, DoorDash and Apple</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl apple stocks rise 1.04% as siri ai-powered homeview and apple tv hit shelves">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/apple-stocks-rise-1-04-173942861.html?.tsrc=rss" target="_blank" class="news-title">Apple Stocks Rise 1.04% as Siri AI-Powered HomeView and Apple TV Hit Shelves</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl what could still send apple stock higher?">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AAPL</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.trefis.com/stock/aapl/articles/624982/what-could-still-send-apple-stock-higher/2026-11-13?.tsrc=rss" target="_blank" class="news-title">What Could Still Send Apple Stock Higher?</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft cerebras stock surges on microsoft deal: what it means for nvidia">
+            <div class="card-top">
+                <span class="badge hot">🔥 주요속보</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/video/cerebras-stock-surges-on-microsoft-deal-what-it-means-for-nvidia-213123807.html?.tsrc=rss" target="_blank" class="news-title">Cerebras stock surges on Microsoft deal: What it means for Nvidia</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft das technology gives retailers a competitive advantage during microsoft outage">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/ai/articles/das-technology-gives-retailers-competitive-230700578.html?.tsrc=rss" target="_blank" class="news-title">DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft nvidia, amd, microsoft, cerebras, cisco, modine, and more stocks that explain today’s market">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/m/fa0293c5-bebc-3c34-924d-04a0b56c1b18/nvidia%2C-amd%2C-microsoft%2C.html?.tsrc=rss" target="_blank" class="news-title">Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft microsoft service outage gives software giant black eye">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/m/146bf5ca-63b6-3500-97ec-f69f5ff800a8/microsoft-service-outage.html?.tsrc=rss" target="_blank" class="news-title">Microsoft Service Outage Gives Software Giant Black Eye</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$msft microsoft vs. salesforce: one software stock remains a top pick, the other has something to prove, says rbc">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$MSFT</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-salesforce-one-software-203940316.html?.tsrc=rss" target="_blank" class="news-title">Microsoft vs. Salesforce: One Software Stock Remains a Top Pick, the Other Has Something to Prove, Says RBC</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd stock market today, nov. 13: amd sinks 8.75% on sector ai-chip sell-off after early gains reverse">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/?.tsrc=rss" target="_blank" class="news-title">Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd amd sinks 9%, marvell down 5% as chip rally reverses and treasury yields hit 5%">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.tikr.com/blog/amd-sinks-9-marvell-down-5-as-chip-rally-reverses-and-treasury-yields-hit-5?ref=yahoofinance&amp;tlnk=yf-261113-c83jxhmp&amp;.tsrc=rss" target="_blank" class="news-title">AMD Sinks 9%, Marvell Down 5% as Chip Rally Reverses and Treasury Yields Hit 5%</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd better chip stock: nvidia vs. amd">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.fool.com/investing/2026/11/13/better-chip-stock-nvidia-vs-amd/?.tsrc=rss" target="_blank" class="news-title">Better Chip Stock: Nvidia vs. AMD</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$amd amd stock looks poised to revisit its all-time highs">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$AMD</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/amd-stock-looks-poised-revisit-211600722.html?.tsrc=rss" target="_blank" class="news-title">AMD Stock Looks Poised to Revisit Its All-Time Highs</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr pltr&#x27;s rule of 40 hits 158%: can this momentum continue?">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/markets/stocks/articles/pltrs-rule-40-hits-158-174000798.html?.tsrc=rss" target="_blank" class="news-title">PLTR&#x27;s Rule of 40 Hits 158%: Can This Momentum Continue?</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr the same $10,000 in nvidia and palantir could produce very different results by 2030">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://247wallst.com/investing/2026/11/13/the-same-10000-in-nvidia-and-palantir-could-produce-very-different-results-by-2030/?.tsrc=rss" target="_blank" class="news-title">The Same $10,000 in Nvidia and Palantir Could Produce Very Different Results by 2030</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr cathie wood is buying the coreweave dip and selling palantir">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://247wallst.com/investing/2026/11/13/cathie-wood-is-buying-the-coreweave-dip-and-selling-palantir/?.tsrc=rss" target="_blank" class="news-title">Cathie Wood Is Buying the CoreWeave Dip and Selling Palantir</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr cathie wood buys $16 million in ai stock, dumps $10 million">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://finance.yahoo.com/technology/ai/articles/cathie-wood-buys-16-million-120108566.html?.tsrc=rss" target="_blank" class="news-title">Cathie Wood buys $16 million in AI stock, dumps $10 million</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr these 6 data software stocks help companies put ai to work">
+            <div class="card-top">
+                <span class="badge normal">📰 일반</span>
+                <span class="ticker-tag">$PLTR</span>
+                <span class="meta">Yahoo Finance · 11/14 17:46</span>
+            </div>
+            <a href="https://www.fool.com/investing/2026/11/13/these-6-data-software-stocks-help-companies-put-ai-to-work/?.tsrc=rss" target="_blank" class="news-title">These 6 Data Software Stocks Help Companies Put AI to Work</a>
+        </div>
+        
+        <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 bofa &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가">
             <div class="card-top">
                 <span class="badge hot">🔥 주요속보</span>
                 <span class="ticker-tag">연준 금리</span>
@@ -56,7 +810,7 @@
             <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUGQ3T1lmeDBuT3dOUklaQ0hOUEFxS1dTcUpmMXFFci1EX05QNjlIaUgzQ1ZkNFZpNFN6ZlVVU2ZfMzRYRE1yajc3SElEd1FyNE40anQtbE1vek1LMGNGRTZtQ2xzbG11QUxkdUw4dG0?oc=5" target="_blank" class="news-title">BofA &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="연준 금리 美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도">
             <div class="card-top">
                 <span class="badge hot">🔥 주요속보</span>
                 <span class="ticker-tag">연준 금리</span>
@@ -65,7 +819,7 @@
             <a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FQ1JaS0c1LVFidjF3TlJkNkNlVmMtamFMaVZ1YmZHTDRLRHNKRWI4Z1NtcXg1UThFbmIzZnRhVk02TDNMWno5SGc5LUpOZUNiZUZMaGlB?oc=5" target="_blank" class="news-title">美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="환율 원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="환율 원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">환율</span>
@@ -74,7 +828,7 @@
             <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5VSHlGQVBrLWl4RzJQTWI1RW00ZzRGWklWbFg3ZlE4cEJ3WWthbU1vRENiUnpUMkJMRFVTaldYWWp3YTMwOVEzTFBldGI4VjJnNHlHX3VTQ3RFTXZBZDRWN9IBeEFVX3lxTE4wM3VHeUF0RjQ0dWhfaU9GR0NBTVR2WjU5Tk9VaW9oQlkxS2xTMHV3T2FYMk5MWWFGaGhfR0hxMnJSLXdkdjFkbE5yOUJlQWItV0xqWUxfdEpqSmlIc2JwcFBSRWpzM1haRDBvNEl4NC1IUXpZRVhoeA?oc=5" target="_blank" class="news-title">원·달러 환율·국제 유가 하락에…10월 수입물가 1.8%↓</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="환율 [표] 외국환율고시표">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="환율 [표] 외국환율고시표">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">환율</span>
@@ -83,7 +837,7 @@
             <a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1BRThhcDE5X3JRWFVYSVJxS1BONE9mc2tnb3VEa254SHN4Q3pVdUxWcExucmdTOW9YbmV0LTZVeHNqWENSV2RDVTBmYm1OdjF5bWc?oc=5" target="_blank" class="news-title">[표] 외국환율고시표</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="유가 &quot;민주당 부패 조사 집중&quot; 트럼프, 밴스의 이란협상 제동…유가 급등 - 머니투데이">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="유가 &quot;민주당 부패 조사 집중&quot; 트럼프, 밴스의 이란협상 제동…유가 급등 - 머니투데이">
             <div class="card-top">
                 <span class="badge hot">🔥 주요속보</span>
                 <span class="ticker-tag">유가</span>
@@ -92,7 +846,7 @@
             <a href="https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jbTRmaDlBMzZiN1BxRlB1VU0xRGl6Yzd4YUtma2licjlTYmVsODhtT0E1SFFNR2pOdXQzR2VkeXJrZE90d1RiLTB3OHpQTXIwd1QwLV9jR1ZvcEVlZlRBUjc4a1lnQ1dW0gFuQVVfeXFMTkNjQVMwN25CdmV4RWxQdjlJMjRvdEFsMnVqeDN3aEJRb1Q1WlhVVnpRTVhkUWRULWxkSUIwTkktT1ktWWc3Ni1qLXhDUWw1SldTLVd2c1VuUW5IOEN0Sy1XYVR2Tk15ZFBJWFd3akE?oc=5" target="_blank" class="news-title">&quot;민주당 부패 조사 집중&quot; 트럼프, 밴스의 이란협상 제동…유가 급등 - 머니투데이</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="유가 하트넷 뱅크오브아메리카 전략가 &quot;금리 4.5% 아래·유가 $70 될 때까지 위험 회피&quot;">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="유가 하트넷 뱅크오브아메리카 전략가 &quot;금리 4.5% 아래·유가 $70 될 때까지 위험 회피&quot;">
             <div class="card-top">
                 <span class="badge hot">🔥 주요속보</span>
                 <span class="ticker-tag">유가</span>
@@ -101,7 +855,7 @@
             <a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5mcEpubnV2S3ZCTWsyd0NSU052YU81MVluanJZd1NtTVVlenBZNVhPaUJ0TmxKRFJQUU44cUNmd1NUZC1LcXBaci1XbWRBbEV4cTlkNTVyYm9XSURpcW5uMWN6WUxaelBHWG1ST3RHNEI?oc=5" target="_blank" class="news-title">하트넷 뱅크오브아메리카 전략가 &quot;금리 4.5% 아래·유가 $70 될 때까지 위험 회피&quot;</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="cpi 물가 美 생산자물가 상승률 약 4년 만에 최고…연준, 12월 ‘빅스텝’ 밟을까">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 美 생산자물가 상승률 약 4년 만에 최고…연준, 12월 ‘빅스텝’ 밟을까">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">CPI 물가</span>
@@ -110,7 +864,7 @@
             <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSDZlcTVWc1B1UVV1aFg0WVJqVVhHMVpUWU9xUmQyUzJXaGhTWkNucFVpbzJLYjBBcjNPdlA3Q1FWT2dZYWhTNzRKZEVtWHhtRVQ2Q0NxNHVxaDN0aUxFRHBrVktKb1d1SG9iX3d1LXBjSXJWT3NqYTluYmRRTzBtOXlLNkxHakpk?oc=5" target="_blank" class="news-title">美 생산자물가 상승률 약 4년 만에 최고…연준, 12월 ‘빅스텝’ 밟을까</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="cpi 물가 10월 인도 소비자물가 6.09%·0.55%p 가속…&quot;2년 만에 중앙은행 물가 상한 초과&quot;">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 10월 인도 소비자물가 6.09%·0.55%p 가속…&quot;2년 만에 중앙은행 물가 상한 초과&quot;">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">CPI 물가</span>
@@ -119,7 +873,7 @@
             <a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vRWZHVUhfUmVJOU0wLWlKYmV6RmxDZEhIT0EwYlo3WGY2MzgtUkluRXdYRkpiRjZMeFFqM3B2ZTFIVm43U0k0NFdCNllHNUpFZHJIWHZaNnVPdGZDaHgwd9IBeEFVX3lxTE5jMTdaWWh2cGZ3bC0tVUlXRVMwNHVlR0J2SnJGVnFkMkRNWTlQdjNKejFxRjJZWFZlMVgydkJ5VGtYS2tlVWRlVHptUEM0b1JtcVZtdjRfUGJXX19yWk51UGdzU1hMQmgyTUVOYWk4eDRRekk5ZTlVRA?oc=5" target="_blank" class="news-title">10월 인도 소비자물가 6.09%·0.55%P 가속…&quot;2년 만에 중앙은행 물가 상한 초과&quot;</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="미국 증시 미국·중국·etf로 알아보는 2027년 머니게임">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="미국 증시 미국·중국·etf로 알아보는 2027년 머니게임">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">미국 증시</span>
@@ -128,7 +882,7 @@
             <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE9QZldsSW9WbWN3TTB4TVlUbXVsM29RVUlRbUhlZmVqN08zemwzMnZQajgzUEFiOTBBTjFxRWZ0TGY3TFktbUluZUpGNVNHb3d3UVVuXzVtN3F1ZkdMUHdncTU3WFVtTUtEa3RGTA?oc=5" target="_blank" class="news-title">미국·중국·ETF로 알아보는 2027년 머니게임</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="미국 증시 [11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="미국 증시 [11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">미국 증시</span>
@@ -137,7 +891,7 @@
             <a href="https://news.google.com/rss/articles/CBMib0FVX3lxTFBrMmFPX2F5bEN2cDNMMENjTklGeWVCc2VFbXBvRjhZUVh1U3cyX19kWkhZemhOMmV1TExuaGdya183VDZwaDBtS2dPUlNlWnExdFkzR3VSZlVhbFZKejRwSG5BR0hxUVJ5MjlmU0JCYw?oc=5" target="_blank" class="news-title">[11월 둘째 주 세계경제동향 브리핑] 코스피 5,200선 회복…한미 증시 동반 반등</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="코스피 &#x27;전강후약&#x27; 코스피, 0.98% 하락 마감…코스닥 0.4%↑">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="코스피 &#x27;전강후약&#x27; 코스피, 0.98% 하락 마감…코스닥 0.4%↑">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">코스피</span>
@@ -146,7 +900,7 @@
             <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE4xWnlrOGxHYjF6bWwwWTgwWDYyLWdGbFBUS1V0VTJtWjFNZnBhRTBCMnVvZ2VjQXJJZUpKenh1TXFwRU5aRVhsMEc3NUhnRU5BMXUyQU55YUYtRkHSAWBBVV95cUxPc0czaGFzeWpZel9jNEJmT0JqZjl3TTQ2ZjA3cnVQX2VOTHRXMUFEc3VIY0VtVUFDU3NxS0FhS3lXWWlmT2prLWVCa1pIeTF4bG1WSTdWa1pYNXJBZXlyQ0k?oc=5" target="_blank" class="news-title">&#x27;전강후약&#x27; 코스피, 0.98% 하락 마감…코스닥 0.4%↑</a>
         </div>
         
-        <div class="news-card" data-cat="MACRO" data-text="코스피 1400조 벌고도 폭락…개미들 울린 코스피의 &#x27;씁쓸한 이면&#x27; [분석+]">
+        <div class="news-card saved-card" data-cat="MACRO" data-text="코스피 1400조 벌고도 폭락…개미들 울린 코스피의 &#x27;씁쓸한 이면&#x27; [분석+]">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">코스피</span>
@@ -155,7 +909,7 @@
             <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5DaEdENGUtTmhKR2tOTlZYbXRXelVSenRHS21oVE81QXpNQ2gwT09ocmhPTkFhSVdMUk5qRFJ3WHVSay0tY2wzSGo5X0Rya3FwZURMcmpIRXRkZw?oc=5" target="_blank" class="news-title">1400조 벌고도 폭락…개미들 울린 코스피의 &#x27;씁쓸한 이면&#x27; [분석+]</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="삼성전자 &quot;삼성전자 69만원&quot;…목표주가 더 높인 반도체 애널리스트의 근거는?">
+        <div class="news-card saved-card" data-cat="KR" data-text="삼성전자 &quot;삼성전자 69만원&quot;…목표주가 더 높인 반도체 애널리스트의 근거는?">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">삼성전자</span>
@@ -164,7 +918,7 @@
             <a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE1udENLUDAyVDJBQ25UcDVIMmFEMC0wejRlV0EwZy1ET1dERHhHMVZXRmplZlJoQmJEMmlIQjVfNWlSeFpycWJGa0hxdzhNV3FhUktTcmplVDZQQQ?oc=5" target="_blank" class="news-title">&quot;삼성전자 69만원&quot;…목표주가 더 높인 반도체 애널리스트의 근거는?</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="삼성전자 삼성전자, 라이온즈 12년 만의 우승 기념…갤럭시·가전 쏜다">
+        <div class="news-card saved-card" data-cat="KR" data-text="삼성전자 삼성전자, 라이온즈 12년 만의 우승 기념…갤럭시·가전 쏜다">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">삼성전자</span>
@@ -173,7 +927,7 @@
             <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxOcEp6Q2lFOFlodXNLVFZVbFpDVkdjS0wxdU44NVlCR3ZEWEtLUUx2dkozRFBFT3hoa3ExeUVGQWxKSnFHSUlqbDBXX1FfZE5pXzhtOHMydU5mSUZEb1R5TDRDeGVHTlFudE5RaEV4SGRLaEtaY3AxZGl2Y0RLUWJJbXA3X0hlZw?oc=5" target="_blank" class="news-title">삼성전자, 라이온즈 12년 만의 우승 기념…갤럭시·가전 쏜다</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="sk하이닉스 sk하이닉스, &#x27;파격적 성과급&#x27; 기대감 속 하반기 생산직 채용">
+        <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 sk하이닉스, &#x27;파격적 성과급&#x27; 기대감 속 하반기 생산직 채용">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">SK하이닉스</span>
@@ -182,7 +936,7 @@
             <a href="https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vdGd0a2hvcUc3TFl1SUlOVExDa3NnQUVkaUQ3WE41MjlPLThmSnBxU1NmLVc5RkY2OU4wbl9vZEZkS21BV1JRNGxYQmQxS2Y1LV9nRW9aaVJoSzjSAWBBVV95cUxPQy1lUlk1RDh5aW1tQktCQ09Ed1NjSnM2ZXZWWWJXWW9Id01nQm9BN3htb0hJWVRUR0l4X2xMb3MwS2tkOEVibEw0SG9rbVBWaU4xMUJXUkNrUnhIckpkcWI?oc=5" target="_blank" class="news-title">SK하이닉스, &#x27;파격적 성과급&#x27; 기대감 속 하반기 생산직 채용</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="sk하이닉스 “오작동도, 해킹도 막는다”… sk하이닉스, 안전 · 보안 국제 인증으로 피지컬 ai 메모리 신뢰성 강화">
+        <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 “오작동도, 해킹도 막는다”… sk하이닉스, 안전 · 보안 국제 인증으로 피지컬 ai 메모리 신뢰성 강화">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">SK하이닉스</span>
@@ -191,7 +945,7 @@
             <a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWEg0MlFpUXBoUW1pSklUNXBaSXdyandhM004eS1aZk5lbm85ZkZyM1ZIODZhZ1BHTkVRcnRHT0M3c2lIRTEyeTFnYW5yOEJseEF5dGU2OG9KRmtNd0RPTnJmaU4yclE2cVh0NA?oc=5" target="_blank" class="news-title">“오작동도, 해킹도 막는다”… SK하이닉스, 안전 · 보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="현대차 [사설] &quot;왜 차값이 비싸냐&quot;는 현대차 노조, 정말 회사 걱정 안되나">
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 [사설] &quot;왜 차값이 비싸냐&quot;는 현대차 노조, 정말 회사 걱정 안되나">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">현대차</span>
@@ -200,7 +954,7 @@
             <a href="https://news.google.com/rss/articles/CBMihgFBVV95cUxQZTBwYjJyYjNUUUs4YzdQS2QyZXpjZVFzZzZxczFBOGVSYjNWVG1jQ3lVaThJa01SREV0bk5pRlBUaUFXdUNfZVl2TzdOaU9PRndjeEE3cGMxd2E2dlJhclhMelBXMGFvblZ1aEFsTWhtbFhoeXJsb3d4cFRndEJ0M1g2anhCUQ?oc=5" target="_blank" class="news-title">[사설] &quot;왜 차값이 비싸냐&quot;는 현대차 노조, 정말 회사 걱정 안되나</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="현대차 정무성 현대차 정몽구재단 이사장 별세… 향년 68세">
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 정무성 현대차 정몽구재단 이사장 별세… 향년 68세">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">현대차</span>
@@ -209,7 +963,7 @@
             <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9fbE9jdF9NM0ZCN1E3UUJydGxrOEdoQ2dVWDVvUlQ5UHhfdkFfU2RQcXlqM1ZUajI4N3Q1ZUM1dU5mREMzNm1mcHlyektiZndhREc2STFxS1gycF84NGhhcG9XMUFUVWtpMm80MVkteWZWRUlj0gFmQVVfeXFMTU1obWtfdGFhb1RWdWpDTkQwVUkyaVltMnhBazE1dGZCdklBM3Ixamg1cFFmdUxMTFdvR2hkNEtHMS1UREM2eFpQcXpYMkZJa2JVUC12bjBkcW1JZnZHYUVDS1UzWkxR?oc=5" target="_blank" class="news-title">정무성 현대차 정몽구재단 이사장 별세… 향년 68세</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다">
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">한화에어로스페이스</span>
@@ -218,7 +972,7 @@
             <a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ1hVX0JZa1N2NDNQXzJhNW1kX3R4Qk5tTmVudmlsUUc1ZXRzVk5TTGlsRlNXbkFsQm05TGxTeC1Kbl9kVG1qOEdLTFZBRW5JWkFFVjhHMk42emJEYk9Wdjc2TEhpeTNqY1QyWDYtQ3pYU3RiV0dqamxuV1VrVWpzZ0FtQm7SAZgBQVVfeXFMTy1wSjZPa20yX3JRMVpxeWhNa0I2UlhxZlUwNHlCNUxjZVhDdzR0YkRydnFwSUpCYnhZazZvZThocDZFLTVrbTNmUThMV3hfaVZiVjhXc1BsV3V3Sm1HbjRQWXZnWEwtR2lBakF2ejBDZEdqQ0ZaM0ZqdXpvcmFVUHBNMWhTdGJXeEVhUk0xT2NnekRfRnlhMFM?oc=5" target="_blank" class="news-title">한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로스페이스, uae와 l-sam 수출 협상 진전…폴란드 수주 공백 메운다">
+        <div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로스페이스, uae와 l-sam 수출 협상 진전…폴란드 수주 공백 메운다">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">한화에어로스페이스</span>
@@ -227,7 +981,7 @@
             <a href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMWpZMzhsV1BRQlR2ZEtVUGpPa0EwZmR2R2E5b2xVV3hsSkhWNzBxNzFuU2dqaVZ5OXgzcDJ0MFpfUjJmVzFUSllYSzdQRy1HajBBR1ZJV09iLW1HZG96SkJDTnBlb3BKSy1vZW1Xa3A3SmZxUFlDZFFFLS1YTWlKSkRGMWxBOWJ2?oc=5" target="_blank" class="news-title">한화에어로스페이스, UAE와 L-SAM 수출 협상 진전…폴란드 수주 공백 메운다</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="naver ‘1.6조 역대급 과징금’ 증권사 실적 줄줄이 꺾인 이유">
+        <div class="news-card saved-card" data-cat="KR" data-text="naver ‘1.6조 역대급 과징금’ 증권사 실적 줄줄이 꺾인 이유">
             <div class="card-top">
                 <span class="badge hot">🔥 주요속보</span>
                 <span class="ticker-tag">NAVER</span>
@@ -236,7 +990,7 @@
             <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIUGNyZUpQRWJOWmQzSmJkbEpBUEpJQ0h6ZUFhdHRRaDNZdUxYbktBVkIyQ2FCdXJKYkxjdG5veGpfV0xJTzhJd051Z2JwcmYtS1pMVXFzNVU?oc=5" target="_blank" class="news-title">‘1.6조 역대급 과징금’ 증권사 실적 줄줄이 꺾인 이유</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="naver 젠슨 황 해임, 엔비디아를 바라보는 우려의 시선">
+        <div class="news-card saved-card" data-cat="KR" data-text="naver 젠슨 황 해임, 엔비디아를 바라보는 우려의 시선">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">NAVER</span>
@@ -245,7 +999,7 @@
             <a href="https://news.google.com/rss/articles/CBMiWEFVX3lxTFBnWHZOUHNUZnptT3FEV25SRjM4Ymx4TE5CdEw3VzFJNTl2bFhQcU9xUWtuZFl5eFdQd0NRbzZzOEFRSjNBUF8wNFZhb3dzd1RmNnIzb0tORlQ?oc=5" target="_blank" class="news-title">젠슨 황 해임, 엔비디아를 바라보는 우려의 시선</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$nvda planning to claim social security at 62? here are 3 critical questions to ask yourself first">
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda planning to claim social security at 62? here are 3 critical questions to ask yourself first">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$NVDA</span>
@@ -254,7 +1008,7 @@
             <a href="https://www.fool.com/retirement/2026/11/14/planning-to-claim-social-security-at-62-here-are-3-critical-questions-to-ask-yourself-first/?.tsrc=rss" target="_blank" class="news-title">Planning to Claim Social Security at 62? Here Are 3 Critical Questions to Ask Yourself First</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$nvda is nvidia worth this much less without jensen huang?">
+        <div class="news-card saved-card" data-cat="US" data-text="$nvda is nvidia worth this much less without jensen huang?">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$NVDA</span>
@@ -263,7 +1017,7 @@
             <a href="https://www.fool.com/investing/2026/11/14/is-nvidia-worth-this-much-less-without-jensen-huang/?.tsrc=rss" target="_blank" class="news-title">Is Nvidia Worth This Much Less Without Jensen Huang?</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$tsla tesla cybercab now available for purchase for select customers — but there’s a catch">
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla tesla cybercab now available for purchase for select customers — but there’s a catch">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$TSLA</span>
@@ -272,7 +1026,7 @@
             <a href="https://stocktwits.com/news-articles/markets/equity/tesla-cybercab-purchase-select-customers-but-catch/cNb26QDR9Qf?.tsrc=rss" target="_blank" class="news-title">Tesla Cybercab Now Available For Purchase For Select Customers — But There’s A Catch</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$tsla zero to sixty: tesla winds down cybertruck, pulls model y variant while rivian, lucid chase volumes">
+        <div class="news-card saved-card" data-cat="US" data-text="$tsla zero to sixty: tesla winds down cybertruck, pulls model y variant while rivian, lucid chase volumes">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$TSLA</span>
@@ -281,7 +1035,7 @@
             <a href="https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-winds-down-cybertruck-pulls-model-y-variant-while-rivian-lucid-chase-volumes-in-ev-updates-this-week/cNb2AojR9QP?.tsrc=rss" target="_blank" class="news-title">Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$aapl is apple stock a buy right now?">
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl is apple stock a buy right now?">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$AAPL</span>
@@ -290,7 +1044,7 @@
             <a href="https://www.fool.com/investing/2026/11/13/is-apple-stock-a-buy-right-now/?.tsrc=rss" target="_blank" class="news-title">Is Apple Stock a Buy Right Now?</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$aapl a $1,999 sellout. what china renaissance sees in apple (aapl)">
+        <div class="news-card saved-card" data-cat="US" data-text="$aapl a $1,999 sellout. what china renaissance sees in apple (aapl)">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$AAPL</span>
@@ -299,7 +1053,7 @@
             <a href="https://finance.yahoo.com/markets/stocks/articles/1-999-sellout-china-renaissance-211310813.html?.tsrc=rss" target="_blank" class="news-title">A $1,999 Sellout. What China Renaissance Sees in Apple (AAPL)</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$msft cerebras stock surges on microsoft deal: what it means for nvidia">
+        <div class="news-card saved-card" data-cat="US" data-text="$msft cerebras stock surges on microsoft deal: what it means for nvidia">
             <div class="card-top">
                 <span class="badge hot">🔥 주요속보</span>
                 <span class="ticker-tag">$MSFT</span>
@@ -308,7 +1062,7 @@
             <a href="https://finance.yahoo.com/video/cerebras-stock-surges-on-microsoft-deal-what-it-means-for-nvidia-213123807.html?.tsrc=rss" target="_blank" class="news-title">Cerebras stock surges on Microsoft deal: What it means for Nvidia</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$msft das technology gives retailers a competitive advantage during microsoft outage">
+        <div class="news-card saved-card" data-cat="US" data-text="$msft das technology gives retailers a competitive advantage during microsoft outage">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$MSFT</span>
@@ -317,7 +1071,7 @@
             <a href="https://finance.yahoo.com/technology/ai/articles/das-technology-gives-retailers-competitive-230700578.html?.tsrc=rss" target="_blank" class="news-title">DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$amd stock market today, nov. 13: amd sinks 8.75% on sector ai-chip sell-off after early gains reverse">
+        <div class="news-card saved-card" data-cat="US" data-text="$amd stock market today, nov. 13: amd sinks 8.75% on sector ai-chip sell-off after early gains reverse">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$AMD</span>
@@ -326,7 +1080,7 @@
             <a href="https://www.fool.com/coverage/stock-market-today/2026/11/13/stock-market-today-nov-13-amd-sinks-8-75-on-sector-ai-chip-sell-off-after-early-gains-reverse/?.tsrc=rss" target="_blank" class="news-title">Stock Market Today, Nov. 13: AMD Sinks 8.75% on Sector AI-Chip Sell-Off After Early Gains Reverse</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$amd amd sinks 9%, marvell down 5% as chip rally reverses and treasury yields hit 5%">
+        <div class="news-card saved-card" data-cat="US" data-text="$amd amd sinks 9%, marvell down 5% as chip rally reverses and treasury yields hit 5%">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$AMD</span>
@@ -335,7 +1089,7 @@
             <a href="https://www.tikr.com/blog/amd-sinks-9-marvell-down-5-as-chip-rally-reverses-and-treasury-yields-hit-5?ref=yahoofinance&amp;tlnk=yf-261113-c83jxhmp&amp;.tsrc=rss" target="_blank" class="news-title">AMD Sinks 9%, Marvell Down 5% as Chip Rally Reverses and Treasury Yields Hit 5%</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$pltr pltr&#x27;s rule of 40 hits 158%: can this momentum continue?">
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr pltr&#x27;s rule of 40 hits 158%: can this momentum continue?">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$PLTR</span>
@@ -344,7 +1098,7 @@
             <a href="https://finance.yahoo.com/markets/stocks/articles/pltrs-rule-40-hits-158-174000798.html?.tsrc=rss" target="_blank" class="news-title">PLTR&#x27;s Rule of 40 Hits 158%: Can This Momentum Continue?</a>
         </div>
         
-        <div class="news-card" data-cat="US" data-text="$pltr the same $10,000 in nvidia and palantir could produce very different results by 2030">
+        <div class="news-card saved-card" data-cat="US" data-text="$pltr the same $10,000 in nvidia and palantir could produce very different results by 2030">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">$PLTR</span>
@@ -353,7 +1107,7 @@
             <a href="https://247wallst.com/investing/2026/11/13/the-same-10000-in-nvidia-and-palantir-could-produce-very-different-results-by-2030/?.tsrc=rss" target="_blank" class="news-title">The Same $10,000 in Nvidia and Palantir Could Produce Very Different Results by 2030</a>
         </div>
         
-        <div class="news-card" data-cat="KR" data-text="현대차 정무성 현대차 정몽구재단 이사장 별세… 향년 68세">
+        <div class="news-card saved-card" data-cat="KR" data-text="현대차 정무성 현대차 정몽구재단 이사장 별세… 향년 68세">
             <div class="card-top">
                 <span class="badge normal">📰 일반</span>
                 <span class="ticker-tag">현대차</span>
@@ -362,23 +1116,125 @@
             <a href="https://news.google.com/rss/articles/CBMidEFVX3lxTE9fbE9jdF9NM0ZCN1E3UUJydGxrOEdoQ2dVWDVvUlQ5UHhfdkFfU2RQcXlqM1ZUajI4N3Q1ZUM1dU5mREMzNm1mcHlyektiZndhREc2STFxS1gycF84NGhhcG9XMUFUVWtpMm80MVkteWZWRUlj0gFmQVVfeXFMTU1obWtfdGFhb1RWdWpDTkQwVUkyaVltMnhBazE1dGZCdklBM3Ixamg1cFFmdUxMTFdvR2hkNEtHMS1UREM2eFpQcXpYMkZJa2JVUC12bjBkcW1JZnZHYUVDS1UzWkxR?oc=5" target="_blank" class="news-title">정무성 현대차 정몽구재단 이사장 별세… 향년 68세</a>
         </div>
         
+    </div>
   </div>
 <script>
   let currentCat = 'ALL';
+
   function filterCat(cat, btn) {
+    resetSearch(false);
     currentCat = cat;
     document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
     btn.classList.add('active');
-    applyFilters();
+    localFilter();
   }
-  function searchFeed() { applyFilters(); }
-  function applyFilters() {
-    const q = document.getElementById('searchInput').value.toLowerCase();
-    document.querySelectorAll('.news-card').forEach(card => {
+
+  function localFilter() {
+    const q = document.getElementById('searchInput').value.toLowerCase().trim();
+    document.querySelectorAll('.saved-card').forEach(card => {
       const matchCat = (currentCat === 'ALL' || card.dataset.cat === currentCat);
       const matchText = card.dataset.text.includes(q);
       card.style.display = (matchCat && matchText) ? 'block' : 'none';
     });
+  }
+
+  function resetSearch(clearInput = true) {
+    if (clearInput) document.getElementById('searchInput').value = '';
+    document.getElementById('liveBanner').style.display = 'none';
+    document.getElementById('liveResults').innerHTML = '';
+    document.getElementById('feedList').style.display = 'block';
+    localFilter();
+  }
+
+  async function liveSearch() {
+    const rawQuery = document.getElementById('searchInput').value.trim();
+    if (!rawQuery) {
+      resetSearch();
+      return;
+    }
+
+    const banner = document.getElementById('liveBanner');
+    const statusText = document.getElementById('liveStatusText');
+    const liveResults = document.getElementById('liveResults');
+    const feedList = document.getElementById('feedList');
+
+    banner.style.display = 'flex';
+    statusText.textContent = `⏳ '${rawQuery}' 실시간 최신 속보를 불러오는 중...`;
+    liveResults.innerHTML = '';
+    feedList.style.display = 'none';
+
+    const cleanTicker = rawQuery.replace('$', '').toUpperCase();
+    const isEnglishTicker = /^[A-Z0-9.\-]{1,8}$/.test(cleanTicker);
+
+    // 1. 구글 뉴스 한국어 실시간 검색 RSS
+    const krRss = `https://news.google.com/rss/search?q=${encodeURIComponent(rawQuery)}&hl=ko&gl=KR&ceid=KR:ko`;
+    const krApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(krRss)}`;
+
+    // 2. 영문 티커일 경우 야후 파이낸스 미국 현지 속보 RSS 동시 조회
+    const usRss = `https://feeds.finance.yahoo.com/rss/2.0/headline?s=${encodeURIComponent(cleanTicker)}&region=US&lang=en-US`;
+    const usApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(usRss)}`;
+
+    let combinedItems = [];
+
+    try {
+      const requests = [fetch(krApi).then(r => r.json()).catch(() => null)];
+      if (isEnglishTicker) {
+        requests.push(fetch(usApi).then(r => r.json()).catch(() => null));
+      }
+
+      const [krData, usData] = await Promise.all(requests);
+
+      if (usData && usData.status === 'ok' && usData.items) {
+        usData.items.slice(0, 8).forEach(item => {
+          combinedItems.push({
+            tag: `$${cleanTicker}`,
+            press: 'Yahoo Finance (US)',
+            title: item.title,
+            link: item.link,
+            pubDate: item.pubDate ? item.pubDate.slice(5, 16) : '실시간'
+          });
+        });
+      }
+
+      if (krData && krData.status === 'ok' && krData.items) {
+        krData.items.slice(0, 10).forEach(item => {
+          let title = item.title || '';
+          let press = 'Google 뉴스';
+          if (title.includes(' - ')) {
+            const parts = title.split(' - ');
+            press = parts.pop();
+            title = parts.join(' - ');
+          }
+          combinedItems.push({
+            tag: rawQuery,
+            press: press,
+            title: title,
+            link: item.link,
+            pubDate: item.pubDate ? item.pubDate.slice(5, 16) : '실시간'
+          });
+        });
+      }
+
+      if (combinedItems.length === 0) {
+        statusText.textContent = `⚠️ '${rawQuery}'에 대한 최신 뉴스를 찾지 못했습니다.`;
+        return;
+      }
+
+      statusText.textContent = `✅ '${rawQuery}' 실시간 검색 결과 (${combinedItems.length}건)`;
+      liveResults.innerHTML = combinedItems.map(item => `
+        <div class="news-card">
+          <div class="card-top">
+            <span class="badge live">⚡ 실시간조회</span>
+            <span class="ticker-tag">${item.tag}</span>
+            <span class="meta">${item.press} · ${item.pubDate}</span>
+          </div>
+          <a href="${item.link}" target="_blank" class="news-title">${item.title}</a>
+        </div>
+      `).join('');
+
+    } catch (err) {
+      statusText.textContent = `⚠️ 검색 중 일시적인 네트워크 오류가 발생했습니다.`;
+    }
   }
 </script>
 </body>
