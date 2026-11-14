@@ -3,34 +3,48 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker - 실시간 금융·증시 피드</title>
+<title>My SaveTicker - 실시간 증시·매크로 대시보드</title>
 <style>
   body { background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }
-  .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 20px; position: sticky; top: 0; z-index: 100; }
-  .header-inner { max-width: 860px; margin: 0 auto; }
-  .title-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+  .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 14px 20px; position: sticky; top: 0; z-index: 100; }
+  .header-inner { max-width: 880px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; }
   .logo { font-size: 20px; font-weight: 800; color: #58a6ff; letter-spacing: -0.5px; cursor: pointer; }
   .updated { font-size: 12px; color: #8b949e; }
-  .controls { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; }
-  .tab { background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 6px 12px; border-radius: 16px; font-size: 13px; cursor: pointer; }
-  .tab.active { background: #1f6feb; border-color: #388bfd; color: #fff; font-weight: 600; }
-  .search-wrap { display: flex; flex: 1; min-width: 240px; gap: 6px; }
-  .search-box { flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 13px; outline: none; }
-  .search-box:focus { border-color: #58a6ff; }
-  .search-btn { background: #238636; border: none; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }
-  .search-btn:hover { background: #2ea043; }
-  .container { max-width: 860px; margin: 16px auto; padding: 0 16px; }
-  .market-board { display: flex; flex-direction: column; gap: 8px; margin-bottom: 18px; }
-  .market-row { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
-  .idx-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 12px 16px; display: flex; flex-direction: column; gap: 6px; }
+  .container { max-width: 880px; margin: 16px auto; padding: 0 16px; }
+
+  .sec-label { font-size: 11.5px; font-weight: 700; color: #8b949e; margin: 12px 0 6px; letter-spacing: -0.2px; }
+  .grid-2 { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 10px; }
+  .grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 10px; }
+  @media (max-width: 640px) {
+    .grid-3 { grid-template-columns: repeat(2, 1fr); }
+  }
+
+  .idx-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 12px 15px; display: flex; flex-direction: column; gap: 6px; }
+  .idx-card.compact { padding: 10px 12px; gap: 4px; }
   .idx-head { display: flex; justify-content: space-between; align-items: center; }
   .idx-name { font-size: 13px; font-weight: 700; color: #c9d1d9; }
-  .idx-sub { font-size: 11px; color: #8b949e; font-weight: 600; }
-  .idx-body { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 6px; }
+  .idx-card.compact .idx-name { font-size: 12px; }
+  .idx-sub { font-size: 10.5px; color: #8b949e; font-weight: 600; }
+  .idx-body { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 4px; }
   .idx-price { font-size: 18px; font-weight: 800; color: #f0f6fc; letter-spacing: -0.3px; }
-  .idx-chg { font-size: 12.5px; font-weight: 700; }
+  .idx-card.compact .idx-price { font-size: 15.5px; }
+  .idx-chg { font-size: 12px; font-weight: 700; }
+  .idx-card.compact .idx-chg { font-size: 11px; }
   .idx-chg.up { color: #ff6b6b; }
   .idx-chg.down { color: #4dabf7; }
+  .idx-chg.neutral { color: #79c0ff; }
+
+  /* 검색창 및 탭 바 */
+  .search-panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; margin: 14px 0; }
+  .search-wrap { display: flex; gap: 8px; margin-bottom: 10px; }
+  .search-box { flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 9px 14px; border-radius: 10px; font-size: 13.5px; outline: none; }
+  .search-box:focus { border-color: #58a6ff; }
+  .search-btn { background: #238636; border: none; color: #fff; padding: 9px 16px; border-radius: 10px; font-size: 13px; font-weight: 700; cursor: pointer; white-space: nowrap; }
+  .search-btn:hover { background: #2ea043; }
+  .tabs-row { display: flex; gap: 6px; flex-wrap: wrap; }
+  .tab { background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 5px 11px; border-radius: 14px; font-size: 12px; cursor: pointer; }
+  .tab.active { background: #1f6feb; border-color: #388bfd; color: #fff; font-weight: 600; }
+
   .live-banner { background: rgba(56, 139, 253, 0.12); border: 1px solid rgba(56, 139, 253, 0.4); border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; display: none; justify-content: space-between; align-items: center; font-size: 13px; color: #79c0ff; }
   .reset-btn { background: #21262d; border: 1px solid #30363d; color: #e6edf3; padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; }
   .news-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: border-color 0.2s; }
@@ -50,42 +64,55 @@
 <body>
   <div class="header">
     <div class="header-inner">
-      <div class="title-row">
-        <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
-        <div class="updated" id="liveClock">피드 업데이트: 11/14 18:53 (KST)</div>
-      </div>
-      <div class="controls">
-        <button class="tab active" onclick="filterCat('ALL', this)">전체 피드</button>
-        <button class="tab" onclick="filterCat('DART', this)">🚨 DART 공시</button>
-        <button class="tab" onclick="filterCat('MACRO', this)">🌐 매크로·거시</button>
-        <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
-        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
-        <div class="search-wrap">
-          <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="NAVER, HPSP, 엔비디아, NVDA 입력...">
-          <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
-        </div>
-      </div>
+      <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
+      <div class="updated" id="liveClock">업데이트: 11/14 19:09 (KST)</div>
     </div>
   </div>
+
   <div class="container">
-    <div class="market-board">
-      <div class="market-row">
-        <div class="idx-card" id="idx-KOSPI"><div class="idx-head"><span class="idx-name">🇰🇷 코스피</span><span class="idx-sub">KOSPI</span></div><div class="idx-body"><span class="idx-price">5,290.53</span><span class="idx-chg up">▲ +230.84 (+4.56%)</span></div></div>
-        <div class="idx-card" id="idx-KOSDAQ"><div class="idx-head"><span class="idx-name">🇰🇷 코스닥</span><span class="idx-sub">KOSDAQ</span></div><div class="idx-body"><span class="idx-price">699.66</span><span class="idx-chg up">▲ +55.39 (+8.60%)</span></div></div>
+    <!-- 1. 코스피 / 코스닥 -->
+    <div class="grid-2"><div class="idx-card" id="idx-KOSPI"><div class="idx-head"><span class="idx-name">🇰🇷 코스피</span><span class="idx-sub">KOSPI</span></div><div class="idx-body"><span class="idx-price">5,290.53</span><span class="idx-chg up">▲ +230.84 (+4.56%)</span></div></div><div class="idx-card" id="idx-KOSDAQ"><div class="idx-head"><span class="idx-name">🇰🇷 코스닥</span><span class="idx-sub">KOSDAQ</span></div><div class="idx-body"><span class="idx-price">699.66</span><span class="idx-chg up">▲ +55.39 (+8.60%)</span></div></div></div>
+
+    <!-- 2. 다우 / 나스닥 -->
+    <div class="grid-2"><div class="idx-card" id="idx-DOW"><div class="idx-head"><span class="idx-name">🇺🇸 다우존스</span><span class="idx-sub">DOW JONES</span></div><div class="idx-body"><span class="idx-price">52,347.55</span><span class="idx-chg up">▲ +1,061.82 (+2.07%)</span></div></div><div class="idx-card" id="idx-NASDAQ"><div class="idx-head"><span class="idx-name">🇺🇸 나스닥</span><span class="idx-sub">NASDAQ</span></div><div class="idx-body"><span class="idx-price">25,136.27</span><span class="idx-chg up">▲ +556.84 (+2.27%)</span></div></div></div>
+
+    <!-- 3. 검색란 -->
+    <div class="search-panel">
+      <div class="search-wrap">
+        <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명(삼성전자, NAVER, HPSP) 검색...">
+        <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
       </div>
-      <div class="market-row">
-        <div class="idx-card" id="idx-DOW"><div class="idx-head"><span class="idx-name">🇺🇸 다우존스</span><span class="idx-sub">DOW JONES</span></div><div class="idx-body"><span class="idx-price">52,347.55</span><span class="idx-chg up">▲ +1,061.82 (+2.07%)</span></div></div>
-        <div class="idx-card" id="idx-NASDAQ"><div class="idx-head"><span class="idx-name">🇺🇸 나스닥</span><span class="idx-sub">NASDAQ</span></div><div class="idx-body"><span class="idx-price">25,136.27</span><span class="idx-chg up">▲ +556.84 (+2.27%)</span></div></div>
+      <div class="tabs-row">
+        <button class="tab active" onclick="filterCat('ALL', this)">전체 피드</button>
+        <button class="tab" onclick="filterCat('DART', this)">🚨 DART 공시</button>
+        <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
+        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
       </div>
     </div>
 
+    <!-- 4. 한국환율 & 세계 5대 환율 -->
+    <div class="sec-label">💱 실시간 환율 (한국 원/달러 & 세계 5대 주요 통화)</div>
+    <div class="grid-3"><div class="idx-card compact" id="idx-USDKRW"><div class="idx-head"><span class="idx-name">🇰🇷 원/달러</span><span class="idx-sub">USD/KRW</span></div><div class="idx-body"><span class="idx-price">1,336.20</span><span class="idx-chg down">▼ -26.50 (-1.94%)</span></div></div><div class="idx-card compact" id="idx-EURUSD"><div class="idx-head"><span class="idx-name">🇪🇺 유로/달러</span><span class="idx-sub">EUR/USD</span></div><div class="idx-body"><span class="idx-price">1.1028</span><span class="idx-chg down">▼ -0.0119 (-1.07%)</span></div></div><div class="idx-card compact" id="idx-USDJPY"><div class="idx-head"><span class="idx-name">🇯🇵 달러/엔</span><span class="idx-sub">USD/JPY</span></div><div class="idx-body"><span class="idx-price">159.69</span><span class="idx-chg up">▲ +1.39 (+0.88%)</span></div></div><div class="idx-card compact" id="idx-GBPUSD"><div class="idx-head"><span class="idx-name">🇬🇧 파운드/달러</span><span class="idx-sub">GBP/USD</span></div><div class="idx-body"><span class="idx-price">1.3209</span><span class="idx-chg down">▼ -0.0151 (-1.13%)</span></div></div><div class="idx-card compact" id="idx-USDCHF"><div class="idx-head"><span class="idx-name">🇨🇭 달러/프랑</span><span class="idx-sub">USD/CHF</span></div><div class="idx-body"><span class="idx-price">0.8382</span><span class="idx-chg up">▲ +0.0187 (+2.28%)</span></div></div><div class="idx-card compact" id="idx-USDCAD"><div class="idx-head"><span class="idx-name">🇨🇦 달러/캐나다</span><span class="idx-sub">USD/CAD</span></div><div class="idx-body"><span class="idx-price">1.4269</span><span class="idx-chg up">▲ +0.0150 (+1.06%)</span></div></div></div>
+
+    <!-- 5. 유가 / 금 / 은 -->
+    <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은)</div>
+    <div class="grid-3"><div class="idx-card compact" id="idx-OIL"><div class="idx-head"><span class="idx-name">🛢 WTI 유가</span><span class="idx-sub">$/bbl</span></div><div class="idx-body"><span class="idx-price">88.56</span><span class="idx-chg up">▲ +1.71 (+1.97%)</span></div></div><div class="idx-card compact" id="idx-GOLD"><div class="idx-head"><span class="idx-name">🥇 국제 금</span><span class="idx-sub">$/oz</span></div><div class="idx-body"><span class="idx-price">3,886.30</span><span class="idx-chg down">▼ -228.20 (-5.55%)</span></div></div><div class="idx-card compact" id="idx-SILVER"><div class="idx-head"><span class="idx-name">🥈 국제 은</span><span class="idx-sub">$/oz</span></div><div class="idx-body"><span class="idx-price">49.12</span><span class="idx-chg down">▼ -3.44 (-6.55%)</span></div></div></div>
+
+    <!-- 6. FOMC / CPI / PPI -->
+    <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI)</div>
+    <div class="grid-3"><div class="idx-card compact" id="idx-FOMC"><div class="idx-head"><span class="idx-name">🏛 FOMC 기준금리</span><span class="idx-sub">FED RATE</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">연준 기준금리 · 미10Y 5.15%</span></div></div><div class="idx-card compact" id="idx-CPI"><div class="idx-head"><span class="idx-name">📊 미국 CPI</span><span class="idx-sub">소비자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · CPI YoY</span></div></div><div class="idx-card compact" id="idx-PPI"><div class="idx-head"><span class="idx-name">🏭 미국 PPI</span><span class="idx-sub">생산자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · PPI YoY</span></div></div></div>
+
+    <!-- 뉴스 피드 영역 -->
+    <div class="sec-label" style="margin-top:18px;">📰 기업 속보 & DART 공시 피드</div>
     <div class="live-banner" id="liveBanner">
       <span id="liveStatusText">🔍 실시간 검색 결과</span>
       <button class="reset-btn" onclick="resetSearch()">기본 피드로 돌아가기</button>
     </div>
     <div id="liveResults"></div>
     <div id="feedList">
-      <div class="news-card saved-card" data-cat="MACRO" data-text="유가 국제 유가 변동 없이 마감…2일 동안 상승세 중단 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">유가</span><span class="meta">뉴시스 · 11/14 18:53</span></div><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ocU42MkZYWDNlUUoyMk5POXljbmV4MFNOZTdmWkhyeWtTRVlYLVFiUG9CbUxhYmhxTkN1ZV9uUDF1UDBqSWVVTDlYV0RjVF81b1NyX1laYWFrSE5UNjFQONIBeEFVX3lxTE1TemI3VUZZMFZES29mbnRkZ3dXYVBPc2taeWhfRzE3NzBKNVVJMWNZLVhTUUIzdWlYZnNITWY1SktUcFY1MHpmcGNiR2lPZEVrZmY5NHZuR2xQVVMzVGlKU3ZScGV5d2NOX0VIR3NGaGxFSWZmNU9YTA?oc=5" target="_blank" class="news-title">국제 유가 변동 없이 마감…2일 동안 상승세 중단</a></div>
+      <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 &quot;10년 모은 4억이 와르르&quot;…&#x27;sk하닉 몰빵&#x27; 30대 피눈물 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">SK하이닉스</span><span class="meta">한국경제 · 11/14 19:09</span></div><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3eE5sY1haTVdPVEZDZU13Q0NVYmc1X1hxR1FmRXJzSDBsOWMxZklfemxQUlJKbU5xd09hY0NPSzFhMGJxNHhkQkstNVZPMFF1cEVrNzZVMmZkdw?oc=5" target="_blank" class="news-title">&quot;10년 모은 4억이 와르르&quot;…&#x27;SK하닉 몰빵&#x27; 30대 피눈물</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="현대차 정무선 현대차 정몽구 재단 이사장 별세 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">현대차</span><span class="meta">IT조선 · 11/14 19:09</span></div><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5Ba0NZc01CRlBCbHZIUG1iV3lJa3M3aTBNczFNRnZrWkR6MElCSFk4OFZtWFJ6T3QtdTRSV0JkUHRUT2Nvak81eF9BUlpyaDRhWlQ5Mkt0VEIwVjhaOTVjVVkzZGxfY0VfSjRuZzdrVXrSAXRBVV95cUxOQ0dHQ08xWDd4Rk9YUnZ1Y3NRN2JqbVlKaEduVnl6SkNQanpNYTFLS0pxTkxVRjdFaHJ1SDZBTENlOGhnMHh1LUd5R2tyUEtyQjlreVhmdk0yTnRzQzQ4Q2VyVlFqWndQS0F0NDNKaEowdEdxbQ?oc=5" target="_blank" class="news-title">정무선 현대차 정몽구 재단 이사장 별세</a></div>
+<div class="news-card saved-card" data-cat="MACRO" data-text="유가 국제 유가 변동 없이 마감…2일 동안 상승세 중단 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">유가</span><span class="meta">뉴시스 · 11/14 18:53</span></div><a href="https://news.google.com/rss/articles/CBMiYEFVX3lxTE5ocU42MkZYWDNlUUoyMk5POXljbmV4MFNOZTdmWkhyeWtTRVlYLVFiUG9CbUxhYmhxTkN1ZV9uUDF1UDBqSWVVTDlYV0RjVF81b1NyX1laYWFrSE5UNjFQONIBeEFVX3lxTE1TemI3VUZZMFZES29mbnRkZ3dXYVBPc2taeWhfRzE3NzBKNVVJMWNZLVhTUUIzdWlYZnNITWY1SktUcFY1MHpmcGNiR2lPZEVrZmY5NHZuR2xQVVMzVGlKU3ZScGV5d2NOX0VIR3NGaGxFSWZmNU9YTA?oc=5" target="_blank" class="news-title">국제 유가 변동 없이 마감…2일 동안 상승세 중단</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$nvda should you really buy nvidia stock after ceo jensen huang&#x27;s exit? wall street has a clear answer for investors. "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:53</span></div><a href="https://www.fool.com/investing/2026/11/14/buy-nvidia-stock-ceo-jensen-huang-exit-wall-street-answer/?.tsrc=rss" target="_blank" class="news-title">Should You Really Buy Nvidia Stock After CEO Jensen Huang&#x27;s Exit? Wall Street Has a Clear Answer for Investors.</a></div>
 <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 美 10월 cpi, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향 "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">CPI 물가</span><span class="meta">SBS Biz · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5makxMYnRpM3RIZExBellzdHZvZ2VWNnE1d2VhbGs3bUNzRGVUbmc1dkJPbWJQaVNuQ01wM1FyM3dLQUo5dmVWZTM0c0lyNC00THNB0gFYQVVfeXFMTVcwSjlNUXR2bFpoMW9NSVFRdlNUQnFXcUl3MDFCSDdGaXdIN3ZQN3BlWEY5dGkxZXZ6TURNQjB4QWhXVWV5aHUtWnhtaUJJcGVQZ3VsU0lNZg?oc=5" target="_blank" class="news-title">美 10월 CPI, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향</a></div>
 <div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 sk하이닉스 주가, 오늘 왜 하락하나? "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">SK하이닉스</span><span class="meta">Investing.com 한국어 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBULXdLS0RXQXhzOWNYaHB4aGp1ejJlWDlsVVZYbDh0dlZkRnBiRHNRQTR0S1Y3QS1mTk5yVUZsazNsd3dWWHF3ejV4WmhOVzRIYTdDQjhfTi1hdWxZbEpFTExXNHM4Ym5VUVlTeWFXRVNEM0hpMlZr?oc=5" target="_blank" class="news-title">SK하이닉스 주가, 오늘 왜 하락하나?</a></div>
@@ -233,19 +260,27 @@
 <div class="news-card saved-card" data-cat="US" data-text="$nvda jensen huang&#x27;s nvidia era may be over. but taiwan isn&#x27;t ready to say goodbye. "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Finviz · DigiTimes · 11/14 18:14</span></div><a href="https://www.digitimes.com/news/a20261114VL200/nvidia-taiwan-2022-jensen-huang-taipei.html" target="_blank" class="news-title">Jensen Huang&#x27;s Nvidia era may be over. But Taiwan isn&#x27;t ready to say goodbye.</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$nvda jim cramer: amazon has what “may soon be a $50 billion semiconductor business” "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://www.tikr.com/blog/jim-cramer-amazon-has-what-may-soon-be-a-50-billion-semiconductor-business?ref=yahoofinance&amp;tlnk=yf-261114-wq798x99&amp;.tsrc=rss" target="_blank" class="news-title">Jim Cramer: Amazon Has What “May Soon Be a $50 Billion Semiconductor Business”</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$nvda planning to claim social security at 62? here are 3 critical questions to ask yourself first "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://www.fool.com/retirement/2026/11/14/planning-to-claim-social-security-at-62-here-are-3-critical-questions-to-ask-yourself-first/?.tsrc=rss" target="_blank" class="news-title">Planning to Claim Social Security at 62? Here Are 3 Critical Questions to Ask Yourself First</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$nvda is nvidia worth this much less without jensen huang? "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://www.fool.com/investing/2026/11/14/is-nvidia-worth-this-much-less-without-jensen-huang/?.tsrc=rss" target="_blank" class="news-title">Is Nvidia Worth This Much Less Without Jensen Huang?</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$tsla tesla cybercab now available for purchase for select customers but theres a catch "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$TSLA</span><span class="meta">Finviz · Stocktwits · 11/14 18:14</span></div><a href="https://finance.yahoo.com/markets/stocks/articles/tesla-cybercab-now-available-purchase-060937273.html" target="_blank" class="news-title">Tesla Cybercab Now Available For Purchase For Select Customers But Theres A Catch</a></div>
     </div>
   </div>
+
 <script>
   let currentCat = 'ALL';
 
-  async function refreshLiveIndices() {
+  async function refreshLiveMarketQuotes() {
     const targets = [
-      { id: 'KOSPI', sym: '^KS11' },
-      { id: 'KOSDAQ', sym: '^KQ11' },
-      { id: 'DOW', sym: '^DJI' },
-      { id: 'NASDAQ', sym: '^IXIC' }
+      { id: 'KOSPI', sym: '^KS11', dec: 2 },
+      { id: 'KOSDAQ', sym: '^KQ11', dec: 2 },
+      { id: 'DOW', sym: '^DJI', dec: 2 },
+      { id: 'NASDAQ', sym: '^IXIC', dec: 2 },
+      { id: 'USDKRW', sym: 'KRW=X', dec: 2 },
+      { id: 'EURUSD', sym: 'EURUSD=X', dec: 4 },
+      { id: 'USDJPY', sym: 'JPY=X', dec: 2 },
+      { id: 'GBPUSD', sym: 'GBPUSD=X', dec: 4 },
+      { id: 'USDCHF', sym: 'CHF=X', dec: 4 },
+      { id: 'USDCAD', sym: 'CAD=X', dec: 4 },
+      { id: 'OIL', sym: 'CL=F', dec: 2 },
+      { id: 'GOLD', sym: 'GC=F', dec: 2 },
+      { id: 'SILVER', sym: 'SI=F', dec: 2 }
     ];
 
     for (const t of targets) {
@@ -265,11 +300,11 @@
           const isUp = diff >= 0;
           const card = document.getElementById(`idx-${t.id}`);
           if (card) {
-            card.querySelector('.idx-price').textContent = price.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+            card.querySelector('.idx-price').textContent = price.toLocaleString('en-US', { minimumFractionDigits: t.dec, maximumFractionDigits: t.dec });
             const chgEl = card.querySelector('.idx-chg');
             const sign = isUp ? '+' : '';
             const arrow = isUp ? '▲' : '▼';
-            chgEl.textContent = `${arrow} ${sign}${diff.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })} (${sign}${pct.toFixed(2)}%)`;
+            chgEl.textContent = `${arrow} ${sign}${diff.toLocaleString('en-US', { minimumFractionDigits: t.dec, maximumFractionDigits: t.dec })} (${sign}${pct.toFixed(2)}%)`;
             chgEl.className = `idx-chg ${isUp ? 'up' : 'down'}`;
           }
         }
@@ -278,11 +313,10 @@
   }
 
   window.addEventListener('DOMContentLoaded', () => {
-    refreshLiveIndices();
-    setInterval(refreshLiveIndices, 60000);
+    refreshLiveMarketQuotes();
+    setInterval(refreshLiveMarketQuotes, 60000);
   });
 
-  // 알파벳 한국 상장사 → 구글 뉴스 검색 시 한글/영문 복합 검색어로 확장
   const KR_ENGLISH_MAP = {
     'NAVER': '네이버 OR NAVER',
     'HPSP': 'HPSP',
@@ -321,8 +355,7 @@
     '유나이티드헬스': 'UNH', '노보노디스크': 'NVO', '버크셔': 'BRK-B',
     '보잉': 'BA', '록히드마틴': 'LMT', '캐터필러': 'CAT', '디즈니': 'DIS',
     '스타벅스': 'SBUX', '나이키': 'NKE', '쿠팡': 'CPNG', '유니티': 'U', '로블록스': 'RBLX',
-    '티에스엠씨': 'TSM', '에이에스엠엘': 'ASML', '암': 'ARM', '리비안': 'RIVN', '루시드': 'LCID',
-    '나스닥': 'QQQ', '에스앤피': 'SPY', '반도체': 'SOXX'
+    '티에스엠씨': 'TSM', '에이에스엠엘': 'ASML', '암': 'ARM', '리비안': 'RIVN', '루시드': 'LCID'
   };
 
   function resolveQueryContext(raw) {
@@ -363,9 +396,7 @@
     return '';
   }
 
-  // 이중 우회 RSS 수집기 (1순위: allorigins XML 직접 파싱, 2순위: rss2json)
   async function fetchRssItemsReliable(rssUrl, limitCount) {
-    // 1순위: allorigins 프록시로 원본 XML 직접 파싱 (구글 뉴스 차단 우회에 가장 안정적)
     try {
       const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(rssUrl)}`;
       const res = await fetch(proxyUrl);
@@ -384,7 +415,6 @@
       }
     } catch (e) {}
 
-    // 2순위: rss2json 백업 호출
     try {
       const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
       const res = await fetch(apiUrl);
