@@ -2,6 +2,56 @@
   {
     "category": "MACRO",
     "tag": "연준 금리",
+    "press": "IDNFinancials",
+    "title": "시장은 12월에 연준 금리 인상을 예상",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSW9GZmdrMy1uRDFUaTFZRkZfanM3c2lUTTYwNTdDUEx4ZVhBblkzaHE1NUdoeXE1VmZzT0h6M2lHMlV3cTF4ZkR0c19GTGJEcDZZQ2xMdjBGRk1YWTNfaGdvcGEyWWhrWTkwTjN6cVZFUFlSWHpOeTNkM3VlaW5OYndWc3QyTUdLYXRaNEdULXZCT2lLNGtwbDc3NllrV2lrOFp2dEpqc0g0RThtOFRHMERKNVozQTM4Q2doR1Vza2YwR1NRVW9laGZUanR6RUpmcXJ2NXI5SVVfenlvMDVoREptNDNMYXgzTXBxVjlUTTNXUTczbkNKVnZrcmlsUHNlNVNuXzVYRWY?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/14 17:57"
+  },
+  {
+    "category": "MACRO",
+    "tag": "CPI 물가",
+    "press": "SBS Biz",
+    "title": "美 10월 CPI, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5makxMYnRpM3RIZExBellzdHZvZ2VWNnE1d2VhbGs3bUNzRGVUbmc1dkJPbWJQaVNuQ01wM1FyM3dLQUo5dmVWZTM0c0lyNC00THNB0gFYQVVfeXFMTVcwSjlNUXR2bFpoMW9NSVFRdlNUQnFXcUl3MDFCSDdGaXdIN3ZQN3BlWEY5dGkxZXZ6TURNQjB4QWhXVWV5aHUtWnhtaUJJcGVQZ3VsU0lNZg?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/14 17:57"
+  },
+  {
+    "category": "MACRO",
+    "tag": "미국 증시",
+    "press": "한국경제",
+    "title": "앤트로픽 드디어 나스닥 데뷔…편입 전략에 쏠리는 눈 [이수의 ETF 줌인]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yTHJ6VUtuSzBSeFl0eXhIdWpCSEl0Q3h0S19ibGpWa29SM1JBbnhVdUJ5MzdBS2dRVnRXZWdzMWRtTnhRLV9rMEZfcDBnU1hMTEV6X3BMRnBUZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 17:57"
+  },
+  {
+    "category": "MACRO",
+    "tag": "코스피",
+    "press": "매일경제",
+    "title": "“도대체 언제 오를까요”...코스피 반등 3가지 조건 보니",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pOFhyQ3pJSzR5WnJQZENqbnloUXozUnlOSElNWjdsdGJxWl9Vbmw1SksxNTJibTZDLUZoVG10UGRpMHFpNktheFFxb252RUozWjVKXw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 17:57"
+  },
+  {
+    "category": "KR",
+    "tag": "현대차",
+    "press": "스트레이트뉴스",
+    "title": "고려아연, 현대차그룹 신주발행 무효소송 2심 승소…법원 “경영상 필요 인정”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NeV9ZRVVWY1paNmVvQm90ZnhLNzF4Mzg4QU9ZUlA4em85U1hOcWZpVWpDekZhR2xya19YMHd1TjdxRVVEclMxR1g2Q0t4VER4Y0Nra21QTUFtUXROa0F5RUtRdlFidEU0VHQzWTJldGdXZjDSAXdBVV95cUxNMVFGVUFfaVZnanVCcWEtUWxxY1hqSE82LWJUbm1oSTZtR0x5RURnbFhCbmV1ZGQ0bFd1LW1lRXgyaEdnNldhXzkxQU81N0JfeE9Nb19ORm1IWnJFMzJmdE5Dd2ItMGJRLVFGMVJFSzJsaEJHaXY0RQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 17:57"
+  },
+  {
+    "category": "MACRO",
+    "tag": "연준 금리",
     "press": "연합인포맥스",
     "title": "BofA \"연준, 다음 달부터 3회 연속 금리 인상\"…1월 전망 추가",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUGQ3T1lmeDBuT3dOUklaQ0hOUEFxS1dTcUpmMXFFci1EX05QNjlIaUgzQ1ZkNFZpNFN6ZlVVU2ZfMzRYRE1yajc3SElEd1FyNE40anQtbE1vek1LMGNGRTZtQ2xzbG11QUxkdUw4dG0?oc=5",
