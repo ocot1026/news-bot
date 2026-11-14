@@ -34,7 +34,6 @@
   .idx-chg.down { color: #4dabf7; }
   .idx-chg.neutral { color: #79c0ff; }
 
-  /* 검색창 및 탭 바 */
   .search-panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; margin: 14px 0; }
   .search-wrap { display: flex; gap: 8px; margin-bottom: 10px; }
   .search-box { flex: 1; background: #0d1117; border: 1px solid #30363d; color: #fff; padding: 9px 14px; border-radius: 10px; font-size: 13.5px; outline: none; }
@@ -65,18 +64,14 @@
   <div class="header">
     <div class="header-inner">
       <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
-      <div class="updated" id="liveClock">업데이트: 11/14 19:09 (KST)</div>
+      <div class="updated" id="liveClock">업데이트: 11/14 19:15 (KST)</div>
     </div>
   </div>
 
   <div class="container">
-    <!-- 1. 코스피 / 코스닥 -->
     <div class="grid-2"><div class="idx-card" id="idx-KOSPI"><div class="idx-head"><span class="idx-name">🇰🇷 코스피</span><span class="idx-sub">KOSPI</span></div><div class="idx-body"><span class="idx-price">5,290.53</span><span class="idx-chg up">▲ +230.84 (+4.56%)</span></div></div><div class="idx-card" id="idx-KOSDAQ"><div class="idx-head"><span class="idx-name">🇰🇷 코스닥</span><span class="idx-sub">KOSDAQ</span></div><div class="idx-body"><span class="idx-price">699.66</span><span class="idx-chg up">▲ +55.39 (+8.60%)</span></div></div></div>
-
-    <!-- 2. 다우 / 나스닥 -->
     <div class="grid-2"><div class="idx-card" id="idx-DOW"><div class="idx-head"><span class="idx-name">🇺🇸 다우존스</span><span class="idx-sub">DOW JONES</span></div><div class="idx-body"><span class="idx-price">52,347.55</span><span class="idx-chg up">▲ +1,061.82 (+2.07%)</span></div></div><div class="idx-card" id="idx-NASDAQ"><div class="idx-head"><span class="idx-name">🇺🇸 나스닥</span><span class="idx-sub">NASDAQ</span></div><div class="idx-body"><span class="idx-price">25,136.27</span><span class="idx-chg up">▲ +556.84 (+2.27%)</span></div></div></div>
 
-    <!-- 3. 검색란 -->
     <div class="search-panel">
       <div class="search-wrap">
         <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명(삼성전자, NAVER, HPSP) 검색...">
@@ -90,19 +85,15 @@
       </div>
     </div>
 
-    <!-- 4. 한국환율 & 세계 5대 환율 -->
     <div class="sec-label">💱 실시간 환율 (한국 원/달러 & 세계 5대 주요 통화)</div>
     <div class="grid-3"><div class="idx-card compact" id="idx-USDKRW"><div class="idx-head"><span class="idx-name">🇰🇷 원/달러</span><span class="idx-sub">USD/KRW</span></div><div class="idx-body"><span class="idx-price">1,336.20</span><span class="idx-chg down">▼ -26.50 (-1.94%)</span></div></div><div class="idx-card compact" id="idx-EURUSD"><div class="idx-head"><span class="idx-name">🇪🇺 유로/달러</span><span class="idx-sub">EUR/USD</span></div><div class="idx-body"><span class="idx-price">1.1028</span><span class="idx-chg down">▼ -0.0119 (-1.07%)</span></div></div><div class="idx-card compact" id="idx-USDJPY"><div class="idx-head"><span class="idx-name">🇯🇵 달러/엔</span><span class="idx-sub">USD/JPY</span></div><div class="idx-body"><span class="idx-price">159.69</span><span class="idx-chg up">▲ +1.39 (+0.88%)</span></div></div><div class="idx-card compact" id="idx-GBPUSD"><div class="idx-head"><span class="idx-name">🇬🇧 파운드/달러</span><span class="idx-sub">GBP/USD</span></div><div class="idx-body"><span class="idx-price">1.3209</span><span class="idx-chg down">▼ -0.0151 (-1.13%)</span></div></div><div class="idx-card compact" id="idx-USDCHF"><div class="idx-head"><span class="idx-name">🇨🇭 달러/프랑</span><span class="idx-sub">USD/CHF</span></div><div class="idx-body"><span class="idx-price">0.8382</span><span class="idx-chg up">▲ +0.0187 (+2.28%)</span></div></div><div class="idx-card compact" id="idx-USDCAD"><div class="idx-head"><span class="idx-name">🇨🇦 달러/캐나다</span><span class="idx-sub">USD/CAD</span></div><div class="idx-body"><span class="idx-price">1.4269</span><span class="idx-chg up">▲ +0.0150 (+1.06%)</span></div></div></div>
 
-    <!-- 5. 유가 / 금 / 은 -->
     <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은)</div>
     <div class="grid-3"><div class="idx-card compact" id="idx-OIL"><div class="idx-head"><span class="idx-name">🛢 WTI 유가</span><span class="idx-sub">$/bbl</span></div><div class="idx-body"><span class="idx-price">88.56</span><span class="idx-chg up">▲ +1.71 (+1.97%)</span></div></div><div class="idx-card compact" id="idx-GOLD"><div class="idx-head"><span class="idx-name">🥇 국제 금</span><span class="idx-sub">$/oz</span></div><div class="idx-body"><span class="idx-price">3,886.30</span><span class="idx-chg down">▼ -228.20 (-5.55%)</span></div></div><div class="idx-card compact" id="idx-SILVER"><div class="idx-head"><span class="idx-name">🥈 국제 은</span><span class="idx-sub">$/oz</span></div><div class="idx-body"><span class="idx-price">49.12</span><span class="idx-chg down">▼ -3.44 (-6.55%)</span></div></div></div>
 
-    <!-- 6. FOMC / CPI / PPI -->
     <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI)</div>
-    <div class="grid-3"><div class="idx-card compact" id="idx-FOMC"><div class="idx-head"><span class="idx-name">🏛 FOMC 기준금리</span><span class="idx-sub">FED RATE</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">연준 기준금리 · 미10Y 5.15%</span></div></div><div class="idx-card compact" id="idx-CPI"><div class="idx-head"><span class="idx-name">📊 미국 CPI</span><span class="idx-sub">소비자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · CPI YoY</span></div></div><div class="idx-card compact" id="idx-PPI"><div class="idx-head"><span class="idx-name">🏭 미국 PPI</span><span class="idx-sub">생산자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · PPI YoY</span></div></div></div>
+    <div class="grid-3"><div class="idx-card compact" id="idx-FOMC"><div class="idx-head"><span class="idx-name">🏛 FOMC 기준금리</span><span class="idx-sub">FED RATE</span></div><div class="idx-body"><span class="idx-price">4.18%</span><span class="idx-chg neutral">선물내재금리 · 미10Y 5.15%</span></div></div><div class="idx-card compact" id="idx-CPI"><div class="idx-head"><span class="idx-name">📊 미국 CPI</span><span class="idx-sub">소비자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · CPI YoY</span></div></div><div class="idx-card compact" id="idx-PPI"><div class="idx-head"><span class="idx-name">🏭 미국 PPI</span><span class="idx-sub">생산자물가</span></div><div class="idx-body"><span class="idx-price">-</span><span class="idx-chg neutral">전년비 · PPI YoY</span></div></div></div>
 
-    <!-- 뉴스 피드 영역 -->
     <div class="sec-label" style="margin-top:18px;">📰 기업 속보 & DART 공시 피드</div>
     <div class="live-banner" id="liveBanner">
       <span id="liveStatusText">🔍 실시간 검색 결과</span>
@@ -266,6 +257,78 @@
 <script>
   let currentCat = 'ALL';
 
+  async function refreshFredSeriesBrowser(seriesId) {
+    try {
+      const csvUrl = `https://fred.stlouisfed.org/graph/fredgraph.csv?id=${seriesId}`;
+      const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(csvUrl)}`;
+      const res = await fetch(proxyUrl);
+      const wrapper = await res.json();
+      if (!wrapper || !wrapper.contents) return [];
+      return wrapper.contents.split('
+')
+        .map(l => l.trim())
+        .filter(l => l && !l.endsWith('.') && /^\d{4}-\d{2}-\d{2},/.test(l));
+    } catch (e) {
+      return [];
+    }
+  }
+
+  async function refreshMacroPolicyIndicators() {
+    // 1. FOMC 기준금리 (DFEDTARU) 브라우저 직접 갱신
+    const fomcLines = await refreshFredSeriesBrowser('DFEDTARU');
+    if (fomcLines.length >= 1) {
+      const [dt, valStr] = fomcLines[fomcLines.length - 1].split(',');
+      const rate = parseFloat(valStr);
+      if (!isNaN(rate)) {
+        const card = document.getElementById('idx-FOMC');
+        if (card) {
+          card.querySelector('.idx-price').textContent = `${rate.toFixed(2)}%`;
+          const subEl = card.querySelector('.idx-chg');
+          const tenYPart = subEl.textContent.includes('미10Y') ? subEl.textContent.split('·')[1].trim() : '';
+          subEl.textContent = tenYPart ? `기준 ${dt.slice(0, 7)} · ${tenYPart}` : `기준 ${dt.slice(0, 7)}`;
+        }
+      }
+    }
+
+    // 2. 미국 CPI 전년동월비 (CPIAUCSL) 브라우저 직접 갱신
+    const cpiLines = await refreshFredSeriesBrowser('CPIAUCSL');
+    if (cpiLines.length >= 14) {
+      const [dt, curS] = cpiLines[cpiLines.length - 1].split(',');
+      const yoyS = cpiLines[cpiLines.length - 13].split(',')[1];
+      const prvS = cpiLines[cpiLines.length - 2].split(',')[1];
+      const prvYoyS = cpiLines[cpiLines.length - 14].split(',')[1];
+      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
+      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
+      const diffP = curYoy - prvYoy;
+      if (!isNaN(curYoy)) {
+        const card = document.getElementById('idx-CPI');
+        if (card) {
+          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
+          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
+        }
+      }
+    }
+
+    // 3. 미국 PPI 전년동월비 (PPIACO) 브라우저 직접 갱신
+    const ppiLines = await refreshFredSeriesBrowser('PPIACO');
+    if (ppiLines.length >= 14) {
+      const [dt, curS] = ppiLines[ppiLines.length - 1].split(',');
+      const yoyS = ppiLines[ppiLines.length - 13].split(',')[1];
+      const prvS = ppiLines[ppiLines.length - 2].split(',')[1];
+      const prvYoyS = ppiLines[ppiLines.length - 14].split(',')[1];
+      const curYoy = ((parseFloat(curS) - parseFloat(yoyS)) / parseFloat(yoyS)) * 100;
+      const prvYoy = ((parseFloat(prvS) - parseFloat(prvYoyS)) / parseFloat(prvYoyS)) * 100;
+      const diffP = curYoy - prvYoy;
+      if (!isNaN(curYoy)) {
+        const card = document.getElementById('idx-PPI');
+        if (card) {
+          card.querySelector('.idx-price').textContent = `${curYoy.toFixed(1)}%`;
+          card.querySelector('.idx-chg').textContent = `${diffP >= 0 ? '+' : ''}${diffP.toFixed(1)}%p · ${dt.slice(0, 7)} YoY`;
+        }
+      }
+    }
+  }
+
   async function refreshLiveMarketQuotes() {
     const targets = [
       { id: 'KOSPI', sym: '^KS11', dec: 2 },
@@ -314,6 +377,7 @@
 
   window.addEventListener('DOMContentLoaded', () => {
     refreshLiveMarketQuotes();
+    refreshMacroPolicyIndicators();
     setInterval(refreshLiveMarketQuotes, 60000);
   });
 
