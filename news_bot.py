@@ -1,5 +1,7 @@
 import os
+import re
 import json
+import time
 import html
 import datetime
 import urllib.parse
@@ -7,7 +9,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v3.0 - 자동 번역 에디션]
+# [나만의 세이브티커 v4.0 - Finviz 통합 에디션]
 # ==========================================
 
 # 1. 매크로 & 거시경제 핵심 키워드
@@ -16,7 +18,7 @@ MACRO_KEYWORDS = ["연준 금리", "환율", "유가", "CPI 물가", "미국 증
 # 2. 국내 주요 기업 감시 (뉴스 + DART 공시 동시 추적)
 KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER"]
 
-# 3. 미국 핵심 티커 감시 (월스트리트 현지 속보 + 자동 한글 번역)
+# 3. 미국 핵심 티커 감시 (Finviz 스냅샷 + Finviz/Yahoo 속보 + 한글 번역)
 US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
 
 # 4. 광고/노이즈 차단 단어
@@ -29,6 +31,7 @@ CHAT_ID = os.environ.get("CHAT_ID")
 DART_API_KEY = os.environ.get("DART_API_KEY")
 HISTORY_FILE = "sent_news.json"
 FEED_DATA_FILE = "feed_data.json"
+SNAPSHOT_FILE = "snapshots.json"
 
 
 def get_kst_now():
@@ -59,8 +62,7 @@ def translate_en_to_ko(text):
             data = json.loads(res.read().decode("utf-8"))
         translated = "".join([part[0] for part in data[0] if part[0]])
         return translated if translated else text
-    except Exception as e:
-        print(f"번역 오류(원문 유지): {e}")
+    except Exception:
         return text
 
 
@@ -82,10 +84,133 @@ def send_telegram(message):
 
 
 def classify_impact(title):
-    hot_words = ["속보", "긴급", "급등", "급락", "실적", "어닝", "공급계약", "유상증자", "금리", "인하", "인상", "파월", "트럼프", "SURGE", "PLUNGE", "BREAKING", "EARNINGS"]
+    hot_words = [
+        "속보", "긴급", "급등", "급락", "실적", "어닝", "공급계약", "유상증자",
+        "금리", "인하", "인상", "파월", "트럼프", "SURGE", "PLUNGE", "BREAKING",
+        "EARNINGS", "UPGRADE", "DOWNGRADE", "TARGET", "BUY", "SELL"
+    ]
     if any(w in title.upper() for w in hot_words):
         return "🔥 주요속보"
     return "📰 일반"
+
+
+def strip_html_tags(raw_html):
+    text = re.sub(r"<[^>]+>", " ", raw_html)
+    return html.unescape(re.sub(r"\s+", " ", text)).strip()
+
+
+def fetch_finviz_ticker(ticker):
+    """Finviz 개별 티커 페이지에서 핵심 펀더멘털 스냅샷과 월가 뉴스 테이블을 동시 추출합니다."""
+    url = f"https://finviz.com/quote.ashx?t={ticker}&p=d"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+        "Referer": "https://finviz.com/"
+    }
+    snapshot = {}
+    news_list = []
+
+    try:
+        req = urllib.request.Request(url, headers=headers)
+        with urllib.request.urlopen(req, timeout=12) as res:
+            page_html = res.read().decode("utf-8", errors="ignore")
+
+        # 1. 스냅샷 테이블 파싱 (Price, Target Price, Forward P/E, Short Float, Earnings)
+        snap_match = re.search(r'<table[^>]*class="[^"]*snapshot-table2[^"]*"[^>]*>(.*?)</table>', page_html, re.S)
+        if snap_match:
+            cells = re.findall(r'<td[^>]*>(.*?)</td>', snap_match.group(1), re.S)
+            clean_cells = [strip_html_tags(c) for c in cells]
+            kv_map = {}
+            for i in range(0, len(clean_cells) - 1, 2):
+                kv_map[clean_cells[i]] = clean_cells[i + 1]
+
+            price = kv_map.get("Price", "-")
+            target = kv_map.get("Target Price", "-")
+            fwd_pe = kv_map.get("Forward P/E", "-")
+            short_float = kv_map.get("Short Float", "-")
+            earnings = kv_map.get("Earnings", "-")
+            change = kv_map.get("Change", "-")
+
+            # 목표주가 괴리율(%) 계산
+            upside_str = ""
+            try:
+                p_val = float(price.replace(",", ""))
+                t_val = float(target.replace(",", ""))
+                if p_val > 0:
+                    upside = ((t_val - p_val) / p_val) * 100
+                    upside_str = f" ({upside:+.1f}%)"
+            except Exception:
+                pass
+
+            snapshot = {
+                "ticker": ticker,
+                "price": price,
+                "change": change,
+                "target": f"{target}{upside_str}",
+                "fwd_pe": fwd_pe,
+                "short_float": short_float,
+                "earnings": earnings
+            }
+
+        # 2. 뉴스 테이블 파싱 (#news-table)
+        news_match = re.search(r'<table[^>]*id="news-table"[^>]*>(.*?)</table>', page_html, re.S)
+        if news_match:
+            rows = re.findall(r'<tr[^>]*>(.*?)</tr>', news_match.group(1), re.S)
+            for row in rows[:4]:
+                link_m = re.search(r'<a[^>]*href="([^"]+)"[^>]*>(.*?)</a>', row, re.S)
+                source_m = re.search(r'<span[^>]*>(.*?)</span>', row, re.S)
+                if not link_m:
+                    continue
+                href = html.unescape(link_m.group(1)).strip()
+                if href.startswith("/"):
+                    href = f"https://finviz.com{href}"
+                en_title = strip_html_tags(link_m.group(2))
+                source_name = strip_html_tags(source_m.group(1)) if source_m else "Finviz"
+                source_name = source_name.strip("()")
+
+                if not en_title:
+                    continue
+                ko_title = translate_en_to_ko(en_title)
+                news_list.append({
+                    "category": "US",
+                    "tag": f"${ticker}",
+                    "press": f"Finviz · {source_name}",
+                    "title": ko_title,
+                    "sub_title": en_title if ko_title != en_title else "",
+                    "link": href,
+                    "impact": classify_impact(en_title)
+                })
+    except Exception as e:
+        print(f"[Finviz-{ticker}] 수집 건너뜀(차단 또는 지연): {e}")
+
+    return snapshot, news_list
+
+
+def fetch_yahoo_us_news(ticker):
+    """Yahoo Finance 미국 현지 속보 RSS (Finviz 보완 및 이중화 소스)"""
+    rss_url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US"
+    results = []
+    try:
+        req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=10) as res:
+            root = ET.fromstring(res.read())
+        for item in root.findall(".//item")[:3]:
+            en_title = item.find("title").text or ""
+            link = item.find("link").text or ""
+            ko_title = translate_en_to_ko(en_title)
+            results.append({
+                "category": "US",
+                "tag": f"${ticker}",
+                "press": "Yahoo Finance",
+                "title": ko_title,
+                "sub_title": en_title if ko_title != en_title else "",
+                "link": link,
+                "impact": classify_impact(en_title)
+            })
+    except Exception as e:
+        print(f"[Yahoo-{ticker}] 수집 오류: {e}")
+    return results
 
 
 def fetch_google_news(keyword, category):
@@ -96,7 +221,7 @@ def fetch_google_news(keyword, category):
         req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=10) as res:
             root = ET.fromstring(res.read())
-        for item in root.findall(".//item")[:5]:
+        for item in root.findall(".//item")[:4]:
             raw_title = item.find("title").text or ""
             link = item.find("link").text or ""
             if any(w in raw_title for w in IGNORE_WORDS):
@@ -116,31 +241,6 @@ def fetch_google_news(keyword, category):
             })
     except Exception as e:
         print(f"[{keyword}] 수집 오류: {e}")
-    return results
-
-
-def fetch_us_news(ticker):
-    rss_url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker}&region=US&lang=en-US"
-    results = []
-    try:
-        req = urllib.request.Request(rss_url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=10) as res:
-            root = ET.fromstring(res.read())
-        for item in root.findall(".//item")[:4]:
-            en_title = item.find("title").text or ""
-            link = item.find("link").text or ""
-            ko_title = translate_en_to_ko(en_title)
-            results.append({
-                "category": "US",
-                "tag": f"${ticker}",
-                "press": "Yahoo Finance",
-                "title": ko_title,
-                "sub_title": en_title if ko_title != en_title else "",
-                "link": link,
-                "impact": classify_impact(en_title)
-            })
-    except Exception as e:
-        print(f"[US-{ticker}] 수집 오류: {e}")
     return results
 
 
@@ -175,10 +275,37 @@ def fetch_dart():
     return results
 
 
-def build_saveticker_html(feed_items, updated_time):
-    """자동 번역 + 실시간 온디맨드 검색 기능이 탑재된 세이브티커 웹 UI"""
+def build_saveticker_html(feed_items, snapshots_map, updated_time):
+    """Finviz 펀더멘털 스냅샷 카드 + 자동 번역 피드 + 실시간 온디맨드 검색 웹 UI"""
+    snap_cards_html = ""
+    for ticker in US_TICKERS:
+        s = snapshots_map.get(ticker)
+        if not s:
+            continue
+        chg = s.get("change", "-")
+        chg_color = "#3fb950" if not chg.startswith("-") and chg != "-" else ("#ff7b72" if chg.startswith("-") else "#8b949e")
+        snap_cards_html += f"""
+        <div class="snap-card" onclick="quickFilter('${{ticker}}')">
+            <div class="snap-top">
+                <span class="snap-ticker">${{ticker}}</span>
+                <span class="snap-price">${{html.escape(s.get('price', '-'))}} <small style="color:${{chg_color}}">${{html.escape(chg)}}</small></span>
+            </div>
+            <div class="snap-row"><span>목표가</span><b>${{html.escape(s.get('target', '-'))}}</b></div>
+            <div class="snap-row"><span>Fwd P/E</span><b>${{html.escape(s.get('fwd_pe', '-'))}}</b></div>
+            <div class="snap-row"><span>공매도</span><b>${{html.escape(s.get('short_float', '-'))}}</b></div>
+            <div class="snap-row"><span>실적일</span><b>${{html.escape(s.get('earnings', '-'))}}</b></div>
+        </div>
+        """
+
+    snap_section = f"""
+    <div class="snap-section">
+        <div class="snap-header">📊 Finviz 핵심 지표 스냅샷 (클릭 시 해당 티커 필터)</div>
+        <div class="snap-grid">{snap_cards_html}</div>
+    </div>
+    """ if snap_cards_html else ""
+
     cards_html = ""
-    for item in feed_items[:120]:
+    for item in feed_items[:150]:
         badge_class = "hot" if ("속보" in item["impact"] or "공시" in item["impact"]) else "normal"
         safe_title = html.escape(item["title"])
         safe_sub = html.escape(item.get("sub_title", ""))
@@ -205,11 +332,11 @@ def build_saveticker_html(feed_items, updated_time):
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker - 실시간 금융·기업 속보 피드</title>
+<title>My SaveTicker v4.0 - Finviz & 실시간 금융 피드</title>
 <style>
   body {{ background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }}
   .header {{ background: #161b22; border-bottom: 1px solid #30363d; padding: 16px 20px; position: sticky; top: 0; z-index: 100; }}
-  .header-inner {{ max-width: 840px; margin: 0 auto; }}
+  .header-inner {{ max-width: 880px; margin: 0 auto; }}
   .title-row {{ display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }}
   .logo {{ font-size: 20px; font-weight: 800; color: #58a6ff; letter-spacing: -0.5px; cursor: pointer; }}
   .updated {{ font-size: 12px; color: #8b949e; }}
@@ -221,7 +348,17 @@ def build_saveticker_html(feed_items, updated_time):
   .search-box:focus {{ border-color: #58a6ff; }}
   .search-btn {{ background: #238636; border: none; color: #fff; padding: 7px 14px; border-radius: 16px; font-size: 12px; font-weight: 700; cursor: pointer; white-space: nowrap; }}
   .search-btn:hover {{ background: #2ea043; }}
-  .container {{ max-width: 840px; margin: 16px auto; padding: 0 16px; }}
+  .container {{ max-width: 880px; margin: 16px auto; padding: 0 16px; }}
+  .snap-section {{ margin-bottom: 18px; }}
+  .snap-header {{ font-size: 12px; color: #8b949e; margin-bottom: 8px; font-weight: 600; }}
+  .snap-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(135px, 1fr)); gap: 8px; }}
+  .snap-card {{ background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 10px 12px; cursor: pointer; transition: border-color 0.2s; }}
+  .snap-card:hover {{ border-color: #58a6ff; }}
+  .snap-top {{ display: flex; justify-content: space-between; align-items: baseline; border-bottom: 1px solid #21262d; padding-bottom: 6px; margin-bottom: 6px; }}
+  .snap-ticker {{ font-weight: 800; color: #58a6ff; font-size: 13px; }}
+  .snap-price {{ font-weight: 700; font-size: 12px; color: #f0f6fc; }}
+  .snap-row {{ display: flex; justify-content: space-between; font-size: 11px; color: #8b949e; margin-top: 3px; }}
+  .snap-row b {{ color: #c9d1d9; font-weight: 600; }}
   .live-banner {{ background: rgba(56, 139, 253, 0.12); border: 1px solid rgba(56, 139, 253, 0.4); border-radius: 10px; padding: 12px 16px; margin-bottom: 14px; display: none; justify-content: space-between; align-items: center; font-size: 13px; color: #79c0ff; }}
   .reset-btn {{ background: #21262d; border: 1px solid #30363d; color: #e6edf3; padding: 4px 10px; border-radius: 8px; cursor: pointer; font-size: 12px; }}
   .news-card {{ background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 14px 16px; margin-bottom: 10px; transition: border-color 0.2s; }}
@@ -242,7 +379,7 @@ def build_saveticker_html(feed_items, updated_time):
   <div class="header">
     <div class="header-inner">
       <div class="title-row">
-        <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
+        <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER <span style="font-size:12px;color:#8b949e;font-weight:500;">+ Finviz</span></div>
         <div class="updated">자동 업데이트: {updated_time} (KST)</div>
       </div>
       <div class="controls">
@@ -250,7 +387,7 @@ def build_saveticker_html(feed_items, updated_time):
         <button class="tab" onclick="filterCat('DART', this)">🚨 DART 공시</button>
         <button class="tab" onclick="filterCat('MACRO', this)">🌐 매크로·거시</button>
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
-        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
+        <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(Finviz/번역)</button>
         <div class="search-wrap">
           <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="티커(NVDA) 또는 기업명 입력 후 Enter...">
           <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
@@ -259,6 +396,7 @@ def build_saveticker_html(feed_items, updated_time):
     </div>
   </div>
   <div class="container">
+    {snap_section}
     <div class="live-banner" id="liveBanner">
       <span id="liveStatusText">🔍 실시간 검색 결과</span>
       <button class="reset-btn" onclick="resetSearch()">기본 피드로 돌아가기</button>
@@ -270,6 +408,12 @@ def build_saveticker_html(feed_items, updated_time):
   </div>
 <script>
   let currentCat = 'ALL';
+
+  function quickFilter(tickerStr) {{
+    resetSearch(false);
+    document.getElementById('searchInput').value = tickerStr;
+    localFilter();
+  }}
 
   function filterCat(cat, btn) {{
     resetSearch(false);
@@ -410,17 +554,27 @@ def build_saveticker_html(feed_items, updated_time):
 def main():
     sent_links = set(load_json(HISTORY_FILE, []))
     feed_items = load_json(FEED_DATA_FILE, [])
+    snapshots_map = load_json(SNAPSHOT_FILE, {})
     now_str = get_kst_now().strftime("%m/%d %H:%M")
     new_items = []
 
     collected = []
     collected.extend(fetch_dart())
+
     for kw in MACRO_KEYWORDS:
         collected.extend(fetch_google_news(kw, "MACRO"))
+
     for corp in KR_COMPANIES:
         collected.extend(fetch_google_news(corp, "KR"))
+
+    # 미국 티커: Finviz 스냅샷 + Finviz 월가 뉴스 + Yahoo Finance 이중화 수집
     for ticker in US_TICKERS:
-        collected.extend(fetch_us_news(ticker))
+        snap, finviz_news = fetch_finviz_ticker(ticker)
+        if snap:
+            snapshots_map[ticker] = snap
+        collected.extend(finviz_news)
+        collected.extend(fetch_yahoo_us_news(ticker))
+        time.sleep(1.5)  # Finviz IP 차단 방지용 안전 간격
 
     for item in collected:
         if item["link"] not in sent_links:
@@ -428,21 +582,32 @@ def main():
             new_items.append(item)
             sent_links.add(item["link"])
 
+            # 텔레그램 발송 시 미국 티커는 Finviz 핵심 스냅샷 요약도 함께 첨부
+            snap_note = ""
+            if item["category"] == "US":
+                raw_t = item["tag"].replace("$", "")
+                s = snapshots_map.get(raw_t)
+                if s:
+                    snap_note = f"\n📊 <code>주가 ${s['price']} | 목표가 ${s['target']} | 공매도 {s['short_float']} | 실적 {s['earnings']}</code>"
+
             sub_line = f"\n<i>({item['sub_title']})</i>" if item.get("sub_title") else ""
             msg = (
                 f"{item['impact']} <b>[{item['tag']}]</b>\n"
-                f"{item['title']}{sub_line}\n"
+                f"{item['title']}{sub_line}{snap_note}\n"
                 f"🗞 {item['press']} · <a href='{item['link']}'>원문 보기</a>"
             )
             send_telegram(msg)
 
     if new_items:
         feed_items = new_items + feed_items
-        save_json(HISTORY_FILE, list(sent_links)[-1000:])
+        save_json(HISTORY_FILE, list(sent_links)[-1200:])
         save_json(FEED_DATA_FILE, feed_items[:200])
 
-    build_saveticker_html(feed_items, now_str)
-    print(f"완료: 신규 뉴스 {len(new_items)}건 반영 및 웹피드 업데이트")
+    if snapshots_map:
+        save_json(SNAPSHOT_FILE, snapshots_map)
+
+    build_saveticker_html(feed_items, snapshots_map, now_str)
+    print(f"완료: 신규 뉴스 {len(new_items)}건 반영, 스냅샷 {len(snapshots_map)}종목 업데이트")
 
 
 if __name__ == "__main__":
