@@ -1,6 +1,106 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "머스크 \"엔비디아, 젠슨 황 퇴진으로 공급망 장악력 약해질 것\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JOE5QUVZTS3RlY1VhaGhnZE9GY0ExOHRUNGVyXzJkbDB1cGw1ei1zQTA5NHhBYU9FUVl3UXlSUFhuWFFhaUhOa01mSVNEMUo4RjU5Ylo0ZzZGV05tQm5ZV3dqQnJpd0Y3XzlMU2t0SEQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "합법적 AI 학습 길 연다…출협, AI 기업들과 데이터 공급 체계 구축",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5xNmtWZHBTaWptbXNBQkc4V3g3dTdET0RfU1hPTkZ5ZjFqUFlGNmRMMHRlX24wWVFGZVVxMXZfVDJiM1dobWZBNXBqU3FiY3lNVW5VZEJ0Y3c2QdIBX0FVX3lxTE1oaHhqa2JoSU5XRG9fVFdvSnFpLVJoTlJ6aVZlLTN5X1BBTnJtODB6a2c5bWNickNvMzFuOE5WX2hONWQ4ckY5SGw4dzB0ckZlYXE3cXJma2JaU0tOVjBj?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "연말모임 준비 지금부터…신세계百, 크리스마스 겨냥 '와인위크'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83aktUczRCdG1xY0cyRjE0TGdsTEc3V3BCN1hHWmdib3VZa3VVNkhOUzNCaHF4R29Cc0E3NnhicHlBSUhUdlB6OVI0dXJIQjh0OXNCLXQ1S29GZGPSAWBBVV95cUxPT0MxaHJEalJwRnowa0xEbHJjRU1JSUszcXdwUDdFbGNvVlJwWG5IYWVJUlBQMWxEenhLYnlVS2NHcXRtUkhISDh5V0pLeUVhRm8tMFBkTERaUTg0TGZRUTg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "반도체 뜨거운데 소비 미지근…한은이 짚은 '낙수' 제약 요인",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9iSG1SWnpxWkZFSFVTeUVyRE5YbkRpdlRZUGtoNV9kUkxIOVo0S3ZVNExQM3k5ZV91Z0s5MV9uWXhpT2RuSEwtdFEwMGg4ZDBIbjdRYlo0ZXRvOEHSAWBBVV95cUxQcVd4OFNwQkRPVWhTZlpjZHkzc1BWN21HOWxLOV9qdnlmQ2tVMUxrSXMtS0o1Y3EzZlNSdDBDSS16STUzbHlPdFloSmlSY3RISnFoaV9UVTB6V0g4VGk4VnM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "日증시, 닛케이지수 상승 출발…증권사들, 잇따라 전망치 하향",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1aRVphdUJ4djdZN1o3VDVpZ2Jldk1ZVzk5S3pvQ2tWT0dMenpmTjl3aF8wTVJ4VUg0a1B2QzBSVkExZVVCVWFUQ1J4YldwbTBHTGlPMHVwY3hvd1ltem8ybmZR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "뉴욕증시 훈풍 탄 日증시, 닛케이 6만2000선 '눈앞'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1NeFNIX0dQV2l3NDNiMlRjT21sVm5sM0RJeGwtVHZHRGMtbWNDZV9ENU5VZWZ6YzYycFRFSi1kMHMzTHM4UTJuOHA5VUF2eTdwTExfNW55d3hIVGJvUkVKN9IBeEFVX3lxTE5uRXVlU1FwWUs5cGk2bzZSaldVdlE1eDg3MGZFVXh2MmtWRGNUUjQtVWdwc2RkNG5DRjd1TDFjcWxlUlQ2ZkRreE1JUFh0bGZNZTdZeFE0QkVkYnBwLTZ1TnlmYmNhR21EdzhoemdzUmV4VDFldHdGdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "日증시, 닛케이지수 6만선 회복…美기술주 반등에 상승 출발",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5KR0w3T3E5eXRMQW45NEFyNHZibDA1WDJ4Wk9PU1ZCd3l5MWhIamxYVWZjTzBFZ2tod1puNkhUQzJpbnpTMWZncS1CMzVrRlRNaTJKd0hmUWFuWWE1NnBXSdIBeEFVX3lxTE1CdnM0Z0k3am9yM1NxdFhZR083WW5IMlFTckI0RDNRckNad0JrbXkteUxYM0tySDlYdjlPem14WXQ2YjFDRERyYnVuTVd1Q2R3RjdzVWRRTTdLX21idHZBY2F3N1BpUkNpNHYza3BKdG5jczhndWk4UA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "TradingView",
+    "title": "일본 닛케이 지수, 경제 지표와 기업 실적에 힘입어 AI에 대한 낙관론 고조되며 3일 연속 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wdXNkVjg3VFA5NjB1RW5TVVo4QzNhSHRJZkUyQWgzZ1BucjZMTkt3eWhxMXphQk5xc3VYdzhlWFE4UmxlS2FJRUQxN3B0bWs4NldXSS1BSnFDaTNPVEFLUWhZbkR0YmIzdW55Z29XODQyQlA1TU1R?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "이투데이",
+    "title": "유럽증시, 미·이란 협상 기대감에 상승…스톡스600 1.78%↑",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DS1J4YmhfeUVORDJTbmZqa3cxRExvNmV0b2NEVkh1YlA5bDhON0EwQkFWd204M3BCTVozQmNqVGdUckxyaGh0bm55ekYzVGQ0bW93ZQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "머니투데이",
+    "title": "널뛰는 기술주 피난처...'AI 변방' 유럽 증시, 줄줄이 최고점 눈앞 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBJMlJzVVRYWFBjd09IclV6U21pZ2QxTkk5OWFwZ1lnMlQ2MTR1UHpvUzJQRHl6M0lDOF9uQ1lNVmNMamtiSGtQRFZlb2xCanBZcllKT3RWVko3Q19TT1l5M0hVZFNGZGM50gFuQVVfeXFMT1A1T2dWNDRVWDZkR2FRbnRHaWdrN2dIdDBUWlhOUkY1S0o2NUU4NzNWZjB1eFFlMFdwM0JKQVhNTXdQTW85QXRmVWpYVVM3akY2X0JmX0loWFFsaUZ3OG5SUUxGNW5FMU9MYlBTR3c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 08:16"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 엔비디아",
     "press": "연합인포맥스",
     "title": "[뉴욕증시-주간전망] 엔비디아 실적에 앤트로픽 상장…'AI 빅위크'",
@@ -2896,106 +2996,6 @@
     "title": "'깐부' 삼전닉스는 문제없나...'AI 락스타' 젠슨 황 퇴진에 복잡해진 셈법 - 머니투데이",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9ZZDUyZ2FHSHJNRW92LTF2V2Uta3FUTHRlZkNxN1FsclRJWEtoTW9vNGVZcXR2UlBNd2JPSUJQRnJCbWwxdmpHRms4LUY2bUd6WTlUcGRDVHdoLUhXVmg4YjVKQWFCb1lTR2RsbtIBckFVX3lxTE9xb09xSE9GRnl6eXh1b29BLXc0OVItVlJYMWo3WEhiOEhYeVpDa3JYTVd0S3ZiVW1zX0QtUzZQQTFyWkpwaVNldFV5TzYzT1ctQ05lWHJ3QTJuSnB4NVBXTHRzRGh0RFJlT0tFYkVQQkoydw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "SK하이닉스",
-    "press": "연합뉴스",
-    "title": "SK하이닉스, '파격적 성과급' 기대감 속 하반기 생산직 채용",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vdGd0a2hvcUc3TFl1SUlOVExDa3NnQUVkaUQ3WE41MjlPLThmSnBxU1NmLVc5RkY2OU4wbl9vZEZkS21BV1JRNGxYQmQxS2Y1LV9nRW9aaVJoSzjSAWBBVV95cUxPQy1lUlk1RDh5aW1tQktCQ09Ed1NjSnM2ZXZWWWJXWW9Id01nQm9BN3htb0hJWVRUR0l4X2xMb3MwS2tkOEVibEw0SG9rbVBWaU4xMUJXUkNrUnhIckpkcWI?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "SK하이닉스",
-    "press": "SK hynix",
-    "title": "“오작동도, 해킹도 막는다”… SK하이닉스, 안전 · 보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1uWEg0MlFpUXBoUW1pSklUNXBaSXdyandhM004eS1aZk5lbm85ZkZyM1ZIODZhZ1BHTkVRcnRHT0M3c2lIRTEyeTFnYW5yOEJseEF5dGU2OG9KRmtNd0RPTnJmaU4yclE2cVh0NA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "SK하이닉스",
-    "press": "중앙일보",
-    "title": "“10년 모은 4억, 하닉 투자했다 1억 남아” 30대 직장인의 한탄",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBWc3pocEdlQjBNVllsWmVINjZhWnFQb082YXItWEFrNUplcE8yVDd3ZzlfcW5qQlJWTGlIS1ljZms0NGM1ZUxGZmE5ODJNLWpzeWkwLXZR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "조선일보",
-    "title": "[사설] \"왜 차값이 비싸냐\"는 현대차 노조, 정말 회사 걱정 안되나",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZTBwYjJyYjNUUUs4YzdQS2QyZXpjZVFzZzZxczFBOGVSYjNWVG1jQ3lVaThJa01SREV0bk5pRlBUaUFXdUNfZVl2TzdOaU9PRndjeEE3cGMxd2E2dlJhclhMelBXMGFvblZ1aEFsTWhtbFhoeXJsb3d4cFRndEJ0M1g2anhCUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "동아일보",
-    "title": "정무성 현대차 정몽구재단 이사장 별세… 향년 68세",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9fbE9jdF9NM0ZCN1E3UUJydGxrOEdoQ2dVWDVvUlQ5UHhfdkFfU2RQcXlqM1ZUajI4N3Q1ZUM1dU5mREMzNm1mcHlyektiZndhREc2STFxS1gycF84NGhhcG9XMUFUVWtpMm80MVkteWZWRUlj0gFmQVVfeXFMTU1obWtfdGFhb1RWdWpDTkQwVUkyaVltMnhBazE1dGZCdklBM3Ixamg1cFFmdUxMTFdvR2hkNEtHMS1UREM2eFpQcXpYMkZJa2JVUC12bjBkcW1JZnZHYUVDS1UzWkxR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "오토뷰",
-    "title": "현대차, 쏘카·에이펙스모빌리티와 국내 자율주행 생태계 키운다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBvNUc1Z0lURG5kd2VaVGxVeEl6N0prWmVaMkhScHBCYm5ibzd3TkhxeGpWX1hpeTNJWHc2TVNGcUhWcXlRUGQ4cVQ3Vm9hSDdVY2xhZDg5YlVFMFV6?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "매일경제",
-    "title": "[단독] 현대차 AVP본부, 조직개편 단행",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjSE16LW1ZdWZnN1NTaUF3OU9qZ1VFUnR3ZWJyQUZiM0ZNQ0tpNWJjdlB3ZG9mYVZILWdvOFkycEYyT082aDF5c3FhaVBpQmFqT1BEWVZR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "국제뉴스",
-    "title": "한화에어로스페이스, 1만파운드급 항공엔진 개발 과제 수주…1773억원 규모",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE91U0xnU0kwZmprQndUdjE2U3dveXI3SnUyQ2tRc29aSzRQbFN0a0FqRHllWlZ0ZkRZWk02S1VzT2dzZUJZc0RxdUxqU1RQYTMybUtpNTI0b3ZoamQwdEh1elg0TkZxcllKQ1ZEeHp3?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "아시아경제",
-    "title": "한화에어로, 순천에 국내 최대 민간 우주발사체 생산기지 준공",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnN09yTGRjU2QzLXpyMm1pcVdhbnNwWTZBQ2dvT09CLUdnbEMxOGJzY2d4NE9XblBKcDI1YXQ0RkJFSFZKX1lBdEVnS3pkZEFXMEhyNlJlMVVKMjRMVFY5QQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "KR",
-    "tag": "한화에어로스페이스",
-    "press": "자본시장뉴스",
-    "title": "한화에어로스페이스, 1773억 원 무인기 엔진 맡는다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mdW1FalpHcnN2cEh2ZkNaa0pISFlTSFNULU5JcFptZlY0amM0ZW9HRTF5eWVYZ0Y4SER3NmlKLVl6OURrWGR0R0o3SG14UUVXNXJGRTBIMjJvNkZNSmtCdHA1cHVieVE?oc=5",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
