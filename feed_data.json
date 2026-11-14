@@ -1,6 +1,16 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "서울파이낸스",
+    "title": "코스피 상장사 1분기 실적 '껑충'···반도체 업고 영업익 176% 급증",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCQldPUGd1X1ZfbmxsRHBtT0pmRHVGTW1XeEI0ZWI4UFRLN2RMS0tTVHVvLUxfNzlGaHZGbGhvT0Y3cEFYWlludk41a3JYLU1XeVFuU3liUE5EeFE2ekJyNlYzd29TQkFRV2c?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 06:48"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "에너지경제신문",
     "title": "“비트코인 못해먹겠네”…툭하면 강제청산, 7만달러 다시 붕괴 [머니+]",
@@ -2986,16 +2996,6 @@
     "title": "Elon Musk, Tom Lee, Shopify CEO Sign Stand With Jensen Petition To Reinstate Him As Nvidia CEO",
     "sub_title": "",
     "link": "https://finance.yahoo.com/markets/stocks/articles/elon-musk-tom-lee-shopify-042453542.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$NVDA",
-    "press": "Finviz · DigiTimes",
-    "title": "Jensen Huang's exit threatens to upend Nvidia's global AI funding network",
-    "sub_title": "",
-    "link": "https://www.digitimes.com/news/a20261113PD239/nvidia-jensen-huang-funding-ceo-investment.html",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
