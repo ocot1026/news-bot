@@ -1,5 +1,45 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Fed's Collins says gradual rate hikes best to manage economic risks",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/feds-collins-says-gradual-rate-hikes-best-manage-economic-risks-2026-11-14/",
+    "impact": "📰 일반",
+    "time": "11/15 02:19"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "These 6 battered AI stocks could bounce back big, analyst says",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5bf81f4c-cecb-447d-9e50-306c6822e3fe&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/15 02:19"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "What's behind gas prices falling below $4? It's not the election.",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/personal-finance/banking/article/gas-prices-are-falling-below-4-why-its-not-about-the-election-143310814.html",
+    "impact": "📰 일반",
+    "time": "11/15 02:19"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Ground Stop Highlights Chronic Vulnerabilities in Air Traffic System",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/14/us/politics/ground-stop-air-traffic-faa.html",
+    "impact": "📰 일반",
+    "time": "11/15 02:19"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 국힘",
     "press": "YTN",
@@ -2956,46 +2996,6 @@
     "title": "DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage",
     "sub_title": "",
     "link": "https://finance.yahoo.com/technology/ai/articles/das-technology-gives-retailers-competitive-230700578.html?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$MSFT",
-    "press": "Yahoo Finance",
-    "title": "Nvidia, AMD, Microsoft, Cerebras, Cisco, Modine, and More Stocks That Explain Today’s Market",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/m/fa0293c5-bebc-3c34-924d-04a0b56c1b18/nvidia%2C-amd%2C-microsoft%2C.html?.tsrc=rss",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Finviz · Barrons.com",
-    "title": "Review & Preview: Moving On",
-    "sub_title": "",
-    "link": "https://www.barrons.com/articles/stockstoday-rotation-after-nvidia-3d0dbe00?mod=bar_FV",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Finviz · AFP",
-    "title": "Wall Street stocks mostly lower as Nvidia extends slump",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/wall-street-stocks-mostly-lower-230704278.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Finviz · Exec Edge",
-    "title": "Xanadu Breakthroughs & Partnerships Advance Roadmap Quarterly Update Report",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/ai/articles/xanadu-breakthroughs-partnerships-advance-roadmap-221337932.html",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
