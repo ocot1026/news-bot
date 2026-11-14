@@ -1,5 +1,25 @@
 [
   {
+    "category": "KR",
+    "tag": "🇰🇷 한국",
+    "press": "YTN",
+    "title": "한국, 중국 수입시장 6개월째 1위...미국서는 6위",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE94ZUdzeFhDTUlXU3NoVUh0bGY1cDNic1BqdGtaQW5nbWtUa2NfeVkyU1YtNUw5eE44Nmc0Z3NRM0pKWUtZTGJOU0JrNjlrLUx6Rjk4TmExczBQbjRnWXc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 03:03"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "더구루",
+    "title": "블룸버그 \"해외투자자, AI 열풍 식자 한국·대만 대신 중국·인도로 눈돌려\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHMnNYVlFJYkxTMEFuTTh2dEZtZl9LZkExOXNScFFPRDdmOTJTM1Q1OHNNWTgtMm1JdUczd1d3MjM0QW1mamRKMGtjcUEyWElTLXg2RGNGZWVDaVhNR0E?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 03:03"
+  },
+  {
     "category": "US",
     "tag": "🇺🇸 미국증시",
     "press": "Finviz Market",
@@ -2976,26 +2996,6 @@
     "title": "Stocks Ride Volatile Wave as Nvidia Drama Unfolds",
     "sub_title": "",
     "link": "https://finviz.com/news/422723/stocks-ride-volatile-wave-as-nvidia-drama-unfolds",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$MSFT",
-    "press": "Yahoo Finance",
-    "title": "Cerebras stock surges on Microsoft deal: What it means for Nvidia",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/video/cerebras-stock-surges-on-microsoft-deal-what-it-means-for-nvidia-213123807.html?.tsrc=rss",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "US",
-    "tag": "$MSFT",
-    "press": "Yahoo Finance",
-    "title": "DAS Technology Gives Retailers a Competitive Advantage During Microsoft Outage",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/ai/articles/das-technology-gives-retailers-competitive-230700578.html?.tsrc=rss",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
