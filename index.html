@@ -52,7 +52,7 @@
     <div class="header-inner">
       <div class="title-row">
         <div class="logo" onclick="resetSearch()">⚡ MY SAVETICKER</div>
-        <div class="updated" id="liveClock">피드 업데이트: 11/14 18:28 (KST)</div>
+        <div class="updated" id="liveClock">피드 업데이트: 11/14 18:45 (KST)</div>
       </div>
       <div class="controls">
         <button class="tab active" onclick="filterCat('ALL', this)">전체 피드</button>
@@ -61,7 +61,7 @@
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
         <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
         <div class="search-wrap">
-          <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="엔비디아, NVDA, 테슬라 입력 후 Enter...">
+          <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="HPSP, 엔비디아, NVDA 입력 후 Enter...">
           <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
         </div>
       </div>
@@ -85,7 +85,20 @@
     </div>
     <div id="liveResults"></div>
     <div id="feedList">
-      <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 bofa &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가 "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">연준 금리</span><span class="meta">연합인포맥스 · 11/14 18:28</span></div><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUGQ3T1lmeDBuT3dOUklaQ0hOUEFxS1dTcUpmMXFFci1EX05QNjlIaUgzQ1ZkNFZpNFN6ZlVVU2ZfMzRYRE1yajc3SElEd1FyNE40anQtbE1vek1LMGNGRTZtQ2xzbG11QUxkdUw4dG0?oc=5" target="_blank" class="news-title">BofA &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가</a></div>
+      <div class="news-card saved-card" data-cat="MACRO" data-text="cpi 물가 美 10월 cpi, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향 "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">CPI 물가</span><span class="meta">SBS Biz · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMiU0FVX3lxTE5makxMYnRpM3RIZExBellzdHZvZ2VWNnE1d2VhbGs3bUNzRGVUbmc1dkJPbWJQaVNuQ01wM1FyM3dLQUo5dmVWZTM0c0lyNC00THNB0gFYQVVfeXFMTVcwSjlNUXR2bFpoMW9NSVFRdlNUQnFXcUl3MDFCSDdGaXdIN3ZQN3BlWEY5dGkxZXZ6TURNQjB4QWhXVWV5aHUtWnhtaUJJcGVQZ3VsU0lNZg?oc=5" target="_blank" class="news-title">美 10월 CPI, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="sk하이닉스 sk하이닉스 주가, 오늘 왜 하락하나? "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">SK하이닉스</span><span class="meta">Investing.com 한국어 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMid0FVX3lxTFBULXdLS0RXQXhzOWNYaHB4aGp1ejJlWDlsVVZYbDh0dlZkRnBiRHNRQTR0S1Y3QS1mTk5yVUZsazNsd3dWWHF3ejV4WmhOVzRIYTdDQjhfTi1hdWxZbEpFTExXNHM4Ym5VUVlTeWFXRVNEM0hpMlZr?oc=5" target="_blank" class="news-title">SK하이닉스 주가, 오늘 왜 하락하나?</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="현대차 현대차, 쏘카와 자율주행 실증 동맹…국내 도로 데이터 모은다 - 머니투데이 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">현대차</span><span class="meta">머니투데이 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMibEFVX3lxTE1FRkdleVplc0loUXpMYjZWSFZPdGZIN0JZR3ZEMWxIZloxV2hkN0ZoUl9pUG00T3FQWjZ3V0U3WkVxVVNfZ3FDNWFRdlVsUTRJTWl2YmV6YW9JckZNSHRHZENTY2hlU25laVFuTNIBckFVX3lxTFBhRHlIRjBnNzhmaWRGTHZiQzhyQjBfNGJOdmVLUUhuZjgwUTI2UVhMdnRkSlpGbV92MlN4SkROVXZiV052STBROVRNS2ZOZnYyZ3FaRDBwVTFxLWU5b0dYN21SUWFrZDN0VXc0X1ItOGNsZw?oc=5" target="_blank" class="news-title">현대차, 쏘카와 자율주행 실증 동맹…국내 도로 데이터 모은다 - 머니투데이</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">한화에어로스페이스</span><span class="meta">Chosunbiz · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ1hVX0JZa1N2NDNQXzJhNW1kX3R4Qk5tTmVudmlsUUc1ZXRzVk5TTGlsRlNXbkFsQm05TGxTeC1Kbl9kVG1qOEdLTFZBRW5JWkFFVjhHMk42emJEYk9Wdjc2TEhpeTNqY1QyWDYtQ3pYU3RiV0dqamxuV1VrVWpzZ0FtQm7SAZgBQVVfeXFMTy1wSjZPa20yX3JRMVpxeWhNa0I2UlhxZlUwNHlCNUxjZVhDdzR0YkRydnFwSUpCYnhZazZvZThocDZFLTVrbTNmUThMV3hfaVZiVjhXc1BsV3V3Sm1HbjRQWXZnWEwtR2lBakF2ejBDZEdqQ0ZaM0ZqdXpvcmFVUHBNMWhTdGJXeEVhUk0xT2NnekRfRnlhMFM?oc=5" target="_blank" class="news-title">한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="한화에어로스페이스 한화에어로스페이스, 육군본부 과장단 첫 초청…민·관·군 수출 협력 강조 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">한화에어로스페이스</span><span class="meta">국제뉴스 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMibkFVX3lxTE9SWUVPeTg1RjRxOTIxZEgxN3RIWkZfME5GTmxCZ1JfaGdnejNzQVJ3a0wzY1dfbHJ1ckJhYWxhQkdsQ0drbGNMMjFNX2ljMTNNTEpaT3ByR3BCam84MG9GQlcyY25VWDBobGdPTk1B?oc=5" target="_blank" class="news-title">한화에어로스페이스, 육군본부 과장단 첫 초청…민·관·군 수출 협력 강조</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="hpsp [장중수급포착] hpsp, 기관 5일 연속 순매수행진... 주가 +1.12% "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">HPSP</span><span class="meta">뉴스핌 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jVzNkMUhENUxxWmhsU2VydDB3YU5BTEl5UXNYUHJCQkFqRjMwanlZQVJsT0taaG1IVV9HLVIwNmVxY3BJcVM5NV9RVFo5cmUtakQ0VDR4N1dTRll3?oc=5" target="_blank" class="news-title">[장중수급포착] HPSP, 기관 5일 연속 순매수행진... 주가 +1.12%</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="hpsp hpsp, 각자대표 체제 출범 "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">HPSP</span><span class="meta">디일렉 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtdjFONEd6cF9SQ3gxOWM2ak1CUHlZZ0VBWlU2dUwtS2M5a01jNk5TNDAyQVEwOHUwTjdSSkFTWjJuOXpnczhkMXk2VHNzbFdfUkRJTk41RGdHNk0xT25kRDVmMVV4UQ?oc=5" target="_blank" class="news-title">HPSP, 각자대표 체제 출범</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="hpsp &quot;hpsp, 파운드리 넘어 메모리 반도체까지 확장…목표가↑&quot;-kb "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">HPSP</span><span class="meta">한국경제 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XcmZfVm9iLTBFQkJ2ZDRLcHNZQkpuaDVMTlBtZzRDZUFVYmFvOVZyQndnVnpsWDNJaGh3T1RNbEJCbkRMbFpKcXY1XzVNWUtiZ0YtdEJGdDBpUQ?oc=5" target="_blank" class="news-title">&quot;HPSP, 파운드리 넘어 메모리 반도체까지 확장…목표가↑&quot;-KB</a></div>
+<div class="news-card saved-card" data-cat="KR" data-text="hpsp hpsp, 증권사 목표가 상향에 강세…3.82% "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">HPSP</span><span class="meta">매일경제 마켓 · 11/14 18:45</span></div><a href="https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NeFFJTnpUQUoyMkdaREVWb1lDNks3TmNqQUllUW9sR1BsclZhQldDUnZLUkRaT2hlZUVmZnJ2NElDbmt5Y0xHSlhIQVgzNVhuOHc?oc=5" target="_blank" class="news-title">HPSP, 증권사 목표가 상향에 강세…3.82%</a></div>
+<div class="news-card saved-card" data-cat="US" data-text="$nvda jensen huang misled nvidia leadership, lawyer on affair with alleged chinese spy: report "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Finviz · Stocktwits · 11/14 18:45</span></div><a href="https://finance.yahoo.com/markets/stocks/articles/jensen-huang-misled-nvidia-leadership-092558570.html" target="_blank" class="news-title">Jensen Huang Misled Nvidia Leadership, Lawyer On Affair With Alleged Chinese Spy: Report</a></div>
+<div class="news-card saved-card" data-cat="US" data-text="$nvda a $2.4 billion fund dumps these 3 stocks "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:45</span></div><a href="https://www.tikr.com/blog/a-2-4-billion-fund-dumps-these-3-stocks?ref=yahoofinance&amp;tlnk=yf-261114-99mppc3m&amp;.tsrc=rss" target="_blank" class="news-title">A $2.4 Billion Fund Dumps These 3 Stocks</a></div>
+<div class="news-card saved-card" data-cat="US" data-text="$nvda new inflation data offers terrible news for president donald trump&#x27;s economy and the ai-driven bull market "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:45</span></div><a href="https://www.fool.com/investing/2026/11/14/new-inflation-data-offers-terrible-news-donald-trump-economy-and-ai-driven-bull-market/?.tsrc=rss" target="_blank" class="news-title">New Inflation Data Offers Terrible News for President Donald Trump&#x27;s Economy and the AI-Driven Bull Market</a></div>
+<div class="news-card saved-card" data-cat="US" data-text="$nvda jensen huang misled nvidia leadership, lawyer on affair with alleged chinese spy: report "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$NVDA</span><span class="meta">Yahoo Finance · 11/14 18:45</span></div><a href="https://stocktwits.com/news-articles/markets/equity/jensen-huang-mislead-nvidia-leadership-lawyer-affair-chinese-spy/cNbP5mxR9Q0?.tsrc=rss" target="_blank" class="news-title">Jensen Huang Misled Nvidia Leadership, Lawyer On Affair With Alleged Chinese Spy: Report</a></div>
+<div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 bofa &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가 "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">연준 금리</span><span class="meta">연합인포맥스 · 11/14 18:28</span></div><a href="https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUGQ3T1lmeDBuT3dOUklaQ0hOUEFxS1dTcUpmMXFFci1EX05QNjlIaUgzQ1ZkNFZpNFN6ZlVVU2ZfMzRYRE1yajc3SElEd1FyNE40anQtbE1vek1LMGNGRTZtQ2xzbG11QUxkdUw4dG0?oc=5" target="_blank" class="news-title">BofA &quot;연준, 다음 달부터 3회 연속 금리 인상&quot;…1월 전망 추가</a></div>
 <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도 "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">연준 금리</span><span class="meta">중앙일보 · 11/14 18:28</span></div><a href="https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FQ1JaS0c1LVFidjF3TlJkNkNlVmMtamFMaVZ1YmZHTDRLRHNKRWI4Z1NtcXg1UThFbmIzZnRhVk02TDNMWno5SGc5LUpOZUNiZUZMaGlB?oc=5" target="_blank" class="news-title">美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도</a></div>
 <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 연준 &#x27;매파 합창&#x27;…12월 넘어 내년까지 금리 올리나 "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">연준 금리</span><span class="meta">블루밍비트 · 11/14 18:28</span></div><a href="https://news.google.com/rss/articles/CBMiUEFVX3lxTE5kU255UTNZUjVTMzVEcGs5ekpsQ085dmNURGkxcHFIb1hfMG1CVUJtYmJ6Ml9xMTFMUUZnMjBTVkE4TXM3Rm9MV0Y1NnBSRFlD?oc=5" target="_blank" class="news-title">연준 &#x27;매파 합창&#x27;…12월 넘어 내년까지 금리 올리나</a></div>
 <div class="news-card saved-card" data-cat="MACRO" data-text="연준 금리 월가, 연준 금리 인상 전망 줄상향…bofa &quot;12월에 이어 1월, 3월에도 올린다&quot; "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">연준 금리</span><span class="meta">뉴스핌 · 11/14 18:28</span></div><a href="https://news.google.com/rss/articles/CBMiXEFVX3lxTE94QnRVa0JaTWV1SVdEYkRzdTVjWDBWRFhkWGdsVktidlFRN3AzdkJPTFh0UC1NNE41bmhncjY1Y0dneFoxRS1pVGFsYzJ0aENheW1YWHpGRVY1Uk5W?oc=5" target="_blank" class="news-title">월가, 연준 금리 인상 전망 줄상향…BofA &quot;12월에 이어 1월, 3월에도 올린다&quot;</a></div>
@@ -222,19 +235,6 @@
 <div class="news-card saved-card" data-cat="US" data-text="$tsla tesla cybercab now available for purchase for select customers but theres a catch "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$TSLA</span><span class="meta">Finviz · Stocktwits · 11/14 18:14</span></div><a href="https://finance.yahoo.com/markets/stocks/articles/tesla-cybercab-now-available-purchase-060937273.html" target="_blank" class="news-title">Tesla Cybercab Now Available For Purchase For Select Customers But Theres A Catch</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$tsla tesla opens sales of autonomous cybercab for &#x27;select&#x27; customers "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$TSLA</span><span class="meta">Finviz · The Wall Street Journal · 11/14 18:14</span></div><a href="https://www.wsj.com/business/autos/tesla-opens-sales-of-autonomous-cybercab-for-select-customers-8d2feae3?mod=wsj_FV" target="_blank" class="news-title">Tesla Opens Sales Of Autonomous Cybercab For &#x27;Select&#x27; Customers</a></div>
 <div class="news-card saved-card" data-cat="US" data-text="$tsla zero to sixty: tesla winds down cybertruck, pulls model y variant while rivian, lucid chase volumes "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$TSLA</span><span class="meta">Finviz · Stocktwits · 11/14 18:14</span></div><a href="https://finance.yahoo.com/markets/stocks/articles/zero-sixty-tesla-winds-down-004556808.html" target="_blank" class="news-title">Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$tsla tesla cybercab now available for purchase for select customers — but there’s a catch "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$TSLA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://stocktwits.com/news-articles/markets/equity/tesla-cybercab-purchase-select-customers-but-catch/cNb26QDR9Qf?.tsrc=rss" target="_blank" class="news-title">Tesla Cybercab Now Available For Purchase For Select Customers — But There’s A Catch</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$tsla zero to sixty: tesla winds down cybertruck, pulls model y variant while rivian, lucid chase volumes "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$TSLA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://stocktwits.com/news-articles/markets/equity/zero-to-sixty-tesla-winds-down-cybertruck-pulls-model-y-variant-while-rivian-lucid-chase-volumes-in-ev-updates-this-week/cNb2AojR9QP?.tsrc=rss" target="_blank" class="news-title">Zero To Sixty: Tesla Winds Down Cybertruck, Pulls Model Y Variant While Rivian, Lucid Chase Volumes</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$tsla spacex, tesla merger puts musk at forefront of &#x27;revolutionary&#x27; tech, analyst says "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$TSLA</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://finance.yahoo.com/m/00d73871-4c74-3adb-95a4-1a0ac2ea77d1/spacex%2C-tesla-merger-puts.html?.tsrc=rss" target="_blank" class="news-title">SpaceX, Tesla Merger Puts Musk At Forefront Of &#x27;Revolutionary&#x27; Tech, Analyst Says</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$aapl 10 executives who left their companies and later returned as ceo "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$AAPL</span><span class="meta">Finviz · Quartz · 11/14 18:14</span></div><a href="https://qz.com/boomerang-ceos-returned-lead-companies" target="_blank" class="news-title">10 executives who left their companies and later returned as CEO</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$aapl the price tag on jensen huang&#x27;s resignation: $639 billion and counting "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$AAPL</span><span class="meta">Finviz · Barrons.com · 11/14 18:14</span></div><a href="https://www.barrons.com/articles/nvidia-stock-jensen-huang-resignation-cost-1893df0f?mod=bar_FV" target="_blank" class="news-title">The Price Tag on Jensen Huang&#x27;s Resignation: $639 Billion and Counting</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$aapl meta tests prediction-market app for employees, wsj reports "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$AAPL</span><span class="meta">Finviz · Investing.com · 11/14 18:14</span></div><a href="https://finance.yahoo.com/technology/articles/meta-tests-prediction-market-app-203017664.html" target="_blank" class="news-title">Meta tests prediction-market app for employees, WSJ reports</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$aapl big tech trades mixed, as nvidia, tesla, alphabet weigh on magnificent seven etf "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$AAPL</span><span class="meta">Finviz · MarketWatch · 11/14 18:14</span></div><a href="https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-nvidia-ceo-jensen-huang-resigns-ppi-inflation-data/card/big-tech-trades-mixed-as-nvidia-tesla-alphabet-weigh-on-magnificent-seven-etf-usCGojHXQWkJerttry68?mod=mw_FV" target="_blank" class="news-title">Big Tech trades mixed, as Nvidia, Tesla, Alphabet weigh on Magnificent Seven ETF</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$aapl is apple stock a buy right now? "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">$AAPL</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://www.fool.com/investing/2026/11/13/is-apple-stock-a-buy-right-now/?.tsrc=rss" target="_blank" class="news-title">Is Apple Stock a Buy Right Now?</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$aapl a $1,999 sellout. what china renaissance sees in apple (aapl) "><div class="card-top"><span class="badge hot">🔥 주요속보</span><span class="ticker-tag">$AAPL</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://finance.yahoo.com/markets/stocks/articles/1-999-sellout-china-renaissance-211310813.html?.tsrc=rss" target="_blank" class="news-title">A $1,999 Sellout. What China Renaissance Sees in Apple (AAPL)</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$aapl jardogshealth forms strategic advisory council with leaders from discover card, mtv, doordash and apple "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$AAPL</span><span class="meta">Yahoo Finance · 11/14 18:14</span></div><a href="https://finance.yahoo.com/healthcare/articles/jardogshealth-forms-strategic-advisory-council-192900019.html?.tsrc=rss" target="_blank" class="news-title">JardogsHealth Forms Strategic Advisory Council with Leaders from Discover Card, MTV, DoorDash and Apple</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$msft nscale reports ballooning debt and need for more as ipo approaches "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$MSFT</span><span class="meta">Finviz · Axios · 11/14 18:14</span></div><a href="https://finance.yahoo.com/technology/ai/articles/nscale-reports-ballooning-debt-more-225456316.html" target="_blank" class="news-title">Nscale reports ballooning debt and need for more as IPO approaches</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$msft microsoft outlook has us all in a chokehold, apparently "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$MSFT</span><span class="meta">Finviz · Barrons.com · 11/14 18:14</span></div><a href="https://www.barrons.com/articles/microsoft-outage-tech-stocks-38eb9a05?mod=bar_FV" target="_blank" class="news-title">Microsoft Outlook Has Us All in a Chokehold, Apparently</a></div>
-<div class="news-card saved-card" data-cat="US" data-text="$msft stocks ride volatile wave as nvidia drama unfolds "><div class="card-top"><span class="badge normal">📰 일반</span><span class="ticker-tag">$MSFT</span><span class="meta">Finviz · Schaeffer&#x27;s Research · 11/14 18:14</span></div><a href="https://finviz.com/news/422723/stocks-ride-volatile-wave-as-nvidia-drama-unfolds" target="_blank" class="news-title">Stocks Ride Volatile Wave as Nvidia Drama Unfolds</a></div>
     </div>
   </div>
 <script>
@@ -282,6 +282,11 @@
     setInterval(refreshLiveIndices, 60000);
   });
 
+  // 알파벳이지만 한국 상장사인 주요 기업 목록 (대소문자 무관 인식)
+  const KR_ENGLISH_STOCKS = new Set([
+    'HPSP', 'NAVER', 'POSCO', 'KT', 'LG', 'SK', 'GS', 'LS', 'CJ', 'OCI', 'BGF', 'SPC', 'KG', 'HD', 'HMM', 'S-OIL', 'SOIL', 'JYP', 'SM', 'YG', 'HYBE', 'KAKAO', 'KRX', 'DB', 'NH', 'KB', 'BNK', 'DGB', 'JB'
+  ]);
+
   const KO_TO_TICKER = {
     '엔비디아': 'NVDA', '앤비디아': 'NVDA', '엔비': 'NVDA',
     '테슬라': 'TSLA', '애플': 'AAPL',
@@ -305,22 +310,29 @@
   };
 
   function resolveQueryContext(raw) {
+    // 모바일에서 Hpsp, hpsp 등으로 들어와도 영문은 모두 대문자로 정규화
     const cleaned = raw.replace('$', '').trim();
     const upper = cleaned.toUpperCase();
     const compact = cleaned.replace(/\s+/g, '');
 
-    if (/^[A-Z0-9.\-]{1,8}$/.test(upper)) {
+    // 1. 영문 기업명/티커 형태인 경우 (Hpsp -> HPSP, nvda -> NVDA)
+    if (/^[A-Za-z0-9.\-]{1,10}$/.test(cleaned)) {
+      if (KR_ENGLISH_STOCKS.has(upper)) {
+        // 한국 상장 영문 기업(예: HPSP)은 한국 구글 뉴스 키워드로 설정하고 미국 티커 조회 제외
+        return { ticker: '', krKeyword: upper, isKrEnglish: true };
+      }
       const matchedKo = Object.keys(KO_TO_TICKER).find(k => KO_TO_TICKER[k] === upper) || '';
-      return { ticker: upper, krKeyword: matchedKo || cleaned };
+      return { ticker: upper, krKeyword: matchedKo || upper, isKrEnglish: false };
     }
 
+    // 2. 한글 기업명 사전 매칭
     if (KO_TO_TICKER[compact]) {
       const tk = KO_TO_TICKER[compact];
       const normalizedKr = (compact === '앤비디아') ? '엔비디아' : cleaned;
-      return { ticker: tk, krKeyword: normalizedKr };
+      return { ticker: tk, krKeyword: normalizedKr, isKrEnglish: false };
     }
 
-    return { ticker: '', krKeyword: cleaned };
+    return { ticker: '', krKeyword: cleaned, isKrEnglish: false };
   }
 
   async function autoDetectTicker(queryText) {
@@ -362,7 +374,7 @@
 
     document.querySelectorAll('.saved-card').forEach(card => {
       const matchCat = (currentCat === 'ALL' || card.dataset.cat === currentCat);
-      const txt = card.dataset.text;
+      const txt = card.dataset.text.toLowerCase();
       const matchText = txt.includes(q1) || (q2 && txt.includes(q2)) || (q3 && txt.includes(q3));
       card.style.display = (matchCat && matchText) ? 'block' : 'none';
     });
@@ -415,15 +427,16 @@
     feedList.style.display = 'none';
 
     let ctx = resolveQueryContext(rawQuery);
-    statusText.textContent = `⏳ '${rawQuery}' 종목 매칭 및 실시간 속보 수집 중...`;
+    statusText.textContent = `⏳ '${ctx.krKeyword}' 종목 매칭 및 실시간 속보 수집 중...`;
 
-    if (!ctx.ticker) {
+    // 한국 영문 기업(HPSP 등)이 아닐 때만 미국 티커 자동 탐색 실행
+    if (!ctx.ticker && !ctx.isKrEnglish) {
       const detected = await autoDetectTicker(rawQuery);
       if (detected) ctx.ticker = detected;
     }
 
     const labelStr = ctx.ticker ? `${ctx.krKeyword} ($${ctx.ticker})` : ctx.krKeyword;
-    statusText.textContent = `⏳ ${labelStr} 국내·미국 현지 속보 수집 및 한글 번역 중...`;
+    statusText.textContent = `⏳ ${labelStr} 실시간 속보 수집 및 정리 중...`;
 
     const krRss = `https://news.google.com/rss/search?q=${encodeURIComponent(ctx.krKeyword)}&hl=ko&gl=KR&ceid=KR:ko`;
     const krApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(krRss)}`;
@@ -456,7 +469,7 @@
       }
 
       if (krData && krData.status === 'ok' && krData.items) {
-        krData.items.slice(0, 8).forEach(item => {
+        krData.items.slice(0, 10).forEach(item => {
           let title = item.title || '';
           let press = 'Google 뉴스';
           if (title.includes(' - ')) {

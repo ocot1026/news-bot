@@ -1,6 +1,136 @@
 [
   {
     "category": "MACRO",
+    "tag": "CPI 물가",
+    "press": "SBS Biz",
+    "title": "美 10월 CPI, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5makxMYnRpM3RIZExBellzdHZvZ2VWNnE1d2VhbGs3bUNzRGVUbmc1dkJPbWJQaVNuQ01wM1FyM3dLQUo5dmVWZTM0c0lyNC00THNB0gFYQVVfeXFMTVcwSjlNUXR2bFpoMW9NSVFRdlNUQnFXcUl3MDFCSDdGaXdIN3ZQN3BlWEY5dGkxZXZ6TURNQjB4QWhXVWV5aHUtWnhtaUJJcGVQZ3VsU0lNZg?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "SK하이닉스",
+    "press": "Investing.com 한국어",
+    "title": "SK하이닉스 주가, 오늘 왜 하락하나?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBULXdLS0RXQXhzOWNYaHB4aGp1ejJlWDlsVVZYbDh0dlZkRnBiRHNRQTR0S1Y3QS1mTk5yVUZsazNsd3dWWHF3ejV4WmhOVzRIYTdDQjhfTi1hdWxZbEpFTExXNHM4Ym5VUVlTeWFXRVNEM0hpMlZr?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "현대차",
+    "press": "머니투데이",
+    "title": "현대차, 쏘카와 자율주행 실증 동맹…국내 도로 데이터 모은다 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1FRkdleVplc0loUXpMYjZWSFZPdGZIN0JZR3ZEMWxIZloxV2hkN0ZoUl9pUG00T3FQWjZ3V0U3WkVxVVNfZ3FDNWFRdlVsUTRJTWl2YmV6YW9JckZNSHRHZENTY2hlU25laVFuTNIBckFVX3lxTFBhRHlIRjBnNzhmaWRGTHZiQzhyQjBfNGJOdmVLUUhuZjgwUTI2UVhMdnRkSlpGbV92MlN4SkROVXZiV052STBROVRNS2ZOZnYyZ3FaRDBwVTFxLWU5b0dYN21SUWFrZDN0VXc0X1ItOGNsZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "한화에어로스페이스",
+    "press": "Chosunbiz",
+    "title": "한화에어로, 국과연과 ‘1만 파운드급’ 항공 엔진 개발 나선다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZ1hVX0JZa1N2NDNQXzJhNW1kX3R4Qk5tTmVudmlsUUc1ZXRzVk5TTGlsRlNXbkFsQm05TGxTeC1Kbl9kVG1qOEdLTFZBRW5JWkFFVjhHMk42emJEYk9Wdjc2TEhpeTNqY1QyWDYtQ3pYU3RiV0dqamxuV1VrVWpzZ0FtQm7SAZgBQVVfeXFMTy1wSjZPa20yX3JRMVpxeWhNa0I2UlhxZlUwNHlCNUxjZVhDdzR0YkRydnFwSUpCYnhZazZvZThocDZFLTVrbTNmUThMV3hfaVZiVjhXc1BsV3V3Sm1HbjRQWXZnWEwtR2lBakF2ejBDZEdqQ0ZaM0ZqdXpvcmFVUHBNMWhTdGJXeEVhUk0xT2NnekRfRnlhMFM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "한화에어로스페이스",
+    "press": "국제뉴스",
+    "title": "한화에어로스페이스, 육군본부 과장단 첫 초청…민·관·군 수출 협력 강조",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9SWUVPeTg1RjRxOTIxZEgxN3RIWkZfME5GTmxCZ1JfaGdnejNzQVJ3a0wzY1dfbHJ1ckJhYWxhQkdsQ0drbGNMMjFNX2ljMTNNTEpaT3ByR3BCam84MG9GQlcyY25VWDBobGdPTk1B?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "HPSP",
+    "press": "뉴스핌",
+    "title": "[장중수급포착] HPSP, 기관 5일 연속 순매수행진... 주가 +1.12%",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jVzNkMUhENUxxWmhsU2VydDB3YU5BTEl5UXNYUHJCQkFqRjMwanlZQVJsT0taaG1IVV9HLVIwNmVxY3BJcVM5NV9RVFo5cmUtakQ0VDR4N1dTRll3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "HPSP",
+    "press": "디일렉",
+    "title": "HPSP, 각자대표 체제 출범",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBtdjFONEd6cF9SQ3gxOWM2ak1CUHlZZ0VBWlU2dUwtS2M5a01jNk5TNDAyQVEwOHUwTjdSSkFTWjJuOXpnczhkMXk2VHNzbFdfUkRJTk41RGdHNk0xT25kRDVmMVV4UQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "HPSP",
+    "press": "한국경제",
+    "title": "\"HPSP, 파운드리 넘어 메모리 반도체까지 확장…목표가↑\"-KB",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XcmZfVm9iLTBFQkJ2ZDRLcHNZQkpuaDVMTlBtZzRDZUFVYmFvOVZyQndnVnpsWDNJaGh3T1RNbEJCbkRMbFpKcXY1XzVNWUtiZ0YtdEJGdDBpUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "KR",
+    "tag": "HPSP",
+    "press": "매일경제 마켓",
+    "title": "HPSP, 증권사 목표가 상향에 강세…3.82%",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NeFFJTnpUQUoyMkdaREVWb1lDNks3TmNqQUllUW9sR1BsclZhQldDUnZLUkRaT2hlZUVmZnJ2NElDbmt5Y0xHSlhIQVgzNVhuOHc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "US",
+    "tag": "$NVDA",
+    "press": "Finviz · Stocktwits",
+    "title": "Jensen Huang Misled Nvidia Leadership, Lawyer On Affair With Alleged Chinese Spy: Report",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-misled-nvidia-leadership-092558570.html",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "US",
+    "tag": "$NVDA",
+    "press": "Yahoo Finance",
+    "title": "A $2.4 Billion Fund Dumps These 3 Stocks",
+    "sub_title": "",
+    "link": "https://www.tikr.com/blog/a-2-4-billion-fund-dumps-these-3-stocks?ref=yahoofinance&tlnk=yf-261114-99mppc3m&.tsrc=rss",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "US",
+    "tag": "$NVDA",
+    "press": "Yahoo Finance",
+    "title": "New Inflation Data Offers Terrible News for President Donald Trump's Economy and the AI-Driven Bull Market",
+    "sub_title": "",
+    "link": "https://www.fool.com/investing/2026/11/14/new-inflation-data-offers-terrible-news-donald-trump-economy-and-ai-driven-bull-market/?.tsrc=rss",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "US",
+    "tag": "$NVDA",
+    "press": "Yahoo Finance",
+    "title": "Jensen Huang Misled Nvidia Leadership, Lawyer On Affair With Alleged Chinese Spy: Report",
+    "sub_title": "",
+    "link": "https://stocktwits.com/news-articles/markets/equity/jensen-huang-mislead-nvidia-leadership-lawyer-affair-chinese-spy/cNbP5mxR9Q0?.tsrc=rss",
+    "impact": "📰 일반",
+    "time": "11/14 18:45"
+  },
+  {
+    "category": "MACRO",
     "tag": "연준 금리",
     "press": "연합인포맥스",
     "title": "BofA \"연준, 다음 달부터 3회 연속 금리 인상\"…1월 전망 추가",
@@ -1868,132 +1998,5 @@
     "link": "https://finance.yahoo.com/technology/ai/articles/xanadu-breakthroughs-partnerships-advance-roadmap-221337932.html",
     "impact": "📰 일반",
     "time": "11/14 18:08"
-  },
-  {
-    "category": "US",
-    "tag": "$AMD",
-    "press": "Finviz · Yahoo Finance",
-    "title": "Stock market today: Dow rises, S&P 500 and Nasdaq slip to cap volatile week, Nvidia stock plunge deepens",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/live/stock-market-today-friday-november-13-dow-sp-500-nasdaq-nvidia-ppi-141451558.html",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:08"
-  },
-  {
-    "category": "US",
-    "tag": "$PLTR",
-    "press": "Finviz · Investing.com",
-    "title": "AI software is sinking, why is Accenture winning $84.5B deals?",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/ai/articles/ai-software-sinking-why-accenture-124147461.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:08"
-  },
-  {
-    "category": "US",
-    "tag": "$PLTR",
-    "press": "Finviz · The Daily Upside",
-    "title": "Obscure Defense Tech Company Sees 1,550% Revenue Jump",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/obscure-defense-tech-company-sees-050100730.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:08"
-  },
-  {
-    "category": "US",
-    "tag": "$PLTR",
-    "press": "Finviz · Stocktwits",
-    "title": "Cathie Wood Boosts Bets On 2 AI Firms Amid Nvidias Huang Upheaval Heres How Her Trading Week Unfolded",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/ai/articles/cathie-wood-boosts-bets-2-044147224.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:08"
-  },
-  {
-    "category": "US",
-    "tag": "$PLTR",
-    "press": "Finviz · IPO-Edge.com",
-    "title": "IPO Edge NYSE Firesides Scheduled for Monday, December 7",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/articles/ipo-edge-nyse-firesides-scheduled-222131276.html",
-    "impact": "📰 일반",
-    "time": "11/14 18:08"
-  },
-  {
-    "category": "MACRO",
-    "tag": "연준 금리",
-    "press": "IDNFinancials",
-    "title": "시장은 12월에 연준 금리 인상을 예상",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPSW9GZmdrMy1uRDFUaTFZRkZfanM3c2lUTTYwNTdDUEx4ZVhBblkzaHE1NUdoeXE1VmZzT0h6M2lHMlV3cTF4ZkR0c19GTGJEcDZZQ2xMdjBGRk1YWTNfaGdvcGEyWWhrWTkwTjN6cVZFUFlSWHpOeTNkM3VlaW5OYndWc3QyTUdLYXRaNEdULXZCT2lLNGtwbDc3NllrV2lrOFp2dEpqc0g0RThtOFRHMERKNVozQTM4Q2doR1Vza2YwR1NRVW9laGZUanR6RUpmcXJ2NXI5SVVfenlvMDVoREptNDNMYXgzTXBxVjlUTTNXUTczbkNKVnZrcmlsUHNlNVNuXzVYRWY?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 17:57"
-  },
-  {
-    "category": "MACRO",
-    "tag": "CPI 물가",
-    "press": "SBS Biz",
-    "title": "美 10월 CPI, 예상 웃돈 0.4%↑…금리 인상 확률 100%로 상향",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5makxMYnRpM3RIZExBellzdHZvZ2VWNnE1d2VhbGs3bUNzRGVUbmc1dkJPbWJQaVNuQ01wM1FyM3dLQUo5dmVWZTM0c0lyNC00THNB0gFYQVVfeXFMTVcwSjlNUXR2bFpoMW9NSVFRdlNUQnFXcUl3MDFCSDdGaXdIN3ZQN3BlWEY5dGkxZXZ6TURNQjB4QWhXVWV5aHUtWnhtaUJJcGVQZ3VsU0lNZg?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 17:57"
-  },
-  {
-    "category": "MACRO",
-    "tag": "미국 증시",
-    "press": "한국경제",
-    "title": "앤트로픽 드디어 나스닥 데뷔…편입 전략에 쏠리는 눈 [이수의 ETF 줌인]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4yTHJ6VUtuSzBSeFl0eXhIdWpCSEl0Q3h0S19ibGpWa29SM1JBbnhVdUJ5MzdBS2dRVnRXZWdzMWRtTnhRLV9rMEZfcDBnU1hMTEV6X3BMRnBUZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 17:57"
-  },
-  {
-    "category": "MACRO",
-    "tag": "코스피",
-    "press": "매일경제",
-    "title": "“도대체 언제 오를까요”...코스피 반등 3가지 조건 보니",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5pOFhyQ3pJSzR5WnJQZENqbnloUXozUnlOSElNWjdsdGJxWl9Vbmw1SksxNTJibTZDLUZoVG10UGRpMHFpNktheFFxb252RUozWjVKXw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 17:57"
-  },
-  {
-    "category": "KR",
-    "tag": "현대차",
-    "press": "스트레이트뉴스",
-    "title": "고려아연, 현대차그룹 신주발행 무효소송 2심 승소…법원 “경영상 필요 인정”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NeV9ZRVVWY1paNmVvQm90ZnhLNzF4Mzg4QU9ZUlA4em85U1hOcWZpVWpDekZhR2xya19YMHd1TjdxRVVEclMxR1g2Q0t4VER4Y0Nra21QTUFtUXROa0F5RUtRdlFidEU0VHQzWTJldGdXZjDSAXdBVV95cUxNMVFGVUFfaVZnanVCcWEtUWxxY1hqSE82LWJUbm1oSTZtR0x5RURnbFhCbmV1ZGQ0bFd1LW1lRXgyaEdnNldhXzkxQU81N0JfeE9Nb19ORm1IWnJFMzJmdE5Dd2ItMGJRLVFGMVJFSzJsaEJHaXY0RQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 17:57"
-  },
-  {
-    "category": "MACRO",
-    "tag": "연준 금리",
-    "press": "연합인포맥스",
-    "title": "BofA \"연준, 다음 달부터 3회 연속 금리 인상\"…1월 전망 추가",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5wUGQ3T1lmeDBuT3dOUklaQ0hOUEFxS1dTcUpmMXFFci1EX05QNjlIaUgzQ1ZkNFZpNFN6ZlVVU2ZfMzRYRE1yajc3SElEd1FyNE40anQtbE1vek1LMGNGRTZtQ2xzbG11QUxkdUw4dG0?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 17:46"
-  },
-  {
-    "category": "MACRO",
-    "tag": "연준 금리",
-    "press": "중앙일보",
-    "title": "美연준 월러 “12월 금리 50bp 인상 검토”…‘빅스텝’ 가능성도",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5FQ1JaS0c1LVFidjF3TlJkNkNlVmMtamFMaVZ1YmZHTDRLRHNKRWI4Z1NtcXg1UThFbmIzZnRhVk02TDNMWno5SGc5LUpOZUNiZUZMaGlB?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 17:46"
-  },
-  {
-    "category": "MACRO",
-    "tag": "연준 금리",
-    "press": "뉴스핌",
-    "title": "월가, 연준 금리 인상 전망 줄상향…BofA \"12월에 이어 1월, 3월에도 올린다\"",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE94QnRVa0JaTWV1SVdEYkRzdTVjWDBWRFhkWGdsVktidlFRN3AzdkJPTFh0UC1NNE41bmhncjY1Y0dneFoxRS1pVGFsYzJ0aENheW1YWHpGRVY1Uk5W?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 17:46"
   }
 ]
