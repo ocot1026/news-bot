@@ -9,11 +9,11 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v5.1 - 안정화 에디션]
+# [나만의 세이브티커 v5.2 - 모바일 대소문자 통합 & 국내 영문종목 인식 에디션]
 # ==========================================
 
 MACRO_KEYWORDS = ["연준 금리", "환율", "유가", "CPI 물가", "미국 증시", "코스피"]
-KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER"]
+KR_COMPANIES = ["삼성전자", "SK하이닉스", "현대차", "한화에어로스페이스", "NAVER", "HPSP"]
 US_TICKERS = ["NVDA", "TSLA", "AAPL", "MSFT", "AMD", "PLTR"]
 IGNORE_WORDS = ["부고", "인사", "포토", "동정", "모집", "이벤트", "할인", "광고"]
 
@@ -248,7 +248,7 @@ def fetch_dart():
             corp = item.get("corp_name", "")
             report = item.get("report_nm", "")
             rcp = item.get("rcept_no", "")
-            if any(k in corp for k in KR_COMPANIES):
+            if any(k.upper() in corp.upper() for k in KR_COMPANIES):
                 results.append({
                     "category": "DART",
                     "tag": corp,
@@ -367,7 +367,7 @@ def build_saveticker_html(feed_items, indices, updated_time):
         <button class="tab" onclick="filterCat('KR', this)">🇰🇷 국내기업</button>
         <button class="tab" onclick="filterCat('US', this)">🇺🇸 미국주식(번역)</button>
         <div class="search-wrap">
-          <input type="text" class="search-box" id="searchInput" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="엔비디아, NVDA, 테슬라 입력 후 Enter...">
+          <input type="text" class="search-box" id="searchInput" autocapitalize="characters" autocorrect="off" spellcheck="false" onkeydown="if(event.key==='Enter') liveSearch()" onkeyup="localFilter()" placeholder="HPSP, 엔비디아, NVDA 입력 후 Enter...">
           <button class="search-btn" onclick="liveSearch()">실시간 검색</button>
         </div>
       </div>
@@ -439,6 +439,11 @@ def build_saveticker_html(feed_items, indices, updated_time):
     setInterval(refreshLiveIndices, 60000);
   });
 
+  // 알파벳이지만 한국 상장사인 주요 기업 목록 (대소문자 무관 인식)
+  const KR_ENGLISH_STOCKS = new Set([
+    'HPSP', 'NAVER', 'POSCO', 'KT', 'LG', 'SK', 'GS', 'LS', 'CJ', 'OCI', 'BGF', 'SPC', 'KG', 'HD', 'HMM', 'S-OIL', 'SOIL', 'JYP', 'SM', 'YG', 'HYBE', 'KAKAO', 'KRX', 'DB', 'NH', 'KB', 'BNK', 'DGB', 'JB'
+  ]);
+
   const KO_TO_TICKER = {
     '엔비디아': 'NVDA', '앤비디아': 'NVDA', '엔비': 'NVDA',
     '테슬라': 'TSLA', '애플': 'AAPL',
@@ -462,22 +467,29 @@ def build_saveticker_html(feed_items, indices, updated_time):
   };
 
   function resolveQueryContext(raw) {
+    // 모바일에서 Hpsp, hpsp 등으로 들어와도 영문은 모두 대문자로 정규화
     const cleaned = raw.replace('$', '').trim();
     const upper = cleaned.toUpperCase();
     const compact = cleaned.replace(/\s+/g, '');
 
-    if (/^[A-Z0-9.\-]{1,8}$/.test(upper)) {
+    // 1. 영문 기업명/티커 형태인 경우 (Hpsp -> HPSP, nvda -> NVDA)
+    if (/^[A-Za-z0-9.\-]{1,10}$/.test(cleaned)) {
+      if (KR_ENGLISH_STOCKS.has(upper)) {
+        // 한국 상장 영문 기업(예: HPSP)은 한국 구글 뉴스 키워드로 설정하고 미국 티커 조회 제외
+        return { ticker: '', krKeyword: upper, isKrEnglish: true };
+      }
       const matchedKo = Object.keys(KO_TO_TICKER).find(k => KO_TO_TICKER[k] === upper) || '';
-      return { ticker: upper, krKeyword: matchedKo || cleaned };
+      return { ticker: upper, krKeyword: matchedKo || upper, isKrEnglish: false };
     }
 
+    // 2. 한글 기업명 사전 매칭
     if (KO_TO_TICKER[compact]) {
       const tk = KO_TO_TICKER[compact];
       const normalizedKr = (compact === '앤비디아') ? '엔비디아' : cleaned;
-      return { ticker: tk, krKeyword: normalizedKr };
+      return { ticker: tk, krKeyword: normalizedKr, isKrEnglish: false };
     }
 
-    return { ticker: '', krKeyword: cleaned };
+    return { ticker: '', krKeyword: cleaned, isKrEnglish: false };
   }
 
   async function autoDetectTicker(queryText) {
@@ -519,7 +531,7 @@ def build_saveticker_html(feed_items, indices, updated_time):
 
     document.querySelectorAll('.saved-card').forEach(card => {
       const matchCat = (currentCat === 'ALL' || card.dataset.cat === currentCat);
-      const txt = card.dataset.text;
+      const txt = card.dataset.text.toLowerCase();
       const matchText = txt.includes(q1) || (q2 && txt.includes(q2)) || (q3 && txt.includes(q3));
       card.style.display = (matchCat && matchText) ? 'block' : 'none';
     });
@@ -572,15 +584,16 @@ def build_saveticker_html(feed_items, indices, updated_time):
     feedList.style.display = 'none';
 
     let ctx = resolveQueryContext(rawQuery);
-    statusText.textContent = `⏳ '${rawQuery}' 종목 매칭 및 실시간 속보 수집 중...`;
+    statusText.textContent = `⏳ '${ctx.krKeyword}' 종목 매칭 및 실시간 속보 수집 중...`;
 
-    if (!ctx.ticker) {
+    // 한국 영문 기업(HPSP 등)이 아닐 때만 미국 티커 자동 탐색 실행
+    if (!ctx.ticker && !ctx.isKrEnglish) {
       const detected = await autoDetectTicker(rawQuery);
       if (detected) ctx.ticker = detected;
     }
 
     const labelStr = ctx.ticker ? `${ctx.krKeyword} ($${ctx.ticker})` : ctx.krKeyword;
-    statusText.textContent = `⏳ ${labelStr} 국내·미국 현지 속보 수집 및 한글 번역 중...`;
+    statusText.textContent = `⏳ ${labelStr} 실시간 속보 수집 및 정리 중...`;
 
     const krRss = `https://news.google.com/rss/search?q=${encodeURIComponent(ctx.krKeyword)}&hl=ko&gl=KR&ceid=KR:ko`;
     const krApi = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(krRss)}`;
@@ -613,7 +626,7 @@ def build_saveticker_html(feed_items, indices, updated_time):
       }
 
       if (krData && krData.status === 'ok' && krData.items) {
-        krData.items.slice(0, 8).forEach(item => {
+        krData.items.slice(0, 10).forEach(item => {
           let title = item.title || '';
           let press = 'Google 뉴스';
           if (title.includes(' - ')) {
