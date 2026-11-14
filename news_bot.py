@@ -9,27 +9,27 @@ import urllib.request
 import xml.etree.ElementTree as ET
 
 # ==========================================
-# [나만의 세이브티커 v6.3 - FOMC · CPI · PPI 직전발표치 대조 색상 판별 에디션]
+# [나만의 세이브티커 v7.0 - 120일 일봉 호버 차트 & 매크로 대시보드]
 # ==========================================
 
-# 1. 미국 거시경제 공식 발표치 (curr: 이번 발표치, prev: 직전 발표치 -> 변동폭 및 색상 자동 계산)
+# 1. 미국 거시경제 공식 발표치 (curr: 이번 발표치, prev: 직전 발표치)
 MACRO_OFFICIAL = {
     "FOMC": {
-        "display": "3.75~4.00%",  # 화면 표시 금리 구간
-        "curr": 4.00,              # 이번 FOMC 상단 금리 (%)
-        "prev": 4.00,              # 직전 FOMC 상단 금리 (%) -> 같으면 자동으로 초록색 '동결' 표시
+        "display": "3.75~4.00%",
+        "curr": 4.00,
+        "prev": 4.00,
         "date": "2026.10"
     },
     "CPI": {
-        "display": "3.7% (YoY)",   # 화면 표시 물가 수치
-        "curr": 3.7,               # 이번 CPI 전년비 (%)
-        "prev": 3.5,               # 직전 CPI 전년비 (%) -> 높으면 빨간색 상승, 낮으면 파란색 하락
+        "display": "3.7% (YoY)",
+        "curr": 3.7,
+        "prev": 3.5,
         "date": "10월 MoM +0.4%"
     },
     "PPI": {
-        "display": "6.5% (YoY)",   # 화면 표시 생산자물가 수치
-        "curr": 6.5,               # 이번 PPI 전년비 (%)
-        "prev": 6.8,               # 직전 PPI 전년비 (%) -> 낮으면 파란색 하락, 높으면 빨간색 상승
+        "display": "6.5% (YoY)",
+        "curr": 6.5,
+        "prev": 6.8,
         "date": "10월 MoM +0.3%"
     }
 }
@@ -115,17 +115,44 @@ def strip_html_tags(raw_html):
     return html.unescape(re.sub(r"\s+", " ", text)).strip()
 
 
-def fetch_yahoo_quote(sym, decimals=2):
+def fetch_yahoo_quote_and_120d(sym, decimals=2):
+    """현재 시세와 함께 최근 120거래일 일봉(OHLC) 데이터를 함께 수집합니다."""
     headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
     try:
         encoded_sym = urllib.parse.quote(sym)
-        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded_sym}?interval=1d&range=5d"
+        url = f"https://query1.finance.yahoo.com/v8/finance/chart/{encoded_sym}?interval=1d&range=8mo"
         req = urllib.request.Request(url, headers=headers)
-        with urllib.request.urlopen(req, timeout=8) as res:
+        with urllib.request.urlopen(req, timeout=10) as res:
             data = json.loads(res.read().decode("utf-8"))
-        meta = data["chart"]["result"][0]["meta"]
+
+        result = data["chart"]["result"][0]
+        meta = result["meta"]
+        timestamps = result.get("timestamp", [])
+        quote = result["indicators"]["quote"][0]
+        opens = quote.get("open", [])
+        highs = quote.get("high", [])
+        lows = quote.get("low", [])
+        closes = quote.get("close", [])
+
+        candles = []
+        for i in range(len(timestamps)):
+            if i < len(closes) and closes[i] is not None and opens[i] is not None and highs[i] is not None and lows[i] is not None:
+                dt_str = datetime.datetime.utcfromtimestamp(timestamps[i]).strftime("%m/%d")
+                candles.append([
+                    dt_str,
+                    round(float(opens[i]), decimals),
+                    round(float(highs[i]), decimals),
+                    round(float(lows[i]), decimals),
+                    round(float(closes[i]), decimals)
+                ])
+
+        candles_120 = candles[-120:]
+
         price = meta.get("regularMarketPrice")
         prev = meta.get("chartPreviousClose") or meta.get("previousClose")
+        if len(candles_120) >= 2 and (prev is None or prev == price):
+            prev = candles_120[-2][4]
+
         if price is not None and prev:
             diff = price - prev
             pct = (diff / prev) * 100
@@ -135,25 +162,22 @@ def fetch_yahoo_quote(sym, decimals=2):
                 "price": fmt.format(price),
                 "diff": dfmt.format(diff),
                 "pct": f"{pct:+.2f}%",
-                "up": diff >= 0
+                "up": diff >= 0,
+                "candles": candles_120
             }
     except Exception as e:
-        print(f"[Quote-{sym}] 오류: {e}")
-    return {"price": "-", "diff": "0.00", "pct": "0.00%", "up": True}
+        print(f"[Quote120-{sym}] 오류: {e}")
+    return {"price": "-", "diff": "0.00", "pct": "0.00%", "up": True, "candles": []}
 
 
 def evaluate_macro_delta(key, cfg, extra_note=""):
-    """직전 발표치(prev)와 현재 발표치(curr)를 비교해 동결(초록)/상승(빨강)/하락(파랑) 상태를 반환합니다."""
     curr = float(cfg["curr"])
     prev = float(cfg["prev"])
     diff = round(curr - prev, 4)
 
     if abs(diff) < 1e-6:
         status_cls = "freeze"
-        if key == "FOMC":
-            status_text = f"동결 ({cfg['date']})"
-        else:
-            status_text = f"동결 (직전 {prev:.1f}%)"
+        status_text = f"동결 ({cfg['date']})" if key == "FOMC" else f"동결 (직전 {prev:.1f}%)"
     elif diff > 0:
         status_cls = "up"
         if key == "FOMC":
@@ -178,28 +202,43 @@ def evaluate_macro_delta(key, cfg, extra_note=""):
 
 
 def fetch_all_macro_dashboard():
-    us10y = fetch_yahoo_quote("^TNX", 2)
+    us10y = fetch_yahoo_quote_and_120d("^TNX", 2)
     ten_y_str = f"미10Y {us10y['price']}%" if us10y["price"] != "-" else "실효 3.88%"
 
-    board = {
-        "KOSPI": fetch_yahoo_quote("^KS11", 2),
-        "KOSDAQ": fetch_yahoo_quote("^KQ11", 2),
-        "DOW": fetch_yahoo_quote("^DJI", 2),
-        "NASDAQ": fetch_yahoo_quote("^IXIC", 2),
-        "USDKRW": fetch_yahoo_quote("KRW=X", 2),
-        "EURUSD": fetch_yahoo_quote("EURUSD=X", 4),
-        "USDJPY": fetch_yahoo_quote("JPY=X", 2),
-        "GBPUSD": fetch_yahoo_quote("GBPUSD=X", 4),
-        "USDCHF": fetch_yahoo_quote("CHF=X", 4),
-        "USDCAD": fetch_yahoo_quote("CAD=X", 4),
-        "OIL": fetch_yahoo_quote("CL=F", 2),
-        "GOLD": fetch_yahoo_quote("GC=F", 2),
-        "SILVER": fetch_yahoo_quote("SI=F", 2),
-        "FOMC": evaluate_macro_delta("FOMC", MACRO_OFFICIAL["FOMC"], ten_y_str),
-        "CPI": evaluate_macro_delta("CPI", MACRO_OFFICIAL["CPI"]),
-        "PPI": evaluate_macro_delta("PPI", MACRO_OFFICIAL["PPI"])
-    }
-    return board
+    items_meta = [
+        ("KOSPI", "🇰🇷 코스피 (KOSPI)", "^KS11", 2),
+        ("KOSDAQ", "🇰🇷 코스닥 (KOSDAQ)", "^KQ11", 2),
+        ("DOW", "🇺🇸 다우존스 (DOW)", "^DJI", 2),
+        ("NASDAQ", "🇺🇸 나스닥 (NASDAQ)", "^IXIC", 2),
+        ("USDKRW", "🇰🇷 원/달러 (USD/KRW)", "KRW=X", 2),
+        ("EURUSD", "🇪🇺 유로/달러 (EUR/USD)", "EURUSD=X", 4),
+        ("USDJPY", "🇯🇵 달러/엔 (USD/JPY)", "JPY=X", 2),
+        ("GBPUSD", "🇬🇧 파운드/달러 (GBP/USD)", "GBPUSD=X", 4),
+        ("USDCHF", "🇨🇭 달러/프랑 (USD/CHF)", "CHF=X", 4),
+        ("USDCAD", "🇨🇦 달러/캐나다 (USD/CAD)", "CAD=X", 4),
+        ("OIL", "🛢 WTI 유가 ($/bbl)", "CL=F", 2),
+        ("GOLD", "🥇 국제 금 ($/oz)", "GC=F", 2),
+        ("SILVER", "🥈 국제 은 ($/oz)", "SI=F", 2),
+    ]
+
+    board = {}
+    chart_store = {}
+
+    for key, label, sym, dec in items_meta:
+        q = fetch_yahoo_quote_and_120d(sym, dec)
+        board[key] = q
+        chart_store[key] = {
+            "label": label,
+            "sym": sym,
+            "dec": dec,
+            "candles": q.get("candles", [])
+        }
+
+    board["FOMC"] = evaluate_macro_delta("FOMC", MACRO_OFFICIAL["FOMC"], ten_y_str)
+    board["CPI"] = evaluate_macro_delta("CPI", MACRO_OFFICIAL["CPI"])
+    board["PPI"] = evaluate_macro_delta("PPI", MACRO_OFFICIAL["PPI"])
+
+    return board, chart_store
 
 
 def fetch_finviz_news_only(ticker):
@@ -342,17 +381,16 @@ def render_tile(box_id, label, sub_label, info, compact=False):
     price = html.escape(str(info.get("price", "-")))
     diff = html.escape(str(info.get("diff", "")))
     pct = html.escape(str(info.get("pct", "")))
-    card_cls = "idx-card compact" if compact else "idx-card"
+    card_cls = "idx-card chartable compact" if compact else "idx-card chartable"
     return (
-        f'<div class="{card_cls}" id="idx-{box_id}">'
-        f'<div class="idx-head"><span class="idx-name">{label}</span><span class="idx-sub">{sub_label}</span></div>'
+        f'<div class="{card_cls}" id="idx-{box_id}" data-chart-key="{box_id}">'
+        f'<div class="idx-head"><span class="idx-name">{label}</span><span class="idx-sub">{sub_label} 📈</span></div>'
         f'<div class="idx-body"><span class="idx-price">{price}</span><span class="idx-chg {cls}">{arrow}{diff} ({pct})</span></div>'
         f'</div>'
     )
 
 
 def render_macro_policy_tile(box_id, label, sub_label, info):
-    """FOMC/CPI/PPI 전용 타일: 동결=초록(freeze), 상승=빨강(up), 하락=파랑(down)"""
     price = html.escape(str(info.get("price", "-")))
     status_text = html.escape(str(info.get("status_text", "")))
     status_cls = html.escape(str(info.get("status_cls", "freeze")))
@@ -365,7 +403,7 @@ def render_macro_policy_tile(box_id, label, sub_label, info):
     )
 
 
-def build_saveticker_html(feed_items, board, updated_time):
+def build_saveticker_html(feed_items, board, chart_store, updated_time):
     row_kr = render_tile("KOSPI", "🇰🇷 코스피", "KOSPI", board.get("KOSPI", {})) + render_tile("KOSDAQ", "🇰🇷 코스닥", "KOSDAQ", board.get("KOSDAQ", {}))
     row_us = render_tile("DOW", "🇺🇸 다우존스", "DOW JONES", board.get("DOW", {})) + render_tile("NASDAQ", "🇺🇸 나스닥", "NASDAQ", board.get("NASDAQ", {}))
     row_fx = (
@@ -407,13 +445,14 @@ def build_saveticker_html(feed_items, board, updated_time):
         )
 
     cards_html = "\n".join(card_parts) if card_parts else "<p style='color:#8b949e;text-align:center;'>수집된 뉴스가 없습니다.</p>"
+    chart_json_str = json.dumps(chart_store, ensure_ascii=False)
 
     template = """<!DOCTYPE html>
 <html lang="ko">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My SaveTicker - 실시간 증시·매크로 대시보드</title>
+<title>My SaveTicker - 실시간 증시·120일 차트 대시보드</title>
 <style>
   body { background-color: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, "Pretendard", sans-serif; margin: 0; padding: 0; }
   .header { background: #161b22; border-bottom: 1px solid #30363d; padding: 14px 20px; position: sticky; top: 0; z-index: 100; }
@@ -429,7 +468,9 @@ def build_saveticker_html(feed_items, board, updated_time):
     .grid-3 { grid-template-columns: repeat(2, 1fr); }
   }
 
-  .idx-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 12px 15px; display: flex; flex-direction: column; gap: 6px; }
+  .idx-card { background: #161b22; border: 1px solid #30363d; border-radius: 10px; padding: 12px 15px; display: flex; flex-direction: column; gap: 6px; transition: border-color 0.2s, transform 0.15s; }
+  .idx-card.chartable { cursor: crosshair; }
+  .idx-card.chartable:hover { border-color: #58a6ff; background: #1c222b; }
   .idx-card.compact { padding: 10px 12px; gap: 4px; }
   .idx-head { display: flex; justify-content: space-between; align-items: center; }
   .idx-name { font-size: 13px; font-weight: 700; color: #c9d1d9; }
@@ -443,6 +484,27 @@ def build_saveticker_html(feed_items, board, updated_time):
   .idx-chg.up { color: #ff6b6b; }
   .idx-chg.down { color: #4dabf7; }
   .idx-chg.freeze { color: #3fb950; background: rgba(63, 185, 80, 0.14); padding: 2px 7px; border-radius: 6px; border: 1px solid rgba(63, 185, 80, 0.35); }
+
+  /* 120일 일봉 플로팅 차트 툴팁 */
+  .chart-tooltip {
+    position: fixed;
+    z-index: 9999;
+    width: 340px;
+    max-width: calc(100vw - 24px);
+    background: #161b22;
+    border: 1px solid #58a6ff;
+    border-radius: 12px;
+    padding: 12px 14px;
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.75);
+    pointer-events: none;
+    display: none;
+  }
+  .ct-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 6px; }
+  .ct-title { font-size: 13px; font-weight: 800; color: #f0f6fc; }
+  .ct-badge { font-size: 10.5px; color: #8b949e; background: #21262d; padding: 2px 7px; border-radius: 6px; }
+  .ct-stats { display: flex; justify-content: space-between; font-size: 11px; color: #8b949e; margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid #21262d; }
+  .ct-stats b { color: #e6edf3; }
+  .ct-legend { display: flex; justify-content: space-between; font-size: 10px; color: #8b949e; margin-top: 4px; }
 
   .search-panel { background: #161b22; border: 1px solid #30363d; border-radius: 12px; padding: 12px; margin: 14px 0; }
   .search-wrap { display: flex; gap: 8px; margin-bottom: 10px; }
@@ -478,7 +540,23 @@ def build_saveticker_html(feed_items, board, updated_time):
     </div>
   </div>
 
+  <!-- 120일 일봉 플로팅 차트 팝업 -->
+  <div class="chart-tooltip" id="chartTooltip">
+    <div class="ct-header">
+      <span class="ct-title" id="ctTitle">KOSPI</span>
+      <span class="ct-badge">120일 일봉 · MA20</span>
+    </div>
+    <div class="ct-stats" id="ctStats"></div>
+    <canvas id="ctCanvas" width="312" height="145"></canvas>
+    <div class="ct-legend">
+      <span id="ctStartDate">-</span>
+      <span style="color:#eab308;">--- 20일 이평선</span>
+      <span id="ctEndDate">-</span>
+    </div>
+  </div>
+
   <div class="container">
+    <div class="sec-label" style="margin-top:0;">📈 주요 증시 지수 (마우스를 올리면 120일 일봉 차트가 표시됩니다)</div>
     <div class="grid-2">__ROW_KR__</div>
     <div class="grid-2">__ROW_US__</div>
 
@@ -495,10 +573,10 @@ def build_saveticker_html(feed_items, board, updated_time):
       </div>
     </div>
 
-    <div class="sec-label">💱 실시간 환율 (한국 원/달러 & 세계 5대 주요 통화)</div>
+    <div class="sec-label">💱 실시간 환율 (한국 원/달러 & 세계 5대 주요 통화 · 호버 시 120일 차트)</div>
     <div class="grid-3">__ROW_FX__</div>
 
-    <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은)</div>
+    <div class="sec-label">⛏️ 원자재 선물 (WTI 유가 · 국제 금 · 국제 은 · 호버 시 120일 차트)</div>
     <div class="grid-3">__ROW_CMD__</div>
 
     <div class="sec-label">🏛️ 미국 통화정책 & 물가지표 (FOMC · CPI · PPI — 직전 발표치 대비)</div>
@@ -517,46 +595,214 @@ def build_saveticker_html(feed_items, board, updated_time):
 
 <script>
   let currentCat = 'ALL';
+  const CHART_DATA = __CHART_JSON__;
+
+  // 120일 일봉 캔들 + 20일 이동평균선 렌더링 엔진
+  function render120DayCandles(key) {
+    const item = CHART_DATA[key];
+    if (!item || !item.candles || item.candles.length < 2) return false;
+
+    const candles = item.candles;
+    const dec = item.dec || 2;
+    const fmt = (n) => n.toLocaleString('en-US', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+
+    let maxH = -Infinity;
+    let minL = Infinity;
+    candles.forEach(c => {
+      if (c[2] > maxH) maxH = c[2];
+      if (c[3] < minL) minL = c[3];
+    });
+    if (maxH === minL) { maxH += 1; minL -= 1; }
+
+    const firstClose = candles[0][4];
+    const lastClose = candles[candles.length - 1][4];
+    const retPct = ((lastClose - firstClose) / firstClose) * 100;
+    const retColor = retPct >= 0 ? '#ff6b6b' : '#4dabf7';
+
+    document.getElementById('ctTitle').textContent = item.label;
+    document.getElementById('ctStats').innerHTML = `
+      <span>120일 최고 <b style="color:#ff6b6b;">${fmt(maxH)}</b></span>
+      <span>최저 <b style="color:#4dabf7;">${fmt(minL)}</b></span>
+      <span>기간수익 <b style="color:${retColor};">${retPct >= 0 ? '+' : ''}${retPct.toFixed(2)}%</b></span>
+    `;
+    document.getElementById('ctStartDate').textContent = candles[0][0];
+    document.getElementById('ctEndDate').textContent = candles[candles.length - 1][0];
+
+    const canvas = document.getElementById('ctCanvas');
+    const ctx = canvas.getContext('2d');
+    const W = canvas.width;
+    const H = canvas.height;
+    ctx.clearRect(0, 0, W, H);
+
+    // 가로 보조선 3줄
+    ctx.strokeStyle = '#21262d';
+    ctx.lineWidth = 1;
+    for (let g = 1; g <= 3; g++) {
+      const gy = (H / 4) * g;
+      ctx.beginPath();
+      ctx.moveTo(0, gy);
+      ctx.lineTo(W, gy);
+      ctx.stroke();
+    }
+
+    const padTop = 8;
+    const padBot = 8;
+    const plotH = H - padTop - padBot;
+    const toY = (val) => padTop + ((maxH - val) / (maxH - minL)) * plotH;
+
+    const count = candles.length;
+    const step = W / count;
+    const bodyW = Math.max(1.2, step * 0.62);
+
+    // 일봉 캔들스틱 그리기 (양봉: 빨간색 #ff6b6b, 음봉: 파란색 #4dabf7)
+    candles.forEach((c, idx) => {
+      const [dt, o, h, l, cl] = c;
+      const isUp = cl >= o;
+      const color = isUp ? '#ff6b6b' : '#4dabf7';
+      const cx = idx * step + step / 2;
+
+      const yH = toY(h);
+      const yL = toY(l);
+      const yO = toY(o);
+      const yC = toY(cl);
+
+      // 위아래 꼬리(심지)
+      ctx.strokeStyle = color;
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(cx, yH);
+      ctx.lineTo(cx, yL);
+      ctx.stroke();
+
+      // 몸통
+      ctx.fillStyle = color;
+      const topY = Math.min(yO, yC);
+      const barH = Math.max(1.2, Math.abs(yC - yO));
+      ctx.fillRect(cx - bodyW / 2, topY, bodyW, barH);
+    });
+
+    // 20일 이동평균선(MA20) 오버레이
+    ctx.strokeStyle = '#eab308';
+    ctx.lineWidth = 1.4;
+    ctx.beginPath();
+    let started = false;
+    for (let i = 19; i < count; i++) {
+      let sum = 0;
+      for (let j = 0; j < 20; j++) sum += candles[i - j][4];
+      const ma20 = sum / 20;
+      const mx = i * step + step / 2;
+      const my = toY(ma20);
+      if (!started) {
+        ctx.moveTo(mx, my);
+        started = true;
+      } else {
+        ctx.lineTo(mx, my);
+      }
+    }
+    ctx.stroke();
+    return true;
+  }
+
+  function positionTooltip(e) {
+    const tip = document.getElementById('chartTooltip');
+    const pad = 14;
+    const tipW = tip.offsetWidth || 340;
+    const tipH = tip.offsetHeight || 220;
+
+    let left = e.clientX + 16;
+    let top = e.clientY + 16;
+
+    if (left + tipW + pad > window.innerWidth) {
+      left = Math.max(pad, e.clientX - tipW - 16);
+    }
+    if (top + tipH + pad > window.innerHeight) {
+      top = Math.max(pad, e.clientY - tipH - 16);
+    }
+    tip.style.left = `${left}px`;
+    tip.style.top = `${top}px`;
+  }
+
+  function bindChartHoverEvents() {
+    const tip = document.getElementById('chartTooltip');
+    document.querySelectorAll('.chartable').forEach(card => {
+      const key = card.dataset.chartKey;
+
+      card.addEventListener('mouseenter', (e) => {
+        if (render120DayCandles(key)) {
+          tip.style.display = 'block';
+          positionTooltip(e);
+        }
+      });
+
+      card.addEventListener('mousemove', (e) => {
+        if (tip.style.display === 'block') {
+          positionTooltip(e);
+        }
+      });
+
+      card.addEventListener('mouseleave', () => {
+        tip.style.display = 'none';
+      });
+
+      // 모바일 터치 시에도 120일 차트 팝업 확인 지원
+      card.addEventListener('click', (e) => {
+        if (window.innerWidth <= 768 && render120DayCandles(key)) {
+          tip.style.display = 'block';
+          tip.style.left = `${Math.max(12, (window.innerWidth - 340) / 2)}px`;
+          tip.style.top = `${Math.min(window.innerHeight - 240, e.clientY + 14)}px`;
+          e.stopPropagation();
+        }
+      });
+    });
+
+    document.addEventListener('click', () => {
+      if (window.innerWidth <= 768) {
+        tip.style.display = 'none';
+      }
+    });
+  }
 
   async function refreshLiveMarketQuotes() {
-    const targets = [
-      { id: 'KOSPI', sym: '^KS11', dec: 2 },
-      { id: 'KOSDAQ', sym: '^KQ11', dec: 2 },
-      { id: 'DOW', sym: '^DJI', dec: 2 },
-      { id: 'NASDAQ', sym: '^IXIC', dec: 2 },
-      { id: 'USDKRW', sym: 'KRW=X', dec: 2 },
-      { id: 'EURUSD', sym: 'EURUSD=X', dec: 4 },
-      { id: 'USDJPY', sym: 'JPY=X', dec: 2 },
-      { id: 'GBPUSD', sym: 'GBPUSD=X', dec: 4 },
-      { id: 'USDCHF', sym: 'CHF=X', dec: 4 },
-      { id: 'USDCAD', sym: 'CAD=X', dec: 4 },
-      { id: 'OIL', sym: 'CL=F', dec: 2 },
-      { id: 'GOLD', sym: 'GC=F', dec: 2 },
-      { id: 'SILVER', sym: 'SI=F', dec: 2 }
-    ];
-
-    for (const t of targets) {
+    const keys = Object.keys(CHART_DATA);
+    for (const key of keys) {
+      const item = CHART_DATA[key];
       try {
-        const apiUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(t.sym)}?interval=1d&range=5d`;
+        const apiUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(item.sym)}?interval=1d&range=8mo`;
         const proxyUrl = `https://api.allorigins.win/get?url=${encodeURIComponent(apiUrl)}`;
         const res = await fetch(proxyUrl);
         const wrapper = await res.json();
         const data = JSON.parse(wrapper.contents);
-        const meta = data.chart.result[0].meta;
+        const result = data.chart.result[0];
+        const meta = result.meta;
         const price = meta.regularMarketPrice;
         const prev = meta.chartPreviousClose || meta.previousClose;
+
+        // 120일 일봉 배열도 최신 데이터로 동기화
+        const ts = result.timestamp || [];
+        const q = result.indicators.quote[0];
+        const freshCandles = [];
+        for (let i = 0; i < ts.length; i++) {
+          if (q.close[i] != null && q.open[i] != null && q.high[i] != null && q.low[i] != null) {
+            const d = new Date(ts[i] * 1000);
+            const dtStr = `${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`;
+            freshCandles.push([dtStr, q.open[i], q.high[i], q.low[i], q.close[i]]);
+          }
+        }
+        if (freshCandles.length >= 2) {
+          CHART_DATA[key].candles = freshCandles.slice(-120);
+        }
 
         if (price !== undefined && prev) {
           const diff = price - prev;
           const pct = (diff / prev) * 100;
           const isUp = diff >= 0;
-          const card = document.getElementById(`idx-${t.id}`);
+          const card = document.getElementById(`idx-${key}`);
           if (card) {
-            card.querySelector('.idx-price').textContent = price.toLocaleString('en-US', { minimumFractionDigits: t.dec, maximumFractionDigits: t.dec });
+            card.querySelector('.idx-price').textContent = price.toLocaleString('en-US', { minimumFractionDigits: item.dec, maximumFractionDigits: item.dec });
             const chgEl = card.querySelector('.idx-chg');
             const sign = isUp ? '+' : '';
             const arrow = isUp ? '▲' : '▼';
-            chgEl.textContent = `${arrow} ${sign}${diff.toLocaleString('en-US', { minimumFractionDigits: t.dec, maximumFractionDigits: t.dec })} (${sign}${pct.toFixed(2)}%)`;
+            chgEl.textContent = `${arrow} ${sign}${diff.toLocaleString('en-US', { minimumFractionDigits: item.dec, maximumFractionDigits: item.dec })} (${sign}${pct.toFixed(2)}%)`;
             chgEl.className = `idx-chg ${isUp ? 'up' : 'down'}`;
           }
         }
@@ -580,6 +826,7 @@ def build_saveticker_html(feed_items, board, updated_time):
   }
 
   window.addEventListener('DOMContentLoaded', () => {
+    bindChartHoverEvents();
     refreshLiveMarketQuotes();
     setInterval(refreshLiveMarketQuotes, 60000);
   });
@@ -865,6 +1112,7 @@ def build_saveticker_html(feed_items, board, updated_time):
         .replace("__ROW_CMD__", row_cmd)
         .replace("__ROW_MACRO__", row_macro)
         .replace("__CARDS_HTML__", cards_html)
+        .replace("__CHART_JSON__", chart_json_str)
     )
 
     with open("index.html", "w", encoding="utf-8") as f:
@@ -877,7 +1125,7 @@ def main():
     now_str = get_kst_now().strftime("%m/%d %H:%M")
     new_items = []
 
-    board = fetch_all_macro_dashboard()
+    board, chart_store = fetch_all_macro_dashboard()
 
     collected = []
     collected.extend(fetch_dart())
@@ -909,8 +1157,8 @@ def main():
         save_json(HISTORY_FILE, list(sent_links)[-1200:])
         save_json(FEED_DATA_FILE, feed_items[:150])
 
-    build_saveticker_html(feed_items, board, now_str)
-    print(f"완료: 신규 기업뉴스 {len(new_items)}건 및 글로벌 매크로 대시보드 업데이트")
+    build_saveticker_html(feed_items, board, chart_store, now_str)
+    print(f"완료: 신규 기업뉴스 {len(new_items)}건 및 120일 일봉 차트 대시보드 업데이트")
 
 
 if __name__ == "__main__":
