@@ -1,6 +1,86 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 러트닉",
+    "press": "연합뉴스TV",
+    "title": "러트닉, AI칩 대중 수출 규제 지연 의혹…이해충돌 논란까지",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9XWTZubmJrQXhGSHBqbmN2dHFfUmVxVzU3WjBoTTczN0V4ODRQRzZaT2lXaU85WHEydWJud3NTZHV0Zm5MYWJBdUc2bVpIMHpkZHJBbnVkQUtmSzlFMEFXN2tNUkJ0Tmc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "팜이데일리",
+    "title": "\"10kg 뺐지만 시력 잃었다\"…'기적의 비만약' 오젬픽·위고비의 섬뜩한 그림자[클...",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9MSkdJbnMtbm04UXlzVHFZa1ZYSkFTc1lPQjJ6MUZmUERpNTNqY0o0TmM4NFE1TlFwNDlGM2RNRVhMS3JZZFpSY2J6WWZBZTV4bFZjV2hCSU9LQUNWaE1vb3JMTDJQa0paWGtpeVRn?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "李대통령·이재용 빵 터졌다...충남대 여학생 깜짝 발언 화제",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE03MnhKcUVxLUUzVjhqTjc1aGMwdlFrRXlYMlJETGR0cVZTc0pPTFl0c3R1bENUU28zNFphc1Zyd3Awa0Z0QUQ5eU9IVURyR1h3MHN4MlpRNG9jYmQwLVE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 주성엔지니어링",
+    "press": "Chosunbiz",
+    "title": "[특징주] 주성엔지니어링, 장중 코스닥 시총 2위로…11조도 넘어",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQV2Y4YVBYRU42ZGdNdFhZUTE0VzhjSzloM2ZHQjBGMl9LcjQ3RlBZR2JJd1JQQjRUUGlOSGZtVDZtRlVBVnJ5cnZ3cTlQaVQ3aW12a0taZGdWaUJZUWxmc0RqQTFEaHg4QzFYdExjMUFjV1FsaUFxMzZnRjNiYTBJRmlpS0dCaDRv0gGcAUFVX3lxTE5XMnN0QmVTU0xIS3pvOElVdHBDU2tTcHBNVGhjbGlzN18zaGJiUHBOR0JtX3pLa2JRYVQ1dTBGOW41S3FpVTF4N3l3ZExvMXlpallDRHZ0M0NlRGd2Q3NINWVQNHFuYU1CN2RoWGhTQ083dXVxVG9YQUZ3ZFhVNVVrR3BBaER4S3BMUnB6WExiZ3Q4dGJUc3E2MGNTUw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 해치텍",
+    "press": "뉴스핌",
+    "title": "[특징주] 해치텍, 코스닥 상장 첫날 20%대 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBhSFV6WlM5V0xPX0Fvd25yMUxicWdXX3EwSlJ5cWZ5eTJjejdDM0dndVphTlUySTl4dGlyNUdvM09vWUFBQjhNNVB3d0U2dFU0b1gwZjdPWlZPMVB3?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "황이 복귀를 거론하면서 엔비디아의 위기가 깊어진다.",
+    "sub_title": "Nvidia’s crisis deepens as Huang talks of a comeback",
+    "link": "https://finance.yahoo.com/markets/stocks/articles/jensen-huang-discusses-comeback-nvidia-192628314.html",
+    "impact": "📰 일반",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "FDA 주목받는 중국산 폐암 치료제 거부",
+    "sub_title": "F.D.A. Rejects Closely Watched Lung Cancer Drug From China",
+    "link": "https://www.nytimes.com/2026/11/15/business/fda-lung-cancer-drug-china.html",
+    "impact": "📰 일반",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "거친 채권 거래자들은 다음 움직임을 위해 Fedspeak, 몇 분을 바라 봅니다.",
+    "sub_title": "Roughed-Up Bond Traders Look to Fedspeak, Minutes for Next Move",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/roughed-up-bond-traders-look-to-fedspeak-minutes-for-next-move",
+    "impact": "📰 일반",
+    "time": "11/16 06:09"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한국경제",
     "title": "\"스시자로 사러 日 갑니다\"…3개월분 가격 얼만지 봤더니",
@@ -2916,86 +2996,6 @@
     "title": "[특징주] 李대통령 코스닥 활성화 강조에 1347개 종목 상승↑",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9GQTJ5OXdJdHYtZjJGa0E0Nl9DSUg1Z0hLVmt2VzBCa2xjLVBmZDJiTWl0eWxMUHAta2tCWjNhTUloMlRkWmtNcUF5UGlSamJuSkJHN3NTNmtXM2oy?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 동원파츠",
-    "press": "이투데이",
-    "title": "[특징주] 동원파츠, 코스닥 상장 첫날 공모가 대비 90% 상승 출발",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1lZ2dpSkpVSkZHWVhwczhjQ083S3RjT0EzcGJYZF9lTkhsR01qbTUyOHpBdFg4RXIzblA1ZXRnTXBBWnBWci1OWWZfVzdoSVJ1TUJFXw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 넥스아이",
-    "press": "전국매일신문",
-    "title": "[특징주] 넥스아이, 코스닥 시장 상장 첫날 -30%대 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NcnE1OHVYZDB5ODEzeU83aHpQN0htMVZhRTNHQUhZZ0pRZlJ3cnpYdDBrUGlmZDlDWDlLZGR4bDIzR1dsT21SSkUwXzdHZXBkZmVwNjZJZGN4bDJHclhiSWFDbmo1MWZybVo3S2RB?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 바로팜",
-    "press": "아주경제",
-    "title": "[특징주] 바로팜, 코스닥 상장 첫날 공모가 대비 20%대 급락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5qMzJZU1J3UzZIRXJuOG9mbmJyeFNVanpiTjNSM3RlUFhjQ0tpNHhXMzhITzFKX2dEaDdabk05NjczMUVXVVFJYlJ4MUFzMThXdHBWY1JtaFdWQdIBWEFVX3lxTE5aX2tsZVFYc3RKSE4zRXRHZEx2dnI5MlU5dW1VNkhxd1AxY2p1T0t6a0RVclhOclNjWjlHMEF2d01KQmIzU3RFSTZweFdPbDJzUmVuVFpiSm8?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 한국거래소",
-    "press": "인포스탁데일리",
-    "title": "한국거래소, 코스닥 상장사 공시담당자 워크숍 개최",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iQVBRUUNpRWpYRlhyQXVGaDVwcFhZMFBIeWRjWlFSQzRIYVp4Z1g2YXIxelc2cWd0YUVZU0UzX1FVZzdRVk1WZ3lDRmdZMl80LURnU0hjcWdJRUxFeVE5X05GczNlOXhRcFJITm9QSDE1TzVkWFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "IT조선",
-    "title": "투자자 간 정보 격차 큰데… 전망공시 내는 상장사 3%뿐",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WYWlMc0NOVjFOcjZPajh5Ny1QM2h4c2xfRlh1QjMyb0dkSjdOcVd3QWZGRTY2RmZfR0lhR0NZbGJqcVVmTWh3c2Vha0oyRWExQkhrNWFDdVlwTU92RGpjNmxTSmg4b0tVRWVuTDFFLWvSAXRBVV95cUxPeUVxWmdlRndDXzNtcGJrRTJnMV9JVVhxdk9ZX054aVlLNWRXY2VrcF90WGt4X3p3QUNuc0ViemphX2swY3YxXzI1VWpTSHNvUGhxa1BIOGF2MWVYLUl3bGRQaEQxdmhiVXh4a3pqQnZGdGs5Qg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "매일경제 마켓",
-    "title": "100일간 50조원 팔았다 … 코스피, 외국인 엑소더스에 속수무책",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lcGs2ZnJ5Q1oteUdZdERGSEtkalBNLXpCY0xBR3FLSGIzZjhjYTZXMXFuSTdkNTF2ajEwdUFIem5CeGtRN0tsbkNfNWpueUVoMGc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "연합뉴스",
-    "title": "동전주 상폐 첫 절차 임박…48곳 관리종목 우려 공시",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80MlBmSGl5MktZRWFYZl9oeVNxX21qdlVWNE5NMzNXcFQxYktrT05zcDVyVUptMkpBV2JlTG1QZXRueHY0Zjl0UkZ1NmZEVEJGQ3Z0SGM2b0pVeFHSAWBBVV95cUxQQXdsMDFxdmUwZWJHU3NhN3ZETW5wYTl1b0tkS2xtMWowaDJySUtKTnM4YkhLZ3VtaGhac2Qxalh2eVNtSG52WVNOb3Yyc09COWcwU0QzWHJxZmxxUTVvenM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "중기이코노미",
-    "title": "상반기 상장사 영업이익 ↑…반도체·IT가 실적 견인",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtS0NQVzJSeFhpN05QczhmZGlBYXJmN01TMDhIaUlxME9Wa1hrSTVRdXdQVHlDckpjQXdGUGZMcmVkb1dzaktVV3g0cmFTS0EtZFMyYTZlU1lycFY1S3BiTG1QaUh2ZFNaaXc?oc=5",
     "impact": "🔥 주요속보",
     "time": "11/14 20:59"
   }
