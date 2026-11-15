@@ -2,6 +2,36 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "15층 건물 크기 스타십, 20초 만에 바로섰다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1STVvSDQxSW02ZXE2eTkxQXpfenplRHc5bmItT29KSXFfZG1kTVptYm0zdHlyZ1M5ZnJ6R2tRbk9MTzR5aU55aHF1NDBvbHlwYldRcWxJNE5jdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 03:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 코인원",
+    "press": "YTN",
+    "title": "코인원, 외주업체 해킹으로 고객 정보 유출",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OSVdqeV96UWtXb0VJTUFLUFdDYk5CaW5lcnplZ1pIVmxmS3lsSHlvX21HZjRocEJ2NktvdnpLQ3I3OHZvOUNqVk5kUVhoWWZaNWwyU1JrVzhfcXhMWnc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 03:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Megaspeed는 Alice Huang이 2025년 8월에 회사를 떠났다고 말합니다.",
+    "sub_title": "Megaspeed Says Alice Huang Left Company in August 2025",
+    "link": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html",
+    "impact": "📰 일반",
+    "time": "11/16 03:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "KBS 뉴스",
     "title": "“젠슨 황 복귀해야” 14만명 청원…머스크도 가세",
     "sub_title": "",
@@ -2967,36 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAwNG9vTjN3WDBCa0cwQ1g4R3RrLXRDVWtIdVlLWnBoeVlrR0FGa1pVUTd4bjJyRlhGY3VrOVZBMjdjT0ZnVmpYcVRNT3cyaDZvcUtSWExleVRVQUnSAWBBVV95cUxOTUI2SEZqcFROX2NYVEM2RVF4WHlqWGJjMjV2NEdWSXpVZlQ5b3NEdm9jYkxoS1VFLUw2WkR5TXFCbTh5clJIdFhiOUVIOUExdXZnZjRUaTV6UFBLbURJNXU?oc=5",
     "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "의약뉴스",
-    "title": "코스닥시장 제약지수, 5.55% 급등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14OTdBbWhvU05MYm5TNF9LWDlrbFlXVGVmT2FTZ1JpSXJKaTlIOGl0amJPN1BBSGRfMkFvd19Rcmp0eUZGMmNhQkZMVV9zSjJjUmh2bWYxbE5nNGxINDhEMXJJNlVUeWla?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "이 남자는 어퍼 웨스트 사이드의 금괴에서 900만 달러를 훔쳤다고 경찰이 밝혔습니다.",
-    "sub_title": "This Man Stole $9 Million in Gold Bars on the Upper West Side, Police Say",
-    "link": "https://www.nytimes.com/2026/11/14/nyregion/gold-bars-scam-new-york-city.html",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "그는 파나마에서 중국인이었다. 그런 다음 그는 수배자가되었습니다.",
-    "sub_title": "He Was China’s Man in Panama. Then He Became a Wanted Man.",
-    "link": "https://www.nytimes.com/2026/11/14/business/zhang-liang-china-panama.html",
-    "impact": "📰 일반",
     "time": "11/14 20:59"
   }
 ]
