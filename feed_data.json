@@ -1,5 +1,25 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "거래자들이 Nvidia 수익, 이번 주 Anthropic IPO에 대비하면서 주식 선물은 더 높아졌습니다.",
+    "sub_title": "Stock futures tick higher as traders brace for Nvidia earnings, Anthropic IPO this week",
+    "link": "https://www.cnbc.com/2026/11/15/stock-market-today-live-updates.html",
+    "impact": "🔥 주요속보",
+    "time": "11/16 08:27"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "인텔, 주가 29% 폭락 후 주주들로부터 소송 당함",
+    "sub_title": "Intel sued by shareholders following 29% stock plunge",
+    "link": "https://www.reuters.com/business/intel-sued-by-shareholders-following-29-stock-plunge-2026-11-15/",
+    "impact": "🔥 주요속보",
+    "time": "11/16 08:27"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "조선일보",
@@ -2976,26 +2996,6 @@
     "title": "[뉴욕증시-1보] 젠슨 황 스캔들 여파 지속…혼조 마감",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1BaFhLd2dPcDhaNHFtYTg3cERiZ0hVWU1aSjFmZ1J4eVRWU0FxazFEWm14REZsY1hISll3eFRkaXR3Q0RWNGN0TXRVWlRlVmpZMVVnUUNfQmI4ZmZ4US0yMmxJUDd0SDFRN3V4bW5JQm7SAXRBVV95cUxQZlpWYUgtOFlSME9YWmQtVVJfODBITmVaVDJBZ0U1QmJUbm9rTEpwVVFEVFhnZW9CTlFicnFoaUk0SWRzWjh5SHF3SlR0SEpydXJiVkxvUGNGdEx1cV9Fal8wRTY3Y0FmV2l0OUNqX04yX1BlSQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "주유소 기름값 26주 연속 하락…소비자 체감은 '글쎄'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2b0RzRGY0cVFhamU0eU4yQ3Fya0d3a3dPbGdsaDdZSkRrd2JDSVBnVXVWRUpUbmMwbDF0SWxScGRHRUlmaEdGdXFCc3NjVTYwdHgwSnI2dWVjUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "매일경제",
-    "title": "“10년 모은 4억이 1억으로…” 반도체 레버리지 투자에 무너진 30대 직장인의 눈물",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jTmd6NnZsWmVUY3pDRno5SVdmaUxIa0s3RmZhU0FhRk9rZWRqd3VKSmlKbWNkOUxaZlQ1TDd6S1hnLWxGX0s0czN2NHJaNlR1Rnc?oc=5",
     "impact": "📰 일반",
     "time": "11/14 20:59"
   }
