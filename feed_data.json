@@ -2,6 +2,86 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "젠슨 황 퇴진에 글로벌 AI 스타트업 투자 ‘비상’… “엔비디아 공백 누가 메우나”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNWN4RnZvVTJEZURweWtyaUZFa0tCT3FCZHZaR2ZlUnp5NXB3RzZVMFUxR0xNWUUzdmV6OUZTVmJsTnQ5VnRHekxLQk52UE5ZTTZ4cXpxSVVlMXRPb0N2TWxKaUkzNXFGZVUza3hTd283dGZsVTZXS0djbWdPYXkzNVo3SQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "60년된 구리선·25년된 장비…美항공대란 위험 수년 전부터 경고",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKMHhmU1ROd0ZGUnZtVjdCNG5SQVJHWTJTcUdDS0N0Sm5PRTR6LWMya29McS1UOUtzbUFZTTVtR3c3UVpyRVZmMXVLNWFBVl9pOF9ySm4yZVZ2eDTSAWBBVV95cUxPejZlWXZENWZtWGNxYXVtYXU3NHVjcUgyZGFqYkU5WlZXN2xwMjZNekxlLU5oTTlBNUpnd1JLWGlIZ1AyMXpkOURxMmlLQ3JVWUF0aHFqY3hESjhkVk1uNDM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 금감원",
+    "press": "연합인포맥스",
+    "title": "금감원, 정원 200명 증원 추진…IT검사국 추가·민생특사경 신설",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9XYVhZTWlHZHdYeF9lWHZxMkVRRmdEaEZZVjBhMVV4cTRTUFU0WXl3OFhkOEFWZHBLUjhuOS1IeUFwNzU4Y0hPc1dTdVlYRzZkSUFESEd3cUg2RUdSZkExblI3WFUtdmg5UHM3YTJpMVE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 동원파츠",
+    "press": "에너지경제신문",
+    "title": "[특징주] 동원파츠, 코스닥 입성 첫날 30%대 강세",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5eDVhM01ZeFdWRFRhVzJldl80MWNHX2RpZWg2Mm1vbjZoQmlUQlVDQy1wVFVLZmlONVJiZnJnV3M1aFdKX2VuNUl3UXByaTNNc2hmWFEzYzMxbFk?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Cut national insurance for under-25s to create jobs, Milburn report to say",
+    "sub_title": "",
+    "link": "https://www.bbc.co.uk/news/articles/c6p9dzmj514ko?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Asian Stocks Brace for AI Pressure, Data Dump: Markets Wrap",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/stock-market-today-dow-s-p-live-updates",
+    "impact": "📰 일반",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Diamondback in Talks to Buy Double Eagle for About $5 Billion",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/diamondback-in-talks-to-buy-double-eagle-for-about-5-billion",
+    "impact": "📰 일반",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "UK will have 'voice' but no vote on EU food rules in Brexit reset",
+    "sub_title": "",
+    "link": "https://www.bbc.co.uk/news/articles/c6wy4l8nl42wo?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/16 07:33"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "YTN",
     "title": "미 마이애미 공항 화물기·여객기 충돌...\"날개로 쳤다\"",
     "sub_title": "",
@@ -2916,86 +2996,6 @@
     "title": "“10년 모은 4억이 1억으로…” 반도체 레버리지 투자에 무너진 30대 직장인의 눈물",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jTmd6NnZsWmVUY3pDRno5SVdmaUxIa0s3RmZhU0FhRk9rZWRqd3VKSmlKbWNkOUxaZlQ1TDd6S1hnLWxGX0s0czN2NHJaNlR1Rnc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "\"트럼프, AI칩 수출통제 풀며 엔비디아 주식 구입\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zbUJVMEhrczVwZ1RNN1c0Sy1nOGRELXF3cW90ejJoNlA4c3ZKaW1RZUV0REJJYk10a2s4emlJMTZ3NTBOUmJzREkyVktXanY2SEcwa3dpcFZHSEUyb2c?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "\"파격가에 의료통역 지원까지\"…비만약 원정처방 마케팅 확산",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LUW1JR0RDakgzS0dvQlZNXzhJbU5zdlhKejB2cmxYbkdqb2dwakNNRjU4TVdheVdtbXgxRFg3NUFyWjhRRmZ1LWxROVBGdEdhcUFmUVBMd09KTHfSAWBBVV95cUxOWU1oLXJSdndubVMtZFlVSm5hTjhpV3dKTkFMbTRTVDcwcnh3UmJLTy1fcnF1NTJaYkZOcXUwWkZEc01EWnZDMEx4Y3Q3eC1XWGVsaVJGMWhNMHZVN2lneVY?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "비즈워치",
-    "title": "'성동·강동구 하락' 한강벨트까지 냉기 번졌다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VMkRrcUhla1VVUHk4Wm91ZnF1WkhIMTZqdWk4OEJPRl9WbGJIRFBxX3ZYMVdCd0V6MjhnM25tNUktVzFYWm81Mk10bS0xRnlnSVU2UEcyRWp0WEs1Y3JteG9tZTN2dGtXSjZrdEZsOWg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "中 전문가 \"美 칩규제 강화시 中 희토류로 맞불\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBLN1EyYUJWQmtvVVN6M2VWRFktVTBCR3FWekl6QjlqdnNDQmhXVkxVM0paQlZ5WjZaYmNHaHdpTVF6SDZJdV9NVzF3d2FuWDBzMWFDMjdpdUw1ZjNvcF9CWU1DZ3Rsa0E?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "李대통령 \"적대적 M&A 활성화로, 주식시장 비정상 구조 깨야\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5XemtjNHVwUW5NQnRNNGxFMHp0NUE0UW1SWDNJcDBzbk9iOGxEeTExekZ3aWc0LVhVV19aNUVxRkt1UVZHQ0tpeHlTYTVCSGY2UXphSFpYUmJTZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "문화일보",
-    "title": "“긴머리에 노메이크업” 20대 청초 앨리스황",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZZzZuOWFKTlJlTDl5cXhxbGgtcUFzbDRCLTJhdHNmeDBrWlJYZ212MndCUVNjQ3R2U1Y3S0d5a2JiaW8xSVYxbE83LTVjSHpE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 삼성메디슨",
-    "press": "세계일보",
-    "title": "삼성메디슨, 홍천 신규 제조동 준공…”2030년까지 생산능력 2배\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBsZ1NqbjFnall0Rl9VS3VSdGpRN1RQN3NVYXFkOWwtamF5UGlWcEJIYU0xeXN3WVZaUThJYTVacldUSnhCUmRJQjF0YVh1ZlFsNFU4QjBGcjPSAVRBVV95cUxNQWxmU09ZcnRJM0pPQTJBbTRreC04MGoxcmNYQkFuOFdIUHlaOXJOa2ZCSDNNV2k5UkVFVGxxbTJkRWVBZGZfX21vY05rd0FmX2liWWo?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "AI 안경, 다음 격전지는 건강 관리…심박수·눈 피로까지 추적",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE13aE0xMHdxVnMtY3RKU2J1VTBQd3RGbTlldVY2MTRseXJBSkNveFo5LTBaaDF2WkRfLXB5OGIwVnV3ekFRVlJPcjJfRVpoYjR6RkdIenZB?oc=5",
     "impact": "📰 일반",
     "time": "11/14 20:59"
   }
