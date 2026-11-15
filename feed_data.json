@@ -2,6 +2,96 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "“보스 돌려줘” 12만명 젠슨 황 복귀 청원…“부패한 실리콘밸리”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOXzNHUHUyOTl2c29DemVQa0pJNmt1amV1bTdIT1NLaWt4UGJrLXNmMmVwUHN1NFBXODNKUWoxMDVCR3lFSUxuZjR6WUR5QncxNGFJYXFoMFpCZjNkcndQNmFCVk1FTF9IZEhTZFFzS3VKS3JJLVltMGFFNjY1MHlHcXNB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"이제 와서 2억 더 내라고?\"…서초 아파트 주민들 '날벼락' [김용우의 각개전투]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wTVlJbXExdENzc2xrWVRkUkp0ZDFSS0FjNWtfNjNJOFNsN0gzeVZhQURESWUtdGZaaTlmMHJiUUdFOHlfMUhFVVJfN1lpLWRZYVkyWG9wM0JLdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "강원일보",
+    "title": "강원지역 기름값 24주 연속 떨어져",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OSTVVMUxtcUwyS1JQRHJ2TFVvUTVCLWo4aEhNZ0lNT3FBSjd2SngtUGpiS0F3b0NTRlRrOWZ1cmhfTkNQY25hSDJjNnZveWZZX2gtUjM4bUhfdkk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "When Tech ‘Upgrades’ Go Awry",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/15/business/technology-dependence-microsoft-airlines.html",
+    "impact": "🔥 주요속보",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jensen Huang’s Downfall Brings Disbelief in Taiwan",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/15/business/jensen-huang-taiwan.html",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "A Human Reads the Anthropic I.P.O. Filing",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/15/business/a-human-reads-the-anthropic-ipo-filing.html",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "They Want to Be Doctors. Student Loan Caps Are Complicating Their Dreams.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/15/business/medical-school-student-loan-caps.html",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Behind the All-American Ralph Lauren Brand Is a French C.E.O.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/15/business/ralph-lauren-patrice-louvet.html",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "In a Sloppified A.I. World, Only Humans Can Build ‘Ecosystems’",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/15/business/tech-jobs-ai-ecosystem.html",
+    "impact": "📰 일반",
+    "time": "11/15 19:18"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "KBS 뉴스",
     "title": "미국 연구소 “중국 딥시크·키미, 엔비디아 최첨단칩 훈련”",
     "sub_title": "",
@@ -2906,96 +2996,6 @@
     "title": "댓글 : 배달앱 수수료 15% 상한제 입법추진...음식점측 “빨리 도입” vs 라이더 “최저 배달비 보장”",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQYVZxTm1RbTZwbjVVOUpsN3c0SDJTbkhRS0dqWmFfUm56TXFycmFSVXAzbXRXTmVRTnRlN3Q5Wkt1cnEtOWVNQnpTTlhLLTAyNXViRkxSYmNRc2ZnRW51eHRCelgzRDJCcUl0VXloZGdFcEpjZ0JqSnpySmgtU0cyb044al8?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 $NVDA",
-    "press": "Yahoo Finance",
-    "title": "11월 17일 이전에 Nvidia 주식을 구매해야 할까요?",
-    "sub_title": "Should You Buy Nvidia Stock Before Nov. 17?",
-    "link": "https://www.fool.com/investing/2026/11/14/should-you-buy-nvidia-stock-before-nov-17/?.tsrc=rss",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본 증시 닛케이",
-    "press": "뉴스핌",
-    "title": "[일본 증시] 닛케이 반등...엔저·반도체주 저가 매수에 6만1000선 회복",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE15NzNRV19KeXRnbEJhTzJUbzM4X2EwbUFNT2NWTnc1ZUs1V2dVN3VPZGFaRW90NUo3aU1MeHROUW15elYtWmdqVlY2aERhYXZVaktwZDhKWUQ2Z1lX?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본 증시 닛케이",
-    "press": "연합인포맥스",
-    "title": "[도쿄증시-마감] AI·반도체주 급등에 닛케이 6만선 회복",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE11QkdZS3dwWmttUEM0Vll6U1lGU3BDcmp1X0dNTS1pX09ZOHZRQllBYkVpcjFRUGVfaTRnX1dSVU9JenhhNERZYWtNRVBHaFpnWXVzb0J5T1c5YjN4R0lKWVY3MUIzbzhwRGtLaldUczg?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본 증시 닛케이",
-    "press": "KB Think",
-    "title": "[도쿄증시-마감] 닛케이 1%대 상승…AI주 매수세 실적 호조주로 확산",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9oY0xlZ1VDR0Q1YXNLaWFYRjNXRk1PTUdiR2I2S05JMU0wSGZVR0NlM3FxTlVWV3AxVk1OdUdlTVRvQ2ZMRURXbGlLblZHaTJQRGdXVngyZ2pWOGxTampUYVZIY2k0VnN3Vi1TTW9PNk4yZw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본 증시 닛케이",
-    "press": "뉴시스",
-    "title": "일본 닛케이225, 3거래일 만에 6만선 회복…상승 마감",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBsUkJSa3hqcEE2U2VPdWR0Sk1venlHQVdFZTdBQklnZmxrejV4cFd1Q0lDR1JZZFBLMHlsdUotRmlEYmNiZ25qTkU4bG8zSVZmMkwxa25Ba0JOQ1h6MFVrTNIBeEFVX3lxTE4zbmdLcXNyZE5WUlRMTEdxYUJoa3JhVml3R0RLcVppak1sRzhHVW5IdlFGdzMyODFmbDQzbUV0SW56UnVsNnVyQVFKMEFpUzR2Z3g4Yk0waWhaampCcDNsaVZmQUkxQkVkM2g2alRYYlhqSTQyMGlwZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 도쿄일렉트론",
-    "press": "글로벌이코노믹",
-    "title": "\"AI 거품론 일축… 사상 첫 '영업익 1조 엔' 쏜다\" 도쿄일렉트론, 실적 신기록 예약",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdy1md1FVQ2llMkpvSkhqeC1mNVhpT2hVWThobGp4RWFYbVhmZXZFU2FOSXIxNDMtTEo0Q3lTWTljT01jS3ByZkQ3XzB0eTJsNTcxSzB0VFBwM2RuMklYUklhcFFKbTBkVE1EZWJLM3oxTjdWVk42bnhXcGVkbUtiZ1RNOTZwQXhD?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 도쿄일렉트론",
-    "press": "조선일보",
-    "title": "AI 붐에 웃는 日 반도체 장비업계…도쿄일렉트론 영업익 첫 1조엔 전망",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYzhzOWw3bnFwWDZPNERFLTByXzNhS2ZnbWM3WDJYQ2poWERvVFg2VlNIVDU3RWdjRHE0NkNWSFdCdGlQTmRZOXRSaTFUdlZDem1Mc3kyY1dWcHhudHc3eDBmZHBYZlItdUs1SkRIMGMzSF9sM1R2Y0lrUVBLU0dGTUE3VQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 도쿄일렉트론",
-    "press": "전자신문",
-    "title": "도쿄일렉트론코리아, 반도체 새싹 키우는 '드림랩' 문 연다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11ZXBHQTZQZ19iNmsxcjRtVm9XRkx6WXpRZ1RESjVmNkRIek1TR1VXdXJDYXdCWTR2c0x3emhCTm5RUlJ0d1BpLV9uSE1wQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 도쿄일렉트론",
-    "press": "디일렉",
-    "title": "잠실에 어린이 반도체 공장...도쿄일렉트론, '반도체 드림랩' 개소",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5kdnhvRTNVQVBPVlQ4MXBuQmVyNUYzZWR4T0RMME9iLUNzOTBfRndoVm52UTdlZ0lxS0ZrOWxTVXV1RnktUVpYd0JYZGlaQVFEVU9XejZHM3NLNy1nRTdzQ29IOUZ0Zw?oc=5",
     "impact": "📰 일반",
     "time": "11/14 20:21"
   }
