@@ -1,6 +1,106 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "줄잇는 AI 해킹…로펌에 대응 문의 4배 급증",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14c3FXNWFzUW1iU2NwbHVycXZEY1diRG9uYzVPeGxOUnN3dnlGMGRZcG1QQzlKbFExSy1BMGR6c1hJYWhPYW84Qk9uZFdNR0tKd0YteFI4Tk9lUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "헬로디디",
+    "title": "AI 수요에 ICT 수출 202% 급증···10월 역대 최대",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16TGZ6cWpPMWwwNkVsbER3TVl5WWgxODNiOHpVYTI0Mnp6ZDJZcS01emVJLTV0ZXBhM3VKR0h5Rk9LY0FWanN6bFhJcHhpUlRJZ2ZRTFVuV19yUmR4NDdLUDJaSHhhUUQwdFE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "스타십 로켓 상단부 ‘젓가락 회수’ 성공…발사대 기계팔로 포획",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCanlFLV9HMHRqeUx5clVadkxFYUZxcHpnZmR4b2pDRnlUb3dsT1FwY2Jwb3hwU3ZlZVB6QmpZSzhCSWNYbTlTMVh5a095TzVYUGMxUk5MQ2ZUWnhublhiekpEWGJ5cHRLMlV3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "현역병 대상 대부업체 신용대출 막는다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Fc0ctTVN2U0FRX3VGRnFEaUY2RzFVWXJ6eHpZTVRLNEpMcWd1X2tYSi1NclJSY05RdHdtSWNUczJkT1c5eDA4Z2dWX29sX0hqUURicnl1QlVFQdIBX0FVX3lxTE5qOXRhZjlMa2xFbjZxclJiRHVCNnA4UmIzOWxlbHZxN2FKYUgydVVBclBlUkJtZlFiUl9JOHhJb3Y2RS04azZhMmo1TFNjMGlBSmh5RVpVbUlzdm1zOFA4?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 안보실",
+    "press": "연합뉴스",
+    "title": "안보실, 민·관·군 사이버안보 공동대응 회의…IT자산 관리점검",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45YzJ2aGlFcldINWJsUXhnS1U1SkxOR1FGSXZFRlJKVTJSam8yMXJqLUZrcVNDbWdqa25KS0s5YThBMXpRN1Q4aS12YnBhRzZWeEhxRzZDTG1meHPSAWBBVV95cUxOdTV0U2NQN2lzSWRfM2RRMllNMHZqUFRXcHBfYW1kRjZHNE10RVJENXpodGJPNlZpT2kyZnF2SDgyaFZDdFRHMzNyQ01jZFpUTHFERFRaSWdreHFDTG5xcGU?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "CBC뉴스",
+    "title": "[속보] 코스피 8% 급락…유가증권시장 20분간 거래 중단, 1단계 서킷브레이커 발동",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE92SUkxcUdVT0stZ3dPNVlJQkVfQmx2VUVtWWYxeDJsaFV2R0Zra1FzaEdKQWx4dkpDNzQwMVFSVnRTX0F1RXhhLVdZZFFpd2tBdmZFNS02LTVqWkV1dF9YR2RoNTRLeXcz?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "KB Think",
+    "title": "李대통령·젠슨 황도 못 막았다…코스피 8% 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE43ZGl2WXVhdXpqWmd0UTFaVDMyc2J5eTZudlBVQWoyMzJFZUZTaUtPSXoyZlVEM2lyX2h4UV8wVWVyQTN4Q0ZkdndjOEg3eVBKSVc4RXRmeDhVZk5UWnY3QjEzZTlzVGtjRExJLXhlbXZodw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Bessent says Nvidia must 'go outside the company' to find new CEO",
+    "sub_title": "",
+    "link": "https://www.reuters.com/world/bessent-says-nvidia-must-go-outside-company-find-new-ceo-2026-11-15/",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Traders Turn to Kalshi Stock ‘Perps’ on Nvidia and SpaceX as Leverage Fears Grow",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/traders-turn-to-kalshi-stock-perps-on-nvidia-and-spacex-as-leverage-fears-grow",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 Yes",
+    "press": "Finviz Market",
+    "title": "Yes, the U.S. is turning more socialist. But perhaps not in the way you think.",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=70b71c1c-407f-4287-860c-baf42b6c049f&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/16 01:09"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 엔비디아",
     "press": "경향신문",
     "title": "엔비디아 실적·앤트로픽 상장…이번주 증시 향방 최대 가늠자",
@@ -2896,106 +2996,6 @@
     "title": "FAA, 지상 정지 비행 중단, 항공사 주가 하락",
     "sub_title": "FAA lifts ground stop flights, airline stocks fall",
     "link": "https://finance.yahoo.com/markets/article/faa-lifts-ground-stop-flights-airline-stocks-fall-015910724.html",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "연합뉴스",
-    "title": "AI 경고등에 유가 급등까지…반도체 급락, 나스닥 2.2%↓(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TSXk3TExaRFBaOWZkdGZzMTJSRjA5ZVZscVBBVXZJZVhEeUh2SmtyMzFCY0JfZWE4VDA1LU5ZRzlFY2w5WWZ2QkY1eGpyaGxxQlpCUTA0eGpzWHfSAWBBVV95cUxOeTBuNE5ma1Jxb0dYSjB1MlVfMm5nUnloME04RVkyaXV2NHRrSG1XOVFfY1hXRjdJX3hLM3VlSU5NdjVEQkV2MUVoWldzcHhuUVdQc0pnZzhPQ1l6Nko3cWM?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 반도체주",
-    "press": "Chosunbiz",
-    "title": "반도체주 급락·유가 급등에 뉴욕증시 하락 마감… 나스닥 1.2%↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQV9YRmJwZFJDc0ljczZ2R3daaUl0dWJGbnlLd2p5MnZKdW44dkEyQnpPblBobEIyM1NDRHAtQUtKT2NHdktGYzhXUThmLWRkTG5LYWZTZkZVUTZ0MTkzTU5fSkZJWWFuT3FtZlhZeGt2eXBPOFlxbGVpVWVtVmhBSU12b1BfWmU5YXBMLXVTNE9ycDFlTF9QOU1qNk4tZ9IBsgFBVV95cUxNX0VOSk1tcXh6QWNJcWhGaVAzVkpEOE9fbHpXVTJVa3RvM2VZRWRwTHotNnYtWUVuYWxyNGhmZVVCazhXc1FIV0paRE9PWFNReVlHUEJRSktoTEp1YmZ4SmVoMXR3QUNpc21Da2dJY05WR0tEMTZ2eTg4Z04tSjNxV1FIVllBTXBPdlpmSWNfMkdZaXhva1RXT0pBc1h1XzFLX3doVC1uVjFoZU90bXg3NmlB?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Nate News",
-    "title": "How AI sees SK hynix's downfall ? and where it goes next",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5BZms3X1lDc1NTcFB6NnlWRzJ0MU91Nm51czJpbVBKRkdRQ3cxLUtYdXNmSHpjVFM5TGJGWHRzLTdORGlVYlFBVWR2M3pxelNMa3dOcDMzRWxVZXpza2lRRA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "아시아경제",
-    "title": "[New York Stock Exchange] U.S. Treasury Yields Fall and Semiconductor Stocks Rebound, All Major Indexes End Higher",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10LWVyVlNMS2U5ZEY2NE5xelVkbVFXcmRmUnR5TmpHSFVyVjZZang1RlRuM3lBQVpOWElaSVpqQTJOYlVjR1M3ZkRESlhtY2F0aTZweWgzakVfWEpwUG8zYzZENHk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "연합인포맥스",
-    "title": "[도쿄증시-마감] 닛케이 1%대 상승…AI주 매수세 실적 호조주로 확산",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WOVIzMjYzdkRVMFk3V0w0VWR5c2pfc0U4X1JsVC1kaTJjSXh5bFR0MWVPLTN3aTBaclY4VG9GTEFPc2R0RFpjUWhhYlVQZm8tUmRBSjVLQnNVejZ4dEw0YWNaOU52Vk93R3lsSHUxQXI?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 도쿄증시",
-    "press": "서울뉴스통신",
-    "title": "도쿄증시, 미 반도체·AI 훈풍에 상승 출발…닛케이 6만1400선 돌파",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vTkJZWXpKcWoyb2h1bTl6bVE4aDY1b2RaaU9vcFl1a3NDckx5SmJicUlMZEEycFltTXpWNURiTHlEOHB4RWtITzFkbl9sRGJ3Zzg1V0QwVmhCM0wySnM5VnJQc3Q1MHhOWVA0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 도쿄증시",
-    "press": "SBS Biz",
-    "title": "도쿄증시, AI 반도체주 급등...닛케이 6만선 회복",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE93c25KZVZoaUVlUEJPZzlncGlSZkNnVUJYRmdXbWhNRi1hY09aMHJVZ3VmUERkaWFDTTA3UC1yMnYwVU1HcUlxVG00OTVkZ2xIeXpz0gFYQVVfeXFMT0RVUXczMklsMFRRZ003R3NUcGMweUFRV1pBZmhKbFNHZG1PS0dmSy0yX0prVlpPbUljV1luTm9MV2Z2UU9JX2RqV21FUVlyOV9ucW1SemlFYQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 닛케이",
-    "press": "KB Think",
-    "title": "[도쿄증시-마감] 닛케이, AI주 강세에 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZZ05qWTFQYWNza0pueURFb1NLeXd6NlliVmF2dUtLVFRwTXlSSHJUY1E4MXAyZlNrUFJYNWtmUUZqMlVWbDNieWFISFVVN0QycUVNVF9mb3NmN0NVZ1NlLVZKMzVGS1pLRVYxaXpNSUZOUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "뉴시스",
-    "title": "日증시, 닛케이지수 상승 출발…증권사들, 잇따라 전망치 하향",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xN1VvWkZfb0hoa3lBNnFTZVlZR1FuMzc3MUNLLUwyX3ppWE56cFNvbF9NbU11TlB1OFpjTEtFQ3IzZnRhT3VXZTdiNTVBTUdkdEx1N2Q4MTVvcmM3UlM5MNIBeEFVX3lxTFBJVUFwZ0hGaG83NWpfQ2J1aXp2NmRqWG5WNlh0SlphQ1hFSXQxNHFDV1UzbGdLYzg4TGNCenUwTVpRcGszRXZIeFg1RWM5M0ltOENCMXNOY19xWjJNNjVodXVfRC1iV0M4aDRhc09CY2hBMnlKM21kZg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "KB Think",
-    "title": "[도쿄증시-마감] 기술주 폭락에 닛케이 2%대 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IMTBTeHU0RHFTVUZrbUNFMnI4dzVQWU9FNGdOMHZqYlg5ODZNS19STXp1eGczaHZtbC1nbGFUUjBSZjE3ZF9hUzV0a3Rid0I4ZlYxaHhfMURjOEtTenhKNm1JNFQ2cHV4MnB0ZHZGVTdhUQ?oc=5",
     "impact": "📰 일반",
     "time": "11/14 20:59"
   }
