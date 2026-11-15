@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 최태원",
+    "press": "지디넷코리아",
+    "title": "최태원, 'AI 플라이휠' 전략 주문…\"모든 멤버사, 새 역할 찾아야\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE53dVQyUEtURGNrcUZxMmd2VTRuVzZFbXRFbEJTX2lQMF9iR04zTlZIWmg0QTVfU1plOVQxakozUVBWX1JDSG5VUUNoRXowdzZtWkRxUUFR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 15:20"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 KT",
+    "press": "인공지능신문",
+    "title": "KT, 인천 남동산단에 AI 화재감지기 105대 구축…화재 예방·대응 체계 강화",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9zejNnenJJWldGUGpBcUFnOGhDYy1kVEp5VGpoVHYtUEdXQ0VUOVNrSVdrNmhWUWpEX0RMZkV6NUg2OTJuUF9Dd2ptNUFRNXY1a1BIMnptMnFKSkp0Ni0zVi1mc2M2MHM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 15:20"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 화성시",
+    "press": "경기뉴스광장",
+    "title": "화성시, 대한민국소통어워즈 2개 부문 대상 수상",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9SWTFzUy1JbDRTZGJ6RElLWWlwRXhNUmduWDNSRjlUbWxrS0VDWFlFWmdpck9acU9EbG14SWFKZDJCbWNjdG5YeENVUGRCRjkzdTJ1TVcxTWxfQm04N24xbEhn?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 15:20"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"3년 걸릴 군함을 1년 만에\"…HD현대 '무인수상함' 진수식 현장 가보니 [르포]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9NXzVtTXMyQmc3YkM5Y1M1UEFERjVSVzh5MWdnZFFKbzIxWkVtUXNMckVLSjdtdkNOZ19jXzJXX1lXM1I3TkFTd1ZyM2Roc3V4eEQ5YkJFakVWZw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 15:20"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "지디넷코리아",
+    "title": "AI가 일자리 없앤다?…\"2030년까지 오히려 170만 개 늘어\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlLTJYVWo1VVZOZmlMTXlZUC12VmZzOUNiU0Fta2pGdnNPN09POGR3bHh1REZKOW5sTWQ4Q3NCVGgzeUlRM1FjYWNYbVFwOEQ5d0N5MWVB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 15:20"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Crypto’s Slow-Motion Selloff Leaves Traders Weary and Hopeless",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
+    "impact": "📰 일반",
+    "time": "11/15 15:20"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "조선일보",
     "title": "반도체 쏠림에 증시 조정까지… 한은 \"소비 회복 더딜 수도\"",
@@ -2936,66 +2996,6 @@
     "title": "ASML 본사 노조 4곳 협상 중단 나흘 만에 한국 노조는 삼성전자에 직접 교섭 요구",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRjVRX3NGVEcxWk5YcDdQLUlYSkpnZE9OZERZTFVSMTFVTTR4NlJIYk00eDJ1MmpTTnRYTUFaX2NmTVUxazJSeW5WcmtTV2dKcjloRk8xd2xTNUJ4dGxQQmlQTUZKNVAzNDRFdzVkYTZHTDZFS1JhSTYtRDRRYWFjYXY1cGVETG1Q?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 ASML",
-    "press": "TradingKey",
-    "title": "ASML Holding NV (ASML) 주식 움직였습니다 상승 3.30%에 11월11일: 전체 분석",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOM2RiYTJYMlExMXBSeHk2c0J1QzF4Y0taWVlQNjVYLTBzbVZBY0g2TDlKQlVJZXJRMS1nV2ZoaDJEY1pTY3hXTlFLU0sxbHdLQnR1cW1GS0U4MlZ2Q1FOOGtjR2I3bHRsYVVXVjAwY3hYTmVsYWNNNVhhNkUzMmNEZG9kbWFGdVdnZG5LNUhScw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 ASML",
-    "press": "Investing.com 한국어",
-    "title": "ASML 주가, 오늘 개장 전 거래에서 4.1% 오른 이유는?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1RQ2ZJVVdxYlJRaGxqTXlHVkZEUGdRd0lPUi1CWXQ5aTB3Ti1RbG5DOWxXUHZYcklRUHpqSUs5LVAwaTkycVpOVng1MVQyeXhnMWZRLW1WdU9yb3plX0RsUmRVWkFIcXJKNUxtSWNyZUdiS09CYmFF?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 ASML",
-    "press": "뉴스필드",
-    "title": "삼성전자, 밖에선 원·하청 안전교섭 요구…안에선 7번째 노조 등장에 갈등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxNTV9nTDhYX0h4MGlqWUFKb3VIX2ZUUVFYcDlBMkdPTGlnQ0Y1NlIwa2FUZDhqR0JrclpsM0lYeHRyUmdVZUhGR21jcS13eldRQUY2V1h1WXZDM1M1a0dNQmNUYkxQRjR0NEVRZXZjaWhzZXc4R2Y0YVVNeGJWMVdaZlVJWWhsd05fTEhGMERLLTNRMUJLSDJqUEpfdVc4SUx2VjBBTTg4QU1nRVVOaU9iMERYTHVoUUZkTmFRaFNEZG9KX3QyN1ZmY0VLckZ4d2Jucm9yTFdXWHpoalI0TWJvd09rUzFCX1BfWDhkYmluOFZ0eHMxVWhfVS16RUJSTjVtSE5JNEZRQ1ZrTVM1cnlocE1WTmJKUzM4b0xsb21WWGJRVXJabVl1UmlzREVsaHc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 노보노디스크",
-    "press": "히트뉴스",
-    "title": "노보, 위고비만으로 부족… 특허 만료 앞두고 '새 판 짜기'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBiUzhPdEZBaTljeU5lUlRycDgwWGhCRzlrQUZUS0dxbFdHZVU0ZjdlejVvZ0VUTVdwTktxNWNwLUU5NWxhM2NoV3puRzI2N0ZNOGcwS2V4VmJIU2pFS0FJbmxnMG8yOW44ZG9Z?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 노보노디스크",
-    "press": "한국경제",
-    "title": "비만약, 주사에서 알약으로?…일라이릴리 vs 노보노디스크 '반전'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14XzFwS0wyRUJWVjRpSXM0Y2dlcy0tWnVwN0d6c2M3VE4tM0ZRT1NwYzl4Vm5DLW9GaVIyR2xCd3MwcWNUMG9OLXJmZTNPS1pTc3NzZ2VlYUdzUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:21"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 노보노디스크",
-    "press": "초이스스탁US",
-    "title": "일라이 릴리, 중국에서 첫 경구용 비만약 승인…경쟁사 노보에 앞서",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBOaXd4dC16T0U2WGNmNVBsY0hvLTBDbEV3S1p3ek80d2Q5Z1drOXQ4SUpKQ3JtYUN4S3YwVmVNR195NkZEeVlrQkFEV2dVZ3lMM2dZNHJqT1RMbXpQeGs5Rm9iNmhVSGc?oc=5",
     "impact": "📰 일반",
     "time": "11/14 20:21"
   }
