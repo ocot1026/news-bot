@@ -2,6 +2,36 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "젠슨 황 이슈에 여전한 시장 불확실성...\"엔비디아 실적 등이 관건\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE80bzJlMlBweElLSzl5ZEJmM3dsY1U4X184YzdWd2pMWkFjSnU3X2l4b0g0Q0ZJX3hDLUdWS3hwbnhuT1ZfZGtLbVUyNjNDZ3pIckZNbDJ3MGgycXpzdmc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 20:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "산업장관 \"석유 최고가격제 연장은 불가피한 선택\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92RU53enVFTWg5VWM1UE9VcDljck81MWxDWFNYWmhENlB4amZLZXVWRllmaEhJeHJERkxRVFhWTERNdjRnMXY5b0F0aHItZWowTFVjRTJuN3E4TlV2THc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 20:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "‘연 1회 이상 기업설명’ 의무화 한다지만…신뢰회복 미지수",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0xdWVrNTVWY1ZEMHRDQTRCSWJwU0ZoN0pyUmIyQjlCRkZJVXJ4Vk5zNWpyZEJUVURSdEkxclF2bVJuOHFmX3EyNUhOcFlqWHhIeFhyUkZVdmluX3piX2g5UEM5VHVKc0U?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 20:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "지디넷코리아",
     "title": "22시간 우주 돌고 돌아온 스페이스X 스타십…거대 로봇팔로 '덥석'",
     "sub_title": "",
@@ -2967,36 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE50M240MW9NbWxzOWxNNlE5dmxLMmZaeHpGUTJnLWJPZmFDaXdaaHRCYkU3c1lFSU9PR2llb1JJN2U0bnFhTUc3NVNEX09GWXExdms2NDNfeUdnQzhoN2Z1T05vcExkTUhIdmVuVW1fZnZIR05iaVZn?oc=5",
     "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "뉴스핌",
-    "title": "유럽증시, 9월 이후 최대 주간 낙폭…프랑스 불안·고유가 겹쳐",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zM2x1aWUxajNSV2x3VUowMUxtUEstSDFtdkxMQWZIVllVLVM0c1J1R0ZRelVxakd6eF82X3RYOE5FRjE0MTAwYzk2MEE3Zzk3a0hUakZ2cGE4cGhv?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "뉴스핌",
-    "title": "유럽증시, 엔비디아 충격에도 실적이 떠받치며 강보합… 독일은 이틀 연속 최고치",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE02LWhISFBoby1xdnZySno3VHNUZ2FLdFE1NVJYZjNJZ1JhQXNGVTdUOG5leEM3X2NSLU1ESDRYVDB0UEtlcmxiNFVkNFZXS29KQkdsSWV4YTJ0dndu?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "인포스탁데일리",
-    "title": "[1113마감체크] 코스피 지수, 외국인 매도 속 하락…코스닥은 강보합 마감",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qM3RkeGcwYzF0OTVBdDE0MnAxS05vZ3hIR1JKbUctVmhXUW9keDJLMXRxMmRyNDFaNmsyMjJaRGZNY29Na29scUFVdmRGc0dTWkdXU05mcExwbGlsT0hTZjk5Z0g1OExqZGJKNTFUQmY4Ulotb1E?oc=5",
-    "impact": "📰 일반",
     "time": "11/14 20:59"
   }
 ]
