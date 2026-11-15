@@ -2,6 +2,96 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스TV",
+    "title": "엔비디아 투자자, 젠슨황 복귀 요구 서한…온라인 청원도 11만명 참여",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0tRFprcGcyeFMxWjRyaHBSZGFzTGQycE1PcG1TcTF6dUZVQ2Y4VnBqMlZHTXpuS0JnLUV0YjVmb1RVb244eFhud2xfVUk3Y0RTX1FZWGw2eklURjBrREtmd3g1enEwZG8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 스페이스X",
+    "press": "연합뉴스",
+    "title": "스페이스X, 스타십 시험발사…'우주선 1·2단 전부 회수'는 실패",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE80VTg5eUw1ZF93Um9EcHRlMWVEVm9HeHdmSlAwcklFeEJSQkJraG1ub2hOaC1QQnhGQ1hDeUVDSnNhVEdId0hVNEhvY1lxc0QzbDVfWl9jRFUzVG_SAWBBVV95cUxPYTBVZEs3QWw5SmpWc2lsaGhMaFZiN0FMN2k1cEw1dVl4VnZQc1p4WldibzRuVWoxZy1BNG8zNFpKWlBCVHdKanRPMFJwYWRZajVGY3FKbnV5YVMxS0FwaDY?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 삼성전자",
+    "press": "연합인포맥스",
+    "title": "삼성전자, 2027 CES 혁신상 19개 수상…최고 혁신상 4개",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lWEIzYm5zMFNHa0c0a2xZcEExbU12ZDUzN2pXOGk4eHpOZDVkMHQyR2JGN052OG5GSVlHTkFneTMyTXVyTU1YbElIWUNyU3gtOXNQSWZIRl9GVF9tXzhIaWp3Y0FIUW4weFZtS00wVzk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스1",
+    "title": "작년 12% 뛰던 강남·서초 집값, 올해는 마이너스…송파도 상승폭 급감",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBVdlNoMUlqeTlmMnpwTDFmVjZPaUt4T1VHd3p5TjFBZFN3S2k2eDYzdVlranVFRGFyWFRCcncwa1k3Q01Yd3FTZ2s0ZFZFUnhUdmg4NDctZk9HZ2c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "새로운 AI 백만장자들은 자신의 돈을 기부할 수 있는 자산 상담사를 원합니다",
+    "sub_title": "New AI Millionaires Want Wealth Advisers Who Can Help Give Their Money Away",
+    "link": "https://www.wsj.com/finance/investing/new-ai-millionaires-want-wealth-advisers-who-can-help-give-their-money-away-7d586775?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "SpaceX, 텍사스에서 성공적인 로켓 포획으로 역사를 만들다",
+    "sub_title": "SpaceX Makes History With Successful Rocket Catch in Texas",
+    "link": "https://www.nytimes.com/2026/11/14/science/spacex-starship-first-catch.html",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "뉴올리언스 항구, 유람선 추락사고로 유조선 압수 요구, 100만 달러 소송 촉발",
+    "sub_title": "New Orleans port seeks tanker seizure after cruise ship crash sparks $1M lawsuit",
+    "link": "https://foxbusiness.com/economy/new-orleans-port-seeks-tanker-seizure-cruise-ship-crash-sparks-lawsuit",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "뷰티 어드벤트 캘린더는 수백 달러의 비용이 들 수 있지만 가격 대비 가치가 있습니까?",
+    "sub_title": "Beauty advent calendars can cost hundreds - but are they value for money?",
+    "link": "https://www.bbc.co.uk/news/articles/cqn83l442724o?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 닛케이",
+    "press": "연합인포맥스",
+    "title": "[도쿄증시-마감] 닛케이, 이틀 연속 62,000선…안전자산 선호에 국채금리 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqRU1xQlJHSlVJT1FuNEM0R0hzNFZkNlowM2FFTjlqbjhDNHcyV3BDdFhPREJXbXFfcWhEQ0tScGJRaVJuVzdMb0s2TEQwcXhhNFhNa2FnbWdSNFQxMmw2cS1iTml6aUFoYUlHbVNWUks?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 10:21"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "MBC 뉴스",
     "title": "엔비디아 투자자, 젠슨황 복귀 요구 서한‥온라인 청원도 11만 명 참여",
     "sub_title": "",
@@ -2906,96 +2996,6 @@
     "title": "본업으로 벌고 환율로 잃었다…K게임 덮친 '원화 강세' 역풍",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9GNXI1bGhqUmRsd2dnU2VudW1fV0tHMUxKYWx1Q2RQT0QzaE96TVIxNGZFQVE3M193X3BDOTUycEpYckFHeVE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "유가",
-    "press": "머니투데이",
-    "title": "\"민주당 부패 조사 집중\" 트럼프, 밴스의 이란협상 제동…유가 급등 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1jbTRmaDlBMzZiN1BxRlB1VU0xRGl6Yzd4YUtma2licjlTYmVsODhtT0E1SFFNR2pOdXQzR2VkeXJrZE90d1RiLTB3OHpQTXIwd1QwLV9jR1ZvcEVlZlRBUjc4a1lnQ1dW0gFuQVVfeXFMTkNjQVMwN25CdmV4RWxQdjlJMjRvdEFsMnVqeDN3aEJRb1Q1WlhVVnpRTVhkUWRULWxkSUIwTkktT1ktWWc3Ni1qLXhDUWw1SldTLVd2c1VuUW5IOEN0Sy1XYVR2Tk15ZFBJWFd3akE?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "유가",
-    "press": "Investing.com 한국어",
-    "title": "하트넷 뱅크오브아메리카 전략가 \"금리 4.5% 아래·유가 $70 될 때까지 위험 회피\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5mcEpubnV2S3ZCTWsyd0NSU052YU81MVluanJZd1NtTVVlenBZNVhPaUJ0TmxKRFJQUU44cUNmd1NUZC1LcXBaci1XbWRBbEV4cTlkNTVyYm9XSURpcW5uMWN6WUxaelBHWG1ST3RHNEI?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "유가",
-    "press": "서울경제",
-    "title": "국제유가 상승에 달러 강세…달러인덱스 19개월 만에 최고",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1qYUZzRFlzdHNfSkI4MlduanF0ajlTdlo4QWIxNFdYc0ZJMnNvWU9QX01tR1FhNk1vY0R6SzliUzdGcVVqYkJvMTM2Q1Y1UlhkRnfSAVNBVV95cUxNV2hvSDMzeWNRNy1LalFRNXZrWUdJMmRZRXpqN1o4SDluMkJZU05ENGlpYVNEN2hrc0NmY1lLV3FSNm9lVmp4cUgtaWxRZ1Z5YjJDbw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "유가",
-    "press": "이데일리TV",
-    "title": "이번 주 국내 기름값 동반 하락…국제유가는 반등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1pQXk5ZHQ3SlRQVzlNM185aUJjTDRYc1VFYldDR2hlY1VGRlVtSktaWFlSUW16M1d6dm9MdW5INE5nbHJxRUZmbUZTc3JOTF9iQmZqYjBma2RWWldZLUxzb29jUjY5Q21lbXJ0SVAzWHlYZHV1T2M5ZEFIdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "CPI 물가",
-    "press": "조선일보",
-    "title": "美 생산자물가 상승률 약 4년 만에 최고…연준, 12월 ‘빅스텝’ 밟을까",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSDZlcTVWc1B1UVV1aFg0WVJqVVhHMVpUWU9xUmQyUzJXaGhTWkNucFVpbzJLYjBBcjNPdlA3Q1FWT2dZYWhTNzRKZEVtWHhtRVQ2Q0NxNHVxaDN0aUxFRHBrVktKb1d1SG9iX3d1LXBjSXJWT3NqYTluYmRRTzBtOXlLNkxHakpk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "CPI 물가",
-    "press": "뉴시스",
-    "title": "10월 인도 소비자물가 6.09%·0.55%P 가속…\"2년 만에 중앙은행 물가 상한 초과\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5vRWZHVUhfUmVJOU0wLWlKYmV6RmxDZEhIT0EwYlo3WGY2MzgtUkluRXdYRkpiRjZMeFFqM3B2ZTFIVm43U0k0NFdCNllHNUpFZHJIWHZaNnVPdGZDaHgwd9IBeEFVX3lxTE5jMTdaWWh2cGZ3bC0tVUlXRVMwNHVlR0J2SnJGVnFkMkRNWTlQdjNKejFxRjJZWFZlMVgydkJ5VGtYS2tlVWRlVHptUEM0b1JtcVZtdjRfUGJXX19yWk51UGdzU1hMQmgyTUVOYWk4eDRRekk5ZTlVRA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "CPI 물가",
-    "press": "한국경제",
-    "title": "美 물가 쇼크·엔비디아 악재…반도체주 바닥론 시험대 [오늘 아침 당신이 알아야 할 7가지]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9pbFE2LVJEVUx5YnltOWk2S1dXQ1plSUFPMVVobDgwLUx0bDdtU0dIc1dxSWNoclhlUE5HdFRWd2FGa29YMmFkYzlma1lWdFZRa1BFRDdGUXcxQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "CPI 물가",
-    "press": "서울경제TV",
-    "title": "뉴욕증시, 10월 물가 예상치 웃돌자 3대 지수 일제히 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE55T1dEWTlJM3JmSzdiQlJCczBJTDZJRDBJWmJobnN3VFdmdDd2MkhUMmdYTHNvVlBFUUR0UVpfVTFPbzB2dVdCSW0td2R2QlpmOEhOXzhjcmpfTWZ3bXE4TURBSV8?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 18:28"
-  },
-  {
-    "category": "MACRO",
-    "tag": "미국 증시",
-    "press": "한경매거진",
-    "title": "미국·중국·ETF로 알아보는 2027년 머니게임",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9QZldsSW9WbWN3TTB4TVlUbXVsM29RVUlRbUhlZmVqN08zemwzMnZQajgzUEFiOTBBTjFxRWZ0TGY3TFktbUluZUpGNVNHb3d3UVVuXzVtN3F1ZkdMUHdncTU3WFVtTUtEa3RGTA?oc=5",
     "impact": "📰 일반",
     "time": "11/14 18:28"
   }
