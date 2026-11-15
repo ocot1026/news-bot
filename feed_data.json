@@ -1,6 +1,26 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"스시자로 사러 日 갑니다\"…3개월분 가격 얼만지 봤더니",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA5VkhxUXdUMG5Sc2NWa3VpQkpCcW41OTZfNmVFNGRucG45SFFJd3dkREpBUGxYZkV1XzlJb0I2aXJUOXgxaDhhM3EzNkMtLW5zbUR1WDA1YzdBdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 05:21"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 닛케이",
+    "press": "KB Think",
+    "title": "[도쿄증시-마감] 닛케이, 美 블루웨이브발 AI·반도체주 급락에 61,000선 후퇴",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WQ2lkd0lvMG9pZUhsSTZBSi1sMVk3bHhVdE1uVHQ0c2VITk0ycVFfdnh2dGlxY3dEcjQ5ZWV6akVhQmtjSkFadl9zYzNROXE4cHYyeTBjekNNc19USnpIYUR5dHgzX2RISm55b3k5RDJsQQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 05:21"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 주성엔지니어링",
     "press": "남도일보",
     "title": "[특징주]주성엔지니어링, 코스닥 반등 속 기관 순매수에 17.14% 약진 마감",
@@ -2976,26 +2996,6 @@
     "title": "상반기 상장사 영업이익 ↑…반도체·IT가 실적 견인",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtS0NQVzJSeFhpN05QczhmZGlBYXJmN01TMDhIaUlxME9Wa1hrSTVRdXdQVHlDckpjQXdGUGZMcmVkb1dzaktVV3g0cmFTS0EtZFMyYTZlU1lycFY1S3BiTG1QaUh2ZFNaaXc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "한국경제",
-    "title": "상장사 상반기 영업이익 전년비 254% 급증…반도체·IT가 실적 견인",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nTW9XNmw0VHUzTS1jVXlJel9LbmtVYzlKS0pmVURUeVhwXzRsTlFTSEkxMWhyNTVOMlNXYnV2ZVh0SzdHSGptbWwyR0ZkbkRqeHNwVVhTYXBGZw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "녹색경제신문",
-    "title": "유가증권 상장사, 상반기 실적 ‘껑충’...증권업 영업익 163% 급증",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KWHJfelRMLU5rYlF2WmVNazdnaG1qaEUzM3pJVUlGNkRPOUFmeUwtNlQ2aEROaHlxR25MWXJEMnZsbjBGVmVHeHQzUUxBbFpZVFh2a0g3MHZYakp6TkpOU19qampweGVT?oc=5",
     "impact": "🔥 주요속보",
     "time": "11/14 20:59"
   }
