@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 한국",
+    "press": "한국무역협회-KITA.NET",
+    "title": "한국, 중국 수입시장 6개월째 1위…미국선 9→6위",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxORm5TcjZXM0NyNUtjRWtCMUo1eGlIZURXWDd0M0g1dDl1R1R2cXUxWnFqSHFVdmtlRFBaVFB1eXZPWVpjTHlhVGV1emY4OXZxSERYR1lLaGxzNzU4d2VpZjRSZWVqZUx0VXJCdWx1a1lTUEZ6VFVkenFWaWFrTGFUaTNpU0xmUndtcFVSTmZ0cWRwdmpIeHRTeE5vWEZKUVY1QzJNNWdTTkJoUlNZamdFMEpReXBHXzJ3aWkwWjg0YU9sblRUNWtBWkpYdVZiZTU3QTdmQ3FB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 22:47"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "‘최고가격제’, 물가는 잡았지만 나랏돈 5.6조원 ‘쑥’…출구전략 고심",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9fMGM0OXJsYWJMR2t3amxhYzdrSHlSdkc3anEwd2ZOTU10cU5qdWx5NTFjU3IxTlFlMHZBSWJiR2ZxaWNBSUF3Yl9MNmJ4WE9VWVZKeFJReUtDLUl3cEwxSVR3SHNRQV9lTzc5Tnp6WS1KUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 22:47"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 한국은행",
+    "press": "연합뉴스TV",
+    "title": "한국은행, 금 투자 늘렸는데…평가액 325억 감소",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5Qb0RoUXl4ejVkRzlOdE01OHlnQjdERFRZa1FfVExxdGdmcE0tVkFya2wzTVR6dG1SMDF2UTZFV09ESENmNW05SnpmeXZQMjBZd3E4cnBRQTFoQnFMYWlVdkRsMlZNeWM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 22:47"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "해커도 AI, 방어도 AI…창과 방패 대결 시작 [해킹의 습격]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1vZ2JJNzY0ZXMtZUVudC16T2RKd25YWWJxRERjU1VjczNnVHdUU2NKT3E5Nm1OTkRWdXYxQXI4Z1JvRXh1NThXVkpwRm1LV3JFZGJrV1ZKMzcyZ00?oc=5",
+    "impact": "📰 일반",
+    "time": "11/15 22:47"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Huang은 1,320억 달러에 달하는 Nvidia 지분을 매각할 수 있나요? 시기와 방법은 다음과 같습니다.",
+    "sub_title": "Can Huang sell his $132B Nvidia stake? Here's when and how",
+    "link": "https://finance.yahoo.com/markets/article/jensen-huang-leaves-nvidia-with-a-132-billion-stake--heres-when-he-can-sell-and-why-investors-may-not-know-when-he-does-chart-of-the-day-130732443.html",
+    "impact": "📰 일반",
+    "time": "11/15 22:47"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 트립닷컴",
+    "press": "뉴스핌",
+    "title": "[중국 특징주] 트립닷컴, 반독점 조사 결과 나오자 1년래 최대 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB3VmRLdVd0V29SZ2wxNXFYY1NmajlILVlobHFIcGJCTlgxWkd0V2tWclBsNklvSXlzdEhfODQxM1hGNXhMTTVOYTgyVWlQcm9QOVZZanZ1SXN3WC10?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/15 22:47"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "산업장관 \"석유 최고가격제 연장, 아직 불가피…정상화 여건 만들어야\"",
@@ -2937,66 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5Fb2V0RHJPQ0NEa2ZkNWVlX294Zm5reEt4dmViLTBTX1MxSjNWMmhYQjRJOURwdmtCN1JoUXdQc1pCM3BfSTBXZnhKRVd2T052SjZGZHdUYldaeklK?oc=5",
     "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "비즈니스포스트",
-    "title": "[이주의 ETF] 한화자산운용 ‘PLUS 심천차이넥스트’ 22%대 올라 수익률 1위, 중국증시 상품 상위권 휩쓸어",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBkZGExajhBc25hdkVwX1BFY2ZVQUpUNzUwYmJMUzhrWEVDR0k2cG1FUUU5aU5KR0g2MWZhUGk3MC1yOVJqQ0taS1R0V0FVZm8tQ0lTTHZwN2NVZzdJQ2Nwc1p5dFFUVGhmeEE4WkI1N3FWNGM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "마켓인",
-    "title": "3년 전 홍콩서 인력 줄였던 노무라…IPO 시장 살아나자 복귀 검토",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE05R18xeE9BMU53MnU2SmhjLURyVkJUVkVfZ0lWM3BWNmNEX1lfYzJSU0l0b0xEOHlQcmlUb0lPVWlDbUt3WnBiYm4yVXdHdlAwX3hEeXhfYTIyNTBvVEJZampBLWc3RXMtN3lYSjhkcVB2bW8?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "KB Think",
-    "title": "[亞증시-종합] 기술주 강세에도 혼조…日·臺↑홍콩↓中 혼조",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE16QUJYTzFiSGs1SWJKSy1XWXhxcERjM20teHpmZzJ2b0RGZF80WlkwZ3drWElOWm1MT2otY3VKeEpHR1VCQ05HWlI1TTdLb3FlNW9ZSnMyUVA5NDZQRWc5Wk9IZEpuTkVhZjVpdnRtb3lNdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "매일경제 마켓",
-    "title": "코스피 11% 급락할 때 8% 반등한 중국 기술주…증시 부양책에 ‘바닥론’ 고개",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9lajdOWWhOY2hVVkxiU0pqTVM2bUcwWUFsdTJfTmpuUzQ0dlJBZFZGNkRnUGZqUkZlSXBNYUxQd0NDZkFRZDBaX3VqYXkxbjZtOEE?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "EBC Financial Group",
-    "title": "홍콩 증시 전망, 미국 중간선거와 중국 부양책이 바꾼 흐름",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1Sa2dGcmd4SE9zM2J6YTZBcGQ0MFVfeXg2eGRrSWZUaXFUekp5OVEza3hiQmEzRDFwVGM3Ri1SQ2xlRmMwY2hRWm5nR3kwd2lvYWc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "뉴스톱",
-    "title": "中 증시, AI 기술주 급락에 일제히 하락…에너지·은행주는 선방",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5VbDdxdHlQOTVXdlpaQWFlazRaWkhNWmhuZm8wb2Viam44d2dEeGotaEYwUENzd1BDbDhNNU8wSFVwUWxhT0Jta0drcFp6M0FXWDBodGpMLVlVSS1hem1HWFBZejFlSWl2TzRJUXVFbw?oc=5",
-    "impact": "🔥 주요속보",
     "time": "11/14 20:59"
   }
 ]
