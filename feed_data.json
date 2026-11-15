@@ -2,6 +2,76 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "“젠슨 황 복귀해야” 14만명 청원…머스크도 가세",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WaG8xMlduM1NndGlhWEZDSjF2U1NXODhFUF94UHp1ektUMjFNQzFvZzl2ZGRscTJVSVRXdmdLSWxOZ0oxSXpnUGxreFRCN3RfZEt6M0c0V0RhT1VrQUZHc01pa3NfZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 02:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "매일경제",
+    "title": "“젠슨 황, 美 정치적 희생양 됐을 수도”…중국 매체들, 옹호 나서, 왜?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wRXVSTG9DVVhKZ1ZHN3FzSGRpQTNCTDFKOXRwam1uMjFVcmsxMVVsWUVUVTBLcUwydVN6LXBJTTE3NmRFelJmdzVpYnlDcC1xb1E?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 02:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 바로팜",
+    "press": "현대경제신문",
+    "title": "[특징주]바로팜, 코스닥 데뷔 첫날 약세···공모가 대비 24%↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jak8wMlFCOWhPRE5DZHFQX2tUVEdOYXZUb1FXRkRuWmFCWmFzVy1ZQnR4UlVVa1JEVV9Pbm04MG9hLUpRakY4QVRrLVhVaG5kaXdHU3VRRnNoeWcydGlKUkY1enVFOFHSAWtBVV95cUxOS29JdmZOaWUyN2IwOHRPLWdsdDR3NXFjV1FmRFFjQlY1V09GRXBRSEw0SGZKTlBobEpNaGtqYXBRSmZvaTRXX0hSYUdZdVJaZTdDMDg1Zm5jbmVKWGtTaTBTTTRZSmRaQVF0SQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 02:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 넥스아이",
+    "press": "연합뉴스",
+    "title": "[특징주] 넥스아이, 코스닥 시장 상장 첫날 약 40% 하락(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsV0RZdFk4NzR2VS16eFpCOHRHNVhUalNQeExlYy04V3l3SjEyX2U0R0lrRlQzbXlZcE1aSDd2NkRWdFVMRHp4MXVVNVZZS2hhZ2F4NXdCYnU5MDTSAWBBVV95cUxPZlFmclFJcjQwc2FHQmF1bEtVZTlOU3p6YnZkdU4zeFIzLXZxNEdjSWlFbWdKRk9iLW5DLVp2akZydjZ3cS13SFF2ZHludGZpeVNJWjI3TVlFWkt5amFSNlU?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 02:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 바로팜",
+    "press": "컨슈머타임스",
+    "title": "[특징주] 바로팜, 코스닥 상장 첫날 '급락'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWUxCVWxCWjBRU2RxaFcxNExDT0U4QVZQYmp0SkhBQkZ2MHRNbVFWRUhDdUhEQzFlUGxQcXM5b2J0SDZDdWxhOE1GaXVHRzdjdnZxQUpRSTllZk1XbktxZ3Y2d3NERS1VSEE?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 02:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "더페어",
+    "title": "[증시 오늘(13일) 주요 특징주] 코스피·코스닥 동반 급등세 이끄는 주요 특징주…반도체·바이오 집중 조명",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CV0gxNXBuMTRmb3dFQUFWZzdtYmlMUTVtNEctQ0tpdVZqbDFpZDlzYUxBWWlGU2lQaUNTQzdmMC0zRXdzWnlXWHlqc1pRV3l0X1J2UWkwV1NwOE15TGhwNTBSOHdMTFg1cU5lb3Vpc0zSAXRBVV95cUxPckFMTVdDRnVVbzREdWxRaHRwLXBTOTBPZ3RCYk90UWNWQVZ0aklUS3hURFh1TTBhMlVhdUZfZFZWMklhaHFTZjcxTjI0b2NLZTQtaFF2VnBmc1pnZzlha3N1R2YxQ0dmYk04UzJXMFJ5RHFlMg?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/16 02:30"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "이투데이",
+    "title": "유럽증시, 미·이란 갈등과 英 정치적 위기 주시하며 하락…스톡스 600 1.01%↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93ODMwUzlfR09lckJSNTBjZzd0X2VXYjdyY3hWQ0xiblhSbUFfYUNPSEFzRm9BY05zUkFTZDRpQkdqZU1icEQ2RzI5Q0RJTjRaMTh3eQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/16 02:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합뉴스",
     "title": "비반도체 수출도 두자릿수 성장…호주 1위·네덜란드 2위",
     "sub_title": "",
@@ -2926,76 +2996,6 @@
     "title": "그는 파나마에서 중국인이었다. 그런 다음 그는 수배자가되었습니다.",
     "sub_title": "He Was China’s Man in Panama. Then He Became a Wanted Man.",
     "link": "https://www.nytimes.com/2026/11/14/business/zhang-liang-china-panama.html",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "'세대 충돌'이 유럽 시위를 부채질하고 있다",
-    "sub_title": "A ‘Generational Clash’ Is Fueling Europe’s Protests",
-    "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "시장은 기술주에 '지나치게 집중'되어 있습니다: First Eagle Investments 글로벌 가치 팀장",
-    "sub_title": "Market has been ‘extremely concentrated’ in tech stocks: First Eagle Investments global value team head",
-    "link": "https://www.foxbusiness.com/video/6408363487112",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Jensen Huang의 갑작스러운 사임으로 투자자 우려가 높아지면서 Colette Kress가 Nvidia 임시 CEO로 임명되었습니다.",
-    "sub_title": "Colette Kress named Nvidia interim CEO as Jensen Huang's abrupt resignation raises investor concerns",
-    "link": "https://foxbusiness.com/markets/colette-kress-named-nvidia-interim-ceo-jensen-huangs-abrupt-resignation-raises-investor-concerns",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "FAA는 드물게 전국적으로 지상 정지를 해제합니다. 항공편을 복구하는 데 며칠이 걸릴 수 있습니다.",
-    "sub_title": "FAA lifts rare nationwide ground stop; flights may take days to recover",
-    "link": "https://www.marketwatch.com/story/faa-declares-rare-widespread-ground-outage-bdc46393",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "엔비디아는 계속해서 AI 거래의 '결합 조직'이라고 투자 전략가는 말합니다.",
-    "sub_title": "Nvidia continues to be ‘connective tissue’ of AI trade, investment strategist says",
-    "link": "https://www.foxbusiness.com/video/6408362339112",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "전문가는 Jensen Huang의 임시 교체가 회사를 이끌 수 있는 '완벽한 능력'을 갖고 있다고 말합니다.",
-    "sub_title": "Expert says Jensen Huang’s interim replacement is ‘perfectly capable’ of steering the company",
-    "link": "https://www.foxbusiness.com/video/6408361164112",
-    "impact": "📰 일반",
-    "time": "11/14 20:59"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Stock Market News, 2026년 11월 13일: Huang의 해임으로 투자자들의 시선이 떨어지면서 Nvidia 주가가 다시 하락",
-    "sub_title": "Stock Market News, Nov. 13, 2026: Nvidia Shares Drop Again as Investors Eye Fallout From Huang's Removal",
-    "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-13-2026",
     "impact": "📰 일반",
     "time": "11/14 20:59"
   }
