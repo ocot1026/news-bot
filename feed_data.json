@@ -1,5 +1,65 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Bessent Takes Hawkish Turn in White House Debate on China",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/16/us/politics/bessent-lutnick-china.html",
+    "impact": "📰 일반",
+    "time": "11/17 06:31"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia investors will be clamoring for these answers on a historic earnings call",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/story/nvidia-investors-will-be-clamoring-for-answers-to-these-questions-during-the-companys-hotly-anticipated-earnings-call-a49ec19d",
+    "impact": "🔥 주요속보",
+    "time": "11/17 06:31"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Trump Nominates Budget Deputy for Nonpartisan Federal Watchdog Role",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/16/business/trump-gao-watchdog-nominee-eric-ueland.html",
+    "impact": "📰 일반",
+    "time": "11/17 06:31"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Charles Payne: This could be a 'monumental' week for the market",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408464441112",
+    "impact": "📰 일반",
+    "time": "11/17 06:31"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI selloff has investors scrambling to measure their true exposure",
+    "sub_title": "",
+    "link": "https://www.reuters.com/legal/legalindustry/ai-selloff-has-investors-scrambling-measure-their-true-exposure-2026-11-16/",
+    "impact": "📰 일반",
+    "time": "11/17 06:31"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI and 24-Hour Trading Test Rules Governing Currency Markets",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/ai-and-24-hour-trading-test-rules-governing-currency-markets",
+    "impact": "📰 일반",
+    "time": "11/17 06:31"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한겨레",
@@ -2936,66 +2996,6 @@
     "title": "“젠슨 황 복귀해야” 14만명 청원…머스크도 가세",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WaG8xMlduM1NndGlhWEZDSjF2U1NXODhFUF94UHp1ektUMjFNQzFvZzl2ZGRscTJVSVRXdmdLSWxOZ0oxSXpnUGxreFRCN3RfZEt6M0c0V0RhT1VrQUZHc01pa3NfZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 02:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "매일경제",
-    "title": "“젠슨 황, 美 정치적 희생양 됐을 수도”…중국 매체들, 옹호 나서, 왜?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9wRXVSTG9DVVhKZ1ZHN3FzSGRpQTNCTDFKOXRwam1uMjFVcmsxMVVsWUVUVTBLcUwydVN6LXBJTTE3NmRFelJmdzVpYnlDcC1xb1E?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 02:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 바로팜",
-    "press": "현대경제신문",
-    "title": "[특징주]바로팜, 코스닥 데뷔 첫날 약세···공모가 대비 24%↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jak8wMlFCOWhPRE5DZHFQX2tUVEdOYXZUb1FXRkRuWmFCWmFzVy1ZQnR4UlVVa1JEVV9Pbm04MG9hLUpRakY4QVRrLVhVaG5kaXdHU3VRRnNoeWcydGlKUkY1enVFOFHSAWtBVV95cUxOS29JdmZOaWUyN2IwOHRPLWdsdDR3NXFjV1FmRFFjQlY1V09GRXBRSEw0SGZKTlBobEpNaGtqYXBRSmZvaTRXX0hSYUdZdVJaZTdDMDg1Zm5jbmVKWGtTaTBTTTRZSmRaQVF0SQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 02:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 넥스아이",
-    "press": "연합뉴스",
-    "title": "[특징주] 넥스아이, 코스닥 시장 상장 첫날 약 40% 하락(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsV0RZdFk4NzR2VS16eFpCOHRHNVhUalNQeExlYy04V3l3SjEyX2U0R0lrRlQzbXlZcE1aSDd2NkRWdFVMRHp4MXVVNVZZS2hhZ2F4NXdCYnU5MDTSAWBBVV95cUxPZlFmclFJcjQwc2FHQmF1bEtVZTlOU3p6YnZkdU4zeFIzLXZxNEdjSWlFbWdKRk9iLW5DLVp2akZydjZ3cS13SFF2ZHludGZpeVNJWjI3TVlFWkt5amFSNlU?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 02:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 바로팜",
-    "press": "컨슈머타임스",
-    "title": "[특징주] 바로팜, 코스닥 상장 첫날 '급락'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9IWUxCVWxCWjBRU2RxaFcxNExDT0U4QVZQYmp0SkhBQkZ2MHRNbVFWRUhDdUhEQzFlUGxQcXM5b2J0SDZDdWxhOE1GaXVHRzdjdnZxQUpRSTllZk1XbktxZ3Y2d3NERS1VSEE?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 02:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "더페어",
-    "title": "[증시 오늘(13일) 주요 특징주] 코스피·코스닥 동반 급등세 이끄는 주요 특징주…반도체·바이오 집중 조명",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5CV0gxNXBuMTRmb3dFQUFWZzdtYmlMUTVtNEctQ0tpdVZqbDFpZDlzYUxBWWlGU2lQaUNTQzdmMC0zRXdzWnlXWHlqc1pRV3l0X1J2UWkwV1NwOE15TGhwNTBSOHdMTFg1cU5lb3Vpc0zSAXRBVV95cUxPckFMTVdDRnVVbzREdWxRaHRwLXBTOTBPZ3RCYk90UWNWQVZ0aklUS3hURFh1TTBhMlVhdUZfZFZWMklhaHFTZjcxTjI0b2NLZTQtaFF2VnBmc1pnZzlha3N1R2YxQ0dmYk04UzJXMFJ5RHFlMg?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 02:30"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "이투데이",
-    "title": "유럽증시, 미·이란 갈등과 英 정치적 위기 주시하며 하락…스톡스 600 1.01%↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93ODMwUzlfR09lckJSNTBjZzd0X2VXYjdyY3hWQ0xiblhSbUFfYUNPSEFzRm9BY05zUkFTZDRpQkdqZU1icEQ2RzI5Q0RJTjRaMTh3eQ?oc=5",
     "impact": "📰 일반",
     "time": "11/16 02:30"
   }
