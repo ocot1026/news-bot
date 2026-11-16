@@ -2,6 +2,146 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "은행 예금경쟁 탓 코픽스 2년8개월 만에 최고…주담대 금리 최저 5% 육박",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1jc0wybGdVckE3VGNHOWx5VS0xR3ZDVnR2azRSTmxTVW5PdTFWSy15N0gyM25UWEVXTXV6aGtSRTlOVzlGUE5OZGRlMkFxNDhOVF9qQ3RMQzA2c0JFdUoyTEpvQzdGdjQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "美 월가 전문가 87% \"AI 부채로 금융 큰 위험\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQZWtnZmtFRFo5WHNQc2xaV0RYSkdFS3cxZnBDczc5SkFHSHlEb0VlTmVyb3B1RUJVbTJkUzM3dzlQWjRYV2dGbV9TdVdmbV9sa19GX2JydEU0VG9EUlY1dXJjVGhnV1pQSlU5dGNFQjV4NW9LTmJzVHV0NVpITkF2WldWQXNvRTdM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBC광주방송",
+    "title": "'젠슨 황 스캔들' 파문에도… 美 \"엔비디아 AI 선도기업 지정 추진\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1zeXVReE5icUxad1JCX216VzRrUXVwZHdTbGpLX2dKUG9qcmY2d3ZvWE5nTFY2T0F0dEtHNVZhTzJfZGV3eEVBVnBBUzl1SS1SbmFnWVZMMTNTM2o5SERXeGln?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jensen Huang’s fans want him back as Nvidia CEO. This is why that’s unlikely.",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=49bf0b6e-018b-4c8d-84ad-4d00e0924e76&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Like Apple losing Steve Jobs: Nvidia faces a major test without Jensen Huang",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408454194112",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Customers report outages at major US banks",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408463091112",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Warren Buffett takes another step toward giving away his entire fortune",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/lifestyle/warren-buffett-takes-another-step-toward-giving-away-his-entire-fortune",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Silicon Valley wants Jensen Huang back at Nvidia. Here's the problem.",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/technology/article/should-nvidia-bring-jensen-huang-back-as-silicon-valleys-elite-are-demanding-200000408.html",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dow down 700 points, S&P 500 and Nasdaq sharply lower in final hour of trading",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c5be318b-40b3-4e77-b22c-2757de6524fe&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Bond-market volatility is exploding higher. It could be the new normal.",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b4747394-bb3f-4084-9cbd-9af8038e675d&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Macquarie Warns of Data Center Exuberance Amid Capex Super Cycle",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/macquarie-warns-of-data-center-exuberance-amid-capex-super-cycle",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nasdaq 100 Plunges as Nvidia Earnings, Anthropic IPO on Horizon",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/nasdaq-100-plunges-as-nvidia-earnings-anthropic-ipo-on-horizon",
+    "impact": "🔥 주요속보",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Global Oil Slide Threatens US Plastics Makers’ Cost Edge",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/global-oil-slide-threatens-us-plastics-makers-cost-edge",
+    "impact": "📰 일반",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "뉴스핌",
+    "title": "[홍콩 특징주] 올해 홍콩증시 신규 상장 기업 수 100곳 돌파 '반도체 주도'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE16dlh5V19SUkhoM3pQaHBtVjFWMVdMeE1BSEYxYm9zRWZJZXh6NHRGUWI5VHp4cnpra290bUZrbXlsOEpxdzFYdTJ5UHlRZG9mck53azJpUk9WWVRx?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/17 05:33"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "MBC 뉴스",
     "title": "\"엔비디아 이사회, 젠슨황 복귀 고려 안 해‥안보문제 조사 집중\"",
     "sub_title": "",
@@ -2858,145 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE93ODMwUzlfR09lckJSNTBjZzd0X2VXYjdyY3hWQ0xiblhSbUFfYUNPSEFzRm9BY05zUkFTZDRpQkdqZU1icEQ2RzI5Q0RJTjRaMTh3eQ?oc=5",
     "impact": "📰 일반",
     "time": "11/16 02:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "비반도체 수출도 두자릿수 성장…호주 1위·네덜란드 2위",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fOVdLS2UwcUdnTjlJVUpoVUdWcTFIenRXTmlqY3UzQmwwbVFKR25HV3dKS3NCaHlRejJzMG5VVDFlYnh5Yzc5QjNEdjJQcVZGMVNlUldkYUVyd0nSAWBBVV95cUxNWUktOFB1VEZzV01RNEJEZmtmRFIyd1dyXzV6anQ4VUE3VU01Z2ZJbEdndERTaUxQeWFlOG95M2x0OHpsU3RSYjBLT2VSSG81UF9LbXA0SlNvNmNWVjRLSzE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "문화일보",
-    "title": "“한국이 해킹하기 좋다”…北 해커들이 노린 국내 서버 30곳",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE04bmlWclVCcndfY0tHdFo3M3FWcUpBekxpNWRyT0RFbGhUMThsRmMzbHlwTV9Odkcta21DUWFQTEd0TGh3MVB6eXk0T3FCZkhZ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "아시아투데이",
-    "title": "“AI 운영 비용 90% 절감”…LGU+, 내년 ‘토큰 경제’ 사업화 시동 건다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFAyUi1wbThoX0g4TXBRSERfVXBaeU9nRVlZeVdZNU82eUI2bkV1c0NJV1hsdDZzanNVVnRxanVmUkJDdjZoYU82U3p5NUdnWDB1NnpNckszM3d6LUJYZWI5RGhTR3JMUXNNZ2FwVHVB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "전자신문",
-    "title": "靑 국가안보실, 민·관·군 시스템 중간점검…사이버 보안 사각지대 줄인다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5IdDduZG9IcVhyd3ZaS2lJbkNZejVIbEthZFgxanRtUENGdjlwdzJpY09lWW5aOUV4ZTFUN2Q0TVNfLW01bi04TWpPRzZ5Zw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 $NYT",
-    "press": "AI넷",
-    "title": "“주민 반대에도 데이터센터 붐은 계속된다”… ‘블루 웨이브’ 속에서도 건설 프로젝트는 순항 전망 - 뉴욕타임스(NYT), 유권자 데이터센터 건설 거부 흐름에도 산업계 영향은 제한적일 것이라고 진단",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE8xcnI5TjBFTFRKQ0VYZ1FYTmxKNEpnX2xFazBkN05MSVRlWUpPczFza3dwcVI5R3BxVGRqRXc2dDI?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 금감원",
-    "press": "연합뉴스",
-    "title": "금감원, 탄력점포 운영 개선·대부업권 현역병 대출제한 추진",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5acDVFeG5IUHFwTXotM3Q5OFVTUFYyWll6M3JKVGtqNVA1VXB3ak81bzMtV29MZk13R2VIcHBrWXZIcHZjMWM5Z2YxZ1c3b1dEZU02TVhJMk11T2fSAWBBVV95cUxPY3d5Y2JJVUFTakV2V2VEU25fc1Z1QTViSjdEWmRUMUJOYzhTSm1SU3F0Q3lQNlJSTXhJREk2MktFN0RkV3YzRWJCSEd3UXNsUEVTUXAtLTFLRmdkQUJJRHM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "부산일보",
-    "title": "불장이었던 상반기 ‘국내 상장사’ 고르게 실적 개선",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OVkJodHV6eDA3SFN3RnpoQWozc3VQMnhNYkF3dHo0QUE1bEpqWUkyTHpXcmJCR05ranFnenpfZkp6UU9sd0Q0ZkxLRnZuRU16U0VOWjltQnlwRkVHa00wSnNWVEtyTG5ZRW55NC05LUZhZjNkUjBFamU5TG0?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "페루 경제는 광업, 농업 부진으로 인해 예기치 않게 둔화됩니다.",
-    "sub_title": "Peru’s Economy Unexpectedly Slows as Mining, Farming Slump",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-15/peru-s-economy-unexpectedly-slows-as-mining-farming-slump",
-    "impact": "📰 일반",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "매일경제 마켓",
-    "title": "“중국 AI기업들, 상장하려고 줄 섰다”...홍콩증시 IPO, 나스닥 추월",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1KUWFvcHZWN2hveUw5RnZLQzZpeWpPOTM3bThGdWgtWVBTQUNwb3VrWFBDNWFDNzBEMnZHbmZDdjFhNVpia09kYVZqZkZyWUNYUWc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 01:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "줄잇는 AI 해킹…로펌에 대응 문의 4배 급증",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE14c3FXNWFzUW1iU2NwbHVycXZEY1diRG9uYzVPeGxOUnN3dnlGMGRZcG1QQzlKbFExSy1BMGR6c1hJYWhPYW84Qk9uZFdNR0tKd0YteFI4Tk9lUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "헬로디디",
-    "title": "AI 수요에 ICT 수출 202% 급증···10월 역대 최대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16TGZ6cWpPMWwwNkVsbER3TVl5WWgxODNiOHpVYTI0Mnp6ZDJZcS01emVJLTV0ZXBhM3VKR0h5Rk9LY0FWanN6bFhJcHhpUlRJZ2ZRTFVuV19yUmR4NDdLUDJaSHhhUUQwdFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "스타십 로켓 상단부 ‘젓가락 회수’ 성공…발사대 기계팔로 포획",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBCanlFLV9HMHRqeUx5clVadkxFYUZxcHpnZmR4b2pDRnlUb3dsT1FwY2Jwb3hwU3ZlZVB6QmpZSzhCSWNYbTlTMVh5a095TzVYUGMxUk5MQ2ZUWnhublhiekpEWGJ5cHRLMlV3?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "현역병 대상 대부업체 신용대출 막는다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9Fc0ctTVN2U0FRX3VGRnFEaUY2RzFVWXJ6eHpZTVRLNEpMcWd1X2tYSi1NclJSY05RdHdtSWNUczJkT1c5eDA4Z2dWX29sX0hqUURicnl1QlVFQdIBX0FVX3lxTE5qOXRhZjlMa2xFbjZxclJiRHVCNnA4UmIzOWxlbHZxN2FKYUgydVVBclBlUkJtZlFiUl9JOHhJb3Y2RS04azZhMmo1TFNjMGlBSmh5RVpVbUlzdm1zOFA4?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 안보실",
-    "press": "연합뉴스",
-    "title": "안보실, 민·관·군 사이버안보 공동대응 회의…IT자산 관리점검",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45YzJ2aGlFcldINWJsUXhnS1U1SkxOR1FGSXZFRlJKVTJSam8yMXJqLUZrcVNDbWdqa25KS0s5YThBMXpRN1Q4aS12YnBhRzZWeEhxRzZDTG1meHPSAWBBVV95cUxOdTV0U2NQN2lzSWRfM2RRMllNMHZqUFRXcHBfYW1kRjZHNE10RVJENXpodGJPNlZpT2kyZnF2SDgyaFZDdFRHMzNyQ01jZFpUTHFERFRaSWdreHFDTG5xcGU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 01:09"
   }
 ]
