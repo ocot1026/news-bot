@@ -1,5 +1,165 @@
 [
   {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스TV",
+    "title": "미, AI칩 중국 원격접속 차단…동남아도 통제",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBoX1Z1R2l4WUR1VTRvMEVPc0JkTDFHWF9LUkJqdWM5NnprcE83YUJiYnpEQzJvQnRjbGF2QTRPS2VjQXdDRGxkSjBUaU9KQ2F0ZnpTajNiRzJINnBid2lXYUFkNU1QODg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "워시 \"AI 영향 시나리오 마련 중\"…단기 통화정책 힌트는 없어(상보)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9sT2hCOTMweWVOUnk4TzBkTURTemo0QmZIS0VJTTBBSXNwSjU2NVcydHEwU3NraFNTSlpxM1BRLUw5enFjY0JLZ2E0WEdxaWk1ZVYweEw2TldzWVp6djFrbHJQM09rZzAzTWd4bmF5TW8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[뉴욕증시] 젠슨 황 거취에 휘둘린 증시…필리 반도체 지수 5% 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9oeEduX3kwZ0Nfd2dEWmJJY0JOVUVtcnZ2NkhpQ3lDMTZ5YnlPZlB0QS1jOEN0LXhtNmRBMHhhbWpacjBhdWxUTVhpS19YSEpvdklKV3hNalRYWXFGaXNfRkw5SWVrdF9YdE4zOGxGWk0?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "삼성 AI 안경이 삼성 반도체를 훔쳐본다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQVTR5bE91MHNZVFBpdEhHdGlqRzlxSlJtd1NQaUF6eEliR010MUE4Um5KTkp0XzFqNlQtTTFvLUtsRlA0NGFJOTRYMGVZS21CUFBHMVR2c0lrM0p6elA5cXZ1TW9tSFZ3cG81OXoydElSNk5CTVAtRFhRNU1pUDJEeVJ4VFMxQW1YbE9JTk15NA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 삼성SDI",
+    "press": "조선일보",
+    "title": "삼성SDI, 美서 수조원 규모 ESS용 배터리 수주",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNVTdQamprbjVFR1ZpNUVsMDh6eUJGdWpYOFZZVHF4WGFYVWtVSG5ibkFhdTB2MzF2bFY4LXR6N1VTbC1OYUI2NVpIcC1CNDlTa1FPR0V1QlVESzVheENibDR2UDhlNlM5LUc5SXFob1QwX2dEcjdra1drQi1KeVljYmc4d3BxV2VIZlNQNHloaw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "이제는 소부장 경쟁…K-반도체 동반성장 이끌 ‘트리니티 팹’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB4dzExUVB2N003WUdNclNqRm00MmVrTWtvanl6Y01XUGFubURPM2I1OGxtaWZObE02LThjSHpUbGZuS2NaUnhJVThvdmRRWFY3bFNFNjcwYlF2eVM1aHhlcEdVZWtJQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "Investing.com 한국어",
+    "title": "[특파원] “매들의 편대비행” 미 법원 D램 소송 기각 거부…배상금보다 영업 제약·증설 압박 먼저 온다 By 알파경제 alphabiz",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9hb1ZzS0w4YXFGa1B3eVFjcVdPN0FnOGp5R2xuWEdESHNJazQyM05FLU1acXlmUTcxdnJXS1ZpeG8wT2JTZVVVMUdCX1l2WEVhSG9YT2xDbzRHaXRnVEtwWTBwR29jOUR2Uk5SYjhFWnc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "United Halts Flights as It Addresses ‘Widespread System Outage’",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/16/business/united-airlines-outage-flights.html",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Asian Stocks to Fall Ahead of Nvidia, Anthropic: Markets Wrap",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/stock-market-today-dow-s-p-live-updates",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "JPMorgan Chase says temporary software bug is affecting consumer banking",
+    "sub_title": "",
+    "link": "https://www.cnbc.com/2026/11/16/jpmorgan-chase-technical-issue.html",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Trading Day: AI jitters slam Wall Street",
+    "sub_title": "",
+    "link": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-16/",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Chase outage sparks warning: Don’t let bank confusion expose you to scams",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408468020112",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Larry Kudlow: Scott Bessent ‘puts his foot down’ on Nvidia",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408467924112",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI Stocks Resume Their Slide",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/stocks/ai-stocks-resume-their-slide-1094403c?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Berkshire Boosts Stake in Lennar, Doubling Down on Its U.S. Housing Bet",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/stocks/berkshire-boosts-stake-in-lennar-doubling-down-on-its-u-s-housing-bet-b1237ca5?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "연합인포맥스",
+    "title": "[도쿄증시-마감] AI·반도체주 매도세에 닛케이 6만선 하회 |",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1hSkt6czkzanhkVW9RZ0gzWFFEc0FXSS0ycjRtd1A1VnZVaVpoUFEyLWE2QXgyMDJkWkVxdGcxQ1NabmdGTjRPaDJoOG5STmZ1RUdRa19xYjhIRS1MNjBKTWJGUzd5U3ZlWVRpUVQzaE84b0Nv?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 07:29"
+  },
+  {
     "category": "US",
     "tag": "🇺🇸 미국증시",
     "press": "Finviz Market",
@@ -2838,165 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WQ2lkd0lvMG9pZUhsSTZBSi1sMVk3bHhVdE1uVHQ0c2VITk0ycVFfdnh2dGlxY3dEcjQ5ZWV6akVhQmtjSkFadl9zYzNROXE4cHYyeTBjekNNc19USnpIYUR5dHgzX2RISm55b3k5RDJsQQ?oc=5",
     "impact": "🔥 주요속보",
     "time": "11/16 05:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 주성엔지니어링",
-    "press": "남도일보",
-    "title": "[특징주]주성엔지니어링, 코스닥 반등 속 기관 순매수에 17.14% 약진 마감",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1jNzI3MG9OX3lQNUYwQ24tTVp3Z3A4X2tPRW5RZFducEEyWDUwQ0hkcFdyOEJfWURTODVRbFZiaGZLYTNKLXBBZENzZ3JXN2E2T0h3d1VGSXczQWdzQ3RsV1pycFdwem9xMk82eNIBcEFVX3lxTE9SSExucEpvWUlMX2NJQnZYVWlfQnFTSlYteWN1NWx3cTYyMTN1dlBYZndOUUQwRU1YNG9BOU5BT2RETTh1bmZ4RjRSNW5MN3luQzgyaDg3bFM2WXd3bmRianJ1YWw2dzBQOTVOX1c0aGI?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 SK하이닉스",
-    "press": "센머니",
-    "title": "[특징주] SK하이닉스, 미국 반도체주 훈풍에 6%대 급등…삼성전자도 강세",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9sdVZHY3F4em4wVHhHRjhtdnRyT2pyaTdGRlR5aG44ZlF2NkdUOWlTZFVvVUF4elZKdU5RUlhBaUwzZzUyMS1MSVpEM1V3U01sdFhweVBteUtKX0ZJa2sxTGs2aDh4aDhQa1V1QQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 넥스아이",
-    "press": "연합뉴스",
-    "title": "[특징주] 넥스아이, 코스닥 시장 상장 첫날 19% 하락 출발",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBnLUFwRHBzTE1HdEtWTG1BWXJqUWc0VS1hY2ZpVWFEQmZRY2t2aGd2MktXWTFmMUE3amtiZUMtWG9LOUVKeUJPQnVnSkh6UzFzVVpWSmFBRWk2OURaOHcwV9IBYEFVX3lxTFBnLUFwRHBzTE1HdEtWTG1BWXJqUWc0VS1hY2ZpVWFEQmZRY2t2aGd2MktXWTFmMUE3amtiZUMtWG9LOUVKeUJPQnVnSkh6UzFzVVpWSmFBRWk2OURaOHcwVw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 래블업",
-    "press": "연합뉴스",
-    "title": "[특징주] 래블업, 코스닥 입성 첫날 25% 하락 마감(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9GdWZaN3N1aVpta3dqVFdCbEJZRlRKUGhXY2c1aFNWRURael8ycDBPYlNoemZpdFFTc0NOZUNPWFNiUHJWT19TLTlWamFyYmNVSXlHUFQ1SlJwVFHSAWBBVV95cUxQcGNVVnNzQmZPZldRQUR0VWtVS3ZhVDJubTNDWi1iaWV3RWdpbWxSWW5NdUVkc3k2ZHEzS1ZVSUEyc0p3anY1Q1VkT0hOOXBqb3JOTzhrbHc3NzZXaS1PT08?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 영광",
-    "press": "연합뉴스",
-    "title": "[특징주] 영광, 코스닥 상장 첫날 26% 상승 마감(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBuSk5qTTM3RGJMaldTbDcxTERhT3pMX3lsNFljV2FXdVY4MURSeUJmVFdNSm5xb0wxMnIwZm5mdWpJQ1QyNkR0SGVMcmFBRmpIUDNGSDFnVl9kQXPSAWBBVV95cUxNMExhN0UtNjlIUDRDNFhCRkNPTVFuUFpWRl9idWpWQWMxVTk4NHRIUWhIYlJNRmVjZ0VLRDRyaEFPdDVYVVNZamdmT2F6NUJjQng3azUtY0F6YV92endLV0U?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 래블업",
-    "press": "연합뉴스",
-    "title": "[특징주] 래블업, 코스닥 입성 첫날 장초반 30∼40%대 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE95SHdTMGdFemVCUjdCQXlkQnZfZjBCMWZoYTllVWNtaUctLWxRUjQyc3JlZW1NWVkyQU03M0I3QmVaMV91UmRIYm95d0ZrS19TWC1fYnVOT21weXPSAWBBVV95cUxPSTZPMkxCNC1NLS0tRFl0VWJhMGR6cmsyWVptY1l5RlVCejhqaXVGOWFnWmxlVzdsMDd4dlVDYW9iMWJtNkNWQnI2VmhyNEdNYVlqNVIyY1hrdFI4dUs0Y3I?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "인더스트리뉴스",
-    "title": "코스피 장중 8% 급락…유가증권시장 서킷브레이커 발동",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1zZS1XWHhrZEozM1dEc1hOeENWdWZpaURIaUpHZHBrWEo2dG40R01HZ1FfaUNxYW01ZWI1Sm9FQnVDSXloTU91eDNNdXk2Z0xVN0FQNzIwVW8wTnRxb05QTnBVWWtlMXlXNE1MemNQUnJadw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "엔비디아 주식: 매수 버튼을 누르기 전에 살펴봐야 할 5가지",
-    "sub_title": "Nvidia stock: 5 things to watch before hitting the buy button",
-    "link": "https://finance.yahoo.com/markets/stocks/article/should-you-buy-nvidia-stock-right-now-110000910.html",
-    "impact": "📰 일반",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic은 세계에서 가장 중요한 AI 주식이 될 것입니다",
-    "sub_title": "Anthropic Is About to Become the World’s Most Important AI Stock",
-    "link": "https://www.bloomberg.com/news/features/2026-11-15/anthropic-s-ipo-makes-dario-amodei-the-new-face-of-the-ai-boom",
-    "impact": "📰 일반",
-    "time": "11/16 04:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "뱀 잡아 팔던 나라가 반도체 강국으로…80년 만에 벌어진 일",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6a3hleTlpWnM1YXNZWklSY2xVc3JuMWZKZ3lpQXhfQ1BHMkdkeWxHTENwY2JMTEpzLVJ4Y3llZzh2MFU1ajZHeUtBa0FZU0hKWXJ5WVBWTXRrUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 03:57"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "\"한국 IP 대역 유망\"…북한 라자루스, 국내 서버 30곳 노렸다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmZ0k4UEhXa2RuVGZ1LXViLXVYQW1FWktpREp2WWREdHdhbFJMV0loWFYtVy1udnpLNjlTWUpzal9hUS1jSEhPN3REOGZtMlRmcEhuTDdENVAtYnfSAWBBVV95cUxPdVNFUEl6aGdrelh4V1dVYjBZWTNJcWd3YzUyWkJkVlZWdWE1M3pYOEstQnIzanhnNnpaT3JoSDJTVGZsY0ZiV1VPcVhhMWRHazJGZzVweXloTWFtX3JKWlI?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 03:57"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "조선일보",
-    "title": "메가프로젝트 첫 삽… 李 \"속도전 넘어 전격전\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOWE5kUWZ2ZnFtRnZrdmNDa0pUR0J2aWR1OVdIenNmRlBHM3Z3ekdTYnVhbV9YQjJWT1FEUll5NVNXQlZMdFJVdGRmbVcwRV9vdmR0ZWlFa1NtNkhtVXU1RV9TRmtwdHRxdzcwX1FvaFlaUC1LVUpFdG5fMFAtQ0F6RkxycHZqRkUteEdNbzZYc0E?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 03:57"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "15층 건물 크기 스타십, 20초 만에 바로섰다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB1STVvSDQxSW02ZXE2eTkxQXpfenplRHc5bmItT29KSXFfZG1kTVptYm0zdHlyZ1M5ZnJ6R2tRbk9MTzR5aU55aHF1NDBvbHlwYldRcWxJNE5jdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 03:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 코인원",
-    "press": "YTN",
-    "title": "코인원, 외주업체 해킹으로 고객 정보 유출",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9OSVdqeV96UWtXb0VJTUFLUFdDYk5CaW5lcnplZ1pIVmxmS3lsSHlvX21HZjRocEJ2NktvdnpLQ3I3OHZvOUNqVk5kUVhoWWZaNWwyU1JrVzhfcXhMWnc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 03:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Megaspeed는 Alice Huang이 2025년 8월에 회사를 떠났다고 말합니다.",
-    "sub_title": "Megaspeed Says Alice Huang Left Company in August 2025",
-    "link": "https://www.nytimes.com/2026/11/15/business/megaspeed-alice-huang-nvidia-china.html",
-    "impact": "📰 일반",
-    "time": "11/16 03:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "“젠슨 황 복귀해야” 14만명 청원…머스크도 가세",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5WaG8xMlduM1NndGlhWEZDSjF2U1NXODhFUF94UHp1ektUMjFNQzFvZzl2ZGRscTJVSVRXdmdLSWxOZ0oxSXpnUGxreFRCN3RfZEt6M0c0V0RhT1VrQUZHc01pa3NfZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 02:30"
   }
 ]
