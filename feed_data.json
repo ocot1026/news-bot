@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 젠슨황",
+    "press": "MBC 뉴스",
+    "title": "젠슨황, 12월 1일 미 의회 청문회 출석‥하원 \"안보위협사건 청취\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRblhIaldrWnhDZjlOUlA0UU5sR3BIN2JwYnRrdUtpb1RxOW1JS3hIel9NSlU3YUhNVWUwbEpGR2dHYXlmTXFGMUhyNUFoNVBhTGx2MTY0Z3V4bVlid2kybXRScVZOWV91eDdYa0UtQjZadG9q0gF0QVVfeXFMTk84ZmpaMkNtcUs1SU1OTmJQNmJlaFl1MkxuWm5ZYTFrTFFGZ3dfQUtIank4QmJTbTNHN3pWUmFscUtmbmxVZEFhaU41cVlzTHBfRHExTmZIaS04aHNwMjNQSnQtUDB5ZmdmeHBOR0ZNSWhMVzQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 03:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "아리바이오 치매약 효능 엇갈려",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10cFZIaS1EZ3hsdU9uMzRZczRQTXJQUlRKZGstSFJxb0VBV014R3BEN2UzZ2xYVGlqVVB2ZnZvVHRqM0dkMVdxR2luV2E2OTVXWWdnd0NVYVoydw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 03:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Corporate-Card Startup Ramp Raising Funds at $70 Billion Valuation",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/corporate-card-startup-ramp-raising-funds-at-70-billion-valuation-631b071a?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/18 03:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Salesforce and other software stocks hit by rising concerns over cybersecurity",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3c74b83d-6e33-43af-ba89-22615c59a274&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/18 03:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia earnings come after the close. Jensen Huang’s exit raises the stakes.",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/livecoverage/nvidia-earnings-stock-nvidia-jensen-huang-results-call",
+    "impact": "🔥 주요속보",
+    "time": "11/18 03:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "I.R.S. Opens Criminal Probes as Part of Trump’s Pursuit of Left-Wing Groups",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/us/politics/irs-criminal-investigations.html",
+    "impact": "📰 일반",
+    "time": "11/18 03:55"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "애드뉴스인천",
+    "title": "CEO 불륜 파문에도 주가 오른 기업들…엔비디아의 향방은",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5OS3JYd1dITkRFRHJKT293SDFLVXcwU2diWEFSblprZzF6bnE5OWxIOWlINzRfR0VrOGg3NmtLRGE2QjhjbHIyUWtLNlFrRjM3am9MYzRfbmNpVGd3UE1HVUxQaXpEdzRGMGxF?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 03:55"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "미 국채가 소폭 강세…AI 투자 불안 속 엔비디아 실적 대기",
@@ -2926,76 +2996,6 @@
     "title": "고공농성 한 달여…하청노조 ‘단식 투쟁’ 돌입",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5MkN6NzlPa0dQUHFIazJ3THJScm5WN0FTVlJ3bDNVa2c4emVfMld6cEMtNWNXa3JLa09rMWhkOEpOcno3Y0ZMUXBCTERQVVI5eWhWRk9Vbmo4Tno0Uk5mTHhQMTU1Zw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국무역협회-KITA.NET",
-    "title": "블룸버그 \"내년 韓성장률 3.6%…반도체 생산 빠르게 늘면 4% 가능\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOHFVVWlmV2o2LTg5ZW1JN19tYXV4blN0b3d5QkRQRkE4cnNSb1B4eXRCbW9GODhSOFFPbVNoYUk4czY3S2l5UEtDcExNTEs5M2RaZ0xTeDNBMXZjWnhLMXhYbldKN3gwTl85Q3c1bUdVdkJRa1FLQVVVQU5tUi16cTN2Z2dBUi1hcHVFNEJ4ZmJsbHduM0RwQ0VHSGl3Y21yaDBMYlNDSVVXSVFaZFBEYUVyUVlKYTlzZEdNdmx6UWc3cGdjU1drOWF0U0JwS3VTTHZ6cVRB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 삼성바이오",
-    "press": "데일리메디",
-    "title": "삼성바이오, 역대 최대 11조4000억 청약증거금",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE50NHNFYW5VRGRvM2oycGR6djM1RGFUa3JhaWJ6bUJxTVR1eXNaUEJBYzBmek9jX2xBUFY1MklWRngxbFBIMTZXS0hJQWltc1JpcUFRS1VERVBxbVB1NHVVbWNjZUpYekpT?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Fed Chairman Kevin Warsh stresses importance of AI to economy, but says it could ‘disappoint’",
-    "sub_title": "",
-    "link": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Trump Media faces possible $1 billion debt repayment as stock nears record lows",
-    "sub_title": "",
-    "link": "https://www.reuters.com/legal/transactional/trump-media-faces-possible-1-billion-debt-repayment-stock-nears-record-lows-2026-11-16/",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Elon Musk Wants to Merge Tesla and SpaceX. Their Businesses Already Overlap.",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex.html",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Elon Musk Dreams of Merging Tesla and SpaceX in Move Toward Tech Supremacy",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/16/business/elon-musk-tesla-spacex-conglomerate.html",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "SpaceX widens its lead in the space race, even amid a tech selloff",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=47f286cf-802f-44a1-be5a-5e86e5efea06&mod=mw_rss_bulletins",
     "impact": "📰 일반",
     "time": "11/17 02:33"
   }
