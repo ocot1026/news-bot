@@ -1,5 +1,35 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "China AI Stocks Sink as US Chip Curbs Hit Labs and Hyperscalers",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/chip-stocks-slide-as-us-sets-new-curbs-on-china-s-compute-access",
+    "impact": "📰 일반",
+    "time": "11/17 13:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "알파경제",
+    "title": "SK hynix ADR Surges on Nasdaq Debut While Korean Shares Plunge in Sharp Market Divergence",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00dk1RTWVfd3RKYTY4a3h5Wm11WHl3cjJhV20ydmxBUUNIcDhhb3paZWJTOTFUOU1ieDEtWlR0cTM2RGl4ckV3a3BkWlFXMGRvV3NOYVlETTB3UlB0WkRaeXFNYmlzc2M5ZVF5bWdB?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/17 13:40"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "美 AI·반도체주 급락에 日 증시도 흔들…닛케이 0.61%↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9IMW5ZNExqWW9ReHBSSnJWT3dmWlFfaXRFdEU3YzZsZXlxeU5UVDhERThrZ01rUmpFTFQ0XzlUcWM5UUFKeUZNMW10bTdVY0dIUEx3aWhuTmEzdms0SG9UTdIBeEFVX3lxTE1FUjhZalBrX241eDdhUXNvV2Q0VGI1VjZkYkJHQlVJbHBaVmtYbElJRnJNc1pMRmcxMkZreEhocTFtNk9EZ2tsSFE3ZVJKb253U0JGVGY5VFd5ajBXaXNob3Y2RGNRWTdLTFJScHNSVWxEeU5ZNHpTeA?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/17 13:40"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한국경제",
@@ -2967,36 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAxOGQtbWwwUFozWW5jQ1pEbFpqZWNGLWJvTTJQekFJWDh2eW9nZ2dncmt1c0ZhMER4alRBOEl6NWx3dXgzTFlSUW1KaXNSeEtzUWNTSEp3?oc=5",
     "impact": "🔥 주요속보",
-    "time": "11/16 11:51"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "아주경제",
-    "title": "DS투자證 롯데웰푸드, 해외 법인 성장 기대…목표가 19만원으로 상향",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE03RjRTV2luZGZwMWxJTVNwUzFKaDg5ZFRySkl4Y0ZNR0hOOWpteE1tQTFBRHNUNExnOHcxY1k0UFhleV80eXMyVkE5MEttN3JPWGpNWF93cFJ2UdIBWEFVX3lxTFBnZFJ6dU5rWHROeHZva3JXUzgwV0dzd2s4YlB4akN0QUM0aTAzaXB1NlRWcFZjT2RtMFVUb3pmU3FHMHRXNk0tdkNmc0NJR1M3b2R1MWNZdTE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 11:51"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "에너지경제신문",
-    "title": "코스닥 반등했지만…“완전한 수요 회복은 아직”[SK증권]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE82UGRfc0pVV0xreU5GTXY3WVR3aUtqQjZmbTVxampYQnRXTm43cXNhZjFSc09fZ3c2eFVHMmhWVGJfRFJKY1BIQ1ZhZk9PZ1RNSTJtaVpGaTJ0SWs?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 11:51"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "메가스피드 \"앨리스황, 지난해 회사 떠나…우린 합법적으로 사업\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9FY3pobkNJelNOU3JCVzhwWThVZ3RNb2lEbWFXajVOQUM3V0RYckt0RlV3akstdWRralhZYTlRSUNNcm00b09ha256clkwUWVWSm1adXh4YkktYW02d3NqdUd6UHAxa2M?oc=5",
-    "impact": "📰 일반",
     "time": "11/16 11:51"
   }
 ]
