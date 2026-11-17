@@ -1,6 +1,156 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "삼전닉스 3분기 보고서 들여다보니...\"증산해도 수요 못 따라가\" 메모리 장기 호황 자신감",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPUkZxX1JCUE1lZ3ZnMnNjRWt5V3F3UUJjUVBYYncxZGdtYlZ6RkZtajF4SkVIV1NKb3hIelNBM2I3eTNuNWhmUFAzSWhFNWtjR2xlOGRsZkhqMUJEcVlHcUtHZFZiaTlaRTBhWi1rdlRzLVFiaWFtTnY1WV9rNVF5TUw1NA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "젠슨 황, 12월 1일 美 의회 출석…中 간첩·반도체 유출 의혹 해명",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwbmJvZVVUY05BZ3JRVXdxdTBLZmQwYVFSUHVkUzNNWXM4WVpqNmlGOURfNlBvbnV1TEJvb2xCQi1rY09IN0FPMktGRXRpemtNYmFtOWUzVldJOEZ6STYxcUlTaXVLbVViNGpuZGdxanI?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"AI로 일자리 잃는 시나리오 조사 중\"…워시 한마디에 '술렁' [Fed 워치]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVdk0tLUxqbkQtcG90LTVybTVEMFFPN3FkbzhUd0NlbXVzTWxRUHdyMWVDUVU5c0REZTJYT3NVOGxLNDR2WHc1bGFJSzZLdThLNzJjQTZrOWNKQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "Chosunbiz",
+    "title": "아내는 엔비디아 칩 확보·남편은 데이터센터 건설… 앨리스 황 부부 ‘투트랙 공작’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOcHlmZWlsNFV1azV4TTY4dzNrTnNIREhMaWpwR1pFNVJBVmtwaHFwRHExNE13dXlhdzZNaUZwalBnMUZjekt3YzJDcTBNWXVxUUg3OGtxWG1DQUdWR05HVnJpRUxqUHVOcXVZS1dxdW9FS2FrSHNScXNTVXBFczcxVDM5UmdqVmdxMUVENkZMYVFydzVULVpWVm1GNXFWd9IBsgFBVV95cUxQNzd3cmhkU0E5WEtvdy04MkRCSkoyS01XbjdnWEs2MGlPT09ueFh6cFpVcUNQaVdPMS1VbTlkRDVLNzJxX3FKdG94U0dJUHU4bVdIZVNrS0xoME1WUXMxQnc5MVVVcHhLZEtxOENJOXpYbDd6Qk1RTk10dVhiTkV2YmVnbkRwcWhwM0FNSmlQWGNVVWs3RkcxUXVGbm8zcEN1YTNKV3JxaDQtbVVBeEs1a1NB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "\"앤트로픽 IPO 공모가 '희망밴드 상단' 78달러 웃돌 듯…19일부터 거래\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBaanNYVGs4R1VSbmxHS1MtZERJVG9aSVI2ZFNOQkFyUC15Ty1KMFFsZ0l2YXdHa2JMcVVyU21kcGY4LTNKMzBWbEE0X214SjAwUFZkdUVnTjJqQ2FjZ3dGZWtyYk9oR0k5YmZNZnRoZjI?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 금감원",
+    "press": "MBC 뉴스",
+    "title": "금감원, 전금업·온투업 대상 '해킹 침해사고' 대응 간담회 개최",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1UM25jZDZ1Y0wyRTBmX1lkWlhCY2Y4TDJCVUVMbHRCSEdwY3JGbFNhMW40VDlVZzJaemtfdkpnakhhQ203RG1GT080LUZWNDkzNjJpRUhLU29jWmg4Q29zcXF0SzhZNnhSV09MaUIyZlA5a0xH0gF0QVVfeXFMTlczMFB6MkF0azZPLUN6RHNHLUsxLUtIc0NkV0lPSTZqbVpuZ1F5b0owSzBNaHhNZmZrLVVzeUJVR3JDeTc4SjJkS0tpSVpibFNlWGlxcTViaHE4X2lNaloyQXBxQjd0X3dfNEd5eHgyTU92WHE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Bessent calls for Nvidia shake-up as reported Huang comeback bid sparks heated debate",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408462675112",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Huang says he'd be 'honored' to return to Nvidia",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/technology/article/former-nvidia-ceo-jensen-huang-says-hed-be-honored-to-return-to-the-company-163107005.html",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Luxury stocks slip on fears AI falls will curb spending by wealthy",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/media-telecom/luxury-stocks-slip-fears-ai-falls-will-curb-spending-by-wealthy-2026-11-17/",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Huang says he's willing to return as Nvidia boss in first remarks since resignation",
+    "sub_title": "",
+    "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jensen Huang Says He Would Return to Nvidia if Asked",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/technology/jensen-huang-nvidia-statement.html",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Investors Press for Answers From Nvidia, Where ‘Everything Has Changed’",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/stocks/investors-press-for-answers-from-nvidia-where-everything-has-changed-9fa681ce?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "JPMorgan Cuts Borrowing Costs on $2.85 Billion CCC Debt Deal",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/jpmorgan-cuts-borrowing-costs-on-2-85-billion-ccc-debt-deal",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "US 10-Year Yield Set for Historic Run Above 5% on Fed Rate Cycle",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/us-10-year-yield-set-for-historic-run-above-5-on-fed-rate-cycle",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Lucky Strike CEO Makes Take-Private Offer as Loan Hits Distress",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/lucky-strike-ceo-makes-take-private-offer-as-loan-hits-distress",
+    "impact": "📰 일반",
+    "time": "11/18 01:56"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 엔비디아",
     "press": "연합인포맥스",
     "title": "[증시-마감] 엔비디아 실적 앞두고 코스피 5,000선 하회…외인 줄매도",
@@ -2848,155 +2998,5 @@
     "link": "https://www.foxbusiness.com/video/6408454150112",
     "impact": "📰 일반",
     "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia’s stock extends declines following harsh words from the U.S. government",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=63825847-49f4-484b-95cd-91f129234d30&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Elon Musk calls for Jensen Huang to remain as Nvidia CEO",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408395963112",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Stocks rally despite Nvidia’s stunning staff shakeup",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408362653112",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Trump heads to Asia for high-stakes Xi talks as Iran tensions escalate",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408448000112",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Crypto industry faces potential congressional investigations, Carbone warns",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408448069112",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "US Stocks Drop as Tech Shares Extend Slide Before Nvidia Results",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/us-futures-drop-as-market-looks-to-nvidia-results-anthropic-ipo",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Robert Pattinson Named as the Next James Bond",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "American Roosters Fight in the Philippines Despite U.S. Crackdown",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/16/world/asia/roosters-cockfighting-philippines.html",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 Dow",
-    "press": "Finviz Market",
-    "title": "Dow, S&P 500 and Nasdaq open lower as tech drops ahead of Nvidia results",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=76dfbcb6-c7cb-482e-adf6-7d4a57a72211&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Huang’s Nvidia comeback case: $279B in deals built on trust",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/article/nvidia-can-replace-jensen-huang-but-not-the-handshakes-behind-its-chips-chart-of-the-day-141658786.html",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Giant Aluminum Squeeze Is Stress Test for LME’s Anti-Abuse Rules",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/giant-aluminum-squeeze-is-stress-test-for-lme-s-anti-abuse-rules",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "BlackRock Seeks to Break ETF Mold With Private-Market Hybrid",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/blackrock-seeks-to-break-etf-mold-with-private-market-hybrid",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "연합인포맥스",
-    "title": "[亞증시-종합] 기술주 조정…홍콩만 상승 |",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5ELXVrYVI2S1JiWW1ONVFuOXFDY1lZbVU1ekpaVDF4SEtSVzVNUDFOZi1VNTgyaFVJTmhXRHo1ZTBjUWlPcnlBTkpaa1REWmR2YjF2MTJ1dGhUVFRRRXZEci15eGJLdWhfdmRqUlNWYzNwUF9P?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 01:15"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스핌",
-    "title": "[단독] 美법원, 삼성·SK하이닉스 '되돌리기 어려운 D램 감산' 주목…판결문 입수",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9EeHpuNXlqWW1nU1RJMVhtc2tsVXJLeWRpNlVPQkNPWGpXWmdmR0NsckVkWEtkRGg3dy1IdGRhR2dndDB2dFBtbE9aWlA5OG8zdl8yUmRlYWR1Q3I0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "15억6000만원 : 3000만원",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KUjVrczRjRkUxVmJGc0R4WGZFcW93TzhqUVpzTDBScXA5VlRrdEVPQ21meGlNR2xCNENfdW50NDBOdXRhQTM3ZllaajNqRVRxeXc3TWpkY2Y1QdIBX0FVX3lxTFA1WUEzb3dwSGZ4dHhNOHJ6S2NwZFJHU0dwOGNQZXJpRkl4WG53bVVNX3BVZVp4bklXSlJtX0RfWVRYdUhDRDhrak5QRmJaN1A2X0c4Q2lPaFRva2F5S09Z?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
   }
 ]
