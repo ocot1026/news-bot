@@ -1,6 +1,136 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "건국대도 AI 부정행위 조사 중...목걸이 카메라",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFX2lWaGFjRWhzRGhnOVUxcEY2S2dSOUpnTjBrY0pkTkVZRnpreFdkWHl5dkdNWlJ6LXhXMU1aS2h0d0ZiS0g2bFJYQWNfTkFWQ19JMkhmbzJkeWJ3UEE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "아마존·구글·메타 반대해도…美, 중국산 데이터센터 장비 막는다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJVW05dVFmeXBKWXFmWnZjRnVSRVNhQWZ3bC1DclZwQWJQQ1A5VnRUYlU1WXVxOFlPVWFScHNlaDhRUHhWUUZpcXV0Y0JiVUFEbEI2R2JjeUdwUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "\"5천피 아래서 사볼만\" \"무한 물타기중\"…개미는 연이틀 레버리지 베팅",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJakZ2d1VwcjJQME05bUpTOGhxdGhHMTNLTDhheTNNNnR5emFOczhXZ2t1MDVvTkx1bDdFSGstVWxfeXVka01ZUXlPRDBwbWpRYVNRajUxOUdoNUnSAWBBVV95cUxQY3Rrcmx2WjJxMlRYbDh6RnpySHFEZXd0TVNzYXZSMXNabFJxQk1MdlU5S0Q3UmVfVVh3eXp0WS1XUGpsb1pHUEhmc0MwSThMbGFEcmYxN3p6dlRsdXlWSUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MEDI:GATE NEWS",
+    "title": "아리바이오 \"AR1001, 글로벌 임상 3상 1차 유효성 목표 달성\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54VFFZbEQ5elRoYUdIanhxTmZ6dkRoLWppUDFLYUNXMThUc2NGNGJmYmpGWFNhU1huMHVIU2ctYmY1WUpNTlVOZEVGN3hRbFVkRmdvdkd3VQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 온코닉테라퓨틱스",
+    "press": "MEDI:GATE NEWS",
+    "title": "온코닉테라퓨틱스, 세마글루타이드 병용 근육보존 후보물질 비임상 결과 구두발표",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LMTBBRzRHTkVHM3R5c2I3bzMxUUh1Wm5QOHJjMnhKc0dncFhwc0kteVFfa2tsWm9EODJKODBIZDNKRndrLU5WdVQzY3NzLXdRbm0zQk9sZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia espionage allegations spark calls to decouple from China",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408495791112",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Lawmaker suggests outages are a 'weird coincidence' but still a national security issue",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408501044112",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Federal Reserve automated by AI could eliminate human bias, Jackie DeAngelis says",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408508438112",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Tech outages disrupt critical business services as FAA faces scrutiny",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408497060112",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Mark Tepper dismisses fears of job losses amid AI concerns",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408495923112",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia set to report quarterly earnings for first time since Jensen Huang resigned as CEO",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/markets/nvidia-set-report-quarterly-earnings-first-time-since-jensen-huang-resigned-ceo",
+    "impact": "🔥 주요속보",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia scandal and chip export controls loom over Trump-Xi summit as Jensen Huang breaks silence",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408508101112",
+    "impact": "📰 일반",
+    "time": "11/18 04:58"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 젠슨황",
     "press": "MBC 뉴스",
     "title": "젠슨황, 12월 1일 미 의회 청문회 출석‥하원 \"안보위협사건 청취\"",
@@ -2868,135 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-16/us-oil-producers-sour-on-hedges-as-stronger-finances-offer-cover",
     "impact": "📰 일반",
     "time": "11/17 04:41"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Lula Worries Slam Brazil Markets From Real to Corporate Bonds",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/lula-worries-slam-brazil-markets-from-real-to-corporate-bonds",
-    "impact": "📰 일반",
-    "time": "11/17 04:41"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "동아일보",
-    "title": "10월 신규 코픽스 3.62% 2년 8개월만에 최고, 주담대 금리 더 오를 듯",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGbEtVc0M2TS16Yk9ZRTFKa3ZCT1k3Wk9VWVZybGM5M1ZURkpKeUQ4dFJDQ2gxRkRZSlBaa3drYjYxUjdkVjZFalFuN0JBNVpORnVmMFg0M1MtSENNeWwzdHRkamwyZXp1S1NMZ1ktTHp4M3JmSWfSAWZBVV95cUxPdWM0SzlZRmpfX2JyQTBqRU1vXzhnWjlKVENBZm1WYTIxalN6Q2wzdVk1dnlINU5KUXV3eUZtaVZ4cFdfcWxoTDJ2SXpHVEZfaUt2Nk5kLXNkczNKTTdaa3BSYkVHN2c?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "트럼프 \"젠슨 황 엔비디아 복귀 반대 안해…많은 사람이 요구\"(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85X0ZURElJR2FmUXlUa18xSUtPZGEtTTlLcEp6ZWJkQmxoc0huWHFxZWluaW1vdDlEd0lHNnpjSTZsUnNaak1pTUx1MkZvMUtTUXpjYjQ1Szk4Wmo2dXZHSFVxcXI5a25Oem1QMThYODQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "지난해 다주택자 4만4천 명 증가…60대 이상이 약 절반",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1LQWlVMktQNlBOeTV0QXNpdXhNMnlWRUw3dXRsbkJDVzRCZmZyTVZVQWd4X2FiUkpfZURtUzBpWnFqY0h6ZUdJLUJvZ0VpYlVsdzRwVGh4N2F5cms?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "북한 김수키, 국회의원실 사칭 공격…세미나 사례비 미끼로 답장 유도",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE44NVMxZndUemV2X2ZFMVpPcDU2aFN5N2ZXbDJfSWY5eXQ0Mkh0MnpJZ2FUVlpUT05kb1RLcHpQZHc5c0UyZ2FhS1BFNEJSZ1NxWDF4ejIzRXUwOEtnanBWeE9xTVV4SXM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[외환-마감] 네고에 막힌 상단…1,330원 중반대 제자리걸음",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmVmM2TWNQUHZGZHRpMHVsNUsxaV9GVm1sUm5FN0ZvcjZDMlR5S2RCYmRpNVB0RWFRbjhOQURDRzUzRk5xTHdXT05tdGM5dWVsR2RVUWlpdkJmM1VaWm9OaUlMX1FKcjFMb0ZDVHdvdTHSAXRBVV95cUxOMk14RzFxbEJSQ0psN20wODQya29Fc21UVXE0ZG9SQmVrNnFHdlAwakRrNTRyNHJBelU3dzB0ZTR3dFFJM0tmZXNYcTlSOHVGOUFpYUExdnZNaUJtZEhNQ1lTY3VublNtdEZBNFR1RDV5eGViUg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "미국, 라우터 설치로 인해 대량 비행 접지가 촉발된 이유 조사",
-    "sub_title": "US probes why a router installation sparked mass flight grounding",
-    "link": "https://www.reuters.com/business/aerospace-defense/us-probes-why-router-installation-sparked-mass-flight-grounding-2026-11-16/",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "윌리 가이스트(Willie Geist)가 거의 20년 만에 '모닝 조(Morning Joe)'를 떠난다",
-    "sub_title": "Willie Geist Is Leaving ‘Morning Joe’ After Nearly 20 Years",
-    "link": "https://www.nytimes.com/2026/11/16/business/media/willie-geist-morning-joe-today.html",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI는 어떻게 경제를 뒤흔들까? Warsh는 연준이 이를 파악하기 시작했다고 말했습니다.",
-    "sub_title": "How will AI shake up the economy? Warsh says Fed is starting to figure it out.",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=529caabe-22f3-45fe-84d7-659853a27a3b&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "이코노미스트는 데이터 센터를 위한 '전진 경로'가 있다고 주장합니다.",
-    "sub_title": "Economist argues that there's a 'path forward' for data centers",
-    "link": "https://www.foxbusiness.com/video/6408458121112",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "광부들은 아르헨티나 구리를 잠금 해제하기 위해 국경 간 협력을 협상합니다.",
-    "sub_title": "Miners Negotiate Cross-Border Tie-Ups to Unlock Argentina Copper",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/miners-discuss-cross-border-tie-ups-to-tap-argentina-s-40-billion-copper-belt",
-    "impact": "📰 일반",
-    "time": "11/17 03:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "롯데 3세 신유열, 지주사 사장 승진…경영전략실 총괄(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBwdWluNm1INDhPd2ZPakc4QVhyWHQxcGdRR1ZEVHdYU2JWV2VVUXRqMHp1NklkNEEwOVZLbjNBM3FEOVFqRmhEa1pzZzNhWEZCMmVZS1ZnbWlIX1RUSkN4Znh1bGlNZndlN2JtVUxvVFI?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "고공농성 한 달여…하청노조 ‘단식 투쟁’ 돌입",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA5MkN6NzlPa0dQUHFIazJ3THJScm5WN0FTVlJ3bDNVa2c4emVfMld6cEMtNWNXa3JLa09rMWhkOEpOcno3Y0ZMUXBCTERQVVI5eWhWRk9Vbmo4Tno0Uk5mTHhQMTU1Zw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 02:33"
   }
 ]
