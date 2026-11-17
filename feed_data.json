@@ -1,5 +1,125 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Disney Plans to Finance Growth With $3 Billion in Cost Savings",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/business/disney-earnings-3billion-savings.html",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "US government confirms investigation into tech firm Megaspeed",
+    "sub_title": "",
+    "link": "https://www.bbc.co.uk/news/articles/cmn504nq5033o?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "It’s Hard to Protect Your Nest Egg from Nvidia",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/stocks/its-hard-to-protect-your-nest-egg-from-nvidia-2e7419b7?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Shaky semiconductor trade faces big week, as investors look for bottom",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/shaky-semiconductor-trade-faces-big-week-investors-look-bottom-2026-11-17/",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia shares set for $335 billion swing after earnings, options show",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/nvidia-shares-set-335-billion-swing-after-earnings-options-show-2026-11-17/",
+    "impact": "🔥 주요속보",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Democrats Promised Lower Prices. What Can They Actually Do?",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/podcasts/the-daily/democrats-promised-lower-prices-what-can-they-actually-do.html",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dodgers Owner Mark Walter’s Insurer Misses Target to Reduce Affiliated Assets",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/dodgers-owner-mark-walters-insurer-misses-target-to-reduce-affiliated-assets-249e32c5?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "US stock futures slip ahead of Nvidia results; Fed speakers in focus",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia forms board committee to oversee national security",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/news/nvidia-board-forms-committee-national-102208048.html",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "US Gas Pump Price Hits 8-Month Low to Ease Inflation Concern",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/us-gas-pump-price-hits-lowest-since-march-as-oil-supply-recovers",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "KB Think",
+    "title": "[도쿄증시-마감] 美 증시 반등·日 기업 실적 기대에 2%대 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE83WmRaVXhESTBwQTA0LU1CXzUwWjV1bkN4LTVVNUdLcXBjY3FORVMtV0lWRWFrZXktLXRaTTI1WnI5bW10bVBQSVRCeTZuU1FEVjNiLWYtT3RUeldYZkkwejVjQ3BheUVjYWRvb0tYTS04QQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/17 20:33"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "톱셀럽뉴스",
+    "title": "지드래곤 소속사 갤럭시코퍼레이션, 주걸륜 IP 기업과 AI·로봇 사업 협약 체결",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5HbEdlVjNrdjRKel81b0FkcnR0M1Bxdk9kaDJMeGNvQ3VVajRXTURra1VmS0I1dDZpS0JBT3QtUTR6cjlQekM3RERhTWFKcENvQkQ5LUdtWWZtWGJLVGtzQU9IdV9YM0M4aHBV?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 20:33"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한겨레",
@@ -2876,126 +2996,6 @@
     "title": "모건스탠리, '韓 르네상스' 보고서…\"韓기업 DNA가 변화고 있다\"",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5dE5HNnZXM080RmdpUVpFd3FwNGRhdUVsUTBaZHJZb2VGQjBCVzNueTlHckR4MGdRQnhRazVoa040cFljZWNsSTNsRUVnWmt6Vm8yOTBpcG0yMEnSAWBBVV95cUxPbFlkdm9XTHhTNXpZWGJwNlNyNXJDTlBJeEQ5N3lRb3AwQmUzSW9lczlDenhwa1FTdkprSkRwZkRSNF96eHdNUS1BaG00YmdyeVNOelY5b28wYk9HOXFuZDU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "인베스트조선",
-    "title": "롯데 사업재편 키 쥔 신유열…2년만에 사장 승진으로 '증명의 시간'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNGMzTDlEbWtKZWwyakM2OU5Md2doVFVucUd4b1RUNkYyWEl4X0R1dWpxUUtvdEpXMmI0QlF2ODhqbk1IR2ZXbGtIN2FIMHZrdU93SURpRmh3NEl0bXR1M21qc1ZRd0JPSHlxclJkVm1nNFNEa2l5Q3lGZzhzbkJHMThpWQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "거래 위축에 가상자산 거래소 실적 '휘청'…3Q 나란히 적자",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5hN040cHVad1FVSWVUcEhsd2JYNkpEV3FqRGFKd2JYTnBXRGMyWk5kV0dLVmItWjVSNDRjMVU5b21UQXR0UEJPNU41WTdNU2IzamVVVFZ3?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경기일보",
-    "title": "수원 영통·화성 동탄 ‘날았다’…경기 집값 상승률, 서울 앞질렀다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBYVnRzYjR4eFM3SFBFYS05M3l0Vng2aDZFRnJ4YUUzcnhCZ3RSa3pONHVVWjhWX0E1M0Vib1d2a00wcWtlZklROHZWeWJKLWN5V01hNDVPdmxnQ2s?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "외국인이 먼저 담았다…차세대 '성장·가치주'는?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vWXh1UXpLT2RCVjAzeFNqMTluZkx4WXdTNFRtZ1BhTXk4RUFZSi1iWUNsUWxUUHZ3T19lZ0tMQktJYjBKSkpDbXVscVJwWW5iRno2TTBCMVNsQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 에이플러스에셋",
-    "press": "연합인포맥스",
-    "title": "에이플러스에셋, 3분기 순익 66억·20%↑…누적 이익 작년치 넘어",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ocS1VcVJEazh5Q3ZGeHJaWUVBb1hHSTNBNy1sdUhhSXlVY2NCeDhyUTM5NVl5d2lwa1U4SW1kT2ZvVVZNQWNjbkhRdklLWk5TanBpWVB0c1pkd1BVYWJsM0pDSjRhbEQyeDJGZV9KbUXSAXRBVV95cUxNTmZSYnlzd21DR092WG9fWGF2TlJtaFBsc0VFWWprRUEtQXFTaGRYOTJ4SnQtdFN6azRUc2hJbEp2eTBlWHRfWS1jZF9NdDNYcld3UDJzOG9heUpOSTYtbkRDNnpPbkhGOEI4UVQ0MEdXTkc3cA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Oil Prices Rise as Fresh Attacks Renew Middle East Supply Concerns",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/commodities-futures/oil-prices-rise-as-fresh-attacks-renew-middle-east-supply-concerns-bee22d97?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Why this 40-year market veteran is making a lonely bet on a 40% stock-market crash — and $500 oil",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/story/why-this-40-year-market-veteran-is-making-a-lonely-bet-on-a-40-stock-market-crash-and-500-oil-c62aefdb",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "European Stocks Fluctuate as AI Concerns Keep Investors on Edge",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/european-stocks-fluctuate-as-ai-concerns-keep-investors-on-edge",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "European shares hover near record highs; tech stocks lag",
-    "sub_title": "",
-    "link": "https://www.reuters.com/markets/europe/european-shares-hover-near-record-highs-tech-stocks-lag-2026-11-16/",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Record foreign inflows fuel Indian stocks' November surge",
-    "sub_title": "",
-    "link": "https://www.reuters.com/world/india/record-foreign-inflows-fuel-indian-stocks-november-surge-2026-11-16/",
-    "impact": "🔥 주요속보",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Indonesian Rupiah Falls to Record Low as Fed Bets Boost Dollar",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/idr-usd-indonesian-rupiah-prabowo-fed-bets-boost-dollar",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Gas starts flowing from Jackdaw after government green light",
-    "sub_title": "",
-    "link": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
     "impact": "📰 일반",
     "time": "11/16 19:02"
   }
