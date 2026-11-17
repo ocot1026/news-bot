@@ -2,6 +2,166 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "코스피 9개월 만에 5천 깨졌다…이젠 악재가 된 AI",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZNXV5ZktDamN1SUdST2F2VXo0Uk1ONUJ1ZS1YZmFWMkxVX3dNd0pFRDdIb3ppTXRzRXZhSjVJQ25VUnVKZ1IxUGx5dXFTUjRRNmJkU3o2SVRSQ2hQNEhFR0xNa0J3Zk5MWVVjb19IaFJYQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 삼성전자·애플",
+    "press": "매일경제",
+    "title": "[단독] 삼성전자·애플, D램 장기공급계약 ‘초읽기’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1qbmFzeUw0X1VNVlJGOE1ITjhGaXNGZ05SS2ptMmE4OFBZTkxGQ0xYWXNuZ2tLRVhkTkxEcFZNYTdGSkJTRDVLckVuUmpabFRjM1E3X2xn?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[외환-마감] 外人 선물 매수 vs 네고에 '엎치락뒤치락'…1,330원대 후반",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1uWHJiVmJWMy14Z1hObVIyWHhpZnJINUk4MG55RXBDM2RfSjNETHhKNktXak1ObmlVYkswZkVyTWVkNE8yUVRBQkdsZlNhaHkzR0ZzY3lTNWN6emMzSjlES0h4LTZ3eWh0amZEaW81RW4?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스TV",
+    "title": "’5천피’마저 붕괴…코스피, 2.59% 하락 마감",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE12MmZMUVpndEMwQjV1R2g0cEVjbDlWbUFmZ0lPSkR1U1ZDTGJBbTM5Uk1qRFVYRy1WcVN5Um80OXpRM2lnZ3I3cWN3NW44RUFiM2FQdUUwMkNiNks3Vy1UVi11Y2pUSGc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 Tepper",
+    "press": "Finviz Market",
+    "title": "Tepper, Loeb among fund managers piling into Nvidia and other megacap tech on the eve of October drawdown",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/story/tepper-loeb-among-fund-managers-piling-into-nvidia-and-other-megacap-tech-on-the-eve-of-october-drawdown-de45f572",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Why Big Investors Are Burning Lenders on Apartment Loans",
+    "sub_title": "",
+    "link": "https://www.wsj.com/real-estate/commercial/why-big-investors-are-burning-lenders-on-apartment-loans-7129d849?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia board establishes committee to oversee export controls",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=60eb154b-9905-4400-a4a8-4afc2bbfd660&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Stock Market News: Global Stocks Downbeat Ahead of Nvidia Earnings",
+    "sub_title": "",
+    "link": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026",
+    "impact": "🔥 주요속보",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "As Trump and Xi Mingle, Their Governments Are Arming Up",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/business/trump-xi-meeting-tensions.html",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "How Democrats Winning in Texas Affects Musk",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/video/business/100000011281784/how-democrats-winning-in-texas-affects-musk.html",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Elon Musk’s Texas GOP Allies, Who Gave Him $1.7 Billion, Have Been Voted Out. What Now?",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/business/elon-musk-texas-republicans.html",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Does This Man Have a Right to the Data From His Own Brain?",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/business/brain-data-access-rights-buckwalter.html",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Fearing Chinese Rivals, U.S. Biotech Adopts a New Norm: Share Nothing",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/science/fearing-chinese-rivals-us-biotech-adopts-a-new-norm-share-nothing.html",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Deutsche Bank shares slump on reports of leaked documents",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=88a44c5c-dc73-47cc-a2eb-b7afeaa95e6d&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Pirelli Falls as Sinochem Sells €455 Million Stake in Tiremaker",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/pirelli-falls-as-sinochem-sells-455-million-stake-in-tiremaker",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Turkey Fund Assets Shrink by $54 Billion Amid Manipulation Probe",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/turkey-fund-assets-shrink-by-54-billion-amid-manipulation-probe",
+    "impact": "📰 일반",
+    "time": "11/17 19:42"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "[뉴욕마켓워치] 젠슨 황 복귀 기대 꺾이자 반도체株 투매…채권·달러↑주식↓",
     "sub_title": "",
@@ -2838,165 +2998,5 @@
     "link": "https://www.bbc.co.uk/news/articles/c9x2elzm047po?at_medium=RSS&at_campaign=rss",
     "impact": "📰 일반",
     "time": "11/16 19:02"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Chinese Iron Ore Futures Hit Four-Year Low on Weak Steel Outlook",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/chinese-iron-ore-futures-hit-four-year-low-on-weak-steel-outlook",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "뉴시스",
-    "title": "엔비디아발 충격에 닛케이 6만선 또 붕괴…日증시 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5tYVlBVnJrTzMzbHhkM2tnRzNNNTRvN09VaXMzV0JDVnRNaHZMcWFqVXdvbFNZNzVUUW5KWGdpYXVfdEt1ZVVoLVcwcldjUDR3eklORUhHZ3FWTUhxUXREV9IBeEFVX3lxTE02b2Q1WEtMckZqZFZOQ0Z5N2lNOGZCSFhfSzk2SHBhRjFUYjFzajFST3MyUm0tMWh6SmhUdlRLT0tYNkxXbXFhOGVMaGZTUFlCUUI3b0FtSXZ2X2gwMFQwRzdVZFp5VDRtWkZScDFub3lDa0EyQ1FPdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "KB Think",
-    "title": "[亞증시-종합] 기술주 조정…홍콩만 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9uT01ZRDI1WEk1SHFYNlRoZ2NUV2xQZUFGTFpub1VqdDEwWGJGWGtTclRIaDNyUUQ0NTJYUVFpR0FKYTBya1pva3c4RlpON2Y4dlpZRTg3SzhkOGM5RDNFMzBSNENicFZuOFRtWUxaajMwUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 19:02"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "젠슨황 복귀 청원 운동에 재계 '깐부'들 왜 침묵하나",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE56NTJIZjMtZ2FhbFM4eE5iXzVHdTQ0ODBiLVdUbWU2MVVtSGNZd2U5ZXlSOVZDX1N4RV83T0dFZ1pNZy00WU5RaUtmc1EwdXl5WHlVVWtHb2FYM2RTeWp3ZXc2SEJQUVFQVlVrYk9pZlA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "美, 엔비디아 'AI 선도기업' 지정 추진‥스캔들에도 해외 진출 지원",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnZW1oOGNZLXJkYTk3em0tclkzcnpKN0tWdmpuSUJQNzh5Qm02R1ZwTk9RaHJnMHF3SGlSc1haY0lIY21VQ2JOZlh6UFA0QVF3TmMxeU1rcHVYc3FyelRublRacnRwajdQb1ByVzdRdVQ4eUhj0gF0QVVfeXFMTXFZQlk3c3pDUWswRU16SkQ1WWNyVW10T0dYcHRnaFo4eEhkblQ4Z1p6ZlR5bFZNSUR6VFhiOVhicFFfdU1vZjduQ1hIWDNQeC1JR3JZWWw0bWpUNElDRDgxZ3diRm9GWC12YV9CUVdaS29MeVk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "LG엔솔 김동명 사장, 수능 앞둔 직원 자녀에 선물키트 전달",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBod0M3N1hhc1ZtYmhHTllqdHREa2w4ZmZGRVVJNTBFSnVaeVN0UzJhektYNzU2RDlhOTVwUHFlZVVOaWZfQnBwNWJ3VEUwZkhWZnFydFlWdU9QLW_SAWBBVV95cUxPZWRqT0lnd01Ca0hQNDhCYmdrVVdxWVIyejJzTFNRXzkzUVNmNVRvdGkyTkVocjY4SkgtZENTSGpkRHJBYU1sbG16NUVwM0xDdzNtYWhDMFpIZDJlUnRUaXg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "광주은행 임직원·가족, 방한용품·식료품 1인가구에 전달",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wdzYyZUstb0Y1a3NEMkVDR3RybW1vTE1Udkx1QlVUNGxOZ1N4T0FHUDdpS19lV3ZkTFVkUUlGbERNMjN0UDJCR1JWNV9XanVtc1R6Xzhkbm1Jb2_SAWBBVV95cUxQc1k1YVJNeDhGM0hqamJfMDFnSHc5bUZWM3hOaUxjSVdrSXRNelotUUNzQ3dIbzUzc3hwdTl6WEdDSnJNOG9mcG9HNzRuUjJrUUFneUhzNG1VRk1ZNFRmSS0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 카카오뱅크",
-    "press": "연합인포맥스",
-    "title": "카카오뱅크, 애플페이 도입…국내 은행권 최초",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9reVpLX0NfWjJwUXlwU3p2TG96bmxZWFRBYmswcS1mV0FFRWRXM1JLZ25IRWNiNlNjWjhjWGFIc3M5XzJ2UmkxTHBoSjN0Z2JJYi1XdmdweVhZaG9hVG93dVJCMG9fYWV6M3Vjdm5GMDA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "지난달 서울 아파트값 상승세 둔화…전세 누적 상승률 10% 육박",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FbmJMQkxMWVpxeTdGTnpsakVLYUNKdGRWQjBDb2VZdjJTMHVycFJ1aTBVc2JZZ2lSc2hUTVh1MHpXY2ZYcFBrek9INGVoZFktMzJaTVhrRUhHQS1pUHBRRDItSU5Rdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국무역협회-KITA.NET",
-    "title": "KDI \"반도체 생산성 8.5% 늘 때 그 외 0.4% 줄어…임금 격차↑\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQTEpDS3ZCYlRKWUdXNDhHTEFQV3oydUh3cC1fVGhnc3k3WTFEU00yYnJPRkVVTUxXUGw1b2JsdXlhcFAwUG0yenAtM3Y1Y3NhYmFUZVg5NVltMW5RcWhHOFBXNGU5c3JuWUZCbFNmNEVQcG1ZallmMTNjVFkzSGFUbl9nb3BRZWxVVWxacjlXdlpGXzBuR0NESmRNR01mZ0sySjM0cXhtWWh1TjZLYW9mNWdlTWxGbWVwMkpudkowSmpOQWU0ZEhTVnBLN0lSbEF5SmZreTVn?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 영광와이케이엠씨",
-    "press": "연합뉴스",
-    "title": "[특징주] 영광와이케이엠씨, 코스닥 상장 첫날 16% 하락 마감(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5LQUs2eHdsV1M5dm00YWd4LUhrV2FxSEVsaDFtLUY0ZU5rbWJCMjZDLUdxdmRZWTctUENMU2t3SHdZVUhmemtmTUZuTzRjVHQxelMtWE1UN0cwdG_SAWBBVV95cUxQZmdkWjVqYm1OYXpVXzg4VXNtNTVUTWlER3JXc3IxWGI1aHVmR3llSW45OXBaWGpodUc5WUdXV1hpSGUwVlpNS2VsY0NoOUx1UG4wZVppZVFkaTBOdkFsVTM?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 영광와이케이엠씨",
-    "press": "비즈트리뷴",
-    "title": "[특징주] 영광와이케이엠씨, 코스닥 데뷔 첫날 16% 급락… 증권가 전망은",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5TWJOV0JHRjZJQlR0djVlZHFyLU5xTXZuMVA4ZldaV21OaE5OcjhCdk9UaTZBa1E5UjMtdFJFUjRlNTJqUm9aRlBiMnlIZF9seTVEbWRJVXkyaHpaYXllZ1pHZ2ZsUnp2T1lwN210NDg?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 수조원대",
-    "press": "연합뉴스",
-    "title": "[특징주] 수조원대 수주에도…삼성SDI, 코스피 약세에 3% 하락(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB5X1NlSi10S0FTRzF3VkhnZTVYbXdsYXNxYWtHU2ZKcWMxQVZ6d2xqTzZSZGhxTW1pUmlCczR4WUtwcE5GeGZtYjJyMXpPR1hOY3YyQmZLcjdiVzQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "First Milei, Now Lula Enters the Fray to Shape Spain’s Election",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/milei-lula-spain-election-pedro-sanchez-andre-janones-socialists",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Skipping the Gym? British Bank Analysts Are Paying Attention",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/consumer-stress-gym-membership-british-bank-analysts-are-paying-attention",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "For investors, a truly safe haven is hard to find",
-    "sub_title": "",
-    "link": "https://www.reuters.com/world/europe/investors-truly-safe-haven-is-hard-find-2026-11-16/",
-    "impact": "📰 일반",
-    "time": "11/16 16:21"
   }
 ]
