@@ -2,6 +2,86 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "올해 7월 '리트'에서도 스마트 안경 부정행위 적발",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9wLXBRSlBEN2kwT2NHUHptTmhjdlhJS2sydTRsY2V1QTBCR1RaZFNoQXduMDNEbFBjbC1MYjFQVXJ6YXpkZDYxckFlb0N1cFFSM2xmVXFRTmt0LXVxc0JUdmRiVl9qZXZhenowaE9vSXpWSUdlWEN30gF3QVVfeXFMTWVfVzdPVUFOZFNKcS1iSk82Wm8teUtzcDduRXNsVHFaNzJKSE1DNklad1VZZDVDVV9Kc19EeEl3N3d1UlRUcC1SaFYzSXQyZkxDSGNGakZIbE8tOUxDdFZwUklRTV9uVDk1djgwMDBBZFFGd1R2MVE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "젠슨 황 불륜녀 남편, 알고 보니…중국 정부 업고 12조 사업",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1UODgtXzB4V0F3WmhrRnVCUlV3SUtESldrbHFwaG9DT29YVDlMUzBSdEY5N1AyZmNJdkhteXpSclJrUU00VVd5UXdnYnJFNkExUmhPeGZDUjVjUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "테슬라 무인 로보택시를 자가용으로… 운전대 없는 ‘사이버캡’ 美서 개인에 판매",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE82OW9ycVhRd3ltVG1ZTkVpMlRISXdpUTN0ZURLZFBJQzFPYTRZd1l5elc1UVhibnlWdWtpcjYxa2dHWXhHbDBtUFpKdkp0dWh2cUM1R2Jfa09NdFNvVzF2aWs5Y0kwQUNRMHF6eWVLQzRnZmpaOVNsazZWUzcyUG8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dow opens 400 points lower ahead of Nvidia earnings",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=248bc0b3-3637-46b3-81a3-88de3b13a109&mod=mw_rss_bulletins",
+    "impact": "🔥 주요속보",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Russia Exports Most Crude Since July as Drones Hammer Refineries",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/russia-s-oil-exports-hit-their-highest-since-july-as-drones-hit-refineries",
+    "impact": "📰 일반",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Global Money Rushes Back Into Indian Stocks at Record Pace",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/foreign-investors-pour-record-9-6-billion-into-indian-stocks-in-november",
+    "impact": "📰 일반",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 ETFs",
+    "press": "Finviz Market",
+    "title": "ETFs, Swaps, Perps Offer Back Door to Anthropic ‘Stock’ Pre-IPO",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/etf-cef-swap-perp-investors-get-slice-of-anthropic-before-ipo",
+    "impact": "🔥 주요속보",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "美 반도체 규제 우려에 日 증시 하락…닛케이 5만9000선 깨져",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE54RmduXzkxdXd4WkVPS2trUGl2R0E5a0R5ODU4d2FPR19JNTEzU2xFMGpiMzhHSlNUYjJQalZaU2o1OXRhVkNHTF9wUGhydWxmOW10aXNfVkRjMlI4MzRxcNIBeEFVX3lxTE5sODQxaXU2WHJTNmhmZENYY3l3RnlYTnhSMXVJQ0xnSzJvM1VSWUE2TTRfVnkzLTBmeW81Z0p3c1lQSkg1bkRibzFGNnJicy0tdEJBTzc4Y3Vkd3FpVDhGQjFfaDhpXzJZSXNjb2JITWl1UGhuNkwyLQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 23:53"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "[중국증시-마감] 美 AI 반도체 규제 여파 속 하락",
     "sub_title": "",
@@ -2918,85 +2998,5 @@
     "link": "https://www.reuters.com/business/morgan-stanley-raises-global-equities-maximum-overweight-cheap-valuations-2026-11-16/",
     "impact": "🔥 주요속보",
     "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Jensen Huang allies campaign to reinstate former Nvidia boss",
-    "sub_title": "",
-    "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Euro falls to lowest point in more than 18 months — live updates",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5b2e0806-c90a-46d4-b545-70dc52bb74d1&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Why Hong Kong Property Giant New World Faces a Financial Reckoning",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/why-hong-kong-developer-new-world-is-struggling-with-debt",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 증권가",
-    "press": "코스인코리아닷컴",
-    "title": "증권가, 2분기 K-뷰티 영업이익 51% 증가 전망…아마존 타고 유럽까지 영토 확장",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15cHBJdnhaRmMwelFFT2tsRXVfM0V1Ylp0X2FEdGtiZnVtZlczdk53YTFDTWNMOS1Ma0lrOW5hZG1VQkUtNzdVMkdUaXdkSGhiVEtUeHE2Mko5bGtoelA3dTVUQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "젠슨 황, 실리콘밸리 ‘우군’ 동원 엔비디아 복귀 로비…베선트 “외부 수혈” 반대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBsa21SSXBwRnBCbjl4Y0tBRjlSZzY1VUZ0aXdKS0xGR2dGaWFkSlpjZ0t4cjBrbDRvblFMNk1wS1k2Z1dHQ2xuQk9UUm5icE5Wa19RbGtDUUU5Z092bkpYSWR3eE91MmlfcUtwVzdnbw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 20:34"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "’주담대 변동금리 기준’ 코픽스, 2년 8개월 만에 최고",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBnd1c1SlNqVGRGb1owdHdHTGxoWXphcmdlYXBLMG1makdUejMxQ1oyWU41YWpJZUN4VGlzMnJCSlJMdFZCU21hSC1UWEJ1Umk3OWRoTjhwZ1J4TkRvOWRfb1YxbmpNZlU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 20:34"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "美 법원, 삼성·SK하이닉스·마이크론 DRAM 담합소송 각하 기각",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwcFVuRDFpbFRtd3lTMnpZOUJsSEhzTTNrQTJENC1OQkFxUFBOM0tvbkNjd1JFSy00ekRvUEgzWDI3UVlCb3Z2Q3dqR0ZDdXdhQVJQNTh0eU1BbnRoakRHLVFCMHd2MVI3aDkzcEtfMmU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 20:34"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "현대카드 독점 깨졌다…애플페이에 카카오뱅크 체크카드도 '쏙'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzdjdjUzZncGk4TXVZNGJUR1NvdU1ScmlRRElCWldwdWFzbEVac1NZMU9GeWRxMFZfSklqSy1lMzUtWG1CSmo0SkZnRkl6SzhPVDNMcTlB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 20:34"
   }
 ]
