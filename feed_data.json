@@ -1,6 +1,146 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스TV",
+    "title": "\"젠슨 황 딸, 사실상 아버지 비서실장…막강 권력 휘둘러\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1RNXl3UHlBUV9ZZjN6clpXS1ZrYTg5NVF0blo1ZHdId3JwZlNNYmR2eXo5MXFTelFSU2VTVXkzeVdCT1FXRVNpX1hGME5ORjJPamFxdXJUck96al96dlh0azF6U1p5UE0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국방부",
+    "press": "MBC 뉴스",
+    "title": "국방부, 전군에 '스마트 안경' 반입 보안 검색 강화",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE15Tnp1bTQ5YXJGMC16QlAzOU5GMGtNdE9DU1dpMjVzaGVBUF9VUWNQSHdoZXV3SmU0WFR1X3ZPMWJWRUxwUm1yZ2JrS3ZJR3FkdERtZzhBSmk3SzJzYldzUDN4TkdCN2FncmhKTmVfVzN4aFhQSjBDU9IBeEFVX3lxTE9mcldrcWVhcmtQcHBKcTBnQzQwUzhPNjlRdkR5ZlY2anhsMlpXNno3OHRRZXhKTVRCM0VlQ3QxbFg5enNuSXVRaGR2bmMwRzJZWFBfMW9QMm5hY0JoRDUtbEV4R1BMUEI1dklhNHZTVEptSFotLS1HNA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "AI가 취약점 찾고 공격까지…구글 \"사람 없는 자율형 해킹 현실화\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNc0hRT1JBQTVMVlh4R3pwbS1LSDJ5OHMtWGVIR3ltY2hFcXBZdloyam5DSUdzanZ3bWhOaGdfblFjTTFCU2t1NGJVS1h4cmJ4aERaYS03S2hIR3RMVXZMVi12OTNNV0tjLU5TNC1aZHdiWS14YUpYVjgzWVNwc2NqaURWQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 IMF",
+    "press": "한국무역협회-KITA.NET",
+    "title": "IMF, 韓 성장률 전망치 3.3→3.9% 대폭 상향…\"통화·재정 긴축 필요\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPQ3lKNkUyWUdQUFZGRkVOeVNKN3pTajdJM044YUNDRXQtUFRBWkpmZGdZeU5WbkVWWFh1TWtUSVZVdmtVbm9BbDFxZXRWajFZZVYtb1JrRjQ0TzBqS205WmdoOUt3WW1GVUE3Y1BnSVJaX0xWNmtJTzRvdnVERDhqeFJQN2JpMG55TzRXTWhNR3hlQXRXdVdhVXVWYXpGQ1NXV1k4YWo2T0hJTEdldTU3cDZYRmd2cVVDQmgwQUtEYUo4LXAxbE1yUDBobE0ya0V4MGI5Wnp3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "트럼프 \"앨리스 황, 스파이 아닐 수도\"...미, AI반도체 중국 원격접속 차단",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oOHgzRHB1Y2FPUjFiUG1lMmlaOGpBZ2N0cTZpOF9ITzF3cmp6Y3pRdVR0TUQ3TXlvbFRXdENqSjVKMWxqUFBkLXVtTWtnN1NHV3Z0V01ZNjcwRjRZUVE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "신세계 3분기 실적, 어디 하나 빠진 곳이 없네",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5xaVRQT3lMNXdZVWw4Sjg4X2FMOE5jdFAtdkZ5ZmtqUGNtMkdWc2dsdl9vSnJRLUN6U0ZTLWUxQnNxcEhFYVNjU3E2ZDkxRUViUDFyWnFPcWhFVUxqWWpEOFlUOG9YTzJ0UzBLaWJ6a1E?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "매일경제",
+    "title": "“아파트만 오르는 줄 알았는데”…서울 집값 상승률 1위는 ‘이곳’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBHT3Z0YXE5WnROdG96UFdBOGVPNzNJYlJfcG5pdWNIeWd5Vmh2MmwxUzRERkxWUnBCRHNtMGRNU284SGtldDNsOFdTYVdnb1JMcTktSUlPSHU?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "美 대형 은행 AI 투자 위험 노출 1천300조 원‥연준 경고",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNSFg5QVhpbGNiaG5TT3VxSDJFVXpZaVZHS2ROeDU1cGFQYXlmczBmZXd5UVZpRnF3aWZaRmtVNU5vckljMk9FcjAxY3lLWThqaU9WODB3b01aSW92YW1scDE4VnVrd05Oc1NRc204V0prYVlp0gF0QVVfeXFMTXBPOVIzaTA5NWlSSVFjWVhlUVNadjd3a053elRvZDJLekJpeGEyU2JnY2tyQmlvWW5jLTNHR0xpSGRub3oyVGp0THF5bUl2ZVpBOTM3Ri0zeTVmaTlXR0lvd3plSmxYUW1aLUhSZnduQVJQRGE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 금감원",
+    "press": "연합인포맥스",
+    "title": "금감원, 전금·온투업 외부접점 전수점검…사고 시 엄정 책임",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBKR1R2SnJhSjFoRGQyYlczZk9YbFNNSHlIRGFLZDBQTndjU0FxbmNZbW93SFhEdFk2V3BFLTRnUWw1amszZUdYUDFuODUtUGZVODdvQmxxZGJVZXJEY3BRbXpvbHBJYWc2bWJKeGZFUWk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "한국은행 고용연구팀 \"근로자, AI로 업무시간 3.7시간 단축\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE14cFFoZ201M2RNdWNlOHNEbDl1dUxpZUJtLTRialQzSXhJYjF5aE1rdUh5LWpqczdRYzVocUViandBUVdIb1V0alJqU2h3Tk00anBjMnpqSldadHcxRllRYzEzeEJ1T3EzVE1leVFfaHZMOWNv0gF0QVVfeXFMTkV3aUlJZ1NSU3V0bUN4U0UxVVRQSE1qWXY3cHRucmpOUks4cHRmeXljcGdLQmhtMk1YMzJrbGtvX1J3dWVMalFGMEh1UlhqcVcyT2RySG9SeGR4bTA5OERXUnJCRTZKVC1iSnI2MjNGbDlJbU8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Leaked Records Show Deutsche Bank Courting Russian Oligarchs",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/17/world/europe/deutsche-bank-russia-oliagarchs-leaked-documents.html",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Hungary Is Set to Hold Rates as Global Risks Support Caution",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/hungary-is-set-to-hold-rates-as-global-risks-support-caution",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "New Zealand Dollar Hits Six-Year Low on Growth, Yield Gap Worry",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-dollar-drops-to-six-year-low-against-greenback",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "New Zealand Inflation Expectations Remain Anchored Above 2%",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/new-zealand-inflation-expectations-remain-anchored-above-2",
+    "impact": "📰 일반",
+    "time": "11/17 15:49"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 옵토닉스",
     "press": "연합뉴스",
     "title": "[특징주] 옵토닉스, 코스닥 입성 첫날 장초반 '따블' 강세",
@@ -2858,145 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE42dmdWdzBFbnpXWlFGZlByeDFzblFta1NobDVyVkI2OC0zUERqTmNrdDNzRmd4RnJUTGtPRmtkYlVLQWhXZWZzd0QwSmxzTkw3Sm9YTUZhaVRseFlUZ0xiY1c2dkljelk?oc=5",
     "impact": "📰 일반",
     "time": "11/16 13:01"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "Chosunbiz",
-    "title": "비트코인 6만6000달러↑… 시장은 “대외 악재에 약세 지속” 전망",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPOHM3alpMOGFwUEUzS0ExRk9aUEVPaGxzMnhTeXJkNFl1M2lCc0lJVjdPV05KZ1FRZDdXZnlhTWVjaW1QeVI1NHhIUUgyYTVZcDNoa29CNExRWE5DUzBvXzh1S1BLR3duZk9zWFQ5MHZueGl2YUMyWjZLbjNxd3NMR9IBlAFBVV95cUxQM3pKUUEyREVudk1fbzlDcmRaWVg4SDNOcVdJeW5XSFpJdElmb0VfOFZ1N05yVkdjb2M2ektFWUFHOVVyZDYwaV9TQ2VMR0dYR3BGMFgyNUVwZkdNb2hOY0NyaXZFa0lJajFpdE5PcGRqcXAzMktUWG04dGtWMEtEMU5lcEtkdXloaFAxQXJvN0hHRUZE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "교통 과태료 고지서, 오는 18일부터 모바일 수령 가능",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XSnJfdlNVTlg5WHY4dnpCM0hfRE84YllKUDFfNUU3TFo0Nm4wQUNSdVZuSHpQYXR6emN0dlRoSU4wZ1lhSl9RTTNERFQ3MFhvRnZld1RtbVhUR3lpN3c?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "LG전자-로봇산업진흥원, 휴머노이드 안전·품질 표준화 협력",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBkVG45YVhHTTVnWnJlTTBGc0gyWE1HbngwWkhyWTZNTkk0alN1TUFad2g1RUxJcXNUakpJWFFtdW0wUFRVWFgyNkJ4ckYweU01UnlzV2JR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "의약뉴스",
-    "title": "양 제약지수 모두 1000p 이상 급락, 178개 종목 중 160개 종목 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBSZjhRelBBXzFBRUlxVGtQa3E3Z1NIZUMzTE1SY2dOaTNaRldwajVMUU1LNmVCZEs3bTk1SWZLdU5rWDFtYVd6SDF0aUt1Njl1OWVzTVdfNnZKcEVIM3VWdEoyQlZ4Z01Y?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "India's Tata Motors PV falls after lowering JLR outlook",
-    "sub_title": "",
-    "link": "https://www.reuters.com/world/india/indias-tata-motors-pv-falls-after-lowering-jlr-outlook-2026-11-16/",
-    "impact": "📰 일반",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Investors sue chip giant Intel after 29% stock plunge",
-    "sub_title": "",
-    "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
-    "impact": "🔥 주요속보",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Indian shares expected to open higher on record foreign flows, crude price drop",
-    "sub_title": "",
-    "link": "https://www.reuters.com/world/india/indian-shares-expected-open-higher-record-foreign-flows-crude-price-drop-2026-11-16/",
-    "impact": "📰 일반",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Chinese Aluminum Output Drops But Still on Course for Record",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/chinese-aluminum-output-drops-but-still-on-course-for-record",
-    "impact": "📰 일반",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "China’s Economy Falters With Surprise Across-the-Board Slowdown",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/china-s-economy-weakens-more-than-forecast-despite-stimulus-push",
-    "impact": "📰 일반",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Quant Trader’s Singapore Profit Surge Mints Two Indian Billionaires",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/hft-firm-graviton-s-singapore-profit-surge-makes-indian-founders-billionaires",
-    "impact": "🔥 주요속보",
-    "time": "11/16 13:01"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "\"젠슨 황, 엔비디아 CEO 복귀 논의 중…백악관 설득 시도\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE0zWGxfbHlRQlQ1dlJjQTlhOGQ5LU14WGlxSV9mN1d0TE5YVFNYcU50dE1nYmM5b2lfcmRJdHk1cVZ3SHhjSDk3VWtpUVBVcDZpRGRtd2V4OFZLb0XSAWBBVV95cUxNNG5Ra1ZvUC1VSTJVQWJfb2ZlNFZKZ2lBYVdsNDJrdEs5RzVPZVI5ejNXbDdycXhQQTlDeE9MQkRGclNULWF4QVNNT08wQlJ6aGpDT0VVb2hFVF9PUW9xTzg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 11:51"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "코스피, 0.28% 오른 5,305.40에 출발…코스닥, 0.89%↑",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDTEhWdW1OaG9RTHVvcFA2VFpNWXVPM0tOWFF4QVUxRXEzV0N5VjBaa05hNTNDS25lT3pVVVdKM2NwN015dk5HNlhSMDl4ZjF4UWRCOFJEYy1HcWlid294YTJ3cFJ6aGs?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 11:51"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 삼성바이오로직스",
-    "press": "연합인포맥스",
-    "title": "삼성바이오로직스, 2조7천억 자금조달 마무리…\"주주 신뢰 확인\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1TNElXNGZKNkZrSHZ5R3VUM29aUW93d1A3aFlMR0MzSXNTSUI3RElsekMtcXZXWVVBaVJaSWFjQTIxTmJrRkVmR19yV3R3cjJyR2NvTDZBSW9kTzRFSlNzUE9vZkR1N2MtNWVqYzdGbjk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 11:51"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스톱",
-    "title": "고려아연 상호주 의결권 제한 제동…작년 주총 결의 취소",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9zclRZb0hUR3E3U1ltem9VZGFQNEJsSzJFcWxBaVBvWGRfZVBWWjUwRnFYNGlUeTExc05fV2hRNGVkMWpVMHZ0LUZlcFp4SC1fSWdDWWFVaXZqUmlzZ1BIYTRickRXNE4xdWxYUFFNZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 11:51"
   }
 ]
