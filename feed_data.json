@@ -1,6 +1,146 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 엔비디아",
+    "press": "연합인포맥스",
+    "title": "[증시-마감] 엔비디아 실적 앞두고 코스피 5,000선 하회…외인 줄매도",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5kVDEyWHJQYm1DdlBYdkxmMC13dUFjNEdUT2dDdGFzMkk3M1lzWkZrQXZWenJhMms2aTV0R2JTaDI1c09scU42d3FJc2h5SGFnZjJ3b0EtRTJTWFR3YWk1bEMzWF9JRHhrc2JLMUFadTk?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 $LEET",
+    "press": "YTN",
+    "title": "단독 리트(LEET) 도중 'AI 안경 바꿔치기'...'정부 대책' 우회로?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XR0tOSk9ZQ2pfT3BfejNTMGlCMk1tdGJtSjBxbWJvN3l1X2FBYnpMajA0alRMTVhtcFRQbWgwYU5pY1RwVmhNeHNSVkVndjFhQUowa25BSmVlalNHOVE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "트럼프 “젠슨 황 혼외관계 여성, 중국 스파이 아닐 수도”…밴스도 맞장구",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOTNYUktrWENXdThmSnBCM3cwVlhmZzNXcENrR0JBMTQ4Tnc3ZlJKNEI0cW1scUxDNzZLaGN3YjJsSi1zQl9GMnpxbUY0NUJ3YU9lX25Ed1Jia20zT3FpRkhGaG9UMTljOFhCU2dhemlsNElMUWJMZ2lPOFEzX3NGMkx3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "달러-원, 뉴욕장서 1,330원 후반대 거래",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54QUtQdElKTW4xVGkxaFV4QURoWlU4Mk9hSU93bFJnM0ZvRW9oNU9OZ0ppcFZTdTcydnoxYWlDVE8wUlNIWWMzckotNWYxT2x6VnJmYm8zM1N1Z3JLU21IYWNjWEkyRzdlQnlOeXB5Z0c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 휴온스",
+    "press": "MEDI:GATE NEWS",
+    "title": "휴온스, 경구용 MC4R 작용제 ‘HUC1-622’ 비임상 결과 발표",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KcGJxMWtkaU1RRV9xOHY4U29faTI0V09yMlRLckJwY2g1OEEzajBEZzV1ZG5yaDJiVWZOMFgxNHRPaTNHM0JkTnNra3gya0RUTUxiWDhYaw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "매일일보",
+    "title": "[기획] 대만은 '증안펀드' 꺼냈지만...한국은 '실효성·부작용'에 '신중'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DV2V3QzhYckJmV0VXTFlxdTRVY3g5bGdScE9TLXNPa3JFNlhsNkRMSWo3bEUwYTFxOUJoSTQ0TWVvSmwwMjVTYlZObm1ZcWFDbHJ2NS1EejZiNFEwODZ4VXRjSHc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "IPDaily",
+    "title": "‘K-브랜드 정부인증 제도’ 81개사 참여 신청… 정부가 ‘상표권자’로 해외 짝퉁에 직접 대응",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOLURwSG45eWxjaXpGQmRkb1lwd0IxSHg1RU44RlZtcFc2aEhtMG1VUzZ6UEhONE1DcmpuWTBkcVhCS29DY0pOdGZJc21KSW5Nckh1RWhwSEpWdVczczhkOHZoSTFHSFlUa0NZM01KbmJZam1ZbU1DdFFrVC1VNHhpZUE3TWNxSnFrOEVuMVQtQUFlMUZhZk8yREl0azNzS2FZNTZVX0paMlhTbTlKU3JEOHp4T2p5TVJ3dlpaWk5uYnNyTTVWVlgtSFdwbEJwTVhOUzgwNGdFN1lLNzdhOHpMQXFoT2hiNkRRdk5HU0k3a1VnYnB6NjlhNlVkWnlCUXZpUFBVZVU1VGl6enM4VWo4U0lKVlJmMUppOUREMGRYOWZBQ2V5OVZ6QXdaYlBxdWRjQ1o3b0M1bGlaMjJBenFObkxfM3N4NzEw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "It's too expensive to hire under-25s, say firms. Will Milburn plans help?",
+    "sub_title": "",
+    "link": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Gulf Oil Flow at Risk From Lack of Empty Tankers, Tracker Says",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/gulf-oil-flow-at-risk-from-lack-of-empty-tankers-tracker-says",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "These everyday investors are skeptical about Anthropic's IPO",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=486bb645-1ca6-4da1-8d13-fc3b41180493&mod=mw_rss_bulletins",
+    "impact": "🔥 주요속보",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "SpaceX Debt for AI Chips to Hit Market as Soon as This Week",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/spacex-debt-for-ai-chips-to-hit-market-as-soon-as-this-week",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "UBS Holder Cevian Sells Quarter of Stake Amid Capital Debate",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/ubs-holder-cevian-sells-quarter-of-stake-amid-capital-debate",
+    "impact": "📰 일반",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Traders Cash In on Pricing Gaps in Anthropic’s Pre-IPO Contracts",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-frenzy-sparks-an-exotic-trade-in-pre-ipo-markets",
+    "impact": "🔥 주요속보",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic Said to Guide IPO Price to Top of Range or Above",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/anthropic-is-said-to-guide-ipo-price-to-top-of-range-or-above",
+    "impact": "🔥 주요속보",
+    "time": "11/18 00:50"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "MBC 뉴스",
     "title": "올해 7월 '리트'에서도 스마트 안경 부정행위 적발",
@@ -2857,146 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5KUjVrczRjRkUxVmJGc0R4WGZFcW93TzhqUVpzTDBScXA5VlRrdEVPQ21meGlNR2xCNENfdW50NDBOdXRhQTM3ZllaajNqRVRxeXc3TWpkY2Y1QdIBX0FVX3lxTFA1WUEzb3dwSGZ4dHhNOHJ6S2NwZFJHU0dwOGNQZXJpRkl4WG53bVVNX3BVZVp4bklXSlJtX0RfWVRYdUhDRDhrak5QRmJaN1A2X0c4Q2lPaFRva2F5S09Z?oc=5",
     "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "KDI \"반도체 생산성 8.5% 뛸 때 非반도체는 0.4%↓…임금 격차 확대\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03QWg1U2xQTTVpekM1YjhBS0VDTUIwOWNsRmJlNG9EZm9HZk1jREFxX0pyQkdvUjFyUTMyVDhiZTF4a2RNV3RVRUVWaWUydXZfcjJ5UlZURGRaRS15aW8wZFFOYTRNWkY1OWY4b3E5aDk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 HSBC",
-    "press": "연합인포맥스",
-    "title": "HSBC, 엔비디아 목표가 '반토막'…\"정식 CEO 올 때까지 고전\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1YdUdPNks5MDBUd1lBbDhzSUFKWF84Vkp1cjEtSlR5Y2ptOG5IaHpEODBNREl4c0FfS2RETW14WUprWWQyQ3NXaVY2YmtBbjlGXzBlcEc1N0x4eHdZVUlTY0pBTktyS1ptajRIc2I0NkI?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국무역협회-KITA.NET",
-    "title": "원/달러 환율, 강달러·증시 급락에도 하락…1,330원대 중반",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNM09TU1oxdGlmUnJCY3RoXzlvZGNDeWdGdTlsUEhSdldzQl9PWU85NEFBaWtfVzFScGR6aFhydmhLUUhPQnh6dmdBYUxDTzNWNFVTRkgwSThCb0MwR0lZbENleEZmamZvSnRsdmt5X3FOcUc4UzdNTUxPX24wVVdsVENmZkUySy1LSy00Y2hPMXpjNGRmU2F3bEVPRW15eGdqU1dhMHpsYkVVXzlnWmNuU0NSRmRrd2NWZlRXZGJieThQQ0ZxV0s0YXpnbFVWTm5pZGlXR1ZB?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 HD현대",
-    "press": "연합인포맥스",
-    "title": "HD현대, 북미 최대 에너지 전시회 참가…에너지시장 공략",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1kcmcxNDZXaTNmZXIxcmVaVDR4aWpnUkJBU0x3QnlZOXBoOXpDVlo3b0lSVWtfT3d0ZWNKSkVTYkZzNnB6UkoyazRwTzZ6bnR6bjlWQkdjLU5MNlUyYTUzRnk3VnJZN0dYSE41Vk1wcDk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 Dow",
-    "press": "Finviz Market",
-    "title": "Dow, S&P 500 and Nasdaq are set to fall as investors await Nvidia results and Anthropic’s IPO this week",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/livecoverage/stock-market-today-dow-s-p-500-nasdaq-investors-nvidia-results-anthropic-ipo",
-    "impact": "🔥 주요속보",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "India Weighs Capital Gains, Transaction Tax Change, Mint Reports",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/india-weighs-capital-gains-transaction-tax-change-mint-reports",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Imran Khan Says He May Die in Prison, Asks Courts for Treatment",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/imran-khan-says-he-may-die-in-prison-asks-courts-for-treatment",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Dangote Invests $2.2 Billion to Upgrade Nigeria’s Road Network",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/dangote-invests-2-2-billion-to-upgrade-nigeria-s-road-network",
-    "impact": "🔥 주요속보",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Economic calendar: Housing, factory and retail data coming this week",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d1c74555-8fee-4703-89b4-13a5a368955b&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Is Jensen Huang Plotting a Comeback?",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/16/business/dealbook/huang-comeback-nvidia.html",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 Israel",
-    "press": "Finviz Market",
-    "title": "Israel, UAE Discuss Measures to Resume FlyDubai’s Tel Aviv Route",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/israel-uae-discuss-measures-to-resume-flydubai-s-tel-aviv-route",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Diamondback Agrees to Buy Double Eagle Assets for $5 Billion",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-16/diamondback-agrees-to-buy-parts-of-shale-producer-double-eagle",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia set to deliver first life-after-Huang briefing",
-    "sub_title": "",
-    "link": "https://www.reuters.com/business/nvidia-set-deliver-first-life-after-huang-briefing-2026-11-16/",
-    "impact": "📰 일반",
-    "time": "11/16 23:09"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Morgan Stanley raises global equities to 'maximum overweight' on cheap valuations, earnings strength",
-    "sub_title": "",
-    "link": "https://www.reuters.com/business/morgan-stanley-raises-global-equities-maximum-overweight-cheap-valuations-2026-11-16/",
-    "impact": "🔥 주요속보",
     "time": "11/16 23:09"
   }
 ]
