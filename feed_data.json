@@ -2,6 +2,126 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "미국 사이버 보안국도 자바 취약점 경고...\"즉각 패치 적용\" 권고",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83ZWNkZ2tfbGxYTGNMd0lsNkRnR2JsVFBhUExMS09wZGRkamxTWFFHSDhFQV9Zc0gxcFFfd0tpX01KOEJGN0JxVm1pZWZvZi10T25nZHJBS2p3eVdjREE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "NHKニュース",
+    "title": "중국 외교부, 미국의 첨단 반도체 수출 새로운 규칙에 반발",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SanVKeEJWX2hZWWE1RjcxQnZDWFh4V09lMEdkaFg5Skd0QVlaT2t0TzdEakhUZ2hNbFkwd0tXdzFySndMRUVta2pYVk81RVNaZGE5TTh3VmdZeVQ5dnlFcmlSVE0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jensen Huang and Howard Lutnick will appear publicly before a powerful Senate panel",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/markets/article/jensen-huang-and-howard-lutnick-will-appear-publicly-before-a-powerful-senate-panel-192842634.html",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia stock's stunning reversal after first earnings day since Huang's departure",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-erases-earnings-pop-as-investors-face-life-after-jensen-huang-173547783.html",
+    "impact": "🔥 주요속보",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
+    "sub_title": "",
+    "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Fed minutes show growing unease about the outlook for inflation",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=caf867bb-e3c1-4591-8080-f6e90cc41592&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Hailey Bieber Says Social Media Fueled Rhode but Took a Toll on Her Mental Health",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/hailey-bieber-rhode-social-media.html",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Fed Saw Need to Continue Raising Rates Despite October Skip",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/business/federal-reserve-rate-increase-october-meeting.html",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jeff Bezos Says He Helped Pick Robert Pattinson as the New James Bond",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/movies/jeff-bezos-pick-robert-pattinson-james-bond.html",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Probe of Mark Walter’s Insurers Spotlights Gaps in Regulatory Patchwork",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/probe-of-mark-walter-s-insurers-spotlights-gaps-in-regulatory-patchwork",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Kalshi Turns to Compute Desk in Renewed Push for GPU Futures",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/kalshi-turns-to-compute-desk-in-renewed-push-for-gpu-futures",
+    "impact": "📰 일반",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "데일리바이트(DAILY BYTE)",
+    "title": "유럽증시, 실적 호조·ECB 동결에 상승 마감",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQRzI0VjFNUHNwTUlraXY1OGpsczVKaUxfSkhfMXlhZFkzUjVBMnM3VWJla2VueldjRzdFZ0gzRUVJN1BCcHFoZm8tZUFQTk5HUU55NXdZOGYtWTBMYWhxZ3VOZXpaRkx6QU44N0ZHNmh2WExVN0RGQnNGclZ0ZjBaRmFJbUJqeUxvR1NILVQ1WEloQjZqeUNTNQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/19 04:53"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "한국무역협회-KITA.NET",
     "title": "美, 빅테크 반대에도 중국 데이터센터 장비 수입제한 추진",
     "sub_title": "",
@@ -2878,125 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LTGktRktkZXRINHViTGlpSzlsdi1oOFZvMGZkb0xLT1IyalJqRlFpYXJZWWpVaGNTUGZOOUY5Z1RQYnBhU1VHVlN3b254N0NDdE9oQ2FhV0NKcVJrUFYtNEZPc0F5NnpOR0lnVUZ5N21kUDdJ0gF0QVVfeXFMTkpwdGlTVW10dWVuZXh6TGZLa2syUURuR2c3Q0MtSzVvaXFrRG5MZkpfN2dNT3NReUZ4RVd4UDhVVFRUNENvYTVaQ2x3OGpVOWR0N1kwd0FWcWNVLXdiS3NDWnU3Zks3Uk5NcklvQW0xYkJFTmo?oc=5",
     "impact": "📰 일반",
     "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "‘젠슨 황 쇼크’…미, 중국 AI 반도체 ‘클라우드 우회로’ 봉쇄",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFByZkVvVlRudnd5RWJRVVd6S0RCZHFkR0dnUXhLOW1VeFVsM3JsOTlhSmMzbGlWbUlWd2JlVlpsdnVPMzltVVdiUndwSHJxaUNfSDJqWHJXdHFMUdIBX0FVX3lxTFBnR3R3TE9ELVM3SklJVzFTcDZIaDE5aGU1SThrUXctcEFMOGxqb0E1SWR2WU12NnZ3YjExNUFYYmZveEtNT25DaWdiMVJDdFA0N0ZLQ3BiZjFUaUVocUdR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "허점 노린 해킹…금융사, 주변부 정보처리시스템도 점검 의무화",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB5TEhJTGZyYWVoZTZJaUNCMzZLd2dqRGFZcnJZcUZNbTczTDdhck5zazdzb29MS0JXcUZZQzZRNGMwVmNnNHkxMUs2enNIWEplZm1iaXZ6MnlrYnRJQ21MZGd2UmwwZVhyT2FmZUl6ZkfSAXRBVV95cUxOSVNHbzIxZUpuTkFORVI3U1k2Yi1tWHFfX2tCUDN3dEhFNVE2WXJzQ1N6dGVSYzA2ZmxhNVFlWG84LWoyelVJUWIyY182QkhkVkxYRENEWGRGQThkUmVIMGE4WU5WUDdFdVJaNG0tdmpuVjN1NQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "New Nvidia boss says 'ambition has never been greater' after Jensen Huang's exit",
-    "sub_title": "",
-    "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia's earnings are out. Here’s everything investors need to know.",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=230b19b5-d290-414b-a2d9-4e7402b922b5&mod=mw_rss_bulletins",
-    "impact": "🔥 주요속보",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Strategist explains why this is a 'make or break' week for AI trade",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408514338112",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "SEC investigating whether Nvidia's disclosures misled investors: WSJ",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=de3ea130-7883-4e57-b24c-13293e008378&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Dow closes 850 points down, tech stocks keep falling ahead of Nvidia’s results",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4eb007bb-f312-47a9-b4f2-6537100fed1c&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia to report Q3 earnings amid fallout from CEO affair scandals",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/article/nvidia-to-report-q3-earnings-amid-huang-scandal-211859827.html",
-    "impact": "🔥 주요속보",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "What to know about the Nvidia turmoil.",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/what-to-know-about-the-nvidia-turmoil",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "젠슨 황 \"이사회 요청 시 엔비디아 복귀\"…사임 후 첫 공개 발언",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Vb0NYRjV2dUczRkhMQ0t1WEdwZGtpdDhQMl9XLTFnM1RrdmlBU2lhNmJneXJkQ29BcmZuQmFZQnhFb3NyZFR4SFVaR2tZMWJvVVNLMzdPaFVzSnRaTHlQb3BaUWtVMWNLaWVGdGdaSFhUZzBU0gF0QVVfeXFMUDkyZ2d2OWFjeFF0Y1p3eDlmY0tZcWNoU0NnN1BYWVRadkI0S1NGSGo1am1IcUZTWVNYbkhENVlkb0YxUFp5QkV0blhEaXNadWpkbnBBakdQcnU5UHpyWWl4eG1BSkxRb2FHS2g4Tjl1aHQwSVA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "서울 집 사려면 월급 12년 꼬박 모아야‥월소득 5분의 1이 임대료",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE81ZWt2SmxpOHV2d1A4VXpHOHJwQlVvZ3VaWDFxVzVua1U5d2c4ekRKYWRpNDRqVzVnN1kwS1p1aS1QQlY1cVpDVG9VM2ZIbldjMWw0cFdUZXQwd29XSXdxLVcyVk5NSG00UVhQYkZvUjhIZ0VJ0gF0QVVfeXFMTjRBQ3FielRJQnBYZnY3ZFc1eU9ZYU9sd01ITTl0MG1nUWgzc1lsdTNKVm5uRHhvSElIeXdUWDFtZWV2YWlhMnpncWRUaFFGRlV0bnl3ZWFJcnFod1ZyTzI3MkY1WllCeEp2ekNMbEJoVXlQc3E?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "매일경제",
-    "title": "아내가 젠슨 황과 연인 관계 있는 동안…앨리스 황의 남편이 중국서 한 일",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52MjNCUE1DU2dpYjBoRlNPQ0xFMlFoMWVyYlc4QUdUQWlnbDZ3X0lGQTQxMHJoa2FhcXNRRGRpWUl1ZG9Sd1ViTEtzd29PdWdsdnc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
   }
 ]
