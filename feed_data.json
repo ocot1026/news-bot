@@ -1,5 +1,75 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Fed의 월러는 '충격'인플레이션에 대한 금리 급등을 제안",
+    "sub_title": "Fed’s waller suggests interest-rate spike to ‘shock’ inflation",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d2c16347-0cea-4fdd-b6fe-b09f990e40c9&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/18 23:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "'GTA VI' 퍼블리셔 Take-Two, 게이머들이 블록버스터 출시를 즐기면서 점프",
+    "sub_title": "'GTA VI' publisher Take-Two jumps as gamers relish blockbuster release",
+    "link": "https://www.reuters.com/business/gta-vi-publisher-take-two-jumps-gamers-relish-blockbuster-release-2026-11-18/",
+    "impact": "📰 일반",
+    "time": "11/18 23:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nasdaq은 Nvidia 결과, Anthropic IPO 리드 기술 주식으로 상승세를 기록했습니다.",
+    "sub_title": "Nasdaq opens higher as Nvidia results, Anthropic IPO lead tech stocks",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ccd4a8a4-f1f8-4d78-899e-44d24b2c5c29&mod=mw_rss_bulletins",
+    "impact": "🔥 주요속보",
+    "time": "11/18 23:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia는 엄청난 수익을 올렸지만 새로운 리더들은 비틀거렸습니다.",
+    "sub_title": "Nvidia delivered monster earnings, then its new leaders stumbled",
+    "link": "https://finance.yahoo.com/markets/article/nvidia-delivered-a-monster-quarter-then-its-new-leaders-stumbled-on-the-earnings-call-120332810.html",
+    "impact": "🔥 주요속보",
+    "time": "11/18 23:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic: 억만장자가 될 7명의 창업자들",
+    "sub_title": "Anthropic: The seven founders who are about to become multi-billionaires",
+    "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/18 23:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "매사추세츠의 한 마을이 아마존의 배달 드론에 맞서 반란을 일으켰습니다.",
+    "sub_title": "A Massachusetts Town Revolts Against Amazon’s Delivery Drones",
+    "link": "https://www.nytimes.com/2026/11/18/us/politics/amazon-delivery-drones-massachusetts.html",
+    "impact": "📰 일반",
+    "time": "11/18 23:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "미국 사이버 방어는 AI 기반 위협에 '보조하지 못한다'고 상원의원은 트럼프 행정부에 경고",
+    "sub_title": "US cyber defenses 'not keeping pace' with AI-enabled threats, senators warn Trump admin",
+    "link": "https://foxbusiness.com/politics/us-cyber-defenses-not-keeping-pace-ai-enabled-threats-senators-warn-trump-admin",
+    "impact": "📰 일반",
+    "time": "11/18 23:49"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 KDI",
     "press": "한겨레",
@@ -2926,76 +2996,6 @@
     "title": "단독 리트(LEET) 도중 'AI 안경 바꿔치기'...'정부 대책' 우회로?",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XR0tOSk9ZQ2pfT3BfejNTMGlCMk1tdGJtSjBxbWJvN3l1X2FBYnpMajA0alRMTVhtcFRQbWgwYU5pY1RwVmhNeHNSVkVndjFhQUowa25BSmVlalNHOVE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 00:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "트럼프 “젠슨 황 혼외관계 여성, 중국 스파이 아닐 수도”…밴스도 맞장구",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOTNYUktrWENXdThmSnBCM3cwVlhmZzNXcENrR0JBMTQ4Tnc3ZlJKNEI0cW1scUxDNzZLaGN3YjJsSi1zQl9GMnpxbUY0NUJ3YU9lX25Ed1Jia20zT3FpRkhGaG9UMTljOFhCU2dhemlsNElMUWJMZ2lPOFEzX3NGMkx3?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 00:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "달러-원, 뉴욕장서 1,330원 후반대 거래",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE54QUtQdElKTW4xVGkxaFV4QURoWlU4Mk9hSU93bFJnM0ZvRW9oNU9OZ0ppcFZTdTcydnoxYWlDVE8wUlNIWWMzckotNWYxT2x6VnJmYm8zM1N1Z3JLU21IYWNjWEkyRzdlQnlOeXB5Z0c?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 00:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 휴온스",
-    "press": "MEDI:GATE NEWS",
-    "title": "휴온스, 경구용 MC4R 작용제 ‘HUC1-622’ 비임상 결과 발표",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9KcGJxMWtkaU1RRV9xOHY4U29faTI0V09yMlRLckJwY2g1OEEzajBEZzV1ZG5yaDJiVWZOMFgxNHRPaTNHM0JkTnNra3gya0RUTUxiWDhYaw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 00:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "매일일보",
-    "title": "[기획] 대만은 '증안펀드' 꺼냈지만...한국은 '실효성·부작용'에 '신중'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5DV2V3QzhYckJmV0VXTFlxdTRVY3g5bGdScE9TLXNPa3JFNlhsNkRMSWo3bEUwYTFxOUJoSTQ0TWVvSmwwMjVTYlZObm1ZcWFDbHJ2NS1EejZiNFEwODZ4VXRjSHc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 00:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "IPDaily",
-    "title": "‘K-브랜드 정부인증 제도’ 81개사 참여 신청… 정부가 ‘상표권자’로 해외 짝퉁에 직접 대응",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxOLURwSG45eWxjaXpGQmRkb1lwd0IxSHg1RU44RlZtcFc2aEhtMG1VUzZ6UEhONE1DcmpuWTBkcVhCS29DY0pOdGZJc21KSW5Nckh1RWhwSEpWdVczczhkOHZoSTFHSFlUa0NZM01KbmJZam1ZbU1DdFFrVC1VNHhpZUE3TWNxSnFrOEVuMVQtQUFlMUZhZk8yREl0azNzS2FZNTZVX0paMlhTbTlKU3JEOHp4T2p5TVJ3dlpaWk5uYnNyTTVWVlgtSFdwbEJwTVhOUzgwNGdFN1lLNzdhOHpMQXFoT2hiNkRRdk5HU0k3a1VnYnB6NjlhNlVkWnlCUXZpUFBVZVU1VGl6enM4VWo4U0lKVlJmMUppOUREMGRYOWZBQ2V5OVZ6QXdaYlBxdWRjQ1o3b0M1bGlaMjJBenFObkxfM3N4NzEw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 00:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "It's too expensive to hire under-25s, say firms. Will Milburn plans help?",
-    "sub_title": "",
-    "link": "https://www.bbc.co.uk/news/articles/c6d01e8m15mko?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/18 00:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Gulf Oil Flow at Risk From Lack of Empty Tankers, Tracker Says",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-17/gulf-oil-flow-at-risk-from-lack-of-empty-tankers-tracker-says",
     "impact": "📰 일반",
     "time": "11/18 00:50"
   }
