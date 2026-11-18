@@ -2,6 +2,66 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "美연준 월러, 또 '빅스텝' 필요성 언급‥\"충격줘야 할 수도\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zME5McUlwRnhoOUNab3Ffb1BDNG9sekZTeXJTb3dVMG9tU1hlNmVNX09IYzlKdGNCOTJTd1pvNUtwZkdvXzBaZVk2UFhzd013VnRRNEFLU2R2MldoX010QWNEbzVRSC1EdHRrZXE1ZVJBMzU00gF0QVVfeXFMTTNRR19XUWhCV0dqaXdiR3JiTGhPb3g3QXNycEtZQ3c2X3AxX09VYXRWU0ZtTkpfZ056c3hPQklWYU9BZ19rWmhWb2VfWFViLWRoMWZtd21Cb1JHaDZxY2RKcHNGdW9WUGhnekthSVhPZTB1VzQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 05:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스핌",
+    "title": "美 민주, 러트닉 '메가스피드 제재 거부' 조사…아들 회사 특혜 의혹",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QZU1wa2FHLWpkTmVuNGJoSmJxaDhCQXktSExzV3ZycU92QzZrb2t5TDNyeTlNZ1NGamx1SWNvbGVaWjd1SGpjVEh5VFpqcV84bndmSVlVZFgwbFA3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 05:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 쿠팡",
+    "press": "뉴스1",
+    "title": "쿠팡, 수능 AI부정 행위에 '차단'에 동참…\"금지상품 적발시 수사의뢰\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xdWxNQ0xhM0VOV3o1Wl94d1dHODZaZHJtcWRCYXZuUGZpc0FVanRfSE9fSklYRUJ1QmpqMWw3WUg4UDhIOTN2V3lVdlBhbXNuRExsdG1zRTJTUlU4MHVJ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 05:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "트럼프 행정부, 잇단 시스템 장애 진화 부심…\"사이버공격 아냐\"(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11T1E2bmxhM2t3eDJpcUdCTFB0bjNidzFCZ09oZ1pWVmRKNmc1RnM2QWxQNmVSOW9hNm1ENzRhSHZZNWRab2xLSmtqSWtTQnIwMTB4RXdTWnFoUkHSAWBBVV95cUxPdTlZYjVDUjhoUU10bGZ5ZmFTWWNuc28zNGZrNFVnYXBjSXBBNFlOVEg4bFF6TXRoWGRlNmxSOEs1Y1VTLURraFkzYUpqdnQtNWpPb0h2UUp4MTNCaVRIVnE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 05:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Huang pushed to sell chips to China. Nvidia's interim CEO just pulled the plug.",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/technology/article/sending-a-message-nvidia-signals-more-cautious-stance-on-china-after-huangs-departure-194945165.html",
+    "impact": "📰 일반",
+    "time": "11/19 05:49"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dow off 500 points in final hour, but Nasdaq up ahead of Anthropic IPO pricing",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=735dc84f-cfd5-4063-a7b7-0376d67018ad&mod=mw_rss_bulletins",
+    "impact": "🔥 주요속보",
+    "time": "11/19 05:49"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "YTN",
     "title": "미국 사이버 보안국도 자바 취약점 경고...\"즉각 패치 적용\" 권고",
     "sub_title": "",
@@ -2938,65 +2998,5 @@
     "link": "https://www.marketwatch.com/bulletins/redirect/go?g=11457a1c-6e88-4c12-8bef-8c1c5cd8ab0d&mod=mw_rss_bulletins",
     "impact": "🔥 주요속보",
     "time": "11/18 07:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "[속보] 젠슨 황 “이사회 요청하면 엔비디아 최고경영자로 복귀하겠다”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE94ejVFV25EVFY2RHBFZ0ZJcGNCbnN5bXphTTZuWUVxekZMRERNbUNoOWVQZ1J6RWFoR0wtSDRnYlQ3V3BZRlNhNmFVME4ySDNzY001MEFLLWpxRXpWRHRsQXhCaHh1Y2c2N3ZhZWlkSQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "JTBC",
-    "title": "젠슨황 충격에 결국 ‘5천피’ 붕괴…9개월여 만에 최저",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ydHdTdXo4bFY4cnQyNXJIa0hRMjBQSWpWMFFlQnVLbmM5SVYtSXBhdFJZZEtxTFhnYm9JUDIzd1M5Q091dVJ0TkxLQkNucENpRno4Ng?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "비즈니스포스트",
-    "title": "이재용 삼성전자 실탄 '215조' 장전, 데이터센터 냉각 넘어 로봇·전력으로 전방위 M&A 나서나",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9aUkU1YWlxX3lDUHBLUm5SWTJnV3R0LVd0N1RtVEZseFIySzhhRlNFUkVrc2YzMVktN3l6ejdtWDFpMWFhSnVLRDZKRUZvd3JhSkF0RkFRWTFnX1V0ZXJCY08wTm5NN0VweXJUV3NEUmhkMTg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "‘첨단 AI 해킹’ 막을 ‘사이버 차르’, 부처간 벽부터 넘어야 한다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1KdXh4NktLTEJJSWhETklBcDdWVlhKcHNPNUhoUXZpZ2VCYkVaeVhYREZoZ2dObFhjOTIyVzdfYUJiRkhmN0p4TF94ZU9iOHhEWG42TW5kOHRYS1psZVhDNQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "AI의 두 미래...미 연준 의장 \"혁신 가속화\" vs \"경제 충격\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBabzhycUdPM0dwNk90MzlldXd6aGNGanprY19NUDh2aXFBamtPTHZRN1g5eTV4UnluVUU1cjBwS2U0d2dQeVMwU2E0TUo0U2RWUXF6ZWt5RTZiWmRYdUE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "IMF \"올해 한국 경제성장률 3.9%\" 전망‥\"글로벌 AI 호황, 이례적 성장 동력\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5LTGktRktkZXRINHViTGlpSzlsdi1oOFZvMGZkb0xLT1IyalJqRlFpYXJZWWpVaGNTUGZOOUY5Z1RQYnBhU1VHVlN3b254N0NDdE9oQ2FhV0NKcVJrUFYtNEZPc0F5NnpOR0lnVUZ5N21kUDdJ0gF0QVVfeXFMTkpwdGlTVW10dWVuZXh6TGZLa2syUURuR2c3Q0MtSzVvaXFrRG5MZkpfN2dNT3NReUZ4RVd4UDhVVFRUNENvYTVaQ2x3OGpVOWR0N1kwd0FWcWNVLXdiS3NDWnU3Zks3Uk5NcklvQW0xYkJFTmo?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 06:47"
   }
 ]
