@@ -2,6 +2,116 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "한국무역협회-KITA.NET",
+    "title": "美, 빅테크 반대에도 중국 데이터센터 장비 수입제한 추진",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPcUEzY1lmV3FkYnQ3Zl9GZ0F1Q0VuUUNrand3ZEZEQTF0Z0Vxb0RMOHo1Q0h1d1h3NTVGV0VrMkJOaUhiVkEyREdGNDNGTFNia2lCY1VxR05pemtwZUJ1Tm1LZWRZY1FxNlRKcUNFSHFsRHMzSUdqckhiNkdCOWJwQkd3Ny1Oa1VXS1NBU2JQbkpyRFY1SzEwc0k3NEx4WXVXVFV3WUdmMmtTM2d3NW50NnFXUEdmYkxubDI0Umh0X3lxajMxMXpCVVpDeXBsd2EwdFRHVEZB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 엔비디아",
+    "press": "머니투데이",
+    "title": "엔비디아 실적에 웃은 코스피, 5000 탈환…삼전닉스 반등 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBYUEVUUUUzRU5oWWhMWVFKOV9pcHJ6V09Nb3plcERXdmxnSktSU2tPbkxyUUM2WlM5QnJ5RkVRa3N3NHRfZFltR3l2dUt5WjNjV1NsSU5iVDNXd0ZuSnNVZ3p1THFoTzJt0gFuQVVfeXFMT0JiTlJWaW5QRkdNZmJ3eHRaRWY4dkYtekcxZFNUTFEtSF9IdXU3d0VIQkIwNUtHOEtxeUdZcVRZdzJoRkpVQVZVVV9zcERLQVV0dXBWVjdUY1lySU9QdXNFUDRmWmpibzVtbTl6cWc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "What Nvidia’s Interim CEO, Colette Kress, Said to Employees After Jensen Huang’s Resignation",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/technology/nvidia-jensen-huang-affair-colette-kress.html",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "David Ellison Confirms Elon Musk Invested in Skydance",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/david-ellison-skydance-elon-musk.html",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Target price cuts help retailer post strongest sales growth in years heading into holidays",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/retail/target-price-cuts-help-retailer-post-strongest-sales-growth-years-heading-holidays",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 NYC",
+    "press": "Finviz Market",
+    "title": "NYC, LA and Chicago School Districts Weigh Breaking Up With Google Search Over A.I.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
+    "impact": "🔥 주요속보",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Mark Carney Says Canada Will Not Back Down in Trade Talks With U.S.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/mark-carney-canada-us-trade.html",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Bank of Canada Says April Scenario Analysis Telegraphed Hike",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/bank-of-canada-says-april-scenario-analysis-telegraphed-hike",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Newsmax Sues to Block Fox From Integrating With Roku",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/newsmax-sues-to-block-fox-from-integrating-with-roku",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Chicago’s Third CFO This Year Saw Budget Red Flags Before Exit",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/chicago-s-third-cfo-this-year-saw-budget-red-flags-before-exit",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "日증시 혼조 마감…닛케이 반등, TOPIX는 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pV0VUSGtXQ2hadXdHc1NFNmhQTnUwM29TcW5aRmpsNlNOSXdOOHU2Mm1WbzBTejI2bl9SRkl0SjZua0plSUprbHl0SXNtQ3hacEZsUElVRHNhVzhWREhJeNIBeEFVX3lxTFBtQnlXNFlFdF9GWjh1Sy0xa0pSN053RUNwNDBfTWVlUDljTURxN2RjdFJCMGVMM1Q5X3Bwa3RzUlVTckI0YklPZ1ZnMjUzNjFmaVJZbEJySHdmdlY2REF4YW5FWmxtcE5VWHRfZm1uck80VFNkMGR3QQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 03:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "KDI 경제교육·정보센터",
     "title": "KDI 경제전망, 2026 하반기",
     "sub_title": "",
@@ -2888,115 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE52MjNCUE1DU2dpYjBoRlNPQ0xFMlFoMWVyYlc4QUdUQWlnbDZ3X0lGQTQxMHJoa2FhcXNRRGRpWUl1ZG9Sd1ViTEtzd29PdWdsdnc?oc=5",
     "impact": "📰 일반",
     "time": "11/18 05:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "美 억만장자들, 젠슨 황 퇴진 전 엔비디아 털기…소로스도 20% 줄여",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB3X3pPT2dlWjZ5OFJwczVKSUpueHo5Y1VfUVRCRjNWVV9nU2hWOURXa1pxLUVIbkRIbldkV2FfeG1sUWFXc2hUZG1yTFY1dE1mZVpNNmhBZHNRdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "산업장관 \"수출 1조달러 목전, 독·미·중 이어 네 번째 될 것\"(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE16aGRBenJYX3BNbnZFU2E5ajVBcEh1ZnNlT3lCMXlEWlF6UjhYam9yb2ZIdDl3QTJDalpLLXh0emllSTRicVFpUHJWQ1IzVnl0Z09MdV94WWx2TEEzbThHY2FsSlMtaTdmdzEwUDhlQ2w?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia 업데이트: Nvidia는 종소리 이후 3분기 결과를 보고합니다.",
-    "sub_title": "Nvidia updates: Nvidia to report Q3 results after the bell",
-    "link": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-to-report-q3-results-after-the-bell-with-colette-kress-to-host-first-call-as-interim-ceo-202616349.html",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "최신 정보는 다음과 같습니다.",
-    "sub_title": "Here’s the latest.",
-    "link": "https://www.nytimes.com/live/2026/11/17/technology/nvidia-earnings-stock-price/heres-the-latest",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "칼시, 미국 규제 명령에 대한 트럼프 연설 베팅 중단",
-    "sub_title": "Kalshi suspends Trump speech wagers on US regulatory order",
-    "link": "https://www.reuters.com/legal/government/kalshi-suspends-trump-speech-wagers-us-regulatory-order-2026-11-17/",
-    "impact": "📰 일반",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia의 수익 보고서를 앞두고 주식이 하락했습니다.",
-    "sub_title": "Stocks Down Just Ahead of Nvidia’s Earnings Report",
-    "link": "https://www.nytimes.com/2026/11/17/business/economy/stocks-slump-ahead-of-nvidia-earnings-report.html",
-    "impact": "🔥 주요속보",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia 수익보다 주식이 하락함에 따라 다우지수는 마지막 시간에 1,000포인트 하락했습니다.",
-    "sub_title": "Dow down 1,000 points in final hour as stocks slide ahead of Nvidia earnings",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ab148237-ecfe-4e2a-bc33-3a6397e46a93&mod=mw_rss_bulletins",
-    "impact": "🔥 주요속보",
-    "time": "11/18 05:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "건국대도 AI 부정행위 조사 중...목걸이 카메라",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBFX2lWaGFjRWhzRGhnOVUxcEY2S2dSOUpnTjBrY0pkTkVZRnpreFdkWHl5dkdNWlJ6LXhXMU1aS2h0d0ZiS0g2bFJYQWNfTkFWQ19JMkhmbzJkeWJ3UEE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "아마존·구글·메타 반대해도…美, 중국산 데이터센터 장비 막는다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJVW05dVFmeXBKWXFmWnZjRnVSRVNhQWZ3bC1DclZwQWJQQ1A5VnRUYlU1WXVxOFlPVWFScHNlaDhRUHhWUUZpcXV0Y0JiVUFEbEI2R2JjeUdwUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "\"5천피 아래서 사볼만\" \"무한 물타기중\"…개미는 연이틀 레버리지 베팅",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJakZ2d1VwcjJQME05bUpTOGhxdGhHMTNLTDhheTNNNnR5emFOczhXZ2t1MDVvTkx1bDdFSGstVWxfeXVka01ZUXlPRDBwbWpRYVNRajUxOUdoNUnSAWBBVV95cUxQY3Rrcmx2WjJxMlRYbDh6RnpySHFEZXd0TVNzYXZSMXNabFJxQk1MdlU5S0Q3UmVfVVh3eXp0WS1XUGpsb1pHUEhmc0MwSThMbGFEcmYxN3p6dlRsdXlWSUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MEDI:GATE NEWS",
-    "title": "아리바이오 \"AR1001, 글로벌 임상 3상 1차 유효성 목표 달성\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54VFFZbEQ5elRoYUdIanhxTmZ6dkRoLWppUDFLYUNXMThUc2NGNGJmYmpGWFNhU1huMHVIU2ctYmY1WUpNTlVOZEVGN3hRbFVkRmdvdkd3VQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
   }
 ]
