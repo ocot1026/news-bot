@@ -1,6 +1,136 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 KDI",
+    "press": "MBC 뉴스",
+    "title": "KDI, 내년 성장률 3.9%로 상향 전망‥반도체 호황으로 수출·투자 확대",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5Cc0lMY1kxRzB2V3JhaE9tRUh3THBVRHBjc2h5alJiZjRYQm5CYjVCNVZURVNQU1lNT2VvU1g0cEoyTWY3SzhXRnYyRUFobjhzRjI0MElGenFnekowbFZxU0wtSk5ETnJQd0p3dUxpM3hYdmIt0gF0QVVfeXFMUHhXbHJzUXR0LXhic2hhc3VOQ3NXNHNYbW1TYk55REZ3WGY4MTM3QmtXajFqZWdRaXR0T1JFQ0FsNE8wTF85Q1M1NHRvd2ExWURDR0ZtWHd4SzBXQ1dIckd0azRuOWVOdmhFb3Y3QXZFVzNQa3Y?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "3분기 코스피 상장사 순이익 30% 감소, 코스닥은 순손실···환율 하락 영향",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9GWHRhWHlCNWp0MmlSOUJLNldJTEJ5NzRZQVFBYzNOWlFiY2NjQ25WejFkWmVTRlV3SUd2cXJIdUgyLXhiZDlQUlpZS0QzSkY0c2NGM1pvN1IyQdIBX0FVX3lxTE5OWktlTVN6T0VNdjlVcVQxSDBqWXJVajM5a2E5eU9vNk5CVXNYN0d0VWN1QVltWTFreHEtMHFta2VpdUM4ejlLUXRBc3lYWlBwZzRPUzRpSTBBZlhfUEdZ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 포스코그룹",
+    "press": "연합인포맥스",
+    "title": "포스코그룹, 세계 최대 전기차 배터리 기업에 리튬 장기 공급",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1iQUVJY3ZXSHZUNmIzRjR4OTh1OGY4Rzc0SlFiWWZnVFpmb19CQ3RNalluTmtkRy1CZ2RfN3BYTWVod3VuWG5VS19CdVY3aVE2MXZDZEhwYzNUU1ZMS0JRNnB1YjkxVGZXeF9pamYxQXk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "실적 대박에도 주가 폭락…개미들 울린 '숨은 악재' 있었다 [분석+]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA3Nlp3Y3BEZndKZXJ3dmtxQkFMT0EyNVM4Y21mVnJmOEpWZ3BHRkg4ekJ5UWF0elAyYldRUlF3SWU1NG9OOUNRVFg2MURLRkM0NXFEU09ITHRVdw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[외환] 외국인 달러선물 매도·네고에 1,330원 아래로…8.90원↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xRl9pVDc2cTludFlkV1pLdW1uZW15MThDZzk4YmlpU0c2SmwxSVBKZXlLWDNCTU5ZMVNhNXNYNzUzYkZQMmVkSWxVRnNDSl9QX1J0UHdQMzl0SU8xbGJ3d1E1SEMtaXZYemc4YlJ5eWU?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "동아일보",
+    "title": "“수능날 사용하시려면”…시험 전날 올라온 ‘하루 10만 원’ AI 안경 대여 글",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBMaFFNTnBlbzNqdmIwdXFrMnZITUlIRVFjOEJ2QVNVUzVKR2o1M0lJam9ncHpNX1I2VTRyamt1OXROTHNHbkFpMTZuWFlsbGo2MHloMlJ5QUJnZTQ5NVd5ekFZa3dHRm1GTFdtNnFCMW03eEhzQ3fSAWZBVV95cUxNSUJBY3lnb1haeFBGVDhxeFJNLTRiaXJoOGNJSFIzMW5Ld2s5NmhUOXZnbGZtVU53SHBaUXdwMjNJTE9RdnRIcW4yZkNCY2NPVmg5UHctX3B1WWotN1doRVJUS1UzYXc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "대한민국 정책브리핑",
+    "title": "대형 금융사 보안 취약점 점검 연 2회로…연결 시스템도 전수점검",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOb1IzMlZjOWNucDlEVXppRHZDUG5Da080dkZRR3JWV0E3LVJQclN6YnhjelotSWxUd1Q2UUdaYnBueFJzTDhOSDZ0czlfNkIyOXVqeGhRdWdwTXhWZXZjczdSdDdiWk5NQ0w3aDdjanlLU05NaHdXblFDRWVEVmhsSXBkaU8wbF9JY2c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Coal India unit draws Abu Dhabi wealth fund, LIC in IPO anchor book, sources say",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/energy/coal-india-unit-draws-abu-dhabi-wealth-fund-lic-ipo-anchor-book-sources-say-2026-11-18/",
+    "impact": "🔥 주요속보",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "European shares muted as tech offsets mining weakness",
+    "sub_title": "",
+    "link": "https://www.reuters.com/markets/europe/european-shares-muted-tech-offsets-mining-weakness-2026-11-18/",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia's numbers impress but investors fret over CEO succession",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/finance/nvidias-numbers-impress-investors-fret-over-ceo-succession-2026-11-18/",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Capturing the Hustle of Unsung Jobs in New York City",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/insider/new-york-city-jobs.html",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Ex-Longview Manager to Bet on Just Handful of Stocks in New Fund",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/ex-longview-manager-to-bet-on-just-handful-of-stocks-in-new-fund",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic Crypto Bets Imply $1.7 Trillion Value Despite AI Rout",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/anthropic-crypto-bets-imply-1-7-trillion-value-despite-ai-rout",
+    "impact": "📰 일반",
+    "time": "11/18 18:03"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "YTN",
     "title": "코스피 오늘 상승 출발...반도체주 일제히 상승",
@@ -2868,135 +2998,5 @@
     "link": "https://www.wsj.com/real-estate/commercial/why-big-investors-are-burning-lenders-on-apartment-loans-7129d849?mod=rss_markets_main",
     "impact": "📰 일반",
     "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia board establishes committee to oversee export controls",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=60eb154b-9905-4400-a4a8-4afc2bbfd660&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Stock Market News: Global Stocks Downbeat Ahead of Nvidia Earnings",
-    "sub_title": "",
-    "link": "https://www.wsj.com/livecoverage/nvidia-earnings-stock-market-news-11-17-2026",
-    "impact": "🔥 주요속보",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "As Trump and Xi Mingle, Their Governments Are Arming Up",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/17/business/trump-xi-meeting-tensions.html",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "How Democrats Winning in Texas Affects Musk",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/video/business/100000011281784/how-democrats-winning-in-texas-affects-musk.html",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Elon Musk’s Texas GOP Allies, Who Gave Him $1.7 Billion, Have Been Voted Out. What Now?",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/17/business/elon-musk-texas-republicans.html",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Does This Man Have a Right to the Data From His Own Brain?",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/17/business/brain-data-access-rights-buckwalter.html",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Fearing Chinese Rivals, U.S. Biotech Adopts a New Norm: Share Nothing",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/17/science/fearing-chinese-rivals-us-biotech-adopts-a-new-norm-share-nothing.html",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Deutsche Bank shares slump on reports of leaked documents",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=88a44c5c-dc73-47cc-a2eb-b7afeaa95e6d&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Pirelli Falls as Sinochem Sells €455 Million Stake in Tiremaker",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-17/pirelli-falls-as-sinochem-sells-455-million-stake-in-tiremaker",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Turkey Fund Assets Shrink by $54 Billion Amid Manipulation Probe",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-17/turkey-fund-assets-shrink-by-54-billion-amid-manipulation-probe",
-    "impact": "📰 일반",
-    "time": "11/17 19:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[뉴욕마켓워치] 젠슨 황 복귀 기대 꺾이자 반도체株 투매…채권·달러↑주식↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9STXJSUm5lVG9hRGloQ3ZvOUh0NDBteXB0emxyUHYteXo5bWREV2JUTEZEUlNjTmYwWHkzZlJDQmVxS1ZkTHdkS3hvcms5V3FSY2hwY1dkSUxlUDEza1RJUFBGT3NOVlZVYUZ0VEVXRTM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 18:32"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 IMF",
-    "press": "한겨레",
-    "title": "IMF, 올해 한국 성장률 3.9% 전망…내년 3.3%",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE96Ni1XcUtIM2w3TUJVeDRzWjdHTmc0OEh3VTNiS0U1VXRSeWFrSFpuNllWVmhLVmdBRE9KZGtWaW43YWJlWm1UR1c1dzVHd1Vzclk1YXI2QmNpaExacC15cm5qVnN3REZqSF8wM19wVmU0UQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 18:32"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "코인원 해킹 후폭풍…자산 탈취·사생활 침해까지 우려",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlVnNmWjdTQ19mVFMwZlMtRkM3RFhrNnhiY2lhTS12NDk0bHZWcUk2eklLZjZPRjlnSDFaTFBxcHBfejVPcEQ2Unp6MUlvTEJDUklJQ2NB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/17 18:32"
   }
 ]
