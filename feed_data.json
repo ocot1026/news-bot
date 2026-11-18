@@ -1,6 +1,126 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KDI 경제교육·정보센터",
+    "title": "KDI 경제전망, 2026 하반기",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9pblpaQ0VMNGhsMG82U01NZ04yWWcxVThrQzFVU2RtZFR6RC1aaDBkRGNwbU9RSVkwTzI3cEZ2Q2xmSWxTQmRyV25XR3NDUzJXOFBUQ2FvNlkzRGFJM0I2QlpMSkxoUGpGQXhZ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "월러 연준 이사, 12월 '빅스텝' 필요성 시사…\"공격적으로 나서야\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoOWFyTld1OXIyZHF1TkJLOG0yemZfQ3REdm1NTmRxRm1URnQ3cDNYVjRweUgwZ2lSdk9mbXdGQ3ZqSHl6eTVsQjZzZml0cGQ4X0k2UHVabW9WNVRad2piMV92a3F6WEV3bUZSYWNad1A?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "지디넷코리아",
+    "title": "박동일 산업부 차관 \"체코 원전 속도감 있게 추진…품질·가격 약속 엄수”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5SREEyWWd4MjNZV2FBYk1udXJBNWpNTkdSTFFaeExwT0FtVHM4Qk5UajBFRG1LYUQ5MDFHS0xSbWpoX2l0djU0N3lCXzdpb2hRT3R2ckRR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "금값 작년 10월 이후 최저",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0xjRjJpWnZxdlYxcjlpR01KSlc2d3psLXhSMi0tSEdSb3RFT0R2RGxUZ2dUSkZkZl9YaFJtU0VUWkR2dVhMT1hYRTJJVVhnMmhRanhvRFZLdDJ2ejlSNDFPS2NIYndIOFM4VVhYUnJJbjc5OW5BaEx6U0hkSWRHWEF0UU5WajlOVTJuWk1n?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "SBS 뉴스",
+    "title": "[자막뉴스] '나 돌아갈래' 젠슨 황 애원에도 이사회 일축 \"차기 CEO 인선 중\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE8yVXNKOHV5Q25LZ0p6VFBCMWtpUHg5S3Z4ZzMtOGc3ckRaOS01Mm5qakFrMkVuNVZ2aWpxdXRrQ3BaUlFZd1pKY0hSWXA2dU1mVzd4MUJKTTlxOFFWM28wMmVnWVVPZ9IBZkFVX3lxTE8yVXNKOHV5Q25LZ0p6VFBCMWtpUHg5S3Z4ZzMtOGc3ckRaOS01Mm5qakFrMkVuNVZ2aWpxdXRrQ3BaUlFZd1pKY0hSWXA2dU1mVzd4MUJKTTlxOFFWM28wMmVnWVVPZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "JTBC",
+    "title": "현대차 아틀라스, 반도체 공장 간다...글로벌파운드리서 첫 실증",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1sX0U4S1JoT1JBcEVMMEJNOVUyNDRMYlZZLTRPWHdLWFFSM2JUTW5aNXpZQ1VNNFJpQ3g1MlFkdnYyM2djRmhDci1YZ0RtWTlLcE0wQg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nepal Came to COP31 in Dire Need. It’s a Test for the World.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/climate/nepal-disaster-aid-cop31.html",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia's quarterly revenue surges 103% amid board's decision on Jensen Huang",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408544405112",
+    "impact": "🔥 주요속보",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic options could begin trading on Monday, expected to draw strong demand",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/anthropic-options-could-begin-trading-monday-expected-draw-strong-demand-2026-11-18/",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "OpenAI Executives Say They Have to Strike a Balance Between A.I. Safety and Progress",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/openai-sam-altman-greg-brockman.html",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "New York MTA’s Budget Risks $1 Billion Shortfall in 2030",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/new-york-mta-s-budget-risks-1-billion-shortfall-in-2030",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Credit Selloff Lures Bargain Hunters to ‘Stock Picker’s Market’",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/credit-selloff-lures-bargain-hunters-to-stock-picker-s-market",
+    "impact": "📰 일반",
+    "time": "11/19 02:55"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 산업부",
     "press": "YTN",
     "title": "산업부, 체코 원전 계획 2차 점검...\"정상추진 담보\"",
@@ -2878,125 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE54VFFZbEQ5elRoYUdIanhxTmZ6dkRoLWppUDFLYUNXMThUc2NGNGJmYmpGWFNhU1huMHVIU2ctYmY1WUpNTlVOZEVGN3hRbFVkRmdvdkd3VQ?oc=5",
     "impact": "📰 일반",
     "time": "11/18 04:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 온코닉테라퓨틱스",
-    "press": "MEDI:GATE NEWS",
-    "title": "온코닉테라퓨틱스, 세마글루타이드 병용 근육보존 후보물질 비임상 결과 구두발표",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5LMTBBRzRHTkVHM3R5c2I3bzMxUUh1Wm5QOHJjMnhKc0dncFhwc0kteVFfa2tsWm9EODJKODBIZDNKRndrLU5WdVQzY3NzLXdRbm0zQk9sZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia espionage allegations spark calls to decouple from China",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408495791112",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Lawmaker suggests outages are a 'weird coincidence' but still a national security issue",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408501044112",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Federal Reserve automated by AI could eliminate human bias, Jackie DeAngelis says",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408508438112",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Tech outages disrupt critical business services as FAA faces scrutiny",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408497060112",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Mark Tepper dismisses fears of job losses amid AI concerns",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408495923112",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia set to report quarterly earnings for first time since Jensen Huang resigned as CEO",
-    "sub_title": "",
-    "link": "https://foxbusiness.com/markets/nvidia-set-report-quarterly-earnings-first-time-since-jensen-huang-resigned-ceo",
-    "impact": "🔥 주요속보",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia scandal and chip export controls loom over Trump-Xi summit as Jensen Huang breaks silence",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408508101112",
-    "impact": "📰 일반",
-    "time": "11/18 04:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 젠슨황",
-    "press": "MBC 뉴스",
-    "title": "젠슨황, 12월 1일 미 의회 청문회 출석‥하원 \"안보위협사건 청취\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBRblhIaldrWnhDZjlOUlA0UU5sR3BIN2JwYnRrdUtpb1RxOW1JS3hIel9NSlU3YUhNVWUwbEpGR2dHYXlmTXFGMUhyNUFoNVBhTGx2MTY0Z3V4bVlid2kybXRScVZOWV91eDdYa0UtQjZadG9q0gF0QVVfeXFMTk84ZmpaMkNtcUs1SU1OTmJQNmJlaFl1MkxuWm5ZYTFrTFFGZ3dfQUtIank4QmJTbTNHN3pWUmFscUtmbmxVZEFhaU41cVlzTHBfRHExTmZIaS04aHNwMjNQSnQtUDB5ZmdmeHBOR0ZNSWhMVzQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 03:55"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "아리바이오 치매약 효능 엇갈려",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10cFZIaS1EZ3hsdU9uMzRZczRQTXJQUlRKZGstSFJxb0VBV014R3BEN2UzZ2xYVGlqVVB2ZnZvVHRqM0dkMVdxR2luV2E2OTVXWWdnd0NVYVoydw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 03:55"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Corporate-Card Startup Ramp Raising Funds at $70 Billion Valuation",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/corporate-card-startup-ramp-raising-funds-at-70-billion-valuation-631b071a?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/18 03:55"
   }
 ]
