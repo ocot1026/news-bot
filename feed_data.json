@@ -1,6 +1,116 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "머니투데이",
+    "title": "\"AI 투자심리·한한령 풀리나\" 기대감… 수능일 '증시 한파' 없었다 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5oT3ZCSEV6OWNCdU5EN1F3R2ZLTjd5VFNBdkZoTkVkVXhfdXpvWDFCa0M5MlNxVHNxUERjUU1qVnYzT3pqbnlSb0JjdDQ1QVc4UXNrV2JGZWdpemdjMUVoRnlkUUFINTZH0gFuQVVfeXFMUFZTWERzbllYcUt3UlRhck9ycEVfMVZqdXhxUVd6ZlFTUlV5NGZWTXZ2NTlTSzRMYkUzOXBvM3lWT0QtMmp2cE1QWTF3WUxBd05OZ0lGMDZqV29DdXJPQ2Rtcm45bVI2eU1MMkJMZGc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 SNT에너지",
+    "press": "미주중앙일보",
+    "title": "SNT에너지, 원자력산업 발전 공로 ‘산업통상부 장관 표창’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9vTWg1WndqN2dlMmVwQ0dPT1FKSTlwcFRkQ1BsSmY4U2d6dXQ0Qkpoci1BWWUwMVI3a3VCU3REWVUtMHpma1dTbEQ1eUhhbGVDcnRydVN4bnpoNkt6SzhJWVFR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "마켓인",
+    "title": "사이버보안株, 연쇄 시스템 장애에 보안 수요 확대 기대...동반 '강세'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9xZDVZdER1cEppczV3cS1VNV9vam9OMGNlU25DWENTT1VsSUJCclFIM0p2VzM3d0dGSWlNLWUxMjkxZWRSdWtrclVPS0I1UW5wWnE0NWdrWkZHekRPSlpLYUc4LU90UFJYZ2ktTkFWcTh1bms?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "Fed 월러 이사 또 '빅스텝' 언급…10월 FOMC에선 2명만 동의 [Fed 워치]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB6eTFfeE1qV3BBN29ZZmRoSVFSV3ZlR2JiSk9HU1VEYm1CV3NfbWJYN2ZrVUZza3l3UzRNZVVfWkx4dVhsYUk5VVY5S1ZMU0NSanBkRWVxZ3BFdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 에이엘로봇",
+    "press": "https://www.moneystorm.kr/",
+    "title": "[특징주] 에이엘로봇, 코스닥 상장 첫날 24% 급락…공모 흥행 무색",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE00bWxINk44dzUzNmF0UU5uQnBkSEdPaWV2M2pvQm9Za0dJZF9JVDhVRGxIcURMU2xSdk1wOGpHbEt4SG5vUkI0NDhfODYxMDlYdUJwdzdyM0dHelF5aWNjTzRfVTBXb01EQnc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia’s stock falls further — and has lost $611 billion in six trading days",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=81730ce0-d6a6-47eb-a19e-3a7fa5770442&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Amazon warns NYC shoppers of potential $5 per-order increase over proposed delivery law",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/fox-news-tech/amazon-nyc-delivery-law-order-cost-increase",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Food Delivery Is Making a Killing on Grand Theft Auto",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/19/dining/grand-theft-auto-food-delivery.html",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dow falling 1,000 points, S&P 500 and Nasdaq slide as Anthropic goes public",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/livecoverage/stock-market-today-nasdaq-leads-dow-sp500-higher-on-anthropic-ai-optimism-walmart-earnings",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dow down 1,000 points, S&P 500 and Nasdaq slide as Anthropic goes public — live",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=2438a995-47f5-48c5-b3da-cfb80cde18fb&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "The close ties between Nvidia and Anthropic.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/the-close-ties-between-nvidia-and-anthropic",
+    "impact": "📰 일반",
+    "time": "11/20 05:52"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 앤트로픽",
     "press": "연합인포맥스",
     "title": "앤트로픽, 상장 첫날 롤러코스터…시초가 대비 10% 급락(상보)",
@@ -2888,115 +2998,5 @@
     "link": "https://www.nytimes.com/2026/11/18/business/dealbook/palmer-luckey-anduril-ai.html",
     "impact": "📰 일반",
     "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic IPO: Shares price at $83, with trading set to begin Thursday — live",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9c77baf9-3e1a-4013-a27c-e077a60fa714&mod=mw_rss_bulletins",
-    "impact": "🔥 주요속보",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia Says It’s ‘Business as Usual’ After Huang’s Ouster. Wall Street Doesn’t Buy It.",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/stocks/nvidia-says-its-business-as-usual-after-huangs-ouster-wall-street-doesnt-buy-it-954290c4?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "New vehicle affordability squeezed as record prices and high interest rates hit buyers",
-    "sub_title": "",
-    "link": "https://foxbusiness.com/economy/new-vehicle-affordability-squeezed-record-prices-high-interest-rates-hit-buyers",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "'월가 큰손' 애크먼 \"젠슨 황 복귀 차단, 이사회 의무 위반\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0ySmZlSEdEVVVJLUlMWnBnSHV4OVdxZWFkNGh6aTMwak9melpuWnV6WlRwQloySUNKZzZFT3lSS0xCcFFUTHYwXzMwNUFPeWxoblEwdTRWaHZxZDdCNENfam0tbFQzQlNZVmZkUTZXaVE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "트럼프 행정부, 자국 기업에 '중국산 AI 사용 공개' 의무화 검토 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQTTlNVW94X19jWEZYc2JURmpueHlEWElDSzdlNjZKc2FCUFc4RndFbDB1RGZMM3hGdktKWFlDUml0TWwzZWkxTTBkdWpVaUVSa3VpUXZFVkdBXzB6enhUX2dqd0FQQW9S0gFuQVVfeXFMUEpOYUg3RzZaVEx5a1RLYXZYd0M2NEN2OEM5MWx6QzV1X0xwNWJEUktqSS1CNHNMVUlVRmg3alhpdGJzakZBV2lxYmZianVva0JrTENhdmFSdHZjZzVQdWRoZUlIaU4xeFRjQkVVZXc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스핌",
-    "title": "미 연준 위원들 \"추가 금리 인상 필요\"…일부는 빅스텝도 거론",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBJSVpuZFBEdjUtUV9BVGE4dklJbWxPOUkxQWx5QmpORjhnQ3drVU5iY09zSHdTQkMxZ0xfOGdHYndGN255MTAtYWZtXzJwQTdvVU9MbWN5S3VtUjRB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "미국 사이버보안국도 ’자바’ 취약점 경고…“즉각 패치 적용 촉구“",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsOHZlOVNpQ1FGTEktb1JfTURxb1FncFp4a1l3c2c5QUxhQlNPQjF1YXZJR3ltUGhQTDFIM0xQQ2tWOUtxSHhhZmVOTGoxX01wYjNITG5lU1RMYld3b0N6RWN5ekRVS1U?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 포스코",
-    "press": "미주중앙일보",
-    "title": "포스코, 세계 최대 배터리사 CATL에 리튬 공급",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZVk9HZ3FReDdoWWM5bFBnbWpHNWdLbFZnY2hpd1BkYTlxVWhoNElHRVVaZVNBcGJxaUpRRmpkaGpyRjR3MkdmazVvUHZ6dWFFLV9HR0xuMl9NakVTT0V5eDZR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic’s Public Debut Sets Up ‘Experiment’ in Corporate Power",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/anthropic-ipo-corporate-governance.html",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Tech Stocks Boosted by Cybersecurity Rally",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/stocks/tech-stocks-boosted-by-cybersecurity-rally-5f9ff803?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic Prices IPO at $83 a Share",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c?mod=rss_markets_main",
-    "impact": "🔥 주요속보",
-    "time": "11/19 06:47"
   }
 ]
