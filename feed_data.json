@@ -1,6 +1,86 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "한국경제",
+    "title": "반도체·배터리·조선 호조에…상장사 10곳 중 4곳 '깜짝 실적'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9UcHVnTWtSLTlSb2RVMzZPeXZvYTNUTFRhbkVWMnZWa0tmMXllUkU2ZkhMUndHdkhSUmU0S1BZTUoyaGFXMXdyMEFZWGdiN3plZUJhYmpQalVOQQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Four Ways Techruptions May Shape the Economy",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/investing/four-ways-techruptions-may-shape-the-economy-a848efc9?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia Is the Central Bank to AI’s Circular Economy. See Where the Money Goes.",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/stocks/nvidia-is-the-central-bank-to-ais-circular-economy-see-where-the-money-goes-da480b61?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Is Anthropic Worth $1.1 Trillion, or $1.5 Trillion? How to Make Sense of the Valuations",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/investing/is-anthropic-worth-1-1-trillion-or-1-5-trillion-how-to-make-sense-of-the-valuations-721b4df8?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "What to Know About Anthropic’s Record-Breaking IPO",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/stocks/what-to-know-about-anthropics-record-breaking-ipo-372a1fec?mod=rss_markets_main",
+    "impact": "🔥 주요속보",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic stock trading over $100 on overseas derivatives markets",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=5c0d48ca-8b02-4fec-a1ee-6f52fd430a4c&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic I.P.O. Highlights How Washington Has Fallen Behind",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-washington.html",
+    "impact": "📰 일반",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dustin Moskovitz, an Early Anthropic Investor, Feels a Bit Uneasy About the IPO",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-dustin-moskovitz.html",
+    "impact": "🔥 주요속보",
+    "time": "11/19 20:01"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "KB부동산 \"강남 3구 이어 용산구도 하락 전환…동탄구 0.87%↑\"",
@@ -2918,85 +2998,5 @@
     "link": "https://www.marketwatch.com/bulletins/redirect/go?g=12b3fbf2-873a-4793-9ae7-161d09284a7c&mod=mw_rss_bulletins",
     "impact": "📰 일반",
     "time": "11/18 21:25"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "UBS sees S&P 500 at 8,200 by end-2027 on earnings strength, resilient economy",
-    "sub_title": "",
-    "link": "https://www.reuters.com/business/ubs-sees-sp-500-8200-by-end-2027-earnings-strength-resilient-economy-2026-11-18/",
-    "impact": "🔥 주요속보",
-    "time": "11/18 21:25"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Developed-market fiscal deficit to hit highest since World War 2 outside recessions, J.P. Morgan says",
-    "sub_title": "",
-    "link": "https://www.reuters.com/business/developed-market-fiscal-deficit-hit-highest-since-world-war-2-outside-recessions-2026-11-18/",
-    "impact": "📰 일반",
-    "time": "11/18 21:25"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI screen test",
-    "sub_title": "",
-    "link": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-18/",
-    "impact": "📰 일반",
-    "time": "11/18 21:25"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "The DealBook Summit’s Candid Conversations Through the Years",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/dealbook-summit-history.html",
-    "impact": "📰 일반",
-    "time": "11/18 21:25"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "화장품 만들기 전 피부 안전성 확인…한국콜마, AI기술 개발",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wQ2hhWXc0MXpXanN0X0NtMTB1OTJGdm9TX3NpOU5abnVsWnlrUkFzQlRFa3djdGlCTGZhM3VpelFxRzl6U3Zqam9TZ0ZCWTlMSmhhbm5HazVBRzDSAWBBVV95cUxNc3JGTEFILWY0SzczZFJ3R0tYVDR4a0dPaUhrUFRiSTNqb1NxOE5pZHV5NWt6dEJmcjUycHlSeVM0emUxcEYyQ2VmM0xGYVV2TTRlaUFrWXpCVkdyWVJ1clA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 20:25"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "BBC",
-    "title": "미중 만남 전 터진 '엔비디아 스파이 스캔들' ... 중국 AI 야심에 걸림돌 될까?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5MUkFtQ1RjeHhnVk13dHhudXlDZUV5WUpHblZjMHZmM0ZaRlNnb09jRnpzTzlCVlhsaklORTVIakFnYmc0SXVZRzBqRWZ4LTZZZkl1emt2M1dPWE5LdnfSAWNBVV95cUxQcFBTbjZjTzRpWlFtSjRsVnlJYWljQjF1WVBqZy10UHAzeTA4NHBkMEMwYTV3OHNvV3R4bVVRNTRDTU1uVDc0LXFoQTFydGk3YmJrYjZ2eFZEcndIQ0o4VlpVNzQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 20:25"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "코스피, 삼전닉스 독주속 누적 매출 3천조…3분기 실적둔화",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBZnhWVTRvMTk0UE9heUY1SDFJUVoyY0owb3VVSlZLTVpPTVlaVVJ3OU5rQmM5djdDUklUNk4yWURQS2NnVXVvb1Vlc1VDOHdBRHdBeWhSNXFWbjjSAWBBVV95cUxQWUgxalU5YTNvSjQwWm83aHNJNVVRbm92bnVGMkZWRHhVOGpocnFMekUtQ2E5YzRlZld1dllGdHk1YjFYdWh4aEVkanRVUEF4X1BpMTlFX0VzbWV6dEV1c2E?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/18 20:25"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "총리부터 장관·여야 의원까지…지스타에 쏠린 시선",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1ZMU5KUXZWZTlXNjV6dVZxVWhoNUwwbWRvcENGcFh2MTN2VTluS09ZV24yMTYzUVRURV8wd0pGYmwzNENidERUYy1ka19ONEl3WUJxdDN3?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 20:25"
   }
 ]
