@@ -1,6 +1,206 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 앤트로픽",
+    "press": "연합인포맥스",
+    "title": "앤트로픽, 상장 첫날 롤러코스터…시초가 대비 10% 급락(상보)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB2UER6WFV6RXU0aS1zbG13b3dib3ZuSWQ0STI5N3MwWTNzaExEdE5OX09hazdTUFVaNTVYaW1DMDJDRnIwaFlpUWxYZ3BSdnFUYjR1bjVKUUp5TGQ2WENmOWZ0bERDSU5QQnJRdnJHRmU?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "반포현대 재초환 부담금 연내 부과 확정",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ZeDA0YUpQUG1ZWVlxSUpvQkRXamM3VE52ZVh2STl2aFl0cWlzWW1td200elpGMFhWdVZCUEhRVk81UnF0UTNfdXFrU2V2QmJ1eW9iek9XQ0ZLQdIBX0FVX3lxTFBvWVd3ejdld0EteWV2eDJZUHdkVUZIS0owQVZxZVAyX0drY2JWblZBRDFpLURHb3ZkaDNZV2hrWEkxVXF3dFRZcjBBUkdEWGhLZy1aR3JudGRZVFpxcklR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "Chosunbiz",
+    "title": "93주 연속 올랐지만 힘 빠진 서울 아파트값… 용산·동작구도 하락 전환",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbmZ0cFhGQ1Q3NjdzN052c0stYXB0bUpPdGtOR09vdF9wY2pCRWJ2RFU4NkxwUDNFYldDVzRDVHpjaDktR1IwbFpOYk1DUW5RYUlUUHJvN0FnT3JkNFV0NHZJMkdtcFc0M080bFctVUZiNE1kS1ItT0dJOUNvSklabmVDWDBOUzlJeVp6NUlMWUVBb2F1MjJ1NtIBrAFBVV95cUxOckpCNGtmbTU1Q1JBdUhJMHdqYUlkMnFob0dIZHp2NTBqWk9FQVdDemxKU09hZU5KNGwxT3BzbWl2eFl0ZE1Vc3JTd2ZHYTZHbTZWdERmMWw5RUoxTEJYWWY4aWU2QkxQc3d1SWQ3MEdLSWp5M3ZnNjgzN3phYjFYX1ZVdDAyNWpVUGJkYndDenctUXBpNjFteTUxdnJSOWpaX0Y4WVBaMS1PcW1x?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 에버퓨어",
+    "press": "매일경제",
+    "title": "에버퓨어, 3분기 매출 51% 급증에 연간 가이던스 상향",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1PV3FjQ3R4WnhHWkhndHBselY0akJDdFp0NGxfU1hfeVV6bVUyeUJodzVLbUI3YjlRcV9SNkVsZ05qSHh2NzZTci1ldUwyUUhDeHc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 코어위브",
+    "press": "마켓인",
+    "title": "코어위브, 상승…앤스로픽 상장·텍사스주 데이터센터 인허가 재개",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1va3NVMnM1R1p2OGstYmpvMDhZcHlDZTMtU3VQcmtLVktpRVpNa0x5a3Z3dHRPaDNOMjNYek1WdDVZWnR1TFJyeHVudk04OURoeml4cVgwTTItSmllVmFnd25ZWGdseGxZZzVVWkJmbS1KY3c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "美 \"이란, 핵심인프라 사이버 공격‥최근 전산장애와는 무관\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBHR2hJMEhEU0VUSGkxcTV2UFMyNGtzcFpnejBpZmR5M2w3eUY4SWhvaVpfVkRlWnRoUFBTR283LU5DSzFjTnRDLUZrOVF4aDhUcUF2UGttWDlncFpKdm1rUGhoWDVFdG40anJqNExBUzViYXpR0gF0QVVfeXFMUGo1akFnQ1hQOXQ4QXl6N3FZc2FlTWJ3Z3Q2cTFnT2c0TUhrOGhPQkx4dEFyZmp3NnJkTUExWExlSXN1NDRvMkJ1VHV4ZnpDYXdyZ1NmdmllTm54V1lCMHI1TkFNY2dtY2dRM2JHXzRRdUgyMGs?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 LG그룹",
+    "press": "경향신문",
+    "title": "LG그룹, AI 인프라·R&D 인재 임원 발탁",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9tT2c5OUxWZ3BleFNINDMzUmpyRkNCa0ZYa2lDM0oxZ1hRbW1QbzRvZ0ZuZDJLYjVDY3RRQ1NTS0NOVUIyYXFhMmF0bTE5UTNIMnlKZXhUdjRDQdIBX0FVX3lxTE5hUjU4RWR4a1ZZMmc0cHBhbHNWWmVFMmFwRVFVRVRCNzBCS3hyTy11dlVDa3B2OU1kM1pJT2c1ZC14aTN3SkRvVUVVZVR5YlMxWGtXOTN0N1NoaTZyZGlj?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스핌",
+    "title": "크래프톤만 남은 지스타…中게임·AI가 채운 대형사 빈자리",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SQ2FzOVgyYXBJOTU1RElJWU9CeVZNSGdjcmQxMzlFSnoyZ3FxZEZDOUJrc1BRWDRJOXExS1dyb3hpOVZPaU5YdGVNU285emhZQVY0dUFVSnNfeThl?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 4분기",
+    "press": "뉴스토마토",
+    "title": "4분기 실적 '적신호'…상장사 67% 전망 하향",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8xbjc0enpsQ2lLZ0pTbVB0MUlxZjhHZ0ktejZDbUdTVUhSQlZERFZ6TU9UQk5oaXRXcFFtNVRsTngtYUpkRUc5d1M2MTZCS204QzF1U095V1JrNFlJNG9xQQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Josh Altman reacts to the impact of the Anthropic IPO on real estate",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408612315112",
+    "impact": "🔥 주요속보",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic valued at over $2T after going public",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408609352112",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Charles Payne applauds wealth creation and the life-changing power of capitalism",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408608881112",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic IPO will revive the bull market, Anthony Pompliano predicts",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408603463112",
+    "impact": "🔥 주요속보",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Social Security faces sharp 2032 deadline",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408613232112",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic makes market debut on the NASDAQ: El-Erian says it’s a ‘historic’ day",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408603532112",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Amazon warns NYC of price hikes and slower deliveries under new bill",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408602334112",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "The surprising reason the economy is speeding up — and may have more room to run",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3d1d749e-1970-41d4-af12-ac0b974aea16&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Hot and cold starts: How major US IPOs fared on debut in 2026",
+    "sub_title": "",
+    "link": "https://www.reuters.com/legal/transactional/hot-cold-starts-how-major-us-ipos-fared-debut-2026-2026-11-19/",
+    "impact": "🔥 주요속보",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Offshore Chinese Yuan Drops to Weakest Level in Over a Month",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/offshore-chinese-yuan-drops-to-weakest-level-in-over-a-month-mwnvjmz2",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "매일경제 마켓",
+    "title": "“이 분 은퇴한거 아니에요?”…버핏이 투자한 日 기업, 주가 폭등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSUnFGXzJraUd0aVhKVG1zaHdYSVo5ZjZUS0pjOU5hSjJiVWNkY0lZbzRLZmRja0RlTUhXVEVnTGlYT01XXzM1WjN4ajQ3UlBRNHc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 04:57"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "앤트로픽 CEO \"9천억弗 컴퓨팅 지출 크지 않아\"…부채 조달도 시사",
@@ -2798,205 +2998,5 @@
     "link": "https://www.wsj.com/finance/stocks/anthropic-prices-ipo-at-83-a-share-0290494c?mod=rss_markets_main",
     "impact": "🔥 주요속보",
     "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic IPO live: Company said to price stock at $83, begin trading Thursday",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-company-said-to-price-stock-at-83-begin-trading-thursday-212656452.html",
-    "impact": "🔥 주요속보",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "What’s next for the AI trade after Nvidia’s blowout results are met with a shrug",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/story/whats-next-for-the-ai-trade-after-nvidias-blowout-results-are-met-with-a-shrug-853c7abe",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic prices blockbuster IPO at $83 a share, source says",
-    "sub_title": "",
-    "link": "https://www.reuters.com/legal/transactional/anthropic-prices-blockbuster-ipo-83-share-source-says-2026-11-18/",
-    "impact": "🔥 주요속보",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia earnings divide investors as analyst urges buyers to hold",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408563074112",
-    "impact": "🔥 주요속보",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Dow closes over 550 points down, but Nasdaq gains ahead of Anthropic IPO pricing",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=660a3755-3f8c-4248-8268-114c334889f4&mod=mw_rss_bulletins",
-    "impact": "🔥 주요속보",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Jensen Huang Is Top of Mind for Tech Leaders at DealBook Summit",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/jensen-huang-nvidia-tech-leaders-reaction.html",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Watch: David Ellison on Elon Musk’s Investment in Skydance",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/david-ellison-elon-musk-skydance-investment.html",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Watch: Canada’s Prime Minister on Negotiating With President Trump",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/carney-canada-trade-deal-trump.html",
-    "impact": "📰 일반",
-    "time": "11/19 06:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "美연준 월러, 또 '빅스텝' 필요성 언급‥\"충격줘야 할 수도\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE8zME5McUlwRnhoOUNab3Ffb1BDNG9sekZTeXJTb3dVMG9tU1hlNmVNX09IYzlKdGNCOTJTd1pvNUtwZkdvXzBaZVk2UFhzd013VnRRNEFLU2R2MldoX010QWNEbzVRSC1EdHRrZXE1ZVJBMzU00gF0QVVfeXFMTTNRR19XUWhCV0dqaXdiR3JiTGhPb3g3QXNycEtZQ3c2X3AxX09VYXRWU0ZtTkpfZ056c3hPQklWYU9BZ19rWmhWb2VfWFViLWRoMWZtd21Cb1JHaDZxY2RKcHNGdW9WUGhnekthSVhPZTB1VzQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 05:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스핌",
-    "title": "美 민주, 러트닉 '메가스피드 제재 거부' 조사…아들 회사 특혜 의혹",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1QZU1wa2FHLWpkTmVuNGJoSmJxaDhCQXktSExzV3ZycU92QzZrb2t5TDNyeTlNZ1NGamx1SWNvbGVaWjd1SGpjVEh5VFpqcV84bndmSVlVZFgwbFA3?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 05:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 쿠팡",
-    "press": "뉴스1",
-    "title": "쿠팡, 수능 AI부정 행위에 '차단'에 동참…\"금지상품 적발시 수사의뢰\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE4xdWxNQ0xhM0VOV3o1Wl94d1dHODZaZHJtcWRCYXZuUGZpc0FVanRfSE9fSklYRUJ1QmpqMWw3WUg4UDhIOTN2V3lVdlBhbXNuRExsdG1zRTJTUlU4MHVJ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 05:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "트럼프 행정부, 잇단 시스템 장애 진화 부심…\"사이버공격 아냐\"(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE11T1E2bmxhM2t3eDJpcUdCTFB0bjNidzFCZ09oZ1pWVmRKNmc1RnM2QWxQNmVSOW9hNm1ENzRhSHZZNWRab2xLSmtqSWtTQnIwMTB4RXdTWnFoUkHSAWBBVV95cUxPdTlZYjVDUjhoUU10bGZ5ZmFTWWNuc28zNGZrNFVnYXBjSXBBNFlOVEg4bFF6TXRoWGRlNmxSOEs1Y1VTLURraFkzYUpqdnQtNWpPb0h2UUp4MTNCaVRIVnE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 05:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Huang pushed to sell chips to China. Nvidia's interim CEO just pulled the plug.",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/technology/article/sending-a-message-nvidia-signals-more-cautious-stance-on-china-after-huangs-departure-194945165.html",
-    "impact": "📰 일반",
-    "time": "11/19 05:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Dow off 500 points in final hour, but Nasdaq up ahead of Anthropic IPO pricing",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=735dc84f-cfd5-4063-a7b7-0376d67018ad&mod=mw_rss_bulletins",
-    "impact": "🔥 주요속보",
-    "time": "11/19 05:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "미국 사이버 보안국도 자바 취약점 경고...\"즉각 패치 적용\" 권고",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE83ZWNkZ2tfbGxYTGNMd0lsNkRnR2JsVFBhUExMS09wZGRkamxTWFFHSDhFQV9Zc0gxcFFfd0tpX01KOEJGN0JxVm1pZWZvZi10T25nZHJBS2p3eVdjREE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 04:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "NHKニュース",
-    "title": "중국 외교부, 미국의 첨단 반도체 수출 새로운 규칙에 반발",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SanVKeEJWX2hZWWE1RjcxQnZDWFh4V09lMEdkaFg5Skd0QVlaT2t0TzdEakhUZ2hNbFkwd0tXdzFySndMRUVta2pYVk81RVNaZGE5TTh3VmdZeVQ5dnlFcmlSVE0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 04:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Jensen Huang and Howard Lutnick will appear publicly before a powerful Senate panel",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/article/jensen-huang-and-howard-lutnick-will-appear-publicly-before-a-powerful-senate-panel-192842634.html",
-    "impact": "📰 일반",
-    "time": "11/19 04:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia stock's stunning reversal after first earnings day since Huang's departure",
-    "sub_title": "",
-    "link": "https://finance.yahoo.com/markets/stocks/article/nvidia-stock-erases-earnings-pop-as-investors-face-life-after-jensen-huang-173547783.html",
-    "impact": "🔥 주요속보",
-    "time": "11/19 04:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Fed officials expect more rate hikes, worry about AI impact on inflation, minutes show",
-    "sub_title": "",
-    "link": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
-    "impact": "📰 일반",
-    "time": "11/19 04:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Fed minutes show growing unease about the outlook for inflation",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=caf867bb-e3c1-4591-8080-f6e90cc41592&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/19 04:53"
   }
 ]
