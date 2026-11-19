@@ -1,6 +1,156 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "TradingKey",
+    "title": "월마트 FY27 3분기 실적: 이커머스 17% 성장에 힘입어 매출 5.2% 증가",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RdmJncERrakFFdUxxd0htUXlLakJaRzRuMGhQTkhxM19SSXZNak9xVERGVU1BRER3RWlNRXVla1JWVF9zbmUwWXJKcEY2bEwtRkpKZ1VkbkJvWXVqdENSdFFfZVo?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "머니투데이",
+    "title": "\"외국인도 보게\"vs\"불법 촬영 걱정\"…공연장도 'AI 안경 딜레마' - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15bFVxVDNMUGFpeG9MZk1zcTVFYnItY3Fnci0xVzd5Ny00WDJyb0pfV1RwSVBoa0Npdk9sODhOLUVKWS1hNy1uRTk1ZFZ4RzdOcjhTeFFNVG5hRDU2SEFaX3BuSEJMdWVQcGg00gFwQVVfeXFMTTkxQ2lLTjFBMDNmdmVDX0JpX3ppYUVtRHdiUzkzQnVrdjVKM2wxYlJUb3ZHWVk5M0trUXFDYkJlRXZwN25NOXQwcE8wQmpQeWpUV3ZNc1g0NW1RWDg2enU3c2g4YWd2U2JjVkxFbUozSg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "마켓인",
+    "title": "칩·부품 통제론 모자라… 美, 중국산 AI 사용 내역 공개 방안 논의",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UTkdaMlR2V3JSUzFOVHVrSW1RT3hsNS11VGhHTjVzdkREbU5yck83V3lhaEREd0ZrSjQyTFBNbEJHQWFiTFVJR3drVXJtUVJyYWF5VGstNmIyenN2Yi0wVm1DU1h2Q1dhZTA2MzJ6dzFRazQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "지디넷코리아",
+    "title": "웹젠 '디펜폭' 개발진 \"원작 팬이 첫 타깃…게임에서도 원작 감동 선사\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kUzRxeE4wRk8xNVowMkg1RWxQQm9NejFHOEc1Vkl4dG9UR3Nya2s5LVI0WE5sY0xybWlFTkF1VVh4dXFTZFlFd203TEpFNWs0RExFclFB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 한수원",
+    "press": "데일리대구경북뉴스",
+    "title": "한수원, 발전소 현장 특성 고려한 동료 중심 심리 지원체계 구축",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5na1FEallHX0lLZXY1Q3JDVm1uUDZsaGZLcXFLWFQwRkpjcVZSU0hLQWxYRnJPeTczQk8yZVVhMzBwcTJrWnlnOGRiQ1pSUDNjQ3gtN1pDUFYwdHIzZmNGTHVQcGJDUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "중국, Anthropic의 블록버스터 I.P.O가 중단되었습니다.",
+    "sub_title": "China Is Shut Out of Anthropic’s Blockbuster I.P.O.",
+    "link": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-china-hong-kong.html",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "월마트는 부유한 쇼핑객이 매출 성장을 촉진함에 따라 연간 전망을 높였습니다.",
+    "sub_title": "Walmart raises full-year outlook as wealthier shoppers fuel sales growth",
+    "link": "https://foxbusiness.com/retail/walmart-raises-full-year-outlook-wealthier-shoppers-fuel-sales-growth",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "아담 존슨(Adam Johnson)은 인류의 IPO 가치 평가가 정당하다고 말합니다.",
+    "sub_title": "Anthropic IPO valuation is justified, says Adam Johnson",
+    "link": "https://www.foxbusiness.com/video/6408601904112",
+    "impact": "🔥 주요속보",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "마이크론, 인텔 및 기타 AI 주식이 목요일에 상승하는 이유",
+    "sub_title": "Why Micron, Intel and other AI stocks are getting a lift on Thursday",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9f2819cc-afda-430c-88de-a42ca3ef39dc&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "찰스 페인: 4차 산업혁명에 맞서는 '반란'이 있다",
+    "sub_title": "Charles Payne: There is a 'revolt' against the fourth industrial revoltuion",
+    "link": "https://www.foxbusiness.com/video/6408560561112",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Bill Ackman은 Jensen Huang의 축출에 대해 Nvidia 이사회를 비난하며 '당황했다'고 말했습니다.",
+    "sub_title": "Bill Ackman blasts Nvidia's board over Jensen Huang's ouster, says it 'panicked'",
+    "link": "https://foxbusiness.com/business-leaders/bill-ackman-blasts-nvidias-board-over-jensen-huangs-ouster-says-panicked",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic의 Dario Amodei가 AI에 대해 생각하는 방식",
+    "sub_title": "How Anthropic’s Dario Amodei thinks about A.I.",
+    "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/how-anthropics-dario-amodei-thinks-about-ai",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic IPO Said to Give Nothing to Most Institutional Buyers",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/anthropic-ipo-said-to-give-nothing-to-most-institutional-buyers",
+    "impact": "🔥 주요속보",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Kalshi는 문제 도박꾼을 제한하기 위해 주정부에 도움을 요청합니다.",
+    "sub_title": "Kalshi Asks States for Help in Restricting Problem Gamblers",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/kalshi-novig-asks-states-to-help-bar-problem-gamblers-from-prediction-markets",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "연합뉴스TV",
+    "title": "삼성전자가 일본 기업 상위 100곳보다 더 번다고?…일본 ’충격’",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QTkx1ekJJVWJvRTVRU1FsSW5kZ1IyTFU1TlJDNXVJUld5SW8yeExUeVBXZTBaaFVXcTRvd3J1dFRlVG9SNDRsRkhTcVByUnh6ZDU4eVgyVU9EV3k1ekFqblRiUkJDSk0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 00:40"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 에이치케이",
     "press": "마켓인",
     "title": "에이치케이, 10억원 규모 자사주 취득…주주가치 제고 나서",
@@ -2848,155 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBCa2NrVlpVaDdWeWFlbjc1MU1pNDlnNXRleHRQUnhZem43ajJJdHhRZlJNRmVyNGg1WEc5Vnh0Y2R2eGluRE00MV85am9aTVVVM0laRlZnTmg2UV9JQlhKb2JobTlSSVNGS3psY1lZMEk?oc=5",
     "impact": "📰 일반",
     "time": "11/19 01:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[뉴욕 금가격] 증시 하락에 긴축 우려 완화…0.5% 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5EOUdxUXJ2eUpZSy01WFVYLXd0OW5KQ0JhcnhGanRmdjM5SlJEcVlMV2RZejdqMzdBVjRTeWgtX2otalRKMGVXRVI3UG1BQUJWMldDblJ0Rmcxb0s5ZVg0TXJoZkg2MTI5N0E2ZDc4VF8?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "펄어비스 공식 홈페이지",
-    "title": "[공지사항] 붉은사막 2026 게임대상 수상 안내 | 붉은사막",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9JRmZvQjliTllycmxqQUpXeWdhTXpmOEdpanVjZXNkZHBPYTl6NXpHVVhBend3R0tuMEZYMmFpV1I4MWR6WGJTcUdCQVFVVlBKb3BWdGZJb280UzZVdG5kd2luM3VHbWlKeUtpQ2tQTEJXS0ZVQU1ra1JwaVlGQ00?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia releases quarterly earnings, suggests future plans after Jensen Huang's resignation",
-    "sub_title": "",
-    "link": "https://foxbusiness.com/markets/nvidia-releases-quarterly-earnings-after-jensen-huangs-resignation-ceo",
-    "impact": "🔥 주요속보",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia halts China AI chip shipments despite US approval",
-    "sub_title": "",
-    "link": "https://foxbusiness.com/fox-news-tech/nvidia-halts-china-ai-chip-shipments-despite-us-approval",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "A.I. Bubble Talk Enters the Conversation at DealBook Summit",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/ai-bubble-dealbook-summit.html",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "ECB President Christine Lagarde on Why She’s Stepping Down Early",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/christine-lagarde-european-central-bank.html",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "I watched Trump, Xi and Putin gather in China. Here are my top takeaways",
-    "sub_title": "",
-    "link": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Blackstone’s Jon Gray Calls Concerns About AI Bubble Overblown",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/blackstone-s-jon-gray-calls-concerns-about-ai-bubble-overblown",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "How the Anthropic IPO stacks up against SpaceX",
-    "sub_title": "",
-    "link": "https://www.reuters.com/business/retail-consumer/how-the-anthropic-ipo-stacks-up-against-spacex-2026-11-18/",
-    "impact": "🔥 주요속보",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Brookfield Bets $110 Million That RV Resorts Have Staying Power",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/brookfield-bets-110-million-that-rv-resorts-have-staying-power",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nike Bets on Cricket to Triple India Sales as China Sputters",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/nike-bets-on-cricket-to-triple-india-sales-as-china-sputters",
-    "impact": "📰 일반",
-    "time": "11/19 01:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "Chosunbiz",
-    "title": "[경제 포커스] 반도체 ‘나홀로 호황’… 내수·중기 “수출 1兆달러 체감 못해”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNGE3d3dGc2kwcUY4TjdrbGdzX21VM2dWUlZuN3VwSE5VODdyM3dPbTkycmZBc2RGenJSMldvc29MZGp6SWVyMXc0bGFwRVEwaGQ5RzE2aE56UDExVFM3cllfRG1PTzdHNDZkaHVvWW83c0w5QzdHVzZnd2xiSGNTQlByWlBaQdIBmgFBVV95cUxNYmlDbXBSd2tkRlFBVFdGVHJKS0VNWDBBNlZNRFFXNHVQYU03bF9fQzdLWk4xYUlDZ0c1RHF2Sm9RcXhtdE5mMGhLZVd0TXd1Y0ZNWU9hZUtXYnMyWU1YTWtITXYtYU53MWp0bVFuNTJPQ2lGTnZsVXlTLTFrT0hhb1ZhNWltaTEyY3lGRVZZRFVmQ2JyajM1YThn?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엔비디아",
-    "press": "매일경제",
-    "title": "엔비디아, 젠슨 황 없이 사상 최대 실적 발표... “새 CEO 찾는다”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB6aEt5TXdMajRxSjNCN1MzSzRmVkRjR19xQllrYllrOUtuNTBtTXU2SkJTZktzNTA3dnphaUlKWW02NkVzbms2Q1lhRS1qdw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "\"앤트로픽 IPO에 약 666조원몰려…공모가 80달러 넘을 수도\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAtZDBsZXRrVWxHT00zckNZT2lkX0RmQy1jRjhFWG5VZ1M3TTViSDFnQkU0ZGRMMmJRYlF4UTRtTzdRRmNwZ3NnUEhuUTBGS3QwbThhbnhKLUR4enB2NFNwTVUzZjZXTDNTNUZKSXZNNnE?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "대한민국 정책브리핑",
-    "title": "대형 금융사 보안 취약점 점검 연 2회로…연결 시스템도 전수점검",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92dnJZLVlBTFdGT0FROXdJZFlmdF9zVE5pOEFtSnFld1NKLUpMSktPbExZckFNUjU5NEhfU3VuRXFodU1jM2tnNjlHZVFYM2pzUExldnV0V1o5Sk81bTZ4VXJOY2hJeGc0QjdmSQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
   }
 ]
