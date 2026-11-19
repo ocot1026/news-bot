@@ -1,6 +1,116 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 팔로알토네트웍스",
+    "press": "마켓인",
+    "title": "팔로알토네트웍스, 1Q 호실적·AI 기업 인수에 주가 6%↑",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kdnVjVDlqVnpYZWpsZWpTQmdNNjZZdTdVVEVSaldjV1ZBWTN6UUpUSlJNUFBqU092WEo2UzMtTnVRaFNzekM0R0g3ZkpkVVE2R3liVnU0cFNJb3VxQ0RLaFNwZzY4Q1JxSU14NWRWVlhQVWM?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 LSK아이로봇",
+    "press": "뉴스핌",
+    "title": "LSK아이로봇, AI 스마트안경·초소형 카메라 탐지 기술 개발 추진",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ITDAyd0NmeEJWd2RwaDRrQUMzb3psc2V4M0hPdUw2OVNFTGpMaDcxSndpR0pXaThoWWJtOEVCNTI2Vm5BLXZFT3A1aV9rdkhpVVNRVlpwSU9mSTdl?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "두 번의 큰 데뷔로 주가 상승에 실패",
+    "sub_title": "Two Big Debuts Fail To Boost Stocks",
+    "link": "https://www.wsj.com/finance/stocks/two-big-debuts-fail-to-boost-stocks-b68b79b1?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "다음번 대규모 기술 가동 중단 전에 다운디텍터에 대해 알아야 할 사항",
+    "sub_title": "What You Should Know About Downdetector Before the Next Big Tech Outage",
+    "link": "https://www.nytimes.com/2026/11/19/technology/downdetector-tech-outages-microsoft-chase-apple.html",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "당신은 얼마나 많은 인류를 소유하려고 합니까?",
+    "sub_title": "How Much Anthropic Are You About to Own?",
+    "link": "https://www.nytimes.com/2026/11/19/upshot/anthropic-ipo-stock.html",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI 회사가 역대 최대 규모의 IPO를 완료함에 따라 Anthropic의 주가는 17% 상승했습니다.",
+    "sub_title": "Anthropic’s stock closes 17% higher as AI company completes largest-ever IPO",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a02fb71e-07cb-4461-8a07-baed66400a9b&mod=mw_rss_bulletins",
+    "impact": "🔥 주요속보",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "JPMorgan Chase 고객 데이터가 최신 해킹으로 노출되었습니다",
+    "sub_title": "JPMorgan Chase Customer Data Is Exposed in Latest Hack",
+    "link": "https://www.nytimes.com/2026/11/19/business/jpmorgan-chase-customer-data-breach.html",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic은 $1.27T 평가로 초기 가격에서 17% 상승했습니다.",
+    "sub_title": "Anthropic closes up 17% from initial price for $1.27T valuation",
+    "link": "https://finance.yahoo.com/technology/live/anthropic-ipo-live-anthropic-stock-begins-trading-in-record-81b-raise-with-15t-valuation-192410598.html",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic이 상장된 후 Dow는 1,100포인트 하락했고 S&P 500과 Nasdaq은 하락했습니다.",
+    "sub_title": "Dow ends 1,100 points down, S&P 500 and Nasdaq slide after Anthropic goes public",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=fa6d8e6f-85c6-45e6-9477-7f2f95ffef4f&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "'현명한 돈을 따르라': 부동산 내부자들은 플로리다를 강타하는 대규모 AI 현금 물결을 예측합니다.",
+    "sub_title": "'Follow the smart money': Real estate insiders predict massive AI cash wave hitting Florida",
+    "link": "https://www.foxbusiness.com/video/6408616068112",
+    "impact": "📰 일반",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 AI·반도체주",
+    "press": "KB Think",
+    "title": "[도쿄증시-마감] AI·반도체주 급등에 닛케이 6만선 회복",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5WQ3dsaG4tc05ERk84bWNPcXB6MENCQXpOaGtEWHFIdnpFSFBXVnNRZVJRaF80eU51NzNaLVJIanNZR0dvQ0JuTVlqcFNyQ1BvbllUVHctQ1M3ZkZya2dIQlJXWWdSZVlIdjVLWXlCSHgyQQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 06:44"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "머니투데이",
     "title": "\"AI 투자심리·한한령 풀리나\" 기대감… 수능일 '증시 한파' 없었다 - 머니투데이",
@@ -2887,116 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwVW1mQ2xyOUhObzUwSFBpc01BcjlpWXBwUy10VXZ5NHRENHhuZ3h0bGFyaktDanptY0RjWUE0eGs5VUlKYnhCbFJMLUNUdEVDVW9EMGFzNWs?oc=5",
     "impact": "🔥 주요속보",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엔비디아",
-    "press": "연합인포맥스",
-    "title": "[뉴욕증시-1보] 엔비디아 실적도 못 살렸다…혼조 마감",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXMWExMkVROGhoU3dJREIzc3pGcTVaUE82Q05haC1rZGQ3Mmt6eXB3TkVKSklFX1V4X1pzdW9SNU14R1hNMTIwSjhKV0ZpWFlvU3NfS25Bbl9pRVV6Vl9UdmVyYkN4QW5UdkNQMEliTy3SAXRBVV95cUxNN3c4bnVzMWNmeDFFQXhBcHJ3NUJid2ZBdkF0UEdNdndzN04xTGQweUllS1Y5eE9HaXlLNFd0YUlELXdPenpLRHZaYTIwME5BTkpHT0NDeDBCdnN6RFBUcTFHcFd1a1lrNTIybG5MV21mb2lWQw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "국내 금융사 해외 부동산 EOD 규모 2.64조…반년 새 27% '쑥'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5RajhQazViaWkwUkJ4Mk5EVWVhZlhnT28ycWctREw1cGZqWVhTVG9rUkpfbXotWjBuaTAxOVFBNGVLZDVYQ1hlUjlQS1hCdXQxNFBOYVJXcWZULXJHS1JOYmd0UXBibzJtNlVIRTRCOFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 포스코그룹",
-    "press": "연합뉴스",
-    "title": "포스코그룹, 중국 CATL과 3년간 리튬 공급계약",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JYWY4VExiTGVJWWFZcm9mMXlSUm5zNTU1YjFUd2xhWWZWWVdCazJpLUt2YTN6X01fNHJmQ3ZuZ1I2eU1sUzU1N0xRUHVNa005T3VWMzQtNXRWMHPSAWBBVV95cUxPMHZaZHVqdzdkZ29yM3NBUmpDSUxmaVpVQWl1bC1qY01oc3ByQUVKNTJIY2doYjN2Uk1wVXozbkFBWWxLTkJBMGJBbV9ab0R4dUp4U1VSS2VnTGtnUTYyeWY?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "3분기 가계 빚 2030조원, ‘빚투’ 감소에 증가세는 축소",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE16V2x3WVZpSlZJemR5TWN0YlVaRm1EYkg0X3JnRHhnUjhBU0haUzBVRy16SkE5UFNPV2RBY2ctUGg3ckt2cHNYdGotTDNZaDVnV0JXanlwcnpnZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Polymarket CEO Says Donald Trump Jr.’s Involvement Is ‘Overblown’",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/polymarket-donald-trump-jr-shayne-coplan.html",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic IPO reportedly values company at $1.5 trillion ahead of stock’s Thursday trading debut",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/livecoverage/anthropic-ipo-stock-price-trading-ai-claude",
-    "impact": "🔥 주요속보",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic Sells More Shares Than Planned at a Higher Price Than Expected",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/stocks/anthropic-sells-more-shares-than-planned-at-a-higher-price-than-expected-4b511002?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Weil Gotshal’s Bankruptcy Team Heading to Skadden",
-    "sub_title": "",
-    "link": "https://www.wsj.com/business/weil-gotshals-bankruptcy-team-heading-to-skadden-feb22b3b?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Wall Street braces for Anthropic debut as AI giant eyes record stock offering",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408554709112",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Asian Stocks Set to Fall Ahead of Anthropic Debut: Markets Wrap",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/stock-market-today-dow-s-p-live-updates",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Palmer Luckey Warns the U.S. Faces an A.I. ‘Mismatch’",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/dealbook/palmer-luckey-anduril-ai.html",
-    "impact": "📰 일반",
     "time": "11/19 07:46"
   }
 ]
