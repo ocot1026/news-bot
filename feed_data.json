@@ -1,6 +1,136 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "기상호조·수요감소로 농림수산품 내려‥10월 생산자물가지수 0.1% 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zcjE1cHUxaU1FeVZfaGJ0QjJ3TFZPaU1ub3U3UEpOVThlN2ZZNEVBV0M2QzQ5aVVET0tyY1NNQndHMHRvZUV2aGFTbjhPMTZaNzdzRks0bFFrMzBabzhxYTJ4MDhCZi1WUEY5OHMtNzh5TExi0gF0QVVfeXFMT3JILUdMMUZCZWFreE9lNHU5NHNKY1hyS1ZyMG9RVnBJeWtuLV9rTTJuVWxhTGRnU2Rad19sSV82aTNoZ2RUbEZOb1pHLVdtcGV1a29XRWVCZ3FoOEpxOTkxQ3E0YTY2U0xVZ0FvOHBEMDFNa0o?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "데일리메디",
+    "title": "동국제약·동화약품·제넥신 등 6곳 ‘혁신형 3년’ 연장",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93bURLdmdNbkV1UHc4ei0weGN1bVAzVFN0Z2kyckM5ZzZLc05pZEdVM2Vfd0lkWklnZkJMMFE5b2UwZWp3amJMWGxzeXFJVWNnMHI4MFRFMVhNOGdjdnJVZGlDQVAycGVV?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia Asked to Sell Chips to Companies Tied to Chinese Military and Megaspeed",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/19/business/economy/nvidia-chips-commerce-china-huang.html",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Judge Allows Trump’s $15 Billion Case Against The Times to Proceed",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/19/business/media/new-york-times-trump-defamation-case.html",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Markets are sending troubling signals about the state of the economy",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e0f73b8e-8b5d-4729-8262-66a007fd05f5&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic’s I.P.O. Turns Tech Researchers Into Overnight Millionaires",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-employees-payout.html",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "TRADING DAY World's biggest IPO? Pfft",
+    "sub_title": "",
+    "link": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-19/",
+    "impact": "🔥 주요속보",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic co-founders deliver remarks ahead of landmark IPO",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408608647112",
+    "impact": "🔥 주요속보",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Charles Payne: History put Anthropic in the same dominant bucket as fellow tech titans",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408618108112",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Larry Kudlow: Free enterprise works, socialism does not",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408616438112",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "This Billionaire Just Made a Bundle Off A.I. But It Could Have Been More.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/19/business/anthropic-openai-gregory-jensen.html",
+    "impact": "📰 일반",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
+    "sub_title": "",
+    "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+    "impact": "🔥 주요속보",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "앤트로픽 IPO에 쏠린 눈…도쿄증시, 닛케이 나홀로 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIRXI3UjRJMUkzZkxtNE1BQjFzbjNDeDdTQ2trQmJ4T2dSUTNlVU5LbEdCUFRKZVJ4LXJpTTBPaWgtTHVqNjRYcl83VW1mVHFfOUZDMkc4WXBWc3M2SDh5StIBeEFVX3lxTE1RTVBqeW1oYl95REladjBscnA0cVVLZ1Q0eEkzZGNPT2FqUkktV21sc2E3S2daMzdHTm14ZzdKZnQ2VzY0V0w4X1Y1Nkwybi1Fa1FhanQtcU9UdXItbHEyQUhxTS1KN1c1U0Uyck1GYko2TXVIa1NNMQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 07:35"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 팔로알토네트웍스",
     "press": "마켓인",
     "title": "팔로알토네트웍스, 1Q 호실적·AI 기업 인수에 주가 6%↑",
@@ -2868,135 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBIWnVJVFhVVVpqOWxMaEpwOXRDOXBfbE5CZW5kR0g1QVJzTUs2WFdnLTdoS0o5M3BwZFR6eVVKZ0F6aG5na1puUk8tdjlUZkFvUF9ORUEwdnNzM2prdWc?oc=5",
     "impact": "📰 일반",
     "time": "11/19 08:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 포스코그룹",
-    "press": "조선일보",
-    "title": "포스코그룹, 글로벌 1위 中 CATL에 리튬 장기공급 계약",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbFVNZE1YYUQ4SV9ocFlHVE1jMVpMUnhDbjBMNEhCcHRBYnotbVBBSG4zOGJBSk1vYjFRazdxcFQyVXRfclhYU211WU1aQ1Iyc1B5cV9mMkthN3Q5ZEx3bDluRXZNSHJoakdSQVIyZl9oMWIzckgyU2JtMzVrX0pHX0J4ZmtoZ3VZZHk2VHppUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "\"엔비디아 칩 수출 승인, 사익 얽혔나\"…미 민주, 러트닉 옛 회사 정조준 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nYzZROTNjUkNQNHVSTzh0VEdSUnlLektfQnJ0OXlnTTFRTjN6U2w3SUotRkpKMlNyMXQ3R3AtMzk3X1M1MmFYYnczSHl5VDR4dkpJSXVRX2NMS1VvQ0I3RkpzaDQ4c20y0gFuQVVfeXFMUGVTTWFJcnRlQWRkRndMTDA4UHNXbjZ1UHNIenBxWUJkcTFFUGRxUU5CMXRralRvcWZiRGhYaTNYWnNOaVAyWkIxSW81Ny1iUVNCQm5sdFlHRDZhVlN4M2FWREFzZm1VWjVTZGJoQUE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 에이엘로봇",
-    "press": "연합뉴스",
-    "title": "[특징주] 에이엘로봇, 코스닥 시장 상장 첫날 24% 하락(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83ZU0tRGl3aGcwM3hmdUhsaUZvVkhvdmVJc1BJUko1VWRQRVd4WnEycU5kQWFmZDc5RDRGaGNRRllYTXEzaThyTkdHS1VqMkVqazhVZ0FnTWw5QmPSAWBBVV95cUxOVnNtV2xjdDBFalN2UWxVcU1maVF4akNBekdWSFVoNWRDa1dTXy1CZUt3MUJQQ1R2b3Q5dDVVcE4wVUpZUXdFb2lZalBMVEdITlNtY2RWc2pUYldaVFBDU1M?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "트레이더들이 기대되는 Anthropic의 데뷔를 준비하면서 Nasdaq-100 선물이 급등했습니다.",
-    "sub_title": "Nasdaq-100 futures surge as traders gear up for Anthropic’s highly anticipated debut",
-    "link": "https://www.cnbc.com/2026/11/18/stock-market-today-live-updates.html",
-    "impact": "🔥 주요속보",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Claudemaker Anthropic은 1조 4천억 달러 규모의 주식 시장 데뷔를 준비하고 있습니다.",
-    "sub_title": "Claude-maker Anthropic poised for $1.4tn stock market debut",
-    "link": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "기술이 흔들리면서 주식 시장은 한 세대 만에 가장 큰 변화로 흔들리고 있습니다.",
-    "sub_title": "Stock market being rocked by biggest shake-up in a generation as tech falters",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=b611d40e-f691-4beb-9dff-fc10142aea41&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "인류는 IPO를 주당 83달러로 목표 범위를 넘어섰습니다: 보고서",
-    "sub_title": "Anthropic prices IPO at $83 a share, blowing past target range: report",
-    "link": "https://foxbusiness.com/fox-news-tech/anthropic-prices-ipo-83-share-blowing-target-range-report",
-    "impact": "🔥 주요속보",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "보기: Zohran Mamdani, 트럼프와의 공통점 찾기",
-    "sub_title": "Watch: Zohran Mamdani on Finding Common Ground With Trump",
-    "link": "https://www.nytimes.com/2026/11/18/business/watch-zohran-mamdani-on-finding-common-ground-with-trump.html",
-    "impact": "📰 일반",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Gilts v Kilts: 스코틀랜드 국채에 무슨 일이 일어나고 있나요?",
-    "sub_title": "Gilts v kilts: What is happening with Scottish government bonds?",
-    "link": "https://www.bbc.co.uk/news/articles/cmwy8pgj2z8vo?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Skydance, 값비싼 FIFA 월드컵 권리 입찰 거부",
-    "sub_title": "Skydance Opts Out of Bidding for Costly FIFA World Cup Rights",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/skydance-skips-fifa-world-cup-bid-as-netflix-fox-eye-4-billion-deal",
-    "impact": "📰 일반",
-    "time": "11/19 08:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "오천피 이끈 기관… 삼전닉스는 숨돌리기 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRWXVxSmFXRHNNYTFBcG5tcGZNeUFCbWU2REVRTVBvSTlNdlhRRzFSMk1kSXU3QVF5VDhmUnJQRHA0LXp3azhrYi1mbTNzVGRwSjZUU0lpSGhhLUo4YVBkeVFrX25GZHNx0gFuQVVfeXFMTWxqMzhYdm9DSWREdEhVOE55ZHlZajdrRGtfbnhETEJaZTNhd0pUR3RZODc4Y0JBQVRMQjJ6OHZCdUE3M3lsUlNNNEdWdDB0cExQYUphVl9SeU94dHU3MFZhLUFzLUdpTEpzTldjUUE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "바 연준 이사 \"인플레 지나치게 높아…추가 금리 인상 적절\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4wVk8xLWxVTWRhTzduUWJRSzdGbmphMXVpbVdxYWV0X1g5NGVNNGZlQlQ3dGgwLXV0ek9OcldRTnE0dWc5bXRxaVBWc20zZ1JVc1E1T29KUEhPd2FOQjMtdnljUVlkV1ptNFJqR0dDS3Q?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 07:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "네이버페이 머니스토리",
-    "title": "엔비디아와 손잡은 삼성전기, 주가 8% 급등한 이유는?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBwVW1mQ2xyOUhObzUwSFBpc01BcjlpWXBwUy10VXZ5NHRENHhuZ3h0bGFyaktDanptY0RjWUE0eGs5VUlKYnhCbFJMLUNUdEVDVW9EMGFzNWs?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/19 07:46"
   }
 ]
