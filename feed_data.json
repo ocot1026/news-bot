@@ -1,6 +1,176 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 에이치케이",
+    "press": "마켓인",
+    "title": "에이치케이, 10억원 규모 자사주 취득…주주가치 제고 나서",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBoenJNdmhwTW9kYjYzejd5MFBBZXZFbE42MnVWN2hsMllzSGhfSUhPRW1vekxUNHkxTk1VeWNZMm9QZ2kxcTVpRW5SbUY4eHRrY1BuUE9TS0d3TDRUZlBrQzlmOElCVDV1YkJHZG9jdk1ETXM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "글로벌이코노믹",
+    "title": "수능 AI 부정행위 막는 신기술…시험지 촬영 왜곡하고 안경 교체까지 감지",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVTJabU44amJQSVZFd1Vtc3oydlplVEZHR3FKLUhaQ1JZTFZnR05lX2pZRG16Q0pEcmhVcFdkV1dRSGFhUFJxS29HOVdEcXdQOUpjWDg0dkN1UFBLMDhFTEFrbmFYWmtlTUJnWHRlV2o2YS1IUGFtVFd0OGNYbE1Ta2R1Z1Q5Uzg1Ynpv?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "마켓인",
+    "title": "중국 언론 “테슬라, 중국 내 생산 계속 늘릴 계획”…개장전↑",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BSW8xdHBVVHdvcm9NckZRTzVkeXFnQU9YUUdTdnBkVEJHR3NMTVBTcXE3cXVJbHZkR056UjJyQnFzQVRSUlpIRWV1N2tVV3p6ak9QcHpua1FmdV9kT3NmeFctYXZYS0NCclRYa3cwMEZPX1U?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "젠슨 황 딸 폭언까지 터졌다…\"직원에 '금붕어' 호칭\" 논란",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9EbVNRc3VELVJCcWtHSnJPc0I5eVRDOUF1WkpUY29LMS1SOXp0Y0pxekIzQmk0YjRVLTJnS1NYOWZMM2xZa3IydDlReV9ZVTNfMy1TSXZCeDFvQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스핌",
+    "title": "FT \"TSMC·삼성전자, 일부 중국 고객사에 반도체 출하 중단…美 수출 규제 여파\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LbUFWYW9VMEF1Vlgwd1R1NGpEUXAwWlhnZlByaGgyUmhLclhxbGxwaEFfNGd1LXU2ZE9MbGlZcFlHUTAzTEpqMHJPUEZEZFNSWndXenlGS01jLXRw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 마이크로소프트",
+    "press": "마켓인",
+    "title": "마이크로소프트, AI 수익화 가능성 상대적 유리…목표가 630달러-구겐하임",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1rTEdLeHc2YXNKdnVaRktrRXduZ1UtZW41Zi1JNmZBaGU5TTF5OVBGaWFneTIyX2NYZGVBZDBMcGFuVDVMdVFJU28tbVRHMUZtdHRxOTEwUjRhV1MwMDVLdlRoS19nMWw2ZXI3V1A1S3hVYzA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "美 연쇄 전산마비에 '디지털 회복탄력성' 테마 부상…보안·인프라주 급등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBqVUZ1b1MtNFdFbmVxMUpnd2VULW5MSGNhQXNwU0MzNlo4dURfZ2xjbndrWExlLUROOG50V3lkNnB6cUswS2NnSmdfQjV4OTk5WFhqWlF3SFd1UFJvMTdRS3dlajNiTFhrcFh4cEJGTGnSAXRBVV95cUxPbkM2bUJTNU5hUmtoWDJ3TnlsUEptXzB5cEV3eFVCZ0tpcFJGT3l1ZTRCY0VJWnM1SmF4RmZLRTU2aF9MSUZZTEY5TjNFZ2t3Ykc2YlExX21fLTMyZFB1QzJ5RjEzX3pYS1NCX2ZmOW5LWkt6UQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "지디넷코리아",
+    "title": "LG AI연구원, 엑사원·피지컬 AI 전문가 임원 발탁…인재 확보전 대응",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBzbnZvNDFDV2lDd3FHMWItdk5td1d6YzJXYXRFeVdwWFItLW9SeC1OYTB0T18tdFVURGNvLXdoU1RSZWt5dVM0SENjcDBDTmFKNE96Rzl3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 Dow",
+    "press": "Finviz Market",
+    "title": "Dow, S&P 500, Nasdaq은 인류 가격 IPO 이후 상승세를 기록했습니다.",
+    "sub_title": "Dow, S&P 500, Nasdaq open higher after Anthropic prices IPO",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e5b73baf-f87b-4472-a48e-10ee6fc19165&mod=mw_rss_bulletins",
+    "impact": "🔥 주요속보",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic IPO: 주식이 매우 기대되는 거래 데뷔가 불과 몇 시간 남았습니다.",
+    "sub_title": "Anthropic IPO: The stock is just hours away from its highly anticipated trading debut — live coverage",
+    "link": "https://www.marketwatch.com/livecoverage/anthropic-ipo-stock-trading-today-price-valuation-ant",
+    "impact": "🔥 주요속보",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic의 IPO가 역사를 만들다",
+    "sub_title": "Anthropic's IPO makes history",
+    "link": "https://www.reuters.com/business/anthropics-ipo-makes-history-2026-11-19/",
+    "impact": "🔥 주요속보",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic IPO 라이브: Claude Maker는 기록적인 주식 제공 후 Nasdaq에 상장됩니다.",
+    "sub_title": "Anthropic IPO live: Claude maker goes public on Nasdaq after record share offering",
+    "link": "https://www.reuters.com/live/anthropic-ipo-live-claude-maker-goes-public-nasdaq-after-record-share-offering-2026-11-19/",
+    "impact": "🔥 주요속보",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic 주식은 언제 거래를 시작하나요?",
+    "sub_title": "When will Anthropic shares start trading?",
+    "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/when-will-anthropic-shares-start-trading",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "최신 정보는 다음과 같습니다.",
+    "sub_title": "Here’s the latest.",
+    "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/heres-the-latest",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "다저스 구단주 월터, 주정부 규제당국으로부터 '잘못된 판단'이라는 조사에 직면",
+    "sub_title": "Dodgers Owner Walter Faces Probe From State Regulator That Says It Was ‘Misled’",
+    "link": "https://www.wsj.com/finance/regulation/dodgers-owner-walter-faces-probe-from-state-regulator-that-says-it-was-misled-8f527738?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "터키 펀드 투자자들, 저축 예금 문제로 앙카라에서 시위",
+    "sub_title": "Turkey Fund Investors Protest in Ankara Over Trapped Savings",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/turkish-fund-investors-protest-in-ankara-over-trapped-savings",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "문화일보",
+    "title": "“CEO 불륜 퇴진후 주가 반등 기업 있다”…엔비디아는?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vZFpMeWJiZFg1V0tIaUxCQ2Y3QllNQmtHM3lBdVM0dG5TMDVFeTF0ajhmcVpQcC1jbHBZSGtGOS01MVNUZkg2cTN6bVdVLTdP?oc=5",
+    "impact": "📰 일반",
+    "time": "11/19 23:37"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "경향신문",
     "title": "‘한강벨트’ 용산·동작도 집값 하락",
@@ -2828,175 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE92dnJZLVlBTFdGT0FROXdJZFlmdF9zVE5pOEFtSnFld1NKLUpMSktPbExZckFNUjU5NEhfU3VuRXFodU1jM2tnNjlHZVFYM2pzUExldnV0V1o5Sk81bTZ4VXJOY2hJeGc0QjdmSQ?oc=5",
     "impact": "📰 일반",
     "time": "11/19 00:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 한국보건산업진흥원",
-    "press": "MEDI:GATE NEWS",
-    "title": "한국보건산업진흥원, 독일 바이오유럽 2026 한국관 운영",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9RaHBHTDNCcW9LbHprSGJWaE94SHdKdnhDVVNtSXo5REZqVXBmcDlvcllpcVh0Q1E3cWxtUWxNNHRqcWpxTTdYRjZhaUZCN1hXelpJdWZR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 롯데바이오로직스",
-    "press": "MEDI:GATE NEWS",
-    "title": "롯데바이오로직스, 송도 바이오 캠퍼스 제1공장 준공식 개최…\"대규모 생산 역량 능력 제고\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zRDEwbmI5dFpjQjdLSXlzMmZKT3BzNlpCaHJwSmxGNlMtRHdXakp1V00wS1FDMDcwY0g0UlpPTmltUjR1RXVpd09mR256WkItZ1JCMEFn?oc=5",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI anxiety deepens ahead of Nvidia earnings",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408516123112",
-    "impact": "🔥 주요속보",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Google Buys Worker Data From Spirit Airlines in a New Market to Feed A.I.",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/18/business/economy/google-spirit-employee-data-ai.html",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Tech outages are causing people to panic buy. Costco is benefitting",
-    "sub_title": "",
-    "link": "https://www.cnbc.com/2026/11/18/tech-outage-costco-panic-buying.html",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI Debt Boom Shows Underwriting Worsened ‘Awful Lot’, Polus Says",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/ai-debt-boom-shows-underwriting-worsened-awful-lot-says-polus",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Once the Regional Laggard in Sustainable Debt, Mexico Now Leads",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/once-the-regional-laggard-in-sustainable-debt-mexico-now-leads",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "CoreWeave Says Nvidia Is ‘Not One Person,’ Remains a Key Partner",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/coreweave-says-nvidia-is-not-one-person-remains-a-key-partner",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "JPMorgan Adds Dallas Hub for Private Bank Unit Catering to Funds",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/jpmorgan-adds-dallas-hub-for-private-bank-unit-catering-to-funds",
-    "impact": "📰 일반",
-    "time": "11/19 00:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Fed의 월러는 '충격'인플레이션에 대한 금리 급등을 제안",
-    "sub_title": "Fed’s waller suggests interest-rate spike to ‘shock’ inflation",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=d2c16347-0cea-4fdd-b6fe-b09f990e40c9&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/18 23:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "'GTA VI' 퍼블리셔 Take-Two, 게이머들이 블록버스터 출시를 즐기면서 점프",
-    "sub_title": "'GTA VI' publisher Take-Two jumps as gamers relish blockbuster release",
-    "link": "https://www.reuters.com/business/gta-vi-publisher-take-two-jumps-gamers-relish-blockbuster-release-2026-11-18/",
-    "impact": "📰 일반",
-    "time": "11/18 23:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nasdaq은 Nvidia 결과, Anthropic IPO 리드 기술 주식으로 상승세를 기록했습니다.",
-    "sub_title": "Nasdaq opens higher as Nvidia results, Anthropic IPO lead tech stocks",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=ccd4a8a4-f1f8-4d78-899e-44d24b2c5c29&mod=mw_rss_bulletins",
-    "impact": "🔥 주요속보",
-    "time": "11/18 23:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia는 엄청난 수익을 올렸지만 새로운 리더들은 비틀거렸습니다.",
-    "sub_title": "Nvidia delivered monster earnings, then its new leaders stumbled",
-    "link": "https://finance.yahoo.com/markets/article/nvidia-delivered-a-monster-quarter-then-its-new-leaders-stumbled-on-the-earnings-call-120332810.html",
-    "impact": "🔥 주요속보",
-    "time": "11/18 23:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic: 억만장자가 될 7명의 창업자들",
-    "sub_title": "Anthropic: The seven founders who are about to become multi-billionaires",
-    "link": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/18 23:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "매사추세츠의 한 마을이 아마존의 배달 드론에 맞서 반란을 일으켰습니다.",
-    "sub_title": "A Massachusetts Town Revolts Against Amazon’s Delivery Drones",
-    "link": "https://www.nytimes.com/2026/11/18/us/politics/amazon-delivery-drones-massachusetts.html",
-    "impact": "📰 일반",
-    "time": "11/18 23:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "미국 사이버 방어는 AI 기반 위협에 '보조하지 못한다'고 상원의원은 트럼프 행정부에 경고",
-    "sub_title": "US cyber defenses 'not keeping pace' with AI-enabled threats, senators warn Trump admin",
-    "link": "https://foxbusiness.com/politics/us-cyber-defenses-not-keeping-pace-ai-enabled-threats-senators-warn-trump-admin",
-    "impact": "📰 일반",
-    "time": "11/18 23:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 KDI",
-    "press": "한겨레",
-    "title": "KDI, 내년 한국 성장률 3.9% 전망…“3분의 2는 반도체 기여”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TS0p5WmtuWHRGTG5oVk5URnpYeTc1MjUycmVoZnY5UlRHY2x3M1NrdE5kcjhncU9QVjBLRW1VV2NnVjNZT0FPc3hIcEJMLUxZM2s3OTdDWG0wak8wWjc5a2RPRG9YZ3FmRjNVVi1CYWpjdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/18 22:46"
   }
 ]
