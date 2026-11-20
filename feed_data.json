@@ -2,6 +2,96 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "SBS 뉴스",
+    "title": "담보로 잡은 반도체 날아갈라…머스크 우주 데이터센터에 채권단 제동",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtUUprUTBYMnhJX3B1QWJEalVZS01CYjk3MDBSVHZyMmZkNWt3X0VKdHVsVzFTeVNKV004ZFJfaFdHdnFzc0hmdFhnZzBCZ29wT3R3NUF6Skw1T0RULWROUER2RWRHekZIdHc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "결제는 무조건 키오스크?…어르신 주문 영상에 '부글부글' [이러쿵저러쿵]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9KS2FUQTlPdldPb3VxYkN6Q1lvemhuOFZoZ2UyZzFHLW9XbDBRUHMwRFZOX0FsTmstZXIzcHU4Vk1wM2pOSTFvWGpKUjFncTRTaEotV2xqYTJTdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Many Etsy Sellers Close Up Shop Over Site’s New A.I. Policy",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/20/arts/etsy-ai-policy.html",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI tech rout prompts US investors to rush into value stocks",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/finance/ai-tech-rout-prompts-us-investors-rush-into-value-stocks-2026-11-20/",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 Dow",
+    "press": "Finviz Market",
+    "title": "Dow, S&P 500 in correction territory in final hour; Nasdaq wipes out 2026 gains",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=637c4718-e771-4db0-99c7-f2407a3cc48b&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Holiday airfares hit highest levels in a decade as jet fuel prices surge",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/economy/holiday-airfares-hit-highest-levels-decade-jet-fuel-prices-surge",
+    "impact": "🔥 주요속보",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Apollo Enlists 13 Wall Street Banks for $9 Billion ADT Debt Deal",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/apollo-enlists-13-wall-street-banks-for-9-billion-adt-debt-deal",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Kalshi’s Novel Treasury Perps Hit Delays as Other Bets Expand",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/kalshi-s-novel-treasury-perps-hit-delays-as-other-bets-expand",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Omers Private Capital Chief Exits to Lead Pension-Owned Teranet",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/omers-private-capital-chief-exits-to-lead-pension-owned-teranet",
+    "impact": "📰 일반",
+    "time": "11/21 05:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "KBS 뉴스",
     "title": "미 재무부 장관 “‘엔비디아 H200 中 판매 허용’ 정책 변화 없어”",
     "sub_title": "",
@@ -2906,96 +2996,6 @@
     "title": "미국 반도체지수 2.4% 하락…앤트로픽 상장 첫날 AI주 투매",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBDMng3ekhUS0hYcHlJTThCbGtTMVZWQkxZSmVwX0JUbExudGtMMGxqNFZFdWRlUVItY19maEtsVy0xTFVuS0FDRHNxd2p1T19GM2FneXlpcGxfVXBlbFo1em9OdGFTS0E?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "Chosunbiz",
-    "title": "KB證 \"삼성전기, 엔비디아와 협력 확대 공식 발표…기판 공급부족 심화 전망\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSGhIOUhrQWRmeXlHNVV4REx5N2piSHdCaXR6elFEbXRBNjdLRkM3TDZvZzFDa3RxamMtTXdPdHFLdlRXdDFOMUtqSWdCWlVWTDhRa194aWgyWXMtMzl0X19zVFpwY0VyZERUUTFIb3VLeTVzcWFDZldNNTZPQ0VKdC1rdzB2LWZf?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 페이팔",
-    "press": "마켓인",
-    "title": "페이팔, 사업 회복 부진에 월가 투자의견 '매도' 하향…주가 3%↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9UbG1BN0RrMHh0Z0lfQkhXUDZQM2dYazM0MUo1RzE3N3N5c2ZENXQyZGxmUG01cHpzdkZUaU9lczJqQ29UZ25wM2N5WWtLV2NuRGV2SGdRSjZNaEdkeDNfZENiNnBwSTVZcWlJQjJLaWZLUkU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "중기이코노미",
-    "title": "자사주 소각 의무는 비상장사와 중소기업에도 적용",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE56Q0Z6b2V2cUlKNUlNYmFJeEFRcl9Kb2hFcDUzbzZkbEFxZXQ5bVNDdWF1VWFWSFdQMjVHb2NwbEFCMHZ5M2Q5WXJrVUxrSWZFejVxYUxIQ3hrTU5qQlJGekdDX2RXa1BETlE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "재경일보",
-    "title": "[마감분석] 피앤에스로보틱스 코스닥 시장서 15.63% 급등 마감 : 기업주식정보",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1jelNQVWhEa0dtcFNiVXZMZWgwZHR4X0YxLUFtZkpsRFlsZlphcFhTRmVndWl5Z0Nkbk5oRlUzVkhjVmpici1ldDVDWQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 와이즈플래닛컴퍼니",
-    "press": "Chosunbiz",
-    "title": "[특징주] 와이즈플래닛컴퍼니, 코스닥 시장 입성 첫날 250% 급등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQUkU5V0otYjJ1TmtGeTd3YjNwd2pnX2RZYktnMUlGcDBGOW1jdi11dVR5Z2FtbGIyQWJIUmx4MDloOFR1RUw0Skk0NkJzOFJ3VEQwZ2d4SS1fZXVPbU9JREdXZ3FDT3RPZGpNcElNYTBKOGZNOEV1MDRlZjdUQWdUYl82aGx6NEJm0gGcAUFVX3lxTFBQazlpektzQ09SaGZMUUNoVVVodnR1UzgtZEhMQ2F1T0drSExuTDF6Wkx0ZXpZOWRhRy1PQlVxakZzY3pobGN2SG9DVzlvRGgwODhZekFHQk5jYWlEVHBaSy1MQUxUbnBmRlJqZ0V1TDNZZG1yTjNfMGRXLUQ0MVVBcFU5RHN5dkVtRDFvX1V1eUNtNkpLa2hRVWNxbg?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "시사저널",
-    "title": "‘검은 목요일’…급락장에 코스피·코스닥 매도 사이드카",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9LQ0xvUy14ZERoTzBLLTczOExJczJCREg1UGZWTDRaU1NHVTNnT3A0Uld4V2hfZUxZMW5MVmdPSlo3ME8teUs0MHNsUWd0QmRVTFJ1VW1PV2llQWY1T0lUdC10WDR6Q1BPLVlrenQ2WdIBc0FVX3lxTFBwbmxkWFQtU2NXTUhzVEJaNzZmNXA2RFM4aC14UzBPbnJsNVV5TnVtOUd5aU5ydWJkcU9jTFA4RktIdEpQcHAyTlVsX0N4RjA4SVZaUkFJNWdfRHdraTEyNDhQWVZkLVJkeklZSG5OdUZqOE0?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "CBC뉴스",
-    "title": "[속보] 제이앤티씨 VI 발동, 주가 급등…22%대 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE56Ym9JTzYtRkxHZHRka1pHRWFvTlJQRm1wcDhDeW1raGx6NDdyVW41dXZZMDVoemZ5clZROXdYTklTSzRGaG8ta0ZobDhnTEVhOXI4Q0duYURPbzFLNkdPZHhfVzdLcEZ4?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "굿모닝경제",
-    "title": "코스피 7거래일 급락 끝 반등…코스닥 매수 사이드카 발동에 증시 '널뛰기'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05b25SaVNpQXg1c2NjTGJRdzFTcVZZNk0yNlAzRFAzUHFVOTB4M2hpMElZLXlvVFFVSWZncGswclpNdVkyRl96QzFrckg3M2p3T1R3R3ZwZkVxVDg4dEhMbnlGbFF2N25ROGhjUQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 08:27"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "에어백 결함으로 인해 314,000대 이상의 구형 Toyota, Lexus 차량이 리콜됩니다.",
-    "sub_title": "Over 314,000 older Toyota, Lexus vehicles recalled for faulty airbags",
-    "link": "https://www.foxbusiness.com/video/6408621451112",
     "impact": "📰 일반",
     "time": "11/20 08:27"
   }
