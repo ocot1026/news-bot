@@ -1,6 +1,106 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "경북신문",
+    "title": "코스피 5.21% 급락…4800선으로 후퇴",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84aGVqZXN5M0FSV1JFbEo0THc2RnRjZmVfOGtoUlBFTUQzY2xPRHppWWN6bFh1NEE0cnNndEswSGlHNGtHX3RSdDNBWVdhbnI3M2NBSjBfRHE?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic의 1조 5천억 달러 IPO로 플로리다 남부로 향하는 새로운 기술 자산의 ​​물결이 시작됩니다.",
+    "sub_title": "Anthropic's $1.5 trillion IPO sets off a fresh wave of tech wealth heading for South Florida",
+    "link": "https://foxbusiness.com/real-estate/anthropics-1-5-trillion-ipo-sets-off-fresh-wave-tech-wealth-heading-south-florida",
+    "impact": "🔥 주요속보",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "인플레이션 보호책을 잡는 것은 이제 생각할 필요도 없는 일입니다",
+    "sub_title": "Grabbing Inflation Protection Now Is a No-Brainer",
+    "link": "https://www.wsj.com/finance/investing/grabbing-inflation-protection-now-is-a-no-brainer-45a6364e?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic의 IPO 구매자는 첫날에 140억 달러를 벌어 SpaceX에 이어 두 번째를 기록했습니다: 오늘의 차트",
+    "sub_title": "Anthropic's IPO buyers made $14 billion on day one, second only to SpaceX: Chart of the Day",
+    "link": "https://finance.yahoo.com/technology/article/anthropics-ipo-buyers-made-14-billion-on-day-one-second-only-to-spacex-chart-of-the-day-110000176.html",
+    "impact": "🔥 주요속보",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "월스트리트 주간 앞두고 '블랙 프라이데이'로 인해 AI로 뒤덮인 시장에 소비자 지출이 집중됩니다",
+    "sub_title": "Wall St Week Ahead 'Black Friday' brings consumer spending into focus for AI-rocked market",
+    "link": "https://www.reuters.com/business/wall-st-week-ahead-black-friday-brings-consumer-spending-into-focus-ai-rocked-2026-11-20/",
+    "impact": "📰 일반",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 Shopping",
+    "press": "Finviz Market",
+    "title": "쇼핑, 칩 및 중앙은행",
+    "sub_title": "Shopping, chips and central banks",
+    "link": "https://www.reuters.com/business/take-five/global-markets-themes-graphic-2026-11-20/",
+    "impact": "📰 일반",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "미국 경제가 AI와 어떻게 연결되어 있습니까?",
+    "sub_title": "How the U.S. Economy Is Tied to A.I.",
+    "link": "https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
+    "impact": "📰 일반",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic은 월스트리트의 과대 광고에 부응하지만 AI는 계속 의심합니다.",
+    "sub_title": "Anthropic Lives Up to Wall Street Hype, but AI Doubts Linger",
+    "link": "https://www.wsj.com/finance/investing/anthropic-lives-up-to-wall-street-hype-but-ai-doubts-linger-d6a4519b?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "유가의 뉴노멀을 설명하는 7가지 차트",
+    "sub_title": "The Seven Charts That Explain the New Normal for Oil Prices",
+    "link": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "뉴스톱",
+    "title": "AI Stocks Plunge as U.S. Markets Eye Midterms, Big Tech Earnings",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IYk8yQUlINUVvS1R5UnRaMjZQWFYxM1VHajg2UUhPM2IwWW5tcG1FQUFzdkhaaEJtNzZCN0lXSkoxQzJoM3VBWERkTndJd2R6eFZjMjBQMVhQVFNBb0E?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 20:41"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "KBS 뉴스",
     "title": "코스피·코스닥 5%대 폭락…양 시장 ‘매도 사이드카’",
@@ -2896,106 +2996,6 @@
     "title": "\"외국인도 보게\"vs\"불법 촬영 걱정\"…공연장도 'AI 안경 딜레마' - 머니투데이",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15bFVxVDNMUGFpeG9MZk1zcTVFYnItY3Fnci0xVzd5Ny00WDJyb0pfV1RwSVBoa0Npdk9sODhOLUVKWS1hNy1uRTk1ZFZ4RzdOcjhTeFFNVG5hRDU2SEFaX3BuSEJMdWVQcGg00gFwQVVfeXFMTTkxQ2lLTjFBMDNmdmVDX0JpX3ppYUVtRHdiUzkzQnVrdjVKM2wxYlJUb3ZHWVk5M0trUXFDYkJlRXZwN25NOXQwcE8wQmpQeWpUV3ZNc1g0NW1RWDg2enU3c2g4YWd2U2JjVkxFbUozSg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "마켓인",
-    "title": "칩·부품 통제론 모자라… 美, 중국산 AI 사용 내역 공개 방안 논의",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1UTkdaMlR2V3JSUzFOVHVrSW1RT3hsNS11VGhHTjVzdkREbU5yck83V3lhaEREd0ZrSjQyTFBNbEJHQWFiTFVJR3drVXJtUVJyYWF5VGstNmIyenN2Yi0wVm1DU1h2Q1dhZTA2MzJ6dzFRazQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "웹젠 '디펜폭' 개발진 \"원작 팬이 첫 타깃…게임에서도 원작 감동 선사\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9kUzRxeE4wRk8xNVowMkg1RWxQQm9NejFHOEc1Vkl4dG9UR3Nya2s5LVI0WE5sY0xybWlFTkF1VVh4dXFTZFlFd203TEpFNWs0RExFclFB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 한수원",
-    "press": "데일리대구경북뉴스",
-    "title": "한수원, 발전소 현장 특성 고려한 동료 중심 심리 지원체계 구축",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5na1FEallHX0lLZXY1Q3JDVm1uUDZsaGZLcXFLWFQwRkpjcVZSU0hLQWxYRnJPeTczQk8yZVVhMzBwcTJrWnlnOGRiQ1pSUDNjQ3gtN1pDUFYwdHIzZmNGTHVQcGJDUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "중국, Anthropic의 블록버스터 I.P.O가 중단되었습니다.",
-    "sub_title": "China Is Shut Out of Anthropic’s Blockbuster I.P.O.",
-    "link": "https://www.nytimes.com/2026/11/19/business/anthropic-ipo-china-hong-kong.html",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "월마트는 부유한 쇼핑객이 매출 성장을 촉진함에 따라 연간 전망을 높였습니다.",
-    "sub_title": "Walmart raises full-year outlook as wealthier shoppers fuel sales growth",
-    "link": "https://foxbusiness.com/retail/walmart-raises-full-year-outlook-wealthier-shoppers-fuel-sales-growth",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "아담 존슨(Adam Johnson)은 인류의 IPO 가치 평가가 정당하다고 말합니다.",
-    "sub_title": "Anthropic IPO valuation is justified, says Adam Johnson",
-    "link": "https://www.foxbusiness.com/video/6408601904112",
-    "impact": "🔥 주요속보",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "마이크론, 인텔 및 기타 AI 주식이 목요일에 상승하는 이유",
-    "sub_title": "Why Micron, Intel and other AI stocks are getting a lift on Thursday",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9f2819cc-afda-430c-88de-a42ca3ef39dc&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "찰스 페인: 4차 산업혁명에 맞서는 '반란'이 있다",
-    "sub_title": "Charles Payne: There is a 'revolt' against the fourth industrial revoltuion",
-    "link": "https://www.foxbusiness.com/video/6408560561112",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Bill Ackman은 Jensen Huang의 축출에 대해 Nvidia 이사회를 비난하며 '당황했다'고 말했습니다.",
-    "sub_title": "Bill Ackman blasts Nvidia's board over Jensen Huang's ouster, says it 'panicked'",
-    "link": "https://foxbusiness.com/business-leaders/bill-ackman-blasts-nvidias-board-over-jensen-huangs-ouster-says-panicked",
-    "impact": "📰 일반",
-    "time": "11/20 00:40"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic의 Dario Amodei가 AI에 대해 생각하는 방식",
-    "sub_title": "How Anthropic’s Dario Amodei thinks about A.I.",
-    "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/how-anthropics-dario-amodei-thinks-about-ai",
     "impact": "📰 일반",
     "time": "11/20 00:40"
   }
