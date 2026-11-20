@@ -2,6 +2,96 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "10월에도 ‘셀 코리아’…외국인, 국내 주식 26조 팔았다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IcF90WHFCdWIxRDBjMHdleUw1Z2x6QU1mSWFDeHV2Y3BwTlJUZnFseDE0SVJ0eU1xeWFHMy1MY3BER290Q2JNNVdjZ2NESFpOZ0hid2NYdVdyQUhUUVFTZ3lLVWpFbmc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스핌",
+    "title": "[AI MY 뉴스] 뉴욕 반도체주 프리뷰...앤스로픽 상장 효과 하루 만에 소멸·AMD 7%·마이크론 5%↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1LTE0aDJ3Ni1HcHpDcnJuMm1WdEpVTUVUM05Xa2t5bW9rYUdMelR6UWpuSC1Ld1pfUVRHR3o4TzUtR3I3U0VhQm1OOGtXbHNRR0FYUUE1czdKdDBt?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "마켓인",
+    "title": "캐피털이코노믹스 \"S&P500, 내년 6500까지 하락 가능\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqd3M5aC1CRzV0THdDa1owaXlsOVdQdXAxZURUS0FlQTdiTnhoSFpLZldKTDF6SkJ5cFZybWhsbXdKaHlHTjVyR2tBNmJjWFJzWi1NbWxlMG1zcWJFZVlOSFpibmVod2wyWnFtdU0teGU0Wkk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "트럼프 \"젠슨 황, 사과하고 엔비디아에 복귀하길…두 번째 기회 줘야\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGSzZ0OFpmQ0hpSUxnZkpKSWhwZUt4T3lCaW5sU3pWNUxsa2FxNXN6MmVDXzBfUkJfMTlZV1VRY2V5SXlTU2NQMGxmOEc4eTBBMUlxekV2YXZ0aC0yNDhzYVlVQ3J0MVZFNXZRYW4zYU0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "인류애 소매 거래자들은 데뷔 다음날 주가가 13% 급락하면서 손실을 입습니다.",
+    "sub_title": "Anthropic retail traders face losses as shares dive 13% the day after debut",
+    "link": "https://www.reuters.com/business/finance/anthropic-retail-traders-face-losses-shares-dive-13-day-after-debut-2026-11-20/",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "스파이 용의자의 칩 네트워크는 중국 군수품 공급업체와 연관되어 있다",
+    "sub_title": "Spying Suspect’s Chip Network Has Ties to Chinese Military Suppliers",
+    "link": "https://www.nytimes.com/2026/11/20/us/politics/nvidia-alice-huang-chips-china.html",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI 매각으로 2026년 주식 예측 시장 전망 어두워",
+    "sub_title": "Prediction markets outlook for stocks in 2026 dims amid AI sell-off",
+    "link": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "글로벌이코노믹",
+    "title": "유럽 6대 명품기업 시총 올해 2510억유로 증발…中 소비 위축",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQclFWMFdtV1BPMVpkelBwdHliVEZvUF9FcFV0U2U3aDVQZU5xTGhQZ0JOaEhKdHlRbnprQVhEdzNLaGxLZFFGeDlNdkhMRUk4NmxsUy1fWXM5SDg4WU1sQ2dXc2pUdmpwM0k1OVVBS0hCaDU0R21HSzJ5UF9qTDRiLTdsbXdGNENO?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "오피니언뉴스",
+    "title": "프랑스 시위 속 유럽 명품 업체 주가 일제히 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kMTV1SWJaSXFRVVY0YWV2bk16V1locEkzSVNfczZoRWxqX2dQVGNVMlVOQ1UxUU9ZN2QyWWhvQ0U1aGMtYlJVSW9td3RYM0JIeFowODREbWRxd29hZmJEQ0U5czV1MHlldmZYNW1OUzJGdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 03:54"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "YTN",
     "title": "'수출 1조 달러 달성' 김정관 산업부장관 \"메가특구법 간절\"",
     "sub_title": "",
@@ -2908,95 +2998,5 @@
     "link": "https://www.nytimes.com/2026/11/19/technology/anthropic-ipo-employees-payout.html",
     "impact": "📰 일반",
     "time": "11/20 07:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "TRADING DAY World's biggest IPO? Pfft",
-    "sub_title": "",
-    "link": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-19/",
-    "impact": "🔥 주요속보",
-    "time": "11/20 07:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic co-founders deliver remarks ahead of landmark IPO",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408608647112",
-    "impact": "🔥 주요속보",
-    "time": "11/20 07:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Charles Payne: History put Anthropic in the same dominant bucket as fellow tech titans",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408618108112",
-    "impact": "📰 일반",
-    "time": "11/20 07:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Larry Kudlow: Free enterprise works, socialism does not",
-    "sub_title": "",
-    "link": "https://www.foxbusiness.com/video/6408616438112",
-    "impact": "📰 일반",
-    "time": "11/20 07:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "This Billionaire Just Made a Bundle Off A.I. But It Could Have Been More.",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/19/business/anthropic-openai-gregory-jensen.html",
-    "impact": "📰 일반",
-    "time": "11/20 07:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic becomes most valuable AI firm as shares soar in stock market debut",
-    "sub_title": "",
-    "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-    "impact": "🔥 주요속보",
-    "time": "11/20 07:35"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "뉴시스",
-    "title": "앤트로픽 IPO에 쏠린 눈…도쿄증시, 닛케이 나홀로 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBIRXI3UjRJMUkzZkxtNE1BQjFzbjNDeDdTQ2trQmJ4T2dSUTNlVU5LbEdCUFRKZVJ4LXJpTTBPaWgtTHVqNjRYcl83VW1mVHFfOUZDMkc4WXBWc3M2SDh5StIBeEFVX3lxTE1RTVBqeW1oYl95REladjBscnA0cVVLZ1Q0eEkzZGNPT2FqUkktV21sc2E3S2daMzdHTm14ZzdKZnQ2VzY0V0w4X1Y1Nkwybi1Fa1FhanQtcU9UdXItbHEyQUhxTS1KN1c1U0Uyck1GYko2TXVIa1NNMQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 07:35"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 팔로알토네트웍스",
-    "press": "마켓인",
-    "title": "팔로알토네트웍스, 1Q 호실적·AI 기업 인수에 주가 6%↑",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1kdnVjVDlqVnpYZWpsZWpTQmdNNjZZdTdVVEVSaldjV1ZBWTN6UUpUSlJNUFBqU092WEo2UzMtTnVRaFNzekM0R0g3ZkpkVVE2R3liVnU0cFNJb3VxQ0RLaFNwZzY4Q1JxSU14NWRWVlhQVWM?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 06:44"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 LSK아이로봇",
-    "press": "뉴스핌",
-    "title": "LSK아이로봇, AI 스마트안경·초소형 카메라 탐지 기술 개발 추진",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9ITDAyd0NmeEJWd2RwaDRrQUMzb3psc2V4M0hPdUw2OVNFTGpMaDcxSndpR0pXaThoWWJtOEVCNTI2Vm5BLXZFT3A1aV9rdkhpVVNRVlpwSU9mSTdl?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 06:44"
   }
 ]
