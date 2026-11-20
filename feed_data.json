@@ -1,6 +1,126 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 김범수",
+    "press": "Investing.com 한국어",
+    "title": "김범수, SM 시세조종 2심도 무죄…카카오노조 \"인적분할 직접 답하라\" By EBN",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1NRGtmOFNuM0N4dS1DN2ViaXFnNUhUdnhQb25Wb05xQkVWQ2NzLU5fMFJxb3hJaXl5c1NSRTViNE5EaVpDcVdHcjExejYtLTJndVRHTWVyaWNULWJ0NWpicThUVG5XemdmUnF5REQtQUc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 SK하이닉스",
+    "press": "조선일보",
+    "title": "SK하이닉스, 日 키옥시아 지분 14.1% 간접 확보",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQVlhHa01RUWZBYzJsbnNqQi1KYkVQVF9lLUJfYVVOQ1RYOFhvRGJ6WWN6SnU0T1pEMzVPUkRrb3d0c2VjaVVfNjZiSU5ZeVd5WjBwUzhHWjZ6YkYyWEMtUHZsZXhrRDRmM2p1aHBsWVR3QWVHdTJWQWotN1J0Z1kybEVsdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "달러-원, 뉴욕장서 1,340원 초반대 거래",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5rZjBTZ1RuWmdkV294dF8tZy0wMDhSbERINDNJZTV0MmNxQ0FTOTlUbjg5Z3FRRG40VUJsZDVFSDdCRWlWT3Bnbnl2Ry1SWU43bDU2OWFnR255OEFFVTFuUnluTzJEeVFfX0FMUkR2WnA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "한수원 \"대우·두산과 체코 원전 시공 협약 공식 종료\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXJzQkhnb3N3UmdsQkRydzdDOEZCM1NlR1dSaUU3YTNCa1JydC11dk9yQmRMUENucHVVUlAyRTFKRDJkV2p6STNaanJfQzY1UHhKUy1oenBuZ3Jkc1dBZUpTbURqTXlpSUR0ZXc1S0pLLXh6ZE1aWU93LVJmN2MyMGZFaWFVeTQyV2w3WEU5QQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "대한민국 정책브리핑",
+    "title": "AI 데이터센터 구축 빨라진다…인허가 일괄처리·평가 특례 마련",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9JallUQmlaUGd4bXVKRS1mMVVmaTlQcWxGMmsxeG8wWHhoQUxENkViUFJxZXhzcnRyOHBUcWFrM2o5bUpvSmJBclJDdW1Fb2RveGlnNVdkYmhtMVk0WHlKbUVKVXd4SHlGN1phUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KB Think",
+    "title": "[채권-마감] 주가 조정에 금리 급락…국고 3년·10년 3.7%·3.9% 하회",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5aUVNybkY1REd2MVdXYnp6aVlwRXJray1kSENBMG5tTllNTDVScXVVSjQ2dlNBdlA0Ukl0RjM2SUF1TnFjekhsNTFSNEFJOVA2N1ZEZXM3LU9ZcE1rUEZleC04dk12N25nQlZOWEczcDMtdw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "인베스트 | invest",
+    "title": "코스피는 반도체, 코스닥은 체질개선... 2026년 상반기 '엇갈린 실적 회복'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JdVdBNzZ1SjNBQWo5NjFzakJrT20ydmFyYTFFNmdzNXJvcVpZWElVVi1mUEF0QmFtdEJhSXRydXBINFI0UEFRd196WmZsN0hZRmZSQ1dBa1liQTNKWVpjYjc5QlRha2VTalFWNkJLalVXQdIBdkFVX3lxTE01X2ZwVUxtWThuWGQ0bTFzdFZnX3RRTjV3aHMxbWE2S0ViZ3QwMEFDRm81d0pWY1lnVmxIU0lYUFZpWmNHVk4ySlpBZXZqcEY0WUtkX29PUDJRaDNtY3RQbG40LWkyNFNfOHNwZWs0NGkzblEwZGc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic shares fall after blockbuster opening",
+    "sub_title": "",
+    "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "S&P 500 and Nasdaq open lower, on pace for worst week since April 2025",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=560dc1cc-6c82-4e98-9150-9d9e6a471b16&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "The bull market has a new problem. The 'smart money' is selling",
+    "sub_title": "",
+    "link": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Savings Bonds Offer Enticing Rates. You Need to Prove Your Identity First.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/20/your-money/us-savings-bonds.html",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Stock Rout’s Spread Beyond Tech Carries Warning From Dotcom-Era",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/stock-rout-s-spread-beyond-tech-carries-warning-from-dotcom-era",
+    "impact": "📰 일반",
+    "time": "11/20 23:55"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "마켓인",
     "title": "삼전닉스만 닷새간 7.6조…외국인, 두 달 새 국내 주식 45조 순매도",
@@ -2878,125 +2998,5 @@
     "link": "https://www.foxbusiness.com/video/6408602334112",
     "impact": "📰 일반",
     "time": "11/20 04:57"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "The surprising reason the economy is speeding up — and may have more room to run",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3d1d749e-1970-41d4-af12-ac0b974aea16&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/20 04:57"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Hot and cold starts: How major US IPOs fared on debut in 2026",
-    "sub_title": "",
-    "link": "https://www.reuters.com/legal/transactional/hot-cold-starts-how-major-us-ipos-fared-debut-2026-2026-11-19/",
-    "impact": "🔥 주요속보",
-    "time": "11/20 04:57"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Offshore Chinese Yuan Drops to Weakest Level in Over a Month",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-19/offshore-chinese-yuan-drops-to-weakest-level-in-over-a-month-mwnvjmz2",
-    "impact": "📰 일반",
-    "time": "11/20 04:57"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "매일경제 마켓",
-    "title": "“이 분 은퇴한거 아니에요?”…버핏이 투자한 日 기업, 주가 폭등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSUnFGXzJraUd0aVhKVG1zaHdYSVo5ZjZUS0pjOU5hSjJiVWNkY0lZbzRLZmRja0RlTUhXVEVnTGlYT01XXzM1WjN4ajQ3UlBRNHc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 04:57"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "앤트로픽 CEO \"9천억弗 컴퓨팅 지출 크지 않아\"…부채 조달도 시사",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBnclFTX3ZGM1lpNWNTNHNUTWU2U25IamFiejZ3QlUwR3pFelNjSzB2Nmp0Q29LX0NhS1EydHlQVURJbW1rZFo3NnRnM0gxSnpxQlZXQXdZdzFQRnVzaXF5MkN5eXhKS2pfX19nQ3U3cV8?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 03:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 에버퓨어",
-    "press": "마켓인",
-    "title": "에버퓨어, 실적 전망치 상향 힘입어 급등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1QWHAyNnRITjR2czFOWTlMS2wwSnY1bFEtZXAwS3BPWEdtSnZhX1hrUENzdndCWDVRc0I4VFpicDgwWElhVDV1OFJlTDg1bjNJeE1lTDdXU0hyUjNELW1TN3IwaGJkT2Q4YkNJWmJQdjIzOGc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 03:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 코히런트",
-    "press": "마켓인",
-    "title": "코히런트, 데이터센터 수요 확인·자사주 매입에 급등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4wakh0dFFUdW5aN3FfOHBiWUh2Ul9hUEg5NzBIclBpN0dELXVLQnNhY2xNZTVRSTFIWHFuMUdLWHhoRTV0UEEtb29nWGRfemN5SmdLU3VDdXdrT3M5MkMzYnlORGNydHFCc1kyM0pSdkNwSlk?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 03:53"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "마켓인",
-    "title": "BBB 푸드, 멕시코 초저가 유통 시장 성장 기대...'비중확대' 개시-바클레이즈",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1iU0tRLThKcmpReklUUWx1QVpSbGdTX0ZLWXlRYjkydFltZTAtQlM1dnRqemYxVWFCSDJYM2JtLWo5TUkxeDV0VWNSLUhlVXdtRTI1SXlwTDluRWtkNHJTSkktOUZBUFlMYzBGZ3NpdVRFdXc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 03:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "휴일 쇼핑객들은 Walmart, Target 및 기타 소매업체에서 합리적인 가격을 추구합니다.",
-    "sub_title": "Holiday Shoppers Seek Affordability at Walmart, Target and Other Retailers",
-    "link": "https://www.nytimes.com/2026/11/19/business/target-walmart-retail-affordability-holiday.html",
-    "impact": "📰 일반",
-    "time": "11/20 03:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "FCC는 자동녹음전화를 막기 위해 중국 기업이 미국 전화번호에 직접 접근하는 것을 금지했습니다.",
-    "sub_title": "FCC bans Chinese firms from direct access to US phone numbers in bid to curb robocalls",
-    "link": "https://foxbusiness.com/politics/fcc-bans-chinese-firms-direct-access-us-phone-numbers-bid-curb-robocalls",
-    "impact": "📰 일반",
-    "time": "11/20 03:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI 낙관론에 기술 상승으로 유럽 주식 반등",
-    "sub_title": "European stocks rebound as tech climbs on AI optimism",
-    "link": "https://www.reuters.com/markets/europe/european-stocks-rebound-tech-climbs-ai-optimism-2026-11-19/",
-    "impact": "📰 일반",
-    "time": "11/20 03:53"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic이 I.P.O를 앞두고 투자자들에게 자신을 판매한 방법",
-    "sub_title": "How Anthropic sold itself to investors ahead of its I.P.O.",
-    "link": "https://www.nytimes.com/live/2026/11/19/technology/anthropic-ipo-ai/how-anthropic-sold-itself-to-investors-ahead-of-its-ipo",
-    "impact": "📰 일반",
-    "time": "11/20 03:53"
   }
 ]
