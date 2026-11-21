@@ -1,6 +1,116 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "7주 연속 하락세 탄 비트코인...지난해 고점 대비 '반토막'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBURlRva0hoelZDclZmeE1ZTVN1ZURXUEM1OU9tR28teWtMakRhRy0wUUpMREZhbHFYSmdMVm4zUXlsZ1dYUVFNX0M1SFd5ZmZ4QjJuWmFMY1gwVzVEU2VEQS14VnVLdmU3LVg3aWQwRQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "수출 1조달러 시대…벌어들인 달러는 얼마나 서울환시로 돌아올까",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94WVd5Y1BOTTNPRmt1OGNMYXZqQlhYZS1NbE5WTVpGLXFYUjdCSVBramJwOVYzSlQza3lVOFFsdG9QbXVNMFdkUWY5NU5abGZMX1B3WW1lcjRGQXJNcGJlYmVjTnlVSFVlMHB5djE2T0k?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "트럼프 \"중국에 구형 칩만 판매…안팔면 中 스스로 만들것\"(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE05RzBnazFPMk5iQVFManV2VWEzTW5YWkxxYjFleE5CNF9STlZhNEd3UUNQQllNMGl6ck85SlBjLUlSNERwYy0wblpUeko1SlNRZVJza3I1VWZnWEHSAWBBVV95cUxNV19HSXdCeXdOZEhHY0dPY1BqdVdZRVlGT3FzUVFhU2F0MlFDd1lxYll0SmJSMHd2d1dRWGl5WjdGUThaRTZrbjFIeU9nNGpQY2hGTTBEWVMzZ0k0Zm5DOWo?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "조선일보",
+    "title": "\"실적은 날았다\"...코스피 상장사, 올해 3분기 누적 순이익 전년 대비 273% 폭증",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNY2QwZkp0cWF1OERYX3VtSi1yZ0UzYmtWV2ZYbDdILW0yX0ZTZVc1dS1QNkJnVFpUMC0yVDJlR1BkcHhqbk9HQ29fMEVxOEl4N2lLeHFrZUxvcFRETmx4SHBIMHk1TnAzMFBtQzRCZGk5RW1FM0p1T1d5alRKUHJwVw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "판사는 검거가 암을 유발했다는 주장에 대해 70억 달러의 합의를 승인했습니다.",
+    "sub_title": "Judge Approves $7 Billion Settlement Over Claims That Roundup Caused Cancer",
+    "link": "https://www.nytimes.com/2026/11/20/business/judge-approves-7-billion-settlement-over-claims-that-roundup-caused-cancer.html",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "시장 전략가는 다음 주 주요 인플레이션 데이터가 연준 금리 인상에 영향을 미칠 수 있다고 말했습니다.",
+    "sub_title": "Market strategist says key inflation data next week could impact Fed rate hikes",
+    "link": "https://www.foxbusiness.com/video/6408680239112",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 51",
+    "press": "Finviz Market",
+    "title": "51,000명 이상의 어린이 및 성인용 치약, 구강 청결제, 호르몬 오염으로 전국적으로 리콜",
+    "sub_title": "51,000+ kids and adult toothpaste, mouthwash recalled nationwide for hormone contamination",
+    "link": "https://www.foxbusiness.com/video/6408680144112",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "인기 있는 비AI 투자 기회 속에 있는 United Healthcare의 Eli Lilly",
+    "sub_title": "Eli Lilly, United Healthcare amid popular non-AI investment opportunities",
+    "link": "https://www.foxbusiness.com/video/6408680373112",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "비난 게임은 Anthropic의 격동적인 거래 데뷔로 시작되었습니다",
+    "sub_title": "The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut",
+    "link": "https://www.wsj.com/finance/stocks/the-blame-game-has-begun-over-anthropics-turbulent-trading-debut-280a34b1?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "다우지수, S&P 500 지수가 조정권에 진입하면서 월스트리트는 역사적인 손실을 입었습니다.",
+    "sub_title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
+    "link": "https://foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+    "impact": "🔥 주요속보",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "日증시 혼조 마감…닛케이 반등, TOPIX는 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtQnlXNFlFdF9GWjh1Sy0xa0pSN053RUNwNDBfTWVlUDljTURxN2RjdFJCMGVMM1Q5X3Bwa3RzUlVTckI0YklPZ1ZnMjUzNjFmaVJZbEJySHdmdlY2REF4YW5FWmxtcE5VWHRfZm1uck80VFNkMGR3QdIBeEFVX3lxTFBtQnlXNFlFdF9GWjh1Sy0xa0pSN053RUNwNDBfTWVlUDljTURxN2RjdFJCMGVMM1Q5X3Bwa3RzUlVTckI0YklPZ1ZnMjUzNjFmaVJZbEJySHdmdlY2REF4YW5FWmxtcE5VWHRfZm1uck80VFNkMGR3QQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 11:45"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 뉴욕증시",
     "press": "Chosunbiz",
     "title": "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
@@ -2888,115 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wamltTHNqU1Vuam10VjZlWjlmSEI1cThjd1JWRG83MG1qT3hlU1FPRzhmRHpaSkoxeXBzSnFVT2x2NWNvMmtnTXhSMVFYWmprbHN0SGF0RGVfM1XSAWBBVV95cUxQRFowS0wwT2cxNEVwLXN4aWtnaDJBeGpxRmoyeFlOMnIzQXhRRUwwNzd6eVlMQkFGSGpYSEFnR0xPSGJCcjhVOWxnT2dqVzl0blpBaFI3dWN1a3I3WVpVUWM?oc=5",
     "impact": "📰 일반",
     "time": "11/20 12:35"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "프라임경제",
-    "title": "\"강남3구 넘어 용산·동작까지…\" 서울 아파트값 하락 지역 7곳으로 확대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GN1VXZk92UjRSZm1tWngzWWloQV85dWlCOEZKQmtPemkyVVEyTEZGT0trSnd0M2x4bFJjXzhQX2dmN1R2RXYtOGk2Zk1zRGtHNFVMZnQxM1FZMHUwY0dPdA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 12:35"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 하나에어로",
-    "press": "전국매일신문",
-    "title": "[특징주] 하나에어로, 코스닥 상장 첫날 +61%대 급등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBnVzNvLVl5eUtVTVRYLWZ0U3E1RTZpanl6Y2k5elEyM2V2UWFvWEZleXJGZE81dmRVcHhhQnJGYzBEQmZabHpkU3VTQ3dlUE1aWWJxRnc2MmVuN3lFbVRLN0pYUGU4Q00tc2FoQjNR?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 12:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "인도 주식은 9개월 최고치에서 하락한 것으로 보입니다. 아시아 시장 대패 심화",
-    "sub_title": "Indian stocks seen falling from nine-month highs; Asia market rout deepens",
-    "link": "https://www.reuters.com/world/india/indian-stocks-seen-falling-nine-month-highs-asia-market-rout-deepens-2026-11-20/",
-    "impact": "📰 일반",
-    "time": "11/20 12:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI 매도 확산으로 홍콩 주식 2026년 최고치 대비 20% 하락",
-    "sub_title": "Hong Kong Stocks Fall 20% From 2026 High as AI Selloff Spreads",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/hong-kong-stocks-hang-seng-hsi-hkex-2026-ai-selloff-bear-market",
-    "impact": "📰 일반",
-    "time": "11/20 12:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Frasers CFO, 호주 입찰이 개인화되면서 악센트를 발휘함",
-    "sub_title": "Frasers CFO Unleashes on Accent as Australian Bid Turns Personal",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/frasers-cfo-unleashes-on-accent-as-australian-bid-turns-personal",
-    "impact": "📰 일반",
-    "time": "11/20 12:35"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "호주 연금 기금이 최신 경쟁자인 AI 에이전트와 대결합니다.",
-    "sub_title": "Australian Pension Funds Confront Their Latest Rival: AI Agents",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/australian-pension-funds-confront-their-latest-rival-ai-agents",
-    "impact": "📰 일반",
-    "time": "11/20 12:35"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 앤트로픽",
-    "press": "연합인포맥스",
-    "title": "앤트로픽, 상장 첫날 17% 급등했지만…\"지수 편입 후 매물 주의\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5tVWMtYUpaOGYwekhfbllWOUc2YmtHQktmNkNIVzh4VFVqMVJ4LURKOEpvU3JnQUFQYnFXdThUQmZlMTk1aldYRmVObE1iMXdjUGM5RUtYeG9EZjNVRUJidzRUN0JhY0JaN0o3N04xTG4?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "인베스트조선",
-    "title": "삼성전자 사장 승진자는 모두 반도체…전영현·노태문 미래사업 전면에",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOODhuSG1GWEw3WGR0UjFsSjdteWJjSW5rYlVzeDMxN3Zic2trYm9nTGcyMW1qSWd6Vk5LS3NNUnRfMmtrR3pHZDFTSG1zb0t0T3NFSXNoVXdiLTRWeHB5MWhTdUFTZ3BEdDdXM0hTNDNFNTd6ZUFuRnc0OVB5SjV5M0FpQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스핌",
-    "title": "美, 6개월간 中 기업에 AI 반도체 약 88만개 수출 허가…수출 통제 논란",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4wS2RCdWZrWjdQSm5CbURmUHhsX1NaSU41UkVObFdrR2REbmd4ZThwQmNSOTJYc1B3cjhvRUQ4bUZUODlkUEJ2UEN2WFh5RHdfYkduWG5VcXFqSXRY?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "‘SM엔터 시세조종’ 카카오 김범수, 항소심도 무죄",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBfTkF2MWhISkUxNUktSFlJSXB1Rl9kZFN4WE8yU0dtWTZYNEIzLXZrRVN0UnVCNVBYdlV2SVBjMEZ4cDN2NHQ2dEtIM0lyLVdhWTV6RmwtZzFwRGRMOGU4bUtKMHkzQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스핌",
-    "title": "[모닝 리포트] AI 투심 위축에 달러/원 환율 상승 압력…\"1340원 회복 시도\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oaEliZ3MxTlRyaEE5akVSWXc1SDZ5S21HYnRDUmw0SEFUZ1JxUl8tQ3luV01ISTJ2MkVxRkhhelFCTjVXQnFCWnpERVlGdlgtOUIxT2tFbUsyb1Fa?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
   }
 ]
