@@ -1,6 +1,56 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "네이버페이 머니스토리",
+    "title": "역대 최대 규모의 앤트로픽 IPO, 그러나 AI 투심은 여전히 제자리",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1lby1INFNwblZMTHRDUU5sVzk5SFhNdzNjWjhqcGpRLVFzbmFMNWVpZnM5Ym5QR3Y0OUlpR2h5S1lWYnNxSmdvMjJWMUw2UTV0QUE?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 23:31"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 대만",
+    "press": "연합뉴스 한민족센터",
+    "title": "대만, 잇단 급락장에 \"직전 거래일 종가 미만 공매도 금지\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1selBSV1lSbmE3SEg3bEQydlpOLVNwbEZ4MXBzSk15ckdNQnRHZnJJSHc4a1dUZ3E4akxpSTRmLTZXUk13eHdEVm5vOVBpbkhCSUd0c1RYVFBIbEhvaTNQYkM1VTJpS1l6bVZDUG52QVRTME5k?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 23:31"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "SBS 뉴스",
+    "title": "미 재무 \"'엔비디아 H200 중국 판매 허용' 정책 변화 없어\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80Z3ZlZ1JHYmI1bWZWSjFFcGZSMnJDdFZ3RzY2dVJBNTd6R2JJVVhOZXRjYnctUThQdWRTQWFPN1dHQmNBZWNsWHdTVjNVR3d1YzJuSXVVS0ktclpqZ3drZlVtdkxCaXNwdnc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 23:31"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 예산소위",
+    "press": "KBS 뉴스",
+    "title": "예산소위, 여야 이견에 내년도 지역사랑상품권 예산 심사 보류",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9WQ0EwR3NGdENPNWo1cDJjZU5haks4TDFUM0RCbTNtUU9jX2xHSldPVXFnY0EyRFJ4SEVUN1FMQWdWRFRmWmwtV2JGQW1uZTljY2l5cS14UjRaTmc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 23:31"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dow industrials and S&P 500 ended the week in correction territory as Nasdaq suffered its worst week since 2020",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf",
+    "impact": "📰 일반",
+    "time": "11/21 23:31"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 타이완",
     "press": "YTN",
     "title": "타이완, 잇단 주식 급락에 \"직전 거래일 종가 미만 공매도 금지\"",
@@ -2947,56 +2997,6 @@
     "sub_title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
     "link": "https://www.nytimes.com/2026/11/20/business/nvidia-ceo-stock-succession-jensen-huang.html",
     "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "'A.I. 에이전트가 사워도우 스타터를 위해 오고 있나요?",
-    "sub_title": "Is an ‘A.I. Agent’ Coming for Our Sourdough Starter?",
-    "link": "https://www.nytimes.com/2026/11/20/dining/leaven-lab-grown-sourdough-starter.html",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "터키의 밴캣(Van Cats)은 기온 상승에 맞서 싸우고 있습니다",
-    "sub_title": "Turkey’s Van Cats Contend With Rising Temperatures",
-    "link": "https://www.nytimes.com/2026/11/20/climate/van-cats-turkey.html",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "중국의 A.I. 야망이 돈 문제에 부딪치고 있다",
-    "sub_title": "China’s A.I. Ambitions Are Running Into a Money Problem",
-    "link": "https://www.nytimes.com/2026/11/20/business/china-ai-investment-spending.html",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "공연 노동자부터 거물까지, 중국은 모든 주머니에 손을 뻗고 있습니다.",
-    "sub_title": "From Gig Workers to Tycoons, China Is Reaching Into Every Pocket",
-    "link": "https://www.nytimes.com/2026/11/20/business/from-gig-workers-to-tycoons-china-is-reaching-into-every-pocket.html",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "엄청난 IPO 이후 인류주식 급락",
-    "sub_title": "Anthropic stock dives after rip-roaring IPO",
-    "link": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-dives-after-rip-roaring-ipo-095411951.html",
-    "impact": "🔥 주요속보",
     "time": "11/20 19:42"
   }
 ]
