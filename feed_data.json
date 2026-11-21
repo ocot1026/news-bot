@@ -1,6 +1,116 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 뉴욕증시",
+    "press": "Chosunbiz",
+    "title": "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM3B5QVRkNkkwRS00VzFXUkxXeEM5N0IwNGp5ZDVabER0aVdqUWVtOV9MemxLU01LTko2aGo3Z3NXWGZLd21lLWwyUTEtTjg0c1JhNl9TMENwM1VSb090N0x3SXhFRzdjZDFtWTd6RVktQjlFUVNobHA2Y0FzZ1k2X0pmcFV5VlpUYXfSAZ4BQVVfeXFMUF9ibzF0azNQSC1uSEs0cGlraXN2eThoM2VUUmg2UmFhNGQwWnF1ajdOX2JnSWpxYUVnZlZpOUtTVUxoQWg2dE5GM04xZmczTUNRZFdybVpCS01OV2FyYmJVWndsTGNUcjNFWGNiNWptR2tvaGl4dUZNVWxRYVJ0VWNzMDNob3Rjak9RQkcwSEFoakFsazBhU1hsdGkwVWc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 트럼프",
+    "press": "MBC 뉴스",
+    "title": "트럼프, 젠슨 황 복귀 촉구‥\"두 번째 기회 주어져야\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MN0Rtd2xTV2Q1SkRqN0xnbFlydGpaSUQ1V1BIS1pDNmJ0VXF6bWdlMTJvNEo4MXptZ2ZtcS03Rk9KcU83SXhtRERuR3ZiY19iQWNOYW05OWVsSzZyZmhIVGxXYW10dFYwck94WXA1SG82Y2lJ0gF0QVVfeXFMTTFFdmlyRWtKR2V6WXpaOEhfaUpTMGw4TVR6dkhieHFRdkdrbWE0SVZMTXlncGNPckplQzdEZW5CUzhHeUM3TXFrUGZObFh6RVZkMnBlZFFVaE5NSTZFdkV1R2hNQkhUOWJqMmcwSHl0V3dFOGw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 나스닥",
+    "press": "연합뉴스",
+    "title": "나스닥, 기술주 매도에 5.3% 폭락…다우·S&P500도 조정 진입(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55NzlORU9XMU9uYjRHM1BOckJLQUFBcFhUaG1CYzZucG1HSmM2M3U5NFhib3UzRVlYOGhrUDFXeFFEUlE1U0JOQ2dqNGFpMklrNm5hdWd3NThNRUU?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 나스닥",
+    "press": "연합인포맥스",
+    "title": "[뉴욕마켓워치] 나스닥, 코로나 이후 최악의 한주…증시 패닉 속 채권↑달러↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IdEtnRk94djJMSHhRNHRZZzZzSGM2QjA4UUpRVWs3S1ZWT2NJVXNuSWlZeUNfRUMzYTdWelZIUXZONUhaMndPdWxkUGgtVnI1MWFZVE16VGhDVUs0YU9QWFBURGpGbHdhN0d1U3VOckc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"믿을 건 金뿐이라더니\" 와르르…최악의 상황에 '비명'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93dV9zeFIyRkR2NC11TUJya2xYU3ZFaUhpd3daUEh0VjBPeS1TU1AzMHBoM1FLZmJaN2pVNVgybGx3eXFPNllSN0I0Tklyank0TEhKd1ZSYjR2UQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "미주중앙일보",
+    "title": "\"AI 클로드, 수학 최대 난제 리만가설 증명\" 주장 나와",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uQkxMNDRjNloyN2hBTHRGVF9sVXBXX3pmYjVLdGFtOWltZW4tSDRMZ1FHVkRyT0ZzbXZENUsybE1hazY1ck5WeHNldTNyNVp4UGhFQ0haa1N3RFlJaGQzc2VR?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBC광주방송",
+    "title": "트럼프 \"美 기업, 다른 나라에 데이터센터 지으면 고액 세금 부과\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fM3NLX2VpbGxLWW9SaERjcnpwRjcyZ1U3cnYxWDJOOWk1VkVFZTlLRDdrREtBREJFd2lsY1RqTW53ZXdFQ2RMbWVQU2xzRllSNVBPMHpPTC1QdUdhZWJYY1B3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "AI 안경 기사마다 나온 ‘그녀’는 누구?…“부정행위자 아니고요, 스마트안경 교육하러 갔다가 그만”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tSjJmVDkwakRnalJLUXl6VDRGd3NLWEFmTUNMR010bGs5TEh0SEcxZTgxT1N1SUt2eHd5VDhST04tcEcxUjhGelZVcGZ0M2gwNHAtNlNoUHZrUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 비트코인",
+    "press": "연합인포맥스",
+    "title": "비트코인, 연준 우려·ETF 자금 유출 탓 한때 6만2천달러 아래로",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3ZG9SSmNDTTNFTUkxZS1VZnBaM2V3MjRtc19HcHQ2UnIyTVRDc241X0hlM0ZDc3ExeXh2ZERRQnZ5cHJKVUROSEJwdHNpS2s5M0o0a3FTdTNfSUxTVzFETjJlb0VqcFpvcFFLU2VqYzk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "One thing Thanksgiving travelers can be thankful for: lower gas prices",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=6bb78ea4-00af-4916-8720-0d396222d337&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/21 10:45"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 나스닥",
     "press": "MBC 뉴스",
     "title": "나스닥, 기술주 매도에 5.3% 폭락‥다우·S&P500도 조정 진입",
@@ -2886,116 +2996,6 @@
     "title": "[모닝 리포트] AI 투심 위축에 달러/원 환율 상승 압력…\"1340원 회복 시도\"",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1oaEliZ3MxTlRyaEE5akVSWXc1SDZ5S21HYnRDUmw0SEFUZ1JxUl8tQ3luV01ISTJ2MkVxRkhhelFCTjVXQnFCWnpERVlGdlgtOUIxT2tFbUsyb1Fa?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "美 해사청, HD현대 울산조선소 방문…군수지원선 협력 논의",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1WZzE4cUlkLXI5ZmZ5WjduN0JEMzQ1MmZxMXpuRVdsWl9peU9Cd3o2U1FQRWNKamFiVk1yUkhDdVlIcERKWDJ1VHRVWThSVmJFR3F0UkVB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 삼성전기",
-    "press": "금강일보",
-    "title": "[특징주] 삼성전기 주가, 7%대↓... 美 반도체 급락에 '흔들'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE41N29XWEJ4UlZJcXM3WDVlVWZsQjZnZWhKblR0UTJwUXlsZjZJVTgwUDJVY3EwVTRjN2FzZzFWVWFpN2lPa1ZZai05TnhQZXp3OHczcWVzeXFvd29TZXVTb1BPV1ZQYmNhS3c?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 애플",
-    "press": "마켓인",
-    "title": "애플, 자체 ‘AI 에이전트' 개발…메타·앤스로픽 추격전 가세",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBKdmlRbml0ME1VZTdSb29QRllQOGVjSlVWdWpoY29hZzFtUnM4YnZ2MUJuSVZfS2M0QmlEaVljMUVYRzI0cURvQk85MHZaY0xoQThBc2U1TnVoVmZPcFdUYkNpMEZ6WmgwLUl2aTRaSmMwTkk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "엔비디아 이어 AMD도 ‘중국리스크’…“제재 기업에 기술 유출 의혹”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOLW9RUkRoV3pjcEtNYWZyU1ktdlNQWW5SNmJyRkRUZ0VDM1RrX25DOE5FRC1iRWpTX2xjVnJaYUozZnl5SFEtdmRjRHBfSjgyT0FUM0d0c3Q0V2hVVUpVUW5kY2xkdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엔비디아",
-    "press": "뉴스핌",
-    "title": "엔비디아, 투자자 오도했나...美 캘리포니아주 당국 조사 착수",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0zUGFORm8zNVphRTNXTWlVUGoyYVZzV1o3SjEyTXl1LXgxaUh6YkJwa1Zhb2x5NlRjeGJYX25pUzdpWVhkdllIdDh2MExJcnZKWmpiRk9wcWJSNDlW?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 하나에어로",
-    "press": "연합뉴스",
-    "title": "[특징주] 하나에어로, 코스닥 상장 첫날 장 초반 73% 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE80R2poZ216U1hZZ0VQa09NMWl4M1dKdzlmel9jSlIyUm5YdWN2RlJNUjdLc1ROYmtZcWNGbVdsVE1mNjJzNk1vWGZaMWwwS1J4ejJjMUllVEMyNjVCMkl2dtIBYEFVX3lxTE80R2poZ216U1hZZ0VQa09NMWl4M1dKdzlmel9jSlIyUm5YdWN2RlJNUjdLc1ROYmtZcWNGbVdsVE1mNjJzNk1vWGZaMWwwS1J4ejJjMUllVEMyNjVCMkl2dg?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 하나에어로",
-    "press": "뉴스핌",
-    "title": "[특징주] 하나에어로, 코스닥 상장 첫날 75% 급등…공모가 '훌쩍'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1VYVJyRkFQUzRsV3ZiLU9Eb1FXdF9oUjlpWkU3ZkFfck1LdVJjWVUxcVQxOEk5MF9Gd3o0cHIzTDI1WTQybUtQWHJiWjRIRFp1Z0prM3dWZUxtSkVh?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 하나에어로",
-    "press": "전자신문",
-    "title": "[ET특징주] 하나에어로, 코스닥 상장 첫날 74% 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBPQTZJQVBXU1RxX3dKLV9jVzJlVUl3RFVacTJQdmI1NHplNU5hSVRaRk9UU216T29PX2w5RDY1QnAxX01GeE42aGZwSUIzZw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 하나에어로",
-    "press": "남도일보",
-    "title": "[특징주] 하나에어로, 코스닥 데뷔부터 강세…공모가 훌쩍 넘었다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GWlZZcTgtLWs2LUV6WTU3Y3RqcFpDSkZ3aG1SVjE0WS1iNV9yaklEZUwyZUE1MFc2YWNxTUIxbG9FbFAtSjkzR2tGTUdDQnNiTkJ5SXVzWnJ0VzVUQktpY1lFRGlrWnl6YzVmMtIBcEFVX3lxTE9VMnAtUXhTTUEwWjlwUmhNZk9ZVEJjMWpTYjlJUDI0Nk5GQ0VTaWFLWnhqZmRFQTUzNXFubmoyaEh6dGxobEF1a1RnYUVKZUxISklaRkszMEVRV2dvWVpIOTNGR09ENXZlY0NkWkY0OFU?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "매일경제 마켓",
-    "title": "코스피 ·코스닥 8%대 급락…이틀 연속 양시장 서킷브레이커(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WUno2VjVac3MzYnppbWc0SGJqcXJLdjlLa1YyTDBKV0pjbi1peXlvaGptRkhEdTR1T0pkZkFTTWtlSldiZ3RINm1tNG5uaDhiSXc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "GTA 6, 매출 20억 달러 돌파로 기록 경신 - 업계 추산",
-    "sub_title": "GTA 6 breaks records as sales top $2bn - industry estimate",
-    "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
     "impact": "📰 일반",
     "time": "11/20 11:37"
   }
