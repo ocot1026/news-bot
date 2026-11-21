@@ -1,5 +1,25 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Goldman의 SpaceX 피치는 AI 부채 퍼즐을 해결하는 데 도움이 됩니다: Credit Weekly",
+    "sub_title": "Goldman’s SpaceX Pitch Helps Solve AI Debt Puzzle: Credit Weekly",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-21/goldman-s-spacex-pitch-helps-solve-ai-debt-puzzle-credit-weekly",
+    "impact": "📰 일반",
+    "time": "11/22 01:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "주식에 대한 잔혹한 한 주가 어떻게 일년 내내 주식의 이익을 거의 전멸시켰는가",
+    "sub_title": "How a brutal week for stocks almost wiped out their gains for the entire year",
+    "link": "https://www.marketwatch.com/story/how-a-brutal-week-for-stocks-almost-wiped-out-their-gains-for-the-entire-year-ae6773c3",
+    "impact": "📰 일반",
+    "time": "11/22 01:17"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "YTN",
@@ -2976,26 +2996,6 @@
     "title": "인류의 지분은 AI의 다음 단계에 대한 합리적인 베팅입니다",
     "sub_title": "Anthropic Shares Are a Rational Bet on the Next Phase of AI",
     "link": "https://www.wsj.com/tech/ai/anthropic-shares-are-a-rational-bet-on-the-next-phase-of-ai-a748dba3?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic의 데뷔 후 실패는 AI 거래에 대한 현실 점검을 제공합니다",
-    "sub_title": "Anthropic's post-debut stumble delivers reality check for AI trade",
-    "link": "https://www.reuters.com/business/anthropics-post-debut-stumble-delivers-reality-check-ai-trade-2026-11-20/",
-    "impact": "🔥 주요속보",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "오늘의 주식 시장: 기술 대패가 심화됨에 따라 인류 주가 하락",
-    "sub_title": "Stock Market Today: Anthropic Stock Drops as Tech Rout Intensifies",
-    "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026",
     "impact": "📰 일반",
     "time": "11/20 19:42"
   }
