@@ -2,6 +2,56 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스 한민족센터",
+    "title": "초겨울 추위에도 밤샘 대기…게임 열기 뜨거운 지스타 2026",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBfYlRENC04Z1pGRmhUMDR0bUFCdnVxWUstdkc4dWJ1TFM1YndISGdDcGNMS1FyWXVIWHQ4VnhGNVNlNFN4NzQzOG5EWTZOclBSWlR5RnVheVpTTkJPOEsxWUc0RVEtejhJMVk0emUxME42NG5B?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 03:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "PHP서 또 치명적 취약점 발견…웹사이트 해킹 경고등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFA1TmtZdUlNZFBOTjJCdkM3eENIZHo3MWRyZ201MWZ2d2pCZlB3dGFQdEo4WmVQWTNxdUdjRzlMQ25oM18weTNaOXVsV0RYbThnNWRza0pJaDNaS0ZDb2RSd28xU0J2dw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 03:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KDI 경제교육·정보센터",
+    "title": "지역 내 소비에서 지역 내 순환으로: 국내외 지역화폐 사례 비교와 시사점",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1xaFhiY2hsdXRXSDVYNUdLSGlVNnBobjhZLV81Q2xuMC1rdGRMQlU4NkxoblpiVTVMUWNqYkpfRGlpRkNxY2ZvMTctaWhNaEJ4bW5USlB2YTZkVE5NM3F6Rm1HalR5dEtqSDVN?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 03:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Anthropic IPO signals ‘beginning of a gold rush’ for small businesses, says biz tech CEO",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/economy/anthropic-ipo-signals-beginning-gold-rush-small-businesses-says-biz-tech-ceo",
+    "impact": "🔥 주요속보",
+    "time": "11/22 03:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "What just happened to tech stocks?",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/markets/article/what-just-happened-to-tech-stocks-162354774.html",
+    "impact": "📰 일반",
+    "time": "11/22 03:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "SBS 뉴스",
     "title": "트럼프 \"중국에 구형 칩만 판매…안 팔면 중국 스스로 만들 것\"",
     "sub_title": "",
@@ -2948,55 +2998,5 @@
     "link": "https://www.nytimes.com/video/business/100000011293737/how-the-us-economy-is-tied-to-ai.html",
     "impact": "📰 일반",
     "time": "11/20 20:41"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic은 월스트리트의 과대 광고에 부응하지만 AI는 계속 의심합니다.",
-    "sub_title": "Anthropic Lives Up to Wall Street Hype, but AI Doubts Linger",
-    "link": "https://www.wsj.com/finance/investing/anthropic-lives-up-to-wall-street-hype-but-ai-doubts-linger-d6a4519b?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/20 20:41"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "유가의 뉴노멀을 설명하는 7가지 차트",
-    "sub_title": "The Seven Charts That Explain the New Normal for Oil Prices",
-    "link": "https://www.wsj.com/finance/commodities-futures/oil-prices-new-charts-f84ad9d7?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/20 20:41"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "뉴스톱",
-    "title": "AI Stocks Plunge as U.S. Markets Eye Midterms, Big Tech Earnings",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5IYk8yQUlINUVvS1R5UnRaMjZQWFYxM1VHajg2UUhPM2IwWW5tcG1FQUFzdkhaaEJtNzZCN0lXSkoxQzJoM3VBWERkTndJd2R6eFZjMjBQMVhQVFNBb0E?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 20:41"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "코스피·코스닥 5%대 폭락…양 시장 ‘매도 사이드카’",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1RR1RIUUNkX0swUGw0OW1EcTIwZGJQbXhwVnhaS2N3TXhwdkV5dUhhcnN1NmVhSTk1Rkp0MkRmbDlYYzhYbE85UWVENUlDNmZVZ3plVHBrVVdwTWwwUnZJSTUxQW0zQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "대한민국 정책브리핑",
-    "title": "대한민국 수출 1조 달러 달성 - 전체 | 카드/한컷 | 멀티미디어",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQbmRFcHlRVWJzSE1TUVdtZXRrUG9PM2pJeFgtSDMxaFF1U09pUkRNZUo5alNreWVHNjVGSHBuYVcwc0hrZUxYNWlHbTViYWxFTEZxMVBCZ0w5U3MyeDJkZXFUQ2wzRXNUZkZ4MEJncDdfa2pkeHhCZUhBTW1VVnR5ZHlETmVDMDdmc3hN?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
   }
 ]
