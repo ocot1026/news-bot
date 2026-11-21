@@ -2,6 +2,36 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "[테크톡노트] 불 꺼진 AI 안경, 나를 찍고 있는 걸까",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBsZjNDR0w5V256U2ppcGdNUXRVaEVWd3ZaOThVYjNmVXM2UlpuZTB1MlNXeTVhYU91cWNMem1lMjhtaWU3TDFyMC1oUHdoQmQtSmgtak9qTS1wRnfSAWBBVV95cUxPYjhRNGZrbTZkWEl1eGg5cDdFUWt0bEhULV9VTXNoZEgxekc5SzcwbU5lbGZLX1dQb0htd3UzM1FHUG9VT1h2ZHFkaFZQejVDU2djOENud3B1NVpadUx4NlA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 05:26"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "미국 4년 만에 '빅스텝'?...세계 금융시장 촉각",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOODF5b0RtaHVNNjdBUFRkZ3hsVV95Z1VfSkJ4X0gzQ1JOZDJIS3lzLXRyd3JhZzFPMWRCbk11bFFKWTdESmNHU1pNblJXd3dSMHBqajFoUjRjMWotc2c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 05:26"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "CNN “미국 국가안보국 핵심 내부통신망 사흘 넘게 접속 장애”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9fRDgyU1FtSjdIVWtNNk9NWUhYQmMtaEhJeUdWOExHQUk0emdFeXkydHVqSy1mZkV3VG9Gc2RVZkx5RXJDaE9OMFItM3NNV2FkZkQ2a3ZCUWFvYUE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 05:26"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "매일경제 마켓",
     "title": "“앤트로픽 상장했는데 내 주식도 오를까”…수혜주 살펴보니",
     "sub_title": "",
@@ -2968,35 +2998,5 @@
     "link": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-column-roi-2026-11-20/",
     "impact": "📰 일반",
     "time": "11/20 21:43"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 닛케이",
-    "press": "연합인포맥스",
-    "title": "[도쿄증시-마감] 닛케이, 앤트로픽발 기술주 매도에 4월 이후 종가 최저치 |",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA5YjRxdTJRX0VabnlaRHBZYjFNVkQ0WHNld0w1b3NLejAwNVFBZ1AyLTd5cTJSNlpmYVo5YUx4cWJxS1l5NmFHS1oxLVhCMks5RjhkS21WV1RMUFpYVlctUllHNjJvREFtdktHNHFGMGhVcGVW?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 21:43"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "뉴스핌",
-    "title": "유럽증시, 기업 실적이 지수 떠받치며 일제히 상승… 3개월 반 만에 주간 기준 최고 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9LMnBDUnI4Q0lTWU5kekJKcnloUlJkMVo5Y2hDcDB2bU9CdDc1Zk5LaVdnMXQ1SVZoMzJQYThsMUxwcERTdVhuNmZpcl9ZcXpGclozVUQwcFgyS2pK?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 21:43"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "경북신문",
-    "title": "코스피 5.21% 급락…4800선으로 후퇴",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE84aGVqZXN5M0FSV1JFbEo0THc2RnRjZmVfOGtoUlBFTUQzY2xPRHppWWN6bFh1NEE0cnNndEswSGlHNGtHX3RSdDNBWVdhbnI3M2NBSjBfRHE?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/20 20:41"
   }
 ]
