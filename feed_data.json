@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 나스닥",
+    "press": "MBC 뉴스",
+    "title": "나스닥, 기술주 매도에 5.3% 폭락‥다우·S&P500도 조정 진입",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VNUNLMkdxZGRDa1ZIN3BSV1FBc0lIUnNLUlZRYXJSYi1qYjZ1b0ZmV3FibTYzZzg4X2E4MmhTbnFKbklLNmFva1hCSVc2d25fb0dtQ0Y3RV96eGwzNHZSR0tLam1Vc09na0VYWktlX3FxOW9O0gF0QVVfeXFMUDhxcmxEOFJyaXNJa0RfN0NnTllNZndfYU5RNlVRTDJMZjZZNU9YdjczSmQwSmt5S1ZMa0dFaVJlMGhtT3hIeXI1RVlJN29QUTBlck83dE9idTlySW1LQVNGSXVEandyZ2NhNFFtQTlNYlp1Njg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 09:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 SK하이닉스",
+    "press": "한겨레",
+    "title": "SK하이닉스, 키오시아 지분 14.1% 확보…전환사채 주식 전환",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5pQ21JSHVxSEFFV2pOcTVwUk1EZ3Vwb2gwS3NNWVhhRnBBQTNibkpjLWpyam5Nb0NPU2JlQ0t4emZERTd6WWNGMGFJMGw0cG5hYW9UblotRTl5MVZZbzBhbkdPMExiWUhDREE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 09:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 복지부·진흥원",
+    "press": "MEDI:GATE NEWS",
+    "title": "복지부·진흥원, 미국 헬스 유에스에이 2026 디지털헬스케어 한국관 운영",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE93RlJkMkV5N2pLZGVoZnJldnIxdGh1Sk1ReWNXZlFxd0lUcnpoVmJDSzdtMjluQXBHdktsa3FiZEFGYWthX1hlb2VmM2s3RFAxQzhuSEUwZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 09:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국채선물",
+    "press": "연합인포맥스",
+    "title": "국채선물, 美 기술주 투매에 상승…10년물 57틱↑",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9KNlZTTjZjTGM3MWVuSzdqVm9EMEV4dFVOdUhyeEVFY1pXRVB3NlYzbjM3RWhzRE5rWlhJS2NaQ1RrSWpsNzdxZjNUYWY4UXNFSzNEVHZoY1h1RnNrVGxhVC1oYkNDT0wwbVJwZlBsUjY?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 09:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 엔비디아",
+    "press": "연합인포맥스",
+    "title": "엔비디아, AI 테마 투매에 '와르르'…알파벳에 밀려 시총 4위로",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBNZWVzWTZpYXRxWElLX2dqR3lGSXlWaGJzRnZzeEcwRkFIdXJZeWFsWkxSUlpKaWxYcmQ5b09vTTFnaTBFcHRveUFjby1DZkpwcGhOMWpwVkNSY3NHcEVlM3F1dGZmdWpmWndGazNtbTE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 09:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 대웅제약",
+    "press": "MEDI:GATE NEWS",
+    "title": "대웅제약, ‘펙수클루’ 내시경 후 위궤양 치유 임상 결과 공개",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE14bFhXLTRRRHlPMnAzWU41dVpFNTREcWc0Y0twVXFmUGZhM044eDhweU5QUF9aZVFpQmtqSDlOSDhfS091WXNLN1ZLX01adWtrTzgxUzd3cw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 09:15"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "기술주 붕괴가 가속화되면서 이번 주에 이 주식들이 가장 많이 폭락했습니다.",
+    "sub_title": "These stocks were crushed the most this week as the tech wreck accelerated",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3c6fd2fb-0107-49a9-b380-9254239822bd&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/21 09:15"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "KBC광주방송",
     "title": "트럼프 \"젠슨 황, 세계에서 가장 똑똑한 사람...두 번째 기회 줘야\"",
@@ -2928,75 +2998,5 @@
     "link": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o?at_medium=RSS&at_campaign=rss",
     "impact": "📰 일반",
     "time": "11/20 11:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI 무역 암울한 상황이 완화되지 않아 아시아 증시는 2020년 이후 최악의 주를 향하고 있다",
-    "sub_title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
-    "link": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI 불안으로 인해 위험 선호도가 약화됨에 따라 달러 가치가 19개월 최고치에 가까워졌습니다.",
-    "sub_title": "Dollar near 19-month peak as AI jitters sap risk appetite",
-    "link": "https://www.reuters.com/business/dollar-near-19-month-peak-ai-jitters-sap-risk-appetite-2026-11-20/",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "마크 월터(Mark Walter)가 보험사에 내부자 거래를 제안했을 때 이 전직 보안관은 흥분했습니다.",
-    "sub_title": "This Ex-Sheriff Was on the Beat When Mark Walter Loaded Insurers With Insider Deals",
-    "link": "https://www.wsj.com/finance/regulation/this-ex-sheriff-was-on-the-beat-when-mark-walter-loaded-insurers-with-insider-deals-dbfd45d1?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "RBA는 인플레이션, 일자리 상충관계 관리를 추구한다고 이사회 구성원은 말합니다.",
-    "sub_title": "RBA Seeks to Manage Inflation, Jobs Tradeoffs, Board Member Says",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/rba-seeks-to-manage-inflation-jobs-tradeoffs-board-member-says",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "인류 IPO 이후 4주 동안 달러 상승",
-    "sub_title": "Dollar Heads for Fourth Week of Gains Following Anthropic IPO",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/dollar-heads-for-fourth-week-of-gains-following-anthropic-ipo",
-    "impact": "🔥 주요속보",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "채권 매력이 성장함에 따라 인도의 주식 랠리는 가치 평가 테스트에 직면",
-    "sub_title": "India’s Stock Rally Faces Valuation Test as Bond Allure Grows",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/india-s-stock-rally-faces-valuation-test-as-bond-allure-grows",
-    "impact": "📰 일반",
-    "time": "11/20 11:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 삼성전자",
-    "press": "MBC 뉴스",
-    "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjVUc0djdaRWhyUGpiRkxCanRkVnBocm1jMWJiQ3pkTzV5MjIzalVfRGQ5TDAwOXZseFBhWTg3c2I4dS1GVGxublc2VlNZbDAydS1aWU9FU2x5dVFsRWRvUENkYXBIWnpzTVl3eGNaVFFVZXNh0gF0QVVfeXFMTVQ4UFZ0Q21SX1RCWjBVNnNpZVM3RjBGWVVSNkMzSVp0V3RJSFZ4Sk9PMTdrUEJlUFZscnNpYzBZOTUzak1YcE15UDF1SjFCTFRlc18zVnllY3FfOC1xVTZQT21RcV8zeldicnkzQ183LUtpemg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 10:44"
   }
 ]
