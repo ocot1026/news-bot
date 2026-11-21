@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스 한민족센터",
+    "title": "'AI 거품론'에 美증시 대폭락…앤트로픽은 공모가 위협",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5TZmJVXzR3a0plRmd6WEVtV1MyUGkydmlEaFptUGRGSjdXNUhyVDY0b2pvbUhDRHhRZkF0dGp0c2tuSndsZ1Q3TTdPQkJDTU9tOUI5bFlSSm5mQ2ZhQXh2V3lidmFRM0JKdEx3T0ZxZncwSFQ5?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 20:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 MBK파트너스",
+    "press": "Chosunbiz",
+    "title": "MBK파트너스, 日 와콤 1조원대 인수 추진",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObjIxQVlEY3FEUzFpcUF6cExGUE5XN0dfZS1fVnV5clVhVlh2aGUtenZMVDhsU1k0NVFWVmhHcEVhelFQbFJoRUFtQ2JrUVlnVkdhb3pTVXlNX1RSREh4b19xVWYxZ1NFZTRJbTJQdjhlOUFQMlpiR0hPUW5RZk5qdDg0VzMyRXdvc0JhV3NaWWRqU0FHWXVjTERKMXg4Zw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 20:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "코스피 5,000선 회복할까...미국 물가·금통위 주목",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VT0FuSE5Xc1pWMnBlV2I0aTV1RThJRGNSUkFRZzNsb1BqZnp6MmkxUkZCTjlQNGV0bnNYVzFDMEJfenhDalk0X1g4T19rU2d1QVBuNi1QeWkySGN1UEE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 20:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "머니투데이",
+    "title": "트럼프 \"미국 밖 데이터센터 짓는 빅테크에 엄청난 세금 부과\" - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA5V1BQbUROR1ZJb1J1cGZsZ2pnRF9MZEtLODYtZEQ4ckt6VnV4ZWc5WWQ3TVlqUFc1N3ZzZ001eGxHbVp4TlBzRGdMSldkY1B6aVVCMTE5SGVsaW9JZGNaNDd2bUFtczhJ0gFuQVVfeXFMTk5odDVYLVBqYjhPX2o5TUFTWThqMjluUUcwTkhrdXFJbFhLbDJQclhIUmxxdXlGbEozbnFBWDloV3VPbm1IMk55WGtkOGJ2N1BYRDM5OHhDV2tYNER5RGI3SkFXbVVuenQtY2ZKZHc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 20:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "[게임위드인] AI로 외연 확장 노린 지스타…관람객은 게임에 몰렸다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBOTXE0eFlrTnE4Sjl2b1FfbHdxVVNRVzNhQ1lpNnY3QmhPWUlEVDItTmoxUVRUSWE3cDFBWDFMcktvTmo3QUhxTzRBMDhha0trS05TMkYtaDRKMlXSAWBBVV95cUxQOWU0SlpKbWpDR25MMkFnaV9XcV9udDdKRUhxT0pBU3BWSmRCRmNvS0RaUlUzcnl2RmVVNzhNUlczSkw3U1BXaHF4YWVlZ3haakRCSzJDWmNSU3dlWUYycVI?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 20:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 하나에어로",
+    "press": "연합뉴스",
+    "title": "[특징주] 하나에어로, 코스닥 상장 첫날 6% 상승(종합)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94cjFLcFlUdHc5VkU3MjhzQVZKV1U3aEI4Z2NmdlR2WkltaGxUaUROeWE2RWhiSUJRZWtVc0VwekZVOTRYSS1ROGQ1RkhBNGhlbzNMM3hLSnM3anfSAWBBVV95cUxPcDYwR01PMEV5dG9ZVzl6SmRTZXZSZTRMMVFwdG5yRFN3RmxzNFVwNDEydmJ2WXVoeVp0QXVzc0RBYlpVU2dkZjBSTVB6UWRFM3ZwbXFhbVNHTUJIN2NIN3g?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 20:29"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "일련의 기술 중단 이후 월마트 쇼핑객들이 비상 물품을 비축했습니다: 보고서",
+    "sub_title": "Walmart shoppers stocked up on emergency supplies after series of tech outages: report",
+    "link": "https://foxbusiness.com/economy/walmart-shoppers-stocked-up-emergency-supplies-after-series-tech-outages-report",
+    "impact": "📰 일반",
+    "time": "11/21 20:29"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 대만",
     "press": "KBS 뉴스",
     "title": "대만, 잇단 급락장에 “직전 거래일 종가 미만 공매도 금지”",
@@ -2928,75 +2998,5 @@
     "link": "https://www.reuters.com/markets/europe/european-shares-head-steepest-weekly-drop-since-march-2026-11-20/",
     "impact": "📰 일반",
     "time": "11/20 18:32"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "인도네시아 루피아가 계속해서 최저치를 기록하는 이유",
-    "sub_title": "Why Indonesia’s Rupiah Keeps Hitting Record Lows",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/idr-usd-why-indonesia-s-rupiah-is-so-weak-and-what-it-means-for-the-economy",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "국채, 헤이븐 수요에 5개월 만에 가장 긴 반등 예상",
-    "sub_title": "Treasuries Eye Longest Rally in Five Months on Haven Demand",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/treasuries-eye-longest-rally-in-five-months-on-haven-demand",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 닛케이",
-    "press": "연합인포맥스",
-    "title": "[도쿄증시-마감] 닛케이, 앤트로픽발 기술주 매도에 4월 이후 종가 최저치",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoTE5tSXVvMWstRGhWNnJ0UGRxZFQ5VTE0MURPSG5HTldVZWtTa3ViWVF3bXlDV3dBdGlaYUUwejBKZFJaUU0wYmRDSElHc1p0Wnc0QTU4RWV5Vk1NeUpkb0hydHl2T24wcmNvQXkwcGY?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "中 AI 기업들 '엔비디아 칩 금단 현상'…\"챗봇 문서 길이 제한도\" - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB4TnRrZmtYTzRkM3NxcGdxZE5JYTg3a2lvbUt2c1FZcGpGVXgwM28tcVplSjh6QWpvZDMwWXRfWldUR3l4c0dZaXZRMmJkaEctNl9JVTAyWTBaZlpQUFFrRzRQYzdnQ2Na0gFuQVVfeXFMUENBS2Y4NklGVW5ZMDFmY1NwSjZ0TjVaR1lOSW01YUFqMFZQQlhSbktDWkUxMkh3NzBvMldPQVJkcVo5d2JReVlEZnhfNmVVSG41dXR3VTVTaVZOM29YMzNaMFBuWFROTTI3TGdDZXc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 17:28"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "반포현대 재건축부담금 시한 12월30일…서초구, 제도 폐지 거듭 촉구",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OOEl3anNCNlVBZkdUNHhncVJfdndtaXM3RXdLQXJzZGhaMXJWcm8waVdGRmhMM0k3NzRXX3FXbVJzbXlYWFc1UDdpbVZwd3JyVGFpa3dhXzVQcVJ6RW1tOGk3VQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 17:28"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스핌",
-    "title": "가계대출 줄어도 주담대 평균액은 반등…30대 비중 '역대 최고'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9qMGhlbmh0OVM0M0Z1R3ozaDBqVEJBajBuNXpoTlZhMG52RnFVanQ3ZmVQU2w0eTJ3MFBSUm1jY0N1MDZGMEdXaXkxOEctY1FuMzd3MDJnQXRKZ0dE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 17:28"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "'SM 시세조종' 카카오 김범수, 2심 무죄…AI 중심 재편 탄력 붙나",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1JNzJLd2pibXEwaFJyempRTGFKOXVFdVN3aDJTQ2FjYWM2NldsbHJIQ1lLT3BOZENtVlVhMXlFU0hPTkdZX09lYVZJZHpYOWZXS2VMWlNzN1pDdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 17:28"
   }
 ]
