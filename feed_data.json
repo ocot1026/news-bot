@@ -2,6 +2,26 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "미국 4년 만에 '빅스텝'?...세계 금융시장 촉각",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBteTJfZ3AyeEh6Z3JTWFdyeDJuR3c2bkFWemRKUGFicnVhNk5lcm5NOFhhNXdHSm5oZk9iejNDN0JGdkZfLWdnY3RobUoxZkd3VDJtZzJIZF9pOHFKTmc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 00:27"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Finding your edge in a market and economy dominated by AI: Barron’s Roundtable",
+    "sub_title": "",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=a62375af-d903-4733-9192-735e87bcccb5&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/22 00:27"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "네이버페이 머니스토리",
     "title": "역대 최대 규모의 앤트로픽 IPO, 그러나 AI 투심은 여전히 제자리",
     "sub_title": "",
@@ -2976,26 +2996,6 @@
     "title": "오늘의 주식 시장: 기술 대패가 심화됨에 따라 인류 주가 하락",
     "sub_title": "Stock Market Today: Anthropic Stock Drops as Tech Rout Intensifies",
     "link": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-20-2026",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "이전에 S&P 500의 연속 패배가 6회에 도달한 후 다음에 무슨 일이 일어났는지 살펴보겠습니다.",
-    "sub_title": "Here’s what happened next after previous times the S&P 500 losing streak reached six sessions",
-    "link": "https://www.marketwatch.com/story/heres-what-happened-next-after-previous-times-the-s-p-500-losing-streak-reached-six-sessions-13ff7704",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "갑작스러운 CEO 이후 주식은 종종 번영합니다. 출구. 엔비디아는 다른가?",
-    "sub_title": "Stocks Often Prosper After an Abrupt C.E.O. Exit. Is Nvidia Different?",
-    "link": "https://www.nytimes.com/2026/11/20/business/nvidia-ceo-stock-succession-jensen-huang.html",
     "impact": "📰 일반",
     "time": "11/20 19:42"
   }
