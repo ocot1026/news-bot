@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 타이완",
+    "press": "YTN",
+    "title": "타이완, 잇단 주식 급락에 \"직전 거래일 종가 미만 공매도 금지\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1XRmpWRlJIbFBSVTVOcGZxSDl6bnA2YlR6UzBibFNEcnd5S01tdXFRWDNKT0hVWDJkNHNtel9tUTFQbC05VWlkNnJKRUNpcm5QTVRDbkU5c0ZkaFRRS3c?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 22:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 앤트로픽",
+    "press": "전자신문",
+    "title": "앤트로픽, 상장 이틀째 8.5% 급락…공모가까지 위협",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9XbVhBdVlPZmhOU1M5QkUwcWFReldiV2QyakRMZ3M4ZGxHcnc1djdkLWRyVjdFVy0zRVVMWVN1YnFOWnA5NDJKczQ4eE1XUQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/21 22:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스TV",
+    "title": "트럼프 \"다른 나라에 데이터센터 건설 시 막대한 세금\"…젠슨 황 복귀 촉구",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1XR3UzYkhOQzNTV3U0UWZ0anZTUmM0Q01QVEg5WjJPbC04SHpTY3NNNjBSMmstS1NzWTlsdXZlc3Jjdy10TldxQi1sNkk4OTZFOXFKR1k4UHBwOWhjdW4xSW1Wb1J2Tmc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 22:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "나경원 \"10개월 만에 주가 반토막…결혼·은퇴자금 사라져\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE0xRXBvbmMzc0kwcVc0aDZMV1BDbWd3cC1rSG9FSHF0M25HZEN5UXQtX2RlenR3eW1yVl9QR3A4aU5hbGYwcHU4V0FDVl9XanI2NS1SX3QxZWRZUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/21 22:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Wall Street Asks What Can Save AI Trade After Anthropic Wipeout",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-21/wall-street-asks-what-can-save-ai-trade-after-anthropic-wipeout",
+    "impact": "📰 일반",
+    "time": "11/21 22:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Elon Musk on His Politics, a Potential Merger and Ukraine",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/21/business/dealbook/elon-musk-dealbook-summit.html",
+    "impact": "📰 일반",
+    "time": "11/21 22:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jensen Huang's next move: Wall Street floats Intel and SpaceX",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/markets/article/jensen-huangs-next-move-wall-street-floats-intel-and-spacex-but-bettors-are-banking-on-a-surprise-second-act-123015670.html",
+    "impact": "📰 일반",
+    "time": "11/21 22:30"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "YTN",
     "title": "이 대통령, 울산 AI 데이터센터 현장 방문...\"속도 경쟁 핵심\"",
@@ -2928,75 +2998,5 @@
     "link": "https://finance.yahoo.com/markets/stocks/article/anthropic-stock-dives-after-rip-roaring-ipo-095411951.html",
     "impact": "🔥 주요속보",
     "time": "11/20 19:42"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic은 기록적인 1,073억 달러 IPO 이후 시판 후 하락세를 보였습니다.",
-    "sub_title": "Anthropic slumps post-market after record $107.3B IPO",
-    "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-slumps-5-post-market-031104281.html",
-    "impact": "🔥 주요속보",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "글로벌이코노믹",
-    "title": "中 AI 신성 지푸·미니맥스, 홍콩 항셍테크 지수 전격 합의… ‘글로벌 AI 붐’ 정조준",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDE5TGsxZ3ZRNFNDUUtUYmsxQVR5bl9rNklFb3pGeXRJaHlUQXM5M1dsSlRmbDhYVDMxYmQ5ekJuT2JkRkNfQmxhTjJTcExsWXhUTlBHR0RyNDA2VkVCT3hWbFJ1cjBkUkpyV3hENzNhdHlkRVZockhSbW41S2hqMjlkZWxmbVk4?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 19:42"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "'SM 주가조작' 김범수 카카오 창업자, 2심도 '무죄' 선고",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5XTHd6V1IwUE9DSUdmcW9kcmF6Vm1UWU9KYm9LRGd2TE9kaEtveVI3TzVTeVJIUmFtMkhHeG12NzZsSE42ckJPWTREWjM4MFc4UkhkYmRETVdqTlM5X3ZiQ29YclEzMmdwdjNpRV9Ldw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "10월 생산자물가 0.1%↓…3개월 만에 하락 전환",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1MWG9GSEp6MXdzNHA4T3F5ckJkSXFxSnRwaEM5YXE1enY3TVIwYVIwSUg0YkU0QzQxdWoxNjRQNEt3Q2FCVXFHVklDNTk5NnhwUGlJT3FEOGlCaHZOcUtsWGg4d1ROZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "美, 중국 반도체 숨통 더 조인다…삼성·TSMC도 출하 중단",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1ocTRubF95TUZOcFlDZThPOE5VZkMtSGNlUTlBc1BQVVFYb0Ztb3Rnei1oQkpCVjM2cWtrUzRMZEVRcW5JQWtKUXBsVU9LMTZ6YzlmVTAtNzhrQQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "외국인, 10월 국내 주식 26조원 순매도…두 달 연속 ’셀코리아’",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5MeTB6LTBGVGVlVzdYOTg2T3ZGTWJxcnFubWxnMmZQaC00R0ZJZlp3UzAwZC1VV3NMWkJNUHpFbTBBR1kxTmhhc0N5aG5WZ0MxU0JsbWhPWHZ6TjVHRlRhbVhCODA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 SK하이닉스",
-    "press": "인베스트조선",
-    "title": "SK하이닉스, 키옥시아 투자용 CB 주식 전환…최대주주 지분 간접 확보",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTmk1NTlwdDhqZjRKZzJxN3Z0QUpCVmF3VVM4STBPZzliVno0SDZaQU9WeFYtbW12N0tmU19QWl9xSTU5d3hBR0Q4bjRZYzMyVWZpTkdPcDBSSURNcW42VW9nUEx5bHhpenQxMGRhS0lidjBFMldJTVlDcHZhTWw1cXNITQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/20 18:32"
   }
 ]
