@@ -2,6 +2,36 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "젠슨 황 퇴출 뒤엔 반복된 거짓말…“네 뇌에 오줌 누겠다” 폭언도",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUFBWWDFheXB5VnpDUDA5NEJlWUpXbHhmVXI1NkxNMWM2WVF1TVFhaTFvVG9zRUpOWGgyUkkwMUNNRDIySjhrbGgzZXVud3JPdEVDcUNPaVpRam53Tk5lOUt4cF82aGRnTy04Uk9JX3hnU2JLTlE3LXlwbU51b3g5ZW9n?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 06:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 토큰증권",
+    "press": "네이버페이 머니스토리",
+    "title": "토큰증권, 시장을 움직일 첫 번째 조건은?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9TaTJwcHF4OUNHNWdiS2g2Q2pkU2pGLXIyTC1SUjl4N2FxdlU2NWl3eXJ6WW1DWDBSNHNMVEczUVJVWjRlT1hBejZxVjlndTZLRFFPT21tNTVLUm8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 06:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[뉴욕채권] 단기물 주도 초강세…美 기술주 패닉에 '내달 동결' 고개",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jeDE2eHM4cldpZVNyb2Uxc3Zxc0NOVGc5M2V2cnd6SC1ZMUdIMU1KOFY5N2dWS21kSVFQTlZVcVBjcDlGMHJyMVZMSXp2RE5SeEdNMEpfeGRVVEdsYk1tQzlITW1BaGpUdDFwbzB0MUg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 06:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합뉴스",
     "title": "[테크톡노트] 불 꺼진 AI 안경, 나를 찍고 있는 걸까",
     "sub_title": "",
@@ -2967,36 +2997,6 @@
     "sub_title": "Anthropic soared in its debut as stocks tanked. Only one other IPO has done that since 1990.",
     "link": "https://www.marketwatch.com/story/anthropic-soared-in-its-debut-as-stocks-tanked-only-one-other-ipo-has-done-that-since-1990-77b75258",
     "impact": "🔥 주요속보",
-    "time": "11/20 21:43"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "경제 캘린더: 미시간 대학의 소비자 감정 조사",
-    "sub_title": "Economic calendar: University of Michigan's consumer-sentiment survey",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=8d3f72d5-a9cd-47d3-9ce4-d4987e7b6ef6&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/20 21:43"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic의 배너 데뷔는 주식 시장의 하락을 막기에 충분하지 않습니다",
-    "sub_title": "Anthropic’s Banner Debut Not Enough to Stop Slide in Stock Market",
-    "link": "https://www.nytimes.com/2026/11/20/business/anthropic-ai-stocks-sp500.html",
-    "impact": "📰 일반",
-    "time": "11/20 21:43"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI의 최후의 저항은?",
-    "sub_title": "AI’s last stand?",
-    "link": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-column-roi-2026-11-20/",
-    "impact": "📰 일반",
     "time": "11/20 21:43"
   }
 ]
