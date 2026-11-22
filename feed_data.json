@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 한전",
+    "press": "YTN",
+    "title": "한전, 고객 주민번호 포함 개인정보 150만 건 유출",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5NdXEzM0hWbGhCdTVNMFQ0RUlQSDQ4Z09RSmVJakxmdWJUekRTenBJbDJad2VTeGhSREdXVjdhUGdOM0pSZGF1TG1zVWoxaUwzMlhRdEt3cmFxWHYxekE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 05:28"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "“중국 정보기관, 2년 넘게 ‘첨단 반도체 확보’ 비밀작전”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT3E5TnE0TVJsWDNhNTdNRVJySlo5WXI5Z3BQMnZuV1FiT1VtcmhjSkpXNVF3Rkk3WUVmeTh0Slh2SnZmOEw3cjZvQmMtOG4xUm91bzhXQ1huSXUxR1JmUUFYNUxRSXVjVWM1WWJXNjJHOUJLR3U1cGJQb21pS0h5b2pB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 05:28"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "머니투데이",
+    "title": "전문가 10명 전원 \"11월 금리인상…내년 3.5%까지 올린다\" - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvdWNRc1lZWG90ZzR1cTlZTTY0UlBLMmYya3R3NWRIMmFWWGRUNG1fWVhmUzRJQUhVa0lPUDRjVnpVVEFpQnlZUlp1VndvYmFoYzlxeWxSd0VEM2pXeDA4d2RBaGRPSG1jaFQw0gFwQVVfeXFMTTEzSkV5V2VMNXNlWFBPZFFCR0xtNUxlZEhMSU5ZNEZ3ZllzaEZwMkFEQXRtYTBHclQ1UWttSGI1SmRCOVZVWjhjLTZhMW4xR0JtN19kdXBaT2tHSElhbXZUa2RnWExtZFloZ2hlSzB3MQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 05:28"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "주식 후퇴로 인해 연준 인상을위한 채권 시장의 거래",
+    "sub_title": "Bond Market’s Go-To Trade for Fed Hikes Roiled by Stocks Retreat",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/bond-market-s-go-to-trade-for-fed-hikes-roiled-by-stocks-retreat",
+    "impact": "📰 일반",
+    "time": "11/23 05:28"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "주식은 추수감사절을 앞두고 조정을 받고 있습니다. 다음은 다음과 같습니다.",
+    "sub_title": "Stocks are in a correction heading into Thanksgiving. Here’s what comes next.",
+    "link": "https://www.marketwatch.com/story/stocks-are-in-a-correction-heading-into-the-thanksgiving-holiday-what-to-brace-for-next-a1e82491",
+    "impact": "📰 일반",
+    "time": "11/23 05:28"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "'누군가는 OUT을 원한다': 분석가는 AI 매각에 대한 주요 테스트를 표시합니다.",
+    "sub_title": "'Somebody wants OUT': Analyst flags a key test for the AI sell-off",
+    "link": "https://finance.yahoo.com/markets/article/stocks-are-on-fire-sale-as-anthropic-ipo-fails-to-calm-ai-trade-jitters-190051253.html",
+    "impact": "📰 일반",
+    "time": "11/23 05:28"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "YTN",
     "title": "\"엔비디아 사태, 휴전 두달 남은 미·중 무역전쟁 재점화할수도\"",
@@ -2938,65 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXducFhxSHY2b1BuWkdjQllVSjI0LVRzQjFMMktxSDE2eE1BNFc2NUJUN3N4eU9qdi13RXhEbUlTVGM1WHNGVVhBWWNfZVYtczFMZGdqd25idm8zaHdNZ2tJMjlud3dtc2x6MGtNMmtzUWp5VG41NjRjNVlsVk1sY2Jn?oc=5",
     "impact": "📰 일반",
     "time": "11/21 12:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "마켓인",
-    "title": "서울 집값 너무 올랐고 매수자는 지쳐…가격 조정 시작될까",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBGUm5tVks3QkZuUnZnMm10cnYzZUI4Q2FyN3ZFNHk5V0djUF9rM1gybzhPRkw3N2pvZjVadUROajlLcTQzOERWcmxCcFB1RXREQ2xJNnZSazlIVkhQaVlhY2VhOWwwSVE1dkdpX215NEY4UTQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 12:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "비트코인 4개월 만에 6만달러 붕괴…테라·루나 사태 이후 최장 약세 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ZLWlHZUtPNGt3LXVfYnpIZi1ZWnRGS1pMN2lQT1RqVFFmbkx2R3Boc3plS2NWNlZlckxobThmOUpvREpZZXh0WVhCVU5WVVZVTzZpeEJGMk05X2E2WktJQzdwdERzeG9P0gFuQVVfeXFMUHNyNHR4R2xxZTdCOGVEeXVwZHNwd3RwZjBoajJHMWI0cjlBTTBXSFJISHNYUlhLRjRjZEFtU0l5OW4xNnlHZ0ZvbDZhMk5jdGFzdm1ZN1BhRTlYb044TE1kYzJ6U3ZBWFNqdlY1U3c?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 12:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엔비디아",
-    "press": "Chosunbiz",
-    "title": "엔비디아, 中군 연계 기업에 AI칩 수출 추진…앨리스 황 연관사도 포함",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOWhTUmpNdTlJdWRKeEpSWElJaVc2NF9DQS1qNnZuU0cyVUplR0pPcFBiN1JlU0RqampZa0pSNHFMVDJjQm9HUWJXNGI0ektwVkpHcHBjaWxNbHBUOXgycXhkRm9BNktVYVFKTUxmdGRaQkFqTllxcnVGNER3aGpVWEVLZ0VIQ2pPWEVmZmhWN1BCNTR0V1ZDM1YwTkh3QdIBsgFBVV95cUxNZUo3TzhPTzU1UDc5MjZYSUhjbm02eTloMGJaYlB5SWZieXJMeElsb18tNlVCaklfUm10ZEF0VGVsbXc0QWVzZ21QRG9tUm91cUJQZlRYM1ZDYXhNT0lnVEJOSUw1clpxWWRva1YxTHliakc3ZTBNRDhUYi1CLU1uUUdmTEV2MG4xX0xuWDI0N0F4bVM2UVQwSEVKMkVyNW1FcEhXX3R3SWhteTRweHcxai1R?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 12:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "마켓인",
-    "title": "폭락한 AI주, 물타기할까 갈아탈까…주가 말고 '이것' 보라",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBvb09SeWh6U2hTcjZKMkNZQ1F1YlR0dXEzcVNsVTFLRFRlTHJHd0RhQ2dpbUJvRVFwOTNfZ28tb2U3bXBmMTV6dWV0WGhiU1FyVVBraTEyaVRDRmNNdnpPMDdxTGdhUHkxNlJGNGxmTXN2eFU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 12:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KB Think",
-    "title": "'새 성장축' 서비스 수출 15.5% 늘었지만…26년째 적자에 경쟁력 숙제",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFA0Q1RJSjMzQlBFRVROMXk5SEN0LW5qeGlfX1JRdm03VzRDSkdBV2lTUExVZjNjY1VtQk85WGJpaHg1ZTdXdWlIOFpDNWpzdTIxZWhna0RPdXI4ZnpKcENKcEw5ckhUMkU3VXozVS1SSGlCZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 12:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "7주 연속 하락세 탄 비트코인...지난해 고점 대비 '반토막'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBURlRva0hoelZDclZmeE1ZTVN1ZURXUEM1OU9tR28teWtMakRhRy0wUUpMREZhbHFYSmdMVm4zUXlsZ1dYUVFNX0M1SFd5ZmZ4QjJuWmFMY1gwVzVEU2VEQS14VnVLdmU3LVg3aWQwRQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 11:45"
   }
 ]
