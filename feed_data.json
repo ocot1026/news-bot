@@ -2,6 +2,56 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "\"우리 나이가 대부분 70인데\"...재건축 입주 시작되자 '날벼락' [자막뉴스]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5XSDBUMEpKVGtwWEY3YnhBRk5hd1c1MnpUTUpid2RjNzFlN0tjb09tOF9rUjAyc1hoYURXZXJCQlZudEtJemV1NTJPRk9uR3M1UjdtcXZzaW1Vck9WSUE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 17:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "WSJ “러트닉 미 상무, ‘엔비디아 사태 등 경질 위기’에도 건재”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9tbS1reml4eDl3eGlYbWdlaUdaZWRvOVEwUDNPRzNCWVZxRlgybS1jS2hJWV9WNG5JQkxZd1lkb0NjZ1hRakh3OEphQlZYdVlsNEI0UDA2Qk9BM1k?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 17:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "마켓인",
+    "title": "여수 석화 구조조정 제자리걸음…1호는 지연, 2호는 안갯속",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE84WlNxSGdzenNuRllWQW56UGc4WWRFeHFuQXhibkFUaDNyUXN1V3Q4ajFaU0RacEZyZHJLaHJORTc4OGlTaWJ1amtIUmN1c2Q1ZXktU0M1MkJGaHZ5dlRmTklhUDlSa0hDQ2JlNGFtV1B1WFE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 17:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 삼성물산",
+    "press": "머니투데이",
+    "title": "삼성물산, 한양건설 아파트에 '홈닉' 적용…분양계약 때부터 쓴다 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAxT0Npbkc2LTAyTUVTQ0E0S1NwT2hyQ1Y5WUdHMjlybmxKckx4NnpUOVJaODJ5WXN6Q1hGMDVJejdQdV9EWkNhUWNOT0JrRlo1QlZHVGFva25LU3N5X2dVTFJuMWV6eXFwV1HSAW9BVV95cUxNVUwzRjBpR2NTVkgwaFJtbncxWFZsVG1QQnF4LXc3Wll1RWRSQWlmcUdZeFliZTlKay0xOUFsVXh3ekxJeklYMUhhT2twd0YzeUJMOUVZdi1mMG9ub2xnZDc5Ym00MVN4X0xmU3NwWGc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 17:46"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "고용주는 인터뷰 피드백을 제공하라는 요청을 받고 있습니다. 지원자가 원하는 것은 다음과 같습니다.",
+    "sub_title": "Employers are being asked to give interview feedback - here's what applicants want",
+    "link": "https://www.bbc.co.uk/news/articles/cm2d94le23xyo?at_medium=RSS&at_campaign=rss",
+    "impact": "📰 일반",
+    "time": "11/22 17:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "[채권-주간] 기술주 투매가 밀어붙인 강세…금통위가 브레이크 걸까",
     "sub_title": "",
@@ -2948,55 +2998,5 @@
     "link": "https://www.nytimes.com/2026/11/20/us/politics/trump-data-centers-ban.html",
     "impact": "📰 일반",
     "time": "11/21 04:55"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "뉴시스",
-    "title": "앤트로픽 상장 속에 日증시 급락…AI·반도체주 매도세 확대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1aMlhLYlFYNjRhRXpNVDhvYjdjUUJKeHdBNzhzTDhTakhrMENOemRZYm5SLTNwUXVRMENVenNCclFEck1ZRVNEYUJwUDBfcTNTVE5IVjIzUnFadTVCdXd4RtIBeEFVX3lxTE9LOGlYbHhpaHpmOHo3cFRJd2M5ZzAxY0FHbVA1SC1qN0JSRDBoR3VtTXV6eEd2SlpkZk43R2NiUnFNZHJEOUEwUEdKTGUta19LbWloMkQ5TVU1LW83d0Y0eVdpRUw0YTNUYU9Zb2Nva0ZUSG9FWUQyaA?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/21 04:55"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "10월에도 ‘셀 코리아’…외국인, 국내 주식 26조 팔았다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9IcF90WHFCdWIxRDBjMHdleUw1Z2x6QU1mSWFDeHV2Y3BwTlJUZnFseDE0SVJ0eU1xeWFHMy1MY3BER290Q2JNNVdjZ2NESFpOZ0hid2NYdVdyQUhUUVFTZ3lLVWpFbmc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 03:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스핌",
-    "title": "[AI MY 뉴스] 뉴욕 반도체주 프리뷰...앤스로픽 상장 효과 하루 만에 소멸·AMD 7%·마이크론 5%↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB1LTE0aDJ3Ni1HcHpDcnJuMm1WdEpVTUVUM05Xa2t5bW9rYUdMelR6UWpuSC1Ld1pfUVRHR3o4TzUtR3I3U0VhQm1OOGtXbHNRR0FYUUE1czdKdDBt?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 03:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "마켓인",
-    "title": "캐피털이코노믹스 \"S&P500, 내년 6500까지 하락 가능\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBqd3M5aC1CRzV0THdDa1owaXlsOVdQdXAxZURUS0FlQTdiTnhoSFpLZldKTDF6SkJ5cFZybWhsbXdKaHlHTjVyR2tBNmJjWFJzWi1NbWxlMG1zcWJFZVlOSFpibmVod2wyWnFtdU0teGU0Wkk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 03:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "트럼프 \"젠슨 황, 사과하고 엔비디아에 복귀하길…두 번째 기회 줘야\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGSzZ0OFpmQ0hpSUxnZkpKSWhwZUt4T3lCaW5sU3pWNUxsa2FxNXN6MmVDXzBfUkJfMTlZV1VRY2V5SXlTU2NQMGxmOEc4eTBBMUlxekV2YXZ0aC0yNDhzYVlVQ3J0MVZFNXZRYW4zYU0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 03:54"
   }
 ]
