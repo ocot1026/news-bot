@@ -1,6 +1,26 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "\"中 국가안전부, 2년 전부터 첨단 칩 확보위해 비밀 작전\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4zVUVmNmlTcE5oUi1DWnpCTFJHUnIyaDRsS0VLdldnc2FyOW1XSHJRWXFHXzZyWWc2T0YyUzZjWFNLYUo3NDdjZjEyZVNOVDhBbDh1YUdiZU9uNEXSAWBBVV95cUxQZkxUdFVnVF8xekZEY1Byd2VwOXVhTDFkRm8yU29LcDVRVXpBWExWNjFHVjZ0NWhpV1pPVU5MRk9DVXRLRWIyblAtQVFxSWhpNk1rQkRZZDAyVGhSSlJqYjY?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 06:20"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nasdaq 100이 약세장에 가까워짐에 따라 Dip 매수자들은 진입을 주저합니다.",
+    "sub_title": "Dip Buyers Hesitate to Step In as Nasdaq 100 Nears a Bear Market",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/dip-buyers-hesitate-to-step-in-as-nasdaq-100-nears-a-bear-market",
+    "impact": "📰 일반",
+    "time": "11/23 06:20"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 한전",
     "press": "YTN",
     "title": "한전, 고객 주민번호 포함 개인정보 150만 건 유출",
@@ -2978,25 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMW0xeFY0OTBNem5GQTNPX1hnOXFrY3lDazdJZVRjcG5TVzNycE1oSkh5TUJXc1ZWOUNLenZMY3o2bmFHOUtIZm81MmNzMklmdllFQWp0WktTdTd6bzRYcWZYMVZfbDlrblBNcURHS2I1Z2c?oc=5",
     "impact": "🔥 주요속보",
     "time": "11/21 13:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 3분기",
-    "press": "MBC 뉴스",
-    "title": "3분기 주가 하락에 순대외금융자산 2천807억 달러↑‥역대 최대폭",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBTdHFySGFJODBfeTIxMWJhbnp5WGFhcDdQWXJ6M3MxLTZkYzdpVFBYdF9hOGo3YzdkYndPRUEyenRDSU1FbUhTYnVMUUFRZWJ5NHV2MXltc1c4TmlNLU9Pa1ZhNDZxTmJYcDdrY2RKbk42SlZy0gF0QVVfeXFMT2hJRzlrMmc4SGdDVWVGYlQ3MHY5bExLTDllRTJqb0xSaVBGaHZZanlGUGtGQTNUY09ZWjJfSC00RWZCQWdTWkl2cGlvMW5CbnVRUjZyd09yemlueEJVVUpWQndvNHhZbmRTWUxQMVhqUGV0RVg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 13:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "나스닥 5.28% 폭락…앤트로픽도 하루 만에 공모가 수준 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMXducFhxSHY2b1BuWkdjQllVSjI0LVRzQjFMMktxSDE2eE1BNFc2NUJUN3N4eU9qdi13RXhEbUlTVGM1WHNGVVhBWWNfZVYtczFMZGdqd25idm8zaHdNZ2tJMjlud3dtc2x6MGtNMmtzUWp5VG41NjRjNVlsVk1sY2Jn?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 12:47"
   }
 ]
