@@ -1,6 +1,96 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "개미들 563조 잃고 빚더미… 외국인은 224조 팔아 수익",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxONnlXamJFWENDSU1ZSjNodXFrTWFWZHRKZUY2NUZzcE05LUs1Zjh6UElwaVlMUEk5M3pIbmpMVTUwZUg1QmJabUphVE9XdlZuLVdJUExrWk1jdW5iUU5nVkdfSFRKSmozdDgwTjhPNzM4NnJKUTJrUXp6X3B3THF6emZsclkyTmtqcWFj?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "냉랭한 증시에도 앤트로픽 담았다…액티브 ETF, 상장 첫날부터 매수",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwSjZKQTVsYVdlQnNITmZfYmx6UzdpSGVxTkdYQjNmbDhLdGdUaEtfY3lVdWtSS1QyMUZPN2laMWlRNGRvMjRVMU91c05SQ2Ytd24wanQ1VTM5LXpnMndRQlRlM0w0Y3Rsb2hGUWRpV1k?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "SBS 뉴스",
+    "title": "엔비디아 칩 중국 우회 밀수망…\"젠슨 황 연인·캄보디아 범죄조직 얽혀\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBBZ0xCRUYzeXV6R2VPVXkyMWhnRG1tS1VlVFhQR0wwU3JpOFF5NzZES281bFZncHpGdTRGZzdXUG5uNEU1YlhsYmV2Uk9zcFk4YW1YSXNFVVQwYk1DVnpSMW9CM0dmdkpfU1E?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "믿었던 'AI 신화' 깨지나…108조 폭탄 전망에 개미들 '패닉'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5WZXNxTmtWS194V1hUSGZUTTFlQUhDVzBDVVZNdWtJZ3ZmV0F6X09qZWFGd3Y5RV9KcEtXSGpzYk9yaDB3RVd2TkNtTVBqZVlIS3ZrWlE0d0pvdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "미주중앙일보",
+    "title": "수출 ‘1조 달러’ 한국…반도체 빼면 세계 8위",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fa1Exc3FJOE5TMF9Da1BQTmJsbWRJN01VcTllaXNxY2tJcHUxQV8wVFBiYXBwNEZJbC1SYUhZU1hsVjJiUlcxWlRGTENsMkFHVHpVTHNUdElvMkUtMVB6OXNn?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 트럼프",
+    "press": "지디넷코리아",
+    "title": "트럼프, 美 빅테크에 경고…\"해외 데이터센터에 세금 폭탄\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9aU0ZQb1dLLUZIVTN4UVdyd2l2QlJQN3BvcTBQWVJUTDh6VmpDZzlWbnpINDF4eFdSSHBTWnJuYlpGa3ktYWt1c0ZBNklTYWtYSVV3a3ZB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "Chosunbiz",
+    "title": "“엔비디아 사태로 美中 무역전쟁 재점화 우려”… 반도체·희토류 갈등 격화",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOMkhVWUo5ZGZNZ1BrS1hpc3V6Skh4U2ctREdOZ1VRSlJTZU5Qang2NGZsNml0TzJsY2ltX3JmVVk0ZjkwbldSd1ZpYkVaUHRvc28ySV9iMGxpWG12Skd2LWJMSVREUVpQRFJjeEZHaE8zUWRNODV6blNQVm1FN3ZoUlhCRl85RnpMbEh2dkI0Q3dJVjQ1RUhmeW1CMlBPd9IBsgFBVV95cUxNTHdFQ2dMRW5vWGRhUkVNZFNrQkpJdU1Kb1FIaGFFT3lDY1VoQUQ1a3g1YVpaa0pYWDY5Qnl1VTU2bF95TFpMME9JdzBvdk9DYWIydTB1UklxSHpSaGNpMEh2VEJpMkppV1NCZi1lNnpoUjRPOVVNOEZXR0IwQTZaLUZSM0NaVmU4WVNWZ3dYZER0TjJ2QTI5cUtWLV8yVG9nVnhrTjVUamN1RkVKcUJkRFd3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Compass는 주요 상장을 뉴욕으로 이전할 계획이라고 FT는 밝혔습니다.",
+    "sub_title": "Compass Plans to Move Main Listing to New York, FT Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/compass-plans-to-move-primary-listing-from-london-to-ny-ft-says",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI 구축으로 무역 일자리 급증",
+    "sub_title": "Trade jobs are surging, thanks to the AI build-out",
+    "link": "https://finance.yahoo.com/economy/article/the-ai-boom-is-fueling-demand-for-skilled-trades-163100912.html",
+    "impact": "📰 일반",
+    "time": "11/23 03:44"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 한전",
     "press": "YTN",
     "title": "한전, 고객 주민번호 포함 개인정보 150만 건 유출",
@@ -2908,95 +2998,5 @@
     "link": "https://www.foxbusiness.com/video/6408680239112",
     "impact": "📰 일반",
     "time": "11/21 11:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 51",
-    "press": "Finviz Market",
-    "title": "51,000명 이상의 어린이 및 성인용 치약, 구강 청결제, 호르몬 오염으로 전국적으로 리콜",
-    "sub_title": "51,000+ kids and adult toothpaste, mouthwash recalled nationwide for hormone contamination",
-    "link": "https://www.foxbusiness.com/video/6408680144112",
-    "impact": "📰 일반",
-    "time": "11/21 11:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "인기 있는 비AI 투자 기회 속에 있는 United Healthcare의 Eli Lilly",
-    "sub_title": "Eli Lilly, United Healthcare amid popular non-AI investment opportunities",
-    "link": "https://www.foxbusiness.com/video/6408680373112",
-    "impact": "📰 일반",
-    "time": "11/21 11:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "비난 게임은 Anthropic의 격동적인 거래 데뷔로 시작되었습니다",
-    "sub_title": "The Blame Game Has Begun Over Anthropic’s Turbulent Trading Debut",
-    "link": "https://www.wsj.com/finance/stocks/the-blame-game-has-begun-over-anthropics-turbulent-trading-debut-280a34b1?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/21 11:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "다우지수, S&P 500 지수가 조정권에 진입하면서 월스트리트는 역사적인 손실을 입었습니다.",
-    "sub_title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
-    "link": "https://foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
-    "impact": "🔥 주요속보",
-    "time": "11/21 11:45"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "뉴시스",
-    "title": "日증시 혼조 마감…닛케이 반등, TOPIX는 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBtQnlXNFlFdF9GWjh1Sy0xa0pSN053RUNwNDBfTWVlUDljTURxN2RjdFJCMGVMM1Q5X3Bwa3RzUlVTckI0YklPZ1ZnMjUzNjFmaVJZbEJySHdmdlY2REF4YW5FWmxtcE5VWHRfZm1uck80VFNkMGR3QdIBeEFVX3lxTFBtQnlXNFlFdF9GWjh1Sy0xa0pSN053RUNwNDBfTWVlUDljTURxN2RjdFJCMGVMM1Q5X3Bwa3RzUlVTckI0YklPZ1ZnMjUzNjFmaVJZbEJySHdmdlY2REF4YW5FWmxtcE5VWHRfZm1uck80VFNkMGR3QQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 11:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 뉴욕증시",
-    "press": "Chosunbiz",
-    "title": "뉴욕증시, AI 기술주 매도세에 혼조 출발… 앤트로픽 상장 이틀째 10% 급락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNM3B5QVRkNkkwRS00VzFXUkxXeEM5N0IwNGp5ZDVabER0aVdqUWVtOV9MemxLU01LTko2aGo3Z3NXWGZLd21lLWwyUTEtTjg0c1JhNl9TMENwM1VSb090N0x3SXhFRzdjZDFtWTd6RVktQjlFUVNobHA2Y0FzZ1k2X0pmcFV5VlpUYXfSAZ4BQVVfeXFMUF9ibzF0azNQSC1uSEs0cGlraXN2eThoM2VUUmg2UmFhNGQwWnF1ajdOX2JnSWpxYUVnZlZpOUtTVUxoQWg2dE5GM04xZmczTUNRZFdybVpCS01OV2FyYmJVWndsTGNUcjNFWGNiNWptR2tvaGl4dUZNVWxRYVJ0VWNzMDNob3Rjak9RQkcwSEFoakFsazBhU1hsdGkwVWc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 트럼프",
-    "press": "MBC 뉴스",
-    "title": "트럼프, 젠슨 황 복귀 촉구‥\"두 번째 기회 주어져야\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5MN0Rtd2xTV2Q1SkRqN0xnbFlydGpaSUQ1V1BIS1pDNmJ0VXF6bWdlMTJvNEo4MXptZ2ZtcS03Rk9KcU83SXhtRERuR3ZiY19iQWNOYW05OWVsSzZyZmhIVGxXYW10dFYwck94WXA1SG82Y2lJ0gF0QVVfeXFMTTFFdmlyRWtKR2V6WXpaOEhfaUpTMGw4TVR6dkhieHFRdkdrbWE0SVZMTXlncGNPckplQzdEZW5CUzhHeUM3TXFrUGZObFh6RVZkMnBlZFFVaE5NSTZFdkV1R2hNQkhUOWJqMmcwSHl0V3dFOGw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 나스닥",
-    "press": "연합뉴스",
-    "title": "나스닥, 기술주 매도에 5.3% 폭락…다우·S&P500도 조정 진입(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55NzlORU9XMU9uYjRHM1BOckJLQUFBcFhUaG1CYzZucG1HSmM2M3U5NFhib3UzRVlYOGhrUDFXeFFEUlE1U0JOQ2dqNGFpMklrNm5hdWd3NThNRUU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 나스닥",
-    "press": "연합인포맥스",
-    "title": "[뉴욕마켓워치] 나스닥, 코로나 이후 최악의 한주…증시 패닉 속 채권↑달러↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IdEtnRk94djJMSHhRNHRZZzZzSGM2QjA4UUpRVWs3S1ZWT2NJVXNuSWlZeUNfRUMzYTdWelZIUXZONUhaMndPdWxkUGgtVnI1MWFZVE16VGhDVUs0YU9QWFBURGpGbHdhN0d1U3VOckc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
   }
 ]
