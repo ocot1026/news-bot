@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "미 재무 “엔비디아 수출통제 준수 여부가 핵심”…젠슨 황 복귀 가능성 배제 안 해",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE92Q09tWlpSZENHbVBONlZydFRiWjFIU0V4dFpENUdlMHduR3Q5TEJuN3d4aXNJRzV1M1E4WVFKRUpLVWpsWHRHTVZmLUQ5Q05iTTJJdUdKLU1uLVE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 08:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국일보",
+    "title": "젠슨 황 퇴진, 한국 반도체 파운드리에 열린 기회 [차상균의 열린세계]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5RYktURmVBckVjMUlMS05yTjI5TFZ6dGU1SjZmRE94TXRqM3lCYnRaUUUyNnhxSWpEdUJLbDVuQ3M0VFJpZ3phWFJyR1FZZ3RhR3VHdWVaZ3N6dVlKVlBZMDY1cmN6WHR4dmMzRUJR0gFzQVVfeXFMTnU3WTFQRG5FMTd5d1NJcEhhQ2t5YjVhQWxmVHpVM1c4cnkxdXliaGd2YmhxeDJnQm9YeldvSzRUbEc5UEhGZHZMSktoNHlUWHY5X2d5Mi01QmNWRUxlSVFlbTJEbHFQRFYzekNodWcxSVhmQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 08:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "머니투데이",
+    "title": "美 \"원전보다 반대\"…李대통령, '1호 현장' 울산 AIDC 다시 찾은 이유는 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE0zSkxJMi1Ia2Z2dDlFaUJ5TFJsWEhvYXYyY0RtcHdfdVpaV0VDanlTcnhKbTdKblFVVi1Wa0VvUWxoM2xsbVV0Vk42Um1VMVNOb0lTc0o3Tks0ejdsVzhVanRUX040djhGUmcyZ9IBckFVX3lxTE1NaTRyQ1c4MWF3QjFxTHdhbElicWR3NE53NDVCb3JVMEFuTF96NUpFY1FObkJ1M0ZRTTVucnJuUVI3MVg0eVhIakRlVTFOZDgtNzdCT1JiMGo0bWwtOVNnQURXUUI1S21LcVpDYzhkM1oyQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 08:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스1",
+    "title": "지스타 2026, AI·모빌리티 품었지만…韓 대형 게임사 빈자리 컸다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE56UmJRaFZlTjhvdTlhX1BGbjhPN05fZkFGQm9ZUVNrLWh1aDRWekp2Z2lyMXo4QWRDb3VqdDFQeUtRYVFoZHNfa1lOUXZOWFN3Vkc5RDhHNmJtbFgyWkFWcw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 08:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "호언장담 하더니 '의문'...'AI 부정헹위' 속 터지는 대책 [자막뉴스]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE00RnhIZ19CSmpjbmdOUXpTX2t3ZWlRMHUyWWxwQjFSUjVMdURGSThTUmdtSm9MUVQwVTVzZVFUejNpRF9pTGpIWmZHc29MeVNLR20zVnAyQjVnR1ZZZnc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 08:14"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Stock futures rebound to start shortened week after tech rout",
+    "sub_title": "",
+    "link": "https://www.cnbc.com/2026/11/22/stock-market-today-live-updates.html",
+    "impact": "📰 일반",
+    "time": "11/23 08:14"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 한전",
     "press": "KBS 뉴스",
     "title": "한전, 개인정보 150여만건 유출…주민·계좌번호도 포함",
@@ -2937,66 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uSVFnd0FhOFltLXFNbHgya2tlbHRFXzhSYTVrYVJld3lNUjFHRmxaWlRDdERvaURZcHItWGFoQi0zVkMzOU5BWHNVSGh2bDNTblZuZzZ5X3M4QTg?oc=5",
     "impact": "🔥 주요속보",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "조선일보",
-    "title": "젠슨 황 떠난 엔비디아, AI주 매도세 겹치며 아마존 시총만큼 증발",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUlyelBkN0tucVotWUQtNlN1Yml3Z0ZybGZ1SzQ3NUtYdDhwRGNoeWlIYjZDSkh2MU9DVGhXRnREY1VUbHp1T2lsTE9JSHJMNFFxN2FXWW1reFEwQTYwcm16MEFXOFZFZWxudklxbEhZc2ZJZ0VuWGVpZ2wxNmxlMnFoZlppWTdfZWZEV1hR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "이재용의 원픽…\"될 사람이 됐다\" 엔비디아 뚫은 30년 삼성맨 [강경주의 테크X]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiUFdleVN3by1tamhUajFQczRqMHA2djFDNHJfMmhLMzNBNXNpQl9kYWgyYXdGVUtJRDFoM19MUFQ5TUNveF9OQnJoVFRVLXctNFVBbWpjcU1OUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "\"이미 2.8억 손실, 월요일이 무섭다\"...미 증시 폭락에 개미들 패닉 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5fTlhXYV8yY2JBWWt3by1VQ3QyTktXbUE0ODRIazdWRnRhLUNDb0dYaHlYUTNzaWc1TkJJYjF4Wm40LXJkamVCZk1ZUWdUeXFQMzNDMkRQdFBueWIxOExya1lVdkpLRlVQbTRF0gFwQVVfeXFMTW9EZDlTR0YtS2p5akxqeW9LMzlvdnc3cGpaZUlTS3Z2ZXFBdGlJYWJZSGtwbnd6YXZBWllwMlZ0d2tjeDltSE5FdDlGdUVPVEI5ZGV4aEJ0VFU1OEoxWXlTN3JPaGZyUC1sQnRNaXplSg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "\"美증권위, 엔비디아 회계조사\"…싱가포르 매출기준 변경 주목",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1pcnlCeEFIOEs1TFlXU3Z3Y2xsSjE1YXBwRU02OTBUblNvV3l1YTFiSXJXWjNoaFJkUmZhbEJlZzhiaE9MY05nS25BSDZEclpiVGdYd3k3Mm9yQ3PSAWBBVV95cUxOZkdUUmtWam5JTkhRR3JxQjdHZmk4MjBPM3ZJYkNXMW1zVV9jR1p2NE4tZVpkYWFSRlBRazQtU0JaNWwzMk9nQ0ZLZlJ2RlRjMmdWV3JmeHlDckptVEY3c1Q?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스1",
-    "title": "\"손정의, SK하이닉스 1조달러 인수 구상…월가에 자금 조달 타진\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBfNDRQTTNuaW9hYzVxcVdwVU1GUXlkdjdqN2ZJNXJNMWZRbkxYRzVqV2t2ZEpDTV9JcjRMeXFpNWxuMHVkR0dMUXdzUlNqY2xqM2ItTjFaOGU?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "개장 직후 최대 4시간 대기…웹젠 ‘디펜폭’에 주말 지스타 관람객 몰려",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9acWNJQjV3ZV8tRm1jd05UVDBqT2EyeFVONlFpT29mYU5pcGhJeE1FVUtlUlJmLW9kVWdTOFRzRzNVRjFVSFdYZGVDRmlXS3laazc2YktB?oc=5",
-    "impact": "📰 일반",
     "time": "11/21 14:50"
   }
 ]
