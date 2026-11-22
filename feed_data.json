@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 한전",
+    "press": "YTN",
+    "title": "한전, 고객 주민번호 포함 개인정보 150만 건 유출",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB3RWVPbHVhRV90WFhBRGdRMjd0RG1JWm9hakpvc2VvVVRrVWJ3dnB6b3lkQzFiOUp4aTZjUEFSd21IaXdxSktGQlFSRExRcXlhUk9XLUZlRXM3eXVsYmc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 02:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "[사설] 글로벌 주식시장 급락세, ‘AI 약세장’ 진입 대비해야",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE85ODFhZWg4aDA2LTBkVFVfLTJKV3VLMnJhZE5pay1Dem9kTXdZVzNvT3ZLZzFMUDJSZWZ5bHZES19iTWJVLXU3WnhKMmNMeTJSRGZlTi1Wek1sR3BMbTdwdkhGUDdyTzV3QUE?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/23 02:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "\"젠슨 황 엔비디아 퇴진 결정타는 외도 감추기 위한 반복된 거짓말\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWnhhYk4yejhKYkhaVFZIbGN2dkNmd3hwYzBIWFg3UTY4NjFlTEd0R1RFTEF5WE5CX0Q1eVdfUHA1bEZjLVR1THJTRjY0eVNkVmwwVDBONlNqOGUyNHRfY19ZNTRpWTYyUTRicUF0QmJHbFp6ZzUtRFVmYlNBTGhmUGNUcw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 02:57"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "\"'엔비디아 사태', 휴전 두달 남은 美中 무역전쟁 재점화할수도\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9RQTFKY0xhMGlpLW03RDVhRHR1WUhwLUtqeW5GZnhKX1M3YUNwVWJCanlnMDk0S0FDZGJLMmkwV0xHWXZJczI0QkZSOUwwZlYzVkFRSEo1RVJnSVXSAWBBVV95cUxOWTVTNVJqajBKSWN1anFsOWN6cVUzc3o5bFN0VEIwS2dJUXczXzJQeE0zcjBnTlI5UTR0YUxoYXVJbmNmNklRRVB6SzFkdHBtdmpHUWFhcXpENDQ2b0p1blM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 02:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Scott Bessent, Nvidia에 중국 칩 판매에 대한 답변 제공 요청",
+    "sub_title": "Scott Bessent Calls on Nvidia to Provide Answers on Chip Sales to China",
+    "link": "https://www.nytimes.com/2026/11/22/business/scott-bessent-jensen-huang-nvidia.html",
+    "impact": "📰 일반",
+    "time": "11/23 02:57"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "'헝거게임', 1억 2천만 달러 개봉으로 반등",
+    "sub_title": "‘Hunger Games’ Rebounds With $120 Million Opening",
+    "link": "https://www.nytimes.com/2026/11/22/business/media/hunger-games-box-office.html",
+    "impact": "📰 일반",
+    "time": "11/23 02:57"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한국경제",
     "title": "트럼프 \"데이터센터 해외에 지으면 과세\"…'자승자박' 될라 [워싱턴나우+]",
@@ -2936,66 +2996,6 @@
     "title": "[뉴욕마켓워치] 나스닥, 코로나 이후 최악의 한주…증시 패닉 속 채권↑달러↓",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1IdEtnRk94djJMSHhRNHRZZzZzSGM2QjA4UUpRVWs3S1ZWT2NJVXNuSWlZeUNfRUMzYTdWelZIUXZONUhaMndPdWxkUGgtVnI1MWFZVE16VGhDVUs0YU9QWFBURGpGbHdhN0d1U3VOckc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "\"믿을 건 金뿐이라더니\" 와르르…최악의 상황에 '비명'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE93dV9zeFIyRkR2NC11TUJya2xYU3ZFaUhpd3daUEh0VjBPeS1TU1AzMHBoM1FLZmJaN2pVNVgybGx3eXFPNllSN0I0Tklyank0TEhKd1ZSYjR2UQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "미주중앙일보",
-    "title": "\"AI 클로드, 수학 최대 난제 리만가설 증명\" 주장 나와",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1uQkxMNDRjNloyN2hBTHRGVF9sVXBXX3pmYjVLdGFtOWltZW4tSDRMZ1FHVkRyT0ZzbXZENUsybE1hazY1ck5WeHNldTNyNVp4UGhFQ0haa1N3RFlJaGQzc2VR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBC광주방송",
-    "title": "트럼프 \"美 기업, 다른 나라에 데이터센터 지으면 고액 세금 부과\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9fM3NLX2VpbGxLWW9SaERjcnpwRjcyZ1U3cnYxWDJOOWk1VkVFZTlLRDdrREtBREJFd2lsY1RqTW53ZXdFQ2RMbWVQU2xzRllSNVBPMHpPTC1QdUdhZWJYY1B3?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "AI 안경 기사마다 나온 ‘그녀’는 누구?…“부정행위자 아니고요, 스마트안경 교육하러 갔다가 그만”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1tSjJmVDkwakRnalJLUXl6VDRGd3NLWEFmTUNMR010bGs5TEh0SEcxZTgxT1N1SUt2eHd5VDhST04tcEcxUjhGelZVcGZ0M2gwNHAtNlNoUHZrUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 비트코인",
-    "press": "연합인포맥스",
-    "title": "비트코인, 연준 우려·ETF 자금 유출 탓 한때 6만2천달러 아래로",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA3ZG9SSmNDTTNFTUkxZS1VZnBaM2V3MjRtc19HcHQ2UnIyTVRDc241X0hlM0ZDc3ExeXh2ZERRQnZ5cHJKVUROSEJwdHNpS2s5M0o0a3FTdTNfSUxTVzFETjJlb0VqcFpvcFFLU2VqYzk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 10:45"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia Said to Face S.E.C. Probe Into Its Accounting Practices",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/20/business/nvidia-sec-accounting.html",
     "impact": "📰 일반",
     "time": "11/21 10:45"
   }
