@@ -1,6 +1,66 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 한전",
+    "press": "KBS 뉴스",
+    "title": "한전, 개인정보 150여만건 유출…주민·계좌번호도 포함",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBUbE5jNmJWZlJzTm9kVS1UVnBFZHJrLXBRVVdtTmFUSUl3OUlYdGJZOHo1STFfRV9LX2pNVXE3VG1TY3l5MXRSSVJ1dDhCMnMtdVJnMXBKR0VSc00?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 07:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "'월가 베테랑' 야데니, 연말 S&P 500지수 '7,900→7,500' 하향",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1Y05fMUJ0dFBibF9rMjZoaUprd080MWpvcUZObFpXbFNUQWl3SnFWaXc2bVp3elA3ejk0UEg2UHY3aVdBYmdnLTRLbThUOFpHd1VkOWJPY0w0SUVhV0lwbk0xZWdMRlBnaUhaT1NRR0c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 07:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "26일 올해 마지막 금통위… 금리 ‘3.25%’로 인상 전망",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeTJQOHZJQm1tRWtHYndHZGcxN29fTnlyYkRqMk04Y2VaRV9Tb1ZXNGplOHNrSEppb1dpTV9QSXFfM09XeFd0NmZ6WW5tNmRzUlFnb01udUhTX0NUalRZdjVlcnNrOThvcXJGTVgya3RHSVZVZUtRMkhqeTVMYXVtMFRVdlIyTUZmeUZaM0dB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 07:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "서울경제",
+    "title": "中 국가안전부, 2년 전부터 AI 칩 확보 비밀작전…美 수출통제 우회 노려",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1md3pveUhwaVNvRjN6U0VCdGZ4ZEpSZVR0cDg4T2pmQTJCUHpqbEpfT09tUTVvSWZrTFVqbDlSWXZkY2RoRmRPdkVrcklZeFFxc2fSAVNBVV95cUxPZ1U3Nlg5SF95NWtYdDZ3NjdiNWZJYlFZZmNuQTFrdDJqcjB3blQxTjV6TURaTUVLckZPeFpnV1UxaFRKX3lDeV9oRmF5N2lsaWM2dw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 07:15"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Asia Braces for More Volatility After US Selloff: Markets Wrap",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/asia-braces-for-more-volatility-after-us-selloff-markets-wrap",
+    "impact": "📰 일반",
+    "time": "11/23 07:15"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Aussie Seen Rebounding Against Kiwi From Worst Month Since 2022",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/aussie-seen-rebounding-against-kiwi-from-worst-month-since-2022",
+    "impact": "📰 일반",
+    "time": "11/23 07:15"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "연합뉴스",
     "title": "\"中 국가안전부, 2년 전부터 첨단 칩 확보위해 비밀 작전\"",
@@ -2938,65 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9acWNJQjV3ZV8tRm1jd05UVDBqT2EyeFVONlFpT29mYU5pcGhJeE1FVUtlUlJmLW9kVWdTOFRzRzNVRjFVSFdYZGVDRmlXS3laazc2YktB?oc=5",
     "impact": "📰 일반",
     "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "스마트하게 막는다？...5천만 원 전파탐지기 용역이 전부",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5hR3RJdmFNTGxQRXhWMzItcC1pd3BXRktkYmNKcEtwZVVDUXVRemlsRnhsd3VqV1hBcGRtMHVHWmJrTXFMQ0tsVWMyejJYUHlfNkh6TFJsbDB3X3pUWHc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "\"美 국가안보국 핵심 내부 통신망, 사흘 넘게 먹통\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xeVFoZG9MZnVzNzZhQzB2Y05mUDk2QnlUbU0wdDRvSWhFU2NmSHhfcFgteDcwbk8yYy1qc01zVS1CcFRQckEtUk0xckYzVGFWY3hHdU15Z295UUJnT1FEVFZvTlVGMHc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Salvadoran Troops Killed in Haiti Blast Amid Rescue Mission",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/el-salvador-troops-killed-in-haiti-blast-after-rescue-deployment",
-    "impact": "📰 일반",
-    "time": "11/21 14:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엔비디아",
-    "press": "마켓인",
-    "title": "엔비디아, 2998년 금융위기 이후 최악의 한주…SEC 회계조사에 기술주 투매 부담",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9FSmNJaEFSbHRNc0YwMUxNWE9nS2FUclJ6MC05TmJTc1JNSE1fcUQtUXdyYWNTMk1UWjNSTE1weTBGVTFWdmNnTUpPLXlUNW50U1MyZjRaLU9DYWVlRFVTV2U1em5nN2F1dDY5aXRsZjZrMFU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 13:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 비트코인",
-    "press": "연합인포맥스",
-    "title": "비트코인, 4개월만에 6만달러선 붕괴…AI주 투매發 위험회피(상보)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBSTHlGM1dhMjlKS0ZteTlpQjJFVWZVdkQxTXdmbHp3amxqcXBScjlOX0pEZWI1dUZhSEdRMEFoVzg0b002ajhyY0IwNGJXZ2xKQ2gzXzFOdFpKZ2FPSkM5MDNkbjNqWlFfWE9oWlVNdTQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 13:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "마켓인",
-    "title": "AI주 투매에 나스닥 5%대 급락…올해 상승분 반납",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBlMW0xeFY0OTBNem5GQTNPX1hnOXFrY3lDazdJZVRjcG5TVzNycE1oSkh5TUJXc1ZWOUNLenZMY3o2bmFHOUtIZm81MmNzMklmdllFQWp0WktTdTd6bzRYcWZYMVZfbDlrblBNcURHS2I1Z2c?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/21 13:50"
   }
 ]
