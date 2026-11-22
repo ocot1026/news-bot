@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 한전",
+    "press": "KBS 뉴스",
+    "title": "한전, 개인정보 150여만건 유출…주민·계좌번호도 포함",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iZFNGaTFKX3dneG1nUi1oclRLYkVnLVRWd3pWQUlsR01wc3pRX2ZueGdCbElSeDJWRm1mOWRCOF8zVnMwQzFWcDB0VTdaTFVxTHFEWmF3NThhTU0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 23:25"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "마켓인",
+    "title": "\"내 노후자금이 AI에 몰빵?\"…美 401k 가입자들 '벌벌'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9MUWZYLTlQUGVTeUVkREY2OVkzSlBocVNvdVUwM3BSeXRxRGxHazhKb3AxX29FNjlLRXluX3lSODNRVWxvUTM3VHZuUWdVRHU3ZXJGUXY3ZGoxLWpzVDR0YTQ2a0g4SWRDNTJCTEdEZ0lscTA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 23:25"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "서울 재초환 부과 대상 단지 52곳···조합원 1명당 평균 1억1000만 징수 예상",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE84OS1RWmhpTzBRS295M3lmMGdJU3hMMERzLVRlTjcwVHQ2cTJZZTluenhGaXQ4aUZpRU1IWVFsZEp1dVZZNVY5MlEyaEZEUGhTeWl4Mi1UNjMzUdIBX0FVX3lxTE5Mb0pyODFkOFE1LV9nUnA5UGg4ekp2SC1ZUnRoTTdTdXJFbk9LaE5rcF8xVnAzN2RVS1FLc3BIZ2NhTTRHbUF0Zk1YWXVUQWRiRUM3RFp2U0FHMFlzQW1R?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 23:25"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "NYT “中 국가안전부, 2년 전부터 첨단 칩 확보위해 비밀 작전”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8wZ0JCaGs5RElOekhaRmxXRXBTSFM2MWZ3YUpHSGtsajhISEN1YW5CX2xZc0wtb1hPSWwtQTlhTkIwV2Fkc210WXh5QzdaSWN0cmhZYU9Kb0JvZm8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 23:25"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "러트닉 미 상무, '엔비디아 스캔들 연루 위기' 넘어 건재 과시",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90dDNEelVqMm9OOWIxdGRqcUtEUW43dWgzQ1d3cXlQd1E5ZmpLQlVMOTNBZ1A4eU5zX1ZjMjdYUjlTcVl2OWZLYzM2dWpsUnlnWFd2RWpXbXlnZjDSAWBBVV95cUxNTExfcjdVNkp4dXg5SkdGTlFJRlNBXzRpeUY3SW1aam1TT0x6SGFUTTlGTjlLeEdwaks0cGFISXZjYkFrX3ctNDAyQVZIVGZjblM3SkNCOEN5cC1lMXVOV3g?oc=5",
+    "impact": "📰 일반",
+    "time": "11/22 23:25"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "강력한 수익은 무너져가는 AI 거래에 상대가 되지 않음을 입증",
+    "sub_title": "Strong Earnings Prove No Match for the Crumbling AI Trade",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/strong-earnings-prove-no-match-for-the-crumbling-ai-trade",
+    "impact": "🔥 주요속보",
+    "time": "11/22 23:25"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Centrica 사장, 치솟는 에너지 비용의 영향에 대해 '매우 우려'",
+    "sub_title": "Centrica boss 'hugely concerned' over impact of soaring energy bills",
+    "link": "https://www.bbc.co.uk/news/articles/c6jre7gpdw13o?at_medium=RSS&at_campaign=rss",
+    "impact": "🔥 주요속보",
+    "time": "11/22 23:25"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "머니투데이",
     "title": "\"검은 월요일 막아라\" 정부도 긴급 대응…18년 잠든 증안펀드 가동 준비 - 머니투데이",
@@ -2926,76 +2996,6 @@
     "title": "CIO는 이제 동참할 시간이라고 말합니다.",
     "sub_title": "It's time to buy in, CIO says",
     "link": "https://www.foxbusiness.com/video/6408668818112",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "상원 허가 법안으로 인해 에너지 프로젝트에 대한 연준의 과열 논쟁이 촉발되었습니다.",
-    "sub_title": "Senate permitting bill sparks Fed overheating debate on energy projects",
-    "link": "https://www.foxbusiness.com/video/6408662282112",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "트럼프, 시, 푸틴이 역사적인 평화 선언에 서명하면서 시장 매도세가 심화됨",
-    "sub_title": "Market sell-off deepens as Trump, Xi, Putin sign historic peace declaration",
-    "link": "https://www.foxbusiness.com/video/6408659561112",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "시장 전문가, 기술 부문 하락에 대해 논의하고 최고 주식 추천 공유",
-    "sub_title": "Market expert discusses tech sector decline, shares top stock picks",
-    "link": "https://www.foxbusiness.com/video/6408655827112",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Anthropic은 '지금까지 시장에 출시된 자산 중 가장 빠르게 성장하는 자산 중 하나'입니다: Mark Mahaney",
-    "sub_title": "Anthropic is 'one of the fastest growing assets that we've ever seen come to market': Mark Mahaney",
-    "link": "https://www.foxbusiness.com/video/6408656950112",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "트럼프, 엔비디아 젠슨 황에게 두 번째 기회를 줄 자격이 있다고 말하다",
-    "sub_title": "Trump says Nvidia's Jensen Huang deserves a second chance",
-    "link": "https://www.foxbusiness.com/video/6408669063112",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "AI 거래가 공황 상태에 빠지면서 칩 주식은 매주 2조 3천억 달러의 손실을 입는다.",
-    "sub_title": "Chip stocks see $2.3 trillion weekly wipeout as panic grips the AI trade",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=c66bdc9a-18b0-4231-bc4e-15f30deb93e8&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "금리 하락은 경제에 대한 신호입니다.",
-    "sub_title": "Rates tumbling signals THIS about the economy",
-    "link": "https://www.foxbusiness.com/video/6408670633112",
     "impact": "📰 일반",
     "time": "11/21 08:22"
   }
