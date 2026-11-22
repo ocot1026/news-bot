@@ -1,6 +1,96 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "‘AI 투매’ 검은 월요일 공포…정부, 증안펀드 가동 준비 착수",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5QdWo0ZG5hNkswOUYwcHNTX0xoR2phd08yd0pPZ0prZVVtTUR4LVdSWHFwQkhmREJZMGZ4cHF0SXRDVzFfU01zNk5kM0llSVFHR0F1NENZenlvY0FSY0xTcVE3eEZqb0U?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "팜이데일리",
+    "title": "AI 동맹 맺는 머크·문턱 막힌 중국산 신약… 요동치는 글로벌 항암 판도[클릭, 글로벌 제약·바이오]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9aYTAxNGxYOVZ4RlRNLUhzYTI5blBqQkJPRy11YWtQY3hMZFBQRk1zX3pwdkdvSlZ6c29Rb3Y2MERZejhrWE56NVdPQjE0Y1BfdmtRcThZdG8zbk9sSXZMc1J1RGFXNzlfd0NQcUR3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "머니투데이",
+    "title": "김장 담그는 박주형 신세계백화점 대표이사 사장과 임직원들 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NUVlTMGNLMmNrQmlmclFhSTBnTzJmS1RIcUhUZjVNbnZmTUVLek9ZU0lnSzBBVmltZHh1UmxHTlpraTlvZDhfR3ZKVFppVXRTSnZ4YUw1QzlKWXdBNFhIQnZoN1JhRjRVR1HSAW9BVV95cUxOS3M1Y0RQMXNtTW1WSW5VYVNyenVPWElXQjRjbkZaZmFsUUw5aUN0clZfOXcxZTRDRnllOUdQLTRrY05Kc2Q4bnRjUS1INDUxRnI1TDdBYXRuRkFLM0dDMXlIX3FVWWxIdkdSTmtfMVU?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "JTBC",
+    "title": "\"해외 데이터센터에 중과세\"…트럼프 몽니에 한국도 긴장",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ScjBXTzc0c0dlTXJBZ0hUMF9oam1zcVJtTTF3QkRFN0ZkWS1mcGlQVzR1LVZpbzVNU09VTmJqRFFEWDQ5WG5aSXdpQ3d5aU5tNUVPSA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 로봇주",
+    "press": "재경일보",
+    "title": "로봇주 주가 급등…레인보우 시총 4위·로보티즈 10위 : 한국증시",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1mMWVYbkZYeHYxSnRfMVFnQWp4NnIzRHdZcEZjRmVUbDl4TUFGN2J4V1ltVUo4eENJMTNPNWRzbWx2MnZRbDk3a2NIMA?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "폭풍으로 브라질 시골 마을이 농작물과 생명에 위협을 받아 황폐화되었습니다.",
+    "sub_title": "Storm Devastates Rural Brazilian Town in Threat to Crops, Lives",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/storm-devastates-rural-brazilian-town-in-threat-to-crops-lives",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "IQVIA, UK Drug Services Group Quotient의 11억 달러 규모 인수 완료",
+    "sub_title": "IQVIA Closes In on $1.1 Billion Takeover of UK Drug Services Group Quotient",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/iqvia-closes-in-on-1-1-billion-takeover-of-uk-drug-services-group-quotient",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "오일쇼크 대응으로 신흥시장 채권 승자와 패자가 결정됨",
+    "sub_title": "Oil Shock Response Sets Emerging-Market Bond Winners and Losers",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-22/oil-shock-response-sets-emerging-market-bond-winners-and-losers",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "네이버 프리미엄콘텐츠",
+    "title": "[중국증시 주간 포인트] 美 금리향방 가를 경제지표, 中 공업기업 이익, 미중 후속 AI 대화, 18개 액티브 ETF 동시 상장, 차이나 하이테크 페어, 화웨이 신제품 등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBrYnBHMm9BRVlMbnpoa1lFeEtSQ2h1VTlHT2xKQ0pNZmxCMEVIQXdiNXFLNzl5OHFnLXc1RHlWVXlJUGNaUkwxMnBZR25uVjFhY0EyY0lPQzAxVWNySTlzQkVXNlgzdlZFT3NxODhyT2hSME1ObHdFRS1rRQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/23 00:15"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 한전",
     "press": "KBS 뉴스",
     "title": "한전, 개인정보 150여만건 유출…주민·계좌번호도 포함",
@@ -2908,95 +2998,5 @@
     "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3c6fd2fb-0107-49a9-b380-9254239822bd&mod=mw_rss_bulletins",
     "impact": "📰 일반",
     "time": "11/21 09:15"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBC광주방송",
-    "title": "트럼프 \"젠슨 황, 세계에서 가장 똑똑한 사람...두 번째 기회 줘야\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sQmtRaU5ESURuUE4wdG11NWNBc053ZmVOSy1PWFkyLWZKSXNIY2JiTmV6VDdxTERhTkFkaXZxVEJlUGNCXzczblRnY3JuWWt6c2lZa3Nfc0xuajZiUGhhOFVR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엔비디아",
-    "press": "KBS 뉴스",
-    "title": "엔비디아, 중국 간첩 연루 메가스피드 관련사에 칩 4만개 판매신청",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9DN2tydDlMR091MW9yWWdSSmhhOEo5MElGR2ttU0lmWUdyYjREU21JelplRnB1NHVDVGxGRnhNNDNQdXVaNDZhWmh6WVR6Tk1zbjNaOVQ0WFZMc0k?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[뉴욕증시] '시계 제로' AI 테마 패닉 장세…필리 10.7%↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1QZW1hdWJHM2lHdEotYzFRbF9Ydlpma0VJdVBTZmh2S29YVTZyNVFqTWsxWnJzcUw4NzNtUFRDemNUTEtSU0NlNUEyWWN1RjBXZDFwdi00SjJZSEVCd3ZpRFdNR0otYjN5eWJqVV84OVM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스1",
-    "title": "美 대중 반도체 규제에 반도체株 조정…반등 버팀목은 'AI 수요'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9uSElBZ19uMDJWeTk0aUp2WlJxN212OEZuQkZTNTQ3QTVTT0JVN29uQjZIRkh1LWs1a2tGeVBOZTVzcElJOThQMjQ3dTRnSzRRRl9aSVk5Z2hubllKQ21R?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "마켓인",
-    "title": "사용자 업무 수행하는 자율형 AI 에이전트 개발 추진",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBBVVg1N3Qyb0NxYldUOXFYQXFpdFQ3RXRCY2NuY2NWam0zelpNaXB1bGpLYUQ3c3NraFROYTFMdk9lMFdVam5tMWJIek95R29XMFg0ZzAzd0VCUkJxaVNMXzVpanJvTTQ3NFB0TFd2VUdCV3M?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "AI 악재 다시 시작되자 소부장주 더 빠졌다…中 수혜주만 방긋[김근희의 증시랩업] - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yeTczYTFFbXl5SkhzVC1wSkRNeDRfN2pPWTl1b2czVFFGMm9wNnk1aURKQTZ2d09SZ0c4ak9vM3JsSjZsdUtMdy1QakVRdnZTSy1yU0tiUzVjd2NMS2VfT2VEUERDc2Q50gFuQVVfeXFMT2c4TldRT3FZOGlHaXAxOVRUSjVkWUlNME50UjVzWTE0cHkwSnBQUGdOWDhWOXdZbE5KUUd4OUF2M3o0QTJCVUhyazZVa0lkVUJ1TW1JNTVZRmh1eGlwaFJLM0lmR2pPQkVTdmx1VVE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "안경 갈아끼자 '경고'...\"적발 부정사례 90%가 AI\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5WUkJqemRoUkFQWmNXZkMtSnc5aWNoOGlWd3RBSmN3OXcyNVlGa2NiYkNFMS16WE9PQk04VHhTVENwRHJGN2RuMEFBam1qSHJVdkMzUGYtdk9Ybl9Zcnc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엔비디아",
-    "press": "마켓인",
-    "title": "엔비디아, SEC 회계 문제 조사 가능성에 주가 12%↓…7주 연속 약세",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5RSkZQc2kycUxUdXJhOFFROEd6MXVBdUJHS09idmRsWVBPZ1ltVXJHc3VvY0NhWW53ZUJIb2dmaXZYY1J4Z3RZUjdWaHhIMDhVZkFvcWJ6LTUtX00wN3hmeFhOOXpaTGpnX3dmVlJsUEdqVUU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "CIO는 이제 동참할 시간이라고 말합니다.",
-    "sub_title": "It's time to buy in, CIO says",
-    "link": "https://www.foxbusiness.com/video/6408668818112",
-    "impact": "📰 일반",
-    "time": "11/21 08:22"
   }
 ]
