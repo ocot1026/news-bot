@@ -2,6 +2,106 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "젠슨 황 복귀, 엔비디아 주가 급등…트럼프가 직접 나서",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5EUUVjdHBVWVVZR1dBQmloS0o2Snhybjg4TVU2QlZfb0U4dW1YaEQwNDc2STNnSlZWWDBjblN5ZGM1ZFJTaVE1akJuY0lJaENGdWYxM1U1UTFxWFk?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 AI주",
+    "press": "뉴스1",
+    "title": "AI주 급락에 '닷컴버블' 경고…투자 꺾이면 韓 수출·소비·세수까지 타격",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jTXZtX25SYU4zRUtRbVR5XzU5dm93MUtRRXpfT2l0RzhlMFlLUmZRQnBlNUFOM251dzJBZXlUVThnWENpU0kyUEp4QkxxX3pDLUJQbA?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBC광주방송",
+    "title": "글로벌 투자은행들, 삼전·하닉 목표가 줄하향...\"2028년 이후 수익성 악화\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1ZNDdsV3RBaUVPcHpNRDJpdVNtWWRZMi1tSWFHOWxwcUdORndZRWlBQ2NoZVFSajlTSGVxdHhhUVlNUDFKdVhTSDAtNlpwbWF3cFVMMFFyS0g1T2RBRGk2V3ln?oc=5",
+    "impact": "📰 일반",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "[잇슈 SNS] 운전자 없이 밤새 ‘868번’ 주차 시도 중국 전기차…무슨 일?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE11ZDRibmIzc1RzR3dNX3VRVG5nRjNkS0RUY2FvSWg2NHpOdzJBMk13d3dmekUyRGt0MFZpVE5kRWd3bUJfX1B0RGUtZWxPb2J5M2lwR2pCOC1uMUd6V2s5TGNHd2tSdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 하나에어로",
+    "press": "글로벌이코노믹",
+    "title": "[특징주] 하나에어로, 코스닥 상장 첫날.. 72%대 '급등'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX3VUU3pjUnJGeklkV25MVnpLaThKQ0M5THE5UmhSY2o0NWpibVM4TndCMExsLUZ5SVNQWEU1dmZDdkNqQ0RaZzAwbkFkUFc2N3kwQVVjN0Ewc2hNdXlRMkFlejNTckZZTkdWOThFTzdXbVh4X1pIWHFXMGRpTUxtOUJvSk91VVVn?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jensen Huang이 Nvidia의 수장으로 복귀한 데 따른 랠리 이후 주식 선물은 보합세를 보이고 있습니다.",
+    "sub_title": "Stock futures are flat after rally fueled by Jensen Huang’s return to Nvidia’s helm",
+    "link": "https://www.cnbc.com/2026/11/23/stock-market-today-live-updates.html",
+    "impact": "📰 일반",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "황의 복귀로 AI 부활로 아시아 주식 반등: 시장 마무리",
+    "sub_title": "Asian Stocks to Rally as Huang’s Return Revives AI: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-23/stock-market-today-dow-s-p-live-updates",
+    "impact": "📰 일반",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "트럼프는 황의 엔비디아 CEO 복직을 설계했다",
+    "sub_title": "Trump Engineered Huang’s Reinstatement as Nvidia CEO",
+    "link": "https://www.wsj.com/business/trump-engineered-huangs-reinstatement-as-nvidia-ceo-4e9c1cd3?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "HPE는 사상 가장 강력한 성장을 기록했지만 주가는 흔들리고 있습니다.",
+    "sub_title": "HPE just posted its strongest growth ever — but its stock is wavering",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=3b46e602-2bd8-452b-9b3d-d2d390a867e2&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "뉴시스",
+    "title": "유럽 증시, 기술주 매도세에 대체로 하락 마감…英은 0.07% 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9QNl9ia215R0x6NWdFMGYtdGdTQlpEdkcteUljRWp0a1RudER3SDh5bkdWc09JYlBYTUdwNklDV0ZaR1hpWGs0Z0hiZWoyenY1ZllvR0k3ck5JWWtlVzhiU0dPODEwQVB3NlY3dzllZWNDOVBMaDl2M9IBeEFVX3lxTE9QNl9ia215R0x6NWdFMGYtdGdTQlpEdkcteUljRWp0a1RudER3SDh5bkdWc09JYlBYTUdwNklDV0ZaR1hpWGs0Z0hiZWoyenY1ZllvR0k3ck5JWWtlVzhiU0dPODEwQVB3NlY3dzllZWNDOVBMaDl2Mw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/24 08:23"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "글로벌이코노믹",
     "title": "중국 차 수출, 2027년도 성장 중심… 내수 부진 속 현지 양산 가속",
     "sub_title": "",
@@ -2898,105 +2998,5 @@
     "link": "https://www.bbc.co.uk/news/articles/cm4g10p2r0g9o?at_medium=RSS&at_campaign=rss",
     "impact": "📰 일반",
     "time": "11/23 10:05"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "샌프란시스코는 AI 붐을 누리고 있지만 충돌에 대한 우려는 커지고 있습니다.",
-    "sub_title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
-    "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/23 10:05"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "에너지 요금이 치솟을 것입니다. 고통을 완화할 수 있는 방법은 다음과 같습니다.",
-    "sub_title": "Energy bills will soar - here's how you can ease the pain",
-    "link": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o?at_medium=RSS&at_campaign=rss",
-    "impact": "🔥 주요속보",
-    "time": "11/23 10:05"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "인베스트조선",
-    "title": "우량 기업 IPO 심사는 30일만에…中기업 조달 기지로 변모한 홍콩증시",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVldlXy11RDZ5RDF2d3JvdkZacEdPYlIyQ2toSzc4UkhuajBJTG5zU2hrVHVLTlVxTVktenE1aEtJcTNLd3cxaGVBdi1NMFlwSm9nVGlOb2gtWTF0dEJfcjM3WXBZRTF5RFZTTGs5eGFrTGtVbXM5SlZxOW1SV2txVWUtTQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/23 10:05"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[증시 AI충격파] \"코스피, 이미 IT버블 붕괴 수준…급락주 반등 가능성\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9LVVJRZXl0b01sMmE0Y0JwdEQzelYwclh1WWVtTm5xajlmT3pFY1JnOFZrMjRaTXdEdGxqcUVVbTUtVjZucjNpNDBHcjBVY2dWdFg2NTd0RFlpRURCUHQ0S2tJZTlNQXkydjlJSlBuYmQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/23 08:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "JTBC",
-    "title": "‘블랙먼데이’ 우려 커지자…정부, 증안펀드 즉시 가동 준비",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ubUZFMmlRTjR3blJ3X05OMnowOHJlcTlDRnVpTmJHSld1THp0SkhLbGpULXZnMVptbjc3VzhXZGdtS2FLYWo5MkcwLTNubExUMVRjbQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/23 08:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "미 재무 “엔비디아 수출통제 준수 여부가 핵심”…젠슨 황 복귀 가능성 배제 안 해",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1TNzlnZW9NdzY3UzVXdUZERURvR2Yxb1QxbWRGVkg5VnNoUkZFT1lEQ09SV0RfTV9DUVhpRGRIeEpvT2dwbVltVkVwdk5xY0F5WDU1dGU2YmRLeTQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/23 08:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "'강세론자' 야데니, 연말 S&P500 전망 7900→7500 하향 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xOGZxZURPOS1nQWlYdDFpekJZVE5CcmplV2lzdjVjaF9PMXVTTlFpbnhKb1I1ZjBXbjNrM3pMSHdVV1VUZ3NoUnphQ2ZvTmtZeWJieHFSY3g1YnkyUFJvcndnNXRva0o00gFuQVVfeXFMTnBQNE1zUS1xRGVZbllBLUcxYlhuWnIxM0NNbHlUdVdFVEdIdUhPQlByRUxTTGVLZWhTWXBNcm5jb1lNNlM1TGNUMnRCd3o4RmQyTEUzRFNjS1NQVEt5aHBSN18weWNjMmsySEF3MEE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/23 08:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "Chosunbiz",
-    "title": "[단독] 공급 늘리려 만든 서울 주택진흥기금, 내년 절반은 전월세 보증금에",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUFk2aXFBYmFpdjYzTVhLMWkxMXJTRFRoMDNESzhKQmVVWjlxUncxbWt3dG9Fak4wUndNV1FWeGNHV3RpaDNYOU9mclV5TXpDQ05yY1hENUtMcVJ1dHoyNUZ3akZzT3hadzdsRlJ3d2NjR1JNTmhxVVJoRlhMOGlJYk16NDdaSmxDNmU4YlY4bjQ0Y1JrZHU4aNIBrAFBVV95cUxNQi14cjNvV2lpX2Y0X2lhdXRVOVUyc2wwSmVTR1ExM0o5a094VktYYlJ0d19XTlZsRFFhUUxRTGdwSUJ5bGZYSElkeUlMRFZxQ2NiR1luVkdpWk13aUtEVHBGS0NGOHdzdl81b2lwRy1aajUzRmtSNDI5c3N4VU90ZFpfbmpDOHp0alNfdldqeTRSTDdLa1lzTkxzcGFUOEF4UnZza3hYNDNhTEVn?oc=5",
-    "impact": "📰 일반",
-    "time": "11/23 08:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "'블랙 먼데이' 공포에 질린 증시…프리마켓서 삼전닉스 동반 급락세",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9QTzBzS0ZhM3pmeUI1YUpwWXlpOGlDWWtVSElhYlR2MDgzVXg1RmdZYnctMER3YXpIdXFzZjBENDF1bDllNExGaHc2dmphYUszV0htTlJubVp6b3VkLUI2cXFYVWxDUWFyNDhaVU1QVDU?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/23 08:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "트럼프 “주가 하락은 ‘멍청한 민주당’ 때문”…연일 야당탓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE01MU1Pay1Wb2s5WlBOcnRKLWdqVE9RY2h3T2hSYktyNGlVMnJKcHh0RDV2Y3V5ZXB6QlE4WEpBQzRYWmk1RVRkYU9jNFFDZWhfRF84Tm9mRXZLd0FkUjJqNktsdjY4QQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/23 08:58"
   }
 ]
