@@ -1,5 +1,145 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "나스닥 선물은 기술 매도가 심화되면서 미국의 새로운 관세에 대한 보도로 하락했습니다.",
+    "sub_title": "Nasdaq futures slide amid reports of fresh U.S. tariffs as tech sell-off intensifies",
+    "link": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI가 연료 기술 손실을 걱정하면서 미국 주가 지수 선물 하락",
+    "sub_title": "US Stock Index Futures Slide as AI Worries Fuel Tech Losses",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/us-stock-index-futures-slide-as-ai-worries-fuel-tech-losses",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "2018년 플레이북은 시장에 좋지 않을 것입니다",
+    "sub_title": "A 2018 Playbook Would Not Bode Well for Markets",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/a-2018-playbook-would-not-bode-well-for-markets-taking-stock",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Neuberg Diagnostics는 2억 달러 IPO를 위해 은행을 선택할 것이라고 합니다.",
+    "sub_title": "Neuberg Diagnostics Is Said to Pick Banks for $200 Million IPO",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/neuberg-diagnostics-is-said-to-pick-banks-for-200-million-ipo",
+    "impact": "🔥 주요속보",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "미즈호 어벤두스(Mizuho's Avendus), 4년에 걸쳐 프라이빗 뱅커 75명 고용",
+    "sub_title": "Mizuho’s Avendus to Hire 75 Private Bankers Over Four Years",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/mizuho-s-avendus-to-hire-75-private-bankers-over-four-years",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Danantara, 첫 번째 감사 보고서에서 자산 6,340억 달러 보고",
+    "sub_title": "Danantara Reports $634 Billion in Assets in First Audited Report",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/danantara-reports-634-billion-in-assets-in-first-audited-report",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI가 덴트 리스크 감정을 우려함에 따라 국채가 곡선 전반에 걸쳐 상승",
+    "sub_title": "Treasuries Rise Across Curve as AI Concerns Dent Risk Sentiment",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/treasuries-rise-across-curve-as-ai-concerns-dent-risk-sentiment",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "GPIF 어젠다가 포트폴리오 검토 진행 상황을 알릴 수 있다고 JPMorgan이 밝혔습니다.",
+    "sub_title": "GPIF Agenda May Signal Portfolio Review Progress, JPMorgan Says",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/gpif-agenda-may-signal-portfolio-review-progress-jpmorgan-says-mwvrj40v",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "2027년 유럽 주식은 상승할 것으로 예상되지만 변동성은 있을 가능성이 높다는 여론조사 결과",
+    "sub_title": "European stocks set for gains in 2027, but volatility is likely, poll shows",
+    "link": "https://www.reuters.com/business/finance/european-stocks-set-gains-2027-volatility-is-likely-poll-shows-2026-11-25/",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "AI 공포에 대한 글로벌 순환으로 인도 주식이 1위로 상승",
+    "sub_title": "Global Rotation on AI Fears Lifts Indian Stocks to Top Spot",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/indian-stocks-extend-world-beating-run-as-ai-selloff-resumes",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Dangote 정유소, 아프리카 최대 상장 기업으로 성장",
+    "sub_title": "Dangote Refinery Set to Become Africa’s Biggest Listed Company",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/dangote-refinery-set-to-become-africa-s-biggest-listed-company",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "스타벅스, 일본 사업 매각 위해 은행과 손잡아",
+    "sub_title": "Starbucks Is Said to Engage Banks for Sale of Japan Business",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/starbucks-is-said-to-engage-banks-for-sale-of-japan-business",
+    "impact": "📰 일반",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 닛케이",
+    "press": "KB Think",
+    "title": "[도쿄증시-마감] 닛케이, AI·반도체주 급락에 2%대 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBnck5CNUJsdGk0ZWlOaXVIX1gyM1JxVWhONlBMZGpMMzRSbld0UTJjRGJQcjBwOEJGSGI0XzRvdDczZEVTX2FsYmF5VDZianFndERNZDA3bGtoNTFaTjQ1UnJXZ0pLTFFPYU5wSGJBVmhsUQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/25 17:17"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "연합뉴스",
+    "title": "日증시도 젠슨황 랠리 증발…닛케이지수 3.3% 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE81V2xKYXR3dXY1UXd2dThpcGNpZ0steGQ2azJoVGhfM0dvd2JUNy1scTktaUdBTHBRZUVnVklQVzJkd29XX3lEblVfQTA3c0M3a3VFTXA0QXp6QUHSAWBBVV95cUxNd1FBWTRyamdnZTI4M3AxaEZJaE12Q0JlRWlTc1VvM1Z4WE1DaWVJblVEbVIzbUNYWEplM2Z6ajdHSVpiTVFPbTdSSFNLLXRZdjNZT25jaE93M2RuUDhPeWU?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/25 17:17"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 에쓰오일",
     "press": "연합인포맥스",
@@ -2858,145 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-24/hong-kong-s-hedge-fund-tax-breaks-offer-boon-for-pod-shop-stars",
     "impact": "📰 일반",
     "time": "11/24 19:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "일본 최고의 생명보험사, 채권 판매 손실 75억 달러 기록",
-    "sub_title": "Japan’s Top Life Insurers Book $7.5 Billion in Bond Sale Losses",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-24/japan-s-top-life-insurers-book-7-5-billion-in-bond-sale-losses",
-    "impact": "📰 일반",
-    "time": "11/24 19:01"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "JPMorgan과 HSBC가 처음으로 런던에서 디지털 금을 거래합니다.",
-    "sub_title": "JPMorgan and HSBC Trade Digital Gold in London for the First Time",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-24/jpmorgan-hsbc-trade-digital-gold-in-london-for-the-first-time",
-    "impact": "📰 일반",
-    "time": "11/24 19:01"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 닛케이",
-    "press": "연합인포맥스",
-    "title": "[도쿄증시-마감] 닛케이, 젠슨황 복귀 영향에 4% 가까이 급등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE50aHRxRFg4c1V4eFp1S09JbmI3ak4yNUlZLUFOeFZHTF9pelgzY002MlZ4S3JTM0Y1dGF4OXd4NHVWYnlRaGI5RHhCWjh2ako2ZDVRNWItcTJrWGhJTzJqTWxkZzlKZEJfWmllODh5OHA?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/24 19:01"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "‘속옷 든 젠슨 황’ 공유한 트럼프…“불륜 의혹을 피격에 빗댄 것” [이런뉴스]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04YVJNQjEzbF8xbEdsNi1QU2hSSGpIMUI4aXlzc0hyREszMUN5UDIxLWZEM28tQzlkRFE2enROLURPSkwySGthQTlMUGpiLWxGTmhSeG9PQ1RnRFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "코스피, '젠슨황 복귀'에 5∼6%대 급등…'5천피' 탈환 시도(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE55Zk1rLUxiSlZ4aThraWVmOEhKUk5HT0M3U0lUakVXQ19HUG1kMGZlc09xaGlXb2RtelNESEo1OEhFRXkzbU1CLXFfQWg3bkxnZUE1bjM1R0tncmvSAWBBVV95cUxPZHV6YkNIWVpRLXNFRHUzSDFuaXpJcXp0YU4xeEdTdDF1S09EUFRzUmNqRG9zTDI2ZzZQdXVWZldlNG9TNzdQbFpIdHhIZ2xTRDFkV085MThfdnpBVGUwRms?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "'은행 주도' 원화 코인 길 열렸다…거래소 지분 최대 34%룰 도입 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE53amJtQXdJYUlYbS15eTBXa1gxZC04UTJMUTBKRTVFVldpTnJzaTU3dDJCQk5rQThjS0lMQ3NVd2Z0QkZWeWRXQll3QnppcmpTMXMzODNkTWtndDQ3cHVUS0QzaFd0WEVa0gFuQVVfeXFMUEFBQ1p3YzlJWWN1M1VmTVRNV05WWERGcG1FY1FSaS1RR200Vzk3VVZsM3NQV0h2Mm1QNFBYT1VBdFFIdS1GMi1xTHo0bm4zTzJrQnVJNk1SaFJrN25PVVZhX3IwanNWV0tzVFV2SlE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "30대 전체 미혼 비중 절반 넘어‥결혼 의향은 남성이 더 높아",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFA1UnA2RWhObXdQSG1MMUFvSmtlbXc5MVQ2R1pKbEdNMHU2ZjkxWmxjZXJjQ0ZyLXJNbnQ0QUVVZmV5bHZoVTVjdHBtdEUwSjVSRVBxVGM1cTZhRUo5U1JQZXZIbklEeGd4VlU1TEt1QzEwdHJy0gF0QVVfeXFMUHIxdmdPSFQxeDJNZ0lrVTNjNDNkeE9VY1N2QWwtT3BzQ0RWdUNEcGJwU0JYbGZBWWIwRUZrWG91bUEzeHdqV3FWaEJBVTBvR19YNHFDbVZxVjk1MFpBSEVRVnJtVDJETTFRX3pwNXFQdy03MTg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "SBS 뉴스",
-    "title": "채권시장 참여자 54% \"11월 기준금리 인상 예상\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1NUU10UFI3VHFvM2VFRDdzSE5CWVpvQ0ZYaUpXZ0V5V2RtMjZNc3dFR3h6VVU1UzRkVnpVVXNiX0lnNlJVZV9fd3JBRE1ac3lWZHdYUjF1RUpWeFY4LXE2cTExYllVUlRJQkE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 광주은행",
-    "press": "뉴스1",
-    "title": "광주은행, 취약계층 여성 청소년 100명에 '핑크박스' 전달",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5XcUVzaGc1X1c3RkRBb2NrNEtVSEVVcDZtS3BFZnF4dU9YWGVKaHlDTjk1bGtYS3lwYlF0dF96Y1hrSjJDbERYRXRKMEhUSXhGcHVsZHRNWUZVckwwT0JF?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "대법원에 화해권고 요청한 최태원, 젠슨 황 사태 보고 내린 결정? [Y녹취록]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBDWWZlckdqc2U5di0wcGxTVmdkQmZsZVgzZWlmOHZxX2huV2VGSk0xV2tHTzZVTjhPRzZhVy1Ed01MM1Q1SjdNQ3pmbWROWW5fazBfakhUR2w0a3AyWEE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "매일경제",
-    "title": "머스크의 경고 \"AI기업들 내년엔 현금부족\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE90SzNDLUVrR0N3RjVmbkdDb0hxWmhhZTB6S2t6aVRacGJ0WjFVdXhvYnQ5UVFQWXh0d0g1QWxXYzBzS0xleEFQaEVPejc2R211ZHc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "싱가포르 총리 \"AI 반도체 우회 수출 차단 위해 미국과 협력\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5BSUplTUotWWJLYTdTNFJJaUxSMjVBQkstNW9UM3JqNXVLNjZ2aHFrNVh2d2c2bld5VXFhXzdhZm5lRnRRNkRVRHFoWERfVmc4b0RYUGhZSDVKOVU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 엠비디",
-    "press": "에너지경제신문",
-    "title": "[특징주] 엠비디, 코스닥 상장 첫날 장 초반 17% 하락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIRE5LTXB3OXJLeWRWRFFiX0UzZEcycmh0c19yMWRGWjJ6NUVQTUFaNlZUV1hCMlJ1ZHIwNHFCYUxXUlo4QlQ3Uzl5TzVfaDZmMV9tdFVmRDZCTms?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/24 17:47"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "월요일의 대규모 주식시장 랠리가 실제로 상승세에 대한 경고 신호인 이유",
-    "sub_title": "Why Monday’s huge stock-market rally is actually a warning sign for bulls",
-    "link": "https://www.marketwatch.com/story/why-mondays-huge-stock-market-rally-is-actually-a-warning-sign-for-bulls-49d227a8",
-    "impact": "📰 일반",
-    "time": "11/24 17:47"
   }
 ]
