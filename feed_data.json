@@ -2,6 +2,96 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "“심리 치료중” 사과했지만…젠슨 황, 쇄신 요구 일축",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8tZGdHS1FNYmItN1FRb0MwZHg3MUpPWUpUdlNsT3huZll2VFFBdUdYczVxakdLYW1QUG4wcEJ1emtVa3M1TS1pZ0lfaVBUVU1US1FLdWxkYjEtNEk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 뉴욕증시",
+    "press": "MBC 뉴스",
+    "title": "뉴욕증시, AI 투자 불안에 연일 롤러코스터‥나스닥 0.6%↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iaUNJLUFDNnpfREF5b3dsNDU5S1JOMndkRklqdkZWTWdNMWJJTXg4elRwVFJEcGpXUFZmUkh6Vk9zN2ZmbklGYURSdURkbGxkS2cxd2VVc1YyU3dacG1SVDFCWmNpQzRvTnVjWDVkNjQwc2VK0gF0QVVfeXFMTno0OGliTWNhaTYtUGNTNWZ6ejFRYlpHYjI1OW5GSFRPd2lXSm04ZlgwdFNPUGZRUm9kSmJ3c2Y1by14U3dkMWFraHBWWktnWEg3N2lPMmlld1F1aVpmLWtKUzFpc0tQNG44emtvU3hYb2R4Qm4?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "한은 오늘(26일) 기준 금리 결정…연 3.25%로 올릴까",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1sRktacjdlNGEwemNLQWE1TXlEcEZqRHBqUDY2TmxlVG9jTF9OUjlUbXZmaXdXdzQ1Wjh4dGdYNHdoaHduaVZDdWhfLUpfb0Z4cmtLYXBmalR0eDg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "JTBC",
+    "title": "FBI·CIA \"앨리스 황, 젠슨 황과 불륜 중 중국에 정보 넘겨\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1nM3Z0TU1BZVlCcFZfZV9yX1Z4QWs0b2QxWnpyYjFlZ3I2Z0FOMnZJUlh0SkdobXk2SFZqZGRBR0hSSk5xX3NEQkRrY1dNYlYteXF2Vw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Jensen Huang, Trump 그리고 Nvidia를 뒤흔든 11일",
+    "sub_title": "Jensen Huang, Trump and the 11 Days That Rocked Nvidia",
+    "link": "https://www.wsj.com/finance/stocks/jensen-huang-trump-and-the-11-days-that-rocked-nvidia-604fff0b?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "S&P 500, 나스닥은 2025년 4월 이후 최고의 날 이후 후퇴",
+    "sub_title": "S&P 500, Nasdaq retreat after best day since April 2025",
+    "link": "https://www.foxbusiness.com/video/6408852736112",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "미국 후반 반등 이후 아시아 증시 상승세: 시장 마무리",
+    "sub_title": "Asian Stocks Set for Gains After Late US Rebound: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/stock-market-today-dow-s-p-live-updates",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "호주의 부진한 소형주, 2027년 복귀 준비 완료",
+    "sub_title": "Australia’s Beaten-Down Small Caps Look Primed for 2027 Comeback",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-25/australia-s-beaten-down-small-caps-look-primed-for-2027-comeback",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "일론 머스크와 스페이스X, '트럼프 계정'에 약 178억 달러 기부",
+    "sub_title": "Elon Musk and SpaceX to donate roughly $17.8 billion to ‘Trump accounts’",
+    "link": "https://www.marketwatch.com/story/elon-musk-and-spacex-to-donate-roughly-17-8-billion-to-trump-accounts-071c12e1",
+    "impact": "📰 일반",
+    "time": "11/26 07:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "조선일보",
     "title": "美 10월 PCE 물가 3.8% 상승… 12월 금리 인상 전망에 힘 실려",
     "sub_title": "",
@@ -2908,95 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-24/us-steel-buyers-turn-abroad-as-data-center-boom-strains-supply",
     "impact": "📰 일반",
     "time": "11/25 09:37"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Simply Wall St",
-    "title": "Digi Power X (NasdaqCM:DGXX) 주가 전망 및 애널리스트 예측",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSUdHSTZPZTI2Z2NyWlRuRWJVY0hZZE9HSEJaSDVLWllvNFM1WnpXejdKT2REcmRqRHRockFCT3lQemxyenBIdDdpM1J1amhLYkI2aDV3MlJFQS1UZi1sNXBJYV9ObmRENzFhUHYzYUZHMU4wTGxuVGY3enRzejlxYw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 09:37"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "'젠슨황 효과' 의문에 美증시 반도체지수 8% 급반락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53TFFpNUh6RU83S1pLRzVZMVpRMW5GTXFFc0Q0ay1RTXUybmpUcVFQOVJiRXI4bjJrTXVnZWVvUWFVWGUwUnVId1pLV09JaWxNSHhpWGFxNGZqOUXSAWBBVV95cUxQSS05X1FTamV1bkszM21mQlk2YlhCZDd0QjMxLU5XQkhEMkdndmQxdzg1QU4wc3ZaLV83cHMyY0V1OFNuandTZld5alBkWTBuTFBPcjJHUnJVUzM0d0xxUy0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 08:44"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "증권가 \"디지털자산법, 산업육성 전환점\"…결제사 수혜 기대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxYU5aOVFDRWE5X3J1SVJjS1FMelpGUlBsODVEOWNFZVdGY1dRbENBN3FzV3U0Y2Q4YjlfSHh3WkN0T2dnNXZwOEMzZ3hmSXBPV3lwUnN6ajZ4Z2ZyM1BQQzVESHNLanBhcG1SRWdHS2g?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 08:44"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 $DELL",
-    "press": "TradingKey",
-    "title": "Dell Technologies Inc (DELL) 주식 움직였습니다 하락 11.08%에 11월24일: 투자자가 알아야 할 정보",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQWGNteGdSZHQ0UXRWMnd3d2xfRUJkNmNITE9obldTdHdENFNGVWdYV1RVMlljNkdvT1RocW9CUTk5ZUxZLUhWT0pUeW5VM1hJeUpQZHIzSW95M2s1SDhId2dfYzNEWXRLM010TXVjS1REUkM2MFJfX1hyYmhQb0d6WmhYTjREeS01elNCZ2UzOA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 08:44"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국채선물",
-    "press": "연합인포맥스",
-    "title": "국채선물, 美 기술주 다시 급락에 상승…10년물 29틱↑",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE03YU05RnlpeGNnN3hXUjhMNjUzWU5BX3pQVUJ6Y3hYWVZ0NTBySThfQkFlMTVqd05kVHZVdXg3ekNKSFVKT0xmcXlCUzdIaDRoV0o5UjR0U3BjQ1RTbVpTX214amVFTDM1M29yVEp1NUw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/25 08:44"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 영국",
-    "press": "Mezha.net",
-    "title": "영국, 수년간의 취약한 보안을 악용하는 AI 기반 공격 경고",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOW5DYkhiTFJxYVZKbWtyZk5vakl1RElnOGh5Y0kyOFBnWXNjWjJNb29oencxUm5iZXlOZ1dOeGVZZ1M5cGVfVVNFdVZTaGtqbWpKYnlXVlJ2UUNKSWdjZjY3XzJvYTFBM19HYWtOdVVPVXJpN0JCZl9PTy1jeE9UTDlIdUNtMW9RNlRUc3BUYlZadw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 08:44"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스1",
-    "title": "앤트로픽 상장 나흘 만에 공모가 붕괴…우버·페이스북 다음으로 빨라",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE55Wl81ZUpSY2FkUWZNM29xdkFIVDRSWkVQMnczSkxGbFgwS1VfMVhoY2dpMFNrU2VYbUh2aWtNbS1MWWc4bGpYZ0F2VEhxR1VMZ01IeV9lYVNaQ0FNYkVGQWcyWjhvSU0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 08:44"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "경기일보",
-    "title": "코스닥 흔들리자 지역상장사도 ‘온도차’…공시로 본 시장 변화 [경기·인천 코스닥을 묻다②]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1EbTMyOG1VOUpDNV9tODlVaHNZdnprcW11SnVicmdHc1ExVkxjQlk4WFQ3MWtnSnh2SVdhUWdhQXlraXVUYlhtUjRBSWJ6NzZCeWlER1dEaHNsdHM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 08:44"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Stock futures are flat as traders await key inflation report, assess tech sell-off",
-    "sub_title": "",
-    "link": "https://www.cnbc.com/2026/11/24/stock-market-today-live-updates-.html",
-    "impact": "📰 일반",
-    "time": "11/25 08:44"
   }
 ]
