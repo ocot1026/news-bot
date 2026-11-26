@@ -2,6 +2,106 @@
   {
     "category": "KR",
     "tag": "🇰🇷 한은",
+    "press": "한겨레",
+    "title": "한은, 기준금리 0.25%p 인상…2년 만에 연 3.25%",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kaWJkTjM5bmJlYUh1RFVHbWdhSTdLOVRLY2oxTDZhNFE0QTJMTzlLV0VoSGVpRmg3NVZoYUR2dWVra0VIdnEtakJTUFR1N0IwbzBETlBNNXRMMTlRYUlmUFcyb2xsVGJXMWhjbWVDM09tZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "JTBC",
+    "title": "‘15% 상한’ 유지한 미국…이번엔 ‘과잉생산 관세’ 예고",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xRUdaOGtpdERuX2ZyWVhSOGlzX2hIQmtCVTJCd3FRMG82TUQ0ZFNrZ2RVUHdJelNWR3dCX18xajNuS2dPVHdlQ2FvcUp0Mk1ndlpoZQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "\"젠슨 황 내연녀, 中에 정보 넘겼다\"…남편도 연루 정황",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83dUZsZjIySDhHeHZhc2lmT0JYYmtidmx3MGw1cS1rejdEMkZ5SzZ1LUJLc0ZMaFQ1YWRVajRRN3E0NWFXOE9tM0ZTWmxFWEZ5Z3hRajZjQUVidw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "인베스트조선",
+    "title": "증안펀드 10.7조→20조 이상 확대 검토…출자 협의 증권사에 NH證 추가",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVDQwUXNXZzV0dUpGSV9sNGctLVA3cy1GcVlhaG4tOVEwUnI5VWJ6Q24wTUxCTDhSTVd5LTZpRWRyaEZNeHFqcDZYUnBITEFJVTRlN1dvVTBoeDFRNVVtYUwxenlWSDZqOUJxNl9QSXFlSWl5TEQyRXQ1REhSRFlIemp2cw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[인포맥스 POLL] 11월 수출 두 배로 뛴다…무역흑자 500억弗 돌파 전망",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91ZUZ6czhyeFItZm1pNjV0OUlCSVNJVGtPSXVqbnZMRG1vQmpkZHcyemdpMVpuTXczM1kxVG5OY3RVdnBQaXh4eGVoZHdINUVnR1ZkWmdMTWZFT3VSZnY3a0doTEwxZWJJR3d0RUVzeFA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "한-사우디, 원유 수급·비축시설 증설 등 협력방안 논의",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiSnF6NGQ3LW41VlYxeEUzdHJKanVvRkhZU19vQkxKOHhKZjVLRUUyQ2RsUERhejNNVzl5SVViT09ma2kwOTlmbTczeXRCd24zLWlDZUMwdUdzVVk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Indian shares set to extend gains on strong foreign flows; US tariffs in focus",
+    "sub_title": "",
+    "link": "https://www.reuters.com/world/india/indian-shares-set-extend-gains-strong-foreign-flows-us-tariffs-focus-2026-11-26/",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Shein’s Slow India Start Lays Bare Limits of Billionaire Ambani’s Retail Might",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/shein-s-slow-india-start-lays-bare-limits-of-billionaire-ambani-s-retail-might",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Modi’s Criticism of India Inc. Puts Weak Investment in Focus",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/modi-s-criticism-of-india-inc-puts-weak-investment-in-focus",
+    "impact": "📰 일반",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "뉴스핌",
+    "title": "[중국증시 데일리 이슈(3.27)] 트럼프 방중 관련 지속 소통, 다국적 기업 중국투자, 상장사 1Q 실적발표 일정, 항셍테크지수 편입 테마, RISC-V 성과, 광저우 AI 고품질 발전 등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1IejJNRktWVUFHaWxRc2pSM1ZFR1pyNGFyd3ZNMHQ5b3M4ejVTSXJ4VmR1OXRXWVpUVFU4U1Q5Vm9nd1I1RkZTWDZycDNkYXQxSE1UbkNZc2w3TG5J?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/26 12:30"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 한은",
     "press": "MBC 뉴스",
     "title": "[속보] 한은, 기준금리 3.25%로 인상‥내년 성장률 전망치도 4.1%로 상향 조정",
     "sub_title": "",
@@ -2898,105 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE13UUFZNHJqZ2dlMjgzcDFoRkloTXZDQmVFaVNzVW8zVnhYTUNpZUluVURtUjNtQ1hYSmUzZnpqN0dJWmJNUU9tN1JIU0stdFl2M1lPbmNoT3czZG5QOE95ZdIBYEFVX3lxTE13UUFZNHJqZ2dlMjgzcDFoRkloTXZDQmVFaVNzVW8zVnhYTUNpZUluVURtUjNtQ1hYSmUzZnpqN0dJWmJNUU9tN1JIU0stdFl2M1lPbmNoT3czZG5QOE95ZQ?oc=5",
     "impact": "🔥 주요속보",
     "time": "11/25 15:43"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "Investing.com 한국어",
-    "title": "[석유화학 진단] ③4개월새 노동자 3명 사망…공기 압박·안전 부실 ’샤힌의 그늘’ By FinancialPost",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9ZWEVpXzJRbGd6ZFRnRUFOWFNGZ1hmY0tTR0tyVENvMVROZGJLeDJIQWFUTTcxenV0a0R2R2RtY2hmVUF3cXVpVVJZWDRBR1RFNGpsVHprV20wQ3phcE56eUQyTGRQSHRfTHBHSjd6NHI?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "조선일보",
-    "title": "3분기 출생아 12%↑ 황금돼지해 이후 19년 만에 최대폭 증가",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOWFETGlESTFRTkRsZXZkSXNwaU8wRHlNaWcxYmViNzBiNkRfcVRMRlVYV2ZudXcydmtDS0FLYk9VZFdzdm1HeVpmYkdzS1lnejlXdUdHWW9udFJZOG9uTFFRWURYYndEMlN2VVhhakR1Y2xoLUNzNVRULUNMYlAydElqMk1CSjJOWTNHWV9n?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 HS효성인포메이션시스템",
-    "press": "지디넷코리아",
-    "title": "HS효성인포메이션시스템, AI 스토리지 공략 강화…고성능 신제품 출시",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE94WE5Gd2RmbGNoTUtCT0xyUkFFNVAzaVd1N193bDBmcFBfeVpVbnZveDhvQUtKSUtFRkkyMm91ZEpid2s2R2d1aEtXWkNHMG8xR2gwY3BB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "10월 주택담보대출 금리 6개월째 상승해 5% 육박",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5NGhmcXhrOWctN2VHOFduWnYzVHJBRmdqSnFRMXNBYkJaQS0wMGwyY1liNkxtWGdtdTJGdHRzMXpTaldOQlNkOHhHRmxNaUxQSl9KNjM1ODM0Z3ZDb0szTW1ZWU0zMlV0NUhMZlVNQjM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "내일 금리인상 확신하는 단기금리…골드만삭스 등은 동결 전망",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE83eFZTdWY0R3g5amQ3XzNBTDR6Y192X3JPaE9DOUpmM21zV1Q1Vm1UZFV0YkNiclQzaWxyTjQwNUtQLWFibTJSU1g5MWQtSWRwMWtrWWY2SWczdzRsWkZjN2xPWkxKSDFtMUJ3cTFha20?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "종투사 모험자본 공급 11.6조…KB증권 투자플랫폼 첫 출자",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9hbzJDak5nd1MxLUwwMUR5YXIzQWU1cXdyX0VKaWltUDdhSHVuNnNvb2twekIzUU9RSTI2ME1PX3dMbXY2bzlIQ0ZwM3laRHRpR0RHb2hReE44b1HSAWBBVV95cUxOczVEQXhUZS11SWJkOC1HQjZiVEdrMXZoY0ozX1dncUpXQm00SGoxdE9UV0ppNW1TeGRTZkJ4TjFMSU01T3l3NzMzLUxxanpYSTM4WTNKdXVHTG95Zjh3d0k?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "아시아경제",
-    "title": "[K팝 종주국의 빈 무대④]공연·경기 없어도 북적…\"도쿄돔 전환점은 호텔·스파\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5GRXA5cjhPcWl0MFBZVEI1R0hzSFdKbURUc21qN3RhRWtNME5IQjQxS0twWXRlR0tPTmY2SEw0UHA3QzdhbjdCTXNzaTRtR0pHUWVxOEQybHU0Z0lSWFJ1MQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스1",
-    "title": "'환매중단' 러시아 펀드 보유자도 퇴직연금 사업자 변경 가능",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5tR1ZMVTJLVVRFczRKNFRxSE1CMW0ySFVLOVlzNWNWd3VuYTBUdUc5LTc0Z3ZWZHVMRVRLVTFDSlgyRVJEazl0bUp5S3B5VGNKdXlWQ3U3OE92RUJHU2RN?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[외환] 外銀 매도세에 한때 하락…1,340원대 초중반 숨 고르기",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE01MTNiVVAwVEozc1J3TURhdTNxNk4tUWgwbmZhcFItMG1ZRVRmd2steUI0RVZtRk4yUjgtc1ZvZUN5dWJxb0VkanpLbjF2OEt4UV8tLTV3VGFpSWJqRkJPZ2JnLWZMUWdrcUZSTklqQk4?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 한국거래소",
-    "press": "인포스탁데일리",
-    "title": "한국거래소, 코스닥 상장사 공시담당자 워크숍 개최",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9iQVBRUUNpRWpYRlhyQXVGaDVwcFhZMFBIeWRjWlFSQzRIYVp4Z1g2YXIxelc2cWd0YUVZU0UzX1FVZzdRVk1WZ3lDRmdZMl80LURnU0hjcWdJRUxFeVE5X05GczNlOXhRcFJITm9QSDE1TzVkWFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/25 14:33"
   }
 ]
