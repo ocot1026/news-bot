@@ -2,6 +2,86 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "머스크 \"미국 아동에게 스페이스X 주식 2주씩\"...24조 원 상당",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1nX1JtbFFiTVluM2gxSjJnenI5Qy1HZlhzT1dfZ3gwT0htZkQ1LXo2eUctd2FMRVFDRTdpTHRRS0x0RGN3bkdUM1d4V3ZVRUo0TlJST25WMTN5SThZZ3c?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "\"내가 집값 올렸냐\"... 1주택자 종부세 불만 폭발",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOS25paWJOMGM5LUhqc0gxUVowQWI3aWxwRXMtZUJkOVBtbXFkakNwWm9nQ2oxSFdQOHpfMDRyLVdtUUlWVHpxX0o5aUpHWWlrbl9LUERKcE8zS2xralNVTFVoczJtWVNfRTU5aDA5R1JQZmc5ZDlXSlJPNzh1c1E1c2tUYVk0WUlndVl5V3Nn?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "UBS \"中 AI칩, 2028년 자국시장 88% 차지…공급망 확보가 관건\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9SYVNicExlMVluRWdIREpBR09hNUVxNDVhcHZLemxTaVpzTGliX01SLUFndkc5UWRpdTNDbjRURXFrMjBLZWw3c1NjVUpvWUVWY3JDV09GcXhGRmJ1NWNQWlQ5QXAtTDI2ZXgtQUxxYWk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "2035 제주 탄소중립 비전 선포…“재생에너지 100% 달성”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Mb00yNXllSWhucXc1SGpHM1hRbTFsSVhVUVQyUGhWTl9PMHFqWkRqOWdzXzhkbWhzU01NRy16RlFlRVN4YmtKZm93QzVkNUFWWVBOdjVQWTlKMHJod3BSYW04ZGpGZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "월스트리트는 혼란에 빠졌습니다. 추수감사절을 망치지 마세요.",
+    "sub_title": "Wall Street is in chaos. Don't let it ruin your Thanksgiving.",
+    "link": "https://finance.yahoo.com/markets/article/wall-street-is-in-chaos-dont-let-it-ruin-your-thanksgiving-130000187.html",
+    "impact": "📰 일반",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "콩고 금 거래자는 68톤 용량의 두 개의 정유소를 계획하고 있습니다.",
+    "sub_title": "Congo Gold Trader Plans Two Refineries with 68-Ton Capacity",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/congo-gold-trader-plans-two-refineries-with-68-ton-capacity",
+    "impact": "📰 일반",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Bawag의 16억 유로 규모 PTSB 거래, 아일랜드 고등 법원에서 기각",
+    "sub_title": "Bawag’s €1.6 Billion PTSB Deal Rejected by Irish High Court",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/irish-high-court-refuses-to-approve-bawag-s-ptsb-deal",
+    "impact": "📰 일반",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "팩트인뉴스",
+    "title": "中, 신생 레드칩 해외 상장 규제 강화…홍콩 IPO 위축 우려",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9MRWxFWHQ0dnpXbk1Sc2NoR0lyb1RTdmhUYUxQNlZkQ2l3b3l6aFc2emUtRk9xamljcUYybG5OWE0zN0pLYnlEcjdwUFpEbU0wekUzR0p5MU9HczJjUm8ycjZ4WGhON3h6VWYzS3YzLUHSAXRBVV95cUxQVV9BLWU2LUU3Q0JUWTVCcGVzNzN5N21IbUhkUkN5eGpLVW8zRGd5R0Nfd2REU2RxNFZPVksyblUyeEZZbFh0ODBtQnFGRHFlN1lpcVVpaFVFdV8tOUIyb1l1WldjNzUzdHZLai1fVW1LZzZBOQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 03:52"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "YTN 사이언스",
     "title": "\"앨리스황, 젠슨 황과 만남 중 중국에 정보 넘겨\"",
     "sub_title": "",
@@ -2917,86 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1nc1NLZGs3TGFZVklFRWl0VE9xZGw0TFp5akw4a1dQbXB4dkltclRpejZMXzhVcmFsbFpoMUF6cktqRkxXZ1k4bjZ3Z1YtRTBGYXY40gFYQVVfeXFMT1NoaFphS2hWRVFEN0d3UWlJNGQ5SGhZTzgtRV9QWEJvamw0X2diQzZxNVdkUjJqZ2FSYjhDNERMbFlKNkJTOVliZWtscjhBbnM2YkRWN2YxVA?oc=5",
     "impact": "🔥 주요속보",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "관세 대혼란이 기술 부문의 고통을 가중시키면서 변동성에 지친 투자자들은 타격을 입었습니다.",
-    "sub_title": "Volatility-weary investors hammered as tariff mayhem adds to tech pain",
-    "link": "https://www.reuters.com/business/global-markets-risks-analysis-graphic-pix-2026-11-25/",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "화석 연료 투자는 매각을 거부하는 대학 기부금에 대한 보상을 제공한다고 Daniel Turner는 경고합니다.",
-    "sub_title": "Fossil fuel investments pay off for college endowments rejecting divestment, Daniel Turner warns",
-    "link": "https://www.foxbusiness.com/video/6408869067112",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Nvidia 이사회는 올바른 결정을 내렸습니다: Jensen Huang의 복직에 대한 Kobeissi Letter 창립자",
-    "sub_title": "Nvidia’s board made the right decision: The Kobeissi Letter founder on Jensen Huang’s reinstatement",
-    "link": "https://www.foxbusiness.com/video/6408839906112",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "예측 시장은 OpenAI IPO 기대치를 2027년 후반으로 밀고 있습니다.",
-    "sub_title": "Prediction markets push OpenAI IPO expectations later into 2027",
-    "link": "https://www.cnbc.com/2026/11/25/openai-ipo-odds-2027-prediction-markets.html",
-    "impact": "🔥 주요속보",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Carlos Gimenez 의원은 사이버 보안 위협, 중국에 대한 미국 관세에 대해 논의합니다.",
-    "sub_title": "Representative Carlos Gimenez discusses cybersecurity threats, US tariffs on China",
-    "link": "https://www.foxbusiness.com/video/6408873177112",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "추수감사절 영업시간: 식료품점, 소매점, 레스토랑 전반에 걸쳐 열려 있는 것과 닫혀 있는 것",
-    "sub_title": "Thanksgiving Day hours: What’s open and closed across grocery, retail and restaurants",
-    "link": "https://foxbusiness.com/lifestyle/thanksgiving-day-hours-whats-open-closed-across-grocery-retail-restaurants",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "전문가는 황이 엔비디아를 다시 책임지게 되면서 '신뢰감을 갖게 됐다'고 말했습니다.",
-    "sub_title": "Huang being back in charge of Nvidia ‘gives confidence,’ expert says",
-    "link": "https://www.foxbusiness.com/video/6408836006112",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "분석가는 NVIDIA 주식이 장기적으로 견고한 가치 매수로 남아 있다고 말합니다.",
-    "sub_title": "NVIDIA stock remains a solid long-term value buy, analyst says",
-    "link": "https://www.foxbusiness.com/video/6408875550112",
-    "impact": "📰 일반",
     "time": "11/26 02:46"
   }
 ]
