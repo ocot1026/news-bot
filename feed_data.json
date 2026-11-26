@@ -2,6 +2,86 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "선거 지고 경제통계 탓?…트럼프 “3분기 성장률 조작” 조사 요구",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kT1NROGU0YU54Y3JwRzQ4c2hvbUVSVWpVT2xXTWxIUlpMbDRCM29ISmZrdzdmTW52WnMyRkxZdlNHT25maU10eEdrUDJ2cm00akstX0pZUWFFMFE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 엔비디아",
+    "press": "연합뉴스",
+    "title": "엔비디아, 동남아행 칩 출하 중단…'中 우회 접근 차단'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE51bXVyUFVlNXN2a2pUUUpvVmRUZmZReEIyMmlua1pKYzhhMENTVnBOYzZ5cVdBNW0tMkZnY0MzM3lGeFQyN3pMekRVNFQ1ZXpHTlZOR0JWR2g0ME3SAWBBVV95cUxOYkFKQUpBVDIwSU5vWk1ienAtdGRVdklmM0RUQzZtV3R6dWFicHFJbklNSUVfZ1Jab0d6QmY5ei1lX3pWVTZyai1tQ1hMMmZPelJYSVlpQ2FIWGpzU3hwU1M?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "[단독] 한국형 국부펀드, 코인거래소 대주주 될 수 있다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NS0oxMnNqbm5IV3o5S1V6cEw5UnpuaGh0SkNFVFVkdE1pa1BVTTRFTUxLYTU1d3VaNkVQYklKT2NvQktuOWdNZWRjM1pRUElsMGcyNHE4SW9xQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "'메리츠 뜯어고친' 김용범…韓 자본시장 바꿀까",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ibkRmN1hGZF93RS1fRlE4dURMREVsT2hhN2JoV1BfYWVPcGlpd1RwUW5EQVc2Rnd0Z29feDhmcEpCelRzN3ZEN0h5Qjl5TTE3UlJQOFgzenVOV1BCdmRRZGhKZHNPQTdReW9KaEFyYjM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "치명적인 충돌 위험, 연방 안전 위반으로 인해 청소년 ATV가 리콜되었습니다.",
+    "sub_title": "Youth ATVs recalled over fatal crash risk, federal safety violations",
+    "link": "https://www.foxbusiness.com/video/6408932895112",
+    "impact": "📰 일반",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "트럼프, 14개 무역 파트너에 새로운 관세 부과",
+    "sub_title": "Trump issues new tariffs on 14 trading partners",
+    "link": "https://www.foxbusiness.com/video/6408878501112",
+    "impact": "📰 일반",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "아시아 주식 선물 신호 상승, 유가 다시 상승: 시장 마무리",
+    "sub_title": "Asian Stock Futures Signal Gains, Oil Climbs Again: Markets Wrap",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
+    "impact": "📰 일반",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 자동차주",
+    "press": "미디어펜",
+    "title": "[유럽증시 특징주] 자동차주 급등…수입 하이브리드 쿼터제에 美관세불안 완화까지",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53Y0Vxb3VxSmdmNVZaVk9JbnpyNVZSQ2ZyY0hodDBfcy0zS2pXV1lwTWJJM1FQOXFwdUVWWFhKWnZsQ0NSeTlsR3BqbkVLZEFsQjRDOXZSRErSAVhBVV95cUxOd2NFcW91cUpnZjVWWlZPSW56cjVWUkNmcmNIaHQwX3MtM0tqV1dZcE1iSTNRUDlxcHVFVlhYSlp2bENDUnk5bEdwam5FS2RBbEI0Qzl2UkRK?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 07:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "MBC 뉴스",
     "title": "차기 유럽중앙은행 총재에 '비둘기파' 스페인 데코스",
     "sub_title": "",
@@ -2918,85 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-25/la-caisse-s-infrastructure-arm-pauses-bond-sale-as-market-sours",
     "impact": "📰 일반",
     "time": "11/26 05:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "혼란스러운 개장 세션 동안 CME E-Mini 옵션이 잠시 중단됨",
-    "sub_title": "CME E-Mini Options Briefly Paused During Chaotic Opening Session",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-25/cme-e-mini-options-briefly-paused-during-chaotic-opening-session",
-    "impact": "📰 일반",
-    "time": "11/26 05:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "온타리오 교사 CEO는 '매우 긴' AI 구축이 베팅을 위험에 빠뜨린다고 말합니다.",
-    "sub_title": "Ontario Teachers’ CEO Says ‘Very Long’ AI Buildout Imperils Bets",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-25/ontario-teachers-ceo-says-very-long-ai-buildout-imperils-bets",
-    "impact": "📰 일반",
-    "time": "11/26 05:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "미 무역대표, 젠슨 황 복귀에 \"트럼프, 경제·안보 균형 맞춰\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IdW1QWjBSaWJYNFJ5VHVRRnNFaTVueGE3b2VHSDRIanBPQS1tZ3VKS0tobjVyWE1CZnZ4bTZLWmE2VlVmamc0Wi12R2RCQ054UzVFY09PZk5lZjRQcDNwUHI0b0w5TnNsUHRmcXJ3bHhsM3Vz0gF0QVVfeXFMTndWXzlVakw3SXkyNmM0TGxGTC1ObHhfMkVoR3JSOXRObWVHd0lqTzl1cF9CTXBmT01rRVFQRE84T051TW5yekJzVU9aa0lJRy1Rbjc2OVhTMHpBQV9WQmp6YTJFNkxnNVRpSnFySlR5YlBVZEE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 04:52"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "중앙일보",
-    "title": "AI주 투매에 ‘약세장’ 내몰린 나스닥100…시총 1경1458조원 증발｜Global Money Club",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5rM1N6WEZZMWhsOVpBN0o1N1B3UmF2WFJ5bUxwdDF6VEIwYkdKUHlBTzJBMDg0TjZWekJXWGMyZ1A4N1ItY0trLVA2cV8yVU11YjJXTWNZSjVLQWs?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 04:52"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "배경훈 \"독파모, 中 오픈웨이트 수준 나올 것…韓 반도체 의존도 너무 높아\" - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBjX3ltV2xfTklOaHRBSlhFcExjdl8zMjBaSlJockFQUHdUcFJIa3l6Z0hLNFo1N0RyRHhuWGlsaHEyZXkzOVNDLUVmZEdjbFVzaEstZGM3YkNrMDN4dkNrbUxINzBxb3PSAWxBVV95cUxQX0NoNVplQnBvOTE1Rk1IT0ZxdGZGSkJzblRGZEotNjRZUGY2WmRvdmxGRFh2U2w4MkNfcy1WSVlNWGloeU13Z1gtQWNsTXZYaTVjemg4dHdnNGhmODFTeHFVdzVZVnFHdDBiRDM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 04:52"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Fed says inflation hasn’t gotten any better ahead of key December vote on rates",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=9c1a90f8-948c-4f54-b8df-e4b29931f037&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/26 04:52"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Traveling to Bhutan in 2026: Wood-Fired Pizzas and Monks With Cellphones",
-    "sub_title": "",
-    "link": "https://www.nytimes.com/2026/11/25/travel/bhutan-travel.html",
-    "impact": "📰 일반",
-    "time": "11/26 04:52"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Dan Loeb’s Hedge Fund Returns to Startup Investing Years After FTX Loss",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/investing/dan-loebs-hedge-fund-returns-to-startup-investing-years-after-ftx-loss-46f36108?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/26 04:52"
   }
 ]
