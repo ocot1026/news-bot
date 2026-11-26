@@ -1,5 +1,45 @@
 [
   {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "European stocks rally as tech and banks rebound, tariff fears ease",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/finance/european-stocks-rally-tech-banks-rebound-tariff-fears-ease-2026-11-26/",
+    "impact": "📰 일반",
+    "time": "11/26 17:39"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
+    "sub_title": "",
+    "link": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
+    "impact": "📰 일반",
+    "time": "11/26 17:39"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Chinese Carmakers Double Sales in Europe on Hybrid Demand",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/chinese-carmakers-double-sales-in-europe-on-hybrid-demand",
+    "impact": "📰 일반",
+    "time": "11/26 17:39"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Turkey’s Traders See Slower Rate Cut Pace as Reserves Shrink",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-s-traders-see-slower-rate-cut-pace-as-reserves-shrink",
+    "impact": "📰 일반",
+    "time": "11/26 17:39"
+  },
+  {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "조선일보",
@@ -2957,46 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdTdzOVNrS1F3MTZRUlIyVmFxQ3VDR1ZvS1N5YVljdDNBLW52LVJLZG55eHBwSTdubVNsaGkxdmx5YmxEMk1QRnBrbTNuN05wenpselZ2eGRLQ1Q5RG9Ua1lqUkJGSlprRkx6bWRhemExaDcxOHpMQXlLTFZyZGtiSXdsa0c2ZGVK0gGcAUFVX3lxTE9XbzBIdGUyWUkzWlUwcHd1OThpX3k2ZVN5NURaMU9zdU03SkZXMWd2YlNhdzlPUWlGRGRuZlNFTHFvOG16eVo0aEs1QUlvS0hsVThuWE0tRVpxSkdsMXgzY3h0RUU0N0JGZmdfck5va0tpTVJoTy1xajJULWNFcG82MkNWODhRb05odmVZcTRVeUNvSVN4aWRXY0ZCNQ?oc=5",
     "impact": "🔥 주요속보",
-    "time": "11/25 19:43"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "아주경제",
-    "title": "[특징주]코스피, 젠슨황 효과 하루천하…삼전닉스 단종레ETF, 15% 급락",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVVpiaFhFaDJHZEtPbVJncmpaV3Mxc01PNkE2QWxLbGpaS01vdTkxdUQxYV9KQVk1MDZLdVFxVnJNSG5GU1J5ZVZhajBqT1RIYkJWQ1VoaTQ1QdIBWEFVX3lxTFBKTGE4d0NfdmdTWVAzV2VMZGRIYm1GbWcyQUFaTUNuY2VYeDhnM0tTRDI0MEtZeGpmWG16dWxsbVNYRGY1b0VtY0dUT25TMW5HNjZNQl9qbWw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/25 19:43"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "의약뉴스",
-    "title": "유가증권시장 제약지수 4.66% 급등, 1만 6000선 근접",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA0eGpVNFc2akdPQTlnZFJSRXBjdW1jSTBnSlBCSHFLUFVGVTVlZHF6aVpRaUZUU2VCRGo4NVkzSEEyX2p2T0ZQUUhra2taOTRiaWJXVHp6dTNVV01EY3pwbVEySmZpNmM?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/25 19:43"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Where to Find Bargains After the AI Power Boom Reality Check",
-    "sub_title": "",
-    "link": "https://www.wsj.com/finance/where-to-find-bargains-after-the-ai-power-boom-reality-check-a6be0739?mod=rss_markets_main",
-    "impact": "📰 일반",
-    "time": "11/25 19:43"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Futures point to ugly Wall Street start, with Nasdaq seen down 2%: live updates",
-    "sub_title": "",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=4d73bd15-7732-4d31-90bf-98c7697e1199&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
     "time": "11/25 19:43"
   }
 ]
