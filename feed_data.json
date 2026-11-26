@@ -2,6 +2,116 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "YTN 사이언스",
+    "title": "\"앨리스황, 젠슨 황과 만남 중 중국에 정보 넘겨\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxORzN1VzN6UHVzYTZrcmkzeWswUUdfa3dSamp4SU1mMXdnOXBQLW0yQTFuSF9HMDdITm9XUVl2S01TTjNxWFlpNURRNFF5ZHphUHJiamRUbGg3Szd5ZE50R19IZWdHVzJ6bzdBYTIxY2E5ZERHWmIzTUZHVlVfZWU4Z3VxTTl4akhwSDZRNg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "머스크 \"미국 아동에게 스페이스X 주식 2주씩\"...24조 원 상당",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1ZRjZKNGpIaldDUzdKSGdCeHN0Mmc5UllPXzgyZHVVOWJvMkpCTFBsUXc4N3hPeFcyczNuVmZGZXphd25lR3ZiYW5Wc1FYWUEweUs4ckg3ekJibE5DbjUzcjZXbzFnS0VncnRSbGdCRQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "서울 아파트값 떨어지나? 한강벨트까지 하락세 전환",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5hVmxuVGxibFY0djhVaF9OMFFuSllLeHY2WXhDUTlYMTJNZUhwQ25GTDBRZmVQZ3VKRkYzZmVodjNlbUE5b0tUTS1JR3lWZ1NycXRhc0ZKY0Vkbml1SHl0S254QzJlUHZ0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "‘李대통령 주문’ 자본시장 개혁기구 수장에 메리츠 김용범 부회장",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91dlg3bE9zc3hTbGowVWRqSjVkOWpuVnpqWXdvdm13bTlRdEYyS05rOUdLekZRZU0zcF8zVjNseHR0THE3S2ZTUUhrQjZKYXItRkRSZy10aUxMd9IBX0FVX3lxTE94SWlENTB4MzJOTlZibkhVY19hSTJuRW1pdndHVXpFVldOQWNzLVRUOEdCWFRKSmw1cVFvRU81Q21qaWFlYUpReFVwRHNHVkdPalJWMUZ6WXpHUk9zMU9R?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "코스피, 장중 상승세 지속…외인·기관 '쌍끌이 매수'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0T213dVEybjY4M1hGVzlCNmZPSHNlOHByZ242U0VmUWpCaFVZSHI5U1RWQlpyRUg2bFBic2ZiWTVETnA1OVJSNGNGanlqOFhfSHBZOGR1dkVldw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "https://www.moneystorm.kr/",
+    "title": "[특징주] 코스피 6% 급락에도 화장품주 ‘질주’…연말 성수기·북미 매출 기대",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xbnhkTVhpeHBsc2NFS1lkbldYeE1NdUV5eXZ0cmpsbHBISjlydl9UVEZQaWJCNTZyZklxVFQ4ZndGRFRqd25NYzlwaDFfZGJpX3QtYTdhWkFSNU81YjQwVkRoZ0dPeHE5dWc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "트럼프, 3분기 성장률 4.3%로 수정 후 '가짜' 선거 전 GDP 데이터 조사 요구",
+    "sub_title": "Trump demands probe into 'fake' pre-election GDP data after Q3 growth revised up to 4.3%",
+    "link": "https://foxbusiness.com/politics/trump-demands-probe-pre-election-gdp-data-revision",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "미국은 인플레이션 냉각을 강조하면서 강력한 GDP 성장을 자랑합니다.",
+    "sub_title": "US touts strong GDP growth as officials highlight cooling inflation",
+    "link": "https://www.foxbusiness.com/video/6408926225112",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "헤지펀드가 주식시장 변동성을 어떻게 헤쳐왔는지",
+    "sub_title": "How hedge funds have been navigating stock-market volatility",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=81da3ea0-76aa-43a0-b9cb-21ff0b219994&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "라트비아, 투자자 찾기 위해 Air Baltic 보증 지원",
+    "sub_title": "Latvia Backs Air Baltic Guarantee as it Searches for Investor",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-26/latvia-backs-air-baltic-guarantee-as-it-searches-for-investor",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 닛케이",
+    "press": "KB Think",
+    "title": "[도쿄증시-마감] 닛케이, AI주 강세에 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZZ05qWTFQYWNza0pueURFb1NLeXd6NlliVmF2dUtLVFRwTXlSSHJUY1E4MXAyZlNrUFJYNWtmUUZqMlVWbDNieWFISFVVN0QycUVNVF9mb3NmN0NVZ1NlLVZKMzVGS1pLRVYxaXpNSUZOUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 02:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "YTN",
     "title": "올해 주택분 종부세 73만 명 고지, 19만 명↑...서울 지역 13만 명 증가",
     "sub_title": "",
@@ -2888,115 +2998,5 @@
     "link": "https://www.foxbusiness.com/video/6408875550112",
     "impact": "📰 일반",
     "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Jensen Huang의 복귀로 Nvidia 이사회가 정밀 조사를 받게 되었습니다.",
-    "sub_title": "Jensen Huang's return puts Nvidia board under scrutiny",
-    "link": "https://www.foxbusiness.com/video/6408877390112",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 CoreWeave",
-    "press": "Finviz Market",
-    "title": "CoreWeave, Nvidia 신용 위험은 AI에 대한 우려가 커지면서 최고치를 기록했습니다.",
-    "sub_title": "CoreWeave, Nvidia Credit Risk Hit Fresh Highs as AI Fears Mount",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-25/coreweave-nvidia-credit-risk-hit-fresh-highs-as-ai-fears-mount",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "러시아 정유공장 가동률이 수십 년 만에 최저 수준으로 하락했다고 Rystad가 밝혔습니다.",
-    "sub_title": "Russian Refinery Runs Drop to Lowest in Decades, Rystad Says",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-25/russian-refinery-runs-plunge-to-lowest-in-decades-rystad-says",
-    "impact": "📰 일반",
-    "time": "11/26 02:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "美 10월 근원 PCE 0.3% 상승·전망 부합…소비는 사실상 정체(상보)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1aMXZ5cFNWUkZrdkhTejhLLWxqbVRfMEpwUjVHcExyUDhqNDdaRDJwSmg4RXcySEl0QXJwN09sM3lZRVJlckhDck9Ud2kxS1lVRnpyVUZUOTJNVWFYbkdnZkFGc1AzY3VnUzlFRFQ4Wm4?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 뉴욕증시",
-    "press": "KBS 뉴스",
-    "title": "뉴욕증시, AI주 매도 우려에 급락…나스닥 장 초반 4%대↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53YkNjUXNJRDV4TWhEc2xOZ0VDTUkzN0NCa2NGeGdpWkZlVE5jeVhsM2tTWkxMMXdpaFFVUEhGUHJsNERxNllYdVdGazAtbkZJTUpPd2hLcGlXUVU?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 제주항공",
-    "press": "뉴스1",
-    "title": "제주항공, 1~10월 외국인 탑승객 276만 명 '역대 최대'…지방 수요↑",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAxQms1aTBvTmd5d24weUxJUExnUVhuU1BVVGsxelhBejdpVjNYX3ZIcmVjNlhtVnZNTm9vaVRzcjRIa2JsSXRBNzRrUzRXWmFMeDRkM1hwSjAtQzFELUw3MkVXVkk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "출판계 \"인쇄용지 가격인상 철회하라...신간 발행 위축 우려\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5uY0pnVEF6UWpKM3pVQVE4dUt0UWNvNE11VUo5Ul9mQ2ZCTEZ2SFRuRU45bi01VzVZOFZsN1pJbkhYbWs2dEdkRmhjd082SGtxRzZWNm1sREpDX092b3c?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "주간조선",
-    "title": "2000억원 수혈에도 못 버텼다…홈플러스 전국 67개 마트 다시 영업 중단",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE13UWFqRnB0eUlJRW5UQ0JVZU1KbF9vcGxIV1pHQ2FVUHdwZ25vb0pBTWdINWVJMXg5ZlQ4VGd6dV85bUZrR2tjZG5yMUMwYmxzR3oxaFhxaU02Z3V1dTBPb0VLVm1KeGVLTDU4?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴스1",
-    "title": "하나證 \"공포지수 고점 대비 25% 하락…증시 저점 시그널\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9UR0pBd1lrM3phUjIzdmhqT2RMTHdtRkRjNHpFQ2hIb3V4R2dOWnhuSFZaS2tnZHFoX284ZUQtU3NNbGVTQXZ0VGdXVkdFZjZYVzBDV0swYVowelkyQzVr?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "[단독] 불량인데 “그냥 사용”…중국산 쏘나타 국내 4만 대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9wb1FyM3ZlUS1oUFUtU3VyMldzc0p1Yms2ZUFMOVNLM19aeXo5YkY4YXhZV2JsVkE0ZU10NWNsT0ZfYjI1REtBcWFEYlhmS0FjbW92Y2hDTER5MGs?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "의약뉴스",
-    "title": "유가증권시장 제약지수 4.66% 급등, 1만 6000선 근접",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBycEVHTl9JVUV3T0t5ZmlvTGRuS1VJNXdfZ0h5d2VaN3gxMjNOdDBPSGZ5cXZNUFdNNmFOSGdzR1dNekF2UlpaZENTZ2dnMWg2Nmw4NHVmQkxaTlRqMU4wZGwzYTdIT3hC?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 01:46"
   }
 ]
