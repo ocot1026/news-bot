@@ -2,6 +2,156 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "코스피·코스닥 동반 급등…외국인 순매수",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9KWmpJNDZVZVBFWDBETjVpR0FaOXprVFdnSWtHSnFoOFBMQ2dMS2lNc01pQWtSeG5HUG5qa1AySVVtVGxrZHJkVG1fRTY2MTl0N3VPc2laMnVtTkk?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "국민연금 3분기말 운용수익률 13.28%…적립금 200조 급감",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PS2VjQmR1VnJNVFh1WWZKSHpmT1JieC1VX0xlMUQwclUtUjVsS2JPbFFLdVFXbWZIQ2l0UkJ6ZXlQSS1GT3VKRlhQVGRvdE1EbXFUekZ4cmtpRExmVERVeUhvWHVXTlZZeGl6bG05Ylk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "반성의 가격은 470만원…젠슨 황, 가죽 대신 ‘디올 재킷’ 입고 복귀",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1BeTNDTThXVFI4Q3h6d29RSXNmSUhTM2NPSkFRd2N1NVhvZUwwWVdoQ1pkNjVTWlEzVmVYbW8xcV9lZjZBc254OWJQeEZiUHlVY1lCYWFHdUl3dHlqWTRFVDFnb0JfbFY0TDFmUHJrSQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 뉴욕증시",
+    "press": "연합인포맥스",
+    "title": "뉴욕증시, AI 관련주 반등에 상승 출발",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6Skt4MFptb0x0Y01TWXIzYUNmcVI3cjZBOEQ1dlJzVGczSC03V3BUWEJoa09ISjl6eG9JN3pFcmIzZEsybnY4bkM2WENoQ0FhdDJscEVzb2V4RjUxTDlCRUI5MFhMOE8zeElncndjU3Q?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "3분기 가계 실질소득 2.1%↓…양극화는 더 커져",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NN0h5Tk5XdTZfTEtKWU1uNFVOTjhjY2ExU1I3alUzOVVPWVVZV3EzcDFnc2xrMkZ1Um1kTFBJLWxDbFRGWE5aZW9ZSmhsRWpyejNTZklTQU1lTlE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "한국경제",
+    "title": "상장사 상반기 영업이익 전년비 254% 급증…반도체·IT가 실적 견인",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9nTW9XNmw0VHUzTS1jVXlJel9LbmtVYzlKS0pmVURUeVhwXzRsTlFTSEkxMWhyNTVOMlNXYnV2ZVh0SzdHSGptbWwyR0ZkbkRqeHNwVVhTYXBGZw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Tech selloff and Nvidia slide rattle markets as tariff fears escalate",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408888029112",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "New home sales surge 14.2% as builders offer incentives",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408889241112",
+    "impact": "🔥 주요속보",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Lowe's deploys 'MyLow' AI assistant for holiday shopping",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408952211112",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia stock rallies as President Trump backs Jensen Huang",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408947348112",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Ed Yardeni points to AI panic as stocks sells off",
+    "sub_title": "",
+    "link": "https://www.foxbusiness.com/video/6408880760112",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "It’s Boom Times for Old TV Shows. New TV, Not So Much.",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/27/business/media/old-tv-shows-mad-men.html",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Private-Equity Firms Have a Surprising New Source for Debt: the Nordic Bond Market",
+    "sub_title": "",
+    "link": "https://www.wsj.com/finance/investing/private-equity-firms-have-a-surprising-new-source-for-debt-the-nordic-bond-market-24163a71?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Black Friday Deals and Holiday Sales Are Big Money for Influencers",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/27/business/influencers-black-friday-deals-holiday-shopping.html",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Poland Warns on Tech Debt Flood Before 2027 Eurobond Sales",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/poland-warns-on-tech-debt-flood-before-2027-eurobond-sales",
+    "impact": "📰 일반",
+    "time": "11/28 01:48"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "머스크 \"스페이스X 가치, 세계 경제의 100만배 될 수도\"",
     "sub_title": "",
@@ -2848,155 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1OYnFNNzhsQmtNWUkxaFV4ZmlXMjl6Vnp3TzdORkdaZDdTcmFPS2wxR2tuS0ViMzVhVV9HelNKWDNoaFdPUGRyenByMXo1S2Z0aFBXMHVRVFQ0QWPSAWBBVV95cUxNSThpN3JnbGR4SFp3QTFfcHBuVng3RnFfVGZwZnBwWGc1WUhaNGdmSUZqR2c3cHhkdHIyZFEtVGd2Mi1JN3BzaWdUUUNqV2poOTRHVnJva3RhRXVqQnFoVUs?oc=5",
     "impact": "📰 일반",
     "time": "11/26 22:08"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "'비거주 1주택' 국세청장 후보자 \"국민 눈높이에 미흡\" 사과",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBhdnpHUGNNZ2JOOXlWR1gxRmNid2c2c2dpeE9QZ3hGeEdMRkFUWUZzYURFYVNRbUM2bUZyLUlSYXRBU0w4NFV4WHBwZVVzUU02MzdEemo2ZnVTQUpGVnhDTWE0cVY0V1BWT0NBSHpvSHB3T2ll0gF0QVVfeXFMTXcyRXpkV25YanhYSjBZX2dXUUNwZHZORUt0VmxrX2VGQmZtcUxIM24zN0MzSTFyV09jLTJmOHJuaDQzeUZBVXVYeDZLQzh3RUZ6R29BMlVxNGxidGx5VWVzMUpmWXJlUUNzRXNHVHNGY1pPaGQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "수협은행도 해킹에 뚫렸다…고객 54명 정보 유출",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5aemFMMFV0QmN3bUpjcTFFVWVfeV9TYUJpQmFseWRDa05qYnd1eHlpSzFfeHpLUHFWNmRqTEJYcGxpblpEa1RleVFuYXNQZEUxcDlqWWd3XzlhUU9Hb05TTDc1YVRVRzUtT3ktUGJsTDc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "J.P. Morgan은 2026년 '대단한 회복' 이후 2027년 인도 주식이 더욱 상승할 것으로 보고 있습니다.",
-    "sub_title": "J.P. Morgan sees Indian stocks rise further in 2027 after 'great comeback' of 2026",
-    "link": "https://www.reuters.com/world/india/jp-morgan-sees-indian-stocks-rise-further-2027-after-great-comeback-2026-2026-11-26/",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "콩고, 수출 급증으로 최대 구리 공급국 칠레 폐쇄",
-    "sub_title": "Congo Closes on Top Copper Supplier Chile as Exports Soar Again",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/congo-closes-on-top-copper-supplier-chile-as-exports-soar-again",
-    "impact": "🔥 주요속보",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "미국이 중국 제한을 강화함에 따라 Nvidia는 동남아시아에 대한 판매를 중단합니다.",
-    "sub_title": "Nvidia Halts Sales to Southeast Asia as U.S. Tightens China Restrictions",
-    "link": "https://www.nytimes.com/2026/11/26/business/nvidia-southeast-asia-sales.html",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "터키, 통화 지원을 위해 리라 예금에 대한 세금 인하 계획",
-    "sub_title": "Turkey Plans Lower Taxes on Lira Deposits to Support Currency",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-plans-lower-taxes-on-lira-deposits-to-support-currency",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "말레이시아, 에어아시아의 재정적 문제가 악화되면 개입할 수도 있다고 말함",
-    "sub_title": "Malaysia Says May Intervene If AirAsia’s Financial Woes Worsen",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/malaysia-says-may-intervene-if-airasia-s-financial-woes-worsen",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "남아프리카 공화국의 IDC, 설탕 회사의 2억 5700만 달러 지분 인수 협상",
-    "sub_title": "South Africa’s IDC in Talks for $257 Million Stake in Sugar Firm",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/south-africa-s-idc-in-talks-for-257-million-stake-in-sugar-firm",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "투자자들이 자산 교환으로 전환함에 따라 독일 채권 피난처 무역 이동",
-    "sub_title": "German Bond Haven Trade Shifts as Investors Turn to Asset Swaps",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/german-bond-haven-trade-shifts-as-investors-turn-to-asset-swaps",
-    "impact": "📰 일반",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "뉴스핌",
-    "title": "유럽증시, 주요 기업들 실적 발표 소화하며 일제히 상승… 독일 SAP 10% 급등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuUmJ6WWRhRjhaTmFLWjd6SE5iNEF5UVk5d3loSVJvSXVuUkdLcUZOOFB5a3FzQlZyY213Yjd0c3JYRDVGSkNkeWxXZVMxdG5mcm5XLU9oSXQwb3hf?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 22:08"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "\"반도체 호황發 소비 회복은 시간문제\"…금통위 내부선 회의론도",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uZ1BoZFJ0X3pYSG9xUUsxOEFQalBJQkhQb19TSlN6cUNsWFBIb3FNdlV4Ti1YandoOGZTaXdMWWdqbmRsYjdRekhhVjYtWElPSnVWODBXREhUUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 20:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "JTBC",
-    "title": "한국 콕 집어 \"미국에 피해\"…‘약속 어기면’ 관세 25%?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9TYnRZX25yaEMzUGlWdHpPZVBtTlRvUWR2R2lBR2JYakJKaUF4Q0xyc0QyRi1LWHVfeTRKM0EtZlFCNU9kckE4WFpxYVk4X3lPZFl0Vg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 20:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "젠슨 황 측근 임원, 中 밀수출 의혹기업 여성임원과 아예 '결혼' - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FeVZ4TFFMTFVGNC1acmd3QWtZMW5ZYXAtSjg3Wll5S0gzRERBU2NHX3czTzQyeFAzUk5OQ0lNaEpmQWFTeE50YXlzYU1iYTIxMnkxMnp3b1pmTzl2WXBmZWpQMm5iLUdhUzZCbUtIU0xNMHJ4X3fSAXtBVV95cUxQUDljR0duaVdpVUtqcEZIam5tdlBfVUFhVVRvSEJPYlFrR1JXbG1aUnRFbWZBVTI4MGpoNGg1RlluOUR4N2Q5NUxFUUJUS290bGo3RDEwVjRkU2I1ODZuOVVzZl9TNFdTU016Y3dUem8zUW16UWJBdkI3bGM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 20:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "인권위 “국내 거주 동성부부 항공 마일리지 합산 거부는 차별”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5PdmlfSzBwbnFDT3F4UEVSWHppYkVyQUVvVEZoWFNkRjU1WXo1cmpPdF93ZF81dmRheUdTYzVOcmExMFIxcG5HdlZFaXFEQm5COXh5UENNSDFTX28?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 20:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "[속보] 코스피, 4,700선 마감...장중 매도 확대에 상승 폭 둔화",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFA3WjZkZXNFR0hhY2hiNktYMHhIMFBtZEhkMllfU0Z5UzlYeUJEU2lDYjRjT3BaM0FNWnRadFk0TUU5d1p2UGp0bXRFenZyYWdZbGJtMUxuazdNal9icEtiT3B4UldwbkMtUURwY21xUQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 20:54"
   }
 ]
