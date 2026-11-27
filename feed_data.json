@@ -1,6 +1,126 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 에코프로",
+    "press": "금강일보",
+    "title": "[특징주] 에코프로 주가, 14%대↑... 코스닥 훈풍에 상승세",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9nc2QtSVVseFhyZ25SNzBqekoxMUJnSzVFM1hEcUtSUHZwREozdndpUlBjV0FCZVpCZG1XeWRBVy1WQk12OVYtMXlEQ2Rjb0ZKTmlxSVQzU0E3YVZnTi1mSlhFR3RicTVMWVE?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "영국 FTSE 100 지수가 8개월 만에 최고의 한 주를 맞이했습니다. 광부, 은행 집회",
+    "sub_title": "Britain's FTSE 100 heads for best week in 8 months; miners, banks rally",
+    "link": "https://www.reuters.com/world/uk/britains-ftse-100-heads-best-week-8-months-miners-banks-rally-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "배스 앤 바디 웍스(Bath & Body Works) CEO는 쇼핑객들이 블랙 프라이데이 딜을 찾는 동안 합리적인 가격을 유지할 것을 약속합니다.",
+    "sub_title": "Bath & Body Works CEO pledges to keep prices affordable as shoppers hunt for Black Friday deals",
+    "link": "https://foxbusiness.com/retail/bath-body-works-ceo-pledges-keep-prices-affordable-shoppers-hunt-black-friday-deals",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "투자자들이 AI 불안에서 벗어나면서 주식은 강세를 보일 것으로 예상됩니다.",
+    "sub_title": "Stocks Poised to End Week Strong as Investors Take Break From AI Jitters",
+    "link": "https://www.wsj.com/finance/stocks/stocks-poised-to-end-week-strong-as-investors-take-break-from-ai-jitters-ce6b2846?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "미국 주식형 펀드, 기술주 대패로 11주 만에 최대 유출",
+    "sub_title": "US equity funds post biggest outflows in 11 weeks as tech rout weighs",
+    "link": "https://www.reuters.com/business/us-equity-funds-post-biggest-outflows-11-weeks-tech-rout-weighs-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "주가가 격변하는 한 주 말에 반등할 예정",
+    "sub_title": "Stocks Set to Rally at End of a Week of Wild Swings",
+    "link": "https://www.nytimes.com/2026/11/27/business/stocks-tech-stocks-ai.html",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "월스트리트 주간 하락하는 주식 시장은 고용 데이터, 다음 테스트로 금리 전망에 직면",
+    "sub_title": "Wall St Week Ahead Sliding stock market confronts jobs data, rate view as next tests",
+    "link": "https://www.reuters.com/business/wall-st-week-ahead-sliding-stock-market-confronts-jobs-data-rate-view-next-tests-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "JSE 법원, 확장 추진에 Dangote 정유소 2차 상장",
+    "sub_title": "JSE Courts Dangote Refinery Secondary Listing in Expansion Push",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/jse-courts-dangote-refinery-secondary-listing-in-expansion-push",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "코스피 패배로 한국 연기금 자산 1,510억 달러 손실",
+    "sub_title": "Kospi Rout Wipes $151 Billion From Korea Pension Fund’s Assets",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/kospi-rout-wipes-151-billion-from-korea-pension-fund-s-assets",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 알리바바",
+    "press": "헬로티",
+    "title": "알리바바, AI 반도체 자회사 ‘티헤드’ 홍콩 상장 추진…최대 30억 달러 조달 전망",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BRkFldTBfb041bUl1MlQ2cTFIVnhhR2R1OU5odWhZS2tMTnU1V3o2XzNRVlRiZkN1Ul9KNVdqQmZXcWNvZlQ0cEh3MVBXd2pfMTV0Qlpua09SNV9wUXBZ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "이투데이",
+    "title": "[특징주] 유럽 랠리·외인 '사자'에도…삼성전자 약보합·SK하이닉스 1%대↓",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQYVVialRzVDF5MnpRMk53YWk1TDRwaTM5XzZtVGpfNTRXSUJJRVN3X0hjV3FCblhuUTd6TF9qNkdTanJXVW5YSVMySklyRndZYk0wak9rNGhzdXdIZzJKOTJNblYxV2Z2dFhLcVVHR3Q?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "오피니언뉴스",
+    "title": "프랑스 시위 속 유럽 명품 업체 주가 일제히 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1kMTV1SWJaSXFRVVY0YWV2bk16V1locEkzSVNfczZoRWxqX2dQVGNVMlVOQ1UxUU9ZN2QyWWhvQ0U1aGMtYlJVSW9td3RYM0JIeFowODREbWRxd29hZmJEQ0U5czV1MHlldmZYNW1OUzJGdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 20:52"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "KBS 뉴스",
     "title": "코스피·코스닥 동반 급등…외국인 순매수",
@@ -2878,125 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-26/qatar-has-boosted-lng-exports-to-their-highest-since-february",
     "impact": "📰 일반",
     "time": "11/26 18:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Tim Hortons China Is Said to Weigh Options Including Stake Sale",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/tim-hortons-china-is-said-to-weigh-options-including-stake-sale",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "글로벌이코노믹",
-    "title": "AI·로봇 거스른 日 기업, 사람 뽑아 주가 5배 터뜨렸다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQSGFucUpGQm9HTlp1TmJoeWE0dUdBRklQQ3lCN1NSZG9LRllwcnBjVUVOcEhXbmpRV3VBazBJdlZQekhJZlJaMXVIcGw4XzFCZ3VvV3Uta2I1NXA0WS14TDZGSGRIYXNHVzBScG0zTzhwQ1FUT2VYbmp5YmtHXzQ1UDZ0aEtSTWEt?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "European stocks rally as tech and banks rebound, tariff fears ease",
-    "sub_title": "",
-    "link": "https://www.reuters.com/business/finance/european-stocks-rally-tech-banks-rebound-tariff-fears-ease-2026-11-26/",
-    "impact": "📰 일반",
-    "time": "11/26 17:39"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Robots could be doing household chores in just 1-2 years, Chinese EV firm says",
-    "sub_title": "",
-    "link": "https://www.cnbc.com/2026/11/26/china-ev-xpeng-humanoid-robots-household-chores.html",
-    "impact": "📰 일반",
-    "time": "11/26 17:39"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Chinese Carmakers Double Sales in Europe on Hybrid Demand",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/chinese-carmakers-double-sales-in-europe-on-hybrid-demand",
-    "impact": "📰 일반",
-    "time": "11/26 17:39"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Turkey’s Traders See Slower Rate Cut Pace as Reserves Shrink",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/turkey-s-traders-see-slower-rate-cut-pace-as-reserves-shrink",
-    "impact": "📰 일반",
-    "time": "11/26 17:39"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "조선일보",
-    "title": "美 과잉생산 관세 15% 기본 제안에 김정관 \"끝까지 지켜내면 선방\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSUhhZzNGMktYejNWOGVqWHpKbGJXeklUMmhualNwcVdMZ2l4UXJmR2h4Q1J4T2NLOHA2b3I5Mk9BNzgxWlFldm02U2E5c1RWcFVBMG5mZnlPTld4WmNUYnpSUnphOXJvZW1vRXVyVFlzWFMyd0VSX0Y4dTNxWWF0VmUtWmM0eC0yRXRRb09rMA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "\"삼성·애플도 못 피한다\"…20만원 들고 폰 사러 갔다가 '날벼락'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1xU3RxTnJ5aTNzZEVFMmp4WDIxZzVkTVo4TE9LSVM2R3VtSTdiWHhONGNYZUJsWXltQUpSSWlZOElNV2dGcklqRkduc29LVFpmdVRwR09WcFVydw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "미국 AI 칩 규제 강화로 아시아 데이터센터 대출 속속 중단",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5VQ0tBdThwcnBacFBnb2dIS2ZORHpjYmp3WExySUlxbEZGVWtrV05HYld3NjU5UmhvUjMtblgtRWNUWHF1Y3lZbGhFcVhaOVMxZ2pleGxzcjJVTmJYQlZTWG9RVWhLMDlDQk9RNmdCbG1SN3lq0gF0QVVfeXFMTWpiYXAyTzRlVkVzbVd6M0N2S01oa0dNQTJhdnprZHZhei14VDc2NnJ6Z1RuaWhvTEEyWHBSLWNvQmx0R3JWY3F3UDA0ZDM3SzU5cXA3Q3NuZGJRWTJVdURHVmlFOUYwWlBmUm9nR2dPTVhBSGw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "Chosunbiz",
-    "title": "李 하명 세무조사 지적에 국세청장 후보자 “법과 원칙에 따라 공정하게 할 것”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQam92eEFEM1JtVS1xeUViNDl2dVl2VktWTmdUX2FGTmdNcjJWenlmRGd3S1F0N0pSTlJFNktrMmU1WjMtWk1qN0IzdDZRVWdaZ2JYNXNWWS1ETk10T0ItQ3dRUWtxOTllUFprSjJ4a01HVFg4bTNDak5UTXA4VHlwcGxBZS1xQdIBmgFBVV95cUxQb3FwRWZMVWQwbXZGcVJuUDBILXZRa1lxOWZYamtud196U1BRSUFPOXcySGhHUlBYTjFSME1jaFlqOWVPRFNLY0NrZFhzM2ZrTmRkMlc5eUdSTjRybW9iWUt5WTgwQmNRNUlmODN2eUtfa3BpcWxUNFJGMzh3Z1RYREdIVzBTRGI0VWZZVlFkeUl4anp2TFFld1FR?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "한강벨트로 번진 집값 하락… 정부, 공공주택 공급 확대로 시장 안정 가속 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9USnJMV1pSMGxDY1VzY0RsOHJhbkF6Tkk3TTJidGU4NmNhNmFyN2YtYTFsQndxZWpianU4MFliVXFsczhVWlliQkhtdngzUmhTNWVab1RiUTNWWmdrcjBUSHFKZ3dldG45d1HSAW9BVV95cUxNZjVYVEZSS2hwVHloQkZBNi0zamtCRkNvWDdfZkdsZDUtbG4wXzUxVDdXc2xwRXhTeWNYa2wzazNzN0tIT2Z5YktBbWpEblZVQVNmNEdTWEx5NXZZNEstSUNadnlxc2NDcXByX3VkNDg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "네이버 프리미엄콘텐츠",
-    "title": "[시황발자국] 11월 26일(목) 오전 장중 시황 : 장 초반 4,815선 터치 후 조정! 한은 기준금리 3.25% 인상과 반도체 매물 소화 속 스페이스X 발 우주항공주 독주",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmJobGlrVXZhTkpkVmRKZjA4X196R1pHcGQybjdlcHBXbU9tT0EwbmZ3OGFlT29qZWszWEdMdzVWNVI3OXRLSm9Td0J0Y3ZHTG9MWi1XMVoxMHlJVGlRUnFaR01DMFJYOHZCOTQtZm5RVHJjeXJ2SUdHTUlKdU1SalVRY1NpclBX?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
   }
 ]
