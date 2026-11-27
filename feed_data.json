@@ -1,6 +1,176 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 머스크",
+    "press": "KBS 뉴스",
+    "title": "머스크, 미국 어린이들에게 ‘매년’ 스페이스X 1주씩 쏜다 [지금뉴스]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5TdEFtOGZ0RGhaZklJTUpncUNKT2YzMWNkZmdKLS1pZWFkX3hDWnE5dzRYZUxFeEI4OW95N3FhY2pCV1dsS3VIQVJrVG1hYjhCTF9vNVAyUEV0SEk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "코스피 4%·코스닥 8% 급등…증안펀드 기대감 반영됐나",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAxeWV0aEpXWnUxUlpVU2c5dWU0clFmVTVEZlI0VDZZOUsyc0hTZUxhZEtNMmQxS09Bem5VUXVVRjk0TThsQl9WczJjbGRPTnBEd3lnYUVrMlkyMWpNS2lyX2hibDhtajA?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "손연재♥이준효 부부, 고위험 산모·태아 위해 30억 '통큰 기부'[공식]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTXpGV1M3MXVYVGQ3UHpvNUVIYkRqa1FuSEpUTDdnaGw1Z0oxV3lHc0lzY1JoWDYwNWc0ZzJxVDlTYUtTVjBCYmVyUXM1YXpacm5lcnphZzQwdE5UUjhkcFBFYWxXM2pGYW13bUQ5MnVjVDdUVkJfd0hKRVBqYjFUc1kxbGdfUEFQMDdsV1RPSQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 SK하이닉스",
+    "press": "KBS 뉴스",
+    "title": "SK하이닉스, 자사주 일일 매수 주문량 2배로…주주가치 제고",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wOUVMRk9BcGFjODBkUktaWkJDN0plc2JUMXdOaWJITElSZEVUZ1ZYR1dOTTIzZlZfN0RGb0N5MnVGdElaajdDUkk1MjdCVk9HWWtLcC11XzVQVkk?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "JTBC",
+    "title": "물가 뛰는 타이밍에 ‘새 관세’…\"자해 행위\" 미국 부글",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MbXFJeU9ndUxUdE5BSF9TZ0FnbmxNSENFcEwxWi1Takg5Zll2N3ZFRVpSMkRqVDhGUGhzRnhTTVVRUXdkeWtSejJ2TV9LQnNyZlpkYQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[외환-마감] 삼전 30조원 배당일에도 하락…'무거운 네고'에 1,330원대로",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xYmwtRFJuaC02Nkt1T18zb05qbUVWNHYwai1DUEpYUkhkM2JSeEJvd3VKM0xZOEFwanBEOUctOGZWQ240cmRVMlNoOXRuNmxDRmhMMUVhMjUwcDJsWk9DYUVzOHRTZndjbDk2YzJzb1g?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 삼성전자",
+    "press": "조선일보",
+    "title": "삼성전자, 오늘 역대 최대 30조원 배당… 개미들에 5조원, 이재용 4500억",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMG5OQ2o0YkxVZ3BMal84VVpCQkVRYnVmSTBaMFl1bThJUjZmS1dwS3BYMzBfRGwweElScHdwakdJalE0ZElVdnVOV2Y1SWlKSnZiTmw0SHlGcThhcEFNQjFQWjFqN3VoX01ZRjBqY21iakNBVFlEQUpYQUV6T0hRc1kxQQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "박홍근 \"미래대응기금 여유자금 연기금투자풀 위탁 검토\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5VSGpRSldXYzZXajlCZ2NNNXRpeHF3NzBnSUo1czkydDRSSjVySzh3d0Jid09TZkVRRlhmcFBRSXJuVVphR0ZyNFkxWVZVWjBTeTFkNEg4Z1VmSS1jY2N3MUF6and2UV9fdjQyT19WUkw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "젠슨 황이 그릇 닦던 식당…‘엔비디아 발상지’ 명판 뗐다 다시 걸어",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBSUXNYLVZGcTBaM2RVbUhLaUpxTTIySElDenVIOUZza3hnOGZpUm1oNVc1LVlfek10WUFCN2ZmX2F3R09XUW5LT0laYkJTZHJ2NTl3dzhoVW9kTDRjNTFHZ3U4YmxnNHdYN1BfU2ZhVQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Allstate, 기술 중단으로 피해를 입은 기업 목록에 합류",
+    "sub_title": "Allstate Joins Growing List of Companies Hit by Tech Outages",
+    "link": "https://www.wsj.com/finance/allstate-joins-growing-list-of-companies-hit-by-tech-outages-77dbb488?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "중국 부스트 리프트 기술",
+    "sub_title": "China boost lifts tech",
+    "link": "https://www.reuters.com/podcasts/reuters-morning-bid/china-boost-lifts-tech-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "설명자: 중국의 '국가대표팀'은 무엇이며, 이것이 주식시장 하락을 막을 수 있을까요?",
+    "sub_title": "Explainer: What is China's 'national team' and can it stop the stock market slide?",
+    "link": "https://www.reuters.com/markets/europe/what-is-chinas-national-team-can-it-stop-stock-market-slide-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Nvidia Blackwell 칩은 Alice Huang과 연결된 중국 사이트에서 등장합니다.",
+    "sub_title": "Nvidia Blackwell chips turn up at China site tied to Alice Huang",
+    "link": "https://finance.yahoo.com/technology/articles/nvidia-blackwell-chips-turn-china-114546617.html",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "주식은 블랙 프라이데이 세일처럼 보입니다. 작은 글씨를 읽어보세요.",
+    "sub_title": "Stocks look like a Black Friday bargain. Read the fine print.",
+    "link": "https://www.marketwatch.com/story/stocks-look-like-a-black-friday-bargain-read-the-fine-print-b6546539",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "경제 달력: 도매 및 소매 재고, 미국 무역 수지",
+    "sub_title": "Economic calendar: wholesale and retail inventories, U.S. trade balance",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=42d1a4e9-5f16-465e-b293-f57dfaa54feb&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "S&P 500이 조정을 받고 있습니다. 약세장과 불황이 항상 따라오는 것은 아닙니다.",
+    "sub_title": "The S&P 500 is in a correction. Bear markets and recessions don't always follow",
+    "link": "https://www.cnbc.com/2026/11/27/the-sp-500-is-in-a-correction-bear-markets-and-recessions-dont-always-follow.html",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "터키 펀드 투자자, 에르도안의 약속에도 불구하고 원금 손실 직면",
+    "sub_title": "Turkey Fund Investors Face Principal Loss Despite Erdogan Pledge",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/turkey-fund-investors-face-principal-loss-despite-erdogan-pledge",
+    "impact": "📰 일반",
+    "time": "11/27 22:04"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 에코프로",
     "press": "금강일보",
     "title": "[특징주] 에코프로 주가, 14%대↑... 코스닥 훈풍에 상승세",
@@ -2828,175 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-26/trump-riles-trade-partners-with-tariffs-that-undercut-china-1",
     "impact": "📰 일반",
     "time": "11/26 19:54"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Banks Seek RBI FX Swaps After Record Inflows Into Indian Stocks",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/banks-seek-rbi-fx-swaps-after-record-inflows-into-indian-stocks",
-    "impact": "📰 일반",
-    "time": "11/26 19:54"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "글로벌이코노믹",
-    "title": "中 AI 신성 지푸·미니맥스, 홍콩 항셍테크 지수 전격 합의… ‘글로벌 AI 붐’ 정조준",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPSDE5TGsxZ3ZRNFNDUUtUYmsxQVR5bl9rNklFb3pGeXRJaHlUQXM5M1dsSlRmbDhYVDMxYmQ5ekJuT2JkRkNfQmxhTjJTcExsWXhUTlBHR0RyNDA2VkVCT3hWbFJ1cjBkUkpyV3hENzNhdHlkRVZockhSbW41S2hqMjlkZWxmbVk4?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 19:54"
-  },
-  {
-    "category": "CN",
-    "tag": "🇨🇳 중화권증시",
-    "press": "AI타임스",
-    "title": "문샷 AI, 홍콩 증시 IPO 비공개 신청…중국 AI 기업 자금 조달 가속화",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE90aUx4MFhRWGpQRC1jbVAyc1E5TmlnTzRHdjB1TTdaNm9jZ29Yeklwc0JUY0ZQRjd4NHMzc2VWY0ZodnE5R0JOdDVGWVMtRmY0elhLM0ZfUmRkcF84VUtNYWVfWU5KNkM0TkE?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 19:54"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "트럼프 행정부 “한국 노동자 월급 너무 낮아”…비정규직 처우까지 조목조목 지적한 까닭은?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5Pc0w1VW8xaHJIdUM2bGkzVzc4em9PdmFkai1WZEM0RkRodEZhMHhSaWZuS0tubkZOc29QUm1GT1Q2cktUaklCOHRZRHMxZjVHOUwyZmU3WE82QdIBX0FVX3lxTE5kWUpFbEt0LU5JS29sTV9malhpdHMtSEdMOXZEN0xmZ1VIUzEzRVhxSWN5Y28xQkNxcExEMVFWempibGJUUDZOb2w4cTFxazNHZGVrTXkweG9ULXRjNk40?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "주택 종부세 73만 명에게 고지‥1인당 평균 세액 약 200만 원",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE91OVB1QVl4X2NGQkMtZTFqQ1d4R29vLU82ZnFrSzdhMzZ6SUdvbU1fSzhpbkpTdWZOcjRHal9RRUNGUF9RZVBuRmZXeEVLek9aYlU1ZmFLTkRGRS0zQUd2bFdKQ0RLWFRkams4dHlfREU4dHRs0gF0QVVfeXFMTjR0RmFWUjhPUmFmZGJfdnNRenZRMU5UeHY5WGI4Y2lnczZzVndFNzZBWlowcWFRWHBvTFpBRnRnSFI5ZE51QlZsR1dTallzWWh4RmNHWGZYRnEycGF1SnhSQ3NaOWlZbWlyOURyOXhIQnNQenc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[증시-마감] 저가 매수에 코스피 4,700선 회복…4,711.21 마감",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1pTFl0S2ZFbFZCNmN3SWdxS2VfNkR3c1BaTENXQ0gwWC1CY0ItdHdTalVhdnlsQkxMLTdYZ25PNjFsNFlueG9SenZnSWJPS0xpMkg0bTFIZXdtQmdaWFhHV1lScDQtRmJMazdZcWFEOXc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "서울 아파트값 상승률 0.01%…94주 만에 최저치",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9QalpzRGdWaWxVejJ6STlJQ0tUQ3JUTkF0TkJkb3NhUWszYjB1NWVHUVBUamZSUktYOUpHYnJfTWcyRHYydUVhSzdRN084TkxYNmcydkRtTVl0anZrT3J4eVBMYlJmdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "Chosunbiz",
-    "title": "“살아생전에 새집 문턱도…” 상가 뺀 재건축 보류에 올림픽선수촌 주민 반발",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQWmdtZ3FPMXBTMVhvUXE1QUpTcFdtNEQweVQxLUlITXN4UHNDaDljaDU1Ujd2Um9RX0VYWXltOU9ZSzdDNVdRSGZqWV8yMFE2MlAtSWVyTFRSNWZtRmN1NjNNejNIS0tfVGh2OHdmcHI1eEFoR3dNb01NMFF5aUFRVWtMLWhXMzNrcTh0ZWFQU2RobGhyRnRwbdIBrAFBVV95cUxNOTVXNkxDVDhXZlBHWWF3QndUcGJnQWdHNlVGejVOWDV2OWdnRHZ3V2FBLVFsdzd1OFFINkpsQnpVYVdDd0ZZb1lTVXh0MDVGLTZfc1BScWxLUTFPcnhQQ19iU2pWbnEtQjgyUkc2bndELW9xSFEtTDNRNGQtekhsTHR4c1hISXdiS181cF80dG8tY2R3UV9YeVEtRFozV0hpSUQyR3VUQTBWaXZp?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "매일경제",
-    "title": "“분양받을 땐 이런 말 없었는데”…서초 신축 아파트 주민들 ‘발칵’",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1raUZEcHY4VHFuWlEyeDBtNW1zLTZQeFBqeC1TakI3WWZVNUpqeHJIU0JoQ1RKWG9UNjM0WXU0YlZFQ25VZlpGUHhUZ3JkYTlNSVBQUjFJMVA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "젠슨 황 복귀시키려 ‘전시동원법’까지 검토한 미 국방부",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNdkVqVndSZVdRWGxHODNSbGR6UHBrSTFCZk1DUVlSd1VGMVZ2TzBOMWg1UDFVbWJmYURFT05kUjNWdm1GTXB2V3V5dkdIVThSQkVObTVKU1M1LWNQdWluX3l1NHU4aWc1V3JINWZzNVpoQUNOR0tDVHZqN2cwTmUteFZB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "단독 홈플러스 \"매각주관사 통해 인수의향서 접수\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0dGRKQzUwVUR0aktKelJkb0dfajhwRktWZE1meENNVGFxdHVVU2Y3ZjZVb2VhRVRJNG5BeG4zS3RuS2dvUFc4WWVnSGhwTkptSzBkdndxVXQxNk9nMlE?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "은행연합회장에 박종복 전 SC제일은행장…내달 1일 임기 시작",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE95bXpJX1kzOWVnUzRTSk1iSm54cUJNVEJWMjllZzIxeGxYVmZGVUpXN1VCX29ra0xFTnJCbEZEVG1CZ1JwdmhsSVhsR1JJbmo1RXdOeUxMX0pZVzNCV3lmQVZkbGdab3g4YlhIWVRMN3k?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 에이피알",
-    "press": "연합인포맥스",
-    "title": "에이피알, 닥터멜락신 품는다…3천900억 들여 지분 87% 확보",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAwMms5YjlzalZCQ0RaMkRLX2hTWndrWVBqam1GMmhCS1dtVHVyTmtJdVY3T0dmbkM2cU85QUV4eV9yNFoxLW9kTGpGdFA1T0hwR19fcW1hcEtUaWZ6cFRSaHJZSFJQdkVXVm9mdWVVaTTSAXRBVV95cUxNUG5ycW9NRnVtenRlM3ozaE1NczFuNlNHbG5zWHYyTjk2UjdtWWlBdkhMVjJPOWhaT09ZTW9PRW9NODAzbV9HMWNENGxrbWlTQndlaFNjYnFSWjRqcjFzc29uUGw3QTF2UVRfdnppRUt6RVVYNQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "국세청장 후보자 청문회 공방 “정권 핏불테리어” “부당이득 조사”…‘비거주 1주택’ 질타도",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5CWkk4Qy1tXzRVMHRTRGJGX2dzN1RtR0pWb3QtQXBScDJMUXdsSXV5WWphVU01SFl0WjRhRmtYRHBxdU5fOW04ZmtfZkVYb0tncmZzTzNpZHgzOFE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "https://www.moneystorm.kr/",
-    "title": "[특징주] 코스피 6% 급락에도 화장품주 ‘질주’…연말 성수기·북미 매출 기대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xbnhkTVhpeHBsc2NFS1lkbldYeE1NdUV5eXZ0cmpsbHBISjlydl9UVEZQaWJCNTZyZklxVFQ4ZndGRFRqd25NYzlwaDFfZGJpX3QtYTdhWkFSNU81YjQwVkRoZ0dPeHE5dWc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "UK signs £8bn deal to ensure submarines are 'warfighting ready'",
-    "sub_title": "",
-    "link": "https://www.bbc.co.uk/news/articles/cq39gz99l1pyo?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Qatar Is Boosting LNG Exports Just as Winter Demand Nears Its Peak",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/qatar-has-boosted-lng-exports-to-their-highest-since-february",
-    "impact": "📰 일반",
-    "time": "11/26 18:49"
   }
 ]
