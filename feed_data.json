@@ -1,6 +1,36 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "산경투데이",
+    "title": "코스피 6%대 급등에 5천피 탈환…외국인 8거래일 만에 순매수",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91SGYxN1g4TFlYVDE2NWRtNmN5S29OelZUY1Q2THBxX2doUm85dkFzYlphZWMtT1p3cGNPODk4dVZDVzlyejM5SkM3c0VWdjVIeF9XcWowSW45eS1scW5PWjRKOVZxZHZwZldscDUtZ0PSAXRBVV95cUxOQnVlbjF3NUx6WjV2VGRYb25Gd1JNLUxFa2E2MG5IOUtJd000S29CX0tEczF6LWpsdV9ES0E4OVBocVlGZHdidEZoSEtvVVVZVjRvMkRZWlFrZUppaHBXMjZsUnJzSHduZWpIOGJOTDJlNVBsNQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 05:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Altice International, Creditors Discuss Debt Cut of About 40%",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/altice-international-creditors-discuss-debt-cut-of-about-40",
+    "impact": "📰 일반",
+    "time": "11/28 05:51"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "네이버 프리미엄콘텐츠",
+    "title": "손정의의 소프트뱅크, 오픈 AI · Arm 주도로 47조원 순이익… 일본 기업 역사상 최고 실적",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQVktb1F1eU4zZGg3bWRMM0lEc0swa21GUENnTkctWWhENEVBTXNJcEV0OGVqUTVXZnRsLW5PdjJaamJSMjM2eE96SWRndDNoWmhwMEZ3TDJKR3MwZlJENlBGX2QxRVFHaC1HUGFQLTdVU1ZkdWQycmtPSzRZbEhyNzlwSkU1bjcw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 05:51"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "KBS 뉴스",
     "title": "‘젠슨황 불륜 상대’ 관련 중국 시설에 엔비디아 최첨단 칩 설치",
@@ -2967,36 +2997,6 @@
     "sub_title": "Data Center Developer Wanted to Build Up, Not Out. Kansas City Said No.",
     "link": "https://www.nytimes.com/2026/11/26/business/energy-environment/vertical-data-center-kansas-city.html",
     "impact": "📰 일반",
-    "time": "11/27 00:34"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "애플, 어린이들에게 성적인 메시지를 보냈다는 신고로 중국에서 개발한 AI 챗봇을 앱스토어에서 철수",
-    "sub_title": "Apple pulls Chinese-developed AI chatbot from App Store over reports of sexual messages to kids",
-    "link": "https://foxbusiness.com/technology/apple-pulls-chinese-developed-ai-chatbot-from-app-store-over-reports-sexual-messages-kids",
-    "impact": "📰 일반",
-    "time": "11/27 00:34"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "민주당은 익숙한 질문에 직면합니다: 그 비용을 어떻게 지불할 예정입니까?",
-    "sub_title": "Democrats Confront a Familiar Question: How Are You Going to Pay for That?",
-    "link": "https://www.nytimes.com/2026/11/26/business/democrats-congress-agenda-taxes-spending.html",
-    "impact": "📰 일반",
-    "time": "11/27 00:34"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "브라질, 가계 부채 급증으로 소비자 대출 규정 강화",
-    "sub_title": "Brazil Tightens Consumer Lending Rules as Household Debt Soars",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/brazil-tightens-consumer-lending-rules-as-household-debt-soars",
-    "impact": "🔥 주요속보",
     "time": "11/27 00:34"
   }
 ]
