@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 한수원",
+    "press": "데일리대구경북뉴스",
+    "title": "한수원, 체코 원전사업 이행 가속... 현지 협력 행보 강화",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOZ0VkY1czUlhGcXpqQ0YyVmdrQVNrYlNPa0ZWY25Cakc1cG1uSEdpY0ZrUTQ4clNnMGJFbVRuak5aR0w2eTZyVGRFTDZfd2FVUnlYcUgyU01NZ2l2dW9Ub2ducHVEdw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 13:47"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국무역협회-KITA.NET",
+    "title": "패트로달러 아닌 칩달러…반도체, 세계수출서 원유 넘어섰다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY3pPRENwZGVQbHp4RDFUVTIxX2V6dGFKY0hsOXA0NDdqRXU4NUI4X2p4eFg4cXFycTFQZFluUjVHS09vdmZHYXRSUC05emhxbzB1ajZxNnlLU2F0YklHdWtRRGpvaVFIS25oUVFiblJoS3B4dGVYbE43MlBzQU0xakJnTjFBVHNwelRWUzNyVDhsYXhNT3NBR2xUSkZrUUZwdk1oU0c5T29xczJJUFJOS0J5VFI4UVFfRTJ5UjdUdS00TVFSU0Iwd2QxSnhDTmxDVDJjdzVB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 13:47"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "올해 개인정보 유출 작년 2배‥10월까지 1천 건 넘어",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zRWpORTdOWFpIUE5lOHVYRjcwY1Y5NUtwVTVmV185TUptMFpRcDdkWThDZHlILTF4UUNpUkJDcTVYbjNtNUM3N0QxYmozaGFKakItbWpNYTJDNmVuZE42MnJvbTZCVkZCTTduYWxPZ295b3gy0gF0QVVfeXFMTmFUdHhJdWVRTjYxQ2JTaFBhRlkzODJ6TGE1TjBlcmlDb01sVGZQU3hKV3Baa2gxQV92UjR2UGtkWnlEY0w5REI4MUMyM0diN0tZc2xvVnE0bFN3bEU2QUpuaTdad2ZUblJ4RjZVdVUxQVhTME0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 13:47"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 청와대",
+    "press": "KBS 뉴스",
+    "title": "청와대, ‘호남 반도체’ 트집 미 관세 압박에 “예의주시, 대응책 만들고 있어”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2THhpTGp5d1BINHR4dF9nUFhZYV9aR0Z1SzRxdDhRajNuTDh6RTh6RUg1LTFzSHZQWTdkS2dydXBWbUJscGtJY1Z3T1BuNmNBMkg4MXd5R1BHZ00?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 13:47"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "한겨레",
+    "title": "코스피, 5%대 급락 8000선 내줘…장 초반 매도 사이드카",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBNWjFUNG9xZUhYQ2hJUHBpUmlmblJKa2oyaUhNTDl5b0drQ25laFA0N3pyQjlUc3JqWjNVbHNyR0dCeHA3UXpaSVF3Vjg4d0lFTVljSWk0ck5YZEczWkM5OWtnYlQ2cFk?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 13:47"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Korea Plans Market Meeting as Stock Swings Put Fund in Focus",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/south-korea-reportedly-mulls-expanding-stock-stabilization-fund",
+    "impact": "📰 일반",
+    "time": "11/27 13:47"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 닛케이",
+    "press": "연합인포맥스",
+    "title": "[도쿄증시-마감] 닛케이, AI·반도체주 급락에 2%대 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xNmpmX3E3YV8xS045VUdGTUI0U0REbEduUGNySWo3RW02QnJabkRjcnhYdGV2Vm9iSmZhX3J3WnRmUmw1LXRIdjV6QU5oNkpPeVAzX09aRkIyR1NDd0ItM2Nmb01tdE5qOEVfQkEtQkg?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 13:47"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "MBC 뉴스",
     "title": "코스닥 장중 5% 급등‥'매수 사이드카' 발동",
@@ -2928,75 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBITjZaNFNqQWNhRnpGVG0zNEpNMWlCWlBWMnNyMlFrSDFZcVNZZ2ZGdjBWUFRzVjR4dmx5MHNEd1VURmo5MkVUcFlBckZUYzQ1bW9yT3I1cHBselNTUF9OZjFuZUcxQU9IM2JEbnFR?oc=5",
     "impact": "🔥 주요속보",
     "time": "11/26 11:21"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "글로벌이코노믹",
-    "title": "日 증시 상승 추진력, 엔저·기업 실적...기업 60%, 시장 전망치 웃돌아",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOQ1ZjUmIwMHE3eXIxS1llX1NBd1JyWF9ibE45ZFhyRnFPaW1iZWlUQXRxNmJMRExkS0Q5OGp0SktmUy1DZkc2bjBqZDJPc3gyRWswVHF4S1IzV0RJUjA4eW5vZEIwMjRiTkVyaFBVZHVKUmw2dWxGaFIxZmlUeEo4UXVrNEpkd2R6?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 11:21"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "李대통령 \"토지임대부 주택도 투기자산화\"…與의원 제안에 공개 반박",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJQXhKMHoyVGpaZFZLRl95ZkZrajJqdjA0cnZtYWVDSEk4ODJ4UkxBVndIZmQ2QjNLdHBud2UwYk5mR2kxRmtib0RNekRoMFd6SFN5UER1M2ZXc0JmOE1fTmhBa2Z6aEQ0aXd3NU5Eb0Y?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 09:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "느리다던 일본도 토큰증권 3조 굴리는데…한국은 아직 걸음마 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9iTUdBVWMwYzBvaE1xZ1FKbDIzMmlaQUFKVEU3clBieHVNenZuaHpKY3pIMDNWT0FrWG1SU3IxNWZOZnZJdEhUN004bXc3WTJWOFFIUmlIaGhkVDg3REgwNUJCZ0NSN0dW0gFuQVVfeXFMTzBLeGh4RVRZVXRwbFlDdEtqLUh2R0JMTWJEV3Q1SFNWb2ZVcl9vNjdvOUJOcXNVTGFfWUo5Y3hLTkpfcXdDUUtLaTgtRnlHblVfb2J2R3VvTi1xYUFROFhCTUh4OXFrT2I1eGpVS3c?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 09:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "고용노동부",
-    "title": "“사람과 기술이 함께 성장하는 반도체 산업” 김영훈 장관, 반도체 연구개발 종사자들과 근로시간제도 운영 실태 등 현장 의견 청취",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5Ub1FVNzFTeTJxRWgxZ2lHR21RRU00S1YtR1VibWI5WE8wUFZKNVBEMGJaME92OXBGamVSQkJKT1p3UjUyZmhmSWl5QzVZZEJvOG9wTWI1ZlBOTy1nSGlqQ0ZBbTlfYlk5bFhzbFJKWlR1OUlYcHpJ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 09:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "9월 자영업·가계 신용대출 부실채권비율 12년 만에 최고",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBQU3VjOXF3WmhPUXd1Z0pwbW1CX3RUTjkzWGZUUVdILXB6dFRSejd0UHA3Y2w4cWhRelM1eF9Qcmo5TjdqeFhxcUFLVlJPd3l1cUsyNGJZbjJuZmc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 09:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 트럼프",
-    "press": "한겨레",
-    "title": "트럼프, 젠슨 황 사면까지 시사…“중 공산당식 마오주의냐” 커지는 논란",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTlpGcnkyN0N4YlZ6ZWdUX0FLRE43ekoxWVhaZFM3YkhWYjl4QlVUUzZjTHdIRTJjUHBiRFB3UC1YTmEwU244ckZ4RWFFT3ZnYnREdHlXcE5GdERtTWd3NXdiSV9JQmF6cUJYUXBLRVZRVzlwakRhNmFORVExalBxajN3?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 09:59"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "6% 급락했던 코스피, 소폭 상승하며 출발‥코스닥은 3% 가까이 반등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9INFphbTA3VVRrR0czVHh6Qi1Fdmx6dk85M1htdjd0aFNPQnpuek9XdTJYZHotMVAyYXhlNVdUbmo1MzNFOF9uVEVxV0hIWEpTTzk4c08zYkhLUXBKdGVjUTNTWEVNclFwMlVzX21Wd0hWRW4z0gF0QVVfeXFMUG5oYVFKVWlQbHVlRVNlbWc2OGdZMmhZdFZ4UXRlQW9vUzJXVkd2ZUNQenZvSFN0b3pPT2lmWXlQT2h5MTJUeVltU3BjWklYNzdOSEVKWEpMWVcyanhCSGRoWGhQTVJ5OERZR1UtaEMzcmlKQlQ?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 09:59"
   }
 ]
