@@ -2,6 +2,56 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "중국 당국, '증시부양' 메시지에 주요지수 2년 만에 최고상승률",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iVGdwbElYcnhFNTREZDVhaHFMRlBKUEU3bUhLQWVTdUNtWlg1LUxJMjFPaThNX0NSVElVbkVfQ2pxVzI1ZmRqeXZ2NmNmT3BSWWQ2OS1kYzVFdXV2SjhZLUx1WEg2RkNQckp2SjgyV3lJTTR60gF0QVVfeXFMUEVteEZzYk92ZmxlQXY3cTFKQ1pBT0J2c1cxMklpMVk5ZW92cXk5NzdPTkZkOFZGWTBfS3ZJbXo2SGZxQWNudmZxWTFiWUNDbXNoYmJVWHNyNzNIWWZJcmlMQzJPNGYta2RUUUxGb2ZWLUdxc3A?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 08:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "WSJ \"가계소득 감소·성장 둔화, 프랑스 반정부 시위에 불 댕겨\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5na0hMb3YzQUlucWRqV05SaE5fc3U0cGR3MVlqV2FveGJRaVdwMGd6YnpYY1ZoV3dCOXVSVnJHYnFUTGNXRWZLYm4wQjEwazNBLV9IZklZOVFvWjN3QVhyOVN0cFFOd3JjQmNWWjZJWk1vMFIw0gF0QVVfeXFMTWZQZnVlOEIySV9ENFJCaFRSc3NNTUMxMTR3T2dSNXdrTE5yUmxzX1dWSXpSNWNQUHBQRlZyY0pveTF6Y2JzYXhfVEZ2a0NWTHVZQzMxWjA2QU9QdXpZLXVfb1cybkM2cVptUHdHdnBOS2pVRkc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 08:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "'방공레이더 지휘통제' 미 공군 핵심 시스템까지 해킹에 뚫렸다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9jemw2aW04N1dfZHZaTlFTUFJhZURYanRSNHFxZVpRSWdoUEhJWHdGN2xRamNnNDVLT05PM2RQTDJlY1VmLXdqcnVpOWxDOFNrdEswcTltTE0xU1RvWi1fZng3REc0RWtpeVFWM3NXZ2NuaUdu0gF0QVVfeXFMTXJHaXJRd1RRYUIzTkdLU2xDTEstV05CYkR6M0l4a1Y5U1JZcG1rczVodTVBUnZheFV1emg3VVItUkNqakxXYVZaQlBmOXVfeXNPdXJiek5SOWJvMGhuX0tTSTBTNFQ2eGRodk0yM2I3ZXltTE0?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 08:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "매일경제",
+    "title": "국내 주식투자자, 10명 중 7명이 “손실”…상승 전망 묻자 37%만 긍정",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5CRkczZzJWUWZraWM1ZlJsalF2REVPQ25oaDljenlPdUZkdldPWUlKRWdMTUhNcWw3a3hVYTFPbFlyZjY0OGpYZVRqOUVIaHNOdXdqZmNB?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 08:46"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "NBC Pulls an Ad That Some Described as Antisemitic",
+    "sub_title": "",
+    "link": "https://www.nytimes.com/2026/11/27/business/media/nbc-ad-snl.html",
+    "impact": "📰 일반",
+    "time": "11/28 08:46"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "KBS 뉴스",
     "title": "“젠슨 황 불륜 상대와 연계된 중국 데이터센터에 엔비디아 블랙웰 설치”",
     "sub_title": "",
@@ -2948,55 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-26/latvia-backs-air-baltic-guarantee-as-it-searches-for-investor",
     "impact": "📰 일반",
     "time": "11/27 02:50"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 닛케이",
-    "press": "KB Think",
-    "title": "[도쿄증시-마감] 닛케이, AI주 강세에 상승",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9ZZ05qWTFQYWNza0pueURFb1NLeXd6NlliVmF2dUtLVFRwTXlSSHJUY1E4MXAyZlNrUFJYNWtmUUZqMlVWbDNieWFISFVVN0QycUVNVF9mb3NmN0NVZ1NlLVZKMzVGS1pLRVYxaXpNSUZOUQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 02:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "YTN",
-    "title": "올해 주택분 종부세 73만 명 고지, 19만 명↑...서울 지역 13만 명 증가",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5ZS191NXhfZUx0UkNaZlNUQXdjSlNITmhlYmt6ZUJQVnBEcDBoYjZ4dDIxYjV1bE51YTRZT1ZpVktva3J2SDctZ0tjNmtlaVR0WmZMcDd2V05PeG9kVGc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스TV",
-    "title": "머스크 \"美 모든 어린이들에게 스페이스X 주식 2주씩 줄 것\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBzNmZlejZqMERwQUZNY3NrelYyUHlabTFpbHhsRUhSRHlVb3VMWklJM0NGTjFSSHFzY2VZc3JsZDVSSlNwbWFfOHFfT1BZeHhUa29EUHNGN1ZxOElfenFnZTJaNUt5Y1k?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "\"이재용, '반도체 장기구매할게' 머스크에 '그럼 뭘 해줄건데'\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE04TjBVSEh1SHQ5RXFaM0tOSHBrMzZmTDJPUzhINVlFN29Ea2ZVaGs5c0Vya1R2aTZHUEY2R2VmNnR2YW1pZXROY2ZwaTRkZXhXWkVoc1h3S1V5RE3SAWBBVV95cUxNbWxwczBRbUktS3BrampndUk4bDdxODRSMHA2VXVjMjk4ZTk4Tm5SVW1UNU1xVjMtNXg2eVNSdG9Sa1JFLTJxc3FhQUE4WDJQRlEyazMyV0didWNXd05tSEU?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 01:46"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "부동산 개발·유통업체 컨소시엄, 홈플러스 인수의향서 제출",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1keXE0S0ZFaDNGeUhzZDVQVXdkNzdmRjk2SG9VUkRqQ3dpWDZLenRIU1JOQzNhWldUU1R2M0xXV2JQazk1aWhGS01vZ1piX3g2Mk5oYmNER1Ntd9IBX0FVX3lxTFA3Vk5TN3VMaDdFRWZxYmNtd2hoX2pINzZIN3lFU3N6aDlaM3BRQVNGRUpWVWdjUGtrMEQtSnRLakpfemsyLWF6X2xXOTg3dG9mcHNwWHlTamNXQVVueUlN?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/27 01:46"
   }
 ]
