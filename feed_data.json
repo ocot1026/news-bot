@@ -2,6 +2,76 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[뉴욕증시-1보] AI株 저가 매수에 훈풍…3대 지수 강세 마감",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBWNzBHTWNnQVpoXzhtVGlvOVFLcWd5SGFRYU5TZzNDbVdSS2RmOEN0YnJmV0tHQnZNaUxCZjZBTHJSM0ZRTWk1eGpma25zSXNNT0I0MnBzRWdXSVFScGtLQTNzOTBvMW1Wd1ktMHo3X1M?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 03:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "경향신문",
+    "title": "“중년의 위기였나” 조롱이 된 가죽잠바…젠슨 황이 선택한 ‘500만원 면 재킷’이 의미하는 것 [패션의 사회학]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5lVXB0U2RVclA4TU5rcU0zM1BnRWFmNTRmN0Z5YnJmcmVCbEJKLTJ3TWRZclVNa2ZJRUdLM0dlbHFqNHlLSDF5eWlwZlNfUkR3dEFwdDFaZEkyd9IBX0FVX3lxTE9Hc0YyODV2Y25RT2xiRnZEY3pTM3lieTM1LWxRRGhiUTFZU2RYeDJfVFE3dzAtUTdCd2QwQkhTaHVJMC1HLTZjMjhxYmV5Y0lmc2pmZWhmVlZMUlE5dDB3?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 03:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 홈플러스",
+    "press": "Chosunbiz",
+    "title": "[단독] 홈플러스, 서울 중계·경기 하남 등 19개 점포 매각 티저레터 발송",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNZ2RNSWNXaXhVWkFBcjlvdjIyb2dUUUUxVWNuWFFabEtqTkNvUTBOckU1cS1BVTAzYWM5VWZoTm8tRHgzbzdMWldYVWZxekVwQlVDbU1XZFVNQ1Z0QWNBTDFLYWpydmRlZldlTjRla1NPZjc4ZWtaV04tSlhVTUhnazhOUUFWYVnSAZsBQVVfeXFMTVVMZ3o5dzdqdnpaQmFQOWpyME1jOEU0T245a2ZDdGVMZFY4SDIyWnlHVlBZZ1JPc1h1SF9QeFgwVU95RVU3MjNkTXgzQ2ZvOFB2US1Jck5pdVdyOWI0S3JKM25aMm10NDYzMmJRbm5LUGloclMzRzlwWDVTNWpPbHl4UDE5ZzNDVkVmOC1vQWRTR2ttUHI4NGNYajg?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "이번주 증시 랠리의 경고",
+    "sub_title": "The warnings behind this week’s stock-market rally",
+    "link": "https://www.marketwatch.com/story/the-warnings-behind-this-weeks-stock-market-rally-86e5319c",
+    "impact": "📰 일반",
+    "time": "11/28 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 Dow",
+    "press": "Finviz Market",
+    "title": "다우·S&P 500, 올해 최고 주간 상승세 기록",
+    "sub_title": "Dow, S&P 500 clinch best weekly gains of the year",
+    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=e1eacab1-b5ac-4df2-b12a-4dcad71d6731&mod=mw_rss_bulletins",
+    "impact": "📰 일반",
+    "time": "11/28 03:50"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "룰라가 브라데스코 회장을 재무 책임자로 임명한 후 브라질 시장이 상승했습니다.",
+    "sub_title": "Brazilian markets rally after Lula taps Bradesco chairman for finance chief",
+    "link": "https://www.reuters.com/world/americas/brazilian-markets-rally-after-lula-taps-bradesco-chairman-finance-chief-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/28 03:50"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "日증시, AI·반도체주 저가 매수세 유입에 일제히 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTmQtV1BCS1BnOTlJUHZVVGJSeHhWX1dsXzE2X25sb3ZQdUdHUVJSNWk5TjJ1cGRhQnhTNnFBZXV4bFZPQkgxS1E0emZoOWdzLXdrRWRKRUhBbDBkUTNRUdIBeEFVX3lxTE1LaXdxVHgyZXp6MkdyRXU0a1BhTDlIajV5LXpQQ2w3Vl9tQXI1dnJkd0d5ZGZId0R3MThEbTVNSnFTaDdLQ0VXaVVnOC11UVJSbkNabW9vakttaTVOd2tZMEVjQkFLMTRtd205V0ZMaDlSTFFUeUkyMw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 03:50"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합뉴스",
     "title": "국민연금 적립금 석달만에 202조원↓…3분기 수익률 13%",
     "sub_title": "",
@@ -2926,76 +2996,6 @@
     "title": "주택 종부세 73만명에 고지, 19만명↑…1인당 평균세액 200만원",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1BRzlaUXdrYldXZ0oyZ0NoX2d2NmVrWkNoRDJKTkZUNGJiTk1KMy1HS3hpdF9jVXcxeDQzQUlkeWZadUNCeVRwbzN4QVJFYnZqY0V4SHlVaUM0ODTSAWBBVV95cUxNdU1yQzFid19QcDZRSlFMcnlkN3hkSFBjOUcyMkRSU1QtRU1vNXBVOUl2dDFtQVRYWHhiaGdreU5GV1dCdzNKbExmUjJ5NkRxbTZreW9JUzdzSFhWUXRqbkM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 23:28"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 CJ올리브영",
-    "press": "KBS 뉴스",
-    "title": "CJ올리브영, 업무시스템 해킹으로 임직원·고객 등 790명 개인정보 유출",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE45TnB4SHlvdHA3NDZqZnhtWHlCVnVaYm5KcUR6TjJBUEc2RlVQV19zR05FTkNEQmZ4V3U4UzVXUDc5TXA4eTJOMUduM0ZYa1FMODhDTVNuMjdaUlE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 23:28"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "삼성전자·SK하이닉스 장기공급계약 '물음표'…장부에 받은 돈이 없다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9NT1hlbmtET1VLb3pxMUtHZ0xUR0VZNjZsajFSSGFJTnFkZ05YMGlJQ2V1Q3RGTHFBX2ZGRGNSUDZQd1U5WW5oTXBaeVQ3bjR3Mnh5U25ET3NSbFh2SzRyLXZGNG9QSnYzT1ktdWctLXU?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 23:28"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "경향신문",
-    "title": "‘비거주 1주택’ 안덕수 국세청장 후보자 “이유 불문 죄송”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zcWc2TjRUUlBCZ1hBc0tkWWVMZ0NjMWpDekhneUhsNlRITzRsMnd5dHZPMFNsZDEybEoyWHE5Y0plQTNzdWpoWHF5RWxaYTlJdEd6UmliMTBRd9IBX0FVX3lxTE11VnE4djNkODRtbG9scU4tX1k3VzBYZkR4RTdvWUdOME5OOFJlcWZHd3hIdTJzejZsVkV2T2UtZC0wSnViWXRIa1U4YnRxNTdxVUY3T2lLZUhHNzJjbWhV?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 23:28"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "파운드랜드는 언제 문을 닫나요? 미래에 대한 다섯 가지 질문",
-    "sub_title": "When will Poundland close? Five questions about its future",
-    "link": "https://www.bbc.co.uk/news/articles/c6z9d3pv93glo?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/26 23:28"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "트럼프의 최근 관세로 중국 압박에 다시 집중",
-    "sub_title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
-    "link": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
-    "impact": "📰 일반",
-    "time": "11/26 23:28"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "수백만 명의 사람들이 월 평균 모기지 지불금이 £100 인상되는 것을 목격할 것입니다.",
-    "sub_title": "Millions of people to see average monthly mortgage payments rise by £100",
-    "link": "https://www.bbc.co.uk/news/articles/cwg5r02zel9qo?at_medium=RSS&at_campaign=rss",
-    "impact": "📰 일반",
-    "time": "11/26 23:28"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "사이먼 잭: 파운드랜드의 미국 소유주가 파운드랜드 붕괴에 책임이 있나요?",
-    "sub_title": "Simon Jack: Is Poundland's US owner to blame for its collapse?",
-    "link": "https://www.bbc.co.uk/news/articles/c62klzxvyzyqo?at_medium=RSS&at_campaign=rss",
     "impact": "📰 일반",
     "time": "11/26 23:28"
   }
