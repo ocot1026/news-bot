@@ -2,6 +2,156 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "코스피·코스닥 동반 급등…외국인 순매수",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBUTjlTcFM1RXN2bUNIT1NoVHNpVTJzMzdtZDhGTzVIRm9oY29QYW1VQ3VlenhLMVVjM3AzSDViUUlWb0JYZTBYX3FSTzFXd21oQXJ3cW9tWGpXNURReU0tajRXeVlkUQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한겨레",
+    "title": "물가 뛰는데 관세 걷겠다는 ‘고집불통’ 트럼프…미 언론 “경제적 자해”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBIOVV5YnRkQml5Y3FlbUVEYUlwZ015UzVXOEdSejQ2cm83Z05VNDJwMlBjeGIyd3hLOXRsY1lDMVplZGZXdThNUHVraTZmUVdpTFg1SU9rTU4waTdfSTA5XzVyVWtxdUpsTDRXSEdxZENwTHN0RFdN?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "조선일보",
+    "title": "밴스·러트닉 vs 루비오·베선트… 젠슨 황 복귀 찬반 놓고 세게 붙었다",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxObHhFNXJUTVFWajhTeDMtWE83bWZmeHR0a0dOczlSVndWamVGQ3dLcWVHMGFHNEg4NThqMzFSODU0VGpOdk9jLVlIWEloZFRzZ1U5OFVJOFNnWk91Qm5OMHdfZjU3SHRpQzNpcE9FSGV2anpuYU0xMzdWU2x1akV4a2JRRVQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "대한민국 정책브리핑",
+    "title": "개인정보 유출신고 10월까지 1019건…긴급 대응체계 가동",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONk1mbHY3V21TV25KZUhhLVBPQ2dWMkwtZmJVZjM2bU5sdUJ3MzIwc0EwaUhPQ0NVOXFKZ004aEJJQWlaaTVxX09weGlnajhnU19ZLWxjenVfU2xOY2dxdHhVa1dxQlFRWWNOb3ZzaE13em9fNjN3dGtpbDNtZ3AtbXNNMUJZcUh2eWc?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "JP모건은 AI 주가 폭락은 대부분 끝났지만 2027년에는 더 나쁜 국면이 올 수 있다고 말했다.",
+    "sub_title": "The AI stock crash is mostly over, JPMorgan says — but a worse phase could be coming in 2027",
+    "link": "https://www.marketwatch.com/story/the-ai-stock-crash-is-mostly-over-jpmorgan-says-but-a-worse-phase-could-be-coming-in-2027-fa769fbd",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "트럼프는 주식시장을 구할 수 없다. 다음은 무엇을 할 수 있는지입니다.",
+    "sub_title": "Trump Can’t Rescue The Stock Market. Here’s What Can.",
+    "link": "https://www.wsj.com/finance/stocks/trump-cant-rescue-the-stock-market-heres-what-can-1b97a560?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "휴일 특가가 매력적입니다. 구매자의 후회를 피하는 방법은 다음과 같습니다.",
+    "sub_title": "Holiday Deals Are Tempting. Here’s How to Avoid Buyer’s Remorse.",
+    "link": "https://www.nytimes.com/2026/11/27/business/holiday-shopping-deals-spending.html",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "주식 시장의 채찍질에도 불구하고 침착하게 사는 방법",
+    "sub_title": "How to Live Calmly, Despite Stock Market Whiplash",
+    "link": "https://www.nytimes.com/2026/11/27/business/nvidia-jensen-huang-trump-markets.html",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "가격이 상승함에 따라 미국인들은 비용을 줄이기보다는 절충안을 취하고 있습니다.",
+    "sub_title": "As Prices Rise, Americans Are Making Trade-Offs Rather Than Cutting Back",
+    "link": "https://www.nytimes.com/2026/11/27/business/inflation-consumer-spending-trade-offs-holidays.html",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Sam Bankman-Fried와 FTX를 상대하는 TV 프로그램 2개",
+    "sub_title": "2 TV Shows Take on Sam Bankman-Fried and FTX",
+    "link": "https://www.nytimes.com/2026/11/27/business/media/sam-bankman-fried-ftx-altruists.html",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "비행기 조종사와 함께하는 도쿄에서의 48시간",
+    "sub_title": "48 Hours in Tokyo With an Airline Pilot",
+    "link": "https://www.nytimes.com/2026/11/27/travel/48-hours-in-tokyo-with-an-airline-pilot.html",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "중국 은행 채권 스프레드가 2년 만에 가장 큰 폭으로 상승",
+    "sub_title": "China Bank Bond Spreads Head for Biggest Jump in Over Two Years",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/china-bank-bond-spreads-head-for-biggest-jump-in-over-two-years",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "홍콩 달러, 자금 조달 비용 상승으로 6개월 최고치 기록",
+    "sub_title": "Hong Kong Dollar Hits Six-Month High as Funding Costs Climb",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/hong-kong-dollar-hits-six-month-high-as-funding-costs-climb",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "日증시, AI·반도체주 저가 매수세 유입에 일제히 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1LaXdxVHgyZXp6MkdyRXU0a1BhTDlIajV5LXpQQ2w3Vl9tQXI1dnJkd0d5ZGZId0R3MThEbTVNSnFTaDdLQ0VXaVVnOC11UVJSbkNabW9vakttaTVOd2tZMEVjQkFLMTRtd205V0ZMaDlSTFFUeUkyM9IBeEFVX3lxTE1LaXdxVHgyZXp6MkdyRXU0a1BhTDlIajV5LXpQQ2w3Vl9tQXI1dnJkd0d5ZGZId0R3MThEbTVNSnFTaDdLQ0VXaVVnOC11UVJSbkNabW9vakttaTVOd2tZMEVjQkFLMTRtd205V0ZMaDlSTFFUeUkyMw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "EU",
+    "tag": "🇪🇺 유럽증시",
+    "press": "아주경제",
+    "title": "글로벌 기술주 반등세 지속…유럽증시 상승 출발·나스닥 선물 3% 급등",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBVRndyb3ZYYkNoTHNRQUJqdUZmOE16cFI1Qk1FQVdhRmhIY3FTcWtfV0dWeWU4NTREelNULUhWV0RNLXRYZzJXLThseThXLVRndHJvcnc1T0LSAVhBVV95cUxQVUZ3cm92WGJDaExzUUFCanVGZjhNenBSNUJNRUFXYUZoSGNxU3FrX1dHVnllODU0RHpTVC1IVldETS10WGcyVy04bHk4Vy1UZ3Ryb3J3NU9C?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/27 19:51"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "연합인포맥스",
     "title": "[엔비디아 순환금융①] 황 복귀에도 신용시장 경계…철도·닷컴의 교훈",
     "sub_title": "",
@@ -2848,155 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPbmJobGlrVXZhTkpkVmRKZjA4X196R1pHcGQybjdlcHBXbU9tT0EwbmZ3OGFlT29qZWszWEdMdzVWNVI3OXRLSm9Td0J0Y3ZHTG9MWi1XMVoxMHlJVGlRUnFaR01DMFJYOHZCOTQtZm5RVHJjeXJ2SUdHTUlKdU1SalVRY1NpclBX?oc=5",
     "impact": "📰 일반",
     "time": "11/26 16:13"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "매일경제 마켓",
-    "title": "코스피 ·코스닥 8%대 급락…이틀 연속 양시장 서킷브레이커(종합)",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5WUno2VjVac3MzYnppbWc0SGJqcXJLdjlLa1YyTDBKV0pjbi1peXlvaGptRkhEdTR1T0pkZkFTTWtlSldiZ3RINm1tNG5uaDhiSXc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Stocks and Bonds to Watch as Spain’s Voters Head to the Polls",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/stocks-and-bonds-to-watch-as-spain-s-voters-head-to-the-polls",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Rupee Options Signal Bullish Shift for First Time Since February",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/rupee-options-signal-bullish-shift-for-first-time-since-february",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Diesel’s Slump Offers Brief Respite From Global Energy Turmoil",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/diesel-s-slump-offers-brief-respite-from-global-energy-turmoil",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "China-Backed Pakistan Exchange Prepares to Launch Stock Options",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/china-backed-pakistan-exchange-prepares-to-launch-stock-options",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Adani Firms Plan Public Bond Sale to Raise at Least $220 Million",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/adani-firms-plan-public-bond-sale-to-raise-at-least-220-million",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Japan Life Insurers Complicate Yen Fight With Record Low Hedging",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/japan-life-insurers-complicate-yen-fight-with-record-low-hedging",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "JP",
-    "tag": "🇯🇵 일본증시",
-    "press": "매일경제 마켓",
-    "title": "“이 분 은퇴한거 아니에요?”…버핏이 투자한 日 기업, 주가 폭등",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBSUnFGXzJraUd0aVhKVG1zaHdYSVo5ZjZUS0pjOU5hSjJiVWNkY0lZbzRLZmRja0RlTUhXVEVnTGlYT01XXzM1WjN4ajQ3UlBRNHc?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 16:13"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합뉴스",
-    "title": "[속보] 한은 총재 \"주식시장 침체가 민간 소비에 영향 미쳐\"",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9uUEJhbzJLQ2lFMHFWQlE2Q1pEYlNSdndWYmJCS2lMSE1KQl9ITFJQaVVDOG95WTNaa3U0M0RDMVB2U1NsdVIzM1BKWEtIdldJdkNKelhnY0t3QU3SAWBBVV95cUxPWmFUamFSMU5NZlJGLVl4YVc0WXlNaFNJQUYyT0FocENxUEdOeUMtQ0Fpd0NwaUtVZUQ5SEtXSmRlTFRjUS0tdGEyQzRLOFowMWxmRjZOWjJLbkcyMUxxMjk?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 14:56"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한겨레",
-    "title": "S＆P, 엔비디아 신용등급 강등 검토…젠슨 황 복귀로 지배구조 우려",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5jUjZDdlRScmUxZE9PMlhaTm9TYXFlYzhKSzRtWHlzVDQxaFU0YXRhMFRZUjhFZklxM0JCeWxabmhoTE5KanQxamxKcXlmNjQtOXA5VDFjWjk5LVVMN24xdEluX2JXT0F0YTByc0ZMX2FneHptNkxz?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 14:56"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "3분기 가계 실질소득 2.1%↓…양극화는 더 커져",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XV1B1QUFWeEFBdTFSb3pqU1BwaWN6cDBVZjhBUWMxd2QzcmxlQTg0bnhqRHVxWUtpX2Z5SXktQTNqSm1sX1d4LUZyS1ZLY0hMOTdGMktXdk5Uc3M?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 14:56"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "광진·영등포구도 하락전환‥서울 아파트값 '보합' 문턱",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE55OWpia3ZhQU8xTXR5eGNKdTRPemNrbXFyY2lRZlpiNXRXVEpHOEh6U0RDMVEydDFUcHFNXzcwbDREX3R2SF9NNlNycVZDR0xwRERiODExMVM1d2tlb3JfWGNId0VZc3VSZmR4U1VTS2UtX3At0gF0QVVfeXFMTjNBSlZzYUZsYU9ZUENVd1N2b25COG1zckVnajNtRVkyZXhlWDF4RXpPaDA4bDlxQ0RuSU5nNTJmUExoN3JYaWhVZ3V2Q3FTVjNRQW1rVEg0ZHlFdmpLNC1mMEhTd0pqbGgwUC1jdFhtNUhfRzg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 14:56"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "뉴시스",
-    "title": "착공식 진행한 한남3 재정비촉진구역",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9ieGpVWS1kenBESmRRVGctSkZMRjVjN2FuQ3lOWUFKRGkyUnAxQ0hGd2xqZElrVDI5SUk0ei1iNHlOUWh1NVZpa3d4UF9fbnpUYlVIREh5aFNwS0M5LVB0QVZocnR4UQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 14:56"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "\"자녀 교육 때문에\"…국세청장 후보자, 비거주 1주택 논란에 사과",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1GOUZMNjAxZWlUUkRVQ2lCYm9Ib1dVbnRrWlptb1o3NTVfY1Y5UGJyeUxIOUJMSEgxcDFZSWs0dGNBMjBnZFlHczNveHRiNnU3R3poVVRSTXJXdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 14:56"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "국산 AI 활용한 해킹방어대회 다음 달 개최…40개 팀 본선 경쟁",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBHaHVyV3RhT1lpS1kyOS1MeXFweDBTTHptek9OSm4wSE9DdmpxalJWUkRiNjd2NWNYWDVBSUhIaWJ3MWZJQjZjcDRvcjdoMHZ6UkNrWTU0bk02czg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 14:56"
   }
 ]
