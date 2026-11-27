@@ -1,6 +1,136 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 삼성전자",
+    "press": "YTN",
+    "title": "삼성전자, 오늘 역대 최대 30조 배당...이재용 4,488억",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE52MENVSmhRUGM3NGdUYTZxenAyOVlvZ2NVNEs3MnFJQnhma1E5bEk4cnBkRGZqTV9TaVhNVVVZWmM4X2E0d05JcTRpVVJNdHNWMUdfV25BdDAzQnhnZWc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 현대차",
+    "press": "조선일보",
+    "title": "현대차, 소형 SUV ‘아이오닉M’ 콘셉트 최초 공개... 내년 중국 출시",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNS0VySnNySlNDUkhWTjgwT3hPQTIyblQ3bWJNcDZzdGNjcVNrNGVQcHdhOHZEUEJVT0FCaUJ2bk1IZnNhN240ZGVjeG5PNUdhaGlUbEhFdHE3VjhSbVlGM0NzOGcxT0VuQzVEaTZqUG4xa2dLODNWMDNYaGlwOE5GeUtQeUdlRUhiVFdsOXFpMA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "[외환] 배당·네고 '밀당'에 보합권…1,340원 초반대 유지",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82bmJGekpfYWlULU9MRlNYZXlXXzNjV2VvTkRmcGRLdWltcUhnUF95bDFzazF6OEF2bEg4eWt6T2hfZkpmOFpWRGVwdEEtekdvd2lqbnBNUlJZOW1CdnhOUnhlVjUtTkVPQjBtd05hcnfSAXRBVV95cUxOdDhPRko5Yk1pUlREQXRsUWM2M05zT2p1Q1BzZ3FEcmJKNks1UzhqTWhLWjFfdXJleUR1Sks4UEpnbDdkSzF3bkNmTnROb1R2ZmtudFE2el90Z3VudUY4UkdkalJ4SEtHZGswMGw0Tnl2UmdkMA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "트럼프 “젠슨 황, 내가 알기론 전혀 문제 없다”…재차 옹호",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5OeVBjUnhtdjMxV1JwblFUZDdBN0wySUlvSEFNOFhfZFgxdHFteVI4NGswejI0SU9BazVtTDJSQWNmQkdzcm1idlFkRUZZUmNyM1dRdEZIQ2dmamc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 iM금융",
+    "press": "연합인포맥스",
+    "title": "iM금융, 황병우·외부 은행장 출신 2인 숏리스트 선정(상보)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBFQlpfUVlJSWdQWXRxUEFYTFhkX2pnMFBTWTV0MmhzdF82SWpuRUVoRXgxV21vZ0RZeWJVc3AzLTltQncxWGdENUdocDVZajZKVm5veWl2TVNPNjF2cjlWSXR3bGFYUEZMb3pTTlh6T1k?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "주간경향",
+    "title": "“사회혁명이 주주혁명으로, 민중이 개미로, 해방이 배당으로 치환됐다”",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE92Z1UyajBjaTZxZEZvSExNQUZNeTNYV0pielF4UnFMdmE0TUNOZHFpSUw0amxxamFURmVXMHhYYUMwVVlpenlKMGpERzQwS2FEcGR3VjAzaUxDd3gtVnc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "A December to remember",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/take-five/global-markets-themes-takealook-graphics-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "European stocks extend recovery as tech, miners advance",
+    "sub_title": "",
+    "link": "https://www.reuters.com/markets/europe/european-stocks-extend-recovery-tech-miners-advance-2026-11-27/",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "US Stocks Set to Bounce as Risk Appetite Returns After Holiday",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/us-stocks-set-to-bounce-as-risk-appetite-returns-after-holiday",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Wall St futures surge as investors return from holiday",
+    "sub_title": "",
+    "link": "https://www.reuters.com/business/wall-st-futures-surge-investors-return-holiday-2026-11-27/",
+    "impact": "🔥 주요속보",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Indonesia Arrests Three Over Trades in Stock Scrutinized by MSCI",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/indonesia-arrests-three-over-trades-in-stock-scrutinized-by-msci",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "China Will Lead Global Oil Stockpiling in 2027: Energy Aspects",
+    "sub_title": "",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/oil-stockpiling-to-influence-market-in-2027-energy-aspects-says",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "JP",
+    "tag": "🇯🇵 일본증시",
+    "press": "뉴시스",
+    "title": "日증시, AI·반도체주 저가 매수세 유입에 일제히 상승",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5XTmQtV1BCS1BnOTlJUHZVVGJSeHhWX1dsXzE2X25sb3ZQdUdHUVJSNWk5TjJ1cGRhQnhTNnFBZXV4bFZPQkgxS1E0emZoOWdzLXdrRWRKRUhBbDBkUTNRUQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/27 17:45"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "연합뉴스",
     "title": "엔비디아칩 대량구매 실리콘밸리 업체 2곳…알고 보니 中 소유",
@@ -2868,135 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-26/kk-mart-starts-112-million-ipo-delayed-by-malaysia-socks-row",
     "impact": "🔥 주요속보",
     "time": "11/26 13:48"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Copper Rebounds From Lowest This Year as Volatility Grips Metals",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/copper-rebounds-from-lowest-this-year-as-volatility-hits-metals",
-    "impact": "📰 일반",
-    "time": "11/26 13:48"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Rupee Has Room to Rally Before RBI Steps In, Strategists Say",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/rupee-rally-has-91-in-sight-as-rbi-seen-holding-back-dollar-buys",
-    "impact": "📰 일반",
-    "time": "11/26 13:48"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 다우",
-    "press": "아시아경제",
-    "title": "[뉴욕증시]다우 급락 딛고 반등…AI주 약세에 나스닥 0.62% ↓",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9qellWQjlRdFJJVjBESTdDWnhZaE5aNmlfLUNZbm9PRzRtRncwWnNlaFhHcGZkbHFxYmxnYnRNR3R0QXN3ZEd2Zml1elk1WVVoUUpKYjVyNTRycVc4UjVSVw?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 13:48"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "뉴스핌",
-    "title": "[유럽 특징주] 유럽 증시 랠리 5개월째에도 운용사들 비관론 확산",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9WdXdxWWFVeWRWLVZWSGtFVUVUdE5vblRTUmk3cWRIUUxKUDU3a1VrLTFSbWVJb0Q1SlRvM1puRFd4bWJNRUtvUlF4NVFzY3VJQ3hBOUVFTFQ0MEg3?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/26 13:48"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 한은",
-    "press": "한겨레",
-    "title": "한은, 기준금리 0.25%p 인상…2년 만에 연 3.25%",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9kaWJkTjM5bmJlYUh1RFVHbWdhSTdLOVRLY2oxTDZhNFE0QTJMTzlLV0VoSGVpRmg3NVZoYUR2dWVra0VIdnEtakJTUFR1N0IwbzBETlBNNXRMMTlRYUlmUFcyb2xsVGJXMWhjbWVDM09tZw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "JTBC",
-    "title": "‘15% 상한’ 유지한 미국…이번엔 ‘과잉생산 관세’ 예고",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xRUdaOGtpdERuX2ZyWVhSOGlzX2hIQmtCVTJCd3FRMG82TUQ0ZFNrZ2RVUHdJelNWR3dCX18xajNuS2dPVHdlQ2FvcUp0Mk1ndlpoZQ?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "\"젠슨 황 내연녀, 中에 정보 넘겼다\"…남편도 연루 정황",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE83dUZsZjIySDhHeHZhc2lmT0JYYmtidmx3MGw1cS1rejdEMkZ5SzZ1LUJLc0ZMaFQ1YWRVajRRN3E0NWFXOE9tM0ZTWmxFWEZ5Z3hRajZjQUVidw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "인베스트조선",
-    "title": "증안펀드 10.7조→20조 이상 확대 검토…출자 협의 증권사에 NH證 추가",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVDQwUXNXZzV0dUpGSV9sNGctLVA3cy1GcVlhaG4tOVEwUnI5VWJ6Q24wTUxCTDhSTVd5LTZpRWRyaEZNeHFqcDZYUnBITEFJVTRlN1dvVTBoeDFRNVVtYUwxenlWSDZqOUJxNl9QSXFlSWl5TEQyRXQ1REhSRFlIemp2cw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "연합인포맥스",
-    "title": "[인포맥스 POLL] 11월 수출 두 배로 뛴다…무역흑자 500억弗 돌파 전망",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE91ZUZ6czhyeFItZm1pNjV0OUlCSVNJVGtPSXVqbnZMRG1vQmpkZHcyemdpMVpuTXczM1kxVG5OY3RVdnBQaXh4eGVoZHdINUVnR1ZkWmdMTWZFT3VSZnY3a0doTEwxZWJJR3d0RUVzeFA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "한-사우디, 원유 수급·비축시설 증설 등 협력방안 논의",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBiSnF6NGQ3LW41VlYxeEUzdHJKanVvRkhZU19vQkxKOHhKZjVLRUUyQ2RsUERhejNNVzl5SVViT09ma2kwOTlmbTczeXRCd24zLWlDZUMwdUdzVVk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Indian shares set to extend gains on strong foreign flows; US tariffs in focus",
-    "sub_title": "",
-    "link": "https://www.reuters.com/world/india/indian-shares-set-extend-gains-strong-foreign-flows-us-tariffs-focus-2026-11-26/",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Shein’s Slow India Start Lays Bare Limits of Billionaire Ambani’s Retail Might",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/shein-s-slow-india-start-lays-bare-limits-of-billionaire-ambani-s-retail-might",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Modi’s Criticism of India Inc. Puts Weak Investment in Focus",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/modi-s-criticism-of-india-inc-puts-weak-investment-in-focus",
-    "impact": "📰 일반",
-    "time": "11/26 12:30"
   }
 ]
