@@ -1,6 +1,76 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "정부 메가프로젝트 첫 GW급 AI 데이터센터, 강원 동해서 착공",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE03RE04YjFuZjJKZjczZ3VLbGJfZVNhUVk2S0hiblJFQXBrLTF2YWdCOU84ZFNPWjY0MEItUzVBcGhZUl9uM1BRYTZZU0c5TzZmd2JULXlMYXdzMVE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 15:41"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MBC 뉴스",
+    "title": "DL그룹 회장, 실적 부진 부서직원 수백명 한밤 호출",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiNkZqQmRiSHZzcXlmVGRjVTZZVDRUQUhURnZwSXFoeXNNMnpvc2ktWWRvWDBYd2dqLW41a3BMVTN6ZC1FM2plZUFVd1h6Z2dBQU81bFFrTEo2Z1o4eEo3cXQxbTZjVU1NWnpsZ3FNUWRHaTVT0gF0QVVfeXFMT0oxX0NQUjhxcjNNTXB1UkV0RFdJOG5RQ2lvMno2TkZVXzMwd3FidWZyVmxlaVNnVWFrSW14Szg4UmlwVVBPaklhdkhSSnAzdDBRM3lNVUtPaGhQdC1HcTVaY2FsVElqRTY3dlpERGJsY2U4cE4?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 15:41"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "한국경제",
+    "title": "AI 투자 우려 속 기술주 반등…나스닥 2.3% 상승 [뉴욕증시]",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE52cEZ1OTRDdVh5Qm1oaF9VbnpIbDJwcnJfT25SUElHXzMxeTlBb2dxMkZ0U0NZUF9Fc0VUdzBvTmZfMGlYV0NrQUZYc0RaV05qRW1GQ2JoOGhFZw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 15:41"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "중앙일보",
+    "title": "[속보] 코스닥 5%대 급등에 매수 사이드카 발동",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE01LTlsUEZqZm5iM0FRUWpOME9FU0VKZC1zRUVjWXhzdk1fZ3NoRjdDVjUtNDhGQUhJRC03ODRYZnVWQXZtRWwzcTNEQktqeUtjd2N5bGV3?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 15:41"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합인포맥스",
+    "title": "AI 거두 앤트로픽, 英 동인도회사와 닮은꼴…\"통제 잃으면 결국 해체 수순\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBXdV9FVnFyWVAyOU5WM3dZdWtyRnl2Nzl3SUVTX1NqUXVqazdtVURyMTlBeGpXNFcwMm5XcVA1T3ZVN3ZMby0zQS1TamZyVkl2dGFGeURNSFpVZ2M5MGRfNDhnbHJlRVYwSFlPalo5SjPSAXRBVV95cUxQRDczbGxhZzBTYUVxTnhtV2xkLWJnNTRiakRUdnpZRF9yWFp6cnpRYWpfR3B6ajVnZENTV3lVLW00TG5RZG80czU5amJyLWZoVGY0U0NlVWtSbm9mRy02d3ppUHlVb1BOd0xhQV9YeFVJWlVXWA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 15:41"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 S&P",
+    "press": "KBS 뉴스",
+    "title": "S&P, 프랑스 신용등급 전망 ‘부정적’…재정적자·정치 혼란 경고",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBhbklpN1I0a1pJRnh0NjA2NzRnMkJ2Z0JUMk10LUdCTlNZbHpiM2ZfV3lCY3JfVGVrY2tZWnNCS2MxNDNkQVRuYU1lN25jajVaSmRWT1EtU3ZxTGs?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 15:41"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "KB Think",
+    "title": "中 반도체 기업, 홍콩 상장 첫날 희비…한 곳은 42% 급등·다른 곳은 8%대 급락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1SejN4UUktTHNKSy1QYktXdUo5WEdGZlEyZWUyWktORDFYN040X1RKck9hTTNQSEJrSHBHeEJOUFRxZHdnenU0Y1E4bHR1czBIMEc1RnE5ZmVIbUp1Z29nN2xtdDRDZGJDaVZMZngwTldpdw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 15:41"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 GS그룹",
     "press": "조선일보",
     "title": "GS그룹, 동해 AI 데이터센터 첫 삽...단일 기준 아시아 최대 규모",
@@ -2928,75 +2998,5 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ibkRmN1hGZF93RS1fRlE4dURMREVsT2hhN2JoV1BfYWVPcGlpd1RwUW5EQVc2Rnd0Z29feDhmcEpCelRzN3ZEN0h5Qjl5TTE3UlJQOFgzenVOV1BCdmRRZGhKZHNPQTdReW9KaEFyYjM?oc=5",
     "impact": "📰 일반",
     "time": "11/27 07:51"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "치명적인 충돌 위험, 연방 안전 위반으로 인해 청소년 ATV가 리콜되었습니다.",
-    "sub_title": "Youth ATVs recalled over fatal crash risk, federal safety violations",
-    "link": "https://www.foxbusiness.com/video/6408932895112",
-    "impact": "📰 일반",
-    "time": "11/27 07:51"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "트럼프, 14개 무역 파트너에 새로운 관세 부과",
-    "sub_title": "Trump issues new tariffs on 14 trading partners",
-    "link": "https://www.foxbusiness.com/video/6408878501112",
-    "impact": "📰 일반",
-    "time": "11/27 07:51"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "아시아 주식 선물 신호 상승, 유가 다시 상승: 시장 마무리",
-    "sub_title": "Asian Stock Futures Signal Gains, Oil Climbs Again: Markets Wrap",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/asian-stock-futures-signal-gains-oil-climbs-again-markets-wrap",
-    "impact": "📰 일반",
-    "time": "11/27 07:51"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 자동차주",
-    "press": "미디어펜",
-    "title": "[유럽증시 특징주] 자동차주 급등…수입 하이브리드 쿼터제에 美관세불안 완화까지",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE53Y0Vxb3VxSmdmNVZaVk9JbnpyNVZSQ2ZyY0hodDBfcy0zS2pXV1lwTWJJM1FQOXFwdUVWWFhKWnZsQ0NSeTlsR3BqbkVLZEFsQjRDOXZSRErSAVhBVV95cUxOd2NFcW91cUpnZjVWWlZPSW56cjVWUkNmcmNIaHQwX3MtM0tqV1dZcE1iSTNRUDlxcHVFVlhYSlp2bENDUnk5bEdwam5FS2RBbEI0Qzl2UkRK?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/27 07:51"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "차기 유럽중앙은행 총재에 '비둘기파' 스페인 데코스",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrOUM5M2M1dDB1clpCTUliVEZuUzFfdzl6MFhZTWd0ckU5TmNOT3ZTODZPQ0I5RXdqWm16dWFBOVVZdHJBY3RQeDVGRU92akNpU0FCcFBBbjNzWXFsX3RiTmZYMEdmTUo0OEdRcURtM29fQ2ht0gF0QVVfeXFMUGlySFhQZ0lmemxTWWNabmV0ZmZuYzFCT1Z3aE9iQUpibTJDYTE2TnVhT2VTYUVSNEVucEZ0b0EtZVNEWHFIdmJ4bVo0YndKNDRURGhtclR2QVJFUUdabGUwN056RExTY1p6bVliNE83MEJ1RHA?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 06:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "지디넷코리아",
-    "title": "[단독] 코인 발행 허용하되 책임 강화…허위 백서 눈감은 변호사도 처벌",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAzSDVOb1J3a0xrWGtrdy1FZ1hUVWlQWl93V1hlNDdJVndiNTk4cUlubjFuVGE3Uk5LTzJyckNDaFVqUC1fZWNEUllQNXJJN25QS1JFeU9B?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 06:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "머니투데이",
-    "title": "삼성에 반도체 장기 계약 제안했다가…머스크도 진땀 뺀 이재용의 한마디 - 머니투데이",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PZ3RxNnh1SVJxRnl1LW43REtaS2M3SUo0Z2duQ3hQTmE4SmlVRzV0aTlUUGIzWFZLd2JNM1FrTVppVnBvclVxNE1GNnlHZ29xYmZkM1otM3pEMEZqX2tGRzBkNnljcXQ20gFuQVVfeXFMTmtGYUh0WGhHY2JtUWJGNkFUTWtZdFNVYUFMUFN6anREemJRTVVRaG10VkMxSXo0SWF3ZzVjWWtnZnBxcTdVYVRZV1Z3OXpxT25Uc25RQUpRa2NRZlh5aUZpaHRsMHotZXRPazQyaUE?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 06:50"
   }
 ]
