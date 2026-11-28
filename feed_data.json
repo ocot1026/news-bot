@@ -2,6 +2,46 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KBS 뉴스",
+    "title": "“엔비디아 칩 블랙웰 중국 반입 확인”…젠슨 황 앞날은?",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JNGEwRkFiSXJrbE5OWWJwMHN4YWFORE9PSnNIVDlvbjR4YndJWTl3MGVFYUxnQU5MWlFqMUN2QkVzX25iUHYzODBoWWpXTlc2amE0S1gxdHhQamM?oc=5",
+    "impact": "📰 일반",
+    "time": "11/29 00:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 오픈AI",
+    "press": "연합뉴스",
+    "title": "오픈AI, 애플 상대 기밀탈취 반소…\"호텔 캘리포니아 같은 회사\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5uLW9QdHNqUkVxcldUSjNXc09RTnlVcGo2MWJIZmxoM2YycVJSM3RjNEw4ekJRc3Y1VTNiSkdSd2VzV1B5dnZ1dlhDSk1wb3FnM0kxZ2ZqeVZXd0HSAWBBVV95cUxOVFV4czVNWEtfOGI3aDYtQ0JaZEpDbTVSTFdhTFE3ak5ocUxmX1p2MTlQeWZGWTVaUi1OWjRsUjBiUmdFNFkxTWZydTlUWVYtc1l2ZEhyWFZhbjk5WGw4Yl8?oc=5",
+    "impact": "📰 일반",
+    "time": "11/29 00:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "뉴스핌",
+    "title": "[AI로 본 부동산] 재건축 뒤에 숨은 청구서…분담금·이자 부담 '눈덩이'",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1WNG03a291dWNVeE84NS1Kb3Z6Wkw2Mm9PQldrQTRjN2o0NzJHMVU2eHNDdUI4OEs1NFd4RVdYNVNmXzdYaG9wYnUzT1pXTU9weW8xaUF3Nm0zTTIw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/29 00:29"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "뉴스핌",
+    "title": "[홍콩 특징주] 항셍테크지수 개편…6대 기술 테마 반영, 편입종목 50개로 확대",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE51bUpvZjdDSFl5MmNQdzdtQ0lLXzVVMG11Q1NEcEFJWlJvald5TDR6ODBQYjF4T0hYZlk0SWNjUWNrYlVrZFhXWTBsRjdwZUtFOWRraUhqSUl1V2Zk?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/29 00:29"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "조선일보",
     "title": "‘창사 첫 파업’ 포스코, 5개월 진통 끝 임금 교섭 타결… 기본급 2.6% 인상",
     "sub_title": "",
@@ -2958,45 +2998,5 @@
     "link": "https://www.reuters.com/world/india/indian-shares-set-open-higher-eye-fifth-weekly-gain-inflows-boost-momentum-2026-11-27/",
     "impact": "📰 일반",
     "time": "11/27 12:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "IMF Urges RBA to Be Ready to Tighten Further If Prices Worsen",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-27/imf-urges-rba-to-be-ready-to-tighten-further-if-prices-worsen",
-    "impact": "📰 일반",
-    "time": "11/27 12:33"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "Brazil Assets Rally After Lula Names Banker as Finance Minister",
-    "sub_title": "",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-27/brazil-assets-rally-after-lula-names-banker-luiz-carlos-trabuco-cappi-finance-minister",
-    "impact": "📰 일반",
-    "time": "11/27 12:33"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "KBS 뉴스",
-    "title": "서울 아파트 언제쯤 하락 전환할까?",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FNFo0NnFzb0JYY2hlS1R5QmZHUzV4bko2OEI3STZ5RzBNc3ZCZ3RlMFJhWTctOE9iNDMtSWlvcXAwWkpRSGo3aXZEdmJlaDNpbGY2a0FKR0d6dTg?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 11:26"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "\"치킨도 사치다\"…30조 푼다는데 웃지 못하는 삼전 개미들 [분석+]",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE4tb01oei1SWTNtSmhXWGpBMW5EbjJ5MTRUVF9XVlNUQlVlNlgzTHZtSzEzV1M2c2M2enpQVWVNRDgtRTN5bDUyYmxGNlVkSmNXNi1ZU2pFbFk3dw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 11:26"
   }
 ]
