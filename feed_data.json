@@ -1,6 +1,56 @@
 [
   {
     "category": "KR",
+    "tag": "🇰🇷 GS그룹",
+    "press": "조선일보",
+    "title": "GS그룹, 동해 AI 데이터센터 첫 삽...단일 기준 아시아 최대 규모",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUjd0NC15b2Rjb0otTmdRaC1TelM4b1RTUFI1UVFoY3JIa2g3dkFQdjRJTkFTZkxEZUlKNmYzbW5Vc1Y1SGVoLXVfS1dxbTAzQVBWUW9hWFBLcXUySnl2d3NOYVdCUGJyU2w3bG5LdUJKMEsyVkxfdnRSOE9QVHU3TA?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 14:39"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "연합뉴스",
+    "title": "젠슨 황 '디올 재킷' 복귀에 패션계 \"470만원짜리 겸손 연출\"",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5wLXlVbHBjcHRtQ3pxZ3dzRVdqQzFma21oRDYweGRJeC05X3hoeWlOd2psM0s1aXRzaW5PbTlrQ3VXVy1zaHVwY2FHdVRuWGFxRDNrWHh3dEpjWkXSAWBBVV95cUxNSG9HMGo1NGlPdGlieUh6MHc0QVVfUzVYMkk1TktfQVlJRzVaVTI2WU5ObkI2d0QyRng4eWNkTmNVdW5saEZCR2M0QnVHS1IweVJpbkZUek85WlgxN1YzU0M?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 14:39"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "머니투데이",
+    "title": "\"안좋은 얘기 많이 들려…\" 차트 보고 울컥한 전문가, 직접 밝힌 이유 - 머니투데이",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE55Nm5RMkp5TjRXdFVaZUxJOWc0c2trcFZKUUxuS3dnd2s2emxlcjBadEtHWHRpMUdCRW5XLWxpX281VjNLS01hRVI5bElCWVozU21SYk5VRVQ0T0Y2T2xrUUNpaGQ5TU5FcFUw0gFwQVVfeXFMUFlLMWFnbUxMUjQtLU9ScldnNkpzeDJfb041RUo0MWdhUjBZMWVVd0NJem93clB5LTUtZG41b2p6WVpBajRpV2xidFBmc2hRZXlnTjZLc196Y3k2OC1NbFNaRXpOZU80QklGZW0td2pkRQ?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 14:39"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "MEDI:GATE NEWS",
+    "title": "한미약품 최인영 부사장 '국민훈장 목련장' 수훈",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE12eHlIVmxfV0Fsd2ZkMDcwTnJPdkdrZXJmdV9rWmVpSW5sNTAyZy1fTEU4dlhzQ1gwTHhnZE5ZMUh0QW9tXzl6YVd6bDVFOV9zdUh6ZFhJaw?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 14:39"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 엠비디",
+    "press": "에너지경제신문",
+    "title": "[특징주] 엠비디, 코스닥 상장 첫날 장 초반 17% 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE13VjBuTWxSMVVSOS0tMHJMS3RKbmFhcVUxYXBzVFhMdGFXYWtQVXBQVXRqTDdEeE1vU2Z6eWp6TFBQZkZhdmF0ZF90V2VmN1hPUU1NUDdkQzR5NE1jTEc5VGw2Zw?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/28 14:39"
+  },
+  {
+    "category": "KR",
     "tag": "🇰🇷 국내증시",
     "press": "한겨레",
     "title": "“‘젠슨 황 외도 상대’ 연계 중국 업체에 ‘수출 통제’ 엔비디아 AI 칩 설치”",
@@ -2947,56 +2997,6 @@
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9PZ3RxNnh1SVJxRnl1LW43REtaS2M3SUo0Z2duQ3hQTmE4SmlVRzV0aTlUUGIzWFZLd2JNM1FrTVppVnBvclVxNE1GNnlHZ29xYmZkM1otM3pEMEZqX2tGRzBkNnljcXQ20gFuQVVfeXFMTmtGYUh0WGhHY2JtUWJGNkFUTWtZdFNVYUFMUFN6anREemJRTVVRaG10VkMxSXo0SWF3ZzVjWWtnZnBxcTdVYVRZV1Z3OXpxT25Uc25RQUpRa2NRZlh5aUZpaHRsMHotZXRPazQyaUE?oc=5",
     "impact": "📰 일반",
-    "time": "11/27 06:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "조선일보",
-    "title": "대출 규제·분양가 상승에 인기 올라간 소형 평형… 서울 청약자 10명 중 8명 몰려",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMWF3R3NsYjVEZFJOeWR4aVFSWkRxNDBsVHU2djhfd042blBvQkZzNi1UVGtxMjhxX253ZE9Id3dKRW5nUEVWalIyMGh5dWkycjliVzljRDlHVGR3UWJmU0ZHLTk1MkFWWTNuWFk0TUVpa0lxUW1mM2oxMEZURXNjTnRWMFpWcVRk?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 06:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "스텔란티스, 중국 경쟁사 진출로 더 많은 유럽 공장 중단",
-    "sub_title": "Stellantis to Pause More Europe Plants as Chinese Rivals Advance",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/stellantis-to-pause-more-europe-plants-as-chinese-rivals-advance",
-    "impact": "📰 일반",
-    "time": "11/27 06:50"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "아주경제",
-    "title": "유럽증시, 美 추가 관세 우려 완화에 일제히 상승…스톡스600 1.8%↑",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5vaHlRWlhOZkxlNE5Bd1hrMmdrZHU5ZDhnNW5HVzRuTW5zVWUxOFZTLUJWWnRlb3dyWFk4cWV6a2VEUXNYbHhLSWhYNG1HQTV6Q2JzMFFNcjdiUdIBWEFVX3lxTE5IYmRXeU85YmFsRGZrN2pJMTVWbnpidlBiVFd2WEZDalZURU9kSFNfZS1mT1BCQlhpb1JZVkUtVHE1aHEybVVoX2IxZERhNE5FYnRQXzQxNlM?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 06:50"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 자동차주",
-    "press": "미디어펜",
-    "title": "[유럽증시 특징주] 자동차주 급등…수입 하이브리드 쿼터제에 美관세불안 완화까지",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jWVFqRUJRbXZ1a0k5cldmT082SVdtLU9ubENXN0MxZmxYemE1Q0N3REtuVVFUcldqU25oU3NJa1Q1ZHhqazZsbWM0MExLWEVLbGRxR9IBWEFVX3lxTE53Y0Vxb3VxSmdmNVZaVk9JbnpyNVZSQ2ZyY0hodDBfcy0zS2pXV1lwTWJJM1FQOXFwdUVWWFhKWnZsQ0NSeTlsR3BqbkVLZEFsQjRDOXZSREo?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/27 06:50"
-  },
-  {
-    "category": "EU",
-    "tag": "🇪🇺 유럽증시",
-    "press": "마켓인",
-    "title": "유럽 명품 벨류에이션 10년만 '최저'…에르메스·LVMH 실적악화 '찬물'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5OQkpLczdGQzFpWHR0bE5IQVYyQlVqMjd2TWx5WXNxZlVTWFJOOGxXbVZGczdETVc0S2NxQ2dyazZMdTVsZ1NYZW9xS095RE1NcEg3TFBqU21feWdoS0k3czRfanlGRllXUmNzNnk4NXhqWGM?oc=5",
-    "impact": "🔥 주요속보",
     "time": "11/27 06:50"
   }
 ]
