@@ -2,6 +2,66 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "KDI 경제교육정보센터",
+    "title": "美 과잉생산 301조 조치안 주요 내용 및 평가",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1XN2QwdENDaXY0a2ZzQzM3WkZjcWNvb0J3RzNCclJOUTY5TnpUWXhrOEhkR18yVWZUa19zbllqb29Pd1BaU3UyanppSDJBMzZaaEtZZW5XRW5xYWlLdmFma0dyT3FWMTBpaUVj?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 09:59"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 S&P",
+    "press": "연합인포맥스",
+    "title": "S&P, 프랑스 신용등급 전망 '부정적' 하향…재정 건전화 경고(상보)",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xbEVUSHF1Mk9iWjVJdF9yZEdKV0NvendZQVdvSlZ0X3Fyc3BuNHhTWHN2dVF1Yko2UzRfWThURWF1NUt6RHROTnJzc3dOZV81ZnRWYlByb3RrMzdxemlkQml6U3djcW5TUk9GYnczODI?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 09:59"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "JPMorgan은 1930년대 지점에 부유한 고객을 위한 프라이빗 클럽을 계획합니다.",
+    "sub_title": "JPMorgan Plans a Private Club for Well-Heeled Clients in a 1930s Branch",
+    "link": "https://www.wsj.com/finance/banking/jpmorgan-plans-a-private-club-for-well-heeled-clients-in-a-1930s-branch-c609a03c?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/28 09:59"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "씨티그룹의 350억 달러 장부 관리 Snafu가 상위권 순위를 촉발시켰습니다.",
+    "sub_title": "Citigroup’s $35 Billion Bookkeeping Snafu Sparks Shake-Up in Upper Ranks",
+    "link": "https://www.wsj.com/finance/banking/citigroups-35-billion-bookkeeping-snafu-sparks-shake-up-in-upper-ranks-71d8afe9?mod=rss_markets_main",
+    "impact": "📰 일반",
+    "time": "11/28 09:59"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "투옥된 브라질 해변 축구 스타, 러시아-미국 스파이 분쟁에 휘말려",
+    "sub_title": "Jailed Brazil Beach Soccer Star Drawn Into Russia-US Spy Dispute",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/jailed-brazil-beach-soccer-star-drawn-into-russia-us-spy-dispute",
+    "impact": "📰 일반",
+    "time": "11/28 09:59"
+  },
+  {
+    "category": "CN",
+    "tag": "🇨🇳 중화권증시",
+    "press": "서울경제",
+    "title": "미국 보란듯 속도내는 중국…알리바바 칩 자회사, 홍콩 상장 신청",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAzaTI4a2RqQ0JwV04yV2JGM1NaQmZTbC1RX2ZRNkZGX2dva1JfcWFaZVoyVHNGSWpqX0FUejZVODlNaUdqQjMyTUxqWmIxQVdGOEE?oc=5",
+    "impact": "📰 일반",
+    "time": "11/28 09:59"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "MBC 뉴스",
     "title": "중국 당국, '증시부양' 메시지에 주요지수 2년 만에 최고상승률",
     "sub_title": "",
@@ -2936,66 +2996,6 @@
     "title": "‘李대통령 주문’ 자본시장 개혁기구 수장에 메리츠 김용범 부회장",
     "sub_title": "",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE91dlg3bE9zc3hTbGowVWRqSjVkOWpuVnpqWXdvdm13bTlRdEYyS05rOUdLekZRZU0zcF8zVjNseHR0THE3S2ZTUUhrQjZKYXItRkRSZy10aUxMd9IBX0FVX3lxTE94SWlENTB4MzJOTlZibkhVY19hSTJuRW1pdndHVXpFVldOQWNzLVRUOEdCWFRKSmw1cVFvRU81Q21qaWFlYUpReFVwRHNHVkdPalJWMUZ6WXpHUk9zMU9R?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 02:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국경제",
-    "title": "코스피, 장중 상승세 지속…외인·기관 '쌍끌이 매수'",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0T213dVEybjY4M1hGVzlCNmZPSHNlOHByZ242U0VmUWpCaFVZSHI5U1RWQlpyRUg2bFBic2ZiWTVETnA1OVJSNGNGanlqOFhfSHBZOGR1dkVldw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 02:50"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내종목",
-    "press": "https://www.moneystorm.kr/",
-    "title": "[특징주] 코스피 6% 급락에도 화장품주 ‘질주’…연말 성수기·북미 매출 기대",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xbnhkTVhpeHBsc2NFS1lkbldYeE1NdUV5eXZ0cmpsbHBISjlydl9UVEZQaWJCNTZyZklxVFQ4ZndGRFRqd25NYzlwaDFfZGJpX3QtYTdhWkFSNU81YjQwVkRoZ0dPeHE5dWc?oc=5",
-    "impact": "🔥 주요속보",
-    "time": "11/27 02:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "트럼프, 3분기 성장률 4.3%로 수정 후 '가짜' 선거 전 GDP 데이터 조사 요구",
-    "sub_title": "Trump demands probe into 'fake' pre-election GDP data after Q3 growth revised up to 4.3%",
-    "link": "https://foxbusiness.com/politics/trump-demands-probe-pre-election-gdp-data-revision",
-    "impact": "📰 일반",
-    "time": "11/27 02:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "미국은 인플레이션 냉각을 강조하면서 강력한 GDP 성장을 자랑합니다.",
-    "sub_title": "US touts strong GDP growth as officials highlight cooling inflation",
-    "link": "https://www.foxbusiness.com/video/6408926225112",
-    "impact": "📰 일반",
-    "time": "11/27 02:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "헤지펀드가 주식시장 변동성을 어떻게 헤쳐왔는지",
-    "sub_title": "How hedge funds have been navigating stock-market volatility",
-    "link": "https://www.marketwatch.com/bulletins/redirect/go?g=81da3ea0-76aa-43a0-b9cb-21ff0b219994&mod=mw_rss_bulletins",
-    "impact": "📰 일반",
-    "time": "11/27 02:50"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "라트비아, 투자자 찾기 위해 Air Baltic 보증 지원",
-    "sub_title": "Latvia Backs Air Baltic Guarantee as it Searches for Investor",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-26/latvia-backs-air-baltic-guarantee-as-it-searches-for-investor",
     "impact": "📰 일반",
     "time": "11/27 02:50"
   }
