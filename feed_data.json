@@ -2,6 +2,56 @@
   {
     "category": "KR",
     "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "'젠슨 황 불륜 상대' 연계 중국 시설에서 엔비디아 최첨단 칩 발견",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBTRlM1blVzNEZZTnBJdnlVTWZUTFQwTTI5RDloTUh6UFpCTGF1N1VPa0dRd3Ftc19KVUZtOEUwT1dWazlQQXVpTmg2VzRPeWloSktFdDloTFZaY0h2RXc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/29 03:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
+    "press": "YTN",
+    "title": "\"반도체 과잉생산? 이중잣대\"...정부 대응 요구도",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1zejZMbVg1U284OWswZ2FnQUo2WHRfSjVmNWlRNm1HRDgxazEwT3lzLU9IUzY1Sy04SWJjb1F4ZTQtQUVINW9UNkd1aE1qTWwzaEtReTVsYzVaelRuMmc?oc=5",
+    "impact": "📰 일반",
+    "time": "11/29 03:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내종목",
+    "press": "CBC뉴스",
+    "title": "[특징주 상장] 코스닥 데뷔한 인텔리빅스 3.5배 급등 마감…크리에이츠는 37% 하락",
+    "sub_title": "",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBaLUlpLVhkaTl1bDRSdnIyR29wb2N1TW8tenhOdjRGYXFuMnNmNVd3c0I3VmV0UmdGMy1PdVl5d2tLTWdPaFBLd09VY2tIX2xLbVhBR3draURLSHVTT1BsQWFRWQ?oc=5",
+    "impact": "🔥 주요속보",
+    "time": "11/29 03:14"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Shoppers helped pay Trump's tariffs. Now retailers get $387M back",
+    "sub_title": "",
+    "link": "https://finance.yahoo.com/economy/policy/articles/shoppers-helped-pay-trump-tariffs-083100398.html",
+    "impact": "📰 일반",
+    "time": "11/29 03:14"
+  },
+  {
+    "category": "US",
+    "tag": "🇺🇸 미국증시",
+    "press": "Finviz Market",
+    "title": "Feds shut down $6B bank in largest financial shuttering in 3 years",
+    "sub_title": "",
+    "link": "https://foxbusiness.com/economy/feds-shut-down-6b-bank-largest-financial-shuttering-3-years",
+    "impact": "📰 일반",
+    "time": "11/29 03:14"
+  },
+  {
+    "category": "KR",
+    "tag": "🇰🇷 국내증시",
     "press": "MBC 뉴스",
     "title": "이해욱 DL그룹 회장, 직원 수백 명 한밤 호출 '물의'",
     "sub_title": "",
@@ -2948,55 +2998,5 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-27/treasuries-retreat-as-gains-in-equities-sap-demand-for-havens",
     "impact": "📰 일반",
     "time": "11/27 14:58"
-  },
-  {
-    "category": "US",
-    "tag": "🇺🇸 미국증시",
-    "press": "Finviz Market",
-    "title": "IMF는 호주의 3조 1천억 달러 연금에 새로운 위험이 있다고 보고 있습니다.",
-    "sub_title": "IMF Sees Emerging Risks in Australia’s $3.1 Trillion of Pensions",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-27/imf-sees-emerging-risks-in-australia-s-3-1-trillion-of-pensions",
-    "impact": "📰 일반",
-    "time": "11/27 14:58"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 한수원",
-    "press": "데일리대구경북뉴스",
-    "title": "한수원, 체코 원전사업 이행 가속... 현지 협력 행보 강화",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBOZ0VkY1czUlhGcXpqQ0YyVmdrQVNrYlNPa0ZWY25Cakc1cG1uSEdpY0ZrUTQ4clNnMGJFbVRuak5aR0w2eTZyVGRFTDZfd2FVUnlYcUgyU01NZ2l2dW9Ub2ducHVEdw?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 13:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "한국무역협회-KITA.NET",
-    "title": "패트로달러 아닌 칩달러…반도체, 세계수출서 원유 넘어섰다",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY3pPRENwZGVQbHp4RDFUVTIxX2V6dGFKY0hsOXA0NDdqRXU4NUI4X2p4eFg4cXFycTFQZFluUjVHS09vdmZHYXRSUC05emhxbzB1ajZxNnlLU2F0YklHdWtRRGpvaVFIS25oUVFiblJoS3B4dGVYbE43MlBzQU0xakJnTjFBVHNwelRWUzNyVDhsYXhNT3NBR2xUSkZrUUZwdk1oU0c5T29xczJJUFJOS0J5VFI4UVFfRTJ5UjdUdS00TVFSU0Iwd2QxSnhDTmxDVDJjdzVB?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 13:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 국내증시",
-    "press": "MBC 뉴스",
-    "title": "올해 개인정보 유출 작년 2배‥10월까지 1천 건 넘어",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5zRWpORTdOWFpIUE5lOHVYRjcwY1Y5NUtwVTVmV185TUptMFpRcDdkWThDZHlILTF4UUNpUkJDcTVYbjNtNUM3N0QxYmozaGFKakItbWpNYTJDNmVuZE42MnJvbTZCVkZCTTduYWxPZ295b3gy0gF0QVVfeXFMTmFUdHhJdWVRTjYxQ2JTaFBhRlkzODJ6TGE1TjBlcmlDb01sVGZQU3hKV3Baa2gxQV92UjR2UGtkWnlEY0w5REI4MUMyM0diN0tZc2xvVnE0bFN3bEU2QUpuaTdad2ZUblJ4RjZVdVUxQVhTME0?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 13:47"
-  },
-  {
-    "category": "KR",
-    "tag": "🇰🇷 청와대",
-    "press": "KBS 뉴스",
-    "title": "청와대, ‘호남 반도체’ 트집 미 관세 압박에 “예의주시, 대응책 만들고 있어”",
-    "sub_title": "",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA2THhpTGp5d1BINHR4dF9nUFhZYV9aR0Z1SzRxdDhRajNuTDh6RTh6RUg1LTFzSHZQWTdkS2dydXBWbUJscGtJY1Z3T1BuNmNBMkg4MXd5R1BHZ00?oc=5",
-    "impact": "📰 일반",
-    "time": "11/27 13:47"
   }
 ]
